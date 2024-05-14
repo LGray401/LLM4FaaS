@@ -66,12 +66,12 @@ class HumiditySensor(Sensor):
         return round(random.uniform(0, 100), 2)
 
 
-class UVSensor(Sensor):
+class LightIntensiveSensor(Sensor):
     def __init__(self, room_name):
-        super().__init__("UV", room_name)
+        super().__init__("LightIntensive", room_name)
 
     def _generate_reading(self):
-        return round(random.uniform(0, 1000), 2)
+        return round(random.uniform(900, 1000), 2)
 
 
 class SmokeSensor(Sensor):
@@ -89,3 +89,10 @@ class SmokeSensor(Sensor):
 #             for i in range(1, count + 1):
 #                 sensor_id = f"{sensor_type}_{room_name}_{i}"
 #                 print(f"- {sensor_id}")
+
+
+if __name__ == "__main__":
+    uv_sensor = LightIntensiveSensor("test room")
+    print(uv_sensor.get_reading())
+    uv_sensor.turn_on()
+    print(uv_sensor.get_reading())

@@ -1,4 +1,7 @@
 import random
+import time
+
+DAILY_ROUTINE_DURATION = 10
 
 
 class Actuator:
@@ -19,14 +22,14 @@ class Actuator:
 
     def turn_on(self):
         self.status = "on"
-        print(f"{self.actuator_type} sensor '{self.id}' in {self.room_name} is now ON.")
+        print(f"{self.actuator_type} actuator '{self.id}' in {self.room_name} is now ON.")
 
     def turn_off(self):
         self.status = "off"
-        print(f"{self.actuator_type} sensor in {self.room_name} is now OFF.")
+        print(f"{self.actuator_type} actuator in {self.room_name} is now OFF.")
 
     def get_status(self):
-        print(f"{self.actuator_type} sensor in {self.room_name} current status is {self.status}")
+        print(f"{self.actuator_type} actuator in {self.room_name} current status is {self.status}")
         return self.status
 
 
@@ -58,10 +61,19 @@ class AC(Actuator):
         super().__init__("AC", room_name)
 
 
+class CoffeeMachine(Actuator):
+    def __init__(self, room_name):
+        super().__init__("Coffee", room_name)
+
+
 # todo: the window can be [on, off, inclined]
 class Window(Actuator):
     def __init__(self, room_name):
         super().__init__("Window", room_name)
+
+class Door(Actuator):
+    def __init__(self, room_name):
+        super().__init__("Door", room_name)
 
 
 class Curtain(Actuator):
@@ -69,15 +81,25 @@ class Curtain(Actuator):
         super().__init__("Curtain", room_name)
 
 
+class CleaningRobot(Actuator):
+    def __init__(self, room_name):
+        super().__init__("CleaningRobot", room_name)
+    def daily_routine(self):
+        self.turn_on()
+        print(f"Robot in {self.room_name} Starts Daily Cleaning Routine")
+        time.sleep(DAILY_ROUTINE_DURATION)
+        self.turn_off()
+
+
 class NotificationSender(Actuator):
     def __init__(self, room_name):
         super().__init__("NotificationSender", room_name)
 
-    def notification_sender(self, message, room_name):
+    def notification_sender(self, message):
         if self.status == "on":
-            print(f"Notification Sender in {room_name} send message: {message}")
-        if self.status == "off":
-            print(f"Notification Sender in the {room_name} is OFF, please turn it on then send the message again.")
+            print(f"Notification Sender in {self.room_name} send message: {message}")
+        elif self.status == "off":
+            print(f"Notification Sender in the {self.room_name} is OFF, please turn it on then send the message again.")
         else:
             print("There is some error with the Notification Sender")
 
@@ -86,11 +108,13 @@ class MusicPlayer(Actuator):
     def __init__(self, room_name):
         super().__init__("MusicPlayer", room_name)
 
-    def music_player(self, playlist, room_name):
+    def music_player(self, playlist):
         if self.status == "on":
-            print(f"Start playing {playlist} list on the {room_name} Player")
+            print(f"Start playing {playlist} list on the {self.room_name} Player")
         if self.status == "off":
-            print(f"Music Player in {room_name} is OFF, please turn it on and try again.")
+            print(f"Music Player in {self.room_name} is OFF now")
+            self.turn_on()
+            print(f"Turn it on and Start playing {playlist} list")
         else:
             print("There is some error.")
 
@@ -108,11 +132,11 @@ class Light(Actuator):
         }
         self.brightness_level = 0
 
-    def set_brightness_level(self, level_name, room_name):
+    def set_brightness_level(self, level_name):
         if level_name in self.brightness_levels:
             if self.status == "on":
                 self.brightness_level = self.brightness_levels[level_name]
-                print(f"Set the {room_name} light brightness level to {level_name}")
+                print(f"Set the {self.room_name} light brightness level to {level_name.upper()}")
             elif self.status == "off":
                 print("Light is OFF. Please turn it on before setting the brightness level.")
             else:
@@ -144,27 +168,23 @@ class SmartDoorLock(Actuator):
     def __init__(self, room_name):
         super().__init__("SmartLock", room_name)
 
-    def lock_all(self):
-        print("Locking all doors and windows")
-        # Add code to lock all doors and windows
-
 
 class SmartTV(Actuator):
     def __init__(self, room_name):
-        super().__init__("SmartLock", room_name)
-
-    def lock_all(self):
-        print("Locking all doors and windows")
-        # Add code to lock all doors and windows
+        super().__init__("SmartTV", room_name)
 
 
 class SmartSocket(Actuator):
     def __init__(self, room_name):
         super().__init__("SmartSocket", room_name)
-
-    def turn_off_except(self, exceptions=None):
-        if exceptions is None:
-            exceptions = []
-        print(f"Turning off all sockets except {exceptions}")
+    #
+    # def turn_off_except(self, exceptions=None):
+    #     if exceptions is None:
+    #         exceptions = []
+    #     print(f"Turning off all sockets except {exceptions}")
         # Add code to turn off sockets except for specified exceptions
 
+if __name__ == '__main__':
+  ns = NotificationSender("LivingRoom")
+  ns.turn_on()
+  ns.notification_sender("test test test")

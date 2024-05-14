@@ -47,7 +47,7 @@ class OutdoorTemperatureSensor(Sensor):
         super().__init__("OutdoorTemperature")
 
     def _generate_reading(self):
-        return round(random.uniform(10, 12), 2)
+        return round(random.uniform(25, 30), 2)
 
 
 class HumiditySensor(Sensor):
@@ -58,9 +58,9 @@ class HumiditySensor(Sensor):
         return round(random.uniform(0, 100), 2)
 
 
-class UVSensor(Sensor):
+class LightIntensiveSensor(Sensor):
     def __init__(self):
-        super().__init__("UV")
+        super().__init__("LightIntensive")
 
     def _generate_reading(self):
         return round(random.uniform(0, 1000), 2)
@@ -82,7 +82,7 @@ class SmokeSensor(Sensor):
 
 # Testing the Sensor classes
 if __name__ == "__main__":
-    sensors = [IndoorTemperatureSensor(), OutdoorTemperatureSensor(), HumiditySensor(), UVSensor()]
+    sensors = [IndoorTemperatureSensor(), OutdoorTemperatureSensor(), HumiditySensor(), LightIntensiveSensor()]
 
     for sensor in sensors:
         sensor.get_status()
@@ -104,6 +104,6 @@ if __name__ == "__main__":
         sensor.get_reading()
 
     # Special functionality for UVSensor
-    uv_sensor = UVSensor()
+    uv_sensor = LightIntensiveSensor()
     uv_sensor.turn_on()
     uv_sensor.is_light_too_bright()

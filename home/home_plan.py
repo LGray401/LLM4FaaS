@@ -1,5 +1,6 @@
-from home.sensor import IndoorTemperatureSensor, HumiditySensor, UVSensor, SmokeSensor, OutdoorTemperatureSensor
-from home.actuator import Light, Window, Curtain, MusicPlayer, Heater, AC
+from home.sensor import IndoorTemperatureSensor, HumiditySensor, LightIntensiveSensor, SmokeSensor, OutdoorTemperatureSensor
+from home.actuator import NotificationSender, Light, Window, Curtain, MusicPlayer, Heater, AC, CoffeeMachine, SmartSocket, Door, \
+    CleaningRobot, SmartTV
 
 
 class Room:
@@ -32,22 +33,22 @@ def create_room_with_components(name, sensor_types, actuator_types):
         room.add_actuator(actuator_type(name))
     return room
 
+# todo: change outdoor->balcony accordingly
+#    add maindoor somewhere
+#    add outdoor option for Humidity Sensor as well?
 
 def home_plan():
     # print("Starting Home Plan Now")
     # Define rooms and their components
     rooms = [
-        create_room_with_components("LivingRoom", [UVSensor, UVSensor, IndoorTemperatureSensor, IndoorTemperatureSensor,
-                                                   HumiditySensor],
-                                    [Light, Window, Window, Curtain, MusicPlayer]),
-        create_room_with_components("Bedroom", [IndoorTemperatureSensor, HumiditySensor],
-                                    [Light, Light, Window, Curtain, AC, Heater]),
+        create_room_with_components("LivingRoom", [LightIntensiveSensor, IndoorTemperatureSensor, HumiditySensor],[Light, Window, Window, Curtain, MusicPlayer, SmartSocket, SmartSocket, CleaningRobot, SmartTV, NotificationSender, AC, Heater]),
+        create_room_with_components("Bedroom",[IndoorTemperatureSensor, HumiditySensor, LightIntensiveSensor],[Light, Window, Curtain, AC, Heater, MusicPlayer, Door, SmartSocket, SmartSocket, CleaningRobot]),
         create_room_with_components("Kitchen", [HumiditySensor, SmokeSensor],
-                                    [Light, Window, Heater, Heater]),
+                                    [Light, Window, Heater, CoffeeMachine, SmartSocket, SmartSocket, SmartSocket, Door]),
         create_room_with_components("Bathroom", [IndoorTemperatureSensor, HumiditySensor],
-                                    [Light, Window, Heater]),
-        create_room_with_components("Outdoor", [OutdoorTemperatureSensor, HumiditySensor],
-                                    [])
+                                    [Light, Window, Heater, Door, SmartSocket, SmartSocket]),
+        create_room_with_components("Balcony", [OutdoorTemperatureSensor, HumiditySensor],
+                                    [Door])
     ]
 
     # Print Home plan
@@ -61,12 +62,24 @@ def home_plan():
 # home_plan()
 
 def print_home_plan(home):
+    print(f"\n---Home Plan---")
     for room in home:
         room.print_info()
 
 
+def get_room(home, room_name):
+    for room in home:
+        if room.name == room_name:
+            print(f"We find {room_name}!")
+            return room
+
+    print(f"there is no room called {room_name} at home")
+    return None
+
+
 def get_room_sensors(home, room_name):
     for room in home:
+        # if room.name.lower() == room_name.lower():
         if room.name == room_name:
             # room.print_info()
             return room.sensors
@@ -86,14 +99,32 @@ def get_room_actuators(home, room_name):
     return None
 
 
-def get_room(home, room_name):
+def get_all_sensors(home, sensor_type):
+    all_sensors = []
     for room in home:
-        if room.name == room_name:
-            print(f"We find {room_name}!")
-            return room
+        for sensor in room.sensors:
+            if sensor.sensor_type == sensor_type:
+                # print(sensor.id)
+                all_sensors.append(sensor)
 
-    print(f"there is no room called {room_name} at home")
-    return None
+    return all_sensors
 
 
-# get_room(home_plan(), "outdoor")
+def get_all_actuators(home, actuator_type):
+    all_actuators = []
+    for room in home:
+        for actuator in room.actuators:
+            if actuator.actuator_type == actuator_type:
+                all_actuators.append(actuator)
+
+    # print(all_actuators)
+    return all_actuators
+
+
+
+
+if __name__ == "__main__":
+    # get_room(home_plan(), "outdoor")
+    home = home_plan()
+    get_all_sensors(home, "IndoorTemperature")
+    get_all_actuators(home, "Light")
