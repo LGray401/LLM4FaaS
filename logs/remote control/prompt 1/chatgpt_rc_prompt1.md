@@ -2,6 +2,7 @@
 1. Hi~ I would like to get a function code from you based on my current project setup. I will first provide you the necessary code files and then describe the function I need to you. The project is based on smart home scenario.
 2. I will give you three python files: sensor.py, actuator.py and home-plan.py, which shows the distribution of sensors and actuators at home 
 3. provide 3 python files
+4. here is the function description:
 
 
 
