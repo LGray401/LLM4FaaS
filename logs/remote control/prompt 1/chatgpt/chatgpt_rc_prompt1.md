@@ -11,10 +11,10 @@
 
 <!-- result -->
 1. chatgpt only gives function sketch.
-2. chatgpt does not give all additional function impl
-3. chatgpt gives an example of set_brightness for light
-4. cannot control sensors.<- we only require 'device(s)' in the prompt
-5. have sample main function
+2. chatgpt does not give all additional function impl ❎ 
+3. chatgpt gives an example of set_brightness for light ✅
+4. cannot control sensors.<- we only require 'device(s)' in the prompt ❎
+5. have sample main function ✅
 
 <!-- add requirements -->
 3. the three provided python files are in the 'home' folder and the required function should be in the 'functions' folder. Can you provide an improved version code for me?

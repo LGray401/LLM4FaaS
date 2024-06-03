@@ -57,7 +57,7 @@ if __name__ == '__main__':
     home = home_plan()  # This call retrieves the room and component information
 
     # # Turn on the light in the kitchen
-    # result = control_device(home, "Kitchen", "Light")
+    result = control_device(home, "Kitchen", "Light")
     # print(result)
     # control_device(home, "LivingRoom", "Heater")
     # result = control_device(home, "LivingRoom", "Heater")
@@ -67,6 +67,5 @@ if __name__ == '__main__':
     # print(result)
     # result = control_device(home, "Kitchen", "CoffeeMachine")
     # print(result)  #
-
-    result = control_device(home, "Bedroom", "Light", "set_brightness_level", "low")
+    # result = control_device(home, "Bedroom", "Light", "set_brightness_level", "low")
     print(result)

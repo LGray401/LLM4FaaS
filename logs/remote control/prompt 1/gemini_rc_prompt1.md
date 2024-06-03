@@ -21,11 +21,13 @@ The function currently supports on/off control for some device types. You can ex
 Let me know if you have any questions or if you'd like to modify this function further!
 ```
 2. can compile ✅
+3. it turns on some actuators before using 
 3. ask for examples -> give more than what I asked for
 4. need import 'home_plan()'
-5. the turn on/off control is switching on/off states.✅
-6. use the 'set brightness' example:
-   -> Light in Bedroom doesn't support brightness control. but it supports ❎
-7. change to 'set_brightness_level' 'low', it works but, need to turn on the light first. ✅❎
+5. the turn on/off control is switching on/off states.✅ 
+6. try 'set_brightness_level' 'low', need to turn on the light first. ❎
+    - the function wrongly prints "Light set_brightness_level in Bedroom set to low" which doesn't
+    - if we turn on the light, then set brightness level works
+
 7. try coffee machine:❎
-   - There are no CoffeeMachine devices in Kitchen. but we have
+   - cannot use turn_on function in 'feature' argument

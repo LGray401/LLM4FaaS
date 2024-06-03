@@ -56,7 +56,7 @@ def morning_plan():
             print("To dark in the Bedroom")
             actor.turn_on()
         elif isinstance(actor, MusicPlayer):
-            actor.music_player('Daily News')
+            actor.play_music('Daily News')
 
     # Kitchen Actuator: coffee machine
     for actor in kitchen_actuators:
@@ -80,7 +80,7 @@ def night_plan():
             bedroom_light.set_brightness_level("low")
         elif isinstance(actor, MusicPlayer):
             bedroom_player = actor
-            bedroom_player.music_player('Bed Time Music')
+            bedroom_player.play_music('Bed Time Music')
 
     time.sleep(3)
     print(f"\n----------After 3 seconds----------")

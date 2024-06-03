@@ -41,7 +41,7 @@ def home_plan():
     # print("Starting Home Plan Now")
     # Define rooms and their components
     rooms = [
-        create_room_with_components("LivingRoom", [LightIntensiveSensor, IndoorTemperatureSensor, HumiditySensor],[Light, Window, Window, Curtain, MusicPlayer, SmartSocket, SmartSocket, CleaningRobot, SmartTV, NotificationSender, AC, Heater]),
+        create_room_with_components("LivingRoom", [LightIntensiveSensor, IndoorTemperatureSensor, HumiditySensor],[Door, Light, Window, Window, Curtain, MusicPlayer, SmartSocket, SmartSocket, CleaningRobot, SmartTV, NotificationSender, AC, Heater]),
         create_room_with_components("Bedroom",[IndoorTemperatureSensor, HumiditySensor, LightIntensiveSensor],[Light, Window, Curtain, AC, Heater, MusicPlayer, Door, SmartSocket, SmartSocket, CleaningRobot]),
         create_room_with_components("Kitchen", [HumiditySensor, SmokeSensor],
                                     [Light, Window, Heater, CoffeeMachine, SmartSocket, SmartSocket, SmartSocket, Door]),

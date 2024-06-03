@@ -28,7 +28,7 @@ def morning_routine(home):
 
         # Play daily news
         music_player_actuator = [actuator for actuator in living_room_actuators if actuator.actuator_type == "MusicPlayer"][0]
-        music_player_actuator.music_player("daily news")
+        music_player_actuator.play_music("daily news")
 
         # Make a cup of coffee
         coffee_machine_actuator = [actuator for actuator in living_room_actuators if actuator.actuator_type == "Coffee"][0]
@@ -51,7 +51,7 @@ def evening_routine(home):
 
         # Play bedtime music
         music_player_actuator = [actuator for actuator in bedroom_actuators if actuator.actuator_type == "MusicPlayer"][0]
-        music_player_actuator.music_player("bedtime music")
+        music_player_actuator.play_music("bedtime music")
 
         # Turn the light to medium level
         light_actuator = [actuator for actuator in bedroom_actuators if actuator.actuator_type == "Light"][0]

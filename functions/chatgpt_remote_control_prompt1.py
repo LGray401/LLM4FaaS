@@ -58,11 +58,12 @@ if __name__ == "__main__":
     home = home_plan()
 
     # Control a device (e.g., turn on the light in the living room)
-    result1 = control_device(home, "LivingRoom", "Light", "turn_on")
-    result = control_device(home, "LivingRoom", "Light", "set_brightness", brightness_level="high")
+    # result1 = control_device(home, "LivingRoom", "Light", "turn_on")
+    # result = control_device(home, "LivingRoom", "Light", "set_brightness", brightness_level="high")
 
+    control_device(home, "Kitchen", "CoffeeMachine", "turn_on")
     # result = control_device(home, "Bedroom", "Light", "set_brightness", brightness_level="medium")
-    print(result1, result)
+    # print(result1, result)
 
 
 # version 1-- without specifying the folder structure
