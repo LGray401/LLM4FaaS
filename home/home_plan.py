@@ -1,6 +1,9 @@
-from home.sensor import IndoorTemperatureSensor, HumiditySensor, LightIntensiveSensor, SmokeSensor, OutdoorTemperatureSensor
-from home.actuator import NotificationSender, Light, Window, Curtain, MusicPlayer, Heater, AC, CoffeeMachine, SmartSocket, Door, \
-    CleaningRobot, SmartTV
+from home.sensor import IndoorTemperatureSensor, HumiditySensor, LightIntensiveSensor, SmokeSensor, \
+    OutdoorTemperatureSensor
+from home.actuator import NotificationSender, Light, Window, Curtain, MusicPlayer, Heater, AC, CoffeeMachine, \
+    SmartSocket, Door, \
+    CleaningRobot, SmartTV, Humidifier
+from home.logger_config import logger
 
 
 class Room:
@@ -33,18 +36,20 @@ def create_room_with_components(name, sensor_types, actuator_types):
         room.add_actuator(actuator_type(name))
     return room
 
-# todo: change outdoor->balcony accordingly
-#    add maindoor somewhere
-#    add outdoor option for Humidity Sensor as well?
 
 def home_plan():
     # print("Starting Home Plan Now")
     # Define rooms and their components
     rooms = [
-        create_room_with_components("LivingRoom", [LightIntensiveSensor, IndoorTemperatureSensor, HumiditySensor],[Door, Light, Window, Window, Curtain, MusicPlayer, SmartSocket, SmartSocket, CleaningRobot, SmartTV, NotificationSender, AC, Heater]),
-        create_room_with_components("Bedroom",[IndoorTemperatureSensor, HumiditySensor, LightIntensiveSensor],[Light, Window, Curtain, AC, Heater, MusicPlayer, Door, SmartSocket, SmartSocket, CleaningRobot]),
+        create_room_with_components("LivingRoom", [LightIntensiveSensor, IndoorTemperatureSensor, HumiditySensor],
+                                    [Door, Light,Light, Window, Window, Curtain, MusicPlayer, SmartSocket, SmartSocket,
+                                     CleaningRobot, SmartTV, NotificationSender, AC, Heater, Humidifier]),
+        create_room_with_components("Bedroom", [IndoorTemperatureSensor, HumiditySensor, LightIntensiveSensor],
+                                    [Light, Light, Window, Curtain, AC, Heater, MusicPlayer, Door, SmartSocket,
+                                     SmartSocket, CleaningRobot, Humidifier]),
         create_room_with_components("Kitchen", [HumiditySensor, SmokeSensor],
-                                    [Light, Window, Heater, CoffeeMachine, SmartSocket, SmartSocket, SmartSocket, Door]),
+                                    [Light, Window, Heater, CoffeeMachine, SmartSocket, SmartSocket, SmartSocket,
+                                     Door]),
         create_room_with_components("Bathroom", [IndoorTemperatureSensor, HumiditySensor],
                                     [Light, Window, Heater, Door, SmartSocket, SmartSocket]),
         create_room_with_components("Balcony", [OutdoorTemperatureSensor, HumiditySensor],
@@ -71,9 +76,11 @@ def get_room(home, room_name):
     for room in home:
         if room.name == room_name:
             print(f"We find {room_name}!")
+            logger.info(f"We find {room_name}!")
             return room
 
     print(f"there is no room called {room_name} at home")
+    logger.warning(f"there is no room called {room_name} at home")
     return None
 
 
@@ -85,10 +92,10 @@ def get_room_sensors(home, room_name):
             return room.sensors
 
     print(f"there is no Sensor found in {room_name}")
+    logger.warning(f"there is no Sensor found in {room_name}")
     return None  # no room_name room
 
 
-# todo: for outdoor, the 'room' exists, but no actuator there.
 def get_room_actuators(home, room_name):
     for room in home:
         if room.name == room_name:
@@ -96,6 +103,7 @@ def get_room_actuators(home, room_name):
             return room.actuators
 
     print(f"there is no Actuator found in {room_name}")
+    logger.warning(f"there is no Actuator found in {room_name}")
     return None
 
 
@@ -121,10 +129,8 @@ def get_all_actuators(home, actuator_type):
     return all_actuators
 
 
-
-
 if __name__ == "__main__":
     # get_room(home_plan(), "outdoor")
     home = home_plan()
-    get_all_sensors(home, "IndoorTemperature")
+    # get_all_sensors(home, "IndoorTemperature")
     get_all_actuators(home, "Light")
