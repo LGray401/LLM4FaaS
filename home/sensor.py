@@ -82,7 +82,7 @@ class LightIntensiveSensor(Sensor):
         super().__init__("LightIntensive", room_name)
 
     def _generate_reading(self):
-        return round(random.uniform(900, 1000), 2)
+        return round(random.uniform(900, 1200), 2)
 
 
 class SmokeSensor(Sensor):

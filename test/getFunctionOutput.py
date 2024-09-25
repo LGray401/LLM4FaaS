@@ -5,12 +5,12 @@ TIMEOUT = 30
 
 # folder path where the generated function files are stored
 
-# folder_path = '/Users/minghe/llm4faas/generated_functions/gpt4o_functions'
-# folder_path = '/Users/minghe/llm4faas/generated_functions/azure_openai_gpt3516k_functions'
-# folder_path = '/Users/minghe/llm4faas/generated_functions/gemini_functions'
-# folder_path = '/Users/minghe/llm4faas/generated_functions/llama31_functions'
-# folder_path = '/Users/minghe/llm4faas/generated_functions/copilot_functions/autoadapt'
-# folder_path = '/Users/minghe/llm4faas/generated_functions/4o-mini_functions'
+# folder_path = '/Users/minghe/llm4faas/functions_zh/gpt4o_functions'
+# folder_path = '/Users/minghe/llm4faas/functions_zh/azure_openai_gpt3516k_functions'
+# folder_path = '/Users/minghe/llm4faas/functions_zh/gemini_functions'
+# folder_path = '/Users/minghe/llm4faas/functions_zh/llama31_functions'
+# folder_path = '/Users/minghe/llm4faas/functions_zh/copilot_functions/autoadapt'
+# folder_path = '/Users/minghe/llm4faas/functions_zh/4o-mini_functions'
 
 # folder_path = '/Users/minghe/llm4faas/functions_en/4o-mini_en_functoins'
 # folder_path = '/Users/minghe/llm4faas/functions_en/azure_en_functions'
@@ -23,9 +23,11 @@ TIMEOUT = 30
 
 # folder_path = '/Users/minghe/llm4faas/system_prompts_experiments/zh_functions/gpt4o-mini'
 
-# folder_path = '/Users/minghe/llm4faas/default_experiments/generated_functions/4o-mini_functions/'
-folder_path = '/Users/minghe/llm4faas/default_experiments/functions_en/gpt-4o_en_functions/energy/'
+# folder_path = '/Users/minghe/llm4faas/default_experiments/functions_zh/4o-mini_functions/'
+# folder_path = '/Users/minghe/llm4faas/default_experiments/functions_en/gpt-4o_en_functions/energy/'
 
+# folder_path = '/Users/minghe/llm4faas/functions_repeat/gemini_repeat_functions'
+folder_path = '/Users/minghe/llm4faas/default_experiments/functions_repeat_zh/gpt4o/'
 
 # Iterate through all generated function files in the folder
 for filename in os.listdir(folder_path):

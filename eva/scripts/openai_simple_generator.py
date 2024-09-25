@@ -17,7 +17,7 @@ model = OPENAI_MODEL
 # md_file = '/Users/minghe/llm4faas/logs_questionnaire_in_Chinese/remote_control/remote_control_1.md'
 
 # default experiment -- Chinese prompts
-# MD_FILES_DIR = '/Users/minghe/llm4faas/logs_questionnaire_in_Chinese/remote_control/'
+# MD_FILES_DIR = '/Users/minghe/llm4faas/default_experiments/logs_questionnaire_in_Chinese/remote_control'
 # MD_FILES_DIR = "/Users/minghe/llm4faas/logs_questionnaire_in_Chinese/plans/"
 # MD_FILES_DIR = "/Users/minghe/llm4faas/logs_questionnaire_in_Chinese/auto_adapt/"
 # MD_FILES_DIR = "/Users/minghe/llm4faas/logs_questionnaire_in_Chinese/energy/"
@@ -27,7 +27,7 @@ model = OPENAI_MODEL
 # MD_FILES_DIR = '/Users/minghe/llm4faas/default_experiments/logs_questionnaire_in_English/plans/'
 # MD_FILES_DIR = '/Users/minghe/llm4faas/default_experiments/logs_questionnaire_in_English/auto_adapt/'
 # MD_FILES_DIR = '/Users/minghe/llm4faas/default_experiments/logs_questionnaire_in_English/energy/'
-MD_FILES_DIR = '/Users/minghe/llm4faas/default_experiments/logs_questionnaire_in_English/temp/'
+# MD_FILES_DIR = '/Users/minghe/llm4faas/default_experiments/logs_questionnaire_in_English/temp/'
 
 # system-prompt experiment -- Chinese prompts
 # MD_FILES_DIR = '/Users/minghe/llm4faas/system_prompts_experiments/user_prompt_zh_short/remote_control/'
@@ -43,14 +43,18 @@ MD_FILES_DIR = '/Users/minghe/llm4faas/default_experiments/logs_questionnaire_in
 
 # output dir -- default experiment
 # OUTPUT_DIR = '../../default_experiments/functions_en/gpt-4o_en_functions/energy/'
-# OUTPUT_DIR = '../../generated_functions/'
-
-OUTPUT_DIR = '.'
+# OUTPUT_DIR = '../../functions_zh/'
 
 
 # output dir -- system-prompt experiment
 # OUTPUT_DIR = '../../system_prompts_experiments/zh_functions/gpt4o-mini/'
 # OUTPUT_DIR = '../../system_prompts_experiments/en_functions/gpt4o-mini/'
+
+
+# repeat experiments
+MD_FILES_DIR = '/Users/minghe/llm4faas/default_experiments/logs_repeat_Chinese/'
+OUTPUT_DIR = '../../functions_repeat/'
+
 
 def read_markdown(file_path):
     with open(file_path, 'r', encoding='utf-8') as file:
@@ -90,37 +94,30 @@ def save_python_code(code, output_path):
     with open(output_path, 'w', encoding='utf-8') as file:
         file.write(code)
 
+def generate_files_from_directory(prompt_dir, output_dir):
+# def main():
+    os.makedirs(output_dir, exist_ok=True)
 
-def main():
-    os.makedirs(OUTPUT_DIR, exist_ok=True)
-
-    for filename in os.listdir(MD_FILES_DIR):
+    for filename in os.listdir(prompt_dir):
         if filename.endswith('.md'):
-            md_file_path = os.path.join(MD_FILES_DIR, filename)
+            md_file_path = os.path.join(prompt_dir, filename)
             markdown_content = read_markdown(md_file_path)
             prompt = f"{markdown_content}"
             python_code = generate_python_code(prompt)
 
             base_name = os.path.basename(md_file_path).replace('.md', '')
-            output_file_name = os.path.join(OUTPUT_DIR, f'openai_{model}_{base_name}.py')
+            output_file_name = os.path.join(output_dir, f'openai_{model}_{base_name}_{time.time_ns()}.py')
 
             # save the generated python code to a file
             save_python_code(python_code, output_file_name)
             print(f"Saved Python file to {output_file_name}")
             time.sleep(DELAY_SECONDS)
 
+def repeatable_experiments(md_dir, output_dir, repeat_times):
+    for i in range(repeat_times):
+        print(f"Start {i+1} Iteration")
+        generate_files_from_directory(md_dir, output_dir)
+        print(f"Finished {i + 1} round iteration.\n")
 
-    # markdown_content = read_markdown(md_file)
-    # prompt = f"{markdown_content}"
-    # python_code = generate_python_code(prompt)
-    #
-    # base_name = os.path.basename(md_file).replace('.md', '')
-    # output_file_name = f'../../functions/test{model}_{base_name}.py'
-    #
-    # # Save the Python code to the constructed file name
-    # save_python_code(python_code, output_file_name)
-    # print(f"Saved Python file to {output_file_name}")
-
-
-if __name__ == "__main__":
-    main()
+if __name__ == '__main__':
+    repeatable_experiments(MD_FILES_DIR, OUTPUT_DIR, 10)

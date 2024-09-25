@@ -14,9 +14,9 @@ DELAY_SECONDS = 10
 TEMPERATURE = 0.7
 MAX_TOKENS = 1500
 
-
+# OPENAI_MODEL = 'o1-mini'
 OPENAI_MODEL = 'gpt-4o-mini'
-# OPENAI_MODEL = "gpt-4o"
+# OPENAI_MODEL = 'gpt-4o'
 # OPENAI_MODEL = "gpt-3.5-turbo"
 
 
