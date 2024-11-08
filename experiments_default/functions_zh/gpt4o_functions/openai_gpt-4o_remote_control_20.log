@@ -1,0 +1,14 @@
+Standard Output:
+
+Standard Error:
+Traceback (most recent call last):
+  File "/Users/minghe/llm4faas/experiments_default/functions_zh/gpt4o_functions/openai_gpt-4o_remote_control_20.py", line 35, in <module>
+    main()
+  File "/Users/minghe/llm4faas/experiments_default/functions_zh/gpt4o_functions/openai_gpt-4o_remote_control_20.py", line 29, in main
+    turn_on_ac_before_arrival(home, 'LivingRoom', 10)
+  File "/Users/minghe/llm4faas/experiments_default/functions_zh/gpt4o_functions/openai_gpt-4o_remote_control_20.py", line 11, in turn_on_ac_before_arrival
+    if isinstance(actuator, AC):
+                            ^^
+NameError: name 'AC' is not defined
+
+Return code: 1

@@ -1,0 +1,21 @@
+Standard Output:
+Executing Morning Plan...
+We find Bedroom!
+We find Kitchen!
+Setting alarm for 7:00 AM...
+
+Standard Error:
+Traceback (most recent call last):
+  File "/Users/minghe/llm4faas/functions_repeat/openai_gpt-4o-mini_plan_21_1727184699604240000.py", line 74, in <module>
+    main()
+  File "/Users/minghe/llm4faas/functions_repeat/openai_gpt-4o-mini_plan_21_1727184699604240000.py", line 69, in main
+    morning_plan(home)
+  File "/Users/minghe/llm4faas/functions_repeat/openai_gpt-4o-mini_plan_21_1727184699604240000.py", line 21, in morning_plan
+    curtain = get_room_actuators(bedroom, "Curtain")[0]  # Assuming there's at least one curtain in the bedroom
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/minghe/llm4faas/home/home_plan.py", line 100, in get_room_actuators
+    for room in home:
+                ^^^^
+TypeError: 'Room' object is not iterable
+
+Return code: 1

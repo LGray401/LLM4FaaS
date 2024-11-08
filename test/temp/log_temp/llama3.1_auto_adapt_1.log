@@ -1,0 +1,10 @@
+Standard Output:
+
+Standard Error:
+Traceback (most recent call last):
+  File "/Users/minghe/llm4faas/experiments_default/functions_zh/llama31_functions/llama3.1_auto_adapt_1.py", line 45, in <module>
+    components = [Sensor1(), Sensor2()]
+                  ^^^^^^^
+NameError: name 'Sensor1' is not defined
+
+Return code: 1

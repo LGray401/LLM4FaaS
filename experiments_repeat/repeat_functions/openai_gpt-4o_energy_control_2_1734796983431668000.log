@@ -1,0 +1,28 @@
+Standard Output:
+'/Sensor/LightIntensive/LivingRoom/1' is now ON.
+/Sensor/LightIntensive/LivingRoom/1 reading is: 1029.88
+Light /Actuator/Light/LivingRoom/1 is OFF. Please turn it on before setting the brightness level.
+Light /Actuator/Light/LivingRoom/2 is OFF. Please turn it on before setting the brightness level.
+'/Sensor/IndoorTemperature/LivingRoom/1' is now ON.
+/Sensor/IndoorTemperature/LivingRoom/1 reading is: 37.8
+/Actuator/MusicPlayer/LivingRoom/1 is turned off.
+/Actuator/SmartTV/LivingRoom/1 is turned off.
+/Actuator/AC/LivingRoom/1 current status is off
+'/Sensor/IndoorTemperature/Bedroom/1' is now ON.
+/Sensor/IndoorTemperature/Bedroom/1 reading is: 34.26
+'/Sensor/LightIntensive/Bedroom/1' is now ON.
+/Sensor/LightIntensive/Bedroom/1 reading is: 1195.95
+Light /Actuator/Light/Bedroom/1 is OFF. Please turn it on before setting the brightness level.
+Light /Actuator/Light/Bedroom/2 is OFF. Please turn it on before setting the brightness level.
+/Actuator/AC/Bedroom/1 current status is off
+/Actuator/MusicPlayer/Bedroom/1 is turned off.
+'/Sensor/IndoorTemperature/Bathroom/1' is now ON.
+/Sensor/IndoorTemperature/Bathroom/1 reading is: 36.65
+
+Standard Error:
+2025-01-14 17:06:55,605 - actuator.py - set_brightness_level - WARNING - Light /Actuator/Light/LivingRoom/1 is OFF. Please turn it on before setting the brightness level.
+2025-01-14 17:06:55,605 - actuator.py - set_brightness_level - WARNING - Light /Actuator/Light/LivingRoom/2 is OFF. Please turn it on before setting the brightness level.
+2025-01-14 17:06:55,606 - actuator.py - set_brightness_level - WARNING - Light /Actuator/Light/Bedroom/1 is OFF. Please turn it on before setting the brightness level.
+2025-01-14 17:06:55,606 - actuator.py - set_brightness_level - WARNING - Light /Actuator/Light/Bedroom/2 is OFF. Please turn it on before setting the brightness level.
+
+Return code: 0

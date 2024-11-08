@@ -1,0 +1,12 @@
+Standard Output:
+
+Standard Error:
+Traceback (most recent call last):
+  File "/Users/minghe/llm4faas/experiments_default/functions_en/llama31_en_functions/llama3.1_plan_26.py", line 35, in <module>
+    class SmartHome:
+  File "/Users/minghe/llm4faas/experiments_default/functions_en/llama31_en_functions/llama3.1_plan_26.py", line 39, in SmartHome
+    def add_room(self, room: Room):
+                             ^^^^
+NameError: name 'Room' is not defined
+
+Return code: 1

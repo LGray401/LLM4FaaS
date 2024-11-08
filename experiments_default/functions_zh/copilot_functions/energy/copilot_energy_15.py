@@ -1,0 +1,1 @@
+# Based on the provided source code and the functional description, it seems like you are working on a smart home project. However, the functional description is missing. Could you please provide the functional description for the 'function.py' file? This will help me generate the appropriate Python code for your 'function.py' file.

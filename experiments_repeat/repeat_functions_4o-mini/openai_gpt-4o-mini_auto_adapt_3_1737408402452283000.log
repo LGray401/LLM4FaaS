@@ -1,0 +1,17 @@
+Standard Output:
+
+Monitoring LivingRoom...
+
+Standard Error:
+Traceback (most recent call last):
+  File "/Users/minghe/llm4faas/experiments_repeat/repeat_functions_4o-mini/openai_gpt-4o-mini_auto_adapt_3_1737408402452283000.py", line 78, in <module>
+    main()
+  File "/Users/minghe/llm4faas/experiments_repeat/repeat_functions_4o-mini/openai_gpt-4o-mini_auto_adapt_3_1737408402452283000.py", line 30, in main
+    heater = next((actuator for actuator in room.actuators if isinstance(actuator, Heater)), None)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/minghe/llm4faas/experiments_repeat/repeat_functions_4o-mini/openai_gpt-4o-mini_auto_adapt_3_1737408402452283000.py", line 30, in <genexpr>
+    heater = next((actuator for actuator in room.actuators if isinstance(actuator, Heater)), None)
+                                                                                   ^^^^^^
+NameError: name 'Heater' is not defined
+
+Return code: 1

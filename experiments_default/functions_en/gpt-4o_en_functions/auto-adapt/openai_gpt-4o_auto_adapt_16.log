@@ -1,0 +1,89 @@
+Standard Output:
+
+Checking room: LivingRoom
+'/Sensor/LightIntensive/LivingRoom/1' is now ON.
+/Sensor/LightIntensive/LivingRoom/1 reading is: 1011.18
+/Sensor/LightIntensive/LivingRoom/1 is now OFF.
+/Actuator/Light/LivingRoom/1 is turned on.
+Set /Actuator/Light/LivingRoom/1 light brightness level to LOW
+/Actuator/Light/LivingRoom/1 is turned off.
+/Actuator/Light/LivingRoom/2 is turned on.
+Set /Actuator/Light/LivingRoom/2 light brightness level to LOW
+/Actuator/Light/LivingRoom/2 is turned off.
+'/Sensor/IndoorTemperature/LivingRoom/1' is now ON.
+/Sensor/IndoorTemperature/LivingRoom/1 reading is: 33.79
+/Sensor/IndoorTemperature/LivingRoom/1 is now OFF.
+/Actuator/AC/LivingRoom/1 is turned on.
+Set the target temperature of /Actuator/AC/LivingRoom/1 to 27°C.
+/Actuator/AC/LivingRoom/1 is turned on.
+/Actuator/AC/LivingRoom/1 is turned off.
+/Actuator/Heater/LivingRoom/1 is turned on.
+Set the target temperature of /Actuator/Heater/LivingRoom/1 to 27°C.
+/Actuator/Heater/LivingRoom/1 is turned off.
+/Actuator/Heater/LivingRoom/1 is turned off.
+'/Sensor/Humidity/LivingRoom/1' is now ON.
+/Sensor/Humidity/LivingRoom/1 reading is: 22.24
+/Sensor/Humidity/LivingRoom/1 is now OFF.
+/Actuator/Humidifier/LivingRoom/1 is turned on.
+/Actuator/Humidifier/LivingRoom/1 Increasing humidity in LivingRoom
+/Actuator/Humidifier/LivingRoom/1 is turned off.
+
+Checking room: Bedroom
+'/Sensor/IndoorTemperature/Bedroom/1' is now ON.
+/Sensor/IndoorTemperature/Bedroom/1 reading is: 32.29
+/Sensor/IndoorTemperature/Bedroom/1 is now OFF.
+/Actuator/AC/Bedroom/1 is turned on.
+Set the target temperature of /Actuator/AC/Bedroom/1 to 27°C.
+/Actuator/AC/Bedroom/1 is turned on.
+/Actuator/AC/Bedroom/1 is turned off.
+/Actuator/Heater/Bedroom/1 is turned on.
+Set the target temperature of /Actuator/Heater/Bedroom/1 to 27°C.
+/Actuator/Heater/Bedroom/1 is turned off.
+/Actuator/Heater/Bedroom/1 is turned off.
+'/Sensor/Humidity/Bedroom/1' is now ON.
+/Sensor/Humidity/Bedroom/1 reading is: 25.35
+/Sensor/Humidity/Bedroom/1 is now OFF.
+/Actuator/Humidifier/Bedroom/1 is turned on.
+/Actuator/Humidifier/Bedroom/1 Increasing humidity in Bedroom
+/Actuator/Humidifier/Bedroom/1 is turned off.
+'/Sensor/LightIntensive/Bedroom/1' is now ON.
+/Sensor/LightIntensive/Bedroom/1 reading is: 1146.48
+/Sensor/LightIntensive/Bedroom/1 is now OFF.
+/Actuator/Light/Bedroom/1 is turned on.
+Set /Actuator/Light/Bedroom/1 light brightness level to LOW
+/Actuator/Light/Bedroom/1 is turned off.
+/Actuator/Light/Bedroom/2 is turned on.
+Set /Actuator/Light/Bedroom/2 light brightness level to LOW
+/Actuator/Light/Bedroom/2 is turned off.
+
+Checking room: Kitchen
+'/Sensor/Humidity/Kitchen/1' is now ON.
+/Sensor/Humidity/Kitchen/1 reading is: 21.38
+/Sensor/Humidity/Kitchen/1 is now OFF.
+'/Sensor/Smoke/Kitchen/1' is now ON.
+/Sensor/Smoke/Kitchen/1 reading is: 30.84
+/Sensor/Smoke/Kitchen/1 is now OFF.
+
+Checking room: Bathroom
+'/Sensor/IndoorTemperature/Bathroom/1' is now ON.
+/Sensor/IndoorTemperature/Bathroom/1 reading is: 33.76
+/Sensor/IndoorTemperature/Bathroom/1 is now OFF.
+/Actuator/Heater/Bathroom/1 is turned on.
+Set the target temperature of /Actuator/Heater/Bathroom/1 to 27°C.
+/Actuator/Heater/Bathroom/1 is turned off.
+/Actuator/Heater/Bathroom/1 is turned off.
+'/Sensor/Humidity/Bathroom/1' is now ON.
+/Sensor/Humidity/Bathroom/1 reading is: 28.0
+/Sensor/Humidity/Bathroom/1 is now OFF.
+
+Checking room: Balcony
+'/Sensor/OutdoorTemperature/Balcony/1' is now ON.
+/Sensor/OutdoorTemperature/Balcony/1 reading is: 20.72
+/Sensor/OutdoorTemperature/Balcony/1 is now OFF.
+'/Sensor/Humidity/Balcony/1' is now ON.
+/Sensor/Humidity/Balcony/1 reading is: 19.44
+/Sensor/Humidity/Balcony/1 is now OFF.
+
+Standard Error:
+
+Return code: 0

@@ -1,0 +1,8 @@
+Standard Output:
+there is no room called living at home
+
+Standard Error:
+2025-01-14 17:00:27,863 - home_plan.py - get_room - WARNING - there is no room called living at home
+2025-01-14 17:00:27,863 - gemini_remote_control_14_1725290829957484000.py - main - ERROR - Room 'living' not found.
+
+Return code: 0

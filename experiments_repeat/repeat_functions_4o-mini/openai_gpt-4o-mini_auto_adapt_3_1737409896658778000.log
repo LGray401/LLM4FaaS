@@ -1,0 +1,53 @@
+Standard Output:
+
+Checking room: LivingRoom
+'/Sensor/IndoorTemperature/LivingRoom/1' is now ON.
+/Sensor/IndoorTemperature/LivingRoom/1 reading is: 37.3
+'/Sensor/Humidity/LivingRoom/1' is now ON.
+/Sensor/Humidity/LivingRoom/1 reading is: 16.18
+'/Sensor/LightIntensive/LivingRoom/1' is now ON.
+/Sensor/LightIntensive/LivingRoom/1 reading is: 1062.73
+/Actuator/Light/LivingRoom/1 is turned off.
+/Actuator/Light/LivingRoom/2 is turned off.
+/Actuator/Humidifier/LivingRoom/1 Increasing humidity in LivingRoom
+/Sensor/IndoorTemperature/LivingRoom/1 is now OFF.
+/Sensor/Humidity/LivingRoom/1 is now OFF.
+/Sensor/LightIntensive/LivingRoom/1 is now OFF.
+
+Checking room: Bedroom
+'/Sensor/IndoorTemperature/Bedroom/1' is now ON.
+/Sensor/IndoorTemperature/Bedroom/1 reading is: 39.36
+'/Sensor/Humidity/Bedroom/1' is now ON.
+/Sensor/Humidity/Bedroom/1 reading is: 23.61
+'/Sensor/LightIntensive/Bedroom/1' is now ON.
+/Sensor/LightIntensive/Bedroom/1 reading is: 906.47
+/Actuator/Light/Bedroom/1 is turned off.
+/Actuator/Light/Bedroom/2 is turned off.
+/Actuator/Humidifier/Bedroom/1 Increasing humidity in Bedroom
+/Sensor/IndoorTemperature/Bedroom/1 is now OFF.
+/Sensor/Humidity/Bedroom/1 is now OFF.
+/Sensor/LightIntensive/Bedroom/1 is now OFF.
+
+Checking room: Kitchen
+'/Sensor/Humidity/Kitchen/1' is now ON.
+/Sensor/Humidity/Kitchen/1 reading is: 25.42
+/Actuator/Light/Kitchen/1 is turned off.
+/Sensor/Humidity/Kitchen/1 is now OFF.
+
+Checking room: Bathroom
+'/Sensor/IndoorTemperature/Bathroom/1' is now ON.
+/Sensor/IndoorTemperature/Bathroom/1 reading is: 38.91
+'/Sensor/Humidity/Bathroom/1' is now ON.
+/Sensor/Humidity/Bathroom/1 reading is: 21.7
+/Actuator/Light/Bathroom/1 is turned off.
+/Sensor/IndoorTemperature/Bathroom/1 is now OFF.
+/Sensor/Humidity/Bathroom/1 is now OFF.
+
+Checking room: Balcony
+'/Sensor/Humidity/Balcony/1' is now ON.
+/Sensor/Humidity/Balcony/1 reading is: 14.67
+/Sensor/Humidity/Balcony/1 is now OFF.
+
+Standard Error:
+
+Return code: 0

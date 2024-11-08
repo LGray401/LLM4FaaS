@@ -1,0 +1,7 @@
+Error: Execution timed out
+Standard Output:
+/Actuator/AC/LivingRoom/1 is turned on.
+Set the target temperature of /Actuator/AC/LivingRoom/1 to 22°C.
+Air Conditioner turned on in Living Room
+
+Standard Error:

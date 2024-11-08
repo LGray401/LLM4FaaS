@@ -1,0 +1,38 @@
+Standard Output:
+'/Sensor/LightIntensive/LivingRoom/1' is now ON.
+'/Sensor/IndoorTemperature/LivingRoom/1' is now ON.
+'/Sensor/Humidity/LivingRoom/1' is now ON.
+/Actuator/Light/Bedroom/1 is turned off.
+/Actuator/Light/Bedroom/2 is turned off.
+/Actuator/Window/Bedroom/1 is turned off.
+/Actuator/Curtain/Bedroom/1 is turned off.
+/Actuator/AC/Bedroom/1 is turned off.
+/Actuator/Heater/Bedroom/1 is turned off.
+/Actuator/MusicPlayer/Bedroom/1 is turned off.
+/Actuator/Door/Bedroom/1 is turned off.
+/Actuator/SmartSocket/Bedroom/1 is turned off.
+/Actuator/SmartSocket/Bedroom/2 is turned off.
+/Actuator/CleaningRobot/Bedroom/1 is turned off.
+/Actuator/Humidifier/Bedroom/1 is turned off.
+/Sensor/IndoorTemperature/LivingRoom/1 reading is: 39.67
+/Sensor/IndoorTemperature/LivingRoom/1 reading: 39.67
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/Bedroom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/Bathroom/1 is Currently OFF. 
+/Actuator/Light/LivingRoom/1 current status is off
+/Actuator/Light/LivingRoom/1 status: off
+/Actuator/Light/LivingRoom/2 current status is off
+/Actuator/Light/LivingRoom/2 status: off
+/Actuator/Light/Bedroom/1 current status is off
+/Actuator/Light/Bedroom/1 status: off
+/Actuator/Light/Bedroom/2 current status is off
+/Actuator/Light/Bedroom/2 status: off
+/Actuator/Light/Kitchen/1 current status is off
+/Actuator/Light/Kitchen/1 status: off
+/Actuator/Light/Bathroom/1 current status is off
+/Actuator/Light/Bathroom/1 status: off
+
+Standard Error:
+2025-01-14 16:52:09,437 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/Bedroom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:52:09,437 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/Bathroom/1' is currently OFF. Cannot get reading.
+
+Return code: 0

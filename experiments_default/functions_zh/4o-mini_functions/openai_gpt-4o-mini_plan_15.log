@@ -1,0 +1,69 @@
+Standard Output:
+
+--- Morning Plan ---
+/Actuator/Light/LivingRoom/1 is turned on.
+Set /Actuator/Light/LivingRoom/1 light brightness level to MEDIUM
+/Actuator/Light/LivingRoom/2 is turned on.
+Set /Actuator/Light/LivingRoom/2 light brightness level to MEDIUM
+/Actuator/Light/Bedroom/1 is turned on.
+Set /Actuator/Light/Bedroom/1 light brightness level to MEDIUM
+/Actuator/Light/Bedroom/2 is turned on.
+Set /Actuator/Light/Bedroom/2 light brightness level to MEDIUM
+/Actuator/Light/Kitchen/1 is turned on.
+Set /Actuator/Light/Kitchen/1 light brightness level to MEDIUM
+/Actuator/Light/Bathroom/1 is turned on.
+Set /Actuator/Light/Bathroom/1 light brightness level to MEDIUM
+/Actuator/CoffeeMachine/Kitchen/1 is turned on.
+/Actuator/CoffeeMachine/Kitchen/1 Start making Espresso
+Set the target temperature of /Actuator/Heater/LivingRoom/1 to 22°C.
+/Actuator/Heater/LivingRoom/1 is turned on.
+Set the target temperature of /Actuator/Heater/Bedroom/1 to 22°C.
+/Actuator/Heater/Bedroom/1 is turned on.
+Set the target temperature of /Actuator/Heater/Kitchen/1 to 22°C.
+/Actuator/Heater/Kitchen/1 is turned on.
+Set the target temperature of /Actuator/Heater/Bathroom/1 to 22°C.
+/Actuator/Heater/Bathroom/1 is turned on.
+Set the target temperature of /Actuator/AC/LivingRoom/1 to 22°C.
+/Actuator/AC/LivingRoom/1 is turned on.
+Set the target temperature of /Actuator/AC/Bedroom/1 to 22°C.
+/Actuator/AC/Bedroom/1 is turned on.
+
+--- Leave Home Plan ---
+/Actuator/Light/LivingRoom/1 is turned off.
+/Actuator/Light/LivingRoom/2 is turned off.
+/Actuator/Light/Bedroom/1 is turned off.
+/Actuator/Light/Bedroom/2 is turned off.
+/Actuator/Light/Kitchen/1 is turned off.
+/Actuator/Light/Bathroom/1 is turned off.
+Lock the door /Actuator/Door/LivingRoom/1.
+Lock the door /Actuator/Door/Bedroom/1.
+Lock the door /Actuator/Door/Kitchen/1.
+Lock the door /Actuator/Door/Bathroom/1.
+Lock the door /Actuator/Door/Balcony/1.
+/Actuator/CoffeeMachine/Kitchen/1 is turned off.
+/Actuator/NotificationSender/LivingRoom/1 is turned on.
+Notification Sender /Actuator/NotificationSender/LivingRoom/1 send message: All systems are set. You can leave home safely.
+
+--- Movie Plan ---
+Light /Actuator/Light/LivingRoom/1 is OFF. Please turn it on before setting the brightness level.
+Light /Actuator/Light/LivingRoom/2 is OFF. Please turn it on before setting the brightness level.
+Light /Actuator/Light/Bedroom/1 is OFF. Please turn it on before setting the brightness level.
+Light /Actuator/Light/Bedroom/2 is OFF. Please turn it on before setting the brightness level.
+Light /Actuator/Light/Kitchen/1 is OFF. Please turn it on before setting the brightness level.
+Light /Actuator/Light/Bathroom/1 is OFF. Please turn it on before setting the brightness level.
+/Actuator/SmartTV/LivingRoom/1 is turned on.
+Start playing Netflix on the /Actuator/SmartTV/LivingRoom/1 in LivingRoom
+/Actuator/MusicPlayer/LivingRoom/1 is turned on.
+/Actuator/MusicPlayer/LivingRoom/1 start playing Chill Vibes Playlist
+/Actuator/MusicPlayer/Bedroom/1 is turned on.
+/Actuator/MusicPlayer/Bedroom/1 start playing Chill Vibes Playlist
+
+Standard Error:
+2025-01-10 14:26:11,921 - actuator.py - set_brightness_level - WARNING - Light /Actuator/Light/LivingRoom/1 is OFF. Please turn it on before setting the brightness level.
+2025-01-10 14:26:11,921 - actuator.py - set_brightness_level - WARNING - Light /Actuator/Light/LivingRoom/2 is OFF. Please turn it on before setting the brightness level.
+2025-01-10 14:26:11,921 - actuator.py - set_brightness_level - WARNING - Light /Actuator/Light/Bedroom/1 is OFF. Please turn it on before setting the brightness level.
+2025-01-10 14:26:11,921 - actuator.py - set_brightness_level - WARNING - Light /Actuator/Light/Bedroom/2 is OFF. Please turn it on before setting the brightness level.
+2025-01-10 14:26:11,921 - actuator.py - set_brightness_level - WARNING - Light /Actuator/Light/Kitchen/1 is OFF. Please turn it on before setting the brightness level.
+2025-01-10 14:26:11,921 - actuator.py - set_brightness_level - WARNING - Light /Actuator/Light/Bathroom/1 is OFF. Please turn it on before setting the brightness level.
+
+Return code: 0

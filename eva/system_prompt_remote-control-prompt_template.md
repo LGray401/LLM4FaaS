@@ -3,7 +3,7 @@
 
 
 # Source Code
-## sensor.py
+## sensor.py 
 ```python
 import random
 from home.logger_config import logger

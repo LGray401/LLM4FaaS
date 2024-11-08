@@ -1,0 +1,6 @@
+Error: Execution timed out
+Standard Output:
+Welcome to your Smart Home!
+Outdoor conditions updated: {'temperature': 20, 'humidity': 33}
+Enter a command (or 'exit' to quit): 
+Standard Error:

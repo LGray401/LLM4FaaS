@@ -1,0 +1,22 @@
+Error: Execution timed out
+Standard Output:
+/Sensor/LightIntensive/LivingRoom/1 current status is: off
+/Sensor/LightIntensive/Bedroom/1 current status is: off
+/Sensor/IndoorTemperature/LivingRoom/1 current status is: off
+/Sensor/IndoorTemperature/Bedroom/1 current status is: off
+/Sensor/IndoorTemperature/Bathroom/1 current status is: off
+/Actuator/CleaningRobot/LivingRoom/1 is turned on.
+Cleaning Robot /Actuator/CleaningRobot/LivingRoom/1 Starts Daily Cleaning Routine
+/Actuator/CleaningRobot/LivingRoom/1 Finish Daily Cleaning Routine, Will Turn it OFF
+/Actuator/CleaningRobot/LivingRoom/1 is turned off.
+/Actuator/CleaningRobot/Bedroom/1 is turned on.
+Cleaning Robot /Actuator/CleaningRobot/Bedroom/1 Starts Daily Cleaning Routine
+/Actuator/CleaningRobot/Bedroom/1 Finish Daily Cleaning Routine, Will Turn it OFF
+/Actuator/CleaningRobot/Bedroom/1 is turned off.
+/Sensor/Humidity/LivingRoom/1 current status is: off
+/Sensor/Humidity/Bedroom/1 current status is: off
+/Sensor/Humidity/Kitchen/1 current status is: off
+/Sensor/Humidity/Bathroom/1 current status is: off
+/Sensor/Humidity/Balcony/1 current status is: off
+
+Standard Error:

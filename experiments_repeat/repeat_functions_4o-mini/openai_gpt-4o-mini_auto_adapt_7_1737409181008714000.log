@@ -1,0 +1,21 @@
+Standard Output:
+'/Sensor/IndoorTemperature/LivingRoom/1' is now ON.
+'/Sensor/Humidity/LivingRoom/1' is now ON.
+'/Sensor/LightIntensive/LivingRoom/1' is now ON.
+/Sensor/IndoorTemperature/LivingRoom/1 reading is: 34.05
+/Sensor/Humidity/LivingRoom/1 reading is: 14.04
+/Sensor/LightIntensive/LivingRoom/1 reading is: 952.73
+/Actuator/Heater/LivingRoom/1 is turned off.
+/Actuator/Humidifier/LivingRoom/1 is turned on.
+/Actuator/Light/LivingRoom/1 is turned off.
+Temperature: 34.05°C, Humidity: 14.04%, Light Intensity: 952.73 lux
+/Actuator/Heater/LivingRoom/1 current status is off
+Heater Status: off
+/Actuator/Humidifier/LivingRoom/1 current status is on
+Humidifier Status: on
+/Actuator/Light/LivingRoom/1 current status is off
+Light Status: off
+
+Standard Error:
+
+Return code: 0

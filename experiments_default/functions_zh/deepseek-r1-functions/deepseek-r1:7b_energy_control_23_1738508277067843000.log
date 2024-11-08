@@ -1,0 +1,10 @@
+Standard Output:
+
+Standard Error:
+Traceback (most recent call last):
+  File "/Users/minghe/llm4faas/experiments_default/functions_zh/deepseek-r1-functions/deepseek-r1:7b_energy_control_23_1738508277067843000.py", line 57, in <module>
+    from config import TEMP_LOW, TEMP_HIGH, HUMIDITY_LOW, HUMIDITY_HIGH, \
+        LIGHT_INTENSITY_MIN, LIGHT_INTENSITY_MAX, ACTUATOR_TYPES, SENSORS
+ModuleNotFoundError: No module named 'config'
+
+Return code: 1

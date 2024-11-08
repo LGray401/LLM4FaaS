@@ -1,0 +1,10 @@
+Standard Output:
+
+Standard Error:
+Traceback (most recent call last):
+  File "/Users/minghe/llm4faas/experiments_default/functions_en/llama31_en_functions/llama3.1_auto_adapt_25.py", line 34, in <module>
+    def create_room_with_components(name: str, sensor_types: list[type], actuator_types: list[type]) -> Room:
+                                                                                                        ^^^^
+NameError: name 'Room' is not defined
+
+Return code: 1

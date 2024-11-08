@@ -1,0 +1,14 @@
+Standard Output:
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/LivingRoom/1 is Currently OFF. 
+
+Standard Error:
+2025-01-14 16:55:23,764 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/LivingRoom/1' is currently OFF. Cannot get reading.
+Traceback (most recent call last):
+  File "/Users/minghe/llm4faas/experiments_default/functions_en/gemini_en_functions/gemini_energy_control_2_1725286736381054000.py", line 56, in <module>
+    main()
+  File "/Users/minghe/llm4faas/experiments_default/functions_en/gemini_en_functions/gemini_energy_control_2_1725286736381054000.py", line 21, in main
+    if sensor.get_reading() < TEMP_LOW and ac.status == "on":
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<' not supported between instances of 'NoneType' and 'int'
+
+Return code: 1

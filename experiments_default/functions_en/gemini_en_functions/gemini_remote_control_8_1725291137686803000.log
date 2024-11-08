@@ -1,0 +1,11 @@
+Standard Output:
+We find LivingRoom!
+/Actuator/AC/LivingRoom/1 is turned on.
+Set the target temperature of /Actuator/AC/LivingRoom/1 to 17°C.
+AC turned on and set to 17 degrees.
+/Actuator/Light/LivingRoom/1 is turned on.
+Living room light turned on.
+
+Standard Error:
+
+Return code: 0

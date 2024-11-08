@@ -1,0 +1,93 @@
+Standard Output:
+'/Sensor/IndoorTemperature/LivingRoom/1' is now ON.
+/Sensor/IndoorTemperature/LivingRoom/1 reading is: 36.34
+Set the target temperature of /Actuator/Heater/LivingRoom/1 to 25°C.
+/Actuator/Heater/LivingRoom/1 is turned off.
+Set the target temperature of /Actuator/Heater/Bedroom/1 to 25°C.
+/Actuator/Heater/Bedroom/1 is turned off.
+Set the target temperature of /Actuator/Heater/Kitchen/1 to 25°C.
+/Actuator/Heater/Kitchen/1 is turned off.
+Set the target temperature of /Actuator/Heater/Bathroom/1 to 25°C.
+/Actuator/Heater/Bathroom/1 is turned off.
+Set the target temperature of /Actuator/AC/LivingRoom/1 to 15°C.
+/Actuator/AC/LivingRoom/1 is turned on.
+Set the target temperature of /Actuator/AC/Bedroom/1 to 15°C.
+/Actuator/AC/Bedroom/1 is turned on.
+'/Sensor/IndoorTemperature/Bedroom/1' is now ON.
+/Sensor/IndoorTemperature/Bedroom/1 reading is: 32.49
+Set the target temperature of /Actuator/Heater/LivingRoom/1 to 25°C.
+/Actuator/Heater/LivingRoom/1 is turned off.
+Set the target temperature of /Actuator/Heater/Bedroom/1 to 25°C.
+/Actuator/Heater/Bedroom/1 is turned off.
+Set the target temperature of /Actuator/Heater/Kitchen/1 to 25°C.
+/Actuator/Heater/Kitchen/1 is turned off.
+Set the target temperature of /Actuator/Heater/Bathroom/1 to 25°C.
+/Actuator/Heater/Bathroom/1 is turned off.
+Set the target temperature of /Actuator/AC/LivingRoom/1 to 15°C.
+/Actuator/AC/LivingRoom/1 is turned on.
+Set the target temperature of /Actuator/AC/Bedroom/1 to 15°C.
+/Actuator/AC/Bedroom/1 is turned on.
+'/Sensor/IndoorTemperature/Bathroom/1' is now ON.
+/Sensor/IndoorTemperature/Bathroom/1 reading is: 31.65
+Set the target temperature of /Actuator/Heater/LivingRoom/1 to 25°C.
+/Actuator/Heater/LivingRoom/1 is turned off.
+Set the target temperature of /Actuator/Heater/Bedroom/1 to 25°C.
+/Actuator/Heater/Bedroom/1 is turned off.
+Set the target temperature of /Actuator/Heater/Kitchen/1 to 25°C.
+/Actuator/Heater/Kitchen/1 is turned off.
+Set the target temperature of /Actuator/Heater/Bathroom/1 to 25°C.
+/Actuator/Heater/Bathroom/1 is turned off.
+Set the target temperature of /Actuator/AC/LivingRoom/1 to 15°C.
+/Actuator/AC/LivingRoom/1 is turned on.
+Set the target temperature of /Actuator/AC/Bedroom/1 to 15°C.
+/Actuator/AC/Bedroom/1 is turned on.
+'/Sensor/Humidity/LivingRoom/1' is now ON.
+/Sensor/Humidity/LivingRoom/1 reading is: 29.56
+/Actuator/Humidifier/LivingRoom/1 is turned on.
+/Actuator/Humidifier/Bedroom/1 is turned on.
+'/Sensor/Humidity/Bedroom/1' is now ON.
+/Sensor/Humidity/Bedroom/1 reading is: 15.3
+/Actuator/Humidifier/LivingRoom/1 is turned on.
+/Actuator/Humidifier/Bedroom/1 is turned on.
+'/Sensor/Humidity/Kitchen/1' is now ON.
+/Sensor/Humidity/Kitchen/1 reading is: 26.56
+/Actuator/Humidifier/LivingRoom/1 is turned on.
+/Actuator/Humidifier/Bedroom/1 is turned on.
+'/Sensor/Humidity/Bathroom/1' is now ON.
+/Sensor/Humidity/Bathroom/1 reading is: 18.4
+/Actuator/Humidifier/LivingRoom/1 is turned on.
+/Actuator/Humidifier/Bedroom/1 is turned on.
+'/Sensor/Humidity/Balcony/1' is now ON.
+/Sensor/Humidity/Balcony/1 reading is: 29.8
+/Actuator/Humidifier/LivingRoom/1 is turned on.
+/Actuator/Humidifier/Bedroom/1 is turned on.
+'/Sensor/LightIntensive/LivingRoom/1' is now ON.
+/Sensor/LightIntensive/LivingRoom/1 reading is: 1038.73
+/Actuator/Light/LivingRoom/1 is turned off.
+/Actuator/Light/LivingRoom/2 is turned off.
+/Actuator/Light/Bedroom/1 is turned off.
+/Actuator/Light/Bedroom/2 is turned off.
+/Actuator/Light/Kitchen/1 is turned off.
+/Actuator/Light/Bathroom/1 is turned off.
+'/Sensor/LightIntensive/Bedroom/1' is now ON.
+/Sensor/LightIntensive/Bedroom/1 reading is: 1114.83
+/Actuator/Light/LivingRoom/1 is turned off.
+/Actuator/Light/LivingRoom/2 is turned off.
+/Actuator/Light/Bedroom/1 is turned off.
+/Actuator/Light/Bedroom/2 is turned off.
+/Actuator/Light/Kitchen/1 is turned off.
+/Actuator/Light/Bathroom/1 is turned off.
+/Sensor/IndoorTemperature/LivingRoom/1 is now OFF.
+/Sensor/IndoorTemperature/Bedroom/1 is now OFF.
+/Sensor/IndoorTemperature/Bathroom/1 is now OFF.
+/Sensor/Humidity/LivingRoom/1 is now OFF.
+/Sensor/Humidity/Bedroom/1 is now OFF.
+/Sensor/Humidity/Kitchen/1 is now OFF.
+/Sensor/Humidity/Bathroom/1 is now OFF.
+/Sensor/Humidity/Balcony/1 is now OFF.
+/Sensor/LightIntensive/LivingRoom/1 is now OFF.
+/Sensor/LightIntensive/Bedroom/1 is now OFF.
+
+Standard Error:
+
+Return code: 0

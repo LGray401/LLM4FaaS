@@ -1,0 +1,18 @@
+Standard Output:
+We find LivingRoom!
+Set the target temperature of /Actuator/AC/LivingRoom/3 to 26°C.
+Turned up the AC in LivingRoom to 26°C.
+We find LivingRoom!
+
+Standard Error:
+Traceback (most recent call last):
+  File "/Users/minghe/llm4faas/experiments_default/functions_en/gemini_en_functions/gemini_remote_control_9_1725291168642786000.py", line 179, in <module>
+    main()
+  File "/Users/minghe/llm4faas/experiments_default/functions_en/gemini_en_functions/gemini_remote_control_9_1725291168642786000.py", line 153, in main
+    turn_up_tv_volume("LivingRoom", 3)
+  File "/Users/minghe/llm4faas/experiments_default/functions_en/gemini_en_functions/gemini_remote_control_9_1725291168642786000.py", line 35, in turn_up_tv_volume
+    tv.volume += volume_increase
+    ^^^^^^^^^
+AttributeError: 'SmartTV' object has no attribute 'volume'
+
+Return code: 1

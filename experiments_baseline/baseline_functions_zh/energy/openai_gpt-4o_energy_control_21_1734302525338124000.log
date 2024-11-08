@@ -1,0 +1,29 @@
+Standard Output:
+Living Room Light 1: set to dim
+Living Room Light 2: set to dim
+Living Room Curtain: turned off
+Living Room Humidifier: turned off
+Living Room Cleaning Robot: returning to base
+Living Room Music Player: turned off
+Living Room TV: energy saving mode activated
+Living Room Socket 1: turned off
+Living Room Socket 2: turned off
+Bedroom Light 1: set to dim
+Bedroom Light 2: set to dim
+Bedroom Curtain: turned off
+Bedroom Humidifier: turned off
+Bedroom Cleaning Robot: returning to base
+Bedroom Music Player: turned off
+Bedroom Socket 1: turned off
+Bedroom Socket 2: turned off
+Bathroom Light: set to dim
+Bathroom Socket 1: turned off
+Bathroom Socket 2: turned off
+Kitchen Light: set to dim
+Kitchen Socket 1: turned off
+Kitchen Socket 2: turned off
+Kitchen Socket 3: turned off
+
+Standard Error:
+
+Return code: 0

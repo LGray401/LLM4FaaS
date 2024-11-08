@@ -1,0 +1,9 @@
+Standard Output:
+
+Standard Error:
+Traceback (most recent call last):
+  File "/Users/minghe/llm4faas/zhipu_functions/remote/zhipu_('glm-4-flash',)_remote_control_25_1730992970005910000.py", line 12, in <module>
+    from functions import home_plan
+ModuleNotFoundError: No module named 'functions'
+
+Return code: 1

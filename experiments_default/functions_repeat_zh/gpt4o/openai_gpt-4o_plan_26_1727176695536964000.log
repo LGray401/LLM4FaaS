@@ -1,0 +1,70 @@
+Error: Execution timed out
+Standard Output:
+
+Starting MORNING PLAN...
+We find LivingRoom!
+We find Kitchen!
+/Actuator/Light/LivingRoom/1 is turned on.
+'/Sensor/LightIntensive/LivingRoom/1' is now ON.
+/Sensor/LightIntensive/LivingRoom/1 reading is: 1198.78
+/Actuator/Light/LivingRoom/1 is turned on.
+/Sensor/LightIntensive/LivingRoom/1 reading is: 1112.37
+/Actuator/Light/LivingRoom/1 is turned on.
+/Sensor/LightIntensive/LivingRoom/1 reading is: 1036.15
+/Actuator/Light/LivingRoom/1 is turned on.
+/Sensor/LightIntensive/LivingRoom/1 reading is: 1117.46
+/Actuator/Light/LivingRoom/1 is turned on.
+/Sensor/LightIntensive/LivingRoom/1 reading is: 1156.19
+/Actuator/Light/LivingRoom/1 is turned on.
+/Sensor/LightIntensive/LivingRoom/1 reading is: 1079.41
+/Actuator/Light/LivingRoom/1 is turned on.
+/Sensor/LightIntensive/LivingRoom/1 reading is: 1118.97
+/Actuator/Light/LivingRoom/1 is turned on.
+/Sensor/LightIntensive/LivingRoom/1 reading is: 1134.07
+/Actuator/Light/LivingRoom/1 is turned on.
+/Sensor/LightIntensive/LivingRoom/1 reading is: 1078.95
+/Actuator/Light/LivingRoom/1 is turned on.
+/Sensor/LightIntensive/LivingRoom/1 reading is: 976.59
+/Actuator/Light/LivingRoom/1 is turned on.
+/Sensor/LightIntensive/LivingRoom/1 reading is: 920.93
+/Actuator/Light/LivingRoom/1 is turned on.
+/Sensor/LightIntensive/LivingRoom/1 reading is: 1190.7
+/Actuator/Light/LivingRoom/1 is turned on.
+/Sensor/LightIntensive/LivingRoom/1 reading is: 931.27
+/Actuator/Light/LivingRoom/1 is turned on.
+/Sensor/LightIntensive/LivingRoom/1 reading is: 1000.45
+/Actuator/Light/LivingRoom/1 is turned on.
+/Sensor/LightIntensive/LivingRoom/1 reading is: 983.09
+/Actuator/Light/LivingRoom/1 is turned on.
+/Sensor/LightIntensive/LivingRoom/1 reading is: 1022.91
+/Actuator/Light/LivingRoom/1 is turned on.
+/Sensor/LightIntensive/LivingRoom/1 reading is: 1134.57
+/Actuator/Light/LivingRoom/1 is turned on.
+/Sensor/LightIntensive/LivingRoom/1 reading is: 1167.31
+/Actuator/Light/LivingRoom/1 is turned on.
+/Sensor/LightIntensive/LivingRoom/1 reading is: 966.3
+/Actuator/Light/LivingRoom/1 is turned on.
+/Sensor/LightIntensive/LivingRoom/1 reading is: 994.27
+/Actuator/Light/LivingRoom/1 is turned on.
+/Sensor/LightIntensive/LivingRoom/1 reading is: 1118.54
+/Actuator/Light/LivingRoom/1 is turned on.
+/Sensor/LightIntensive/LivingRoom/1 reading is: 960.09
+/Actuator/Light/LivingRoom/1 is turned on.
+/Sensor/LightIntensive/LivingRoom/1 reading is: 1019.33
+/Actuator/Light/LivingRoom/1 is turned on.
+/Sensor/LightIntensive/LivingRoom/1 reading is: 1159.9
+/Actuator/Light/LivingRoom/1 is turned on.
+/Sensor/LightIntensive/LivingRoom/1 reading is: 1179.52
+/Actuator/Light/LivingRoom/1 is turned on.
+/Sensor/LightIntensive/LivingRoom/1 reading is: 1018.8
+/Actuator/Light/LivingRoom/1 is turned on.
+/Sensor/LightIntensive/LivingRoom/1 reading is: 1120.46
+/Actuator/Light/LivingRoom/1 is turned on.
+/Sensor/LightIntensive/LivingRoom/1 reading is: 1061.56
+/Actuator/Light/LivingRoom/1 is turned on.
+/Sensor/LightIntensive/LivingRoom/1 reading is: 1185.26
+/Actuator/Light/LivingRoom/1 is turned on.
+/Sensor/LightIntensive/LivingRoom/1 reading is: 1003.55
+/Actuator/Light/LivingRoom/1 is turned on.
+
+Standard Error:

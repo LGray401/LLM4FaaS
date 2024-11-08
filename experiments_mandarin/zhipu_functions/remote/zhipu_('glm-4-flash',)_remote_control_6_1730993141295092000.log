@@ -1,0 +1,12 @@
+Standard Output:
+
+Standard Error:
+Traceback (most recent call last):
+  File "/Users/minghe/llm4faas/zhipu_functions/remote/zhipu_('glm-4-flash',)_remote_control_6_1730993141295092000.py", line 57, in <module>
+    main()
+  File "/Users/minghe/llm4faas/zhipu_functions/remote/zhipu_('glm-4-flash',)_remote_control_6_1730993141295092000.py", line 16, in main
+    living_room = get_room(home, "LivingRoom")
+                  ^^^^^^^^
+NameError: name 'get_room' is not defined
+
+Return code: 1

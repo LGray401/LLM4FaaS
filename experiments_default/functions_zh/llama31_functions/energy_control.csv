@@ -1,0 +1,27 @@
+Timestamp,Model Name,Task Name,User Answer Index,Success Rate (%),Error Status,Unmatched Lines,Log File Path
+,llama3.1,energy_control,15,0.0000,Invalid Prompt,,/Users/minghe/llm4faas/experiments_default/functions_zh/llama31_functions/llama3.1_energy_control_15.log
+,llama3.1,energy_control,14,0.0000,Invalid Prompt,,/Users/minghe/llm4faas/experiments_default/functions_zh/llama31_functions/llama3.1_energy_control_14.log
+,llama3.1,energy_control,16,0.0000,Invalid Prompt,,/Users/minghe/llm4faas/experiments_default/functions_zh/llama31_functions/llama3.1_energy_control_16.log
+,llama3.1,energy_control,17,0.0000,Error,,/Users/minghe/llm4faas/experiments_default/functions_zh/llama31_functions/llama3.1_energy_control_17.log
+,llama3.1,energy_control,13,0.0000,Error,,/Users/minghe/llm4faas/experiments_default/functions_zh/llama31_functions/llama3.1_energy_control_13.log
+,llama3.1,energy_control,12,0.0000,Error,,/Users/minghe/llm4faas/experiments_default/functions_zh/llama31_functions/llama3.1_energy_control_12.log
+,llama3.1,energy_control,10,0.0000,Error,,/Users/minghe/llm4faas/experiments_default/functions_zh/llama31_functions/llama3.1_energy_control_10.log
+,llama3.1,energy_control,11,0.0000,Error,,/Users/minghe/llm4faas/experiments_default/functions_zh/llama31_functions/llama3.1_energy_control_11.log
+,llama3.1,energy_control,9,0.0000,Error,,/Users/minghe/llm4faas/experiments_default/functions_zh/llama31_functions/llama3.1_energy_control_9.log
+,llama3.1,energy_control,8,0.0000,Error,,/Users/minghe/llm4faas/experiments_default/functions_zh/llama31_functions/llama3.1_energy_control_8.log
+,llama3.1,energy_control,6,0.0000,Error,,/Users/minghe/llm4faas/experiments_default/functions_zh/llama31_functions/llama3.1_energy_control_6.log
+,llama3.1,energy_control,7,0.0000,Error,,/Users/minghe/llm4faas/experiments_default/functions_zh/llama31_functions/llama3.1_energy_control_7.log
+,llama3.1,energy_control,5,0.0000,Invalid Prompt,,/Users/minghe/llm4faas/experiments_default/functions_zh/llama31_functions/llama3.1_energy_control_5.log
+,llama3.1,energy_control,4,0.0000,Error,,/Users/minghe/llm4faas/experiments_default/functions_zh/llama31_functions/llama3.1_energy_control_4.log
+,llama3.1,energy_control,1,0.0000,Error,,/Users/minghe/llm4faas/experiments_default/functions_zh/llama31_functions/llama3.1_energy_control_1.log
+,llama3.1,energy_control,3,0.0000,Error,,/Users/minghe/llm4faas/experiments_default/functions_zh/llama31_functions/llama3.1_energy_control_3.log
+,llama3.1,energy_control,2,0.0000,Error,,/Users/minghe/llm4faas/experiments_default/functions_zh/llama31_functions/llama3.1_energy_control_2.log
+,llama3.1,energy_control,20,0.0000,Error,,/Users/minghe/llm4faas/experiments_default/functions_zh/llama31_functions/llama3.1_energy_control_20.log
+,llama3.1,energy_control,21,0.0000,Error,,/Users/minghe/llm4faas/experiments_default/functions_zh/llama31_functions/llama3.1_energy_control_21.log
+,llama3.1,energy_control,23,0.0000,Error,,/Users/minghe/llm4faas/experiments_default/functions_zh/llama31_functions/llama3.1_energy_control_23.log
+,llama3.1,energy_control,22,0.0000,Error,,/Users/minghe/llm4faas/experiments_default/functions_zh/llama31_functions/llama3.1_energy_control_22.log
+,llama3.1,energy_control,26,0.0000,Error,,/Users/minghe/llm4faas/experiments_default/functions_zh/llama31_functions/llama3.1_energy_control_26.log
+,llama3.1,energy_control,19,0.0000,Invalid Prompt,,/Users/minghe/llm4faas/experiments_default/functions_zh/llama31_functions/llama3.1_energy_control_19.log
+,llama3.1,energy_control,25,0.0000,Error,,/Users/minghe/llm4faas/experiments_default/functions_zh/llama31_functions/llama3.1_energy_control_25.log
+,llama3.1,energy_control,24,0.0000,Error,,/Users/minghe/llm4faas/experiments_default/functions_zh/llama31_functions/llama3.1_energy_control_24.log
+,llama3.1,energy_control,18,0.0000,Error,,/Users/minghe/llm4faas/experiments_default/functions_zh/llama31_functions/llama3.1_energy_control_18.log

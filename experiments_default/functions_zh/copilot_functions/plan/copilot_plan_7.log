@@ -1,0 +1,10 @@
+Standard Output:
+
+Standard Error:
+Traceback (most recent call last):
+  File "/Users/minghe/llm4faas/experiments_default/functions_zh/copilot_functions/plan/copilot_plan_7.py", line 67, in <module>
+    if datetime.time(7, 0) <= current_time < datetime.time(7, 30):
+       ^^^^^^^^^^^^^^^^^^^
+TypeError: descriptor 'time' for 'datetime.datetime' objects doesn't apply to a 'int' object
+
+Return code: 1

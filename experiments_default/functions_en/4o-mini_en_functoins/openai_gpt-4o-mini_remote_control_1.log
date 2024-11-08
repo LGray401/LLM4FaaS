@@ -1,0 +1,19 @@
+Standard Output:
+/Actuator/CleaningRobot/LivingRoom/2 is turned on.
+Cleaning Robot /Actuator/CleaningRobot/LivingRoom/2 Starts Daily Cleaning Routine
+/Actuator/CleaningRobot/LivingRoom/2 Finish Daily Cleaning Routine, Will Turn it OFF
+/Actuator/CleaningRobot/LivingRoom/2 is turned off.
+/Actuator/MusicPlayer/LivingRoom/2 is turned on.
+/Actuator/MusicPlayer/LivingRoom/2 start playing Chill Playlist
+/Actuator/SmartTV/LivingRoom/2 is turned on.
+Start playing National Geographic on the /Actuator/SmartTV/LivingRoom/2 in LivingRoom
+/Actuator/Light/Bedroom/3 is turned on.
+Set /Actuator/Light/Bedroom/3 light brightness level to MEDIUM
+/Actuator/CleaningRobot/LivingRoom/2 is turned off.
+/Actuator/MusicPlayer/LivingRoom/2 is turned off.
+/Actuator/SmartTV/LivingRoom/2 is turned off.
+/Actuator/Light/Bedroom/3 is turned off.
+
+Standard Error:
+
+Return code: 0

@@ -1,0 +1,9 @@
+Standard Output:
+'/Sensor/IndoorTemperature/LivingRoom/1' is now ON.
+/Sensor/IndoorTemperature/LivingRoom/1 reading is: 37.39
+Current temperature in LivingRoom is: 37.39°C
+No window actuator found in Balcony.
+
+Standard Error:
+
+Return code: 0

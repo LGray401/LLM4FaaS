@@ -1,0 +1,74 @@
+Standard Output:
+Starting Auto Power Off Lights
+Checking if lights can be automatically turned off...
+Cannot Get Sensor Reading, /Sensor/LightIntensive/LivingRoom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/LightIntensive/Bedroom/1 is Currently OFF. 
+Lights auto power off check complete.
+Starting Auto Power Off Sockets
+Checking if sockets can be automatically turned off...
+Cannot Get Sensor Reading, /Sensor/Humidity/LivingRoom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Bedroom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Kitchen/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Bathroom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Balcony/1 is Currently OFF. 
+Sockets auto power off check complete.
+Starting Auto Adjust Temperature
+Checking if temperature can be automatically adjusted...
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/LivingRoom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/Bedroom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/Bathroom/1 is Currently OFF. 
+Temperature auto adjustment check complete.
+Starting Auto Adjust Humidity
+Checking if humidity can be automatically adjusted...
+Cannot Get Sensor Reading, /Sensor/Humidity/LivingRoom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Bedroom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Kitchen/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Bathroom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Balcony/1 is Currently OFF. 
+Humidity auto adjustment check complete.
+Starting Auto Adjust Lighting
+Checking if lighting can be automatically adjusted...
+Cannot Get Sensor Reading, /Sensor/LightIntensive/LivingRoom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/LightIntensive/Bedroom/1 is Currently OFF. 
+Lighting auto adjustment check complete.
+Starting Auto Adjust Air Quality
+Checking if air quality in Kitchen can be automatically adjusted...
+Cannot Get Sensor Reading, /Sensor/Smoke/Kitchen/1 is Currently OFF. 
+Air quality auto adjustment check in Kitchen complete.
+Starting Auto Adjust Temperature and Humidity
+Checking if temperature and humidity can be automatically adjusted together...
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/LivingRoom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/LivingRoom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/Bedroom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Bedroom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/Bathroom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Bathroom/1 is Currently OFF. 
+Temperature and Humidity auto adjustment check complete.
+
+Standard Error:
+2025-01-10 12:33:35,695 - sensor.py - get_reading - WARNING - '/Sensor/LightIntensive/LivingRoom/1' is currently OFF. Cannot get reading.
+2025-01-10 12:33:35,695 - sensor.py - get_reading - WARNING - '/Sensor/LightIntensive/Bedroom/1' is currently OFF. Cannot get reading.
+2025-01-10 12:33:35,695 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/LivingRoom/1' is currently OFF. Cannot get reading.
+2025-01-10 12:33:35,695 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Bedroom/1' is currently OFF. Cannot get reading.
+2025-01-10 12:33:35,695 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Kitchen/1' is currently OFF. Cannot get reading.
+2025-01-10 12:33:35,695 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Bathroom/1' is currently OFF. Cannot get reading.
+2025-01-10 12:33:35,695 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Balcony/1' is currently OFF. Cannot get reading.
+2025-01-10 12:33:35,695 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/LivingRoom/1' is currently OFF. Cannot get reading.
+2025-01-10 12:33:35,695 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/Bedroom/1' is currently OFF. Cannot get reading.
+2025-01-10 12:33:35,695 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/Bathroom/1' is currently OFF. Cannot get reading.
+2025-01-10 12:33:35,695 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/LivingRoom/1' is currently OFF. Cannot get reading.
+2025-01-10 12:33:35,695 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Bedroom/1' is currently OFF. Cannot get reading.
+2025-01-10 12:33:35,695 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Kitchen/1' is currently OFF. Cannot get reading.
+2025-01-10 12:33:35,695 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Bathroom/1' is currently OFF. Cannot get reading.
+2025-01-10 12:33:35,695 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Balcony/1' is currently OFF. Cannot get reading.
+2025-01-10 12:33:35,695 - sensor.py - get_reading - WARNING - '/Sensor/LightIntensive/LivingRoom/1' is currently OFF. Cannot get reading.
+2025-01-10 12:33:35,695 - sensor.py - get_reading - WARNING - '/Sensor/LightIntensive/Bedroom/1' is currently OFF. Cannot get reading.
+2025-01-10 12:33:35,695 - sensor.py - get_reading - WARNING - '/Sensor/Smoke/Kitchen/1' is currently OFF. Cannot get reading.
+2025-01-10 12:33:35,695 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/LivingRoom/1' is currently OFF. Cannot get reading.
+2025-01-10 12:33:35,695 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/LivingRoom/1' is currently OFF. Cannot get reading.
+2025-01-10 12:33:35,695 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/Bedroom/1' is currently OFF. Cannot get reading.
+2025-01-10 12:33:35,695 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Bedroom/1' is currently OFF. Cannot get reading.
+2025-01-10 12:33:35,695 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/Bathroom/1' is currently OFF. Cannot get reading.
+2025-01-10 12:33:35,695 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Bathroom/1' is currently OFF. Cannot get reading.
+
+Return code: 0

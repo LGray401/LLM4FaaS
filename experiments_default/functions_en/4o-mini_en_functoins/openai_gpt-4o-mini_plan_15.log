@@ -1,0 +1,20 @@
+Standard Output:
+Executing Morning Plan...
+/Actuator/Light/LivingRoom/1 is turned on.
+Set /Actuator/Light/LivingRoom/1 light brightness level to HIGH
+/Actuator/Light/LivingRoom/2 is turned on.
+Set /Actuator/Light/LivingRoom/2 light brightness level to HIGH
+/Actuator/Curtain/LivingRoom/1 is turned on.
+
+Standard Error:
+Traceback (most recent call last):
+  File "/Users/minghe/llm4faas/experiments_default/functions_en/4o-mini_en_functoins/openai_gpt-4o-mini_plan_15.py", line 90, in <module>
+    main()
+  File "/Users/minghe/llm4faas/experiments_default/functions_en/4o-mini_en_functoins/openai_gpt-4o-mini_plan_15.py", line 84, in main
+    morning_plan(home)
+  File "/Users/minghe/llm4faas/experiments_default/functions_en/4o-mini_en_functoins/openai_gpt-4o-mini_plan_15.py", line 28, in morning_plan
+    coffee_machine = next(actuator for actuator in living_room.actuators if isinstance(actuator, CoffeeMachine))
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+StopIteration
+
+Return code: 1

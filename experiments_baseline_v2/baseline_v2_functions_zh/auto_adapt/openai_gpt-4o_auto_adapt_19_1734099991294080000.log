@@ -1,0 +1,61 @@
+Standard Output:
+'/Sensor/IndoorTemperature/LivingRoom/1' is now ON.
+/Sensor/IndoorTemperature/LivingRoom/1 reading is: 33.25
+太热了! Turning on AC.
+Set the target temperature of /Actuator/AC/LivingRoom/1 to 25°C.
+/Actuator/AC/LivingRoom/1 is turned on.
+Set the target temperature of /Actuator/AC/Bedroom/1 to 25°C.
+/Actuator/AC/Bedroom/1 is turned on.
+'/Sensor/IndoorTemperature/Bedroom/1' is now ON.
+/Sensor/IndoorTemperature/Bedroom/1 reading is: 38.0
+太热了! Turning on AC.
+Set the target temperature of /Actuator/AC/LivingRoom/1 to 25°C.
+/Actuator/AC/LivingRoom/1 is turned on.
+Set the target temperature of /Actuator/AC/Bedroom/1 to 25°C.
+/Actuator/AC/Bedroom/1 is turned on.
+'/Sensor/IndoorTemperature/Bathroom/1' is now ON.
+/Sensor/IndoorTemperature/Bathroom/1 reading is: 33.91
+太热了! Turning on AC.
+Set the target temperature of /Actuator/AC/LivingRoom/1 to 25°C.
+/Actuator/AC/LivingRoom/1 is turned on.
+Set the target temperature of /Actuator/AC/Bedroom/1 to 25°C.
+/Actuator/AC/Bedroom/1 is turned on.
+'/Sensor/Humidity/LivingRoom/1' is now ON.
+/Sensor/Humidity/LivingRoom/1 reading is: 21.98
+太干了! Turning on Humidifiers.
+/Actuator/Humidifier/LivingRoom/1 Increasing humidity in LivingRoom
+/Actuator/Humidifier/Bedroom/1 Increasing humidity in Bedroom
+'/Sensor/Humidity/Bedroom/1' is now ON.
+/Sensor/Humidity/Bedroom/1 reading is: 20.56
+太干了! Turning on Humidifiers.
+/Actuator/Humidifier/LivingRoom/1 Increasing humidity in LivingRoom
+/Actuator/Humidifier/Bedroom/1 Increasing humidity in Bedroom
+'/Sensor/Humidity/Kitchen/1' is now ON.
+/Sensor/Humidity/Kitchen/1 reading is: 21.85
+太干了! Turning on Humidifiers.
+/Actuator/Humidifier/LivingRoom/1 Increasing humidity in LivingRoom
+/Actuator/Humidifier/Bedroom/1 Increasing humidity in Bedroom
+'/Sensor/Humidity/Bathroom/1' is now ON.
+/Sensor/Humidity/Bathroom/1 reading is: 17.01
+太干了! Turning on Humidifiers.
+/Actuator/Humidifier/LivingRoom/1 Increasing humidity in LivingRoom
+/Actuator/Humidifier/Bedroom/1 Increasing humidity in Bedroom
+'/Sensor/Humidity/Balcony/1' is now ON.
+/Sensor/Humidity/Balcony/1 reading is: 16.42
+太干了! Turning on Humidifiers.
+/Actuator/Humidifier/LivingRoom/1 Increasing humidity in LivingRoom
+/Actuator/Humidifier/Bedroom/1 Increasing humidity in Bedroom
+'/Sensor/LightIntensive/LivingRoom/1' is now ON.
+/Sensor/LightIntensive/LivingRoom/1 reading is: 971.63
+太亮了! Closing curtains.
+/Actuator/Curtain/LivingRoom/1 is turned on.
+/Actuator/Curtain/Bedroom/1 is turned on.
+'/Sensor/LightIntensive/Bedroom/1' is now ON.
+/Sensor/LightIntensive/Bedroom/1 reading is: 974.93
+太亮了! Closing curtains.
+/Actuator/Curtain/LivingRoom/1 is turned on.
+/Actuator/Curtain/Bedroom/1 is turned on.
+
+Standard Error:
+
+Return code: 0

@@ -1,0 +1,41 @@
+Standard Output:
+/Actuator/Light/LivingRoom/1 is turned on.
+Set /Actuator/Light/LivingRoom/1 light brightness level to LOW
+/Actuator/Light/LivingRoom/2 is turned on.
+Set /Actuator/Light/LivingRoom/2 light brightness level to LOW
+/Actuator/Curtain/LivingRoom/1 is turned on.
+/Actuator/SmartSocket/LivingRoom/1 is turned off.
+/Actuator/SmartSocket/LivingRoom/2 is turned off.
+/Actuator/Humidifier/LivingRoom/1 is turned off.
+/Actuator/CleaningRobot/LivingRoom/1 is turned on.
+Cleaning Robot /Actuator/CleaningRobot/LivingRoom/1 Starts Daily Cleaning Routine
+/Actuator/CleaningRobot/LivingRoom/1 Finish Daily Cleaning Routine, Will Turn it OFF
+/Actuator/CleaningRobot/LivingRoom/1 is turned off.
+/Actuator/MusicPlayer/LivingRoom/1 is turned off.
+/Actuator/SmartTV/LivingRoom/1 is turned off.
+/Actuator/Light/Bedroom/1 is turned on.
+Set /Actuator/Light/Bedroom/1 light brightness level to LOW
+/Actuator/Light/Bedroom/2 is turned on.
+Set /Actuator/Light/Bedroom/2 light brightness level to LOW
+/Actuator/Curtain/Bedroom/1 is turned on.
+/Actuator/SmartSocket/Bedroom/1 is turned off.
+/Actuator/SmartSocket/Bedroom/2 is turned off.
+/Actuator/Humidifier/Bedroom/1 is turned off.
+/Actuator/CleaningRobot/Bedroom/1 is turned on.
+Cleaning Robot /Actuator/CleaningRobot/Bedroom/1 Starts Daily Cleaning Routine
+/Actuator/CleaningRobot/Bedroom/1 Finish Daily Cleaning Routine, Will Turn it OFF
+/Actuator/CleaningRobot/Bedroom/1 is turned off.
+/Actuator/MusicPlayer/Bedroom/1 is turned off.
+/Actuator/Light/Kitchen/1 is turned on.
+Set /Actuator/Light/Kitchen/1 light brightness level to LOW
+/Actuator/SmartSocket/Kitchen/1 is turned off.
+/Actuator/SmartSocket/Kitchen/2 is turned off.
+/Actuator/SmartSocket/Kitchen/3 is turned off.
+/Actuator/Light/Bathroom/1 is turned on.
+Set /Actuator/Light/Bathroom/1 light brightness level to LOW
+/Actuator/SmartSocket/Bathroom/1 is turned off.
+/Actuator/SmartSocket/Bathroom/2 is turned off.
+
+Standard Error:
+
+Return code: 0

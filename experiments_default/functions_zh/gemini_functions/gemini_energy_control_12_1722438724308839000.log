@@ -1,0 +1,16 @@
+Standard Output:
+Cannot Get Sensor Reading, /Sensor/OutdoorTemperature/Balcony/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/LivingRoom/1 is Currently OFF. 
+
+Standard Error:
+2025-01-14 16:23:50,486 - sensor.py - get_reading - WARNING - '/Sensor/OutdoorTemperature/Balcony/1' is currently OFF. Cannot get reading.
+2025-01-14 16:23:50,486 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/LivingRoom/1' is currently OFF. Cannot get reading.
+Traceback (most recent call last):
+  File "/Users/minghe/llm4faas/experiments_default/functions_zh/gemini_functions/gemini_energy_control_12_1722438724308839000.py", line 39, in <module>
+    energy_saving_mode(home)
+  File "/Users/minghe/llm4faas/experiments_default/functions_zh/gemini_functions/gemini_energy_control_12_1722438724308839000.py", line 25, in energy_saving_mode
+    if outdoor_temp > TEMP_HIGH or outdoor_humidity > HUMIDITY_HIGH:
+       ^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '>' not supported between instances of 'NoneType' and 'int'
+
+Return code: 1

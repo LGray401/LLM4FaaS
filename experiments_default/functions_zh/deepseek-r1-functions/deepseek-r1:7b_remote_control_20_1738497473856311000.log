@@ -1,0 +1,12 @@
+Standard Output:
+
+Standard Error:
+Traceback (most recent call last):
+  File "/Users/minghe/llm4faas/experiments_default/functions_zh/deepseek-r1-functions/deepseek-r1:7b_remote_control_20_1738497473856311000.py", line 419, in <module>
+    room_list = home_plan()
+  File "/Users/minghe/llm4faas/experiments_default/functions_zh/deepseek-r1-functions/deepseek-r1:7b_remote_control_20_1738497473856311000.py", line 381, in home_plan
+    sensors.append(LightIntensiveSensor(name))
+                   ^^^^^^^^^^^^^^^^^^^^
+NameError: name 'LightIntensiveSensor' is not defined
+
+Return code: 1

@@ -1,0 +1,25 @@
+Standard Output:
+'/Sensor/LightIntensive/LivingRoom/1' is now ON.
+'/Sensor/IndoorTemperature/LivingRoom/1' is now ON.
+'/Sensor/Humidity/LivingRoom/1' is now ON.
+/Sensor/LightIntensive/LivingRoom/1 reading is: 903.25
+/Sensor/IndoorTemperature/LivingRoom/1 reading is: 31.46
+/Sensor/Humidity/LivingRoom/1 reading is: 29.23
+Set the target temperature of /Actuator/AC/LivingRoom/1 to 26°C.
+/Actuator/AC/LivingRoom/1 is turned on.
+Set the target temperature of /Actuator/Heater/LivingRoom/1 to 26°C.
+/Actuator/Heater/LivingRoom/1 is turned off.
+/Actuator/Humidifier/LivingRoom/1 Increasing humidity in LivingRoom
+/Actuator/Light/LivingRoom/1 is turned on.
+Set /Actuator/Light/LivingRoom/1 light brightness level to LOW
+/Actuator/Light/LivingRoom/2 is turned on.
+Set /Actuator/Light/LivingRoom/2 light brightness level to LOW
+/Actuator/NotificationSender/LivingRoom/1 is turned on.
+Notification Sender /Actuator/NotificationSender/LivingRoom/1 send message: Temperature: 26度
+Humidity: 适宜湿度。
+Light Intensity: 光照好些
+
+
+Standard Error:
+
+Return code: 0

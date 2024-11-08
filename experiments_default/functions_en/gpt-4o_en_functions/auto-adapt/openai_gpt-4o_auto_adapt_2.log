@@ -1,0 +1,96 @@
+Standard Output:
+'/Sensor/IndoorTemperature/LivingRoom/1' is now ON.
+/Sensor/IndoorTemperature/LivingRoom/1 reading is: 38.61
+Set the target temperature of /Actuator/AC/LivingRoom/1 to 25°C.
+/Actuator/AC/LivingRoom/1 is turned on.
+Set the target temperature of /Actuator/AC/Bedroom/1 to 25°C.
+/Actuator/AC/Bedroom/1 is turned on.
+/Actuator/Window/LivingRoom/1 is turned off.
+/Actuator/Window/LivingRoom/2 is turned off.
+/Actuator/Window/Bedroom/1 is turned off.
+/Actuator/Window/Kitchen/1 is turned off.
+/Actuator/Window/Bathroom/1 is turned off.
+'/Sensor/IndoorTemperature/Bedroom/1' is now ON.
+/Sensor/IndoorTemperature/Bedroom/1 reading is: 30.61
+Set the target temperature of /Actuator/AC/LivingRoom/1 to 25°C.
+/Actuator/AC/LivingRoom/1 is turned on.
+Set the target temperature of /Actuator/AC/Bedroom/1 to 25°C.
+/Actuator/AC/Bedroom/1 is turned on.
+/Actuator/Window/LivingRoom/1 is turned off.
+/Actuator/Window/LivingRoom/2 is turned off.
+/Actuator/Window/Bedroom/1 is turned off.
+/Actuator/Window/Kitchen/1 is turned off.
+/Actuator/Window/Bathroom/1 is turned off.
+'/Sensor/IndoorTemperature/Bathroom/1' is now ON.
+/Sensor/IndoorTemperature/Bathroom/1 reading is: 32.46
+Set the target temperature of /Actuator/AC/LivingRoom/1 to 25°C.
+/Actuator/AC/LivingRoom/1 is turned on.
+Set the target temperature of /Actuator/AC/Bedroom/1 to 25°C.
+/Actuator/AC/Bedroom/1 is turned on.
+/Actuator/Window/LivingRoom/1 is turned off.
+/Actuator/Window/LivingRoom/2 is turned off.
+/Actuator/Window/Bedroom/1 is turned off.
+/Actuator/Window/Kitchen/1 is turned off.
+/Actuator/Window/Bathroom/1 is turned off.
+'/Sensor/Humidity/LivingRoom/1' is now ON.
+/Sensor/Humidity/LivingRoom/1 reading is: 16.14
+/Actuator/Humidifier/LivingRoom/1 is turned on.
+/Actuator/Humidifier/LivingRoom/1 Increasing humidity in LivingRoom
+/Actuator/Humidifier/Bedroom/1 is turned on.
+/Actuator/Humidifier/Bedroom/1 Increasing humidity in Bedroom
+'/Sensor/Humidity/Bedroom/1' is now ON.
+/Sensor/Humidity/Bedroom/1 reading is: 29.02
+/Actuator/Humidifier/LivingRoom/1 is turned on.
+/Actuator/Humidifier/LivingRoom/1 Increasing humidity in LivingRoom
+/Actuator/Humidifier/Bedroom/1 is turned on.
+/Actuator/Humidifier/Bedroom/1 Increasing humidity in Bedroom
+'/Sensor/Humidity/Kitchen/1' is now ON.
+/Sensor/Humidity/Kitchen/1 reading is: 15.79
+/Actuator/Humidifier/LivingRoom/1 is turned on.
+/Actuator/Humidifier/LivingRoom/1 Increasing humidity in LivingRoom
+/Actuator/Humidifier/Bedroom/1 is turned on.
+/Actuator/Humidifier/Bedroom/1 Increasing humidity in Bedroom
+'/Sensor/Humidity/Bathroom/1' is now ON.
+/Sensor/Humidity/Bathroom/1 reading is: 23.89
+/Actuator/Humidifier/LivingRoom/1 is turned on.
+/Actuator/Humidifier/LivingRoom/1 Increasing humidity in LivingRoom
+/Actuator/Humidifier/Bedroom/1 is turned on.
+/Actuator/Humidifier/Bedroom/1 Increasing humidity in Bedroom
+'/Sensor/Humidity/Balcony/1' is now ON.
+/Sensor/Humidity/Balcony/1 reading is: 29.48
+/Actuator/Humidifier/LivingRoom/1 is turned on.
+/Actuator/Humidifier/LivingRoom/1 Increasing humidity in LivingRoom
+/Actuator/Humidifier/Bedroom/1 is turned on.
+/Actuator/Humidifier/Bedroom/1 Increasing humidity in Bedroom
+'/Sensor/LightIntensive/LivingRoom/1' is now ON.
+/Sensor/LightIntensive/LivingRoom/1 reading is: 1008.33
+/Actuator/Light/LivingRoom/1 is turned on.
+Set /Actuator/Light/LivingRoom/1 light brightness level to LOW
+/Actuator/Light/LivingRoom/2 is turned on.
+Set /Actuator/Light/LivingRoom/2 light brightness level to LOW
+/Actuator/Light/Bedroom/1 is turned on.
+Set /Actuator/Light/Bedroom/1 light brightness level to LOW
+/Actuator/Light/Bedroom/2 is turned on.
+Set /Actuator/Light/Bedroom/2 light brightness level to LOW
+/Actuator/Light/Kitchen/1 is turned on.
+Set /Actuator/Light/Kitchen/1 light brightness level to LOW
+/Actuator/Light/Bathroom/1 is turned on.
+Set /Actuator/Light/Bathroom/1 light brightness level to LOW
+'/Sensor/LightIntensive/Bedroom/1' is now ON.
+/Sensor/LightIntensive/Bedroom/1 reading is: 1107.36
+/Actuator/Light/LivingRoom/1 is turned on.
+Set /Actuator/Light/LivingRoom/1 light brightness level to LOW
+/Actuator/Light/LivingRoom/2 is turned on.
+Set /Actuator/Light/LivingRoom/2 light brightness level to LOW
+/Actuator/Light/Bedroom/1 is turned on.
+Set /Actuator/Light/Bedroom/1 light brightness level to LOW
+/Actuator/Light/Bedroom/2 is turned on.
+Set /Actuator/Light/Bedroom/2 light brightness level to LOW
+/Actuator/Light/Kitchen/1 is turned on.
+Set /Actuator/Light/Kitchen/1 light brightness level to LOW
+/Actuator/Light/Bathroom/1 is turned on.
+Set /Actuator/Light/Bathroom/1 light brightness level to LOW
+
+Standard Error:
+
+Return code: 0

@@ -1,0 +1,12 @@
+Standard Output:
+Windows in the Living Room remain closed.
+Closing windows in the Bedroom because AC is on.
+
+Current Room Status:
+Living Room: {'indoor_temp': 25, 'ac_on': False, 'windows_open': False}
+Bedroom: {'indoor_temp': 27, 'ac_on': True, 'windows_open': False}
+Balcony: {'outdoor_temp': 24}
+
+Standard Error:
+
+Return code: 0

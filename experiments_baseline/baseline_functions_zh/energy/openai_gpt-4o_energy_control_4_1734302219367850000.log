@@ -1,0 +1,13 @@
+Standard Output:
+Starting smart home application...
+Current temperature in Living Room: 22.35°C
+Current temperature in Bedroom: 26.86°C
+Opening window in the Bedroom.
+Current temperature in Bathroom: 25.01°C
+Opening window in the Bathroom.
+Current temperature in Balcony: 28.48°C
+Opening window in the Balcony.
+
+Standard Error:
+
+Return code: 0

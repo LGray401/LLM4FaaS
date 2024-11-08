@@ -1,0 +1,55 @@
+Standard Output:
+'/Sensor/IndoorTemperature/LivingRoom/1' is now ON.
+'/Sensor/IndoorTemperature/Bedroom/1' is now ON.
+'/Sensor/IndoorTemperature/Bathroom/1' is now ON.
+'/Sensor/Humidity/LivingRoom/1' is now ON.
+'/Sensor/Humidity/Bedroom/1' is now ON.
+'/Sensor/Humidity/Kitchen/1' is now ON.
+'/Sensor/Humidity/Bathroom/1' is now ON.
+'/Sensor/Humidity/Balcony/1' is now ON.
+'/Sensor/LightIntensive/LivingRoom/1' is now ON.
+'/Sensor/LightIntensive/Bedroom/1' is now ON.
+/Sensor/IndoorTemperature/LivingRoom/1 reading is: 37.87
+/Actuator/AC/LivingRoom/1 is turned on.
+AC in LivingRoom turned on due to temperature: 37.87°C
+/Sensor/IndoorTemperature/Bedroom/1 reading is: 33.11
+/Actuator/AC/LivingRoom/1 is turned on.
+AC in LivingRoom turned on due to temperature: 33.11°C
+/Sensor/IndoorTemperature/Bathroom/1 reading is: 35.47
+/Actuator/AC/LivingRoom/1 is turned on.
+AC in LivingRoom turned on due to temperature: 35.47°C
+/Sensor/Humidity/LivingRoom/1 reading is: 25.74
+/Sensor/Humidity/Bedroom/1 reading is: 26.43
+/Sensor/Humidity/Kitchen/1 reading is: 20.84
+/Sensor/Humidity/Bathroom/1 reading is: 18.82
+/Sensor/Humidity/Balcony/1 reading is: 29.77
+/Sensor/LightIntensive/LivingRoom/1 reading is: 986.71
+/Actuator/AC/LivingRoom/1 is turned on.
+AC in LivingRoom turned on due to light intensity: 986.71 lux
+/Sensor/LightIntensive/Bedroom/1 reading is: 1142.45
+/Actuator/AC/LivingRoom/1 is turned on.
+AC in LivingRoom turned on due to light intensity: 1142.45 lux
+/Sensor/IndoorTemperature/LivingRoom/1 reading is: 39.31
+/Actuator/AC/Bedroom/1 is turned on.
+AC in Bedroom turned on due to temperature: 39.31°C
+/Sensor/IndoorTemperature/Bedroom/1 reading is: 35.91
+/Actuator/AC/Bedroom/1 is turned on.
+AC in Bedroom turned on due to temperature: 35.91°C
+/Sensor/IndoorTemperature/Bathroom/1 reading is: 36.27
+/Actuator/AC/Bedroom/1 is turned on.
+AC in Bedroom turned on due to temperature: 36.27°C
+/Sensor/Humidity/LivingRoom/1 reading is: 24.76
+/Sensor/Humidity/Bedroom/1 reading is: 27.79
+/Sensor/Humidity/Kitchen/1 reading is: 22.8
+/Sensor/Humidity/Bathroom/1 reading is: 19.21
+/Sensor/Humidity/Balcony/1 reading is: 26.12
+/Sensor/LightIntensive/LivingRoom/1 reading is: 918.38
+/Actuator/AC/Bedroom/1 is turned on.
+AC in Bedroom turned on due to light intensity: 918.38 lux
+/Sensor/LightIntensive/Bedroom/1 reading is: 965.39
+/Actuator/AC/Bedroom/1 is turned on.
+AC in Bedroom turned on due to light intensity: 965.39 lux
+
+Standard Error:
+
+Return code: 0

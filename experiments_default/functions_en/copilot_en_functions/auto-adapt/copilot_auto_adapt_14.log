@@ -1,0 +1,12 @@
+Standard Output:
+
+Standard Error:
+Traceback (most recent call last):
+  File "/Users/minghe/llm4faas/experiments_default/functions_en/copilot_en_functions/auto-adapt/copilot_auto-adapt_14.py", line 59, in <module>
+    main()
+  File "/Users/minghe/llm4faas/experiments_default/functions_en/copilot_en_functions/auto-adapt/copilot_auto-adapt_14.py", line 18, in main
+    home = home_plan()
+           ^^^^^^^^^
+NameError: name 'home_plan' is not defined
+
+Return code: 1

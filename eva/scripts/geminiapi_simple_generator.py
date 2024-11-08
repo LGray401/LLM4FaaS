@@ -3,6 +3,7 @@ import google.generativeai as genai
 import os
 from dotenv import load_dotenv
 
+
 # Load environment variables from .env file
 load_dotenv()
 api_key = os.environ["GOOGLE_API_KEY"]
@@ -23,7 +24,7 @@ genai.configure(api_key=api_key)
 # md_dir = "/Users/minghe/llm4faas/logs_questionnaire_in_English/auto_adapt"
 # md_dir = "/Users/minghe/llm4faas/logs_questionnaire_in_English/energy"
 
-md_dir = "/Users/minghe/llm4faas/default_experiments/logs_repeatable"
+md_dir = "/Users/minghe/llm4faas/default_experiments/logs_repeat_Chinese/temp"
 
 def comment_out_non_code(text):
     lines = text.split('\n')
@@ -55,8 +56,14 @@ def process_md_file(md_dir):
             # Upload Markdown file
             md_file = genai.upload_file(path=md_name, display_name="test", mime_type="text/markdown")
 
+            generation_config = {
+                'temperature': 0.7, 
+                'max_output_tokens': 1500
+            }
+
+
             # Generate content using the model
-            model = genai.GenerativeModel(model_name="models/gemini-1.5-flash")
+            model = genai.GenerativeModel(model_name="models/gemini-1.5-flash", generation_config=generation_config)
             response = model.generate_content(
                 [
                     "",
@@ -68,7 +75,7 @@ def process_md_file(md_dir):
 
             # Define the file path where you want to save the response text
             base_name = os.path.basename(md_name).replace('.md', '')
-            output_file_name = f'../../functions_repeat/gemini_repeat_functions/gemini_{base_name}_{time.time_ns()}.py'
+            output_file_name = f'../../gemini_{base_name}_{time.time_ns()}.py'
 
             # Comment out non-code parts
             commented_response_text = comment_out_non_code(response_text)

@@ -1,0 +1,13 @@
+Standard Output:
+We find LivingRoom!
+
+Standard Error:
+Traceback (most recent call last):
+  File "/Users/minghe/llm4faas/experiments_mandarin/baidu_functions/energy/zhipu_ernie-4.0-turbo-8k_energy_control_25_1731496062143196000.py", line 118, in <module>
+    main()
+  File "/Users/minghe/llm4faas/experiments_mandarin/baidu_functions/energy/zhipu_ernie-4.0-turbo-8k_energy_control_25_1731496062143196000.py", line 91, in main
+    living_room_sensors = get_room_sensors(home, "LivingRoom")
+                          ^^^^^^^^^^^^^^^^
+NameError: name 'get_room_sensors' is not defined. Did you mean: 'living_room_sensors'?
+
+Return code: 1

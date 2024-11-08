@@ -1,0 +1,844 @@
+Error: Execution timed out
+Standard Output:
+/Actuator/Light/LivingRoom/1 is turned off.
+/Actuator/Light/LivingRoom/2 is turned off.
+/Actuator/Light/Bedroom/1 is turned off.
+/Actuator/Light/Bedroom/2 is turned off.
+/Actuator/Light/Kitchen/1 is turned off.
+/Actuator/Light/Bathroom/1 is turned off.
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/LivingRoom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/Bedroom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/Bathroom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/LivingRoom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Bedroom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Kitchen/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Bathroom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Balcony/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/LightIntensive/LivingRoom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/LightIntensive/Bedroom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/OutdoorTemperature/Balcony/1 is Currently OFF. 
+/Actuator/Light/LivingRoom/1 is turned off.
+/Actuator/Light/LivingRoom/2 is turned off.
+/Actuator/Light/Bedroom/1 is turned off.
+/Actuator/Light/Bedroom/2 is turned off.
+/Actuator/Light/Kitchen/1 is turned off.
+/Actuator/Light/Bathroom/1 is turned off.
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/LivingRoom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/Bedroom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/Bathroom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/LivingRoom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Bedroom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Kitchen/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Bathroom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Balcony/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/LightIntensive/LivingRoom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/LightIntensive/Bedroom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/OutdoorTemperature/Balcony/1 is Currently OFF. 
+/Actuator/Light/LivingRoom/1 is turned off.
+/Actuator/Light/LivingRoom/2 is turned off.
+/Actuator/Light/Bedroom/1 is turned off.
+/Actuator/Light/Bedroom/2 is turned off.
+/Actuator/Light/Kitchen/1 is turned off.
+/Actuator/Light/Bathroom/1 is turned off.
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/LivingRoom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/Bedroom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/Bathroom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/LivingRoom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Bedroom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Kitchen/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Bathroom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Balcony/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/LightIntensive/LivingRoom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/LightIntensive/Bedroom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/OutdoorTemperature/Balcony/1 is Currently OFF. 
+/Actuator/Light/LivingRoom/1 is turned off.
+/Actuator/Light/LivingRoom/2 is turned off.
+/Actuator/Light/Bedroom/1 is turned off.
+/Actuator/Light/Bedroom/2 is turned off.
+/Actuator/Light/Kitchen/1 is turned off.
+/Actuator/Light/Bathroom/1 is turned off.
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/LivingRoom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/Bedroom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/Bathroom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/LivingRoom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Bedroom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Kitchen/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Bathroom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Balcony/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/LightIntensive/LivingRoom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/LightIntensive/Bedroom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/OutdoorTemperature/Balcony/1 is Currently OFF. 
+/Actuator/Light/LivingRoom/1 is turned off.
+/Actuator/Light/LivingRoom/2 is turned off.
+/Actuator/Light/Bedroom/1 is turned off.
+/Actuator/Light/Bedroom/2 is turned off.
+/Actuator/Light/Kitchen/1 is turned off.
+/Actuator/Light/Bathroom/1 is turned off.
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/LivingRoom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/Bedroom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/Bathroom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/LivingRoom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Bedroom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Kitchen/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Bathroom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Balcony/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/LightIntensive/LivingRoom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/LightIntensive/Bedroom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/OutdoorTemperature/Balcony/1 is Currently OFF. 
+/Actuator/Light/LivingRoom/1 is turned off.
+/Actuator/Light/LivingRoom/2 is turned off.
+/Actuator/Light/Bedroom/1 is turned off.
+/Actuator/Light/Bedroom/2 is turned off.
+/Actuator/Light/Kitchen/1 is turned off.
+/Actuator/Light/Bathroom/1 is turned off.
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/LivingRoom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/Bedroom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/Bathroom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/LivingRoom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Bedroom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Kitchen/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Bathroom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Balcony/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/LightIntensive/LivingRoom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/LightIntensive/Bedroom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/OutdoorTemperature/Balcony/1 is Currently OFF. 
+/Actuator/Light/LivingRoom/1 is turned off.
+/Actuator/Light/LivingRoom/2 is turned off.
+/Actuator/Light/Bedroom/1 is turned off.
+/Actuator/Light/Bedroom/2 is turned off.
+/Actuator/Light/Kitchen/1 is turned off.
+/Actuator/Light/Bathroom/1 is turned off.
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/LivingRoom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/Bedroom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/Bathroom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/LivingRoom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Bedroom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Kitchen/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Bathroom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Balcony/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/LightIntensive/LivingRoom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/LightIntensive/Bedroom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/OutdoorTemperature/Balcony/1 is Currently OFF. 
+/Actuator/Light/LivingRoom/1 is turned off.
+/Actuator/Light/LivingRoom/2 is turned off.
+/Actuator/Light/Bedroom/1 is turned off.
+/Actuator/Light/Bedroom/2 is turned off.
+/Actuator/Light/Kitchen/1 is turned off.
+/Actuator/Light/Bathroom/1 is turned off.
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/LivingRoom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/Bedroom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/Bathroom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/LivingRoom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Bedroom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Kitchen/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Bathroom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Balcony/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/LightIntensive/LivingRoom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/LightIntensive/Bedroom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/OutdoorTemperature/Balcony/1 is Currently OFF. 
+/Actuator/Light/LivingRoom/1 is turned off.
+/Actuator/Light/LivingRoom/2 is turned off.
+/Actuator/Light/Bedroom/1 is turned off.
+/Actuator/Light/Bedroom/2 is turned off.
+/Actuator/Light/Kitchen/1 is turned off.
+/Actuator/Light/Bathroom/1 is turned off.
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/LivingRoom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/Bedroom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/Bathroom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/LivingRoom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Bedroom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Kitchen/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Bathroom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Balcony/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/LightIntensive/LivingRoom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/LightIntensive/Bedroom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/OutdoorTemperature/Balcony/1 is Currently OFF. 
+/Actuator/Light/LivingRoom/1 is turned off.
+/Actuator/Light/LivingRoom/2 is turned off.
+/Actuator/Light/Bedroom/1 is turned off.
+/Actuator/Light/Bedroom/2 is turned off.
+/Actuator/Light/Kitchen/1 is turned off.
+/Actuator/Light/Bathroom/1 is turned off.
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/LivingRoom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/Bedroom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/Bathroom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/LivingRoom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Bedroom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Kitchen/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Bathroom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Balcony/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/LightIntensive/LivingRoom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/LightIntensive/Bedroom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/OutdoorTemperature/Balcony/1 is Currently OFF. 
+/Actuator/Light/LivingRoom/1 is turned off.
+/Actuator/Light/LivingRoom/2 is turned off.
+/Actuator/Light/Bedroom/1 is turned off.
+/Actuator/Light/Bedroom/2 is turned off.
+/Actuator/Light/Kitchen/1 is turned off.
+/Actuator/Light/Bathroom/1 is turned off.
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/LivingRoom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/Bedroom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/Bathroom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/LivingRoom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Bedroom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Kitchen/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Bathroom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Balcony/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/LightIntensive/LivingRoom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/LightIntensive/Bedroom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/OutdoorTemperature/Balcony/1 is Currently OFF. 
+/Actuator/Light/LivingRoom/1 is turned off.
+/Actuator/Light/LivingRoom/2 is turned off.
+/Actuator/Light/Bedroom/1 is turned off.
+/Actuator/Light/Bedroom/2 is turned off.
+/Actuator/Light/Kitchen/1 is turned off.
+/Actuator/Light/Bathroom/1 is turned off.
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/LivingRoom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/Bedroom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/Bathroom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/LivingRoom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Bedroom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Kitchen/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Bathroom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Balcony/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/LightIntensive/LivingRoom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/LightIntensive/Bedroom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/OutdoorTemperature/Balcony/1 is Currently OFF. 
+/Actuator/Light/LivingRoom/1 is turned off.
+/Actuator/Light/LivingRoom/2 is turned off.
+/Actuator/Light/Bedroom/1 is turned off.
+/Actuator/Light/Bedroom/2 is turned off.
+/Actuator/Light/Kitchen/1 is turned off.
+/Actuator/Light/Bathroom/1 is turned off.
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/LivingRoom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/Bedroom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/Bathroom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/LivingRoom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Bedroom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Kitchen/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Bathroom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Balcony/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/LightIntensive/LivingRoom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/LightIntensive/Bedroom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/OutdoorTemperature/Balcony/1 is Currently OFF. 
+/Actuator/Light/LivingRoom/1 is turned off.
+/Actuator/Light/LivingRoom/2 is turned off.
+/Actuator/Light/Bedroom/1 is turned off.
+/Actuator/Light/Bedroom/2 is turned off.
+/Actuator/Light/Kitchen/1 is turned off.
+/Actuator/Light/Bathroom/1 is turned off.
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/LivingRoom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/Bedroom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/Bathroom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/LivingRoom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Bedroom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Kitchen/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Bathroom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Balcony/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/LightIntensive/LivingRoom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/LightIntensive/Bedroom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/OutdoorTemperature/Balcony/1 is Currently OFF. 
+/Actuator/Light/LivingRoom/1 is turned off.
+/Actuator/Light/LivingRoom/2 is turned off.
+/Actuator/Light/Bedroom/1 is turned off.
+/Actuator/Light/Bedroom/2 is turned off.
+/Actuator/Light/Kitchen/1 is turned off.
+/Actuator/Light/Bathroom/1 is turned off.
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/LivingRoom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/Bedroom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/Bathroom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/LivingRoom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Bedroom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Kitchen/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Bathroom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Balcony/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/LightIntensive/LivingRoom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/LightIntensive/Bedroom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/OutdoorTemperature/Balcony/1 is Currently OFF. 
+/Actuator/Light/LivingRoom/1 is turned off.
+/Actuator/Light/LivingRoom/2 is turned off.
+/Actuator/Light/Bedroom/1 is turned off.
+/Actuator/Light/Bedroom/2 is turned off.
+/Actuator/Light/Kitchen/1 is turned off.
+/Actuator/Light/Bathroom/1 is turned off.
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/LivingRoom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/Bedroom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/Bathroom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/LivingRoom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Bedroom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Kitchen/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Bathroom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Balcony/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/LightIntensive/LivingRoom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/LightIntensive/Bedroom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/OutdoorTemperature/Balcony/1 is Currently OFF. 
+/Actuator/Light/LivingRoom/1 is turned off.
+/Actuator/Light/LivingRoom/2 is turned off.
+/Actuator/Light/Bedroom/1 is turned off.
+/Actuator/Light/Bedroom/2 is turned off.
+/Actuator/Light/Kitchen/1 is turned off.
+/Actuator/Light/Bathroom/1 is turned off.
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/LivingRoom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/Bedroom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/Bathroom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/LivingRoom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Bedroom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Kitchen/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Bathroom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Balcony/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/LightIntensive/LivingRoom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/LightIntensive/Bedroom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/OutdoorTemperature/Balcony/1 is Currently OFF. 
+/Actuator/Light/LivingRoom/1 is turned off.
+/Actuator/Light/LivingRoom/2 is turned off.
+/Actuator/Light/Bedroom/1 is turned off.
+/Actuator/Light/Bedroom/2 is turned off.
+/Actuator/Light/Kitchen/1 is turned off.
+/Actuator/Light/Bathroom/1 is turned off.
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/LivingRoom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/Bedroom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/Bathroom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/LivingRoom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Bedroom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Kitchen/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Bathroom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Balcony/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/LightIntensive/LivingRoom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/LightIntensive/Bedroom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/OutdoorTemperature/Balcony/1 is Currently OFF. 
+/Actuator/Light/LivingRoom/1 is turned off.
+/Actuator/Light/LivingRoom/2 is turned off.
+/Actuator/Light/Bedroom/1 is turned off.
+/Actuator/Light/Bedroom/2 is turned off.
+/Actuator/Light/Kitchen/1 is turned off.
+/Actuator/Light/Bathroom/1 is turned off.
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/LivingRoom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/Bedroom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/Bathroom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/LivingRoom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Bedroom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Kitchen/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Bathroom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Balcony/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/LightIntensive/LivingRoom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/LightIntensive/Bedroom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/OutdoorTemperature/Balcony/1 is Currently OFF. 
+/Actuator/Light/LivingRoom/1 is turned off.
+/Actuator/Light/LivingRoom/2 is turned off.
+/Actuator/Light/Bedroom/1 is turned off.
+/Actuator/Light/Bedroom/2 is turned off.
+/Actuator/Light/Kitchen/1 is turned off.
+/Actuator/Light/Bathroom/1 is turned off.
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/LivingRoom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/Bedroom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/Bathroom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/LivingRoom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Bedroom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Kitchen/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Bathroom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Balcony/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/LightIntensive/LivingRoom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/LightIntensive/Bedroom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/OutdoorTemperature/Balcony/1 is Currently OFF. 
+/Actuator/Light/LivingRoom/1 is turned off.
+/Actuator/Light/LivingRoom/2 is turned off.
+/Actuator/Light/Bedroom/1 is turned off.
+/Actuator/Light/Bedroom/2 is turned off.
+/Actuator/Light/Kitchen/1 is turned off.
+/Actuator/Light/Bathroom/1 is turned off.
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/LivingRoom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/Bedroom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/Bathroom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/LivingRoom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Bedroom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Kitchen/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Bathroom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Balcony/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/LightIntensive/LivingRoom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/LightIntensive/Bedroom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/OutdoorTemperature/Balcony/1 is Currently OFF. 
+/Actuator/Light/LivingRoom/1 is turned off.
+/Actuator/Light/LivingRoom/2 is turned off.
+/Actuator/Light/Bedroom/1 is turned off.
+/Actuator/Light/Bedroom/2 is turned off.
+/Actuator/Light/Kitchen/1 is turned off.
+/Actuator/Light/Bathroom/1 is turned off.
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/LivingRoom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/Bedroom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/Bathroom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/LivingRoom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Bedroom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Kitchen/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Bathroom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Balcony/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/LightIntensive/LivingRoom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/LightIntensive/Bedroom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/OutdoorTemperature/Balcony/1 is Currently OFF. 
+/Actuator/Light/LivingRoom/1 is turned off.
+/Actuator/Light/LivingRoom/2 is turned off.
+/Actuator/Light/Bedroom/1 is turned off.
+/Actuator/Light/Bedroom/2 is turned off.
+/Actuator/Light/Kitchen/1 is turned off.
+/Actuator/Light/Bathroom/1 is turned off.
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/LivingRoom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/Bedroom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/Bathroom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/LivingRoom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Bedroom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Kitchen/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Bathroom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Balcony/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/LightIntensive/LivingRoom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/LightIntensive/Bedroom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/OutdoorTemperature/Balcony/1 is Currently OFF. 
+/Actuator/Light/LivingRoom/1 is turned off.
+/Actuator/Light/LivingRoom/2 is turned off.
+/Actuator/Light/Bedroom/1 is turned off.
+/Actuator/Light/Bedroom/2 is turned off.
+/Actuator/Light/Kitchen/1 is turned off.
+/Actuator/Light/Bathroom/1 is turned off.
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/LivingRoom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/Bedroom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/Bathroom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/LivingRoom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Bedroom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Kitchen/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Bathroom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Balcony/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/LightIntensive/LivingRoom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/LightIntensive/Bedroom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/OutdoorTemperature/Balcony/1 is Currently OFF. 
+/Actuator/Light/LivingRoom/1 is turned off.
+/Actuator/Light/LivingRoom/2 is turned off.
+/Actuator/Light/Bedroom/1 is turned off.
+/Actuator/Light/Bedroom/2 is turned off.
+/Actuator/Light/Kitchen/1 is turned off.
+/Actuator/Light/Bathroom/1 is turned off.
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/LivingRoom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/Bedroom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/Bathroom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/LivingRoom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Bedroom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Kitchen/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Bathroom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Balcony/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/LightIntensive/LivingRoom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/LightIntensive/Bedroom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/OutdoorTemperature/Balcony/1 is Currently OFF. 
+/Actuator/Light/LivingRoom/1 is turned off.
+/Actuator/Light/LivingRoom/2 is turned off.
+/Actuator/Light/Bedroom/1 is turned off.
+/Actuator/Light/Bedroom/2 is turned off.
+/Actuator/Light/Kitchen/1 is turned off.
+/Actuator/Light/Bathroom/1 is turned off.
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/LivingRoom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/Bedroom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/Bathroom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/LivingRoom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Bedroom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Kitchen/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Bathroom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Balcony/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/LightIntensive/LivingRoom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/LightIntensive/Bedroom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/OutdoorTemperature/Balcony/1 is Currently OFF. 
+/Actuator/Light/LivingRoom/1 is turned off.
+/Actuator/Light/LivingRoom/2 is turned off.
+/Actuator/Light/Bedroom/1 is turned off.
+/Actuator/Light/Bedroom/2 is turned off.
+/Actuator/Light/Kitchen/1 is turned off.
+/Actuator/Light/Bathroom/1 is turned off.
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/LivingRoom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/Bedroom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/Bathroom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/LivingRoom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Bedroom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Kitchen/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Bathroom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Balcony/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/LightIntensive/LivingRoom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/LightIntensive/Bedroom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/OutdoorTemperature/Balcony/1 is Currently OFF. 
+/Actuator/Light/LivingRoom/1 is turned off.
+/Actuator/Light/LivingRoom/2 is turned off.
+/Actuator/Light/Bedroom/1 is turned off.
+/Actuator/Light/Bedroom/2 is turned off.
+/Actuator/Light/Kitchen/1 is turned off.
+/Actuator/Light/Bathroom/1 is turned off.
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/LivingRoom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/Bedroom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/Bathroom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/LivingRoom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Bedroom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Kitchen/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Bathroom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Balcony/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/LightIntensive/LivingRoom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/LightIntensive/Bedroom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/OutdoorTemperature/Balcony/1 is Currently OFF. 
+/Actuator/Light/LivingRoom/1 is turned off.
+/Actuator/Light/LivingRoom/2 is turned off.
+/Actuator/Light/Bedroom/1 is turned off.
+/Actuator/Light/Bedroom/2 is turned off.
+/Actuator/Light/Kitchen/1 is turned off.
+/Actuator/Light/Bathroom/1 is turned off.
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/LivingRoom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/Bedroom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/Bathroom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/LivingRoom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Bedroom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Kitchen/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Bathroom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Balcony/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/LightIntensive/LivingRoom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/LightIntensive/Bedroom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/OutdoorTemperature/Balcony/1 is Currently OFF. 
+/Actuator/Light/LivingRoom/1 is turned off.
+/Actuator/Light/LivingRoom/2 is turned off.
+/Actuator/Light/Bedroom/1 is turned off.
+/Actuator/Light/Bedroom/2 is turned off.
+/Actuator/Light/Kitchen/1 is turned off.
+/Actuator/Light/Bathroom/1 is turned off.
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/LivingRoom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/Bedroom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/Bathroom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/LivingRoom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Bedroom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Kitchen/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Bathroom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Balcony/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/LightIntensive/LivingRoom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/LightIntensive/Bedroom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/OutdoorTemperature/Balcony/1 is Currently OFF. 
+
+Standard Error:
+2025-01-14 16:46:43,205 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/LivingRoom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:46:43,205 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/Bedroom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:46:43,205 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/Bathroom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:46:43,205 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/LivingRoom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:46:43,205 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Bedroom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:46:43,205 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Kitchen/1' is currently OFF. Cannot get reading.
+2025-01-14 16:46:43,205 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Bathroom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:46:43,205 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Balcony/1' is currently OFF. Cannot get reading.
+2025-01-14 16:46:43,205 - sensor.py - get_reading - WARNING - '/Sensor/LightIntensive/LivingRoom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:46:43,205 - sensor.py - get_reading - WARNING - '/Sensor/LightIntensive/Bedroom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:46:43,205 - sensor.py - get_reading - WARNING - '/Sensor/OutdoorTemperature/Balcony/1' is currently OFF. Cannot get reading.
+2025-01-14 16:46:44,210 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/LivingRoom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:46:44,210 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/Bedroom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:46:44,210 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/Bathroom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:46:44,210 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/LivingRoom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:46:44,210 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Bedroom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:46:44,211 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Kitchen/1' is currently OFF. Cannot get reading.
+2025-01-14 16:46:44,211 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Bathroom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:46:44,211 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Balcony/1' is currently OFF. Cannot get reading.
+2025-01-14 16:46:44,211 - sensor.py - get_reading - WARNING - '/Sensor/LightIntensive/LivingRoom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:46:44,211 - sensor.py - get_reading - WARNING - '/Sensor/LightIntensive/Bedroom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:46:44,211 - sensor.py - get_reading - WARNING - '/Sensor/OutdoorTemperature/Balcony/1' is currently OFF. Cannot get reading.
+2025-01-14 16:46:45,216 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/LivingRoom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:46:45,216 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/Bedroom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:46:45,217 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/Bathroom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:46:45,217 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/LivingRoom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:46:45,217 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Bedroom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:46:45,217 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Kitchen/1' is currently OFF. Cannot get reading.
+2025-01-14 16:46:45,217 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Bathroom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:46:45,217 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Balcony/1' is currently OFF. Cannot get reading.
+2025-01-14 16:46:45,217 - sensor.py - get_reading - WARNING - '/Sensor/LightIntensive/LivingRoom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:46:45,217 - sensor.py - get_reading - WARNING - '/Sensor/LightIntensive/Bedroom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:46:45,217 - sensor.py - get_reading - WARNING - '/Sensor/OutdoorTemperature/Balcony/1' is currently OFF. Cannot get reading.
+2025-01-14 16:46:46,222 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/LivingRoom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:46:46,223 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/Bedroom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:46:46,223 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/Bathroom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:46:46,223 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/LivingRoom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:46:46,223 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Bedroom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:46:46,223 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Kitchen/1' is currently OFF. Cannot get reading.
+2025-01-14 16:46:46,223 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Bathroom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:46:46,223 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Balcony/1' is currently OFF. Cannot get reading.
+2025-01-14 16:46:46,223 - sensor.py - get_reading - WARNING - '/Sensor/LightIntensive/LivingRoom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:46:46,223 - sensor.py - get_reading - WARNING - '/Sensor/LightIntensive/Bedroom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:46:46,223 - sensor.py - get_reading - WARNING - '/Sensor/OutdoorTemperature/Balcony/1' is currently OFF. Cannot get reading.
+2025-01-14 16:46:47,228 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/LivingRoom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:46:47,228 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/Bedroom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:46:47,228 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/Bathroom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:46:47,228 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/LivingRoom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:46:47,228 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Bedroom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:46:47,228 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Kitchen/1' is currently OFF. Cannot get reading.
+2025-01-14 16:46:47,228 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Bathroom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:46:47,228 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Balcony/1' is currently OFF. Cannot get reading.
+2025-01-14 16:46:47,228 - sensor.py - get_reading - WARNING - '/Sensor/LightIntensive/LivingRoom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:46:47,228 - sensor.py - get_reading - WARNING - '/Sensor/LightIntensive/Bedroom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:46:47,228 - sensor.py - get_reading - WARNING - '/Sensor/OutdoorTemperature/Balcony/1' is currently OFF. Cannot get reading.
+2025-01-14 16:46:48,234 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/LivingRoom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:46:48,234 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/Bedroom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:46:48,234 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/Bathroom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:46:48,234 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/LivingRoom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:46:48,234 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Bedroom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:46:48,234 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Kitchen/1' is currently OFF. Cannot get reading.
+2025-01-14 16:46:48,234 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Bathroom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:46:48,234 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Balcony/1' is currently OFF. Cannot get reading.
+2025-01-14 16:46:48,234 - sensor.py - get_reading - WARNING - '/Sensor/LightIntensive/LivingRoom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:46:48,234 - sensor.py - get_reading - WARNING - '/Sensor/LightIntensive/Bedroom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:46:48,234 - sensor.py - get_reading - WARNING - '/Sensor/OutdoorTemperature/Balcony/1' is currently OFF. Cannot get reading.
+2025-01-14 16:46:49,238 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/LivingRoom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:46:49,238 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/Bedroom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:46:49,238 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/Bathroom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:46:49,238 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/LivingRoom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:46:49,238 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Bedroom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:46:49,238 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Kitchen/1' is currently OFF. Cannot get reading.
+2025-01-14 16:46:49,238 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Bathroom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:46:49,238 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Balcony/1' is currently OFF. Cannot get reading.
+2025-01-14 16:46:49,238 - sensor.py - get_reading - WARNING - '/Sensor/LightIntensive/LivingRoom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:46:49,238 - sensor.py - get_reading - WARNING - '/Sensor/LightIntensive/Bedroom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:46:49,238 - sensor.py - get_reading - WARNING - '/Sensor/OutdoorTemperature/Balcony/1' is currently OFF. Cannot get reading.
+2025-01-14 16:46:50,241 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/LivingRoom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:46:50,241 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/Bedroom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:46:50,241 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/Bathroom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:46:50,241 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/LivingRoom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:46:50,241 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Bedroom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:46:50,242 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Kitchen/1' is currently OFF. Cannot get reading.
+2025-01-14 16:46:50,242 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Bathroom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:46:50,242 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Balcony/1' is currently OFF. Cannot get reading.
+2025-01-14 16:46:50,242 - sensor.py - get_reading - WARNING - '/Sensor/LightIntensive/LivingRoom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:46:50,242 - sensor.py - get_reading - WARNING - '/Sensor/LightIntensive/Bedroom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:46:50,242 - sensor.py - get_reading - WARNING - '/Sensor/OutdoorTemperature/Balcony/1' is currently OFF. Cannot get reading.
+2025-01-14 16:46:51,245 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/LivingRoom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:46:51,245 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/Bedroom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:46:51,245 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/Bathroom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:46:51,245 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/LivingRoom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:46:51,246 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Bedroom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:46:51,246 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Kitchen/1' is currently OFF. Cannot get reading.
+2025-01-14 16:46:51,246 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Bathroom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:46:51,246 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Balcony/1' is currently OFF. Cannot get reading.
+2025-01-14 16:46:51,246 - sensor.py - get_reading - WARNING - '/Sensor/LightIntensive/LivingRoom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:46:51,246 - sensor.py - get_reading - WARNING - '/Sensor/LightIntensive/Bedroom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:46:51,246 - sensor.py - get_reading - WARNING - '/Sensor/OutdoorTemperature/Balcony/1' is currently OFF. Cannot get reading.
+2025-01-14 16:46:52,251 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/LivingRoom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:46:52,251 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/Bedroom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:46:52,251 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/Bathroom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:46:52,252 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/LivingRoom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:46:52,252 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Bedroom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:46:52,252 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Kitchen/1' is currently OFF. Cannot get reading.
+2025-01-14 16:46:52,252 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Bathroom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:46:52,252 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Balcony/1' is currently OFF. Cannot get reading.
+2025-01-14 16:46:52,252 - sensor.py - get_reading - WARNING - '/Sensor/LightIntensive/LivingRoom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:46:52,252 - sensor.py - get_reading - WARNING - '/Sensor/LightIntensive/Bedroom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:46:52,252 - sensor.py - get_reading - WARNING - '/Sensor/OutdoorTemperature/Balcony/1' is currently OFF. Cannot get reading.
+2025-01-14 16:46:53,257 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/LivingRoom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:46:53,257 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/Bedroom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:46:53,257 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/Bathroom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:46:53,258 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/LivingRoom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:46:53,258 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Bedroom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:46:53,258 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Kitchen/1' is currently OFF. Cannot get reading.
+2025-01-14 16:46:53,258 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Bathroom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:46:53,258 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Balcony/1' is currently OFF. Cannot get reading.
+2025-01-14 16:46:53,258 - sensor.py - get_reading - WARNING - '/Sensor/LightIntensive/LivingRoom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:46:53,258 - sensor.py - get_reading - WARNING - '/Sensor/LightIntensive/Bedroom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:46:53,258 - sensor.py - get_reading - WARNING - '/Sensor/OutdoorTemperature/Balcony/1' is currently OFF. Cannot get reading.
+2025-01-14 16:46:54,260 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/LivingRoom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:46:54,260 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/Bedroom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:46:54,261 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/Bathroom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:46:54,261 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/LivingRoom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:46:54,261 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Bedroom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:46:54,261 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Kitchen/1' is currently OFF. Cannot get reading.
+2025-01-14 16:46:54,261 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Bathroom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:46:54,261 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Balcony/1' is currently OFF. Cannot get reading.
+2025-01-14 16:46:54,261 - sensor.py - get_reading - WARNING - '/Sensor/LightIntensive/LivingRoom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:46:54,261 - sensor.py - get_reading - WARNING - '/Sensor/LightIntensive/Bedroom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:46:54,261 - sensor.py - get_reading - WARNING - '/Sensor/OutdoorTemperature/Balcony/1' is currently OFF. Cannot get reading.
+2025-01-14 16:46:55,261 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/LivingRoom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:46:55,262 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/Bedroom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:46:55,262 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/Bathroom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:46:55,262 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/LivingRoom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:46:55,262 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Bedroom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:46:55,262 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Kitchen/1' is currently OFF. Cannot get reading.
+2025-01-14 16:46:55,262 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Bathroom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:46:55,262 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Balcony/1' is currently OFF. Cannot get reading.
+2025-01-14 16:46:55,262 - sensor.py - get_reading - WARNING - '/Sensor/LightIntensive/LivingRoom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:46:55,262 - sensor.py - get_reading - WARNING - '/Sensor/LightIntensive/Bedroom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:46:55,262 - sensor.py - get_reading - WARNING - '/Sensor/OutdoorTemperature/Balcony/1' is currently OFF. Cannot get reading.
+2025-01-14 16:46:56,264 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/LivingRoom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:46:56,264 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/Bedroom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:46:56,264 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/Bathroom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:46:56,264 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/LivingRoom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:46:56,264 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Bedroom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:46:56,264 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Kitchen/1' is currently OFF. Cannot get reading.
+2025-01-14 16:46:56,264 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Bathroom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:46:56,264 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Balcony/1' is currently OFF. Cannot get reading.
+2025-01-14 16:46:56,264 - sensor.py - get_reading - WARNING - '/Sensor/LightIntensive/LivingRoom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:46:56,264 - sensor.py - get_reading - WARNING - '/Sensor/LightIntensive/Bedroom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:46:56,264 - sensor.py - get_reading - WARNING - '/Sensor/OutdoorTemperature/Balcony/1' is currently OFF. Cannot get reading.
+2025-01-14 16:46:57,269 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/LivingRoom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:46:57,270 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/Bedroom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:46:57,270 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/Bathroom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:46:57,270 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/LivingRoom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:46:57,270 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Bedroom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:46:57,270 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Kitchen/1' is currently OFF. Cannot get reading.
+2025-01-14 16:46:57,270 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Bathroom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:46:57,270 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Balcony/1' is currently OFF. Cannot get reading.
+2025-01-14 16:46:57,270 - sensor.py - get_reading - WARNING - '/Sensor/LightIntensive/LivingRoom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:46:57,270 - sensor.py - get_reading - WARNING - '/Sensor/LightIntensive/Bedroom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:46:57,270 - sensor.py - get_reading - WARNING - '/Sensor/OutdoorTemperature/Balcony/1' is currently OFF. Cannot get reading.
+2025-01-14 16:46:58,272 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/LivingRoom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:46:58,272 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/Bedroom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:46:58,272 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/Bathroom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:46:58,272 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/LivingRoom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:46:58,272 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Bedroom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:46:58,272 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Kitchen/1' is currently OFF. Cannot get reading.
+2025-01-14 16:46:58,272 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Bathroom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:46:58,272 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Balcony/1' is currently OFF. Cannot get reading.
+2025-01-14 16:46:58,272 - sensor.py - get_reading - WARNING - '/Sensor/LightIntensive/LivingRoom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:46:58,272 - sensor.py - get_reading - WARNING - '/Sensor/LightIntensive/Bedroom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:46:58,272 - sensor.py - get_reading - WARNING - '/Sensor/OutdoorTemperature/Balcony/1' is currently OFF. Cannot get reading.
+2025-01-14 16:46:59,275 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/LivingRoom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:46:59,275 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/Bedroom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:46:59,275 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/Bathroom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:46:59,275 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/LivingRoom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:46:59,275 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Bedroom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:46:59,275 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Kitchen/1' is currently OFF. Cannot get reading.
+2025-01-14 16:46:59,275 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Bathroom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:46:59,275 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Balcony/1' is currently OFF. Cannot get reading.
+2025-01-14 16:46:59,275 - sensor.py - get_reading - WARNING - '/Sensor/LightIntensive/LivingRoom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:46:59,275 - sensor.py - get_reading - WARNING - '/Sensor/LightIntensive/Bedroom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:46:59,275 - sensor.py - get_reading - WARNING - '/Sensor/OutdoorTemperature/Balcony/1' is currently OFF. Cannot get reading.
+2025-01-14 16:47:00,280 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/LivingRoom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:47:00,280 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/Bedroom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:47:00,281 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/Bathroom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:47:00,281 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/LivingRoom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:47:00,281 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Bedroom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:47:00,281 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Kitchen/1' is currently OFF. Cannot get reading.
+2025-01-14 16:47:00,281 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Bathroom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:47:00,281 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Balcony/1' is currently OFF. Cannot get reading.
+2025-01-14 16:47:00,281 - sensor.py - get_reading - WARNING - '/Sensor/LightIntensive/LivingRoom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:47:00,281 - sensor.py - get_reading - WARNING - '/Sensor/LightIntensive/Bedroom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:47:00,281 - sensor.py - get_reading - WARNING - '/Sensor/OutdoorTemperature/Balcony/1' is currently OFF. Cannot get reading.
+2025-01-14 16:47:01,283 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/LivingRoom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:47:01,283 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/Bedroom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:47:01,283 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/Bathroom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:47:01,283 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/LivingRoom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:47:01,283 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Bedroom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:47:01,283 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Kitchen/1' is currently OFF. Cannot get reading.
+2025-01-14 16:47:01,283 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Bathroom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:47:01,283 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Balcony/1' is currently OFF. Cannot get reading.
+2025-01-14 16:47:01,283 - sensor.py - get_reading - WARNING - '/Sensor/LightIntensive/LivingRoom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:47:01,283 - sensor.py - get_reading - WARNING - '/Sensor/LightIntensive/Bedroom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:47:01,283 - sensor.py - get_reading - WARNING - '/Sensor/OutdoorTemperature/Balcony/1' is currently OFF. Cannot get reading.
+2025-01-14 16:47:02,284 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/LivingRoom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:47:02,285 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/Bedroom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:47:02,285 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/Bathroom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:47:02,285 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/LivingRoom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:47:02,285 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Bedroom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:47:02,285 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Kitchen/1' is currently OFF. Cannot get reading.
+2025-01-14 16:47:02,285 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Bathroom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:47:02,285 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Balcony/1' is currently OFF. Cannot get reading.
+2025-01-14 16:47:02,285 - sensor.py - get_reading - WARNING - '/Sensor/LightIntensive/LivingRoom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:47:02,285 - sensor.py - get_reading - WARNING - '/Sensor/LightIntensive/Bedroom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:47:02,285 - sensor.py - get_reading - WARNING - '/Sensor/OutdoorTemperature/Balcony/1' is currently OFF. Cannot get reading.
+2025-01-14 16:47:03,289 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/LivingRoom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:47:03,289 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/Bedroom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:47:03,289 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/Bathroom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:47:03,289 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/LivingRoom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:47:03,289 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Bedroom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:47:03,289 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Kitchen/1' is currently OFF. Cannot get reading.
+2025-01-14 16:47:03,289 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Bathroom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:47:03,289 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Balcony/1' is currently OFF. Cannot get reading.
+2025-01-14 16:47:03,290 - sensor.py - get_reading - WARNING - '/Sensor/LightIntensive/LivingRoom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:47:03,290 - sensor.py - get_reading - WARNING - '/Sensor/LightIntensive/Bedroom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:47:03,290 - sensor.py - get_reading - WARNING - '/Sensor/OutdoorTemperature/Balcony/1' is currently OFF. Cannot get reading.
+2025-01-14 16:47:04,295 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/LivingRoom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:47:04,295 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/Bedroom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:47:04,295 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/Bathroom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:47:04,295 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/LivingRoom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:47:04,295 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Bedroom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:47:04,295 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Kitchen/1' is currently OFF. Cannot get reading.
+2025-01-14 16:47:04,295 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Bathroom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:47:04,295 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Balcony/1' is currently OFF. Cannot get reading.
+2025-01-14 16:47:04,295 - sensor.py - get_reading - WARNING - '/Sensor/LightIntensive/LivingRoom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:47:04,295 - sensor.py - get_reading - WARNING - '/Sensor/LightIntensive/Bedroom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:47:04,295 - sensor.py - get_reading - WARNING - '/Sensor/OutdoorTemperature/Balcony/1' is currently OFF. Cannot get reading.
+2025-01-14 16:47:05,300 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/LivingRoom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:47:05,300 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/Bedroom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:47:05,300 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/Bathroom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:47:05,300 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/LivingRoom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:47:05,300 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Bedroom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:47:05,300 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Kitchen/1' is currently OFF. Cannot get reading.
+2025-01-14 16:47:05,300 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Bathroom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:47:05,300 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Balcony/1' is currently OFF. Cannot get reading.
+2025-01-14 16:47:05,300 - sensor.py - get_reading - WARNING - '/Sensor/LightIntensive/LivingRoom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:47:05,300 - sensor.py - get_reading - WARNING - '/Sensor/LightIntensive/Bedroom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:47:05,300 - sensor.py - get_reading - WARNING - '/Sensor/OutdoorTemperature/Balcony/1' is currently OFF. Cannot get reading.
+2025-01-14 16:47:06,306 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/LivingRoom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:47:06,306 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/Bedroom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:47:06,306 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/Bathroom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:47:06,306 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/LivingRoom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:47:06,306 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Bedroom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:47:06,306 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Kitchen/1' is currently OFF. Cannot get reading.
+2025-01-14 16:47:06,306 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Bathroom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:47:06,306 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Balcony/1' is currently OFF. Cannot get reading.
+2025-01-14 16:47:06,306 - sensor.py - get_reading - WARNING - '/Sensor/LightIntensive/LivingRoom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:47:06,306 - sensor.py - get_reading - WARNING - '/Sensor/LightIntensive/Bedroom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:47:06,307 - sensor.py - get_reading - WARNING - '/Sensor/OutdoorTemperature/Balcony/1' is currently OFF. Cannot get reading.
+2025-01-14 16:47:07,312 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/LivingRoom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:47:07,312 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/Bedroom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:47:07,312 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/Bathroom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:47:07,313 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/LivingRoom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:47:07,313 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Bedroom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:47:07,313 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Kitchen/1' is currently OFF. Cannot get reading.
+2025-01-14 16:47:07,313 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Bathroom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:47:07,313 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Balcony/1' is currently OFF. Cannot get reading.
+2025-01-14 16:47:07,313 - sensor.py - get_reading - WARNING - '/Sensor/LightIntensive/LivingRoom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:47:07,313 - sensor.py - get_reading - WARNING - '/Sensor/LightIntensive/Bedroom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:47:07,313 - sensor.py - get_reading - WARNING - '/Sensor/OutdoorTemperature/Balcony/1' is currently OFF. Cannot get reading.
+2025-01-14 16:47:08,318 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/LivingRoom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:47:08,319 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/Bedroom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:47:08,319 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/Bathroom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:47:08,319 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/LivingRoom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:47:08,319 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Bedroom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:47:08,319 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Kitchen/1' is currently OFF. Cannot get reading.
+2025-01-14 16:47:08,319 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Bathroom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:47:08,319 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Balcony/1' is currently OFF. Cannot get reading.
+2025-01-14 16:47:08,319 - sensor.py - get_reading - WARNING - '/Sensor/LightIntensive/LivingRoom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:47:08,319 - sensor.py - get_reading - WARNING - '/Sensor/LightIntensive/Bedroom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:47:08,319 - sensor.py - get_reading - WARNING - '/Sensor/OutdoorTemperature/Balcony/1' is currently OFF. Cannot get reading.
+2025-01-14 16:47:09,324 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/LivingRoom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:47:09,325 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/Bedroom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:47:09,325 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/Bathroom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:47:09,325 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/LivingRoom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:47:09,325 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Bedroom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:47:09,325 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Kitchen/1' is currently OFF. Cannot get reading.
+2025-01-14 16:47:09,325 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Bathroom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:47:09,325 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Balcony/1' is currently OFF. Cannot get reading.
+2025-01-14 16:47:09,325 - sensor.py - get_reading - WARNING - '/Sensor/LightIntensive/LivingRoom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:47:09,325 - sensor.py - get_reading - WARNING - '/Sensor/LightIntensive/Bedroom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:47:09,326 - sensor.py - get_reading - WARNING - '/Sensor/OutdoorTemperature/Balcony/1' is currently OFF. Cannot get reading.
+2025-01-14 16:47:10,331 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/LivingRoom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:47:10,331 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/Bedroom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:47:10,331 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/Bathroom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:47:10,331 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/LivingRoom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:47:10,331 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Bedroom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:47:10,331 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Kitchen/1' is currently OFF. Cannot get reading.
+2025-01-14 16:47:10,331 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Bathroom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:47:10,332 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Balcony/1' is currently OFF. Cannot get reading.
+2025-01-14 16:47:10,332 - sensor.py - get_reading - WARNING - '/Sensor/LightIntensive/LivingRoom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:47:10,332 - sensor.py - get_reading - WARNING - '/Sensor/LightIntensive/Bedroom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:47:10,332 - sensor.py - get_reading - WARNING - '/Sensor/OutdoorTemperature/Balcony/1' is currently OFF. Cannot get reading.
+2025-01-14 16:47:11,337 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/LivingRoom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:47:11,337 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/Bedroom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:47:11,337 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/Bathroom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:47:11,337 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/LivingRoom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:47:11,338 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Bedroom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:47:11,338 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Kitchen/1' is currently OFF. Cannot get reading.
+2025-01-14 16:47:11,338 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Bathroom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:47:11,338 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Balcony/1' is currently OFF. Cannot get reading.
+2025-01-14 16:47:11,338 - sensor.py - get_reading - WARNING - '/Sensor/LightIntensive/LivingRoom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:47:11,338 - sensor.py - get_reading - WARNING - '/Sensor/LightIntensive/Bedroom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:47:11,338 - sensor.py - get_reading - WARNING - '/Sensor/OutdoorTemperature/Balcony/1' is currently OFF. Cannot get reading.
+2025-01-14 16:47:12,343 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/LivingRoom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:47:12,343 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/Bedroom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:47:12,343 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/Bathroom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:47:12,343 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/LivingRoom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:47:12,343 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Bedroom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:47:12,343 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Kitchen/1' is currently OFF. Cannot get reading.
+2025-01-14 16:47:12,343 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Bathroom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:47:12,343 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Balcony/1' is currently OFF. Cannot get reading.
+2025-01-14 16:47:12,343 - sensor.py - get_reading - WARNING - '/Sensor/LightIntensive/LivingRoom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:47:12,343 - sensor.py - get_reading - WARNING - '/Sensor/LightIntensive/Bedroom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:47:12,343 - sensor.py - get_reading - WARNING - '/Sensor/OutdoorTemperature/Balcony/1' is currently OFF. Cannot get reading.

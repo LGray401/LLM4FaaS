@@ -1,0 +1,58 @@
+Standard Output:
+'/Sensor/IndoorTemperature/LivingRoom/1' is now ON.
+/Sensor/IndoorTemperature/LivingRoom/1 reading is: 34.04
+Set the target temperature of /Actuator/Heater/LivingRoom/1 to 26.0°C.
+/Actuator/Heater/LivingRoom/1 is turned off.
+Set the target temperature of /Actuator/AC/LivingRoom/1 to 26.0°C.
+/Actuator/AC/LivingRoom/1 is turned on.
+/Sensor/IndoorTemperature/LivingRoom/1 is now OFF.
+'/Sensor/IndoorTemperature/Bedroom/1' is now ON.
+/Sensor/IndoorTemperature/Bedroom/1 reading is: 36.0
+Set the target temperature of /Actuator/Heater/Bedroom/1 to 26.0°C.
+/Actuator/Heater/Bedroom/1 is turned off.
+Set the target temperature of /Actuator/AC/Bedroom/1 to 26.0°C.
+/Actuator/AC/Bedroom/1 is turned on.
+/Sensor/IndoorTemperature/Bedroom/1 is now OFF.
+'/Sensor/IndoorTemperature/Bathroom/1' is now ON.
+/Sensor/IndoorTemperature/Bathroom/1 reading is: 33.85
+Set the target temperature of /Actuator/Heater/Bathroom/1 to 26.0°C.
+/Actuator/Heater/Bathroom/1 is turned off.
+/Sensor/IndoorTemperature/Bathroom/1 is now OFF.
+'/Sensor/Humidity/LivingRoom/1' is now ON.
+/Sensor/Humidity/LivingRoom/1 reading is: 29.83
+/Actuator/Humidifier/LivingRoom/1 is turned on.
+/Actuator/Humidifier/LivingRoom/1 Increasing humidity in LivingRoom
+/Sensor/Humidity/LivingRoom/1 is now OFF.
+'/Sensor/Humidity/Bedroom/1' is now ON.
+/Sensor/Humidity/Bedroom/1 reading is: 19.9
+/Actuator/Humidifier/Bedroom/1 is turned on.
+/Actuator/Humidifier/Bedroom/1 Increasing humidity in Bedroom
+/Sensor/Humidity/Bedroom/1 is now OFF.
+'/Sensor/Humidity/Kitchen/1' is now ON.
+/Sensor/Humidity/Kitchen/1 reading is: 28.77
+/Sensor/Humidity/Kitchen/1 is now OFF.
+'/Sensor/Humidity/Bathroom/1' is now ON.
+/Sensor/Humidity/Bathroom/1 reading is: 26.92
+/Sensor/Humidity/Bathroom/1 is now OFF.
+'/Sensor/Humidity/Balcony/1' is now ON.
+/Sensor/Humidity/Balcony/1 reading is: 29.55
+/Sensor/Humidity/Balcony/1 is now OFF.
+'/Sensor/LightIntensive/LivingRoom/1' is now ON.
+/Sensor/LightIntensive/LivingRoom/1 reading is: 1187.78
+/Actuator/Light/LivingRoom/1 is turned on.
+Set /Actuator/Light/LivingRoom/1 light brightness level to MEDIUM
+/Actuator/Light/LivingRoom/2 is turned on.
+Set /Actuator/Light/LivingRoom/2 light brightness level to MEDIUM
+/Sensor/LightIntensive/LivingRoom/1 is now OFF.
+'/Sensor/LightIntensive/Bedroom/1' is now ON.
+/Sensor/LightIntensive/Bedroom/1 reading is: 1072.78
+/Actuator/Light/Bedroom/1 is turned on.
+Set /Actuator/Light/Bedroom/1 light brightness level to MEDIUM
+/Actuator/Light/Bedroom/2 is turned on.
+Set /Actuator/Light/Bedroom/2 light brightness level to MEDIUM
+/Sensor/LightIntensive/Bedroom/1 is now OFF.
+Home environment adjusted according to the functional description.
+
+Standard Error:
+
+Return code: 0

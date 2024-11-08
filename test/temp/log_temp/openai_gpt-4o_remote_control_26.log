@@ -1,0 +1,17 @@
+Standard Output:
+/Actuator/Light/LivingRoom/1 is turned on.
+/Actuator/Light/LivingRoom/2 is turned on.
+/Actuator/Light/LivingRoom/3 is turned off.
+/Actuator/Light/LivingRoom/4 is turned off.
+Light /Actuator/Light/LivingRoom/5 is OFF. Please turn it on before setting the brightness level.
+Light /Actuator/Light/LivingRoom/6 is OFF. Please turn it on before setting the brightness level.
+Light /Actuator/Light/LivingRoom/7 is OFF. Please turn it on before setting the brightness level.
+Light /Actuator/Light/LivingRoom/8 is OFF. Please turn it on before setting the brightness level.
+
+Standard Error:
+2025-01-10 12:23:45,738 - actuator.py - set_brightness_level - WARNING - Light /Actuator/Light/LivingRoom/5 is OFF. Please turn it on before setting the brightness level.
+2025-01-10 12:23:45,738 - actuator.py - set_brightness_level - WARNING - Light /Actuator/Light/LivingRoom/6 is OFF. Please turn it on before setting the brightness level.
+2025-01-10 12:23:45,738 - actuator.py - set_brightness_level - WARNING - Light /Actuator/Light/LivingRoom/7 is OFF. Please turn it on before setting the brightness level.
+2025-01-10 12:23:45,738 - actuator.py - set_brightness_level - WARNING - Light /Actuator/Light/LivingRoom/8 is OFF. Please turn it on before setting the brightness level.
+
+Return code: 0

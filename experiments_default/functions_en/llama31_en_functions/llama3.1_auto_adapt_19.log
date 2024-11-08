@@ -1,0 +1,10 @@
+Standard Output:
+
+Standard Error:
+Traceback (most recent call last):
+  File "/Users/minghe/llm4faas/experiments_default/functions_en/llama31_en_functions/llama3.1_auto_adapt_19.py", line 42, in <module>
+    def create_room_with_components(name: str, sensor_types: Tuple[type], actuator_types: Tuple[type]) -> Room:
+                                                             ^^^^^
+NameError: name 'Tuple' is not defined. Did you mean: 'tuple'?
+
+Return code: 1

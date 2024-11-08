@@ -1,0 +1,13 @@
+Original,Rate,User,Task
+yes,1.0,User1,Easy
+yes,0.9667,User1,Medium
+no,1.0,User1,Advanced
+no,0.9,User1,Complex
+yes,1.0,User2,Easy
+yes,1.0,User2,Medium
+yes,0.9,User2,Advanced
+yes,0.9,User2,Complex
+yes,0.9,User3,Easy
+no,0.9,User3,Medium
+yes,1.0,User3,Advanced
+yes,1.0,User3,Complex

@@ -1,0 +1,34 @@
+Error: Execution timed out
+Standard Output:
+Living Room - Sensors: {'temperature': 21, 'humidity': 41, 'light': 204}, Devices: {'light': False, 'socket': False, 'window': False, 'door': True, 'heater': False, 'AC': False}
+Bedroom - Sensors: {'temperature': 19, 'humidity': 46, 'light': 155}, Devices: {'light': False, 'socket': False, 'window': False, 'door': True, 'heater': False, 'AC': False}
+Bathroom - Sensors: {'temperature': 24, 'humidity': 54}, Devices: {'light': False, 'socket': False, 'window': False, 'door': True, 'heater': False, 'AC': False}
+Kitchen - Sensors: {'humidity': 51, 'smoke': False}, Devices: {'light': False, 'socket': False, 'window': False, 'door': True, 'heater': False, 'AC': False}
+Balcony - Sensors: {'temperature': 18, 'humidity': 51}, Devices: {'door': True, 'light': False, 'socket': False, 'heater': False, 'AC': False}
+Living Room - Sensors: {'temperature': 21, 'humidity': 42, 'light': 207}, Devices: {'light': False, 'socket': False, 'window': False, 'door': True, 'heater': False, 'AC': False}
+Bedroom - Sensors: {'temperature': 18, 'humidity': 45, 'light': 151}, Devices: {'light': False, 'socket': False, 'window': False, 'door': True, 'heater': False, 'AC': False}
+Bathroom - Sensors: {'temperature': 25, 'humidity': 55}, Devices: {'light': False, 'socket': False, 'window': False, 'door': True, 'heater': False, 'AC': False}
+Kitchen - Sensors: {'humidity': 51, 'smoke': False}, Devices: {'light': False, 'socket': False, 'window': False, 'door': True, 'heater': False, 'AC': False}
+Balcony - Sensors: {'temperature': 17, 'humidity': 52}, Devices: {'door': True, 'light': False, 'socket': False, 'heater': True, 'AC': False}
+Living Room - Sensors: {'temperature': 21, 'humidity': 41, 'light': 208}, Devices: {'light': False, 'socket': False, 'window': False, 'door': True, 'heater': False, 'AC': False}
+Bedroom - Sensors: {'temperature': 19, 'humidity': 45, 'light': 152}, Devices: {'light': False, 'socket': False, 'window': False, 'door': True, 'heater': False, 'AC': False}
+Bathroom - Sensors: {'temperature': 24, 'humidity': 55}, Devices: {'light': False, 'socket': False, 'window': False, 'door': True, 'heater': False, 'AC': False}
+Kitchen - Sensors: {'humidity': 50, 'smoke': False}, Devices: {'light': False, 'socket': False, 'window': False, 'door': True, 'heater': False, 'AC': False}
+Balcony - Sensors: {'temperature': 16, 'humidity': 53}, Devices: {'door': True, 'light': False, 'socket': False, 'heater': True, 'AC': False}
+Living Room - Sensors: {'temperature': 22, 'humidity': 41, 'light': 204}, Devices: {'light': False, 'socket': False, 'window': False, 'door': True, 'heater': False, 'AC': False}
+Bedroom - Sensors: {'temperature': 18, 'humidity': 45, 'light': 149}, Devices: {'light': False, 'socket': False, 'window': False, 'door': True, 'heater': False, 'AC': False}
+Bathroom - Sensors: {'temperature': 25, 'humidity': 55}, Devices: {'light': False, 'socket': False, 'window': False, 'door': True, 'heater': False, 'AC': False}
+Kitchen - Sensors: {'humidity': 50, 'smoke': False}, Devices: {'light': False, 'socket': False, 'window': False, 'door': True, 'heater': False, 'AC': False}
+Balcony - Sensors: {'temperature': 17, 'humidity': 54}, Devices: {'door': True, 'light': False, 'socket': False, 'heater': True, 'AC': False}
+Living Room - Sensors: {'temperature': 21, 'humidity': 41, 'light': 200}, Devices: {'light': False, 'socket': False, 'window': False, 'door': True, 'heater': False, 'AC': False}
+Bedroom - Sensors: {'temperature': 18, 'humidity': 45, 'light': 151}, Devices: {'light': False, 'socket': False, 'window': False, 'door': True, 'heater': False, 'AC': False}
+Bathroom - Sensors: {'temperature': 25, 'humidity': 54}, Devices: {'light': False, 'socket': False, 'window': False, 'door': True, 'heater': False, 'AC': False}
+Kitchen - Sensors: {'humidity': 50, 'smoke': False}, Devices: {'light': False, 'socket': False, 'window': False, 'door': True, 'heater': False, 'AC': False}
+Balcony - Sensors: {'temperature': 17, 'humidity': 55}, Devices: {'door': True, 'light': False, 'socket': False, 'heater': True, 'AC': False}
+Living Room - Sensors: {'temperature': 22, 'humidity': 41, 'light': 206}, Devices: {'light': False, 'socket': False, 'window': False, 'door': True, 'heater': False, 'AC': False}
+Bedroom - Sensors: {'temperature': 18, 'humidity': 45, 'light': 148}, Devices: {'light': False, 'socket': False, 'window': False, 'door': True, 'heater': False, 'AC': False}
+Bathroom - Sensors: {'temperature': 25, 'humidity': 55}, Devices: {'light': False, 'socket': False, 'window': False, 'door': True, 'heater': False, 'AC': False}
+Kitchen - Sensors: {'humidity': 50, 'smoke': False}, Devices: {'light': False, 'socket': False, 'window': False, 'door': True, 'heater': False, 'AC': False}
+Balcony - Sensors: {'temperature': 17, 'humidity': 55}, Devices: {'door': True, 'light': False, 'socket': False, 'heater': True, 'AC': False}
+
+Standard Error:

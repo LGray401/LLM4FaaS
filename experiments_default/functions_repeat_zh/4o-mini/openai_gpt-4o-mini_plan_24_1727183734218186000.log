@@ -1,0 +1,18 @@
+Standard Output:
+Executing Morning Plan...
+/Actuator/Curtain/LivingRoom/1 is turned on.
+Cannot Get Sensor Reading, /Sensor/LightIntensive/LivingRoom/1 is Currently OFF. 
+
+Standard Error:
+2024-09-25 17:09:10,515 - sensor.py - get_reading - WARNING - '/Sensor/LightIntensive/LivingRoom/1' is currently OFF. Cannot get reading.
+Traceback (most recent call last):
+  File "/Users/minghe/llm4faas/functions_repeat/openai_gpt-4o-mini_plan_24_1727183734218186000.py", line 88, in <module>
+    main()
+  File "/Users/minghe/llm4faas/functions_repeat/openai_gpt-4o-mini_plan_24_1727183734218186000.py", line 83, in main
+    morning_plan(home)
+  File "/Users/minghe/llm4faas/functions_repeat/openai_gpt-4o-mini_plan_24_1727183734218186000.py", line 28, in morning_plan
+    if light_sensor and light_sensor.get_reading() < 300:  # Assuming 300 lux as the threshold for the light
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<' not supported between instances of 'NoneType' and 'int'
+
+Return code: 1

@@ -1,0 +1,45 @@
+Standard Output:
+'/Sensor/IndoorTemperature/LivingRoom/1' is now ON.
+/Sensor/IndoorTemperature/LivingRoom/1 reading is: 32.89
+Set the target temperature of /Actuator/AC/LivingRoom/1 to 25°C.
+/Actuator/AC/LivingRoom/1 is turned on.
+/Actuator/Window/LivingRoom/1 is turned off.
+/Actuator/Window/LivingRoom/2 is turned off.
+'/Sensor/Humidity/LivingRoom/1' is now ON.
+/Sensor/Humidity/LivingRoom/1 reading is: 12.53
+/Actuator/Humidifier/LivingRoom/1 is turned on.
+/Actuator/Humidifier/LivingRoom/1 Increasing humidity in LivingRoom
+'/Sensor/LightIntensive/LivingRoom/1' is now ON.
+/Sensor/LightIntensive/LivingRoom/1 reading is: 1154.14
+/Actuator/Light/LivingRoom/1 is turned on.
+Set /Actuator/Light/LivingRoom/1 light brightness level to LOW
+/Actuator/Light/LivingRoom/2 is turned on.
+Set /Actuator/Light/LivingRoom/2 light brightness level to LOW
+'/Sensor/IndoorTemperature/Bedroom/1' is now ON.
+/Sensor/IndoorTemperature/Bedroom/1 reading is: 35.8
+Set the target temperature of /Actuator/AC/Bedroom/1 to 25°C.
+/Actuator/AC/Bedroom/1 is turned on.
+/Actuator/Window/Bedroom/1 is turned off.
+'/Sensor/Humidity/Bedroom/1' is now ON.
+/Sensor/Humidity/Bedroom/1 reading is: 16.94
+/Actuator/Humidifier/Bedroom/1 is turned on.
+/Actuator/Humidifier/Bedroom/1 Increasing humidity in Bedroom
+'/Sensor/LightIntensive/Bedroom/1' is now ON.
+/Sensor/LightIntensive/Bedroom/1 reading is: 1006.85
+/Actuator/Light/Bedroom/1 is turned on.
+Set /Actuator/Light/Bedroom/1 light brightness level to LOW
+/Actuator/Light/Bedroom/2 is turned on.
+Set /Actuator/Light/Bedroom/2 light brightness level to LOW
+'/Sensor/Humidity/Kitchen/1' is now ON.
+/Sensor/Humidity/Kitchen/1 reading is: 21.66
+'/Sensor/IndoorTemperature/Bathroom/1' is now ON.
+/Sensor/IndoorTemperature/Bathroom/1 reading is: 34.02
+/Actuator/Window/Bathroom/1 is turned off.
+'/Sensor/Humidity/Bathroom/1' is now ON.
+/Sensor/Humidity/Bathroom/1 reading is: 14.68
+'/Sensor/Humidity/Balcony/1' is now ON.
+/Sensor/Humidity/Balcony/1 reading is: 17.87
+
+Standard Error:
+
+Return code: 0

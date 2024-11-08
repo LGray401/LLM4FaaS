@@ -1,0 +1,16 @@
+Standard Output:
+We find LivingRoom!
+
+Standard Error:
+Traceback (most recent call last):
+  File "/Users/minghe/llm4faas/experiments_repeat/repeat_functions_4o-mini/openai_gpt-4o-mini_energy_control_3_1737408584312143000.py", line 58, in <module>
+    main()
+  File "/Users/minghe/llm4faas/experiments_repeat/repeat_functions_4o-mini/openai_gpt-4o-mini_energy_control_3_1737408584312143000.py", line 25, in main
+    window = next((actuator for actuator in window_actuators if isinstance(actuator, Window)), None)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/minghe/llm4faas/experiments_repeat/repeat_functions_4o-mini/openai_gpt-4o-mini_energy_control_3_1737408584312143000.py", line 25, in <genexpr>
+    window = next((actuator for actuator in window_actuators if isinstance(actuator, Window)), None)
+                                                                                     ^^^^^^
+NameError: name 'Window' is not defined
+
+Return code: 1

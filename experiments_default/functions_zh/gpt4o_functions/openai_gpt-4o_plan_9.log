@@ -1,0 +1,14 @@
+Standard Output:
+/Actuator/CoffeeMachine/Kitchen/1 is turned on.
+/Actuator/CoffeeMachine/Kitchen/1 Start making 咖啡
+/Actuator/Door/LivingRoom/1 is turned off.
+/Actuator/Door/Bedroom/1 is turned off.
+/Actuator/Door/Kitchen/1 is turned off.
+/Actuator/Door/Bathroom/1 is turned off.
+/Actuator/Door/Balcony/1 is turned off.
+/Actuator/SmartTV/LivingRoom/1 is turned on.
+Start playing 电视 on the /Actuator/SmartTV/LivingRoom/1 in LivingRoom
+
+Standard Error:
+
+Return code: 0

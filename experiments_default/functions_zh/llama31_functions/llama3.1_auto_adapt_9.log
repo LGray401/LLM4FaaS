@@ -1,0 +1,10 @@
+Standard Output:
+
+Standard Error:
+Traceback (most recent call last):
+  File "/Users/minghe/llm4faas/experiments_default/functions_zh/llama31_functions/llama3.1_auto_adapt_9.py", line 30, in <module>
+    lights = get_all_actuators(home_plan(), 'Light')
+             ^^^^^^^^^^^^^^^^^
+NameError: name 'get_all_actuators' is not defined
+
+Return code: 1

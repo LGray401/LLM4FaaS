@@ -1,0 +1,6 @@
+Standard Output:
+Usage: python3 smart_home.py [morning|leave_home|movie]
+
+Standard Error:
+
+Return code: 0

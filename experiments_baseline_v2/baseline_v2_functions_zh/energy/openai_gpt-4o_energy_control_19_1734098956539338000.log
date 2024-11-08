@@ -1,0 +1,44 @@
+Standard Output:
+
+Good morning! Checking conditions for opening the window in the LivingRoom...
+'/Sensor/IndoorTemperature/LivingRoom/1' is now ON.
+'/Sensor/OutdoorTemperature/LivingRoom/1' is now ON.
+/Sensor/IndoorTemperature/LivingRoom/1 reading is: 38.82
+/Sensor/OutdoorTemperature/LivingRoom/1 reading is: 22.12
+/Actuator/Window/LivingRoom/1 is turned on.
+
+It's too hot. Let's see what we can do...
+/Actuator/AC/LivingRoom/1 current status is off
+Turning on the AC...
+/Actuator/AC/LivingRoom/1 is turned on.
+Set the target temperature of /Actuator/AC/LivingRoom/1 to 20°C.
+
+Checking for open windows while AC is on...
+/Actuator/Window/LivingRoom/1 current status is on
+/Actuator/AC/LivingRoom/1 current status is on
+/Actuator/NotificationSender/LivingRoom/1 is turned on.
+Notification Sender /Actuator/NotificationSender/LivingRoom/1 send message: AC is on while the window is open. Would you like to close the window?
+
+Turning off all devices...
+/Actuator/Door/LivingRoom/1 is turned off.
+/Actuator/Light/LivingRoom/1 is turned off.
+/Actuator/Light/LivingRoom/2 is turned off.
+/Actuator/Window/LivingRoom/1 is turned off.
+/Actuator/Window/LivingRoom/2 is turned off.
+/Actuator/Curtain/LivingRoom/1 is turned off.
+/Actuator/MusicPlayer/LivingRoom/1 is turned off.
+/Actuator/SmartSocket/LivingRoom/1 is turned off.
+/Actuator/SmartSocket/LivingRoom/2 is turned off.
+/Actuator/CleaningRobot/LivingRoom/1 is turned off.
+/Actuator/SmartTV/LivingRoom/1 is turned off.
+/Actuator/NotificationSender/LivingRoom/1 is turned off.
+/Actuator/AC/LivingRoom/1 is turned off.
+/Actuator/Heater/LivingRoom/1 is turned off.
+/Actuator/Humidifier/LivingRoom/1 is turned off.
+/Sensor/LightIntensive/LivingRoom/1 is now OFF.
+/Sensor/IndoorTemperature/LivingRoom/1 is now OFF.
+/Sensor/Humidity/LivingRoom/1 is now OFF.
+
+Standard Error:
+
+Return code: 0

@@ -1,0 +1,48 @@
+Standard Output:
+Executing Morning Plan...
+We find Bedroom!
+/Actuator/Light/Bedroom/1 is turned on.
+/Actuator/Light/Bedroom/2 is turned on.
+/Actuator/Curtain/Bedroom/1 is turned on.
+/Actuator/MusicPlayer/Bedroom/1 is turned on.
+Executing Leave Home Plan...
+/Actuator/Light/LivingRoom/1 is turned off.
+/Actuator/Light/LivingRoom/2 is turned off.
+Lock the door /Actuator/Door/LivingRoom/1.
+/Actuator/SmartSocket/LivingRoom/1 is turned off.
+/Actuator/SmartSocket/LivingRoom/2 is turned off.
+/Actuator/Light/Bedroom/1 is turned off.
+/Actuator/Light/Bedroom/2 is turned off.
+Lock the door /Actuator/Door/Bedroom/1.
+/Actuator/SmartSocket/Bedroom/1 is turned off.
+/Actuator/SmartSocket/Bedroom/2 is turned off.
+/Actuator/Light/Kitchen/1 is turned off.
+Lock the door /Actuator/Door/Kitchen/1.
+/Actuator/SmartSocket/Kitchen/1 is turned off.
+/Actuator/SmartSocket/Kitchen/2 is turned off.
+/Actuator/SmartSocket/Kitchen/3 is turned off.
+/Actuator/Light/Bathroom/1 is turned off.
+Lock the door /Actuator/Door/Bathroom/1.
+/Actuator/SmartSocket/Bathroom/1 is turned off.
+/Actuator/SmartSocket/Bathroom/2 is turned off.
+Lock the door /Actuator/Door/Balcony/1.
+Executing Movie Plan...
+We find LivingRoom!
+/Actuator/Curtain/LivingRoom/1 is turned off.
+Light /Actuator/Light/LivingRoom/1 is OFF. Please turn it on before setting the brightness level.
+Light /Actuator/Light/LivingRoom/2 is OFF. Please turn it on before setting the brightness level.
+
+Standard Error:
+2025-01-20 22:27:11,752 - actuator.py - set_brightness_level - WARNING - Light /Actuator/Light/LivingRoom/1 is OFF. Please turn it on before setting the brightness level.
+2025-01-20 22:27:11,752 - actuator.py - set_brightness_level - WARNING - Light /Actuator/Light/LivingRoom/2 is OFF. Please turn it on before setting the brightness level.
+Traceback (most recent call last):
+  File "/Users/minghe/llm4faas/experiments_mandarin/baidu_functions/plans/zhipu_ernie-4.0-turbo-8k_plan_22_1731071596884121000.py", line 110, in <module>
+    main()
+  File "/Users/minghe/llm4faas/experiments_mandarin/baidu_functions/plans/zhipu_ernie-4.0-turbo-8k_plan_22_1731071596884121000.py", line 107, in main
+    execute_movie_plan(home)
+  File "/Users/minghe/llm4faas/experiments_mandarin/baidu_functions/plans/zhipu_ernie-4.0-turbo-8k_plan_22_1731071596884121000.py", line 85, in execute_movie_plan
+    if isinstance(actuator, SmartTV):
+                            ^^^^^^^
+NameError: name 'SmartTV' is not defined
+
+Return code: 1

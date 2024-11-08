@@ -1,0 +1,14 @@
+Standard Output:
+Movie plan started!
+We find LivingRoom!
+
+Standard Error:
+Traceback (most recent call last):
+  File "/Users/minghe/llm4faas/experiments_default/functions_zh/gemini_functions/gemini_plan_8_1722437019984225000.py", line 113, in <module>
+    movie_plan(home)
+  File "/Users/minghe/llm4faas/experiments_default/functions_zh/gemini_functions/gemini_plan_8_1722437019984225000.py", line 93, in movie_plan
+    living_room_tv = get_room_actuators(home, "LivingRoom", "SmartTV")[0]
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: get_room_actuators() takes 2 positional arguments but 3 were given
+
+Return code: 1

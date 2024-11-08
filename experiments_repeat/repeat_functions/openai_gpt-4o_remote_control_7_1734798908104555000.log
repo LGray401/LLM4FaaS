@@ -1,0 +1,12 @@
+Standard Output:
+
+Standard Error:
+Traceback (most recent call last):
+  File "/Users/minghe/llm4faas/experiments_repeat/repeat_functions/openai_gpt-4o_remote_control_7_1734798908104555000.py", line 30, in <module>
+    main()
+  File "/Users/minghe/llm4faas/experiments_repeat/repeat_functions/openai_gpt-4o_remote_control_7_1734798908104555000.py", line 19, in main
+    if isinstance(actuator, Light):
+                            ^^^^^
+NameError: name 'Light' is not defined
+
+Return code: 1

@@ -1,0 +1,20 @@
+Standard Output:
+Executing Morning Plan...
+We find LivingRoom!
+We find Bedroom!
+
+Standard Error:
+Traceback (most recent call last):
+  File "/Users/minghe/llm4faas/experiments_repeat/repeat_functions_4o-mini/openai_gpt-4o-mini_plan_2_1737408710072510000.py", line 85, in <module>
+    main()
+  File "/Users/minghe/llm4faas/experiments_repeat/repeat_functions_4o-mini/openai_gpt-4o-mini_plan_2_1737408710072510000.py", line 76, in main
+    morning_plan(home)
+  File "/Users/minghe/llm4faas/experiments_repeat/repeat_functions_4o-mini/openai_gpt-4o-mini_plan_2_1737408710072510000.py", line 15, in morning_plan
+    curtains = get_room_actuators(living_room.name, Curtain)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/minghe/llm4faas/home/home_plan.py", line 101, in get_room_actuators
+    if room.name == room_name:
+       ^^^^^^^^^
+AttributeError: 'str' object has no attribute 'name'
+
+Return code: 1

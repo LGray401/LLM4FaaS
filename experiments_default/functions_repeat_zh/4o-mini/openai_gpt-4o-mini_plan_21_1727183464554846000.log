@@ -1,0 +1,17 @@
+Standard Output:
+
+--- Morning Plan Activated ---
+Setting alarm to 7 AM...
+
+Standard Error:
+Traceback (most recent call last):
+  File "/Users/minghe/llm4faas/functions_repeat/openai_gpt-4o-mini_plan_21_1727183464554846000.py", line 84, in <module>
+    main()
+  File "/Users/minghe/llm4faas/functions_repeat/openai_gpt-4o-mini_plan_21_1727183464554846000.py", line 79, in main
+    morning_plan(home)
+  File "/Users/minghe/llm4faas/functions_repeat/openai_gpt-4o-mini_plan_21_1727183464554846000.py", line 23, in morning_plan
+    coffee_machine = next(actor for actor in kitchen.actuators if isinstance(actor, CoffeeMachine))
+                                             ^^^^^^^
+NameError: name 'kitchen' is not defined
+
+Return code: 1

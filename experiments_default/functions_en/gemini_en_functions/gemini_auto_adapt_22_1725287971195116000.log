@@ -1,0 +1,82 @@
+Standard Output:
+'/Sensor/IndoorTemperature/LivingRoom/1' is now ON.
+/Sensor/IndoorTemperature/LivingRoom/1 reading is: 30.57
+/Actuator/AC/LivingRoom/1 is turned on.
+/Actuator/AC/Bedroom/1 is turned on.
+/Actuator/Window/LivingRoom/1 is turned off.
+/Actuator/Window/LivingRoom/2 is turned off.
+/Actuator/Window/Bedroom/1 is turned off.
+/Actuator/Window/Kitchen/1 is turned off.
+/Actuator/Window/Bathroom/1 is turned off.
+Temperature in LivingRoom is above 25°C. AC turned on, windows closed.
+'/Sensor/IndoorTemperature/Bedroom/1' is now ON.
+/Sensor/IndoorTemperature/Bedroom/1 reading is: 35.06
+/Actuator/AC/LivingRoom/1 is turned on.
+/Actuator/AC/Bedroom/1 is turned on.
+/Actuator/Window/LivingRoom/1 is turned off.
+/Actuator/Window/LivingRoom/2 is turned off.
+/Actuator/Window/Bedroom/1 is turned off.
+/Actuator/Window/Kitchen/1 is turned off.
+/Actuator/Window/Bathroom/1 is turned off.
+Temperature in Bedroom is above 25°C. AC turned on, windows closed.
+'/Sensor/IndoorTemperature/Bathroom/1' is now ON.
+/Sensor/IndoorTemperature/Bathroom/1 reading is: 31.63
+/Actuator/AC/LivingRoom/1 is turned on.
+/Actuator/AC/Bedroom/1 is turned on.
+/Actuator/Window/LivingRoom/1 is turned off.
+/Actuator/Window/LivingRoom/2 is turned off.
+/Actuator/Window/Bedroom/1 is turned off.
+/Actuator/Window/Kitchen/1 is turned off.
+/Actuator/Window/Bathroom/1 is turned off.
+Temperature in Bathroom is above 25°C. AC turned on, windows closed.
+'/Sensor/Humidity/LivingRoom/1' is now ON.
+/Sensor/Humidity/LivingRoom/1 reading is: 16.31
+/Actuator/Humidifier/LivingRoom/1 Increasing humidity in LivingRoom
+/Actuator/Humidifier/Bedroom/1 Increasing humidity in Bedroom
+Humidity in LivingRoom is below 30%. Humidifier activated.
+'/Sensor/Humidity/Bedroom/1' is now ON.
+/Sensor/Humidity/Bedroom/1 reading is: 26.16
+/Actuator/Humidifier/LivingRoom/1 Increasing humidity in LivingRoom
+/Actuator/Humidifier/Bedroom/1 Increasing humidity in Bedroom
+Humidity in Bedroom is below 30%. Humidifier activated.
+'/Sensor/Humidity/Kitchen/1' is now ON.
+/Sensor/Humidity/Kitchen/1 reading is: 13.9
+/Actuator/Humidifier/LivingRoom/1 Increasing humidity in LivingRoom
+/Actuator/Humidifier/Bedroom/1 Increasing humidity in Bedroom
+Humidity in Kitchen is below 30%. Humidifier activated.
+'/Sensor/Humidity/Bathroom/1' is now ON.
+/Sensor/Humidity/Bathroom/1 reading is: 17.4
+/Actuator/Humidifier/LivingRoom/1 Increasing humidity in LivingRoom
+/Actuator/Humidifier/Bedroom/1 Increasing humidity in Bedroom
+Humidity in Bathroom is below 30%. Humidifier activated.
+'/Sensor/Humidity/Balcony/1' is now ON.
+/Sensor/Humidity/Balcony/1 reading is: 14.3
+/Actuator/Humidifier/LivingRoom/1 Increasing humidity in LivingRoom
+/Actuator/Humidifier/Bedroom/1 Increasing humidity in Bedroom
+Humidity in Balcony is below 30%. Humidifier activated.
+'/Sensor/LightIntensive/LivingRoom/1' is now ON.
+/Sensor/LightIntensive/LivingRoom/1 reading is: 928.25
+/Actuator/Curtain/LivingRoom/1 is turned off.
+/Actuator/Curtain/Bedroom/1 is turned off.
+/Actuator/Light/LivingRoom/1 is turned on.
+/Actuator/Light/LivingRoom/2 is turned on.
+/Actuator/Light/Bedroom/1 is turned on.
+/Actuator/Light/Bedroom/2 is turned on.
+/Actuator/Light/Kitchen/1 is turned on.
+/Actuator/Light/Bathroom/1 is turned on.
+Light intensity in LivingRoom is above 900 lux. Curtains drawn, lights turned on.
+'/Sensor/LightIntensive/Bedroom/1' is now ON.
+/Sensor/LightIntensive/Bedroom/1 reading is: 902.64
+/Actuator/Curtain/LivingRoom/1 is turned off.
+/Actuator/Curtain/Bedroom/1 is turned off.
+/Actuator/Light/LivingRoom/1 is turned on.
+/Actuator/Light/LivingRoom/2 is turned on.
+/Actuator/Light/Bedroom/1 is turned on.
+/Actuator/Light/Bedroom/2 is turned on.
+/Actuator/Light/Kitchen/1 is turned on.
+/Actuator/Light/Bathroom/1 is turned on.
+Light intensity in Bedroom is above 900 lux. Curtains drawn, lights turned on.
+
+Standard Error:
+
+Return code: 0

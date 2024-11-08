@@ -1,0 +1,6 @@
+Error: Execution timed out
+Standard Output:
+Welcome to Smart Home System! 
+
+Please input your action: 'status', 'temp', 'humidity', 'light', 'clean', 'coffee', 'music', 'tv', 'exit': 
+Standard Error:

@@ -1,0 +1,18 @@
+Standard Output:
+Executing Morning Plan...
+We find Bedroom!
+there is no Actuator found in CoffeeMachine
+
+Standard Error:
+2025-01-10 14:37:40,343 - home_plan.py - get_room_actuators - WARNING - there is no Actuator found in CoffeeMachine
+Traceback (most recent call last):
+  File "/Users/minghe/llm4faas/experiments_default/functions_en/4o-mini_en_functoins/openai_gpt-4o-mini_plan_6.py", line 74, in <module>
+    main()
+  File "/Users/minghe/llm4faas/experiments_default/functions_en/4o-mini_en_functoins/openai_gpt-4o-mini_plan_6.py", line 69, in main
+    morning_plan(home)
+  File "/Users/minghe/llm4faas/experiments_default/functions_en/4o-mini_en_functoins/openai_gpt-4o-mini_plan_6.py", line 14, in morning_plan
+    coffee_machine = get_room_actuators(home, "CoffeeMachine")[0]
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^
+TypeError: 'NoneType' object is not subscriptable
+
+Return code: 1

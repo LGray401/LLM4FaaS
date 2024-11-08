@@ -1,0 +1,20 @@
+Standard Output:
+Monitoring Living Room:
+Temperature sensor reading: 21.521956091241513
+Humidity sensor reading: 24.99858488731688
+Light Intensity sensor reading: 23.781044047957927
+Light turned on.
+Monitoring Bedroom:
+Temperature sensor reading: 25.44621488449999
+Humidity sensor reading: 28.265084081043934
+Light Intensity sensor reading: 25.097980062772066
+Monitoring Kitchen:
+Humidity sensor reading: 22.770887664792856
+Smoke sensor reading: 20.331068226185074
+Monitoring Balcony:
+Temperature sensor reading: 23.590894650109714
+Humidity sensor reading: 25.04405277669318
+
+Standard Error:
+
+Return code: 0

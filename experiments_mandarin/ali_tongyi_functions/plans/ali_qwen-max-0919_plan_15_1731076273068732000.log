@@ -1,0 +1,25 @@
+Standard Output:
+
+--- Starting Morning Plan ---
+We find Bedroom!
+/Actuator/Light/Bedroom/1 is turned on.
+Set /Actuator/Light/Bedroom/1 light brightness level to MEDIUM
+/Actuator/Light/Bedroom/2 is turned on.
+Set /Actuator/Light/Bedroom/2 light brightness level to MEDIUM
+We find Kitchen!
+
+Standard Error:
+Traceback (most recent call last):
+  File "/Users/minghe/llm4faas/experiments_mandarin/ali_tongyi_functions/plans/ali_qwen-max-0919_plan_15_1731076273068732000.py", line 119, in <module>
+    main()
+  File "/Users/minghe/llm4faas/experiments_mandarin/ali_tongyi_functions/plans/ali_qwen-max-0919_plan_15_1731076273068732000.py", line 112, in main
+    morning_plan(home)
+  File "/Users/minghe/llm4faas/experiments_mandarin/ali_tongyi_functions/plans/ali_qwen-max-0919_plan_15_1731076273068732000.py", line 28, in morning_plan
+    for actuator in get_room_actuators(kitchen, "CoffeeMachine"):
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/minghe/llm4faas/home/home_plan.py", line 100, in get_room_actuators
+    for room in home:
+                ^^^^
+TypeError: 'Room' object is not iterable
+
+Return code: 1

@@ -1,0 +1,6 @@
+Standard Output:
+Usage: function.py <operation> <device_type> [room_name] [brightness_level]
+
+Standard Error:
+
+Return code: 0

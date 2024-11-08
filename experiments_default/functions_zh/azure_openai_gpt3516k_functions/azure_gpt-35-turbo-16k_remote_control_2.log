@@ -1,0 +1,18 @@
+Standard Output:
+Cannot Get Sensor Reading, /Sensor/LightIntensive/LivingRoom/1 is Currently OFF. 
+/Actuator/Light/LivingRoom/1 current status is off
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/Bedroom/1 is Currently OFF. 
+/Actuator/Heater/Bedroom/1 current status is off
+/Actuator/AC/Bedroom/1 current status is off
+/Actuator/Window/Kitchen/1 current status is off
+/Actuator/Window/Kitchen/1 is turned on.
+/Actuator/MusicPlayer/LivingRoom/1 current status is off
+
+Standard Error:
+2025-01-10 12:33:34,836 - sensor.py - get_reading - WARNING - '/Sensor/LightIntensive/LivingRoom/1' is currently OFF. Cannot get reading.
+2025-01-10 12:33:34,836 - azure_gpt-35-turbo-16k_remote_control_2.py - adjust_lighting - WARNING - Failed to adjust lighting. Light sensor is off or in error status.
+2025-01-10 12:33:34,836 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/Bedroom/1' is currently OFF. Cannot get reading.
+2025-01-10 12:33:34,836 - azure_gpt-35-turbo-16k_remote_control_2.py - adjust_temperature - WARNING - Failed to adjust temperature. Indoor temperature sensor, Heater, or AC is off or in error status.
+2025-01-10 12:33:34,836 - azure_gpt-35-turbo-16k_remote_control_2.py - play_music - WARNING - Music player in LivingRoom is off. Turn it on before playing music.
+
+Return code: 0

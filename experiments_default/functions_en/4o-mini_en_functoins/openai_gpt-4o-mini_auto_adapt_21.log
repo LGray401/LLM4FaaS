@@ -1,0 +1,17 @@
+Standard Output:
+'/Sensor/IndoorTemperature/LivingRoom/1' is now ON.
+/Sensor/IndoorTemperature/LivingRoom/1 reading is: 37.83
+Set the target temperature of /Actuator/AC/LivingRoom/1 to 25°C.
+/Actuator/AC/LivingRoom/1 is turned on.
+'/Sensor/LightIntensive/LivingRoom/1' is now ON.
+/Sensor/LightIntensive/LivingRoom/1 reading is: 979.06
+/Actuator/Curtain/LivingRoom/1 is turned on.
+Curtains in LivingRoom are now opened due to high light intensity.
+/Sensor/IndoorTemperature/LivingRoom/1 is now OFF.
+/Sensor/LightIntensive/LivingRoom/1 is now OFF.
+/Actuator/AC/LivingRoom/1 is turned off.
+/Actuator/Curtain/LivingRoom/1 is turned off.
+
+Standard Error:
+
+Return code: 0

@@ -1,41 +1,41 @@
 Model,Rate,Type,Task,Language
-GPT-4o,77.46478873239437,PASS RATE,Fixed Plans,English
-GPT-4o-Mini,38.028169014084504,PASS RATE,Fixed Plans,English
-Gemini,8.450704225352112,PASS RATE,Fixed Plans,English
-Llama-3.1,0.0,PASS RATE,Fixed Plans,English
-Copilot,23.943661971830984,PASS RATE,Fixed Plans,English
-GPT-4o,83.09859154929578,COMPILABLE RATE,Fixed Plans,English
-GPT-4o-Mini,70.4225352112676,COMPILABLE RATE,Fixed Plans,English
-Gemini,45.07042253521127,COMPILABLE RATE,Fixed Plans,English
-Llama-3.1,0.0,COMPILABLE RATE,Fixed Plans,English
-Copilot,39.436619718309856,COMPILABLE RATE,Fixed Plans,English
-GPT-4o,38.095238095238095,PASS RATE,Energy Saving,English
-GPT-4o-Mini,38.095238095238095,PASS RATE,Energy Saving,English
-Gemini,4.761904761904762,PASS RATE,Energy Saving,English
-Llama-3.1,0.0,PASS RATE,Energy Saving,English
-Copilot,19.047619047619047,PASS RATE,Energy Saving,English
-GPT-4o,85.71428571428571,COMPILABLE RATE,Energy Saving,English
-GPT-4o-Mini,80.95238095238095,COMPILABLE RATE,Energy Saving,English
-Gemini,28.57142857142857,COMPILABLE RATE,Energy Saving,English
-Llama-3.1,0.0,COMPILABLE RATE,Energy Saving,English
-Copilot,61.904761904761905,COMPILABLE RATE,Energy Saving,English
-GPT-4o,73.91304347826086,PASS RATE,Remote Control,English
-GPT-4o-Mini,43.47826086956522,PASS RATE,Remote Control,English
-Gemini,0.0,PASS RATE,Remote Control,English
-Llama-3.1,0.0,PASS RATE,Remote Control,English
-Copilot,43.47826086956522,PASS RATE,Remote Control,English
-GPT-4o,100.0,COMPILABLE RATE,Remote Control,English
-GPT-4o-Mini,78.26086956521739,COMPILABLE RATE,Remote Control,English
-Gemini,21.73913043478261,COMPILABLE RATE,Remote Control,English
-Llama-3.1,0.0,COMPILABLE RATE,Remote Control,English
-Copilot,73.91304347826086,COMPILABLE RATE,Remote Control,English
-GPT-4o,52.56410256410257,PASS RATE,Auto Adapt,English
-GPT-4o-Mini,29.48717948717949,PASS RATE,Auto Adapt,English
-Gemini,7.6923076923076925,PASS RATE,Auto Adapt,English
-Llama-3.1,0.0,PASS RATE,Auto Adapt,English
-Copilot,0.0,PASS RATE,Auto Adapt,English
-GPT-4o,97.43589743589743,COMPILABLE RATE,Auto Adapt,English
-GPT-4o-Mini,75.64102564102564,COMPILABLE RATE,Auto Adapt,English
-Gemini,48.717948717948715,COMPILABLE RATE,Auto Adapt,English
-Llama-3.1,0.0,COMPILABLE RATE,Auto Adapt,English
-Copilot,10.256410256410255,COMPILABLE RATE,Auto Adapt,English
+GPT-4o,80.0,Ready-to-Use Rate,Scheduled Plans,English
+GPT-4o-mini,41.53846153846154,Ready-to-Use Rate,Scheduled Plans,English
+Gemini,9.230769230769232,Ready-to-Use Rate,Scheduled Plans,English
+Llama,0.0,Ready-to-Use Rate,Scheduled Plans,English
+Copilot,26.153846153846157,Ready-to-Use Rate,Scheduled Plans,English
+GPT-4o,86.15384615384616,Compile Rate,Scheduled Plans,English
+GPT-4o-mini,76.92307692307693,Compile Rate,Scheduled Plans,English
+Gemini,49.23076923076923,Compile Rate,Scheduled Plans,English
+Llama,0.0,Compile Rate,Scheduled Plans,English
+Copilot,43.07692307692308,Compile Rate,Scheduled Plans,English
+GPT-4o,38.095238095238095,Ready-to-Use Rate,Energy Efficient Home,English
+GPT-4o-mini,38.095238095238095,Ready-to-Use Rate,Energy Efficient Home,English
+Gemini,4.761904761904762,Ready-to-Use Rate,Energy Efficient Home,English
+Llama,0.0,Ready-to-Use Rate,Energy Efficient Home,English
+Copilot,19.047619047619047,Ready-to-Use Rate,Energy Efficient Home,English
+GPT-4o,85.71428571428571,Compile Rate,Energy Efficient Home,English
+GPT-4o-mini,80.95238095238095,Compile Rate,Energy Efficient Home,English
+Gemini,28.57142857142857,Compile Rate,Energy Efficient Home,English
+Llama,0.0,Compile Rate,Energy Efficient Home,English
+Copilot,61.904761904761905,Compile Rate,Energy Efficient Home,English
+GPT-4o,73.91304347826086,Ready-to-Use Rate,Remote Device Control,English
+GPT-4o-mini,43.47826086956522,Ready-to-Use Rate,Remote Device Control,English
+Gemini,0.0,Ready-to-Use Rate,Remote Device Control,English
+Llama,0.0,Ready-to-Use Rate,Remote Device Control,English
+Copilot,43.47826086956522,Ready-to-Use Rate,Remote Device Control,English
+GPT-4o,100.0,Compile Rate,Remote Device Control,English
+GPT-4o-mini,78.26086956521739,Compile Rate,Remote Device Control,English
+Gemini,21.73913043478261,Compile Rate,Remote Device Control,English
+Llama,0.0,Compile Rate,Remote Device Control,English
+Copilot,73.91304347826086,Compile Rate,Remote Device Control,English
+GPT-4o,52.56410256410257,Ready-to-Use Rate,Comfort Home,English
+GPT-4o-mini,29.48717948717949,Ready-to-Use Rate,Comfort Home,English
+Gemini,7.6923076923076925,Ready-to-Use Rate,Comfort Home,English
+Llama,0.0,Ready-to-Use Rate,Comfort Home,English
+Copilot,0.0,Ready-to-Use Rate,Comfort Home,English
+GPT-4o,97.43589743589743,Compile Rate,Comfort Home,English
+GPT-4o-mini,75.64102564102564,Compile Rate,Comfort Home,English
+Gemini,48.717948717948715,Compile Rate,Comfort Home,English
+Llama,0.0,Compile Rate,Comfort Home,English
+Copilot,10.256410256410255,Compile Rate,Comfort Home,English

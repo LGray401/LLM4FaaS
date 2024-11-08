@@ -1,0 +1,21 @@
+Standard Output:
+
+--- Morning Plan ---
+We find LivingRoom!
+/Actuator/Curtain/LivingRoom/1 is turned on.
+/Actuator/MusicPlayer/LivingRoom/1 is turned on.
+/Actuator/MusicPlayer/LivingRoom/1 start playing Morning Playlist
+
+--- Leave Home Plan ---
+there is no room called Entrance at home
+
+--- Movie Plan ---
+We find LivingRoom!
+/Actuator/Curtain/LivingRoom/1 is turned off.
+/Actuator/SmartTV/LivingRoom/1 is turned on.
+Start playing Movie Channel on the /Actuator/SmartTV/LivingRoom/1 in LivingRoom
+
+Standard Error:
+2025-01-10 14:24:50,580 - home_plan.py - get_room - WARNING - there is no room called Entrance at home
+
+Return code: 0

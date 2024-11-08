@@ -1,0 +1,9 @@
+Standard Output:
+
+Standard Error:
+  File "/Users/minghe/llm4faas/experiments_default/functions_zh/deepseek-r1-functions/deepseek-r1:7b_remote_control_9_1738502794834587000.py", line 93
+    self actuators = {}
+         ^^^^^^^^^
+SyntaxError: invalid syntax
+
+Return code: 1

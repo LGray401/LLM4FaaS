@@ -1,0 +1,12 @@
+Standard Output:
+
+Standard Error:
+Traceback (most recent call last):
+  File "/Users/minghe/llm4faas/experiments_default/functions_zh/deepseek-r1-functions/deepseek-r1:7b_auto_adapt_14_1738481405703247000.py", line 305, in <module>
+    room = create_room_with_components("LivingRoom", ["Light"], ["Motor"])
+  File "/Users/minghe/llm4faas/experiments_default/functions_zh/deepseek-r1-functions/deepseek-r1:7b_auto_adapt_14_1738481405703247000.py", line 291, in create_room_with_components
+    room = Room(name)
+           ^^^^
+NameError: name 'Room' is not defined
+
+Return code: 1

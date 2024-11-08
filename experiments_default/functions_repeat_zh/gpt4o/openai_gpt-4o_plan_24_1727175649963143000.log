@@ -1,0 +1,55 @@
+Standard Output:
+Executing Morning Plan...
+/Actuator/Curtain/LivingRoom/1 is turned on.
+/Actuator/Curtain/Bedroom/1 is turned on.
+'/Sensor/LightIntensive/LivingRoom/1' is now ON.
+/Sensor/LightIntensive/LivingRoom/1 reading is: 1191.67
+'/Sensor/LightIntensive/Bedroom/1' is now ON.
+/Sensor/LightIntensive/Bedroom/1 reading is: 1189.31
+/Actuator/CoffeeMachine/Kitchen/1 is turned on.
+/Actuator/MusicPlayer/LivingRoom/1 is turned on.
+/Actuator/MusicPlayer/LivingRoom/1 start playing Morning Playlist
+/Actuator/MusicPlayer/Bedroom/1 is turned on.
+/Actuator/MusicPlayer/Bedroom/1 start playing Morning Playlist
+Executing Leave Home Plan...
+'/Sensor/LightIntensive/LivingRoom/1' is now ON.
+/Sensor/LightIntensive/LivingRoom/1 reading is: 1068.49
+/Actuator/Curtain/LivingRoom/1 is turned on.
+/Actuator/Curtain/Bedroom/1 is turned on.
+'/Sensor/LightIntensive/Bedroom/1' is now ON.
+/Sensor/LightIntensive/Bedroom/1 reading is: 1119.72
+/Actuator/Curtain/LivingRoom/1 is turned on.
+/Actuator/Curtain/Bedroom/1 is turned on.
+/Actuator/Light/LivingRoom/1 is turned off.
+/Actuator/Light/LivingRoom/2 is turned off.
+/Actuator/Light/Bedroom/1 is turned off.
+/Actuator/Light/Bedroom/2 is turned off.
+/Actuator/Light/Kitchen/1 is turned off.
+/Actuator/Light/Bathroom/1 is turned off.
+/Actuator/SmartSocket/LivingRoom/1 is turned off.
+/Actuator/SmartSocket/LivingRoom/2 is turned off.
+/Actuator/SmartSocket/Bedroom/1 is turned off.
+/Actuator/SmartSocket/Bedroom/2 is turned off.
+/Actuator/SmartSocket/Kitchen/1 is turned off.
+/Actuator/SmartSocket/Kitchen/2 is turned off.
+/Actuator/SmartSocket/Kitchen/3 is turned off.
+/Actuator/SmartSocket/Bathroom/1 is turned off.
+/Actuator/SmartSocket/Bathroom/2 is turned off.
+Lock the door /Actuator/Door/LivingRoom/1.
+Lock the door /Actuator/Door/Bedroom/1.
+Lock the door /Actuator/Door/Kitchen/1.
+Lock the door /Actuator/Door/Bathroom/1.
+Lock the door /Actuator/Door/Balcony/1.
+Executing Movie Plan...
+/Actuator/Curtain/LivingRoom/1 is turned off.
+/Actuator/Curtain/Bedroom/1 is turned off.
+/Actuator/Light/LivingRoom/1 is turned off.
+/Actuator/Light/LivingRoom/2 is turned off.
+/Actuator/Light/Bedroom/1 is turned off.
+/Actuator/Light/Bedroom/2 is turned off.
+/Actuator/Light/Kitchen/1 is turned off.
+/Actuator/Light/Bathroom/1 is turned off.
+
+Standard Error:
+
+Return code: 0

@@ -1,0 +1,15 @@
+Standard Output:
+
+Standard Error:
+Traceback (most recent call last):
+  File "/Users/minghe/llm4faas/experiments_default/functions_zh/deepseek-r1-functions/deepseek-r1:7b_remote_control_15_1738497766091863000.py", line 317, in <module>
+    check_sensors(room)
+    ~~~~~~~~~~~~~^^^^^^
+  File "/Users/minghe/llm4faas/experiments_default/functions_zh/deepseek-r1-functions/deepseek-r1:7b_remote_control_15_1738497766091863000.py", line 261, in check_sensors
+    checker = ConditionChecker(room)
+  File "/Users/minghe/llm4faas/experiments_default/functions_zh/deepseek-r1-functions/deepseek-r1:7b_remote_control_15_1738497766091863000.py", line 267, in __init__
+    self.check_interval = condition_check_interval
+                          ^^^^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'condition_check_interval' is not defined
+
+Return code: 1

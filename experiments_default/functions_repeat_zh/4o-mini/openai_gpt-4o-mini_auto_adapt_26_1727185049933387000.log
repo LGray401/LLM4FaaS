@@ -1,0 +1,14 @@
+Standard Output:
+
+Standard Error:
+Traceback (most recent call last):
+  File "/Users/minghe/llm4faas/functions_repeat/openai_gpt-4o-mini_auto_adapt_26_1727185049933387000.py", line 77, in <module>
+    main()
+  File "/Users/minghe/llm4faas/functions_repeat/openai_gpt-4o-mini_auto_adapt_26_1727185049933387000.py", line 73, in main
+    maintain_environment(home)
+  File "/Users/minghe/llm4faas/functions_repeat/openai_gpt-4o-mini_auto_adapt_26_1727185049933387000.py", line 19, in maintain_environment
+    temperature_sensors = get_all_sensors(room.sensors, "IndoorTemperature")
+                          ^^^^^^^^^^^^^^^
+NameError: name 'get_all_sensors' is not defined. Did you mean: 'get_room_sensors'?
+
+Return code: 1

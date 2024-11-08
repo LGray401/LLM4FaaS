@@ -1,0 +1,42 @@
+Standard Output:
+We find LivingRoom!
+/Actuator/Light/LivingRoom/1 is turned on.
+/Actuator/Light/LivingRoom/2 is turned on.
+/Actuator/Light/Bedroom/1 is turned on.
+/Actuator/Light/Bedroom/2 is turned on.
+/Actuator/Light/Kitchen/1 is turned on.
+/Actuator/Light/Bathroom/1 is turned on.
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/LivingRoom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/Bedroom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/Bathroom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/LivingRoom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Bedroom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Kitchen/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Bathroom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Balcony/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/LightIntensive/LivingRoom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/LightIntensive/Bedroom/1 is Currently OFF. 
+
+Standard Error:
+2025-01-14 16:53:20,781 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/LivingRoom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:53:20,781 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/Bedroom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:53:20,781 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/Bathroom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:53:20,781 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/LivingRoom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:53:20,781 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Bedroom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:53:20,781 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Kitchen/1' is currently OFF. Cannot get reading.
+2025-01-14 16:53:20,782 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Bathroom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:53:20,782 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Balcony/1' is currently OFF. Cannot get reading.
+2025-01-14 16:53:20,782 - sensor.py - get_reading - WARNING - '/Sensor/LightIntensive/LivingRoom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:53:20,782 - sensor.py - get_reading - WARNING - '/Sensor/LightIntensive/Bedroom/1' is currently OFF. Cannot get reading.
+Traceback (most recent call last):
+  File "/Users/minghe/llm4faas/experiments_default/functions_en/gemini_en_functions/gemini_auto_adapt_1_1725287870961293000.py", line 113, in <module>
+    main()
+  File "/Users/minghe/llm4faas/experiments_default/functions_en/gemini_en_functions/gemini_auto_adapt_1_1725287870961293000.py", line 99, in main
+    living_room_music_player = get_room_actuators(living_room, "MusicPlayer")[0]
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/minghe/llm4faas/home/home_plan.py", line 100, in get_room_actuators
+    for room in home:
+                ^^^^
+TypeError: 'Room' object is not iterable
+
+Return code: 1

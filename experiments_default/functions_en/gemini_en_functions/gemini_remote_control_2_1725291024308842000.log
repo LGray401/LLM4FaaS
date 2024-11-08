@@ -1,0 +1,12 @@
+Standard Output:
+
+Standard Error:
+Traceback (most recent call last):
+  File "/Users/minghe/llm4faas/experiments_default/functions_en/gemini_en_functions/gemini_remote_control_2_1725291024308842000.py", line 47, in <module>
+    main()
+  File "/Users/minghe/llm4faas/experiments_default/functions_en/gemini_en_functions/gemini_remote_control_2_1725291024308842000.py", line 5, in main
+    home = home.home_plan()
+           ^^^^
+UnboundLocalError: cannot access local variable 'home' where it is not associated with a value
+
+Return code: 1

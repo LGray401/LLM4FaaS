@@ -1,0 +1,11 @@
+Standard Output:
+
+Checking and adjusting LivingRoom...
+Missing required sensors or actuators in LivingRoom
+
+Checking and adjusting Bedroom...
+Missing required sensors or actuators in Bedroom
+
+Standard Error:
+
+Return code: 0

@@ -1,0 +1,9 @@
+Error: Execution timed out
+Standard Output:
+7:00 AM - Alarm ringing. Time to wake up!
+/Actuator/MusicPlayer/LivingRoom/1 is turned on.
+/Actuator/MusicPlayer/LivingRoom/1 start playing Jay Chou Playlist
+/Actuator/CoffeeMachine/Kitchen/1 is turned on.
+/Actuator/CoffeeMachine/Kitchen/1 Start making Espresso
+
+Standard Error:

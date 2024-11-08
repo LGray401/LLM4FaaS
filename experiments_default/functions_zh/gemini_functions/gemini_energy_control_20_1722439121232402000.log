@@ -1,0 +1,17 @@
+Standard Output:
+We find LivingRoom!
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/LivingRoom/1 is Currently OFF. 
+
+Standard Error:
+2025-01-14 16:22:14,077 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/LivingRoom/1' is currently OFF. Cannot get reading.
+Traceback (most recent call last):
+  File "/Users/minghe/llm4faas/experiments_default/functions_zh/gemini_functions/gemini_energy_control_20_1722439121232402000.py", line 316, in <module>
+    main()
+  File "/Users/minghe/llm4faas/experiments_default/functions_zh/gemini_functions/gemini_energy_control_20_1722439121232402000.py", line 299, in main
+    adjust_temperature(home, "LivingRoom", 22)
+  File "/Users/minghe/llm4faas/experiments_default/functions_zh/gemini_functions/gemini_energy_control_20_1722439121232402000.py", line 33, in adjust_temperature
+    if current_temperature < desired_temperature:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<' not supported between instances of 'NoneType' and 'int'
+
+Return code: 1

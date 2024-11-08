@@ -1,0 +1,8 @@
+Standard Output:
+/Actuator/Light/Bedroom/1 is turned on.
+Set /Actuator/Light/Bedroom/1 light brightness level to LOW
+Dimmed the light in Bedroom to low brightness.
+
+Standard Error:
+
+Return code: 0

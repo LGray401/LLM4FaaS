@@ -1,0 +1,9 @@
+Standard Output:
+
+Standard Error:
+  File "/Users/minghe/llm4faas/experiments_default/functions_zh/deepseek-r1-functions/deepseek-r1:7b_plan_7_1740437935716071000.py", line 34
+    <<<<<<< SEARCH
+    ^^
+SyntaxError: invalid syntax
+
+Return code: 1

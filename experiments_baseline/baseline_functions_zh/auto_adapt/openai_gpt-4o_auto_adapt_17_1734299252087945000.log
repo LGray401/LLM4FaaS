@@ -1,0 +1,80 @@
+Standard Output:
+Smart Home Status:
+
+Room: Living Room
+Sensors:
+  Temperature: 26
+  Humidity: 40
+  Light Intensity: 80
+Devices:
+  Light
+  Light
+  Window
+  Window
+  Socket
+  Socket
+  Door
+  Heater
+  AC
+  Curtain
+  Humidifier
+  Cleaning Robot
+  Music Player
+  TV
+  Notification Sender
+
+Room: Bedroom
+Sensors:
+  Temperature: 26
+  Humidity: 40
+  Light Intensity: 80
+Devices:
+  Light
+  Light
+  Window
+  Curtain
+  AC
+  Heater
+  Music Player
+  Door
+  Socket
+  Socket
+  Cleaning Robot
+  Humidifier
+
+Room: Bathroom
+Sensors:
+  Temperature: 26
+  Humidity: 40
+Devices:
+  Light
+  Window
+  Heater
+  Door
+  Socket
+  Socket
+
+Room: Kitchen
+Sensors:
+  Humidity: 40
+  Smoke: 0
+Devices:
+  Light
+  Window
+  Heater
+  Coffee Machine
+  Socket
+  Socket
+  Socket
+  Door
+
+Room: Balcony
+Sensors:
+  Temperature: 26
+  Humidity: 40
+Devices:
+  Door
+
+Standard Error:
+
+Return code: 0

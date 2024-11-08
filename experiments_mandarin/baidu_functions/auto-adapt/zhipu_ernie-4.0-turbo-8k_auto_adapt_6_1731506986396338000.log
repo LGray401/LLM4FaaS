@@ -1,0 +1,47 @@
+Standard Output:
+We find LivingRoom!
+
+LivingRoom:
+Sensors:
+- /Sensor/LightIntensive/LivingRoom/1
+- /Sensor/IndoorTemperature/LivingRoom/1
+- /Sensor/Humidity/LivingRoom/1
+Actuators:
+- /Actuator/Door/LivingRoom/1
+- /Actuator/Light/LivingRoom/1
+- /Actuator/Light/LivingRoom/2
+- /Actuator/Window/LivingRoom/1
+- /Actuator/Window/LivingRoom/2
+- /Actuator/Curtain/LivingRoom/1
+- /Actuator/MusicPlayer/LivingRoom/1
+- /Actuator/SmartSocket/LivingRoom/1
+- /Actuator/SmartSocket/LivingRoom/2
+- /Actuator/CleaningRobot/LivingRoom/1
+- /Actuator/SmartTV/LivingRoom/1
+- /Actuator/NotificationSender/LivingRoom/1
+- /Actuator/AC/LivingRoom/1
+- /Actuator/Heater/LivingRoom/1
+- /Actuator/Humidifier/LivingRoom/1
+'/Sensor/LightIntensive/LivingRoom/1' is now ON.
+'/Sensor/IndoorTemperature/LivingRoom/1' is now ON.
+'/Sensor/Humidity/LivingRoom/1' is now ON.
+/Sensor/LightIntensive/LivingRoom/1 reading is: 1051.77
+/Sensor/LightIntensive/LivingRoom/1 reading: 1051.77
+/Sensor/IndoorTemperature/LivingRoom/1 reading is: 30.08
+/Sensor/IndoorTemperature/LivingRoom/1 reading: 30.08
+/Sensor/Humidity/LivingRoom/1 reading is: 17.32
+/Sensor/Humidity/LivingRoom/1 reading: 17.32
+/Sensor/LightIntensive/LivingRoom/1 reading is: 1098.29
+/Actuator/Light/LivingRoom/1 is turned off.
+/Sensor/LightIntensive/LivingRoom/1 reading is: 968.11
+/Actuator/Light/LivingRoom/2 is turned off.
+/Sensor/IndoorTemperature/LivingRoom/1 reading is: 31.66
+Set the target temperature of /Actuator/AC/LivingRoom/1 to 15°C.
+/Actuator/AC/LivingRoom/1 is turned on.
+/Sensor/IndoorTemperature/LivingRoom/1 reading is: 31.06
+Set the target temperature of /Actuator/Heater/LivingRoom/1 to 15°C.
+/Actuator/Heater/LivingRoom/1 is turned off.
+
+Standard Error:
+
+Return code: 0

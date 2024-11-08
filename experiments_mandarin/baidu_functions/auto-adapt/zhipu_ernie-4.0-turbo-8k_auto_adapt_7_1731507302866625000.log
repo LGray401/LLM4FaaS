@@ -1,0 +1,48 @@
+Error: Execution timed out
+Standard Output:
+'/Sensor/IndoorTemperature/LivingRoom/1' is now ON.
+/Sensor/IndoorTemperature/LivingRoom/1 reading is: 32.45
+/Actuator/AC/LivingRoom/1 is turned on.
+Set the target temperature of /Actuator/AC/LivingRoom/1 to 15°C.
+/Actuator/AC/LivingRoom/1 is turned on.
+/Sensor/IndoorTemperature/LivingRoom/1 is now OFF.
+'/Sensor/IndoorTemperature/Bedroom/1' is now ON.
+/Sensor/IndoorTemperature/Bedroom/1 reading is: 36.03
+/Actuator/AC/Bedroom/1 is turned on.
+Set the target temperature of /Actuator/AC/Bedroom/1 to 15°C.
+/Actuator/AC/Bedroom/1 is turned on.
+/Sensor/IndoorTemperature/Bedroom/1 is now OFF.
+'/Sensor/IndoorTemperature/Bathroom/1' is now ON.
+/Sensor/IndoorTemperature/Bathroom/1 reading is: 30.78
+/Sensor/IndoorTemperature/Bathroom/1 is now OFF.
+'/Sensor/Humidity/LivingRoom/1' is now ON.
+/Sensor/Humidity/LivingRoom/1 reading is: 27.36
+/Actuator/Humidifier/LivingRoom/1 is turned on.
+/Actuator/Humidifier/LivingRoom/1 Increasing humidity in LivingRoom
+/Sensor/Humidity/LivingRoom/1 is now OFF.
+'/Sensor/Humidity/Bedroom/1' is now ON.
+/Sensor/Humidity/Bedroom/1 reading is: 12.94
+/Actuator/Humidifier/Bedroom/1 is turned on.
+/Actuator/Humidifier/Bedroom/1 Increasing humidity in Bedroom
+/Sensor/Humidity/Bedroom/1 is now OFF.
+'/Sensor/Humidity/Kitchen/1' is now ON.
+/Sensor/Humidity/Kitchen/1 reading is: 12.18
+/Sensor/Humidity/Kitchen/1 is now OFF.
+'/Sensor/Humidity/Bathroom/1' is now ON.
+/Sensor/Humidity/Bathroom/1 reading is: 20.68
+/Sensor/Humidity/Bathroom/1 is now OFF.
+'/Sensor/Humidity/Balcony/1' is now ON.
+/Sensor/Humidity/Balcony/1 reading is: 14.61
+/Sensor/Humidity/Balcony/1 is now OFF.
+'/Sensor/LightIntensive/LivingRoom/1' is now ON.
+/Sensor/LightIntensive/LivingRoom/1 reading is: 971.3
+/Actuator/Light/LivingRoom/1 is turned off.
+/Actuator/Light/LivingRoom/2 is turned off.
+/Sensor/LightIntensive/LivingRoom/1 is now OFF.
+'/Sensor/LightIntensive/Bedroom/1' is now ON.
+/Sensor/LightIntensive/Bedroom/1 reading is: 941.52
+/Actuator/Light/Bedroom/1 is turned off.
+/Actuator/Light/Bedroom/2 is turned off.
+/Sensor/LightIntensive/Bedroom/1 is now OFF.
+
+Standard Error:

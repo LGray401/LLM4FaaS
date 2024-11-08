@@ -1,0 +1,10 @@
+Standard Output:
+
+Standard Error:
+Traceback (most recent call last):
+  File "/Users/minghe/llm4faas/experiments_default/functions_zh/llama31_functions/llama3.1_energy_control_23.py", line 20, in <module>
+    home = home_plan()
+           ^^^^^^^^^
+NameError: name 'home_plan' is not defined
+
+Return code: 1

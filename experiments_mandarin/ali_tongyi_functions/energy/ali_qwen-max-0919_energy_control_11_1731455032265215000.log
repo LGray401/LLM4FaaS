@@ -1,0 +1,8 @@
+Standard Output:
+Indoor temperature sensor /Sensor/IndoorTemperature/LivingRoom/1 in LivingRoom is OFF. Cannot get reading.
+Indoor temperature sensor /Sensor/IndoorTemperature/Bedroom/1 in Bedroom is OFF. Cannot get reading.
+Indoor temperature sensor /Sensor/IndoorTemperature/Bathroom/1 in Bathroom is OFF. Cannot get reading.
+
+Standard Error:
+
+Return code: 0

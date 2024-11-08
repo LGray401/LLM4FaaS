@@ -1,0 +1,22 @@
+Standard Output:
+7:00 Wake up!
+/Actuator/MusicPlayer/Bedroom/1 is turned on.
+/Actuator/MusicPlayer/Bedroom/1 start playing Jay Chou Playlist
+/Actuator/CoffeeMachine/Kitchen/1 is turned on.
+/Actuator/CoffeeMachine/Kitchen/1 Start making Espresso
+After 7:30, leaving home...
+Lock the door /Actuator/Door/LivingRoom/1.
+/Actuator/Light/LivingRoom/1 is turned off.
+/Actuator/Light/LivingRoom/2 is turned off.
+/Actuator/SmartSocket/LivingRoom/1 is turned off.
+/Actuator/SmartSocket/LivingRoom/2 is turned off.
+Starting movie...
+/Actuator/Curtain/LivingRoom/1 is turned on.
+/Actuator/Light/LivingRoom/1 is turned on.
+Set /Actuator/Light/LivingRoom/1 light brightness level to LOW
+/Actuator/Light/LivingRoom/2 is turned on.
+Set /Actuator/Light/LivingRoom/2 light brightness level to LOW
+
+Standard Error:
+
+Return code: 0

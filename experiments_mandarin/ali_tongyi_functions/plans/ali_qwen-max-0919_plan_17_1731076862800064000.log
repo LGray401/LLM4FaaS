@@ -1,0 +1,14 @@
+Standard Output:
+
+--- MORNING PLAN ---
+
+Standard Error:
+Traceback (most recent call last):
+  File "/Users/minghe/llm4faas/experiments_mandarin/ali_tongyi_functions/plans/ali_qwen-max-0919_plan_17_1731076862800064000.py", line 44, in <module>
+    main()
+  File "/Users/minghe/llm4faas/experiments_mandarin/ali_tongyi_functions/plans/ali_qwen-max-0919_plan_17_1731076862800064000.py", line 16, in main
+    kitchen_coffee_machines = get_room_actuators(home, "Kitchen", "CoffeeMachine")
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: get_room_actuators() takes 2 positional arguments but 3 were given
+
+Return code: 1

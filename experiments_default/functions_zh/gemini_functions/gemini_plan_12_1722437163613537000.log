@@ -1,0 +1,27 @@
+Standard Output:
+We find LivingRoom!
+/Actuator/Curtain/LivingRoom/1 is turned off.
+/Actuator/SmartTV/LivingRoom/1 is turned on.
+Start playing Netflix on the /Actuator/SmartTV/LivingRoom/1 in LivingRoom
+/Actuator/Light/LivingRoom/1 is turned on.
+Set /Actuator/Light/LivingRoom/1 light brightness level to LOW
+/Actuator/Light/LivingRoom/2 is turned on.
+Set /Actuator/Light/LivingRoom/2 light brightness level to LOW
+Set the target temperature of /Actuator/AC/LivingRoom/1 to 22°C.
+Cannot Get Sensor Reading, /Sensor/LightIntensive/LivingRoom/1 is Currently OFF. 
+
+Standard Error:
+2025-01-14 16:26:54,133 - sensor.py - get_reading - WARNING - '/Sensor/LightIntensive/LivingRoom/1' is currently OFF. Cannot get reading.
+Traceback (most recent call last):
+  File "/Users/minghe/llm4faas/experiments_default/functions_zh/gemini_functions/gemini_plan_12_1722437163613537000.py", line 134, in <module>
+    main()
+  File "/Users/minghe/llm4faas/experiments_default/functions_zh/gemini_functions/gemini_plan_12_1722437163613537000.py", line 130, in main
+    movie_plan(home)
+  File "/Users/minghe/llm4faas/experiments_default/functions_zh/gemini_functions/gemini_plan_12_1722437163613537000.py", line 119, in movie_plan
+    ac.adjust_temperature(get_room_sensors(home, "LivingRoom")[0].get_reading())
+  File "/Users/minghe/llm4faas/home/actuator.py", line 68, in adjust_temperature
+    if current_temperature > self.target_temperature:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '>' not supported between instances of 'NoneType' and 'int'
+
+Return code: 1

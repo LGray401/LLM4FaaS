@@ -1,0 +1,13 @@
+Standard Output:
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/LivingRoom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/Bedroom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/Bathroom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/OutdoorTemperature/Balcony/1 is Currently OFF. 
+
+Standard Error:
+2024-09-25 17:06:12,924 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/LivingRoom/1' is currently OFF. Cannot get reading.
+2024-09-25 17:06:12,924 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/Bedroom/1' is currently OFF. Cannot get reading.
+2024-09-25 17:06:12,924 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/Bathroom/1' is currently OFF. Cannot get reading.
+2024-09-25 17:06:12,924 - sensor.py - get_reading - WARNING - '/Sensor/OutdoorTemperature/Balcony/1' is currently OFF. Cannot get reading.
+
+Return code: 0

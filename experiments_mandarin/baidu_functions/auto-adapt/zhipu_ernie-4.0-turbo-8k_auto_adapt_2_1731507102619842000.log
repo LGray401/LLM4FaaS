@@ -1,0 +1,20 @@
+Standard Output:
+'/Sensor/IndoorTemperature/LivingRoom/1' is now ON.
+/Sensor/IndoorTemperature/LivingRoom/1 reading is: 37.32
+/Sensor/IndoorTemperature/LivingRoom/1 is now OFF.
+/Actuator/Window/LivingRoom/1 is turned off.
+/Actuator/Window/LivingRoom/2 is turned off.
+/Actuator/AC/LivingRoom/1 is turned on.
+
+Standard Error:
+Traceback (most recent call last):
+  File "/Users/minghe/llm4faas/experiments_mandarin/baidu_functions/auto-adapt/zhipu_ernie-4.0-turbo-8k_auto_adapt_2_1731507102619842000.py", line 97, in <module>
+    main()
+  File "/Users/minghe/llm4faas/experiments_mandarin/baidu_functions/auto-adapt/zhipu_ernie-4.0-turbo-8k_auto_adapt_2_1731507102619842000.py", line 92, in main
+    check_and_adjust_temperature(room)
+  File "/Users/minghe/llm4faas/experiments_mandarin/baidu_functions/auto-adapt/zhipu_ernie-4.0-turbo-8k_auto_adapt_2_1731507102619842000.py", line 29, in check_and_adjust_temperature
+    elif actuator.actuator_type == "Heater" and temperature < TEMP_LOW:
+                                                              ^^^^^^^^
+NameError: name 'TEMP_LOW' is not defined
+
+Return code: 1

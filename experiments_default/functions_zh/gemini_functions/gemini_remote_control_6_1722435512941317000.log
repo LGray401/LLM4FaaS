@@ -1,0 +1,76 @@
+Standard Output:
+We find LivingRoom!
+/Sensor/LightIntensive/LivingRoom/1
+off
+/Sensor/IndoorTemperature/LivingRoom/1
+off
+/Sensor/Humidity/LivingRoom/1
+off
+/Actuator/Door/LivingRoom/1
+off
+/Actuator/Light/LivingRoom/1
+off
+/Actuator/Light/LivingRoom/2
+off
+/Actuator/Window/LivingRoom/1
+off
+/Actuator/Window/LivingRoom/2
+off
+/Actuator/Curtain/LivingRoom/1
+off
+/Actuator/MusicPlayer/LivingRoom/1
+off
+/Actuator/SmartSocket/LivingRoom/1
+off
+/Actuator/SmartSocket/LivingRoom/2
+off
+/Actuator/CleaningRobot/LivingRoom/1
+off
+/Actuator/SmartTV/LivingRoom/1
+off
+/Actuator/NotificationSender/LivingRoom/1
+off
+/Actuator/AC/LivingRoom/1
+off
+/Actuator/Heater/LivingRoom/1
+off
+/Actuator/Humidifier/LivingRoom/1
+off
+/Actuator/Light/LivingRoom/1
+off
+/Actuator/Light/LivingRoom/2
+off
+/Actuator/Light/Bedroom/1
+off
+/Actuator/Light/Bedroom/2
+off
+/Actuator/Light/Kitchen/1
+off
+/Actuator/Light/Bathroom/1
+off
+/Actuator/Door/LivingRoom/1 is turned on.
+on
+/Sensor/LightIntensive/LivingRoom/1
+off
+/Actuator/NotificationSender/LivingRoom/1
+off
+/Actuator/SmartTV/LivingRoom/1
+off
+Cannot Get Sensor Reading, /Sensor/LightIntensive/LivingRoom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/LivingRoom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/LightIntensive/LivingRoom/1 is Currently OFF. 
+Playing music in the living room...
+
+Standard Error:
+2025-01-14 16:23:14,170 - sensor.py - get_reading - WARNING - '/Sensor/LightIntensive/LivingRoom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:23:14,170 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/LivingRoom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:23:14,170 - sensor.py - get_reading - WARNING - '/Sensor/LightIntensive/LivingRoom/1' is currently OFF. Cannot get reading.
+Traceback (most recent call last):
+  File "/Users/minghe/llm4faas/experiments_default/functions_zh/gemini_functions/gemini_remote_control_6_1722435512941317000.py", line 165, in <module>
+    main()
+  File "/Users/minghe/llm4faas/experiments_default/functions_zh/gemini_functions/gemini_remote_control_6_1722435512941317000.py", line 98, in main
+    living_room_music_player.play_music("Classical")
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Curtain' object has no attribute 'play_music'
+
+Return code: 1

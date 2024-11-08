@@ -1,0 +1,27 @@
+Standard Output:
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/LivingRoom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/Bedroom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/Bathroom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/LivingRoom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Bedroom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Kitchen/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Bathroom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Balcony/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/LightIntensive/LivingRoom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/LightIntensive/Bedroom/1 is Currently OFF. 
+Notification Sender /Actuator/NotificationSender/LivingRoom/1 is OFF, please turn it on then send the message again.
+
+Standard Error:
+2025-01-10 12:34:06,622 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/LivingRoom/1' is currently OFF. Cannot get reading.
+2025-01-10 12:34:06,622 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/Bedroom/1' is currently OFF. Cannot get reading.
+2025-01-10 12:34:06,622 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/Bathroom/1' is currently OFF. Cannot get reading.
+2025-01-10 12:34:06,622 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/LivingRoom/1' is currently OFF. Cannot get reading.
+2025-01-10 12:34:06,622 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Bedroom/1' is currently OFF. Cannot get reading.
+2025-01-10 12:34:06,622 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Kitchen/1' is currently OFF. Cannot get reading.
+2025-01-10 12:34:06,622 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Bathroom/1' is currently OFF. Cannot get reading.
+2025-01-10 12:34:06,622 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Balcony/1' is currently OFF. Cannot get reading.
+2025-01-10 12:34:06,622 - sensor.py - get_reading - WARNING - '/Sensor/LightIntensive/LivingRoom/1' is currently OFF. Cannot get reading.
+2025-01-10 12:34:06,622 - sensor.py - get_reading - WARNING - '/Sensor/LightIntensive/Bedroom/1' is currently OFF. Cannot get reading.
+2025-01-10 12:34:06,622 - actuator.py - notification_sender - WARNING - Notification Sender /Actuator/NotificationSender/LivingRoom/1 is OFF, Turn it On First.
+
+Return code: 0

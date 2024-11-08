@@ -1,0 +1,9 @@
+Standard Output:
+
+Standard Error:
+Traceback (most recent call last):
+  File "/Users/minghe/llm4faas/experiments_default/functions_zh/deepseek-r1-functions/deepseek-r1:7b_plan_26_1740442527051337000.py", line 69, in <module>
+    from scheduling import job, get_jobs
+ModuleNotFoundError: No module named 'scheduling'
+
+Return code: 1

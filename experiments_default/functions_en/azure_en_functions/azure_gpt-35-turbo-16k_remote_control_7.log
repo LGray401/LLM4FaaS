@@ -1,0 +1,8 @@
+Standard Output:
+Cannot Get Sensor Reading, /Sensor/LightIntensive/Bedroom/1 is Currently OFF. 
+Cannot dim the lights. Light sensor reading is not available.
+
+Standard Error:
+2025-01-14 16:52:39,711 - sensor.py - get_reading - WARNING - '/Sensor/LightIntensive/Bedroom/1' is currently OFF. Cannot get reading.
+
+Return code: 0

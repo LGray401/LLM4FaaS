@@ -1,0 +1,11 @@
+Standard Output:
+'/Sensor/Smoke/Kitchen/1' is now ON.
+/Sensor/Smoke/Kitchen/1 reading is: 80.09
+Smoke level is high! Activating smoke alarm.
+Someone is in the kitchen. Turning on the lights.
+/Actuator/Light/Kitchen/1 is turned on.
+/Sensor/Smoke/Kitchen/1 is now OFF.
+
+Standard Error:
+
+Return code: 0

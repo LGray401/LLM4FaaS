@@ -1,0 +1,10 @@
+Standard Output:
+
+Standard Error:
+Traceback (most recent call last):
+  File "/Users/minghe/llm4faas/experiments_default/functions_zh/deepseek-r1-functions/deepseek-r1:7b_remote_control_13_1738502587176921000.py", line 198, in <module>
+    lights = get_all_actuators(home, "Light")
+             ^^^^^^^^^^^^^^^^^
+NameError: name 'get_all_actuators' is not defined
+
+Return code: 1

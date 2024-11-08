@@ -1,0 +1,11 @@
+Standard Output:
+/Actuator/Window/LivingRoom/1 is turned on.
+/Actuator/Window/LivingRoom/1 is opened.
+/Actuator/Window/LivingRoom/2 is turned on.
+/Actuator/Window/LivingRoom/2 is opened.
+/Actuator/AC/LivingRoom/1 is turned off.
+/Actuator/AC/LivingRoom/1 is turned off.
+
+Standard Error:
+
+Return code: 0

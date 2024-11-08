@@ -1,0 +1,18 @@
+Standard Output:
+Executing Morning Plan...
+We find LivingRoom!
+there is no Actuator found in Curtain
+
+Standard Error:
+2025-01-10 14:36:32,162 - home_plan.py - get_room_actuators - WARNING - there is no Actuator found in Curtain
+Traceback (most recent call last):
+  File "/Users/minghe/llm4faas/experiments_default/functions_en/4o-mini_en_functoins/openai_gpt-4o-mini_plan_1.py", line 80, in <module>
+    main()
+  File "/Users/minghe/llm4faas/experiments_default/functions_en/4o-mini_en_functoins/openai_gpt-4o-mini_plan_1.py", line 71, in main
+    execute_morning_plan(home)
+  File "/Users/minghe/llm4faas/experiments_default/functions_en/4o-mini_en_functoins/openai_gpt-4o-mini_plan_1.py", line 14, in execute_morning_plan
+    for curtain in curtains:
+                   ^^^^^^^^
+TypeError: 'NoneType' object is not iterable
+
+Return code: 1

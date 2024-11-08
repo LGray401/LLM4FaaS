@@ -1,0 +1,67 @@
+Error: Execution timed out
+Standard Output:
+'/Sensor/IndoorTemperature/LivingRoom/1' is now ON.
+'/Sensor/Humidity/LivingRoom/1' is now ON.
+'/Sensor/LightIntensive/LivingRoom/1' is now ON.
+/Sensor/IndoorTemperature/LivingRoom/1 reading is: 32.98
+Temperature is 32.98°C. Turning on AC for cooling.
+/Actuator/AC/LivingRoom/1 is turned on.
+Set the target temperature of /Actuator/AC/LivingRoom/1 to 26.0°C.
+/Sensor/Humidity/LivingRoom/1 reading is: 29.1
+Humidity is 29.1%. Turning on AC for humidification.
+/Actuator/AC/LivingRoom/1 is turned on.
+/Sensor/LightIntensive/LivingRoom/1 reading is: 1085.66
+Light intensity is 1085.66. Closing curtains.
+/Actuator/Curtain/LivingRoom/1 is turned on.
+/Sensor/IndoorTemperature/LivingRoom/1 reading is: 34.81
+Temperature is 34.81°C. Turning on AC for cooling.
+/Actuator/AC/LivingRoom/1 is turned on.
+Set the target temperature of /Actuator/AC/LivingRoom/1 to 26.0°C.
+/Sensor/Humidity/LivingRoom/1 reading is: 27.85
+Humidity is 27.85%. Turning on AC for humidification.
+/Actuator/AC/LivingRoom/1 is turned on.
+/Sensor/LightIntensive/LivingRoom/1 reading is: 1093.63
+Light intensity is 1093.63. Closing curtains.
+/Actuator/Curtain/LivingRoom/1 is turned on.
+/Sensor/IndoorTemperature/LivingRoom/1 reading is: 34.93
+Temperature is 34.93°C. Turning on AC for cooling.
+/Actuator/AC/LivingRoom/1 is turned on.
+Set the target temperature of /Actuator/AC/LivingRoom/1 to 26.0°C.
+/Sensor/Humidity/LivingRoom/1 reading is: 22.58
+Humidity is 22.58%. Turning on AC for humidification.
+/Actuator/AC/LivingRoom/1 is turned on.
+/Sensor/LightIntensive/LivingRoom/1 reading is: 1045.55
+Light intensity is 1045.55. Closing curtains.
+/Actuator/Curtain/LivingRoom/1 is turned on.
+/Sensor/IndoorTemperature/LivingRoom/1 reading is: 36.6
+Temperature is 36.6°C. Turning on AC for cooling.
+/Actuator/AC/LivingRoom/1 is turned on.
+Set the target temperature of /Actuator/AC/LivingRoom/1 to 26.0°C.
+/Sensor/Humidity/LivingRoom/1 reading is: 27.05
+Humidity is 27.05%. Turning on AC for humidification.
+/Actuator/AC/LivingRoom/1 is turned on.
+/Sensor/LightIntensive/LivingRoom/1 reading is: 1079.79
+Light intensity is 1079.79. Closing curtains.
+/Actuator/Curtain/LivingRoom/1 is turned on.
+/Sensor/IndoorTemperature/LivingRoom/1 reading is: 31.77
+Temperature is 31.77°C. Turning on AC for cooling.
+/Actuator/AC/LivingRoom/1 is turned on.
+Set the target temperature of /Actuator/AC/LivingRoom/1 to 26.0°C.
+/Sensor/Humidity/LivingRoom/1 reading is: 24.71
+Humidity is 24.71%. Turning on AC for humidification.
+/Actuator/AC/LivingRoom/1 is turned on.
+/Sensor/LightIntensive/LivingRoom/1 reading is: 955.62
+Light intensity is 955.62. Closing curtains.
+/Actuator/Curtain/LivingRoom/1 is turned on.
+/Sensor/IndoorTemperature/LivingRoom/1 reading is: 39.65
+Temperature is 39.65°C. Turning on AC for cooling.
+/Actuator/AC/LivingRoom/1 is turned on.
+Set the target temperature of /Actuator/AC/LivingRoom/1 to 26.0°C.
+/Sensor/Humidity/LivingRoom/1 reading is: 12.2
+Humidity is 12.2%. Turning on AC for humidification.
+/Actuator/AC/LivingRoom/1 is turned on.
+/Sensor/LightIntensive/LivingRoom/1 reading is: 1117.17
+Light intensity is 1117.17. Closing curtains.
+/Actuator/Curtain/LivingRoom/1 is turned on.
+
+Standard Error:

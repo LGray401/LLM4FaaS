@@ -1,0 +1,28 @@
+Standard Output:
+'/Sensor/IndoorTemperature/LivingRoom/1' is now ON.
+'/Sensor/IndoorTemperature/Bedroom/1' is now ON.
+'/Sensor/IndoorTemperature/Bathroom/1' is now ON.
+'/Sensor/Humidity/LivingRoom/1' is now ON.
+'/Sensor/Humidity/Bedroom/1' is now ON.
+'/Sensor/Humidity/Kitchen/1' is now ON.
+'/Sensor/Humidity/Bathroom/1' is now ON.
+'/Sensor/Humidity/Balcony/1' is now ON.
+'/Sensor/LightIntensive/LivingRoom/1' is now ON.
+'/Sensor/LightIntensive/Bedroom/1' is now ON.
+/Sensor/IndoorTemperature/LivingRoom/1 reading is: 33.61
+/Sensor/IndoorTemperature/Bedroom/1 reading is: 35.07
+/Sensor/IndoorTemperature/Bathroom/1 reading is: 32.09
+/Sensor/Humidity/LivingRoom/1 reading is: 16.09
+/Sensor/Humidity/Bedroom/1 reading is: 22.15
+/Sensor/Humidity/Kitchen/1 reading is: 22.68
+/Sensor/Humidity/Bathroom/1 reading is: 13.71
+/Sensor/Humidity/Balcony/1 reading is: 20.07
+/Sensor/LightIntensive/LivingRoom/1 reading is: 952.33
+/Sensor/LightIntensive/Bedroom/1 reading is: 930.9
+Temperature: 温度33.59度
+Humidity: 湿度18.94
+Light Intensity: 光适中
+
+Standard Error:
+
+Return code: 0

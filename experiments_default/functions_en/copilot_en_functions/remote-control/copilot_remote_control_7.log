@@ -1,0 +1,9 @@
+Standard Output:
+Light /Actuator/Light/Bedroom/1 is OFF. Please turn it on before setting the brightness level.
+Light /Actuator/Light/Bedroom/2 is OFF. Please turn it on before setting the brightness level.
+
+Standard Error:
+2025-01-14 17:02:42,548 - actuator.py - set_brightness_level - WARNING - Light /Actuator/Light/Bedroom/1 is OFF. Please turn it on before setting the brightness level.
+2025-01-14 17:02:42,548 - actuator.py - set_brightness_level - WARNING - Light /Actuator/Light/Bedroom/2 is OFF. Please turn it on before setting the brightness level.
+
+Return code: 0

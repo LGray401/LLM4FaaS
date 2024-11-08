@@ -1,0 +1,15 @@
+Standard Output:
+Executing Morning Plan...
+
+Standard Error:
+Traceback (most recent call last):
+  File "/Users/minghe/llm4faas/default_experiments/functions_repeat_zh/gpt4o/openai_gpt-4o_plan_21_1727173335109754000_1.py", line 87, in <module>
+    main()
+  File "/Users/minghe/llm4faas/default_experiments/functions_repeat_zh/gpt4o/openai_gpt-4o_plan_21_1727173335109754000_1.py", line 82, in main
+    morning_plan(home)
+  File "/Users/minghe/llm4faas/default_experiments/functions_repeat_zh/gpt4o/openai_gpt-4o_plan_21_1727173335109754000_1.py", line 11, in morning_plan
+    curtains = get_all_actuators(home, "Curtain")
+               ^^^^^^^^^^^^^^^^^
+NameError: name 'get_all_actuators' is not defined. Did you mean: 'get_room_actuators'?
+
+Return code: 1

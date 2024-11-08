@@ -1,0 +1,17 @@
+Type,Task,Rate,Experiment
+Ready-to-Use Rate,Remote Device Control,86.95652173913044,LLM4FaaS
+Ready-to-Use Rate,Scheduled Plans,81.53846153846153,LLM4FaaS
+Ready-to-Use Rate,Comfort Home,60.256410256410255,LLM4FaaS
+Ready-to-Use Rate,Energy Efficient Home,57.14285714285714,LLM4FaaS
+Compile Rate,Remote Device Control,91.30434782608695,LLM4FaaS
+Compile Rate,Scheduled Plans,90.76923076923077,LLM4FaaS
+Compile Rate,Comfort Home,87.17948717948718,LLM4FaaS
+Compile Rate,Energy Efficient Home,80.95238095238095,LLM4FaaS
+Ready-to-Use Rate,Remote Device Control,56.52173913043478,Baseline
+Ready-to-Use Rate,Scheduled Plans,61.53846153846154,Baseline
+Ready-to-Use Rate,Comfort Home,32.05128205128205,Baseline
+Ready-to-Use Rate,Energy Efficient Home,23.809523809523807,Baseline
+Compile Rate,Remote Device Control,91.30434782608695,Baseline
+Compile Rate,Scheduled Plans,83.07692307692308,Baseline
+Compile Rate,Comfort Home,93.58974358974359,Baseline
+Compile Rate,Energy Efficient Home,85.71428571428571,Baseline

@@ -1,0 +1,13 @@
+Standard Output:
+
+Standard Error:
+Traceback (most recent call last):
+  File "/Users/minghe/llm4faas/experiments_default/functions_zh/deepseek-r1-functions/deepseek-r1:7b_plan_9_1740438396993132000.py", line 138, in <module>
+    main()
+    ~~~~^^
+  File "/Users/minghe/llm4faas/experiments_default/functions_zh/deepseek-r1-functions/deepseek-r1:7b_plan_9_1740438396993132000.py", line 128, in main
+    home = home_planet()  # Assume this function returns the list of rooms
+           ^^^^^^^^^^^
+NameError: name 'home_planet' is not defined
+
+Return code: 1

@@ -1,0 +1,19 @@
+Standard Output:
+We find LivingRoom!
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/LivingRoom/1 is Currently OFF. 
+We find Bedroom!
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/Bedroom/1 is Currently OFF. 
+We find Kitchen!
+
+Standard Error:
+2025-01-14 16:24:50,660 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/LivingRoom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:24:50,660 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/Bedroom/1' is currently OFF. Cannot get reading.
+Traceback (most recent call last):
+  File "/Users/minghe/llm4faas/experiments_default/functions_zh/gemini_functions/gemini_energy_control_6_1722438867276418000.py", line 57, in <module>
+    energy_saving_mode()
+  File "/Users/minghe/llm4faas/experiments_default/functions_zh/gemini_functions/gemini_energy_control_6_1722438867276418000.py", line 14, in energy_saving_mode
+    temperature_sensor = [sensor for sensor in room.sensors if isinstance(sensor, IndoorTemperatureSensor)][0]
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+
+Return code: 1

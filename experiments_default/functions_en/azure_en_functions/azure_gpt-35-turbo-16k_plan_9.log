@@ -1,0 +1,15 @@
+Standard Output:
+Executing Morning Plan
+Cannot Get Sensor Reading, /Sensor/LightIntensive/LivingRoom/1 is Currently OFF. 
+
+Standard Error:
+2025-01-14 16:52:09,500 - sensor.py - get_reading - WARNING - '/Sensor/LightIntensive/LivingRoom/1' is currently OFF. Cannot get reading.
+Traceback (most recent call last):
+  File "/Users/minghe/llm4faas/experiments_default/functions_en/azure_en_functions/azure_gpt-35-turbo-16k_plan_9.py", line 72, in <module>
+    morning_plan()
+  File "/Users/minghe/llm4faas/experiments_default/functions_en/azure_en_functions/azure_gpt-35-turbo-16k_plan_9.py", line 18, in morning_plan
+    if sensor.get_reading() < 200:  # Adjust the threshold value as per your requirement
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<' not supported between instances of 'NoneType' and 'int'
+
+Return code: 1

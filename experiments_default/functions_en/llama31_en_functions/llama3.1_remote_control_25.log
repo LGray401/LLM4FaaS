@@ -1,0 +1,10 @@
+Standard Output:
+
+Standard Error:
+Traceback (most recent call last):
+  File "/Users/minghe/llm4faas/experiments_default/functions_en/llama31_en_functions/llama3.1_remote_control_25.py", line 52, in <module>
+    def get_room(home: list, room_name: str) -> Room | None:
+                                                ^^^^
+NameError: name 'Room' is not defined
+
+Return code: 1

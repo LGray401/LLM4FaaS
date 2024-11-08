@@ -1,0 +1,3 @@
+Standard Output:
+/Sensor/IndoorTemperature/LivingRoom/1 reading is: || /Sensor/IndoorTemperature/Bedroom/1 reading is: || /Sensor/IndoorTemperature/Bathroom/1 reading is:
+/Actuator/Window/Bedroom/1 is turned on. || /Actuator/Window/LivingRoom/1 is turned on. || /Actuator/Window/LivingRoom/2 is turned on.

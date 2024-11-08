@@ -1,0 +1,14 @@
+Standard Output:
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/LivingRoom/1 is Currently OFF. 
+
+Standard Error:
+2024-11-07 17:50:06,248 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/LivingRoom/1' is currently OFF. Cannot get reading.
+Traceback (most recent call last):
+  File "/Users/minghe/llm4faas/zhipu_functions/remote/zhipu_('glm-4-flash',)_remote_control_23_1730993582558198000.py", line 69, in <module>
+    main()
+  File "/Users/minghe/llm4faas/zhipu_functions/remote/zhipu_('glm-4-flash',)_remote_control_23_1730993582558198000.py", line 35, in main
+    if temperature > TEMP_HIGH:
+                     ^^^^^^^^^
+NameError: name 'TEMP_HIGH' is not defined
+
+Return code: 1

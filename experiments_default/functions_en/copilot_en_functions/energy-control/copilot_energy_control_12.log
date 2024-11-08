@@ -1,0 +1,27 @@
+Standard Output:
+Cannot Get Sensor Reading, /Sensor/OutdoorTemperature/Balcony/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/LivingRoom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Bedroom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Kitchen/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Bathroom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Balcony/1 is Currently OFF. 
+
+Standard Error:
+2025-01-14 17:02:33,179 - sensor.py - get_reading - WARNING - '/Sensor/OutdoorTemperature/Balcony/1' is currently OFF. Cannot get reading.
+2025-01-14 17:02:33,179 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/LivingRoom/1' is currently OFF. Cannot get reading.
+2025-01-14 17:02:33,179 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Bedroom/1' is currently OFF. Cannot get reading.
+2025-01-14 17:02:33,179 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Kitchen/1' is currently OFF. Cannot get reading.
+2025-01-14 17:02:33,179 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Bathroom/1' is currently OFF. Cannot get reading.
+2025-01-14 17:02:33,179 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Balcony/1' is currently OFF. Cannot get reading.
+Traceback (most recent call last):
+  File "/Users/minghe/llm4faas/experiments_default/functions_en/copilot_en_functions/energy-control/copilot_energy_12.py", line 44, in <module>
+    energy_saving_mode()
+  File "/Users/minghe/llm4faas/experiments_default/functions_en/copilot_en_functions/energy-control/copilot_energy_12.py", line 38, in energy_saving_mode
+    if any(temp > TEMP_HIGH for temp in outdoor_temp_readings) and any(humidity < HUMIDITY_HIGH for humidity in humidity_readings):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/minghe/llm4faas/experiments_default/functions_en/copilot_en_functions/energy-control/copilot_energy_12.py", line 38, in <genexpr>
+    if any(temp > TEMP_HIGH for temp in outdoor_temp_readings) and any(humidity < HUMIDITY_HIGH for humidity in humidity_readings):
+           ^^^^^^^^^^^^^^^^
+TypeError: '>' not supported between instances of 'NoneType' and 'int'
+
+Return code: 1

@@ -1,0 +1,19 @@
+Standard Output:
+Executing Morning Plan...
+We find LivingRoom!
+
+Standard Error:
+Traceback (most recent call last):
+  File "/Users/minghe/llm4faas/experiments_default/functions_zh/4o-mini_functions/openai_gpt-4o-mini_plan_4.py", line 51, in <module>
+    main()
+  File "/Users/minghe/llm4faas/experiments_default/functions_zh/4o-mini_functions/openai_gpt-4o-mini_plan_4.py", line 42, in main
+    execute_morning_plan(home)
+  File "/Users/minghe/llm4faas/experiments_default/functions_zh/4o-mini_functions/openai_gpt-4o-mini_plan_4.py", line 13, in execute_morning_plan
+    curtains = get_all_actuators(living_room, "Curtain")
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/minghe/llm4faas/home/home_plan.py", line 123, in get_all_actuators
+    for room in home:
+                ^^^^
+TypeError: 'Room' object is not iterable
+
+Return code: 1

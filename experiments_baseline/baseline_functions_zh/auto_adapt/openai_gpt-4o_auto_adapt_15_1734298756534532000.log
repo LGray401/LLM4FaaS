@@ -1,0 +1,79 @@
+Standard Output:
+Room: Living Room
+  Sensors:
+    Temperature: 23
+    Humidity: 23
+    Light Intensity: 35
+  Devices:
+    Light
+    Light
+    Window
+    Window
+    Socket
+    Socket
+    Door
+    Heater
+    AC
+    Curtain
+    Humidifier
+    Cleaning Robot
+    Music Player
+    TV
+    Notification Sender
+
+Room: Bedroom
+  Sensors:
+    Temperature: 23
+    Humidity: 23
+    Light Intensity: 35
+  Devices:
+    Light
+    Light
+    Window
+    Curtain
+    AC
+    Heater
+    Music Player
+    Door
+    Socket
+    Socket
+    Cleaning Robot
+    Humidifier
+
+Room: Bathroom
+  Sensors:
+    Temperature: 23
+    Humidity: 23
+  Devices:
+    Light
+    Window
+    Heater
+    Door
+    Socket
+    Socket
+
+Room: Kitchen
+  Sensors:
+    Humidity: 23
+    Smoke: 0
+  Devices:
+    Light
+    Window
+    Heater
+    Coffee Machine
+    Socket
+    Socket
+    Socket
+    Door
+
+Room: Balcony
+  Sensors:
+    Temperature: 23
+    Humidity: 23
+  Devices:
+    Door
+
+
+Standard Error:
+
+Return code: 0

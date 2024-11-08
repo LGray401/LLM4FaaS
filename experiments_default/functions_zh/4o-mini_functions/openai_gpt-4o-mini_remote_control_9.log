@@ -1,0 +1,11 @@
+Standard Output:
+Set the target temperature of /Actuator/AC/LivingRoom/1 to 26°C.
+/Actuator/AC/LivingRoom/1 is turned on.
+/Actuator/SmartTV/LivingRoom/1 is turned on.
+/Actuator/SmartTV/LivingRoom/1: Volume increased by 3 levels.
+/Actuator/CoffeeMachine/Kitchen/1 is turned on.
+/Actuator/CoffeeMachine/Kitchen/1 is set to boil at 100 degrees.
+
+Standard Error:
+
+Return code: 0

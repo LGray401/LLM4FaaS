@@ -1,0 +1,21 @@
+Standard Output:
+We find LivingRoom!
+/Actuator/Door/LivingRoom/1 is turned off.
+/Actuator/Light/LivingRoom/1 is turned off.
+/Actuator/Light/LivingRoom/2 is turned off.
+/Actuator/Window/LivingRoom/1 is turned off.
+/Actuator/Window/LivingRoom/2 is turned off.
+/Actuator/Curtain/LivingRoom/1 is turned off.
+/Actuator/MusicPlayer/LivingRoom/1 is turned off.
+/Actuator/SmartSocket/LivingRoom/1 is turned off.
+/Actuator/SmartSocket/LivingRoom/2 is turned off.
+/Actuator/CleaningRobot/LivingRoom/1 is turned off.
+/Actuator/SmartTV/LivingRoom/1 is turned off.
+/Actuator/NotificationSender/LivingRoom/1 is turned off.
+/Actuator/AC/LivingRoom/1 is turned off.
+/Actuator/Heater/LivingRoom/1 is turned off.
+/Actuator/Humidifier/LivingRoom/1 is turned off.
+
+Standard Error:
+
+Return code: 0

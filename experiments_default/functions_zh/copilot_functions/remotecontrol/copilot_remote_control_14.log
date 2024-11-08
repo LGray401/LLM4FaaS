@@ -1,0 +1,8 @@
+Standard Output:
+
+Standard Error:
+  File "/Users/minghe/llm4faas/experiments_default/functions_zh/copilot_functions/remotecontrol/copilot_remote_control_14.py", line 18
+    action, target = command.split('的')
+IndentationError: unexpected indent
+
+Return code: 1

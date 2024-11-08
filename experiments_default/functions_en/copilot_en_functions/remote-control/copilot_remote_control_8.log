@@ -1,0 +1,12 @@
+Standard Output:
+
+Standard Error:
+Traceback (most recent call last):
+  File "/Users/minghe/llm4faas/experiments_default/functions_en/copilot_en_functions/remote-control/copilot_remote-control_8.py", line 35, in <module>
+    main()
+  File "/Users/minghe/llm4faas/experiments_default/functions_en/copilot_en_functions/remote-control/copilot_remote-control_8.py", line 15, in main
+    home = home_plan()
+           ^^^^^^^^^
+NameError: name 'home_plan' is not defined
+
+Return code: 1

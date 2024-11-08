@@ -1,0 +1,12 @@
+Standard Output:
+
+Standard Error:
+Traceback (most recent call last):
+  File "/Users/minghe/llm4faas/experiments_default/functions_en/gemini_en_functions/gemini_energy_control_6_1725286745860704000.py", line 64, in <module>
+    activate_energy_saving_mode()
+  File "/Users/minghe/llm4faas/experiments_default/functions_en/gemini_en_functions/gemini_energy_control_6_1725286745860704000.py", line 12, in activate_energy_saving_mode
+    home = get_all_actuators("all")
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: get_all_actuators() missing 1 required positional argument: 'actuator_type'
+
+Return code: 1

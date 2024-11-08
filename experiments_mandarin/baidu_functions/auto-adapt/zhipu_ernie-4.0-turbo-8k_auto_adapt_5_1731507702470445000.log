@@ -1,0 +1,9 @@
+Standard Output:
+
+Standard Error:
+Traceback (most recent call last):
+  File "/Users/minghe/llm4faas/experiments_mandarin/baidu_functions/auto-adapt/zhipu_ernie-4.0-turbo-8k_auto_adapt_5_1731507702470445000.py", line 5, in <module>
+    from home.sensor import get_all_sensors
+ImportError: cannot import name 'get_all_sensors' from 'home.sensor' (/Users/minghe/llm4faas/home/sensor.py)
+
+Return code: 1

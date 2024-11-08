@@ -1,0 +1,15 @@
+Standard Output:
+/Actuator/Window/LivingRoom/1 is turned on.
+/Actuator/Window/LivingRoom/1 has been opened.
+/Actuator/Window/LivingRoom/2 is turned on.
+/Actuator/Window/LivingRoom/2 has been opened.
+/Actuator/Window/Bedroom/1 is turned on.
+/Actuator/Window/Bedroom/1 has been opened.
+/Actuator/Window/Kitchen/1 is turned on.
+/Actuator/Window/Kitchen/1 has been opened.
+/Actuator/Window/Bathroom/1 is turned on.
+/Actuator/Window/Bathroom/1 has been opened.
+
+Standard Error:
+
+Return code: 0

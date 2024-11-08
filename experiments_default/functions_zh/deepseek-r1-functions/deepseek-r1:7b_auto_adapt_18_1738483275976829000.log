@@ -1,0 +1,12 @@
+Standard Output:
+
+Standard Error:
+Traceback (most recent call last):
+  File "/Users/minghe/llm4faas/experiments_default/functions_zh/deepseek-r1-functions/deepseek-r1:7b_auto_adapt_18_1738483275976829000.py", line 344, in <module>
+    rooms = home_plan()
+  File "/Users/minghe/llm4faas/experiments_default/functions_zh/deepseek-r1-functions/deepseek-r1:7b_auto_adapt_18_1738483275976829000.py", line 318, in home_plan
+    light_living = LightIntensiveSensor()
+                   ^^^^^^^^^^^^^^^^^^^^
+NameError: name 'LightIntensiveSensor' is not defined
+
+Return code: 1

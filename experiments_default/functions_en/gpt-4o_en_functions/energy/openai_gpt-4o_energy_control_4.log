@@ -1,0 +1,31 @@
+Standard Output:
+'/Sensor/IndoorTemperature/LivingRoom/1' is now ON.
+/Sensor/IndoorTemperature/LivingRoom/1 reading is: 38.07
+/Actuator/Window/LivingRoom/1 is turned on.
+Opening /Actuator/Window/LivingRoom/1 to cool down the room.
+/Actuator/Window/LivingRoom/1 is turned off.
+/Actuator/Window/LivingRoom/2 is turned on.
+Opening /Actuator/Window/LivingRoom/2 to cool down the room.
+/Actuator/Window/LivingRoom/2 is turned off.
+Cooling down LivingRoom by opening windows.
+/Sensor/IndoorTemperature/LivingRoom/1 is now OFF.
+'/Sensor/IndoorTemperature/Bedroom/1' is now ON.
+/Sensor/IndoorTemperature/Bedroom/1 reading is: 32.32
+/Actuator/Window/Bedroom/1 is turned on.
+Opening /Actuator/Window/Bedroom/1 to cool down the room.
+/Actuator/Window/Bedroom/1 is turned off.
+Cooling down Bedroom by opening windows.
+/Sensor/IndoorTemperature/Bedroom/1 is now OFF.
+No indoor temperature sensor found in Kitchen.
+'/Sensor/IndoorTemperature/Bathroom/1' is now ON.
+/Sensor/IndoorTemperature/Bathroom/1 reading is: 33.65
+/Actuator/Window/Bathroom/1 is turned on.
+Opening /Actuator/Window/Bathroom/1 to cool down the room.
+/Actuator/Window/Bathroom/1 is turned off.
+Cooling down Bathroom by opening windows.
+/Sensor/IndoorTemperature/Bathroom/1 is now OFF.
+No indoor temperature sensor found in Balcony.
+
+Standard Error:
+
+Return code: 0

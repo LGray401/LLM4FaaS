@@ -1,0 +1,45 @@
+Standard Output:
+Temperature Sensors in the home: [<home.sensor.IndoorTemperatureSensor object at 0x1045a5d90>, <home.sensor.IndoorTemperatureSensor object at 0x1046443b0>, <home.sensor.IndoorTemperatureSensor object at 0x104645280>]
+Lights in the home: [<home.actuator.Light object at 0x10460baa0>, <home.actuator.Light object at 0x10460be30>, <home.actuator.Light object at 0x104644560>, <home.actuator.Light object at 0x104644530>, <home.actuator.Light object at 0x1046450a0>, <home.actuator.Light object at 0x1046452e0>]
+Living Room Sensors: [<home.sensor.LightIntensiveSensor object at 0x1045a5d60>, <home.sensor.IndoorTemperatureSensor object at 0x1045a5d90>, <home.sensor.HumiditySensor object at 0x1045a5e20>]
+Living Room Actuators: [<home.actuator.Door object at 0x10460bb90>, <home.actuator.Light object at 0x10460baa0>, <home.actuator.Light object at 0x10460be30>, <home.actuator.Window object at 0x10460bdd0>, <home.actuator.Window object at 0x10460bf80>, <home.actuator.Curtain object at 0x10460bf20>, <home.actuator.MusicPlayer object at 0x1045bb080>, <home.actuator.SmartSocket object at 0x1045b9340>, <home.actuator.SmartSocket object at 0x104644050>, <home.actuator.CleaningRobot object at 0x104644110>, <home.actuator.SmartTV object at 0x1046440e0>, <home.actuator.NotificationSender object at 0x1046441d0>, <home.actuator.AC object at 0x1046441a0>, <home.actuator.Heater object at 0x104644290>, <home.actuator.Humidifier object at 0x104644260>]
+/Actuator/Light/LivingRoom/1 is turned on.
+/Actuator/Light/LivingRoom/2 is turned on.
+/Actuator/Light/Bedroom/1 is turned on.
+/Actuator/Light/Bedroom/2 is turned on.
+/Actuator/Light/Kitchen/1 is turned on.
+/Actuator/Light/Bathroom/1 is turned on.
+We find LivingRoom!
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/LivingRoom/1 is Currently OFF. 
+/Actuator/CleaningRobot/LivingRoom/1 is turned on.
+Cleaning Robot /Actuator/CleaningRobot/LivingRoom/1 Starts Daily Cleaning Routine
+/Actuator/CleaningRobot/LivingRoom/1 Finish Daily Cleaning Routine, Will Turn it OFF
+/Actuator/CleaningRobot/LivingRoom/1 is turned off.
+We find Kitchen!
+/Actuator/CoffeeMachine/Kitchen/1 is turned on.
+/Actuator/CoffeeMachine/Kitchen/1 Start making Espresso
+/Actuator/SmartTV/LivingRoom/1 is turned on.
+Start playing BBC News on the /Actuator/SmartTV/LivingRoom/1 in LivingRoom
+/Actuator/NotificationSender/LivingRoom/1 is turned on.
+Notification Sender /Actuator/NotificationSender/LivingRoom/1 send message: Reminder: Water the plants!
+/Actuator/MusicPlayer/LivingRoom/1 is turned on.
+/Actuator/MusicPlayer/LivingRoom/1 start playing Pop
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/LivingRoom/1 is Currently OFF. 
+We find Bathroom!
+Cannot Get Sensor Reading, /Sensor/LightIntensive/LivingRoom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/LightIntensive/LivingRoom/1 is Currently OFF. 
+Simulating daily routine...
+/Actuator/CleaningRobot/LivingRoom/1 is turned on.
+Cleaning Robot /Actuator/CleaningRobot/LivingRoom/1 Starts Daily Cleaning Routine
+/Actuator/CleaningRobot/LivingRoom/1 Finish Daily Cleaning Routine, Will Turn it OFF
+/Actuator/CleaningRobot/LivingRoom/1 is turned off.
+Daily routine completed.
+Program finished.
+
+Standard Error:
+2025-01-14 16:19:51,206 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/LivingRoom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:19:54,211 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/LivingRoom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:19:54,212 - sensor.py - get_reading - WARNING - '/Sensor/LightIntensive/LivingRoom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:19:54,212 - sensor.py - get_reading - WARNING - '/Sensor/LightIntensive/LivingRoom/1' is currently OFF. Cannot get reading.
+
+Return code: 0

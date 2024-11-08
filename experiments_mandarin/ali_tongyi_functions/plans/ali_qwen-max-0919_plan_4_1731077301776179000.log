@@ -1,0 +1,30 @@
+Standard Output:
+/Actuator/Curtain/LivingRoom/1 is turned on.
+Curtain /Actuator/Curtain/LivingRoom/1 is now open.
+/Actuator/Curtain/Bedroom/1 is turned on.
+Curtain /Actuator/Curtain/Bedroom/1 is now open.
+Morning plan executed successfully.
+/Actuator/Light/LivingRoom/1 is turned off.
+Light /Actuator/Light/LivingRoom/1 is now off.
+/Actuator/Light/LivingRoom/2 is turned off.
+Light /Actuator/Light/LivingRoom/2 is now off.
+/Actuator/Light/Bedroom/1 is turned off.
+Light /Actuator/Light/Bedroom/1 is now off.
+/Actuator/Light/Bedroom/2 is turned off.
+Light /Actuator/Light/Bedroom/2 is now off.
+/Actuator/Light/Kitchen/1 is turned off.
+Light /Actuator/Light/Kitchen/1 is now off.
+/Actuator/Light/Bathroom/1 is turned off.
+Light /Actuator/Light/Bathroom/1 is now off.
+Leave home plan executed successfully.
+Light /Actuator/Light/LivingRoom/1 is OFF. Please turn it on before setting the brightness level.
+Light /Actuator/Light/LivingRoom/1 brightness set to low.
+Light /Actuator/Light/LivingRoom/2 is OFF. Please turn it on before setting the brightness level.
+Light /Actuator/Light/LivingRoom/2 brightness set to low.
+Movie plan executed successfully.
+
+Standard Error:
+2025-01-20 22:10:53,890 - actuator.py - set_brightness_level - WARNING - Light /Actuator/Light/LivingRoom/1 is OFF. Please turn it on before setting the brightness level.
+2025-01-20 22:10:53,890 - actuator.py - set_brightness_level - WARNING - Light /Actuator/Light/LivingRoom/2 is OFF. Please turn it on before setting the brightness level.
+
+Return code: 0

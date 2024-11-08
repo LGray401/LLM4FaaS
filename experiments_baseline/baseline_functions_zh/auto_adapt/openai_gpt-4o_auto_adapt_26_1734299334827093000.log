@@ -1,0 +1,29 @@
+Error: Execution timed out
+Standard Output:
+Activity updated to: working
+Sensors -> Temperature: 24.08°C, Humidity: 49.97%
+Turning on heater to increase temperature.
+Turning on humidifier to increase humidity.
+Setting light intensity to: bright
+Sensors -> Temperature: 24.12°C, Humidity: 49.85%
+Turning on heater to increase temperature.
+Turning on humidifier to increase humidity.
+Setting light intensity to: bright
+Sensors -> Temperature: 24.15°C, Humidity: 49.42%
+Turning on heater to increase temperature.
+Turning on humidifier to increase humidity.
+Setting light intensity to: bright
+Sensors -> Temperature: 24.27°C, Humidity: 49.75%
+Turning on heater to increase temperature.
+Turning on humidifier to increase humidity.
+Setting light intensity to: bright
+Sensors -> Temperature: 23.82°C, Humidity: 49.31%
+Turning on heater to increase temperature.
+Turning on humidifier to increase humidity.
+Setting light intensity to: bright
+Sensors -> Temperature: 24.20°C, Humidity: 48.31%
+Turning on heater to increase temperature.
+Turning on humidifier to increase humidity.
+Setting light intensity to: bright
+
+Standard Error:

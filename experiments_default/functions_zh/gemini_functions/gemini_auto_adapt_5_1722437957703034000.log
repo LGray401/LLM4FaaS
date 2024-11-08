@@ -1,0 +1,244 @@
+Error: Execution timed out
+Standard Output:
+
+---Home Plan---
+
+LivingRoom:
+Sensors:
+- /Sensor/LightIntensive/LivingRoom/1
+- /Sensor/IndoorTemperature/LivingRoom/1
+- /Sensor/Humidity/LivingRoom/1
+Actuators:
+- /Actuator/Door/LivingRoom/1
+- /Actuator/Light/LivingRoom/1
+- /Actuator/Light/LivingRoom/2
+- /Actuator/Window/LivingRoom/1
+- /Actuator/Window/LivingRoom/2
+- /Actuator/Curtain/LivingRoom/1
+- /Actuator/MusicPlayer/LivingRoom/1
+- /Actuator/SmartSocket/LivingRoom/1
+- /Actuator/SmartSocket/LivingRoom/2
+- /Actuator/CleaningRobot/LivingRoom/1
+- /Actuator/SmartTV/LivingRoom/1
+- /Actuator/NotificationSender/LivingRoom/1
+- /Actuator/AC/LivingRoom/1
+- /Actuator/Heater/LivingRoom/1
+- /Actuator/Humidifier/LivingRoom/1
+
+Bedroom:
+Sensors:
+- /Sensor/IndoorTemperature/Bedroom/1
+- /Sensor/Humidity/Bedroom/1
+- /Sensor/LightIntensive/Bedroom/1
+Actuators:
+- /Actuator/Light/Bedroom/1
+- /Actuator/Light/Bedroom/2
+- /Actuator/Window/Bedroom/1
+- /Actuator/Curtain/Bedroom/1
+- /Actuator/AC/Bedroom/1
+- /Actuator/Heater/Bedroom/1
+- /Actuator/MusicPlayer/Bedroom/1
+- /Actuator/Door/Bedroom/1
+- /Actuator/SmartSocket/Bedroom/1
+- /Actuator/SmartSocket/Bedroom/2
+- /Actuator/CleaningRobot/Bedroom/1
+- /Actuator/Humidifier/Bedroom/1
+
+Kitchen:
+Sensors:
+- /Sensor/Humidity/Kitchen/1
+- /Sensor/Smoke/Kitchen/1
+Actuators:
+- /Actuator/Light/Kitchen/1
+- /Actuator/Window/Kitchen/1
+- /Actuator/Heater/Kitchen/1
+- /Actuator/CoffeeMachine/Kitchen/1
+- /Actuator/SmartSocket/Kitchen/1
+- /Actuator/SmartSocket/Kitchen/2
+- /Actuator/SmartSocket/Kitchen/3
+- /Actuator/Door/Kitchen/1
+
+Bathroom:
+Sensors:
+- /Sensor/IndoorTemperature/Bathroom/1
+- /Sensor/Humidity/Bathroom/1
+Actuators:
+- /Actuator/Light/Bathroom/1
+- /Actuator/Window/Bathroom/1
+- /Actuator/Heater/Bathroom/1
+- /Actuator/Door/Bathroom/1
+- /Actuator/SmartSocket/Bathroom/1
+- /Actuator/SmartSocket/Bathroom/2
+
+Balcony:
+Sensors:
+- /Sensor/OutdoorTemperature/Balcony/1
+- /Sensor/Humidity/Balcony/1
+Actuators:
+- /Actuator/Door/Balcony/1
+We find LivingRoom!
+'/Sensor/IndoorTemperature/LivingRoom/1' is now ON.
+'/Sensor/Humidity/LivingRoom/1' is now ON.
+'/Sensor/LightIntensive/LivingRoom/1' is now ON.
+/Actuator/Light/LivingRoom/1 is turned on.
+/Actuator/NotificationSender/LivingRoom/1 is turned on.
+/Sensor/IndoorTemperature/LivingRoom/1 reading is: 33.64
+/Sensor/Humidity/LivingRoom/1 reading is: 25.93
+/Sensor/LightIntensive/LivingRoom/1 reading is: 1082.37
+/Actuator/AC/LivingRoom/1 is turned on.
+Notification Sender /Actuator/NotificationSender/LivingRoom/1 send message: The temperature in the LivingRoom is above 25°C. The AC has been turned on.
+Set /Actuator/Light/LivingRoom/1 light brightness level to LOW
+Cleaning Robot /Actuator/CleaningRobot/LivingRoom/1 is OFF now, Need to Turn it ON First
+/Sensor/IndoorTemperature/LivingRoom/1 reading is: 33.26
+/Sensor/Humidity/LivingRoom/1 reading is: 25.97
+/Actuator/AC/LivingRoom/1 is turned on.
+Notification Sender /Actuator/NotificationSender/LivingRoom/1 send message: The temperature in the LivingRoom is above 25°C. The AC has been turned on.
+The humidity is low. Consider turning on a humidifier.
+/Sensor/IndoorTemperature/LivingRoom/1 reading is: 32.81
+/Sensor/Humidity/LivingRoom/1 reading is: 13.76
+/Actuator/AC/LivingRoom/1 is turned on.
+Notification Sender /Actuator/NotificationSender/LivingRoom/1 send message: The temperature in the LivingRoom is above 25°C. The AC has been turned on.
+The humidity is low. Consider turning on a humidifier.
+/Sensor/IndoorTemperature/LivingRoom/1 reading is: 37.42
+/Sensor/Humidity/LivingRoom/1 reading is: 21.6
+/Actuator/AC/LivingRoom/1 is turned on.
+Notification Sender /Actuator/NotificationSender/LivingRoom/1 send message: The temperature in the LivingRoom is above 25°C. The AC has been turned on.
+The humidity is low. Consider turning on a humidifier.
+/Sensor/IndoorTemperature/LivingRoom/1 reading is: 33.9
+/Sensor/Humidity/LivingRoom/1 reading is: 15.47
+/Actuator/AC/LivingRoom/1 is turned on.
+Notification Sender /Actuator/NotificationSender/LivingRoom/1 send message: The temperature in the LivingRoom is above 25°C. The AC has been turned on.
+The humidity is low. Consider turning on a humidifier.
+/Sensor/IndoorTemperature/LivingRoom/1 reading is: 31.3
+/Sensor/Humidity/LivingRoom/1 reading is: 14.75
+/Actuator/AC/LivingRoom/1 is turned on.
+Notification Sender /Actuator/NotificationSender/LivingRoom/1 send message: The temperature in the LivingRoom is above 25°C. The AC has been turned on.
+The humidity is low. Consider turning on a humidifier.
+/Sensor/IndoorTemperature/LivingRoom/1 reading is: 37.82
+/Sensor/Humidity/LivingRoom/1 reading is: 25.14
+/Actuator/AC/LivingRoom/1 is turned on.
+Notification Sender /Actuator/NotificationSender/LivingRoom/1 send message: The temperature in the LivingRoom is above 25°C. The AC has been turned on.
+The humidity is low. Consider turning on a humidifier.
+/Sensor/IndoorTemperature/LivingRoom/1 reading is: 33.8
+/Sensor/Humidity/LivingRoom/1 reading is: 19.05
+/Actuator/AC/LivingRoom/1 is turned on.
+Notification Sender /Actuator/NotificationSender/LivingRoom/1 send message: The temperature in the LivingRoom is above 25°C. The AC has been turned on.
+The humidity is low. Consider turning on a humidifier.
+/Sensor/IndoorTemperature/LivingRoom/1 reading is: 35.68
+/Sensor/Humidity/LivingRoom/1 reading is: 14.72
+/Actuator/AC/LivingRoom/1 is turned on.
+Notification Sender /Actuator/NotificationSender/LivingRoom/1 send message: The temperature in the LivingRoom is above 25°C. The AC has been turned on.
+The humidity is low. Consider turning on a humidifier.
+/Sensor/IndoorTemperature/LivingRoom/1 reading is: 31.93
+/Sensor/Humidity/LivingRoom/1 reading is: 21.9
+/Actuator/AC/LivingRoom/1 is turned on.
+Notification Sender /Actuator/NotificationSender/LivingRoom/1 send message: The temperature in the LivingRoom is above 25°C. The AC has been turned on.
+The humidity is low. Consider turning on a humidifier.
+/Sensor/IndoorTemperature/LivingRoom/1 reading is: 36.48
+/Sensor/Humidity/LivingRoom/1 reading is: 23.85
+/Actuator/AC/LivingRoom/1 is turned on.
+Notification Sender /Actuator/NotificationSender/LivingRoom/1 send message: The temperature in the LivingRoom is above 25°C. The AC has been turned on.
+The humidity is low. Consider turning on a humidifier.
+/Sensor/IndoorTemperature/LivingRoom/1 reading is: 39.96
+/Sensor/Humidity/LivingRoom/1 reading is: 16.74
+/Actuator/AC/LivingRoom/1 is turned on.
+Notification Sender /Actuator/NotificationSender/LivingRoom/1 send message: The temperature in the LivingRoom is above 25°C. The AC has been turned on.
+The humidity is low. Consider turning on a humidifier.
+/Sensor/IndoorTemperature/LivingRoom/1 reading is: 34.36
+/Sensor/Humidity/LivingRoom/1 reading is: 12.46
+/Actuator/AC/LivingRoom/1 is turned on.
+Notification Sender /Actuator/NotificationSender/LivingRoom/1 send message: The temperature in the LivingRoom is above 25°C. The AC has been turned on.
+The humidity is low. Consider turning on a humidifier.
+/Sensor/IndoorTemperature/LivingRoom/1 reading is: 32.2
+/Sensor/Humidity/LivingRoom/1 reading is: 24.88
+/Actuator/AC/LivingRoom/1 is turned on.
+Notification Sender /Actuator/NotificationSender/LivingRoom/1 send message: The temperature in the LivingRoom is above 25°C. The AC has been turned on.
+The humidity is low. Consider turning on a humidifier.
+/Sensor/IndoorTemperature/LivingRoom/1 reading is: 39.92
+/Sensor/Humidity/LivingRoom/1 reading is: 15.84
+/Actuator/AC/LivingRoom/1 is turned on.
+Notification Sender /Actuator/NotificationSender/LivingRoom/1 send message: The temperature in the LivingRoom is above 25°C. The AC has been turned on.
+The humidity is low. Consider turning on a humidifier.
+/Sensor/IndoorTemperature/LivingRoom/1 reading is: 38.28
+/Sensor/Humidity/LivingRoom/1 reading is: 29.56
+/Actuator/AC/LivingRoom/1 is turned on.
+Notification Sender /Actuator/NotificationSender/LivingRoom/1 send message: The temperature in the LivingRoom is above 25°C. The AC has been turned on.
+The humidity is low. Consider turning on a humidifier.
+/Sensor/IndoorTemperature/LivingRoom/1 reading is: 33.43
+/Sensor/Humidity/LivingRoom/1 reading is: 21.41
+/Actuator/AC/LivingRoom/1 is turned on.
+Notification Sender /Actuator/NotificationSender/LivingRoom/1 send message: The temperature in the LivingRoom is above 25°C. The AC has been turned on.
+The humidity is low. Consider turning on a humidifier.
+/Sensor/IndoorTemperature/LivingRoom/1 reading is: 37.46
+/Sensor/Humidity/LivingRoom/1 reading is: 17.18
+/Actuator/AC/LivingRoom/1 is turned on.
+Notification Sender /Actuator/NotificationSender/LivingRoom/1 send message: The temperature in the LivingRoom is above 25°C. The AC has been turned on.
+The humidity is low. Consider turning on a humidifier.
+/Sensor/IndoorTemperature/LivingRoom/1 reading is: 32.57
+/Sensor/Humidity/LivingRoom/1 reading is: 21.72
+/Actuator/AC/LivingRoom/1 is turned on.
+Notification Sender /Actuator/NotificationSender/LivingRoom/1 send message: The temperature in the LivingRoom is above 25°C. The AC has been turned on.
+The humidity is low. Consider turning on a humidifier.
+/Sensor/IndoorTemperature/LivingRoom/1 reading is: 37.75
+/Sensor/Humidity/LivingRoom/1 reading is: 13.64
+/Actuator/AC/LivingRoom/1 is turned on.
+Notification Sender /Actuator/NotificationSender/LivingRoom/1 send message: The temperature in the LivingRoom is above 25°C. The AC has been turned on.
+The humidity is low. Consider turning on a humidifier.
+/Sensor/IndoorTemperature/LivingRoom/1 reading is: 32.8
+/Sensor/Humidity/LivingRoom/1 reading is: 23.29
+/Actuator/AC/LivingRoom/1 is turned on.
+Notification Sender /Actuator/NotificationSender/LivingRoom/1 send message: The temperature in the LivingRoom is above 25°C. The AC has been turned on.
+The humidity is low. Consider turning on a humidifier.
+/Sensor/IndoorTemperature/LivingRoom/1 reading is: 31.36
+/Sensor/Humidity/LivingRoom/1 reading is: 27.58
+/Actuator/AC/LivingRoom/1 is turned on.
+Notification Sender /Actuator/NotificationSender/LivingRoom/1 send message: The temperature in the LivingRoom is above 25°C. The AC has been turned on.
+The humidity is low. Consider turning on a humidifier.
+/Sensor/IndoorTemperature/LivingRoom/1 reading is: 36.72
+/Sensor/Humidity/LivingRoom/1 reading is: 27.95
+/Actuator/AC/LivingRoom/1 is turned on.
+Notification Sender /Actuator/NotificationSender/LivingRoom/1 send message: The temperature in the LivingRoom is above 25°C. The AC has been turned on.
+The humidity is low. Consider turning on a humidifier.
+/Sensor/IndoorTemperature/LivingRoom/1 reading is: 35.24
+/Sensor/Humidity/LivingRoom/1 reading is: 28.34
+/Actuator/AC/LivingRoom/1 is turned on.
+Notification Sender /Actuator/NotificationSender/LivingRoom/1 send message: The temperature in the LivingRoom is above 25°C. The AC has been turned on.
+The humidity is low. Consider turning on a humidifier.
+/Sensor/IndoorTemperature/LivingRoom/1 reading is: 38.54
+/Sensor/Humidity/LivingRoom/1 reading is: 22.42
+/Actuator/AC/LivingRoom/1 is turned on.
+Notification Sender /Actuator/NotificationSender/LivingRoom/1 send message: The temperature in the LivingRoom is above 25°C. The AC has been turned on.
+The humidity is low. Consider turning on a humidifier.
+/Sensor/IndoorTemperature/LivingRoom/1 reading is: 38.48
+/Sensor/Humidity/LivingRoom/1 reading is: 27.56
+/Actuator/AC/LivingRoom/1 is turned on.
+Notification Sender /Actuator/NotificationSender/LivingRoom/1 send message: The temperature in the LivingRoom is above 25°C. The AC has been turned on.
+The humidity is low. Consider turning on a humidifier.
+/Sensor/IndoorTemperature/LivingRoom/1 reading is: 39.91
+/Sensor/Humidity/LivingRoom/1 reading is: 20.74
+/Actuator/AC/LivingRoom/1 is turned on.
+Notification Sender /Actuator/NotificationSender/LivingRoom/1 send message: The temperature in the LivingRoom is above 25°C. The AC has been turned on.
+The humidity is low. Consider turning on a humidifier.
+/Sensor/IndoorTemperature/LivingRoom/1 reading is: 38.04
+/Sensor/Humidity/LivingRoom/1 reading is: 13.71
+/Actuator/AC/LivingRoom/1 is turned on.
+Notification Sender /Actuator/NotificationSender/LivingRoom/1 send message: The temperature in the LivingRoom is above 25°C. The AC has been turned on.
+The humidity is low. Consider turning on a humidifier.
+/Sensor/IndoorTemperature/LivingRoom/1 reading is: 32.2
+/Sensor/Humidity/LivingRoom/1 reading is: 15.14
+/Actuator/AC/LivingRoom/1 is turned on.
+Notification Sender /Actuator/NotificationSender/LivingRoom/1 send message: The temperature in the LivingRoom is above 25°C. The AC has been turned on.
+The humidity is low. Consider turning on a humidifier.
+/Sensor/IndoorTemperature/LivingRoom/1 reading is: 38.47
+/Sensor/Humidity/LivingRoom/1 reading is: 17.32
+/Actuator/AC/LivingRoom/1 is turned on.
+Notification Sender /Actuator/NotificationSender/LivingRoom/1 send message: The temperature in the LivingRoom is above 25°C. The AC has been turned on.
+The humidity is low. Consider turning on a humidifier.
+/Sensor/IndoorTemperature/LivingRoom/1 reading is: 37.85
+/Sensor/Humidity/LivingRoom/1 reading is: 27.75
+/Actuator/AC/LivingRoom/1 is turned on.
+Notification Sender /Actuator/NotificationSender/LivingRoom/1 send message: The temperature in the LivingRoom is above 25°C. The AC has been turned on.
+The humidity is low. Consider turning on a humidifier.
+
+Standard Error:
+2025-01-14 16:21:00,681 - actuator.py - daily_routine - WARNING - Cleaning Robot /Actuator/CleaningRobot/LivingRoom/1 is OFF now, Need to Turn it ON First

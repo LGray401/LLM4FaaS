@@ -1,0 +1,15 @@
+Standard Output:
+We find LivingRoom!
+
+Standard Error:
+Traceback (most recent call last):
+  File "/Users/minghe/llm4faas/experiments_default/functions_zh/gemini_functions/gemini_auto_adapt_8_1722437623302521000.py", line 404, in <module>
+    main()
+  File "/Users/minghe/llm4faas/experiments_default/functions_zh/gemini_functions/gemini_auto_adapt_8_1722437623302521000.py", line 386, in main
+    adjust_temperature("LivingRoom", 20)
+  File "/Users/minghe/llm4faas/experiments_default/functions_zh/gemini_functions/gemini_auto_adapt_8_1722437623302521000.py", line 24, in adjust_temperature
+    heaters = get_room_actuators(home, room_name, Heater)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: get_room_actuators() takes 2 positional arguments but 3 were given
+
+Return code: 1

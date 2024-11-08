@@ -1,0 +1,28 @@
+Standard Output:
+Executing Morning Plan...
+We find Bedroom!
+'/Sensor/LightIntensive/Bedroom/1' is now ON.
+/Sensor/LightIntensive/Bedroom/1 reading is: 1150.01
+Light intensity is high enough, executing morning actions...
+/Actuator/Light/Bedroom/1 is turned off.
+/Actuator/Light/Bedroom/2 is turned off.
+/Actuator/Curtain/Bedroom/1 is turned on.
+/Actuator/MusicPlayer/Bedroom/1 is turned on.
+/Actuator/MusicPlayer/Bedroom/1 start playing Morning Playlist
+Executing Leave Home Plan...
+Lock the door /Actuator/Door/LivingRoom/1.
+/Actuator/Light/LivingRoom/1 is turned off.
+/Actuator/Light/LivingRoom/2 is turned off.
+
+Standard Error:
+Traceback (most recent call last):
+  File "/Users/minghe/llm4faas/experiments_default/functions_en/gpt-4o_en_functions/plans/openai_gpt-4o_plan_25.py", line 69, in <module>
+    main()
+  File "/Users/minghe/llm4faas/experiments_default/functions_en/gpt-4o_en_functions/plans/openai_gpt-4o_plan_25.py", line 65, in main
+    leave_home_plan(home)
+  File "/Users/minghe/llm4faas/experiments_default/functions_en/gpt-4o_en_functions/plans/openai_gpt-4o_plan_25.py", line 43, in leave_home_plan
+    elif isinstance(actuator, SmartSocket):
+                              ^^^^^^^^^^^
+NameError: name 'SmartSocket' is not defined
+
+Return code: 1

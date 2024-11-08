@@ -1,0 +1,12 @@
+Standard Output:
+
+Standard Error:
+Traceback (most recent call last):
+  File "/Users/minghe/llm4faas/experiments_default/functions_zh/4o-mini_functions/openai_gpt-4o-mini_energy_control_9.py", line 28, in <module>
+    main()
+  File "/Users/minghe/llm4faas/experiments_default/functions_zh/4o-mini_functions/openai_gpt-4o-mini_energy_control_9.py", line 15, in main
+    if isinstance(actuator, Light):
+                            ^^^^^
+NameError: name 'Light' is not defined
+
+Return code: 1

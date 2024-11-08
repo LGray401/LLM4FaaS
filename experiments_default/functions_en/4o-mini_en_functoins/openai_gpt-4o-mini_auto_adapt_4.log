@@ -1,0 +1,20 @@
+Standard Output:
+'/Sensor/IndoorTemperature/LivingRoom/1' is now ON.
+'/Sensor/Humidity/LivingRoom/1' is now ON.
+'/Sensor/LightIntensive/LivingRoom/1' is now ON.
+/Sensor/IndoorTemperature/LivingRoom/1 reading is: 33.55
+/Sensor/Humidity/LivingRoom/1 reading is: 17.6
+/Sensor/LightIntensive/LivingRoom/1 reading is: 920.19
+Set the target temperature of /Actuator/Heater/LivingRoom/1 to 20°C.
+/Actuator/Heater/LivingRoom/1 is turned off.
+Set the target temperature of /Actuator/AC/LivingRoom/1 to 20°C.
+/Actuator/AC/LivingRoom/1 is turned on.
+/Actuator/Humidifier/LivingRoom/1 Increasing humidity in LivingRoom
+/Actuator/Light/LivingRoom/1 is turned off.
+/Sensor/IndoorTemperature/LivingRoom/1 is now OFF.
+/Sensor/Humidity/LivingRoom/1 is now OFF.
+/Sensor/LightIntensive/LivingRoom/1 is now OFF.
+
+Standard Error:
+
+Return code: 0

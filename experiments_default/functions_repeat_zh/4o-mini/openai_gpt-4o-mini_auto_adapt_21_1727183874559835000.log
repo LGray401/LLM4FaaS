@@ -1,0 +1,23 @@
+Error: Execution timed out
+Standard Output:
+'/Sensor/IndoorTemperature/LivingRoom/1' is now ON.
+/Sensor/IndoorTemperature/LivingRoom/1 reading is: 34.36
+Set the target temperature of /Actuator/AC/LivingRoom/1 to 26°C.
+/Actuator/AC/LivingRoom/1 is turned on.
+/Sensor/IndoorTemperature/LivingRoom/1 reading is: 35.26
+Set the target temperature of /Actuator/AC/LivingRoom/1 to 26°C.
+/Actuator/AC/LivingRoom/1 is turned on.
+/Sensor/IndoorTemperature/LivingRoom/1 reading is: 39.05
+Set the target temperature of /Actuator/AC/LivingRoom/1 to 26°C.
+/Actuator/AC/LivingRoom/1 is turned on.
+/Sensor/IndoorTemperature/LivingRoom/1 reading is: 33.94
+Set the target temperature of /Actuator/AC/LivingRoom/1 to 26°C.
+/Actuator/AC/LivingRoom/1 is turned on.
+/Sensor/IndoorTemperature/LivingRoom/1 reading is: 30.11
+Set the target temperature of /Actuator/AC/LivingRoom/1 to 26°C.
+/Actuator/AC/LivingRoom/1 is turned on.
+/Sensor/IndoorTemperature/LivingRoom/1 reading is: 39.28
+Set the target temperature of /Actuator/AC/LivingRoom/1 to 26°C.
+/Actuator/AC/LivingRoom/1 is turned on.
+
+Standard Error:

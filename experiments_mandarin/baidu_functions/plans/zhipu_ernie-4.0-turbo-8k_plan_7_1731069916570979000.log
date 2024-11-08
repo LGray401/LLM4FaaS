@@ -1,0 +1,32 @@
+Standard Output:
+Wake up! It's 7:00 AM.
+/Actuator/MusicPlayer/LivingRoom/1 is turned on.
+/Actuator/MusicPlayer/LivingRoom/1 start playing 周杰伦歌单
+/Actuator/MusicPlayer/Bedroom/1 is turned on.
+/Actuator/MusicPlayer/Bedroom/1 start playing 周杰伦歌单
+/Actuator/CoffeeMachine/Kitchen/1 is turned on.
+/Actuator/CoffeeMachine/Kitchen/1 Start making Your preferred coffee type
+Lock the door /Actuator/Door/LivingRoom/1.
+Lock the door /Actuator/Door/Bedroom/1.
+Lock the door /Actuator/Door/Kitchen/1.
+Lock the door /Actuator/Door/Bathroom/1.
+Lock the door /Actuator/Door/Balcony/1.
+/Actuator/Light/LivingRoom/1 is turned off.
+/Actuator/Light/LivingRoom/2 is turned off.
+/Actuator/Light/Bedroom/1 is turned off.
+/Actuator/Light/Bedroom/2 is turned off.
+/Actuator/Light/Kitchen/1 is turned off.
+/Actuator/Light/Bathroom/1 is turned off.
+/Actuator/SmartSocket/LivingRoom/1 is turned off.
+/Actuator/SmartSocket/LivingRoom/2 is turned off.
+/Actuator/SmartSocket/Bedroom/1 is turned off.
+/Actuator/SmartSocket/Bedroom/2 is turned off.
+/Actuator/SmartSocket/Kitchen/1 is turned off.
+/Actuator/SmartSocket/Kitchen/2 is turned off.
+/Actuator/SmartSocket/Kitchen/3 is turned off.
+/Actuator/SmartSocket/Bathroom/1 is turned off.
+/Actuator/SmartSocket/Bathroom/2 is turned off.
+
+Standard Error:
+
+Return code: 0

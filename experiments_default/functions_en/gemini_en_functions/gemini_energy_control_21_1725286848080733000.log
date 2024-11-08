@@ -1,0 +1,10 @@
+Standard Output:
+
+Standard Error:
+Traceback (most recent call last):
+  File "/Users/minghe/llm4faas/experiments_default/functions_en/gemini_en_functions/gemini_energy_control_21_1725286848080733000.py", line 63, in <module>
+    home = home_plan()  # Assuming 'home_plan' function is defined in 'home.home_plan'
+           ^^^^^^^^^
+NameError: name 'home_plan' is not defined
+
+Return code: 1

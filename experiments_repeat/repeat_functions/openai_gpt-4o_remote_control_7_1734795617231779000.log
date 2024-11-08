@@ -1,0 +1,11 @@
+Standard Output:
+/Actuator/Light/Bedroom/1 is turned on.
+/Actuator/Light/Bedroom/1 current status is on
+Set /Actuator/Light/Bedroom/1 light brightness level to LOW
+/Actuator/Light/Bedroom/2 is turned on.
+/Actuator/Light/Bedroom/2 current status is on
+Set /Actuator/Light/Bedroom/2 light brightness level to LOW
+
+Standard Error:
+
+Return code: 0

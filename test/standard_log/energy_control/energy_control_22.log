@@ -1,0 +1,5 @@
+Standard Output:
+/Sensor/Smoke/Kitchen/1 reading is:
+/Sensor/IndoorTemperature/LivingRoom/1 reading is: || /Sensor/IndoorTemperature/Bedroom/1 reading is:  || /Sensor/IndoorTemperature/Bathroom/1 reading is:
+/Actuator/AC/LivingRoom/1  || /Actuator/AC/Bedroom/1
+/Actuator/Light/LivingRoom/1 || /Actuator/Light/LivingRoom/2 || /Actuator/Light/Bedroom/1 || /Actuator/Light/Bedroom/2  || /Actuator/Light/Kitchen/1 || /Actuator/Light/Bathroom/1

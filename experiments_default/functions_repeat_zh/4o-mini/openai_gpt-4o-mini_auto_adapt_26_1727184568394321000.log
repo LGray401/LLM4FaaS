@@ -1,0 +1,52 @@
+Error: Execution timed out
+Standard Output:
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/LivingRoom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/LivingRoom/1 is Currently OFF. 
+Light /Actuator/Light/LivingRoom/1 is OFF. Please turn it on before setting the brightness level.
+Light /Actuator/Light/LivingRoom/2 is OFF. Please turn it on before setting the brightness level.
+Light /Actuator/Light/Bedroom/1 is OFF. Please turn it on before setting the brightness level.
+Light /Actuator/Light/Bedroom/2 is OFF. Please turn it on before setting the brightness level.
+Light /Actuator/Light/Kitchen/1 is OFF. Please turn it on before setting the brightness level.
+Light /Actuator/Light/Bathroom/1 is OFF. Please turn it on before setting the brightness level.
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/LivingRoom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/LivingRoom/1 is Currently OFF. 
+Light /Actuator/Light/LivingRoom/1 is OFF. Please turn it on before setting the brightness level.
+Light /Actuator/Light/LivingRoom/2 is OFF. Please turn it on before setting the brightness level.
+Light /Actuator/Light/Bedroom/1 is OFF. Please turn it on before setting the brightness level.
+Light /Actuator/Light/Bedroom/2 is OFF. Please turn it on before setting the brightness level.
+Light /Actuator/Light/Kitchen/1 is OFF. Please turn it on before setting the brightness level.
+Light /Actuator/Light/Bathroom/1 is OFF. Please turn it on before setting the brightness level.
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/LivingRoom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/LivingRoom/1 is Currently OFF. 
+Light /Actuator/Light/LivingRoom/1 is OFF. Please turn it on before setting the brightness level.
+Light /Actuator/Light/LivingRoom/2 is OFF. Please turn it on before setting the brightness level.
+Light /Actuator/Light/Bedroom/1 is OFF. Please turn it on before setting the brightness level.
+Light /Actuator/Light/Bedroom/2 is OFF. Please turn it on before setting the brightness level.
+Light /Actuator/Light/Kitchen/1 is OFF. Please turn it on before setting the brightness level.
+Light /Actuator/Light/Bathroom/1 is OFF. Please turn it on before setting the brightness level.
+
+Standard Error:
+2024-09-25 17:01:00,194 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/LivingRoom/1' is currently OFF. Cannot get reading.
+2024-09-25 17:01:00,194 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/LivingRoom/1' is currently OFF. Cannot get reading.
+2024-09-25 17:01:00,194 - actuator.py - set_brightness_level - WARNING - Light /Actuator/Light/LivingRoom/1 is OFF. Please turn it on before setting the brightness level.
+2024-09-25 17:01:00,194 - actuator.py - set_brightness_level - WARNING - Light /Actuator/Light/LivingRoom/2 is OFF. Please turn it on before setting the brightness level.
+2024-09-25 17:01:00,194 - actuator.py - set_brightness_level - WARNING - Light /Actuator/Light/Bedroom/1 is OFF. Please turn it on before setting the brightness level.
+2024-09-25 17:01:00,194 - actuator.py - set_brightness_level - WARNING - Light /Actuator/Light/Bedroom/2 is OFF. Please turn it on before setting the brightness level.
+2024-09-25 17:01:00,194 - actuator.py - set_brightness_level - WARNING - Light /Actuator/Light/Kitchen/1 is OFF. Please turn it on before setting the brightness level.
+2024-09-25 17:01:00,194 - actuator.py - set_brightness_level - WARNING - Light /Actuator/Light/Bathroom/1 is OFF. Please turn it on before setting the brightness level.
+2024-09-25 17:01:10,200 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/LivingRoom/1' is currently OFF. Cannot get reading.
+2024-09-25 17:01:10,200 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/LivingRoom/1' is currently OFF. Cannot get reading.
+2024-09-25 17:01:10,200 - actuator.py - set_brightness_level - WARNING - Light /Actuator/Light/LivingRoom/1 is OFF. Please turn it on before setting the brightness level.
+2024-09-25 17:01:10,200 - actuator.py - set_brightness_level - WARNING - Light /Actuator/Light/LivingRoom/2 is OFF. Please turn it on before setting the brightness level.
+2024-09-25 17:01:10,201 - actuator.py - set_brightness_level - WARNING - Light /Actuator/Light/Bedroom/1 is OFF. Please turn it on before setting the brightness level.
+2024-09-25 17:01:10,201 - actuator.py - set_brightness_level - WARNING - Light /Actuator/Light/Bedroom/2 is OFF. Please turn it on before setting the brightness level.
+2024-09-25 17:01:10,201 - actuator.py - set_brightness_level - WARNING - Light /Actuator/Light/Kitchen/1 is OFF. Please turn it on before setting the brightness level.
+2024-09-25 17:01:10,201 - actuator.py - set_brightness_level - WARNING - Light /Actuator/Light/Bathroom/1 is OFF. Please turn it on before setting the brightness level.
+2024-09-25 17:01:20,203 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/LivingRoom/1' is currently OFF. Cannot get reading.
+2024-09-25 17:01:20,203 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/LivingRoom/1' is currently OFF. Cannot get reading.
+2024-09-25 17:01:20,203 - actuator.py - set_brightness_level - WARNING - Light /Actuator/Light/LivingRoom/1 is OFF. Please turn it on before setting the brightness level.
+2024-09-25 17:01:20,203 - actuator.py - set_brightness_level - WARNING - Light /Actuator/Light/LivingRoom/2 is OFF. Please turn it on before setting the brightness level.
+2024-09-25 17:01:20,203 - actuator.py - set_brightness_level - WARNING - Light /Actuator/Light/Bedroom/1 is OFF. Please turn it on before setting the brightness level.
+2024-09-25 17:01:20,203 - actuator.py - set_brightness_level - WARNING - Light /Actuator/Light/Bedroom/2 is OFF. Please turn it on before setting the brightness level.
+2024-09-25 17:01:20,203 - actuator.py - set_brightness_level - WARNING - Light /Actuator/Light/Kitchen/1 is OFF. Please turn it on before setting the brightness level.
+2024-09-25 17:01:20,203 - actuator.py - set_brightness_level - WARNING - Light /Actuator/Light/Bathroom/1 is OFF. Please turn it on before setting the brightness level.

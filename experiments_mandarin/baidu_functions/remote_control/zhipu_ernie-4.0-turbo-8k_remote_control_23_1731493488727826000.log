@@ -1,0 +1,134 @@
+Standard Output:
+
+---Home Plan---
+
+LivingRoom:
+Sensors:
+- /Sensor/LightIntensive/LivingRoom/1
+- /Sensor/IndoorTemperature/LivingRoom/1
+- /Sensor/Humidity/LivingRoom/1
+Actuators:
+- /Actuator/Door/LivingRoom/1
+- /Actuator/Light/LivingRoom/1
+- /Actuator/Light/LivingRoom/2
+- /Actuator/Window/LivingRoom/1
+- /Actuator/Window/LivingRoom/2
+- /Actuator/Curtain/LivingRoom/1
+- /Actuator/MusicPlayer/LivingRoom/1
+- /Actuator/SmartSocket/LivingRoom/1
+- /Actuator/SmartSocket/LivingRoom/2
+- /Actuator/CleaningRobot/LivingRoom/1
+- /Actuator/SmartTV/LivingRoom/1
+- /Actuator/NotificationSender/LivingRoom/1
+- /Actuator/AC/LivingRoom/1
+- /Actuator/Heater/LivingRoom/1
+- /Actuator/Humidifier/LivingRoom/1
+
+Bedroom:
+Sensors:
+- /Sensor/IndoorTemperature/Bedroom/1
+- /Sensor/Humidity/Bedroom/1
+- /Sensor/LightIntensive/Bedroom/1
+Actuators:
+- /Actuator/Light/Bedroom/1
+- /Actuator/Light/Bedroom/2
+- /Actuator/Window/Bedroom/1
+- /Actuator/Curtain/Bedroom/1
+- /Actuator/AC/Bedroom/1
+- /Actuator/Heater/Bedroom/1
+- /Actuator/MusicPlayer/Bedroom/1
+- /Actuator/Door/Bedroom/1
+- /Actuator/SmartSocket/Bedroom/1
+- /Actuator/SmartSocket/Bedroom/2
+- /Actuator/CleaningRobot/Bedroom/1
+- /Actuator/Humidifier/Bedroom/1
+
+Kitchen:
+Sensors:
+- /Sensor/Humidity/Kitchen/1
+- /Sensor/Smoke/Kitchen/1
+Actuators:
+- /Actuator/Light/Kitchen/1
+- /Actuator/Window/Kitchen/1
+- /Actuator/Heater/Kitchen/1
+- /Actuator/CoffeeMachine/Kitchen/1
+- /Actuator/SmartSocket/Kitchen/1
+- /Actuator/SmartSocket/Kitchen/2
+- /Actuator/SmartSocket/Kitchen/3
+- /Actuator/Door/Kitchen/1
+
+Bathroom:
+Sensors:
+- /Sensor/IndoorTemperature/Bathroom/1
+- /Sensor/Humidity/Bathroom/1
+Actuators:
+- /Actuator/Light/Bathroom/1
+- /Actuator/Window/Bathroom/1
+- /Actuator/Heater/Bathroom/1
+- /Actuator/Door/Bathroom/1
+- /Actuator/SmartSocket/Bathroom/1
+- /Actuator/SmartSocket/Bathroom/2
+
+Balcony:
+Sensors:
+- /Sensor/OutdoorTemperature/Balcony/1
+- /Sensor/Humidity/Balcony/1
+Actuators:
+- /Actuator/Door/Balcony/1
+'/Sensor/LightIntensive/LivingRoom/1' is now ON.
+'/Sensor/IndoorTemperature/LivingRoom/1' is now ON.
+'/Sensor/Humidity/LivingRoom/1' is now ON.
+'/Sensor/IndoorTemperature/Bedroom/1' is now ON.
+'/Sensor/Humidity/Bedroom/1' is now ON.
+'/Sensor/LightIntensive/Bedroom/1' is now ON.
+'/Sensor/Humidity/Kitchen/1' is now ON.
+'/Sensor/Smoke/Kitchen/1' is now ON.
+'/Sensor/IndoorTemperature/Bathroom/1' is now ON.
+'/Sensor/Humidity/Bathroom/1' is now ON.
+'/Sensor/OutdoorTemperature/Balcony/1' is now ON.
+'/Sensor/Humidity/Balcony/1' is now ON.
+/Sensor/LightIntensive/LivingRoom/1 reading is: 904.32
+/Actuator/Light/LivingRoom/1 is turned on.
+Set /Actuator/Light/LivingRoom/1 light brightness level to LOW
+/Actuator/Light/LivingRoom/2 is turned on.
+Set /Actuator/Light/LivingRoom/2 light brightness level to LOW
+/Sensor/IndoorTemperature/LivingRoom/1 reading is: 31.78
+/Actuator/AC/LivingRoom/1 is turned on.
+Set the target temperature of /Actuator/AC/LivingRoom/1 to 15°C.
+/Sensor/Humidity/LivingRoom/1 reading is: 25.73
+/Sensor/IndoorTemperature/Bedroom/1 reading is: 38.98
+/Actuator/AC/Bedroom/1 is turned on.
+Set the target temperature of /Actuator/AC/Bedroom/1 to 15°C.
+/Sensor/Humidity/Bedroom/1 reading is: 12.15
+/Sensor/LightIntensive/Bedroom/1 reading is: 954.9
+/Actuator/Light/Bedroom/1 is turned on.
+Set /Actuator/Light/Bedroom/1 light brightness level to LOW
+/Actuator/Light/Bedroom/2 is turned on.
+Set /Actuator/Light/Bedroom/2 light brightness level to LOW
+/Sensor/Humidity/Kitchen/1 reading is: 24.93
+/Sensor/Smoke/Kitchen/1 reading is: 14.13
+/Sensor/IndoorTemperature/Bathroom/1 reading is: 38.17
+/Sensor/Humidity/Bathroom/1 reading is: 17.0
+/Sensor/OutdoorTemperature/Balcony/1 reading is: 21.29
+/Sensor/Humidity/Balcony/1 reading is: 16.92
+
+Standard Error:
+2025-01-20 22:26:28,007 - zhipu_ernie-4.0-turbo-8k_remote_control_23_1731493488727826000.py - handle_sensor_reading - WARNING - High light intensity detected in LivingRoom: 904.32 lux
+2025-01-20 22:26:28,007 - zhipu_ernie-4.0-turbo-8k_remote_control_23_1731493488727826000.py - handle_sensor_reading - WARNING - High temperature detected in LivingRoom: 31.78°C
+2025-01-20 22:26:28,007 - zhipu_ernie-4.0-turbo-8k_remote_control_23_1731493488727826000.py - handle_sensor_reading - WARNING - Low humidity detected in LivingRoom: 25.73%
+2025-01-20 22:26:28,007 - zhipu_ernie-4.0-turbo-8k_remote_control_23_1731493488727826000.py - handle_sensor_reading - WARNING - High temperature detected in Bedroom: 38.98°C
+2025-01-20 22:26:28,007 - zhipu_ernie-4.0-turbo-8k_remote_control_23_1731493488727826000.py - handle_sensor_reading - WARNING - Low humidity detected in Bedroom: 12.15%
+2025-01-20 22:26:28,007 - zhipu_ernie-4.0-turbo-8k_remote_control_23_1731493488727826000.py - handle_sensor_reading - WARNING - High light intensity detected in Bedroom: 954.9 lux
+2025-01-20 22:26:28,007 - zhipu_ernie-4.0-turbo-8k_remote_control_23_1731493488727826000.py - handle_sensor_reading - WARNING - Low humidity detected in Kitchen: 24.93%
+2025-01-20 22:26:28,007 - zhipu_ernie-4.0-turbo-8k_remote_control_23_1731493488727826000.py - handle_sensor_reading - WARNING - High temperature detected in Bathroom: 38.17°C
+2025-01-20 22:26:28,007 - zhipu_ernie-4.0-turbo-8k_remote_control_23_1731493488727826000.py - handle_sensor_reading - WARNING - Low humidity detected in Bathroom: 17.0%
+2025-01-20 22:26:28,007 - zhipu_ernie-4.0-turbo-8k_remote_control_23_1731493488727826000.py - handle_sensor_reading - WARNING - Low humidity detected in Balcony: 16.92%
+Traceback (most recent call last):
+  File "/Users/minghe/llm4faas/experiments_mandarin/baidu_functions/remote_control/zhipu_ernie-4.0-turbo-8k_remote_control_23_1731493488727826000.py", line 115, in <module>
+    main()
+  File "/Users/minghe/llm4faas/experiments_mandarin/baidu_functions/remote_control/zhipu_ernie-4.0-turbo-8k_remote_control_23_1731493488727826000.py", line 109, in main
+    time.sleep(5)
+    ^^^^
+NameError: name 'time' is not defined. Did you forget to import 'time'?
+
+Return code: 1

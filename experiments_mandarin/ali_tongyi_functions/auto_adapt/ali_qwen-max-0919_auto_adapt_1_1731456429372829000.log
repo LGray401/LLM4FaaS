@@ -1,0 +1,49 @@
+Standard Output:
+Processing LivingRoom...
+'/Sensor/IndoorTemperature/LivingRoom/1' is now ON.
+'/Sensor/Humidity/LivingRoom/1' is now ON.
+'/Sensor/LightIntensive/LivingRoom/1' is now ON.
+/Sensor/IndoorTemperature/LivingRoom/1 reading is: 35.2
+Set the target temperature of /Actuator/AC/LivingRoom/1 to 26.0°C.
+/Actuator/AC/LivingRoom/1 is turned on.
+/Sensor/Humidity/LivingRoom/1 reading is: 20.32
+/Actuator/Humidifier/LivingRoom/1 Increasing humidity in LivingRoom
+Light /Actuator/Light/LivingRoom/1 is OFF. Please turn it on before setting the brightness level.
+/Sensor/IndoorTemperature/LivingRoom/1 is now OFF.
+/Sensor/Humidity/LivingRoom/1 is now OFF.
+/Sensor/LightIntensive/LivingRoom/1 is now OFF.
+Processing Bedroom...
+'/Sensor/IndoorTemperature/Bedroom/1' is now ON.
+'/Sensor/Humidity/Bedroom/1' is now ON.
+'/Sensor/LightIntensive/Bedroom/1' is now ON.
+/Sensor/IndoorTemperature/Bedroom/1 reading is: 34.03
+Set the target temperature of /Actuator/AC/Bedroom/1 to 26.0°C.
+/Actuator/AC/Bedroom/1 is turned on.
+/Sensor/Humidity/Bedroom/1 reading is: 15.65
+/Actuator/Humidifier/Bedroom/1 Increasing humidity in Bedroom
+Light /Actuator/Light/Bedroom/1 is OFF. Please turn it on before setting the brightness level.
+/Sensor/IndoorTemperature/Bedroom/1 is now OFF.
+/Sensor/Humidity/Bedroom/1 is now OFF.
+/Sensor/LightIntensive/Bedroom/1 is now OFF.
+Processing Kitchen...
+'/Sensor/Humidity/Kitchen/1' is now ON.
+Light /Actuator/Light/Kitchen/1 is OFF. Please turn it on before setting the brightness level.
+/Sensor/Humidity/Kitchen/1 is now OFF.
+Processing Bathroom...
+'/Sensor/IndoorTemperature/Bathroom/1' is now ON.
+'/Sensor/Humidity/Bathroom/1' is now ON.
+/Sensor/IndoorTemperature/Bathroom/1 reading is: 32.12
+Light /Actuator/Light/Bathroom/1 is OFF. Please turn it on before setting the brightness level.
+/Sensor/IndoorTemperature/Bathroom/1 is now OFF.
+/Sensor/Humidity/Bathroom/1 is now OFF.
+Processing Balcony...
+'/Sensor/Humidity/Balcony/1' is now ON.
+/Sensor/Humidity/Balcony/1 is now OFF.
+
+Standard Error:
+2025-01-20 22:21:44,201 - actuator.py - set_brightness_level - WARNING - Light /Actuator/Light/LivingRoom/1 is OFF. Please turn it on before setting the brightness level.
+2025-01-20 22:21:44,201 - actuator.py - set_brightness_level - WARNING - Light /Actuator/Light/Bedroom/1 is OFF. Please turn it on before setting the brightness level.
+2025-01-20 22:21:44,201 - actuator.py - set_brightness_level - WARNING - Light /Actuator/Light/Kitchen/1 is OFF. Please turn it on before setting the brightness level.
+2025-01-20 22:21:44,201 - actuator.py - set_brightness_level - WARNING - Light /Actuator/Light/Bathroom/1 is OFF. Please turn it on before setting the brightness level.
+
+Return code: 0

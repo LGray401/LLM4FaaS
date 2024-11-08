@@ -1,0 +1,42 @@
+Standard Output:
+We find LivingRoom!
+We find Kitchen!
+/Actuator/Curtain/LivingRoom/1 is turned on.
+/Actuator/Light/LivingRoom/1 is turned on.
+Set /Actuator/Light/LivingRoom/1 light brightness level to LOW
+/Actuator/Light/LivingRoom/2 is turned on.
+Set /Actuator/Light/LivingRoom/2 light brightness level to LOW
+/Actuator/MusicPlayer/LivingRoom/1 is turned on.
+/Actuator/MusicPlayer/LivingRoom/1 start playing Morning Playlist
+/Actuator/CoffeeMachine/Kitchen/1 is turned on.
+/Actuator/CoffeeMachine/Kitchen/1 Start making Espresso
+/Actuator/Light/LivingRoom/1 is turned off.
+/Actuator/Light/LivingRoom/2 is turned off.
+/Actuator/Curtain/LivingRoom/1 is turned off.
+/Actuator/SmartSocket/LivingRoom/1 is turned off.
+/Actuator/SmartSocket/LivingRoom/2 is turned off.
+Lock the door /Actuator/Door/LivingRoom/1.
+/Actuator/Light/Bedroom/1 is turned off.
+/Actuator/Light/Bedroom/2 is turned off.
+/Actuator/Curtain/Bedroom/1 is turned off.
+/Actuator/SmartSocket/Bedroom/1 is turned off.
+/Actuator/SmartSocket/Bedroom/2 is turned off.
+/Actuator/Light/Kitchen/1 is turned off.
+/Actuator/SmartSocket/Kitchen/1 is turned off.
+/Actuator/SmartSocket/Kitchen/2 is turned off.
+/Actuator/SmartSocket/Kitchen/3 is turned off.
+/Actuator/Light/Bathroom/1 is turned off.
+/Actuator/SmartSocket/Bathroom/1 is turned off.
+/Actuator/SmartSocket/Bathroom/2 is turned off.
+We find LivingRoom!
+/Actuator/Curtain/LivingRoom/1 is turned on.
+/Actuator/Light/LivingRoom/1 is turned on.
+Set /Actuator/Light/LivingRoom/1 light brightness level to LOW
+/Actuator/Light/LivingRoom/2 is turned on.
+Set /Actuator/Light/LivingRoom/2 light brightness level to LOW
+/Actuator/SmartTV/LivingRoom/1 is turned on.
+Start playing Movie Channel on the /Actuator/SmartTV/LivingRoom/1 in LivingRoom
+
+Standard Error:
+
+Return code: 0

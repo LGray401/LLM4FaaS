@@ -1,0 +1,16 @@
+Standard Output:
+Indoor Temperature: 21.25°C
+Outdoor Temperature: 27.16°C
+Light Intensity: 432.54 Lux
+Window is closed.
+Curtain is open.
+
+Activating Energy Saving Mode 1...
+Energy Saving Mode 1: Closing windows because outdoor temperature is not lower than indoor.
+
+Activating Energy Saving Mode 2...
+Energy Saving Mode 2: Opening curtains because conditions are not met.
+
+Standard Error:
+
+Return code: 0

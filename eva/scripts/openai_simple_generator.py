@@ -52,7 +52,7 @@ model = OPENAI_MODEL
 
 
 # repeat experiments
-MD_FILES_DIR = '/Users/minghe/llm4faas/default_experiments/logs_repeat_Chinese/'
+MD_FILES_DIR = '/Users/minghe/llm4faas/default_experiments/logs_repeat_Chinese/temp/'
 OUTPUT_DIR = '../../functions_repeat/'
 
 
@@ -72,7 +72,8 @@ def generate_python_code(prompt):
             {"role": "user", "content": prompt}
         ],
         max_tokens=MAX_TOKENS,
-        temperature=TEMPERATURE
+        temperature=TEMPERATURE,
+        #max_completion_tokens = 1500,
     )
     response_content = response.choices[0].message.content.strip()
     # return response_content
@@ -120,4 +121,4 @@ def repeatable_experiments(md_dir, output_dir, repeat_times):
         print(f"Finished {i + 1} round iteration.\n")
 
 if __name__ == '__main__':
-    repeatable_experiments(MD_FILES_DIR, OUTPUT_DIR, 10)
+    repeatable_experiments(MD_FILES_DIR, OUTPUT_DIR, 1)

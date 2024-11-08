@@ -1,0 +1,9 @@
+Standard Output:
+
+Standard Error:
+  File "/Users/minghe/llm4faas/experiments_default/functions_zh/deepseek-r1-functions/deepseek-r1:7b_plan_2_1740438204533811000.py", line 171
+    def home automation_component():
+             ^^^^^^^^^^^^^^^^^^^^
+SyntaxError: expected '('
+
+Return code: 1

@@ -1,0 +1,6 @@
+Error: Execution timed out
+Standard Output:
+Set the target temperature of /Actuator/AC/LivingRoom/1 to 25°C.
+Set the target temperature of /Actuator/AC/Bedroom/1 to 25°C.
+
+Standard Error:

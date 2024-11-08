@@ -78,6 +78,7 @@ class CoffeeMachine(Actuator):
     def make_coffee(self, coffee_type):
         if self.status == "on":
             logger.info(format(self.id + "Start making " + coffee_type))
+            print(f"{self.id} Start making {coffee_type}")
         elif self.status == "off":
             print(f" {self.id} is OFF now")
             logger.warning(format("\' " + self.id + " \'" + " is OFF now, Need to Turn it On First."))
@@ -219,9 +220,9 @@ class Humidifier(Actuator):
         super().__init__("Humidifier", room_name)
 
     def increase_humidity(self):
-        logger.info(f"Increasing humidity in {self.room_name}")
-        print(f"Increasing humidity in {self.room_name}")
+        logger.info(f"{self.id} Increasing humidity in {self.room_name}")
+        print(f"{self.id} Increasing humidity in {self.room_name}")
 
     def decrease_humidity(self):
-        logger.info(f"Decreasing humidity in {self.room_name}")
-        print(f"Decreasing humidity in {self.room_name}")
+        logger.info(f"{self.id} Decreasing humidity in {self.room_name}")
+        print(f"{self.id} Decreasing humidity in {self.room_name}")

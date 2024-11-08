@@ -1,0 +1,15 @@
+Standard Output:
+'/Sensor/IndoorTemperature/LivingRoom/1' is now ON.
+/Sensor/IndoorTemperature/LivingRoom/1 reading is: 33.28
+/Actuator/AC/LivingRoom/1 current status is off
+'/Sensor/IndoorTemperature/Bedroom/1' is now ON.
+/Sensor/IndoorTemperature/Bedroom/1 reading is: 33.06
+/Actuator/AC/Bedroom/1 current status is off
+'/Sensor/IndoorTemperature/Bathroom/1' is now ON.
+/Sensor/IndoorTemperature/Bathroom/1 reading is: 31.41
+'/Sensor/OutdoorTemperature/Balcony/1' is now ON.
+/Sensor/OutdoorTemperature/Balcony/1 reading is: 21.18
+
+Standard Error:
+
+Return code: 0

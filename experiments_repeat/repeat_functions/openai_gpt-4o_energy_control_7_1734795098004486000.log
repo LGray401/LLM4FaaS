@@ -1,0 +1,45 @@
+Standard Output:
+/Actuator/AC/LivingRoom/1 is turned on.
+/Actuator/Window/LivingRoom/1 is turned off.
+/Actuator/Window/LivingRoom/2 is turned off.
+/Actuator/Window/Bedroom/1 is turned off.
+/Actuator/Window/Kitchen/1 is turned off.
+/Actuator/Window/Bathroom/1 is turned off.
+/Actuator/Door/LivingRoom/1 is turned off.
+/Actuator/Door/Bedroom/1 is turned off.
+/Actuator/Door/Kitchen/1 is turned off.
+/Actuator/Door/Bathroom/1 is turned off.
+/Actuator/Door/Balcony/1 is turned off.
+/Actuator/AC/Bedroom/1 is turned on.
+/Actuator/Window/LivingRoom/1 is turned off.
+/Actuator/Window/LivingRoom/2 is turned off.
+/Actuator/Window/Bedroom/1 is turned off.
+/Actuator/Window/Kitchen/1 is turned off.
+/Actuator/Window/Bathroom/1 is turned off.
+/Actuator/Door/LivingRoom/1 is turned off.
+/Actuator/Door/Bedroom/1 is turned off.
+/Actuator/Door/Kitchen/1 is turned off.
+/Actuator/Door/Bathroom/1 is turned off.
+/Actuator/Door/Balcony/1 is turned off.
+'/Sensor/IndoorTemperature/LivingRoom/1' is now ON.
+/Sensor/IndoorTemperature/LivingRoom/1 reading is: 33.63
+'/Sensor/OutdoorTemperature/Balcony/1' is now ON.
+/Sensor/OutdoorTemperature/Balcony/1 reading is: 21.2
+/Actuator/NotificationSender/LivingRoom/2 is turned on.
+Notification Sender /Actuator/NotificationSender/LivingRoom/2 send message: Indoor temperature (33.63°C) is higher than outdoor (21.2°C). Consider opening windows to cool down.
+'/Sensor/IndoorTemperature/Bedroom/1' is now ON.
+/Sensor/IndoorTemperature/Bedroom/1 reading is: 30.17
+'/Sensor/OutdoorTemperature/Balcony/1' is now ON.
+/Sensor/OutdoorTemperature/Balcony/1 reading is: 22.32
+/Actuator/NotificationSender/Bedroom/1 is turned on.
+Notification Sender /Actuator/NotificationSender/Bedroom/1 send message: Indoor temperature (30.17°C) is higher than outdoor (22.32°C). Consider opening windows to cool down.
+'/Sensor/IndoorTemperature/Bathroom/1' is now ON.
+/Sensor/IndoorTemperature/Bathroom/1 reading is: 35.84
+'/Sensor/OutdoorTemperature/Balcony/1' is now ON.
+/Sensor/OutdoorTemperature/Balcony/1 reading is: 24.06
+/Actuator/NotificationSender/Bathroom/1 is turned on.
+Notification Sender /Actuator/NotificationSender/Bathroom/1 send message: Indoor temperature (35.84°C) is higher than outdoor (24.06°C). Consider opening windows to cool down.
+
+Standard Error:
+
+Return code: 0

@@ -1,0 +1,16 @@
+Standard Output:
+Cannot Get Sensor Reading, /Sensor/LightIntensive/LivingRoom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/LivingRoom/1 is Currently OFF. 
+
+Standard Error:
+2025-01-14 21:49:00,370 - sensor.py - get_reading - WARNING - '/Sensor/LightIntensive/LivingRoom/1' is currently OFF. Cannot get reading.
+2025-01-14 21:49:00,370 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/LivingRoom/1' is currently OFF. Cannot get reading.
+Traceback (most recent call last):
+  File "/Users/minghe/llm4faas/experiments_default/functions_zh/copilot_functions/remotecontrol/copilot_remote_control_23.py", line 46, in <module>
+    main()
+  File "/Users/minghe/llm4faas/experiments_default/functions_zh/copilot_functions/remotecontrol/copilot_remote_control_23.py", line 32, in main
+    if reading < TEMP_LOW:
+       ^^^^^^^^^^^^^^^^^^
+TypeError: '<' not supported between instances of 'NoneType' and 'int'
+
+Return code: 1

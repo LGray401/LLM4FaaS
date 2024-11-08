@@ -1,0 +1,19 @@
+Standard Output:
+We find LivingRoom!
+/Actuator/Light/LivingRoom/1 is turned on.
+/Actuator/Light/LivingRoom/2 is turned on.
+'/Sensor/IndoorTemperature/LivingRoom/1' is now ON.
+/Sensor/IndoorTemperature/LivingRoom/1 reading is: 30.94
+
+Standard Error:
+Traceback (most recent call last):
+  File "/Users/minghe/llm4faas/experiments_mandarin/baidu_functions/energy/zhipu_ernie-4.0-turbo-8k_energy_control_15_1731495861582722000.py", line 107, in <module>
+    main()
+  File "/Users/minghe/llm4faas/experiments_mandarin/baidu_functions/energy/zhipu_ernie-4.0-turbo-8k_energy_control_15_1731495861582722000.py", line 30, in main
+    adjust_temperature_based_on_reading(sensor.room_name, reading)
+  File "/Users/minghe/llm4faas/experiments_mandarin/baidu_functions/energy/zhipu_ernie-4.0-turbo-8k_energy_control_15_1731495861582722000.py", line 62, in adjust_temperature_based_on_reading
+    heaters = get_all_actuators(home, "Heater")
+                                ^^^^
+NameError: name 'home' is not defined
+
+Return code: 1

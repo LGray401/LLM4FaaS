@@ -1,0 +1,19 @@
+Standard Output:
+Living Room AC is now ON.
+Temperature of Living Room AC set to 17°C.
+Living Room Window 1 is now OFF.
+Living Room Window 1 is now closed.
+Living Room Window 2 is now OFF.
+Living Room Window 2 is now closed.
+Bedroom AC is now ON.
+Temperature of Bedroom AC set to 17°C.
+Bedroom Window is now OFF.
+Bedroom Window is now closed.
+Bathroom Window is now OFF.
+Bathroom Window is now closed.
+Kitchen Window is now OFF.
+Kitchen Window is now closed.
+
+Standard Error:
+
+Return code: 0

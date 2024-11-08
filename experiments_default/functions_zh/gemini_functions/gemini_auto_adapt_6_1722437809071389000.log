@@ -1,0 +1,8 @@
+Standard Output:
+
+Standard Error:
+  File "/Users/minghe/llm4faas/experiments_default/functions_zh/gemini_functions/gemini_auto_adapt_6_1722437809071389000.py", line 82
+    def manage_smart_tv(home):
+IndentationError: expected an indented block after 'for' statement on line 77
+
+Return code: 1

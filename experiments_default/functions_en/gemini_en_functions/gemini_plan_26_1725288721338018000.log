@@ -1,0 +1,61 @@
+Standard Output:
+Good Morning! Here's your Morning Plan:
+We find LivingRoom!
+/Actuator/Light/LivingRoom/1 is turned on.
+/Actuator/Light/LivingRoom/2 is turned on.
+Turning on lights in the Living Room.
+'/Sensor/LightIntensive/LivingRoom/1' is now ON.
+/Sensor/LightIntensive/LivingRoom/1 reading is: 924.73
+/Sensor/LightIntensive/LivingRoom/1 is now OFF.
+Sunlight is sufficient, setting lights to medium brightness.
+Set /Actuator/Light/LivingRoom/1 light brightness level to MEDIUM
+Set /Actuator/Light/LivingRoom/2 light brightness level to MEDIUM
+We find Kitchen!
+Making a cup of cappuccino in the Kitchen.
+/Actuator/Curtain/LivingRoom/1 is turned on.
+Opening the curtains in the Living Room.
+/Actuator/MusicPlayer/LivingRoom/1 is turned on.
+/Actuator/MusicPlayer/LivingRoom/1 start playing Relaxing
+Playing relaxing music in the Living Room.
+'/Sensor/IndoorTemperature/Bedroom/1' is now ON.
+/Sensor/IndoorTemperature/Bedroom/1 reading is: 32.64
+/Sensor/IndoorTemperature/Bedroom/1 is now OFF.
+It's warm, turning off the heater in the Bedroom.
+/Actuator/Heater/Bedroom/1 is turned off.
+Morning plan completed!
+Leaving Home Now!
+We find LivingRoom!
+Lock the door /Actuator/Door/LivingRoom/1.
+Locking the door in the Living Room.
+/Actuator/Light/LivingRoom/1 is turned off.
+/Actuator/Light/LivingRoom/2 is turned off.
+/Actuator/Light/Bedroom/1 is turned off.
+/Actuator/Light/Bedroom/2 is turned off.
+/Actuator/Light/Kitchen/1 is turned off.
+/Actuator/Light/Bathroom/1 is turned off.
+Turning off all lights.
+/Actuator/SmartSocket/LivingRoom/1 is turned off.
+/Actuator/SmartSocket/LivingRoom/2 is turned off.
+/Actuator/SmartSocket/Bedroom/1 is turned off.
+/Actuator/SmartSocket/Bedroom/2 is turned off.
+/Actuator/SmartSocket/Kitchen/1 is turned off.
+/Actuator/SmartSocket/Kitchen/2 is turned off.
+/Actuator/SmartSocket/Kitchen/3 is turned off.
+/Actuator/SmartSocket/Bathroom/1 is turned off.
+/Actuator/SmartSocket/Bathroom/2 is turned off.
+Disconnecting all power sockets.
+Leave home plan completed!
+Movie time!
+We find LivingRoom!
+/Actuator/Curtain/LivingRoom/1 is turned on.
+Drawing the curtains in the Living Room.
+Light /Actuator/Light/LivingRoom/1 is OFF. Please turn it on before setting the brightness level.
+Light /Actuator/Light/LivingRoom/2 is OFF. Please turn it on before setting the brightness level.
+Dimming the lights in the Living Room.
+Movie plan completed!
+
+Standard Error:
+2025-01-14 16:58:40,167 - actuator.py - set_brightness_level - WARNING - Light /Actuator/Light/LivingRoom/1 is OFF. Please turn it on before setting the brightness level.
+2025-01-14 16:58:40,167 - actuator.py - set_brightness_level - WARNING - Light /Actuator/Light/LivingRoom/2 is OFF. Please turn it on before setting the brightness level.
+
+Return code: 0

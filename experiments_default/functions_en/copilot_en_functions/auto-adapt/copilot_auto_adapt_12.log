@@ -1,0 +1,14 @@
+Standard Output:
+Cannot Get Sensor Reading, /Sensor/LightIntensive/LivingRoom/1 is Currently OFF. 
+
+Standard Error:
+2025-01-14 17:02:00,034 - sensor.py - get_reading - WARNING - '/Sensor/LightIntensive/LivingRoom/1' is currently OFF. Cannot get reading.
+Traceback (most recent call last):
+  File "/Users/minghe/llm4faas/experiments_default/functions_en/copilot_en_functions/auto-adapt/copilot_auto-adapt_12.py", line 69, in <module>
+    main()
+  File "/Users/minghe/llm4faas/experiments_default/functions_en/copilot_en_functions/auto-adapt/copilot_auto-adapt_12.py", line 65, in main
+    if light_intensity < 300:
+       ^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<' not supported between instances of 'NoneType' and 'int'
+
+Return code: 1

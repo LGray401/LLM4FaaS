@@ -1,0 +1,7 @@
+Standard Output:
+Set /Actuator/Light/LivingRoom/1 light brightness level to MEDIUM || Set /Actuator/Light/LivingRoom/2 light brightness level to MEDIUM || Set /Actuator/Light/Bedroom/1 light brightness level to MEDIUM || Set /Actuator/Light/Bedroom/2 light brightness level to MEDIUM || Set /Actuator/Light/Kitchen/1 light brightness level to MEDIUM || Set /Actuator/Light/Bathroom/1 light brightness level to MEDIUM
+/Actuator/MusicPlayer/LivingRoom/1 start playing || /Actuator/MusicPlayer/Bedroom/1 start playing
+/Actuator/CoffeeMachine/Kitchen/1
+Set the target temperature of /Actuator/AC/LivingRoom/1 to 22°C. || Set the target temperature of /Actuator/AC/Bedroom/1 to 22°C.
+/Actuator/Curtain/LivingRoom/1 is turned off. || /Actuator/Curtain/Bedroom/1 is turned off.
+Cleaning Robot /Actuator/CleaningRobot/LivingRoom/1 || Cleaning Robot /Actuator/CleaningRobot/Bedroom/1

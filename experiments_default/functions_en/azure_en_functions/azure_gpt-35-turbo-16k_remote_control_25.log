@@ -1,0 +1,18 @@
+Standard Output:
+/Actuator/Light/LivingRoom/1 is turned off.
+/Actuator/Light/LivingRoom/2 is turned off.
+Light /Actuator/Light/Bedroom/1 is OFF. Please turn it on before setting the brightness level.
+Light /Actuator/Light/Bedroom/2 is OFF. Please turn it on before setting the brightness level.
+
+Standard Error:
+2025-01-14 16:52:40,044 - actuator.py - set_brightness_level - WARNING - Light /Actuator/Light/Bedroom/1 is OFF. Please turn it on before setting the brightness level.
+2025-01-14 16:52:40,044 - actuator.py - set_brightness_level - WARNING - Light /Actuator/Light/Bedroom/2 is OFF. Please turn it on before setting the brightness level.
+Traceback (most recent call last):
+  File "/Users/minghe/llm4faas/experiments_default/functions_en/azure_en_functions/azure_gpt-35-turbo-16k_remote_control_25.py", line 30, in <module>
+    main()
+  File "/Users/minghe/llm4faas/experiments_default/functions_en/azure_en_functions/azure_gpt-35-turbo-16k_remote_control_25.py", line 27, in main
+    actuator.open()
+    ^^^^^^^^^^^^^
+AttributeError: 'Window' object has no attribute 'open'
+
+Return code: 1

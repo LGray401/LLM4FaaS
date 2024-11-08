@@ -1,0 +1,10 @@
+Standard Output:
+'/Sensor/LightIntensive/LivingRoom/1' is now ON.
+'/Sensor/IndoorTemperature/LivingRoom/1' is now ON.
+'/Sensor/Humidity/LivingRoom/1' is now ON.
+/Sensor/IndoorTemperature/LivingRoom/1 reading is:
+/Sensor/Humidity/LivingRoom/1 reading is:
+/Sensor/LightIntensive/LivingRoom/1 reading is:
+/Actuator/AC/LivingRoom/1 || /Actuator/Heater/LivingRoom/1
+/Actuator/Humidifier/LivingRoom/1
+/Actuator/Light/LivingRoom/1 || /Actuator/Light/LivingRoom/2

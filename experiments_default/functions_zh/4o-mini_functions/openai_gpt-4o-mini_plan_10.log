@@ -1,0 +1,17 @@
+Standard Output:
+Executing Morning Plan: Open Curtains
+/Actuator/Curtain/LivingRoom/1 is turned on.
+Executing Leave Home Plan: Turn Off Lights and Windows
+
+Standard Error:
+Traceback (most recent call last):
+  File "/Users/minghe/llm4faas/experiments_default/functions_zh/4o-mini_functions/openai_gpt-4o-mini_plan_10.py", line 42, in <module>
+    main()
+  File "/Users/minghe/llm4faas/experiments_default/functions_zh/4o-mini_functions/openai_gpt-4o-mini_plan_10.py", line 38, in main
+    leave_home_plan(home)
+  File "/Users/minghe/llm4faas/experiments_default/functions_zh/4o-mini_functions/openai_gpt-4o-mini_plan_10.py", line 22, in leave_home_plan
+    elif isinstance(actuator, Window):
+                              ^^^^^^
+NameError: name 'Window' is not defined
+
+Return code: 1

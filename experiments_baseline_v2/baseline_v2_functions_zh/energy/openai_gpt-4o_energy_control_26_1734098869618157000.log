@@ -1,0 +1,25 @@
+Standard Output:
+'/Sensor/IndoorTemperature/LivingRoom/1' is now ON.
+/Sensor/IndoorTemperature/LivingRoom/1 reading is: 39.53
+'/Sensor/OutdoorTemperature/Balcony/1' is now ON.
+/Sensor/OutdoorTemperature/Balcony/1 reading is: 22.44
+Set the target temperature of /Actuator/AC/LivingRoom/1 to 26°C.
+/Actuator/AC/LivingRoom/1 is turned on.
+/Actuator/AC/LivingRoom/1 current status is on
+/Actuator/Window/LivingRoom/1 is turned off.
+/Actuator/Window/LivingRoom/2 is turned off.
+/Actuator/Window/LivingRoom/1 is turned on.
+/Actuator/Window/LivingRoom/2 is turned on.
+'/Sensor/IndoorTemperature/Bedroom/1' is now ON.
+/Sensor/IndoorTemperature/Bedroom/1 reading is: 35.09
+'/Sensor/OutdoorTemperature/Balcony/1' is now ON.
+/Sensor/OutdoorTemperature/Balcony/1 reading is: 22.05
+Set the target temperature of /Actuator/AC/Bedroom/1 to 26°C.
+/Actuator/AC/Bedroom/1 is turned on.
+/Actuator/AC/Bedroom/1 current status is on
+/Actuator/Window/Bedroom/1 is turned off.
+/Actuator/Window/Bedroom/1 is turned on.
+
+Standard Error:
+
+Return code: 0

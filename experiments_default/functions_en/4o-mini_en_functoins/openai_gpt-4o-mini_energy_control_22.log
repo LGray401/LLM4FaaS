@@ -1,0 +1,13 @@
+Standard Output:
+'/Sensor/Smoke/Kitchen/1' is now ON.
+/Sensor/Smoke/Kitchen/1 reading is: 8.36
+'/Sensor/IndoorTemperature/LivingRoom/1' is now ON.
+/Sensor/IndoorTemperature/LivingRoom/1 reading is: 31.2
+/Actuator/AC/LivingRoom/1 is turned on.
+Indoor temperature is too high. Turning on the air conditioner.
+/Actuator/Light/LivingRoom/1 is turned on.
+Presence detected. Turning on the light.
+
+Standard Error:
+
+Return code: 0

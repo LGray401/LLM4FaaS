@@ -1,0 +1,197 @@
+Standard Output:
+
+---Home Plan---
+
+LivingRoom:
+Sensors:
+- /Sensor/LightIntensive/LivingRoom/1
+- /Sensor/IndoorTemperature/LivingRoom/1
+- /Sensor/Humidity/LivingRoom/1
+Actuators:
+- /Actuator/Door/LivingRoom/1
+- /Actuator/Light/LivingRoom/1
+- /Actuator/Light/LivingRoom/2
+- /Actuator/Window/LivingRoom/1
+- /Actuator/Window/LivingRoom/2
+- /Actuator/Curtain/LivingRoom/1
+- /Actuator/MusicPlayer/LivingRoom/1
+- /Actuator/SmartSocket/LivingRoom/1
+- /Actuator/SmartSocket/LivingRoom/2
+- /Actuator/CleaningRobot/LivingRoom/1
+- /Actuator/SmartTV/LivingRoom/1
+- /Actuator/NotificationSender/LivingRoom/1
+- /Actuator/AC/LivingRoom/1
+- /Actuator/Heater/LivingRoom/1
+- /Actuator/Humidifier/LivingRoom/1
+
+Bedroom:
+Sensors:
+- /Sensor/IndoorTemperature/Bedroom/1
+- /Sensor/Humidity/Bedroom/1
+- /Sensor/LightIntensive/Bedroom/1
+Actuators:
+- /Actuator/Light/Bedroom/1
+- /Actuator/Light/Bedroom/2
+- /Actuator/Window/Bedroom/1
+- /Actuator/Curtain/Bedroom/1
+- /Actuator/AC/Bedroom/1
+- /Actuator/Heater/Bedroom/1
+- /Actuator/MusicPlayer/Bedroom/1
+- /Actuator/Door/Bedroom/1
+- /Actuator/SmartSocket/Bedroom/1
+- /Actuator/SmartSocket/Bedroom/2
+- /Actuator/CleaningRobot/Bedroom/1
+- /Actuator/Humidifier/Bedroom/1
+
+Kitchen:
+Sensors:
+- /Sensor/Humidity/Kitchen/1
+- /Sensor/Smoke/Kitchen/1
+Actuators:
+- /Actuator/Light/Kitchen/1
+- /Actuator/Window/Kitchen/1
+- /Actuator/Heater/Kitchen/1
+- /Actuator/CoffeeMachine/Kitchen/1
+- /Actuator/SmartSocket/Kitchen/1
+- /Actuator/SmartSocket/Kitchen/2
+- /Actuator/SmartSocket/Kitchen/3
+- /Actuator/Door/Kitchen/1
+
+Bathroom:
+Sensors:
+- /Sensor/IndoorTemperature/Bathroom/1
+- /Sensor/Humidity/Bathroom/1
+Actuators:
+- /Actuator/Light/Bathroom/1
+- /Actuator/Window/Bathroom/1
+- /Actuator/Heater/Bathroom/1
+- /Actuator/Door/Bathroom/1
+- /Actuator/SmartSocket/Bathroom/1
+- /Actuator/SmartSocket/Bathroom/2
+
+Balcony:
+Sensors:
+- /Sensor/OutdoorTemperature/Balcony/1
+- /Sensor/Humidity/Balcony/1
+Actuators:
+- /Actuator/Door/Balcony/1
+We find LivingRoom!
+
+LivingRoom:
+Sensors:
+- /Sensor/LightIntensive/LivingRoom/1
+- /Sensor/IndoorTemperature/LivingRoom/1
+- /Sensor/Humidity/LivingRoom/1
+Actuators:
+- /Actuator/Door/LivingRoom/1
+- /Actuator/Light/LivingRoom/1
+- /Actuator/Light/LivingRoom/2
+- /Actuator/Window/LivingRoom/1
+- /Actuator/Window/LivingRoom/2
+- /Actuator/Curtain/LivingRoom/1
+- /Actuator/MusicPlayer/LivingRoom/1
+- /Actuator/SmartSocket/LivingRoom/1
+- /Actuator/SmartSocket/LivingRoom/2
+- /Actuator/CleaningRobot/LivingRoom/1
+- /Actuator/SmartTV/LivingRoom/1
+- /Actuator/NotificationSender/LivingRoom/1
+- /Actuator/AC/LivingRoom/1
+- /Actuator/Heater/LivingRoom/1
+- /Actuator/Humidifier/LivingRoom/1
+'/Sensor/IndoorTemperature/LivingRoom/1' is now ON.
+/Sensor/IndoorTemperature/LivingRoom/1 reading is: 37.01
+/Sensor/IndoorTemperature/LivingRoom/1 current temperature: 37.01°C
+'/Sensor/IndoorTemperature/Bedroom/1' is now ON.
+/Sensor/IndoorTemperature/Bedroom/1 reading is: 33.45
+/Sensor/IndoorTemperature/Bedroom/1 current temperature: 33.45°C
+'/Sensor/IndoorTemperature/Bathroom/1' is now ON.
+/Sensor/IndoorTemperature/Bathroom/1 reading is: 30.78
+/Sensor/IndoorTemperature/Bathroom/1 current temperature: 30.78°C
+/Actuator/Light/LivingRoom/1 is turned on.
+Set /Actuator/Light/LivingRoom/1 light brightness level to HIGH
+/Actuator/Light/LivingRoom/2 is turned on.
+Set /Actuator/Light/LivingRoom/2 light brightness level to HIGH
+/Actuator/Light/Bedroom/1 is turned on.
+Set /Actuator/Light/Bedroom/1 light brightness level to HIGH
+/Actuator/Light/Bedroom/2 is turned on.
+Set /Actuator/Light/Bedroom/2 light brightness level to HIGH
+/Actuator/Light/Kitchen/1 is turned on.
+Set /Actuator/Light/Kitchen/1 light brightness level to HIGH
+/Actuator/Light/Bathroom/1 is turned on.
+Set /Actuator/Light/Bathroom/1 light brightness level to HIGH
+/Actuator/CleaningRobot/LivingRoom/1 is turned on.
+Cleaning Robot /Actuator/CleaningRobot/LivingRoom/1 Starts Daily Cleaning Routine
+/Actuator/CleaningRobot/LivingRoom/1 Finish Daily Cleaning Routine, Will Turn it OFF
+/Actuator/CleaningRobot/LivingRoom/1 is turned off.
+/Actuator/CleaningRobot/Bedroom/1 is turned on.
+Cleaning Robot /Actuator/CleaningRobot/Bedroom/1 Starts Daily Cleaning Routine
+/Actuator/CleaningRobot/Bedroom/1 Finish Daily Cleaning Routine, Will Turn it OFF
+/Actuator/CleaningRobot/Bedroom/1 is turned off.
+/Sensor/IndoorTemperature/LivingRoom/1 reading is: 35.16
+Set the target temperature of /Actuator/Heater/LivingRoom/1 to 15°C.
+/Actuator/Heater/LivingRoom/1 is turned off.
+Set the target temperature of /Actuator/Heater/Bedroom/1 to 15°C.
+/Actuator/Heater/Bedroom/1 is turned off.
+Set the target temperature of /Actuator/Heater/Kitchen/1 to 15°C.
+/Actuator/Heater/Kitchen/1 is turned off.
+Set the target temperature of /Actuator/Heater/Bathroom/1 to 15°C.
+/Actuator/Heater/Bathroom/1 is turned off.
+Set the target temperature of /Actuator/AC/LivingRoom/1 to 25°C.
+/Actuator/AC/LivingRoom/1 is turned on.
+Set the target temperature of /Actuator/AC/Bedroom/1 to 25°C.
+/Actuator/AC/Bedroom/1 is turned on.
+/Sensor/IndoorTemperature/Bedroom/1 reading is: 35.52
+Set the target temperature of /Actuator/Heater/LivingRoom/1 to 15°C.
+/Actuator/Heater/LivingRoom/1 is turned off.
+Set the target temperature of /Actuator/Heater/Bedroom/1 to 15°C.
+/Actuator/Heater/Bedroom/1 is turned off.
+Set the target temperature of /Actuator/Heater/Kitchen/1 to 15°C.
+/Actuator/Heater/Kitchen/1 is turned off.
+Set the target temperature of /Actuator/Heater/Bathroom/1 to 15°C.
+/Actuator/Heater/Bathroom/1 is turned off.
+Set the target temperature of /Actuator/AC/LivingRoom/1 to 25°C.
+/Actuator/AC/LivingRoom/1 is turned on.
+Set the target temperature of /Actuator/AC/Bedroom/1 to 25°C.
+/Actuator/AC/Bedroom/1 is turned on.
+/Sensor/IndoorTemperature/Bathroom/1 reading is: 37.68
+Set the target temperature of /Actuator/Heater/LivingRoom/1 to 15°C.
+/Actuator/Heater/LivingRoom/1 is turned off.
+Set the target temperature of /Actuator/Heater/Bedroom/1 to 15°C.
+/Actuator/Heater/Bedroom/1 is turned off.
+Set the target temperature of /Actuator/Heater/Kitchen/1 to 15°C.
+/Actuator/Heater/Kitchen/1 is turned off.
+Set the target temperature of /Actuator/Heater/Bathroom/1 to 15°C.
+/Actuator/Heater/Bathroom/1 is turned off.
+Set the target temperature of /Actuator/AC/LivingRoom/1 to 25°C.
+/Actuator/AC/LivingRoom/1 is turned on.
+Set the target temperature of /Actuator/AC/Bedroom/1 to 25°C.
+/Actuator/AC/Bedroom/1 is turned on.
+'/Sensor/Humidity/LivingRoom/1' is now ON.
+/Sensor/Humidity/LivingRoom/1 reading is: 22.28
+/Sensor/Humidity/LivingRoom/1 current humidity: 22.28%
+/Actuator/Humidifier/LivingRoom/1 Increasing humidity in LivingRoom
+/Actuator/Humidifier/Bedroom/1 Increasing humidity in Bedroom
+'/Sensor/Humidity/Bedroom/1' is now ON.
+/Sensor/Humidity/Bedroom/1 reading is: 22.98
+/Sensor/Humidity/Bedroom/1 current humidity: 22.98%
+/Actuator/Humidifier/LivingRoom/1 Increasing humidity in LivingRoom
+/Actuator/Humidifier/Bedroom/1 Increasing humidity in Bedroom
+'/Sensor/Humidity/Kitchen/1' is now ON.
+/Sensor/Humidity/Kitchen/1 reading is: 17.62
+/Sensor/Humidity/Kitchen/1 current humidity: 17.62%
+/Actuator/Humidifier/LivingRoom/1 Increasing humidity in LivingRoom
+/Actuator/Humidifier/Bedroom/1 Increasing humidity in Bedroom
+'/Sensor/Humidity/Bathroom/1' is now ON.
+/Sensor/Humidity/Bathroom/1 reading is: 12.29
+/Sensor/Humidity/Bathroom/1 current humidity: 12.29%
+/Actuator/Humidifier/LivingRoom/1 Increasing humidity in LivingRoom
+/Actuator/Humidifier/Bedroom/1 Increasing humidity in Bedroom
+'/Sensor/Humidity/Balcony/1' is now ON.
+/Sensor/Humidity/Balcony/1 reading is: 26.74
+/Sensor/Humidity/Balcony/1 current humidity: 26.74%
+/Actuator/Humidifier/LivingRoom/1 Increasing humidity in LivingRoom
+/Actuator/Humidifier/Bedroom/1 Increasing humidity in Bedroom
+
+Standard Error:
+
+Return code: 0

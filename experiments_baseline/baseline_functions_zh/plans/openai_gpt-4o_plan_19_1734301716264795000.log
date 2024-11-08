@@ -1,0 +1,17 @@
+Standard Output:
+Executing Morning Plan...
+7:30 AM: Opening curtains in the Living Room.
+7:30 AM: Brewing a cup of coffee in the Kitchen.
+Opening Curtain in Living Room.
+Oning Coffee Machine in Kitchen.
+Executing Leave Home Plan...
+Locking doors and turning off all sockets.
+Locking Door in Living Room.
+Offing Socket in Living Room.
+Socket not found in Kitchen.
+Socket not found in Bedroom.
+Socket not found in Bathroom.
+
+Standard Error:
+
+Return code: 0

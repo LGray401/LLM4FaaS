@@ -1,0 +1,9 @@
+Standard Output:
+
+Standard Error:
+  File "/Users/minghe/llm4faas/experiments_default/functions_zh/deepseek-r1-functions/deepseek-r1:7b_auto_adapt_9_1738481721212294000.py", line 257
+    def prepare_house_type_2(house_0):
+    ^^^
+IndentationError: expected an indented block after function definition on line 254
+
+Return code: 1

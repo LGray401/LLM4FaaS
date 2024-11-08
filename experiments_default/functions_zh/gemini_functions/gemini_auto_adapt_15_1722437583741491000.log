@@ -1,0 +1,21 @@
+Standard Output:
+We find LivingRoom!
+/Actuator/Light/LivingRoom/1 is turned on.
+/Actuator/Light/LivingRoom/2 is turned on.
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/LivingRoom/2 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/LivingRoom/3 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/LivingRoom/4 is Currently OFF. 
+
+Standard Error:
+2025-01-14 16:20:30,320 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/LivingRoom/2' is currently OFF. Cannot get reading.
+2025-01-14 16:20:30,321 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/LivingRoom/3' is currently OFF. Cannot get reading.
+2025-01-14 16:20:30,321 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/LivingRoom/4' is currently OFF. Cannot get reading.
+Traceback (most recent call last):
+  File "/Users/minghe/llm4faas/experiments_default/functions_zh/gemini_functions/gemini_auto_adapt_15_1722437583741491000.py", line 121, in <module>
+    main()
+  File "/Users/minghe/llm4faas/experiments_default/functions_zh/gemini_functions/gemini_auto_adapt_15_1722437583741491000.py", line 61, in main
+    humidifier.adjust_humidity(current_humidity)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Humidifier' object has no attribute 'adjust_humidity'
+
+Return code: 1

@@ -1,0 +1,27 @@
+Timestamp,Model Name,Task Name,User Answer Index,Success Rate (%),Error Status,Unmatched Lines,Log File Path
+,llama3.1,auto_adapt,9,0.0000,Error,,/Users/minghe/llm4faas/experiments_default/functions_zh/llama31_functions/llama3.1_auto_adapt_9.log
+,llama3.1,auto_adapt,8,0.0000,Error,,/Users/minghe/llm4faas/experiments_default/functions_zh/llama31_functions/llama3.1_auto_adapt_8.log
+,llama3.1,auto_adapt,18,0.0000,Error,,/Users/minghe/llm4faas/experiments_default/functions_zh/llama31_functions/llama3.1_auto_adapt_18.log
+,llama3.1,auto_adapt,24,0.0000,Error,,/Users/minghe/llm4faas/experiments_default/functions_zh/llama31_functions/llama3.1_auto_adapt_24.log
+,llama3.1,auto_adapt,25,0.0000,Error,,/Users/minghe/llm4faas/experiments_default/functions_zh/llama31_functions/llama3.1_auto_adapt_25.log
+,llama3.1,auto_adapt,19,0.0000,Error,,/Users/minghe/llm4faas/experiments_default/functions_zh/llama31_functions/llama3.1_auto_adapt_19.log
+,llama3.1,auto_adapt,23,0.0000,Error,,/Users/minghe/llm4faas/experiments_default/functions_zh/llama31_functions/llama3.1_auto_adapt_23.log
+,llama3.1,auto_adapt,21,0.0000,Error,,/Users/minghe/llm4faas/experiments_default/functions_zh/llama31_functions/llama3.1_auto_adapt_21.log
+,llama3.1,auto_adapt,20,0.0000,Error,,/Users/minghe/llm4faas/experiments_default/functions_zh/llama31_functions/llama3.1_auto_adapt_20.log
+,llama3.1,auto_adapt,11,0.0000,Error,,/Users/minghe/llm4faas/experiments_default/functions_zh/llama31_functions/llama3.1_auto_adapt_11.log
+,llama3.1,auto_adapt,10,0.0000,Error,,/Users/minghe/llm4faas/experiments_default/functions_zh/llama31_functions/llama3.1_auto_adapt_10.log
+,llama3.1,auto_adapt,14,0.0000,Error,,/Users/minghe/llm4faas/experiments_default/functions_zh/llama31_functions/llama3.1_auto_adapt_14.log
+,llama3.1,auto_adapt,15,0.0000,Error,,/Users/minghe/llm4faas/experiments_default/functions_zh/llama31_functions/llama3.1_auto_adapt_15.log
+,llama3.1,auto_adapt,1,0.0000,Error,,/Users/minghe/llm4faas/experiments_default/functions_zh/llama31_functions/llama3.1_auto_adapt_1.log
+,llama3.1,auto_adapt,3,0.0000,Error,,/Users/minghe/llm4faas/experiments_default/functions_zh/llama31_functions/llama3.1_auto_adapt_3.log
+,llama3.1,auto_adapt,2,0.0000,Error,,/Users/minghe/llm4faas/experiments_default/functions_zh/llama31_functions/llama3.1_auto_adapt_2.log
+,llama3.1,auto_adapt,6,0.0000,Error,,/Users/minghe/llm4faas/experiments_default/functions_zh/llama31_functions/llama3.1_auto_adapt_6.log
+,llama3.1,auto_adapt,7,0.0000,Error,,/Users/minghe/llm4faas/experiments_default/functions_zh/llama31_functions/llama3.1_auto_adapt_7.log
+,llama3.1,auto_adapt,5,0.0000,Error,,/Users/minghe/llm4faas/experiments_default/functions_zh/llama31_functions/llama3.1_auto_adapt_5.log
+,llama3.1,auto_adapt,4,0.0000,Error,,/Users/minghe/llm4faas/experiments_default/functions_zh/llama31_functions/llama3.1_auto_adapt_4.log
+,llama3.1,auto_adapt,22,0.0000,Error,,/Users/minghe/llm4faas/experiments_default/functions_zh/llama31_functions/llama3.1_auto_adapt_22.log
+,llama3.1,auto_adapt,19,0.0000,Error,,/Users/minghe/llm4faas/experiments_default/functions_zh/llama31_functions/llama3.1_auto_adapt_19.log
+,llama3.1,auto_adapt,16,0.0000,Error,,/Users/minghe/llm4faas/experiments_default/functions_zh/llama31_functions/llama3.1_auto_adapt_16.log
+,llama3.1,auto_adapt,17,0.0000,Error,,/Users/minghe/llm4faas/experiments_default/functions_zh/llama31_functions/llama3.1_auto_adapt_17.log
+,llama3.1,auto_adapt,13,0.0000,Error,,/Users/minghe/llm4faas/experiments_default/functions_zh/llama31_functions/llama3.1_auto_adapt_13.log
+,llama3.1,auto_adapt,12,0.0000,Error,,/Users/minghe/llm4faas/experiments_default/functions_zh/llama31_functions/llama3.1_auto_adapt_12.log

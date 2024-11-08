@@ -1,0 +1,16 @@
+Standard Output:
+We find LivingRoom!
+/Actuator/Curtain/LivingRoom/1 is turned on.
+Cannot Get Sensor Reading, /Sensor/LightIntensive/LivingRoom/1 is Currently OFF. 
+
+Standard Error:
+2025-01-14 16:18:05,235 - sensor.py - get_reading - WARNING - '/Sensor/LightIntensive/LivingRoom/1' is currently OFF. Cannot get reading.
+Traceback (most recent call last):
+  File "/Users/minghe/llm4faas/experiments_default/functions_zh/gemini_functions/gemini_plan_24_1722437005211803000.py", line 101, in <module>
+    morning_plan(home)
+  File "/Users/minghe/llm4faas/experiments_default/functions_zh/gemini_functions/gemini_plan_24_1722437005211803000.py", line 33, in morning_plan
+    if light_intensity < LIGHT_INTENSITY_HIGH:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<' not supported between instances of 'NoneType' and 'int'
+
+Return code: 1

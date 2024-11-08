@@ -1,0 +1,25 @@
+Standard Output:
+Starting Morning Plan...
+We find Bedroom!
+/Actuator/Curtain/Bedroom/1 is turned on.
+Curtain is opened in the Bedroom.
+/Actuator/Light/Bedroom/1 is turned on.
+Set /Actuator/Light/Bedroom/1 light brightness level to MEDIUM
+'/Sensor/LightIntensive/LivingRoom/1' is now ON.
+/Sensor/LightIntensive/LivingRoom/1 reading is: 1011.23
+'/Sensor/LightIntensive/Bedroom/1' is now ON.
+/Sensor/LightIntensive/Bedroom/1 reading is: 1154.07
+Starting Leave Home Plan...
+
+Standard Error:
+Traceback (most recent call last):
+  File "/Users/minghe/llm4faas/default_experiments/functions_repeat_zh/gpt4o/openai_gpt-4o_plan_21_1727176649494697000.py", line 86, in <module>
+    main()
+  File "/Users/minghe/llm4faas/default_experiments/functions_repeat_zh/gpt4o/openai_gpt-4o_plan_21_1727176649494697000.py", line 81, in main
+    leave_home_plan(home)
+  File "/Users/minghe/llm4faas/default_experiments/functions_repeat_zh/gpt4o/openai_gpt-4o_plan_21_1727176649494697000.py", line 39, in leave_home_plan
+    door = next((actuator for actuator in home.actuators if isinstance(actuator, Door)), None)
+                                          ^^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'actuators'
+
+Return code: 1

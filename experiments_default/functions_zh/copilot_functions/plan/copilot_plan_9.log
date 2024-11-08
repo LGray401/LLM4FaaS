@@ -1,0 +1,9 @@
+Standard Output:
+We find LivingRoom!
+Lock the door /Actuator/Door/LivingRoom/1.
+/Actuator/SmartTV/LivingRoom/1 is turned on.
+Start playing Movie on the /Actuator/SmartTV/LivingRoom/1 in LivingRoom
+
+Standard Error:
+
+Return code: 0

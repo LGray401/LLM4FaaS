@@ -1,0 +1,28 @@
+Standard Output:
+Executing MORNING PLAN: Opening curtains.
+/Actuator/Curtain/LivingRoom/1 is turned on.
+/Actuator/Curtain/Bedroom/1 is turned on.
+Executing LEAVE HOME PLAN: Turning off lights.
+/Actuator/Light/LivingRoom/1 is turned off.
+/Actuator/Light/LivingRoom/2 is turned off.
+/Actuator/Light/Bedroom/1 is turned off.
+/Actuator/Light/Bedroom/2 is turned off.
+/Actuator/Light/Kitchen/1 is turned off.
+/Actuator/Light/Bathroom/1 is turned off.
+Executing MOVIE PLAN: Adjusting light brightness.
+/Actuator/Light/LivingRoom/1 is turned on.
+Set /Actuator/Light/LivingRoom/1 light brightness level to LOW
+/Actuator/Light/LivingRoom/2 is turned on.
+Set /Actuator/Light/LivingRoom/2 light brightness level to LOW
+/Actuator/Light/Bedroom/1 is turned on.
+Set /Actuator/Light/Bedroom/1 light brightness level to LOW
+/Actuator/Light/Bedroom/2 is turned on.
+Set /Actuator/Light/Bedroom/2 light brightness level to LOW
+/Actuator/Light/Kitchen/1 is turned on.
+Set /Actuator/Light/Kitchen/1 light brightness level to LOW
+/Actuator/Light/Bathroom/1 is turned on.
+Set /Actuator/Light/Bathroom/1 light brightness level to LOW
+
+Standard Error:
+
+Return code: 0

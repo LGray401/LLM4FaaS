@@ -1,0 +1,16 @@
+Standard Output:
+/Actuator/Window/LivingRoom/2 is turned on.
+/Actuator/Door/LivingRoom/1 is turned on.
+
+Standard Error:
+Traceback (most recent call last):
+  File "/Users/minghe/llm4faas/experiments_default/functions_zh/gemini_functions/gemini_plan_13_1722437081619788000.py", line 153, in <module>
+    main()
+  File "/Users/minghe/llm4faas/experiments_default/functions_zh/gemini_functions/gemini_plan_13_1722437081619788000.py", line 146, in main
+    movie_plan(home)
+  File "/Users/minghe/llm4faas/experiments_default/functions_zh/gemini_functions/gemini_plan_13_1722437081619788000.py", line 62, in movie_plan
+    living_room_lights.set_brightness_level("low")
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Door' object has no attribute 'set_brightness_level'
+
+Return code: 1

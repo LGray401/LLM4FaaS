@@ -1,0 +1,12 @@
+Standard Output:
+
+LivingRoom:
+Sensors:
+- LightIntensiveSensor
+- IndoorTemperatureSensor
+Actuators:
+- Door
+
+Standard Error:
+
+Return code: 0

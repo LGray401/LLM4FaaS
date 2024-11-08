@@ -1,0 +1,9 @@
+Standard Output:
+We find LivingRoom!
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/LivingRoom/1 is Currently OFF. 
+No need to turn off air conditioning.
+
+Standard Error:
+2025-01-10 12:33:35,168 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/LivingRoom/1' is currently OFF. Cannot get reading.
+
+Return code: 0

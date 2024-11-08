@@ -1,0 +1,3678 @@
+Error: Execution timed out
+Standard Output:
+'/Sensor/IndoorTemperature/LivingRoom/1' is now ON.
+/Sensor/IndoorTemperature/LivingRoom/1 reading is: 30.7
+'/Sensor/IndoorTemperature/Bedroom/1' is now ON.
+/Sensor/IndoorTemperature/Bedroom/1 reading is: 36.28
+'/Sensor/IndoorTemperature/Bathroom/1' is now ON.
+/Sensor/IndoorTemperature/Bathroom/1 reading is: 39.32
+'/Sensor/OutdoorTemperature/Balcony/1' is now ON.
+/Sensor/OutdoorTemperature/Balcony/1 reading is: 22.9
+'/Sensor/Humidity/LivingRoom/1' is now ON.
+/Sensor/Humidity/LivingRoom/1 reading is: 20.83
+'/Sensor/Humidity/Bedroom/1' is now ON.
+/Sensor/Humidity/Bedroom/1 reading is: 12.94
+'/Sensor/Humidity/Kitchen/1' is now ON.
+/Sensor/Humidity/Kitchen/1 reading is: 21.22
+'/Sensor/Humidity/Bathroom/1' is now ON.
+/Sensor/Humidity/Bathroom/1 reading is: 23.08
+'/Sensor/Humidity/Balcony/1' is now ON.
+/Sensor/Humidity/Balcony/1 reading is: 12.51
+'/Sensor/LightIntensive/LivingRoom/1' is now ON.
+/Sensor/LightIntensive/LivingRoom/1 reading is: 935.76
+'/Sensor/LightIntensive/Bedroom/1' is now ON.
+/Sensor/LightIntensive/Bedroom/1 reading is: 1016.72
+'/Sensor/Smoke/Kitchen/1' is now ON.
+/Sensor/Smoke/Kitchen/1 reading is: 90.62
+Set the target temperature of /Actuator/Heater/LivingRoom/1 to 25°C.
+/Actuator/Heater/LivingRoom/1 is turned off.
+Set the target temperature of /Actuator/Heater/Bedroom/1 to 25°C.
+/Actuator/Heater/Bedroom/1 is turned off.
+Set the target temperature of /Actuator/Heater/Kitchen/1 to 25°C.
+/Actuator/Heater/Kitchen/1 is turned off.
+Set the target temperature of /Actuator/Heater/Bathroom/1 to 25°C.
+/Actuator/Heater/Bathroom/1 is turned off.
+Set the target temperature of /Actuator/AC/LivingRoom/1 to 15°C.
+/Actuator/AC/LivingRoom/1 is turned on.
+Set the target temperature of /Actuator/AC/Bedroom/1 to 15°C.
+/Actuator/AC/Bedroom/1 is turned on.
+/Actuator/Light/LivingRoom/1 is turned off.
+/Actuator/Light/LivingRoom/2 is turned off.
+/Actuator/Light/Bedroom/1 is turned off.
+/Actuator/Light/Bedroom/2 is turned off.
+/Actuator/Light/Kitchen/1 is turned off.
+/Actuator/Light/Bathroom/1 is turned off.
+/Actuator/Window/LivingRoom/1 is turned on.
+/Actuator/Window/LivingRoom/2 is turned on.
+/Actuator/Window/Bedroom/1 is turned on.
+/Actuator/Window/Kitchen/1 is turned on.
+/Actuator/Window/Bathroom/1 is turned on.
+/Actuator/Curtain/LivingRoom/1 is turned on.
+/Actuator/Curtain/Bedroom/1 is turned on.
+
+---Home Plan---
+
+LivingRoom:
+Sensors:
+- /Sensor/LightIntensive/LivingRoom/1
+- /Sensor/IndoorTemperature/LivingRoom/1
+- /Sensor/Humidity/LivingRoom/1
+Actuators:
+- /Actuator/Door/LivingRoom/1
+- /Actuator/Light/LivingRoom/1
+- /Actuator/Light/LivingRoom/2
+- /Actuator/Window/LivingRoom/1
+- /Actuator/Window/LivingRoom/2
+- /Actuator/Curtain/LivingRoom/1
+- /Actuator/MusicPlayer/LivingRoom/1
+- /Actuator/SmartSocket/LivingRoom/1
+- /Actuator/SmartSocket/LivingRoom/2
+- /Actuator/CleaningRobot/LivingRoom/1
+- /Actuator/SmartTV/LivingRoom/1
+- /Actuator/NotificationSender/LivingRoom/1
+- /Actuator/AC/LivingRoom/1
+- /Actuator/Heater/LivingRoom/1
+- /Actuator/Humidifier/LivingRoom/1
+
+Bedroom:
+Sensors:
+- /Sensor/IndoorTemperature/Bedroom/1
+- /Sensor/Humidity/Bedroom/1
+- /Sensor/LightIntensive/Bedroom/1
+Actuators:
+- /Actuator/Light/Bedroom/1
+- /Actuator/Light/Bedroom/2
+- /Actuator/Window/Bedroom/1
+- /Actuator/Curtain/Bedroom/1
+- /Actuator/AC/Bedroom/1
+- /Actuator/Heater/Bedroom/1
+- /Actuator/MusicPlayer/Bedroom/1
+- /Actuator/Door/Bedroom/1
+- /Actuator/SmartSocket/Bedroom/1
+- /Actuator/SmartSocket/Bedroom/2
+- /Actuator/CleaningRobot/Bedroom/1
+- /Actuator/Humidifier/Bedroom/1
+
+Kitchen:
+Sensors:
+- /Sensor/Humidity/Kitchen/1
+- /Sensor/Smoke/Kitchen/1
+Actuators:
+- /Actuator/Light/Kitchen/1
+- /Actuator/Window/Kitchen/1
+- /Actuator/Heater/Kitchen/1
+- /Actuator/CoffeeMachine/Kitchen/1
+- /Actuator/SmartSocket/Kitchen/1
+- /Actuator/SmartSocket/Kitchen/2
+- /Actuator/SmartSocket/Kitchen/3
+- /Actuator/Door/Kitchen/1
+
+Bathroom:
+Sensors:
+- /Sensor/IndoorTemperature/Bathroom/1
+- /Sensor/Humidity/Bathroom/1
+Actuators:
+- /Actuator/Light/Bathroom/1
+- /Actuator/Window/Bathroom/1
+- /Actuator/Heater/Bathroom/1
+- /Actuator/Door/Bathroom/1
+- /Actuator/SmartSocket/Bathroom/1
+- /Actuator/SmartSocket/Bathroom/2
+
+Balcony:
+Sensors:
+- /Sensor/OutdoorTemperature/Balcony/1
+- /Sensor/Humidity/Balcony/1
+Actuators:
+- /Actuator/Door/Balcony/1
+'/Sensor/IndoorTemperature/LivingRoom/1' is now ON.
+/Sensor/IndoorTemperature/LivingRoom/1 reading is: 34.53
+'/Sensor/IndoorTemperature/Bedroom/1' is now ON.
+/Sensor/IndoorTemperature/Bedroom/1 reading is: 33.16
+'/Sensor/IndoorTemperature/Bathroom/1' is now ON.
+/Sensor/IndoorTemperature/Bathroom/1 reading is: 37.75
+'/Sensor/OutdoorTemperature/Balcony/1' is now ON.
+/Sensor/OutdoorTemperature/Balcony/1 reading is: 23.11
+'/Sensor/Humidity/LivingRoom/1' is now ON.
+/Sensor/Humidity/LivingRoom/1 reading is: 27.07
+'/Sensor/Humidity/Bedroom/1' is now ON.
+/Sensor/Humidity/Bedroom/1 reading is: 16.4
+'/Sensor/Humidity/Kitchen/1' is now ON.
+/Sensor/Humidity/Kitchen/1 reading is: 26.91
+'/Sensor/Humidity/Bathroom/1' is now ON.
+/Sensor/Humidity/Bathroom/1 reading is: 20.58
+'/Sensor/Humidity/Balcony/1' is now ON.
+/Sensor/Humidity/Balcony/1 reading is: 21.99
+'/Sensor/LightIntensive/LivingRoom/1' is now ON.
+/Sensor/LightIntensive/LivingRoom/1 reading is: 955.51
+'/Sensor/LightIntensive/Bedroom/1' is now ON.
+/Sensor/LightIntensive/Bedroom/1 reading is: 962.42
+'/Sensor/Smoke/Kitchen/1' is now ON.
+/Sensor/Smoke/Kitchen/1 reading is: 46.71
+Set the target temperature of /Actuator/Heater/LivingRoom/1 to 25°C.
+/Actuator/Heater/LivingRoom/1 is turned off.
+Set the target temperature of /Actuator/Heater/Bedroom/1 to 25°C.
+/Actuator/Heater/Bedroom/1 is turned off.
+Set the target temperature of /Actuator/Heater/Kitchen/1 to 25°C.
+/Actuator/Heater/Kitchen/1 is turned off.
+Set the target temperature of /Actuator/Heater/Bathroom/1 to 25°C.
+/Actuator/Heater/Bathroom/1 is turned off.
+Set the target temperature of /Actuator/AC/LivingRoom/1 to 15°C.
+/Actuator/AC/LivingRoom/1 is turned on.
+Set the target temperature of /Actuator/AC/Bedroom/1 to 15°C.
+/Actuator/AC/Bedroom/1 is turned on.
+/Actuator/Light/LivingRoom/1 is turned off.
+/Actuator/Light/LivingRoom/2 is turned off.
+/Actuator/Light/Bedroom/1 is turned off.
+/Actuator/Light/Bedroom/2 is turned off.
+/Actuator/Light/Kitchen/1 is turned off.
+/Actuator/Light/Bathroom/1 is turned off.
+/Actuator/Window/LivingRoom/1 is turned on.
+/Actuator/Window/LivingRoom/2 is turned on.
+/Actuator/Window/Bedroom/1 is turned on.
+/Actuator/Window/Kitchen/1 is turned on.
+/Actuator/Window/Bathroom/1 is turned on.
+/Actuator/Curtain/LivingRoom/1 is turned on.
+/Actuator/Curtain/Bedroom/1 is turned on.
+
+---Home Plan---
+
+LivingRoom:
+Sensors:
+- /Sensor/LightIntensive/LivingRoom/1
+- /Sensor/IndoorTemperature/LivingRoom/1
+- /Sensor/Humidity/LivingRoom/1
+Actuators:
+- /Actuator/Door/LivingRoom/1
+- /Actuator/Light/LivingRoom/1
+- /Actuator/Light/LivingRoom/2
+- /Actuator/Window/LivingRoom/1
+- /Actuator/Window/LivingRoom/2
+- /Actuator/Curtain/LivingRoom/1
+- /Actuator/MusicPlayer/LivingRoom/1
+- /Actuator/SmartSocket/LivingRoom/1
+- /Actuator/SmartSocket/LivingRoom/2
+- /Actuator/CleaningRobot/LivingRoom/1
+- /Actuator/SmartTV/LivingRoom/1
+- /Actuator/NotificationSender/LivingRoom/1
+- /Actuator/AC/LivingRoom/1
+- /Actuator/Heater/LivingRoom/1
+- /Actuator/Humidifier/LivingRoom/1
+
+Bedroom:
+Sensors:
+- /Sensor/IndoorTemperature/Bedroom/1
+- /Sensor/Humidity/Bedroom/1
+- /Sensor/LightIntensive/Bedroom/1
+Actuators:
+- /Actuator/Light/Bedroom/1
+- /Actuator/Light/Bedroom/2
+- /Actuator/Window/Bedroom/1
+- /Actuator/Curtain/Bedroom/1
+- /Actuator/AC/Bedroom/1
+- /Actuator/Heater/Bedroom/1
+- /Actuator/MusicPlayer/Bedroom/1
+- /Actuator/Door/Bedroom/1
+- /Actuator/SmartSocket/Bedroom/1
+- /Actuator/SmartSocket/Bedroom/2
+- /Actuator/CleaningRobot/Bedroom/1
+- /Actuator/Humidifier/Bedroom/1
+
+Kitchen:
+Sensors:
+- /Sensor/Humidity/Kitchen/1
+- /Sensor/Smoke/Kitchen/1
+Actuators:
+- /Actuator/Light/Kitchen/1
+- /Actuator/Window/Kitchen/1
+- /Actuator/Heater/Kitchen/1
+- /Actuator/CoffeeMachine/Kitchen/1
+- /Actuator/SmartSocket/Kitchen/1
+- /Actuator/SmartSocket/Kitchen/2
+- /Actuator/SmartSocket/Kitchen/3
+- /Actuator/Door/Kitchen/1
+
+Bathroom:
+Sensors:
+- /Sensor/IndoorTemperature/Bathroom/1
+- /Sensor/Humidity/Bathroom/1
+Actuators:
+- /Actuator/Light/Bathroom/1
+- /Actuator/Window/Bathroom/1
+- /Actuator/Heater/Bathroom/1
+- /Actuator/Door/Bathroom/1
+- /Actuator/SmartSocket/Bathroom/1
+- /Actuator/SmartSocket/Bathroom/2
+
+Balcony:
+Sensors:
+- /Sensor/OutdoorTemperature/Balcony/1
+- /Sensor/Humidity/Balcony/1
+Actuators:
+- /Actuator/Door/Balcony/1
+'/Sensor/IndoorTemperature/LivingRoom/1' is now ON.
+/Sensor/IndoorTemperature/LivingRoom/1 reading is: 33.0
+'/Sensor/IndoorTemperature/Bedroom/1' is now ON.
+/Sensor/IndoorTemperature/Bedroom/1 reading is: 31.15
+'/Sensor/IndoorTemperature/Bathroom/1' is now ON.
+/Sensor/IndoorTemperature/Bathroom/1 reading is: 34.89
+'/Sensor/OutdoorTemperature/Balcony/1' is now ON.
+/Sensor/OutdoorTemperature/Balcony/1 reading is: 20.41
+'/Sensor/Humidity/LivingRoom/1' is now ON.
+/Sensor/Humidity/LivingRoom/1 reading is: 26.03
+'/Sensor/Humidity/Bedroom/1' is now ON.
+/Sensor/Humidity/Bedroom/1 reading is: 27.73
+'/Sensor/Humidity/Kitchen/1' is now ON.
+/Sensor/Humidity/Kitchen/1 reading is: 25.45
+'/Sensor/Humidity/Bathroom/1' is now ON.
+/Sensor/Humidity/Bathroom/1 reading is: 24.18
+'/Sensor/Humidity/Balcony/1' is now ON.
+/Sensor/Humidity/Balcony/1 reading is: 22.76
+'/Sensor/LightIntensive/LivingRoom/1' is now ON.
+/Sensor/LightIntensive/LivingRoom/1 reading is: 996.27
+'/Sensor/LightIntensive/Bedroom/1' is now ON.
+/Sensor/LightIntensive/Bedroom/1 reading is: 917.61
+'/Sensor/Smoke/Kitchen/1' is now ON.
+/Sensor/Smoke/Kitchen/1 reading is: 78.49
+Set the target temperature of /Actuator/Heater/LivingRoom/1 to 25°C.
+/Actuator/Heater/LivingRoom/1 is turned off.
+Set the target temperature of /Actuator/Heater/Bedroom/1 to 25°C.
+/Actuator/Heater/Bedroom/1 is turned off.
+Set the target temperature of /Actuator/Heater/Kitchen/1 to 25°C.
+/Actuator/Heater/Kitchen/1 is turned off.
+Set the target temperature of /Actuator/Heater/Bathroom/1 to 25°C.
+/Actuator/Heater/Bathroom/1 is turned off.
+Set the target temperature of /Actuator/AC/LivingRoom/1 to 15°C.
+/Actuator/AC/LivingRoom/1 is turned on.
+Set the target temperature of /Actuator/AC/Bedroom/1 to 15°C.
+/Actuator/AC/Bedroom/1 is turned on.
+/Actuator/Light/LivingRoom/1 is turned off.
+/Actuator/Light/LivingRoom/2 is turned off.
+/Actuator/Light/Bedroom/1 is turned off.
+/Actuator/Light/Bedroom/2 is turned off.
+/Actuator/Light/Kitchen/1 is turned off.
+/Actuator/Light/Bathroom/1 is turned off.
+/Actuator/Window/LivingRoom/1 is turned on.
+/Actuator/Window/LivingRoom/2 is turned on.
+/Actuator/Window/Bedroom/1 is turned on.
+/Actuator/Window/Kitchen/1 is turned on.
+/Actuator/Window/Bathroom/1 is turned on.
+/Actuator/Curtain/LivingRoom/1 is turned on.
+/Actuator/Curtain/Bedroom/1 is turned on.
+
+---Home Plan---
+
+LivingRoom:
+Sensors:
+- /Sensor/LightIntensive/LivingRoom/1
+- /Sensor/IndoorTemperature/LivingRoom/1
+- /Sensor/Humidity/LivingRoom/1
+Actuators:
+- /Actuator/Door/LivingRoom/1
+- /Actuator/Light/LivingRoom/1
+- /Actuator/Light/LivingRoom/2
+- /Actuator/Window/LivingRoom/1
+- /Actuator/Window/LivingRoom/2
+- /Actuator/Curtain/LivingRoom/1
+- /Actuator/MusicPlayer/LivingRoom/1
+- /Actuator/SmartSocket/LivingRoom/1
+- /Actuator/SmartSocket/LivingRoom/2
+- /Actuator/CleaningRobot/LivingRoom/1
+- /Actuator/SmartTV/LivingRoom/1
+- /Actuator/NotificationSender/LivingRoom/1
+- /Actuator/AC/LivingRoom/1
+- /Actuator/Heater/LivingRoom/1
+- /Actuator/Humidifier/LivingRoom/1
+
+Bedroom:
+Sensors:
+- /Sensor/IndoorTemperature/Bedroom/1
+- /Sensor/Humidity/Bedroom/1
+- /Sensor/LightIntensive/Bedroom/1
+Actuators:
+- /Actuator/Light/Bedroom/1
+- /Actuator/Light/Bedroom/2
+- /Actuator/Window/Bedroom/1
+- /Actuator/Curtain/Bedroom/1
+- /Actuator/AC/Bedroom/1
+- /Actuator/Heater/Bedroom/1
+- /Actuator/MusicPlayer/Bedroom/1
+- /Actuator/Door/Bedroom/1
+- /Actuator/SmartSocket/Bedroom/1
+- /Actuator/SmartSocket/Bedroom/2
+- /Actuator/CleaningRobot/Bedroom/1
+- /Actuator/Humidifier/Bedroom/1
+
+Kitchen:
+Sensors:
+- /Sensor/Humidity/Kitchen/1
+- /Sensor/Smoke/Kitchen/1
+Actuators:
+- /Actuator/Light/Kitchen/1
+- /Actuator/Window/Kitchen/1
+- /Actuator/Heater/Kitchen/1
+- /Actuator/CoffeeMachine/Kitchen/1
+- /Actuator/SmartSocket/Kitchen/1
+- /Actuator/SmartSocket/Kitchen/2
+- /Actuator/SmartSocket/Kitchen/3
+- /Actuator/Door/Kitchen/1
+
+Bathroom:
+Sensors:
+- /Sensor/IndoorTemperature/Bathroom/1
+- /Sensor/Humidity/Bathroom/1
+Actuators:
+- /Actuator/Light/Bathroom/1
+- /Actuator/Window/Bathroom/1
+- /Actuator/Heater/Bathroom/1
+- /Actuator/Door/Bathroom/1
+- /Actuator/SmartSocket/Bathroom/1
+- /Actuator/SmartSocket/Bathroom/2
+
+Balcony:
+Sensors:
+- /Sensor/OutdoorTemperature/Balcony/1
+- /Sensor/Humidity/Balcony/1
+Actuators:
+- /Actuator/Door/Balcony/1
+'/Sensor/IndoorTemperature/LivingRoom/1' is now ON.
+/Sensor/IndoorTemperature/LivingRoom/1 reading is: 38.72
+'/Sensor/IndoorTemperature/Bedroom/1' is now ON.
+/Sensor/IndoorTemperature/Bedroom/1 reading is: 30.82
+'/Sensor/IndoorTemperature/Bathroom/1' is now ON.
+/Sensor/IndoorTemperature/Bathroom/1 reading is: 34.96
+'/Sensor/OutdoorTemperature/Balcony/1' is now ON.
+/Sensor/OutdoorTemperature/Balcony/1 reading is: 21.3
+'/Sensor/Humidity/LivingRoom/1' is now ON.
+/Sensor/Humidity/LivingRoom/1 reading is: 23.52
+'/Sensor/Humidity/Bedroom/1' is now ON.
+/Sensor/Humidity/Bedroom/1 reading is: 26.15
+'/Sensor/Humidity/Kitchen/1' is now ON.
+/Sensor/Humidity/Kitchen/1 reading is: 26.73
+'/Sensor/Humidity/Bathroom/1' is now ON.
+/Sensor/Humidity/Bathroom/1 reading is: 22.1
+'/Sensor/Humidity/Balcony/1' is now ON.
+/Sensor/Humidity/Balcony/1 reading is: 12.59
+'/Sensor/LightIntensive/LivingRoom/1' is now ON.
+/Sensor/LightIntensive/LivingRoom/1 reading is: 921.99
+'/Sensor/LightIntensive/Bedroom/1' is now ON.
+/Sensor/LightIntensive/Bedroom/1 reading is: 968.69
+'/Sensor/Smoke/Kitchen/1' is now ON.
+/Sensor/Smoke/Kitchen/1 reading is: 41.06
+Set the target temperature of /Actuator/Heater/LivingRoom/1 to 25°C.
+/Actuator/Heater/LivingRoom/1 is turned off.
+Set the target temperature of /Actuator/Heater/Bedroom/1 to 25°C.
+/Actuator/Heater/Bedroom/1 is turned off.
+Set the target temperature of /Actuator/Heater/Kitchen/1 to 25°C.
+/Actuator/Heater/Kitchen/1 is turned off.
+Set the target temperature of /Actuator/Heater/Bathroom/1 to 25°C.
+/Actuator/Heater/Bathroom/1 is turned off.
+Set the target temperature of /Actuator/AC/LivingRoom/1 to 15°C.
+/Actuator/AC/LivingRoom/1 is turned on.
+Set the target temperature of /Actuator/AC/Bedroom/1 to 15°C.
+/Actuator/AC/Bedroom/1 is turned on.
+/Actuator/Light/LivingRoom/1 is turned off.
+/Actuator/Light/LivingRoom/2 is turned off.
+/Actuator/Light/Bedroom/1 is turned off.
+/Actuator/Light/Bedroom/2 is turned off.
+/Actuator/Light/Kitchen/1 is turned off.
+/Actuator/Light/Bathroom/1 is turned off.
+/Actuator/Window/LivingRoom/1 is turned on.
+/Actuator/Window/LivingRoom/2 is turned on.
+/Actuator/Window/Bedroom/1 is turned on.
+/Actuator/Window/Kitchen/1 is turned on.
+/Actuator/Window/Bathroom/1 is turned on.
+/Actuator/Curtain/LivingRoom/1 is turned on.
+/Actuator/Curtain/Bedroom/1 is turned on.
+
+---Home Plan---
+
+LivingRoom:
+Sensors:
+- /Sensor/LightIntensive/LivingRoom/1
+- /Sensor/IndoorTemperature/LivingRoom/1
+- /Sensor/Humidity/LivingRoom/1
+Actuators:
+- /Actuator/Door/LivingRoom/1
+- /Actuator/Light/LivingRoom/1
+- /Actuator/Light/LivingRoom/2
+- /Actuator/Window/LivingRoom/1
+- /Actuator/Window/LivingRoom/2
+- /Actuator/Curtain/LivingRoom/1
+- /Actuator/MusicPlayer/LivingRoom/1
+- /Actuator/SmartSocket/LivingRoom/1
+- /Actuator/SmartSocket/LivingRoom/2
+- /Actuator/CleaningRobot/LivingRoom/1
+- /Actuator/SmartTV/LivingRoom/1
+- /Actuator/NotificationSender/LivingRoom/1
+- /Actuator/AC/LivingRoom/1
+- /Actuator/Heater/LivingRoom/1
+- /Actuator/Humidifier/LivingRoom/1
+
+Bedroom:
+Sensors:
+- /Sensor/IndoorTemperature/Bedroom/1
+- /Sensor/Humidity/Bedroom/1
+- /Sensor/LightIntensive/Bedroom/1
+Actuators:
+- /Actuator/Light/Bedroom/1
+- /Actuator/Light/Bedroom/2
+- /Actuator/Window/Bedroom/1
+- /Actuator/Curtain/Bedroom/1
+- /Actuator/AC/Bedroom/1
+- /Actuator/Heater/Bedroom/1
+- /Actuator/MusicPlayer/Bedroom/1
+- /Actuator/Door/Bedroom/1
+- /Actuator/SmartSocket/Bedroom/1
+- /Actuator/SmartSocket/Bedroom/2
+- /Actuator/CleaningRobot/Bedroom/1
+- /Actuator/Humidifier/Bedroom/1
+
+Kitchen:
+Sensors:
+- /Sensor/Humidity/Kitchen/1
+- /Sensor/Smoke/Kitchen/1
+Actuators:
+- /Actuator/Light/Kitchen/1
+- /Actuator/Window/Kitchen/1
+- /Actuator/Heater/Kitchen/1
+- /Actuator/CoffeeMachine/Kitchen/1
+- /Actuator/SmartSocket/Kitchen/1
+- /Actuator/SmartSocket/Kitchen/2
+- /Actuator/SmartSocket/Kitchen/3
+- /Actuator/Door/Kitchen/1
+
+Bathroom:
+Sensors:
+- /Sensor/IndoorTemperature/Bathroom/1
+- /Sensor/Humidity/Bathroom/1
+Actuators:
+- /Actuator/Light/Bathroom/1
+- /Actuator/Window/Bathroom/1
+- /Actuator/Heater/Bathroom/1
+- /Actuator/Door/Bathroom/1
+- /Actuator/SmartSocket/Bathroom/1
+- /Actuator/SmartSocket/Bathroom/2
+
+Balcony:
+Sensors:
+- /Sensor/OutdoorTemperature/Balcony/1
+- /Sensor/Humidity/Balcony/1
+Actuators:
+- /Actuator/Door/Balcony/1
+'/Sensor/IndoorTemperature/LivingRoom/1' is now ON.
+/Sensor/IndoorTemperature/LivingRoom/1 reading is: 39.08
+'/Sensor/IndoorTemperature/Bedroom/1' is now ON.
+/Sensor/IndoorTemperature/Bedroom/1 reading is: 31.75
+'/Sensor/IndoorTemperature/Bathroom/1' is now ON.
+/Sensor/IndoorTemperature/Bathroom/1 reading is: 35.64
+'/Sensor/OutdoorTemperature/Balcony/1' is now ON.
+/Sensor/OutdoorTemperature/Balcony/1 reading is: 22.62
+'/Sensor/Humidity/LivingRoom/1' is now ON.
+/Sensor/Humidity/LivingRoom/1 reading is: 17.73
+'/Sensor/Humidity/Bedroom/1' is now ON.
+/Sensor/Humidity/Bedroom/1 reading is: 22.18
+'/Sensor/Humidity/Kitchen/1' is now ON.
+/Sensor/Humidity/Kitchen/1 reading is: 15.18
+'/Sensor/Humidity/Bathroom/1' is now ON.
+/Sensor/Humidity/Bathroom/1 reading is: 24.9
+'/Sensor/Humidity/Balcony/1' is now ON.
+/Sensor/Humidity/Balcony/1 reading is: 28.51
+'/Sensor/LightIntensive/LivingRoom/1' is now ON.
+/Sensor/LightIntensive/LivingRoom/1 reading is: 1075.85
+'/Sensor/LightIntensive/Bedroom/1' is now ON.
+/Sensor/LightIntensive/Bedroom/1 reading is: 999.89
+'/Sensor/Smoke/Kitchen/1' is now ON.
+/Sensor/Smoke/Kitchen/1 reading is: 10.49
+Set the target temperature of /Actuator/Heater/LivingRoom/1 to 25°C.
+/Actuator/Heater/LivingRoom/1 is turned off.
+Set the target temperature of /Actuator/Heater/Bedroom/1 to 25°C.
+/Actuator/Heater/Bedroom/1 is turned off.
+Set the target temperature of /Actuator/Heater/Kitchen/1 to 25°C.
+/Actuator/Heater/Kitchen/1 is turned off.
+Set the target temperature of /Actuator/Heater/Bathroom/1 to 25°C.
+/Actuator/Heater/Bathroom/1 is turned off.
+Set the target temperature of /Actuator/AC/LivingRoom/1 to 15°C.
+/Actuator/AC/LivingRoom/1 is turned on.
+Set the target temperature of /Actuator/AC/Bedroom/1 to 15°C.
+/Actuator/AC/Bedroom/1 is turned on.
+/Actuator/Light/LivingRoom/1 is turned off.
+/Actuator/Light/LivingRoom/2 is turned off.
+/Actuator/Light/Bedroom/1 is turned off.
+/Actuator/Light/Bedroom/2 is turned off.
+/Actuator/Light/Kitchen/1 is turned off.
+/Actuator/Light/Bathroom/1 is turned off.
+/Actuator/Window/LivingRoom/1 is turned on.
+/Actuator/Window/LivingRoom/2 is turned on.
+/Actuator/Window/Bedroom/1 is turned on.
+/Actuator/Window/Kitchen/1 is turned on.
+/Actuator/Window/Bathroom/1 is turned on.
+/Actuator/Curtain/LivingRoom/1 is turned on.
+/Actuator/Curtain/Bedroom/1 is turned on.
+
+---Home Plan---
+
+LivingRoom:
+Sensors:
+- /Sensor/LightIntensive/LivingRoom/1
+- /Sensor/IndoorTemperature/LivingRoom/1
+- /Sensor/Humidity/LivingRoom/1
+Actuators:
+- /Actuator/Door/LivingRoom/1
+- /Actuator/Light/LivingRoom/1
+- /Actuator/Light/LivingRoom/2
+- /Actuator/Window/LivingRoom/1
+- /Actuator/Window/LivingRoom/2
+- /Actuator/Curtain/LivingRoom/1
+- /Actuator/MusicPlayer/LivingRoom/1
+- /Actuator/SmartSocket/LivingRoom/1
+- /Actuator/SmartSocket/LivingRoom/2
+- /Actuator/CleaningRobot/LivingRoom/1
+- /Actuator/SmartTV/LivingRoom/1
+- /Actuator/NotificationSender/LivingRoom/1
+- /Actuator/AC/LivingRoom/1
+- /Actuator/Heater/LivingRoom/1
+- /Actuator/Humidifier/LivingRoom/1
+
+Bedroom:
+Sensors:
+- /Sensor/IndoorTemperature/Bedroom/1
+- /Sensor/Humidity/Bedroom/1
+- /Sensor/LightIntensive/Bedroom/1
+Actuators:
+- /Actuator/Light/Bedroom/1
+- /Actuator/Light/Bedroom/2
+- /Actuator/Window/Bedroom/1
+- /Actuator/Curtain/Bedroom/1
+- /Actuator/AC/Bedroom/1
+- /Actuator/Heater/Bedroom/1
+- /Actuator/MusicPlayer/Bedroom/1
+- /Actuator/Door/Bedroom/1
+- /Actuator/SmartSocket/Bedroom/1
+- /Actuator/SmartSocket/Bedroom/2
+- /Actuator/CleaningRobot/Bedroom/1
+- /Actuator/Humidifier/Bedroom/1
+
+Kitchen:
+Sensors:
+- /Sensor/Humidity/Kitchen/1
+- /Sensor/Smoke/Kitchen/1
+Actuators:
+- /Actuator/Light/Kitchen/1
+- /Actuator/Window/Kitchen/1
+- /Actuator/Heater/Kitchen/1
+- /Actuator/CoffeeMachine/Kitchen/1
+- /Actuator/SmartSocket/Kitchen/1
+- /Actuator/SmartSocket/Kitchen/2
+- /Actuator/SmartSocket/Kitchen/3
+- /Actuator/Door/Kitchen/1
+
+Bathroom:
+Sensors:
+- /Sensor/IndoorTemperature/Bathroom/1
+- /Sensor/Humidity/Bathroom/1
+Actuators:
+- /Actuator/Light/Bathroom/1
+- /Actuator/Window/Bathroom/1
+- /Actuator/Heater/Bathroom/1
+- /Actuator/Door/Bathroom/1
+- /Actuator/SmartSocket/Bathroom/1
+- /Actuator/SmartSocket/Bathroom/2
+
+Balcony:
+Sensors:
+- /Sensor/OutdoorTemperature/Balcony/1
+- /Sensor/Humidity/Balcony/1
+Actuators:
+- /Actuator/Door/Balcony/1
+'/Sensor/IndoorTemperature/LivingRoom/1' is now ON.
+/Sensor/IndoorTemperature/LivingRoom/1 reading is: 35.23
+'/Sensor/IndoorTemperature/Bedroom/1' is now ON.
+/Sensor/IndoorTemperature/Bedroom/1 reading is: 39.13
+'/Sensor/IndoorTemperature/Bathroom/1' is now ON.
+/Sensor/IndoorTemperature/Bathroom/1 reading is: 38.66
+'/Sensor/OutdoorTemperature/Balcony/1' is now ON.
+/Sensor/OutdoorTemperature/Balcony/1 reading is: 23.04
+'/Sensor/Humidity/LivingRoom/1' is now ON.
+/Sensor/Humidity/LivingRoom/1 reading is: 26.8
+'/Sensor/Humidity/Bedroom/1' is now ON.
+/Sensor/Humidity/Bedroom/1 reading is: 29.85
+'/Sensor/Humidity/Kitchen/1' is now ON.
+/Sensor/Humidity/Kitchen/1 reading is: 23.66
+'/Sensor/Humidity/Bathroom/1' is now ON.
+/Sensor/Humidity/Bathroom/1 reading is: 20.12
+'/Sensor/Humidity/Balcony/1' is now ON.
+/Sensor/Humidity/Balcony/1 reading is: 27.42
+'/Sensor/LightIntensive/LivingRoom/1' is now ON.
+/Sensor/LightIntensive/LivingRoom/1 reading is: 1025.27
+'/Sensor/LightIntensive/Bedroom/1' is now ON.
+/Sensor/LightIntensive/Bedroom/1 reading is: 1053.13
+'/Sensor/Smoke/Kitchen/1' is now ON.
+/Sensor/Smoke/Kitchen/1 reading is: 70.28
+Set the target temperature of /Actuator/Heater/LivingRoom/1 to 25°C.
+/Actuator/Heater/LivingRoom/1 is turned off.
+Set the target temperature of /Actuator/Heater/Bedroom/1 to 25°C.
+/Actuator/Heater/Bedroom/1 is turned off.
+Set the target temperature of /Actuator/Heater/Kitchen/1 to 25°C.
+/Actuator/Heater/Kitchen/1 is turned off.
+Set the target temperature of /Actuator/Heater/Bathroom/1 to 25°C.
+/Actuator/Heater/Bathroom/1 is turned off.
+Set the target temperature of /Actuator/AC/LivingRoom/1 to 15°C.
+/Actuator/AC/LivingRoom/1 is turned on.
+Set the target temperature of /Actuator/AC/Bedroom/1 to 15°C.
+/Actuator/AC/Bedroom/1 is turned on.
+/Actuator/Light/LivingRoom/1 is turned off.
+/Actuator/Light/LivingRoom/2 is turned off.
+/Actuator/Light/Bedroom/1 is turned off.
+/Actuator/Light/Bedroom/2 is turned off.
+/Actuator/Light/Kitchen/1 is turned off.
+/Actuator/Light/Bathroom/1 is turned off.
+/Actuator/Window/LivingRoom/1 is turned on.
+/Actuator/Window/LivingRoom/2 is turned on.
+/Actuator/Window/Bedroom/1 is turned on.
+/Actuator/Window/Kitchen/1 is turned on.
+/Actuator/Window/Bathroom/1 is turned on.
+/Actuator/Curtain/LivingRoom/1 is turned on.
+/Actuator/Curtain/Bedroom/1 is turned on.
+
+---Home Plan---
+
+LivingRoom:
+Sensors:
+- /Sensor/LightIntensive/LivingRoom/1
+- /Sensor/IndoorTemperature/LivingRoom/1
+- /Sensor/Humidity/LivingRoom/1
+Actuators:
+- /Actuator/Door/LivingRoom/1
+- /Actuator/Light/LivingRoom/1
+- /Actuator/Light/LivingRoom/2
+- /Actuator/Window/LivingRoom/1
+- /Actuator/Window/LivingRoom/2
+- /Actuator/Curtain/LivingRoom/1
+- /Actuator/MusicPlayer/LivingRoom/1
+- /Actuator/SmartSocket/LivingRoom/1
+- /Actuator/SmartSocket/LivingRoom/2
+- /Actuator/CleaningRobot/LivingRoom/1
+- /Actuator/SmartTV/LivingRoom/1
+- /Actuator/NotificationSender/LivingRoom/1
+- /Actuator/AC/LivingRoom/1
+- /Actuator/Heater/LivingRoom/1
+- /Actuator/Humidifier/LivingRoom/1
+
+Bedroom:
+Sensors:
+- /Sensor/IndoorTemperature/Bedroom/1
+- /Sensor/Humidity/Bedroom/1
+- /Sensor/LightIntensive/Bedroom/1
+Actuators:
+- /Actuator/Light/Bedroom/1
+- /Actuator/Light/Bedroom/2
+- /Actuator/Window/Bedroom/1
+- /Actuator/Curtain/Bedroom/1
+- /Actuator/AC/Bedroom/1
+- /Actuator/Heater/Bedroom/1
+- /Actuator/MusicPlayer/Bedroom/1
+- /Actuator/Door/Bedroom/1
+- /Actuator/SmartSocket/Bedroom/1
+- /Actuator/SmartSocket/Bedroom/2
+- /Actuator/CleaningRobot/Bedroom/1
+- /Actuator/Humidifier/Bedroom/1
+
+Kitchen:
+Sensors:
+- /Sensor/Humidity/Kitchen/1
+- /Sensor/Smoke/Kitchen/1
+Actuators:
+- /Actuator/Light/Kitchen/1
+- /Actuator/Window/Kitchen/1
+- /Actuator/Heater/Kitchen/1
+- /Actuator/CoffeeMachine/Kitchen/1
+- /Actuator/SmartSocket/Kitchen/1
+- /Actuator/SmartSocket/Kitchen/2
+- /Actuator/SmartSocket/Kitchen/3
+- /Actuator/Door/Kitchen/1
+
+Bathroom:
+Sensors:
+- /Sensor/IndoorTemperature/Bathroom/1
+- /Sensor/Humidity/Bathroom/1
+Actuators:
+- /Actuator/Light/Bathroom/1
+- /Actuator/Window/Bathroom/1
+- /Actuator/Heater/Bathroom/1
+- /Actuator/Door/Bathroom/1
+- /Actuator/SmartSocket/Bathroom/1
+- /Actuator/SmartSocket/Bathroom/2
+
+Balcony:
+Sensors:
+- /Sensor/OutdoorTemperature/Balcony/1
+- /Sensor/Humidity/Balcony/1
+Actuators:
+- /Actuator/Door/Balcony/1
+'/Sensor/IndoorTemperature/LivingRoom/1' is now ON.
+/Sensor/IndoorTemperature/LivingRoom/1 reading is: 35.85
+'/Sensor/IndoorTemperature/Bedroom/1' is now ON.
+/Sensor/IndoorTemperature/Bedroom/1 reading is: 30.18
+'/Sensor/IndoorTemperature/Bathroom/1' is now ON.
+/Sensor/IndoorTemperature/Bathroom/1 reading is: 39.03
+'/Sensor/OutdoorTemperature/Balcony/1' is now ON.
+/Sensor/OutdoorTemperature/Balcony/1 reading is: 20.96
+'/Sensor/Humidity/LivingRoom/1' is now ON.
+/Sensor/Humidity/LivingRoom/1 reading is: 18.41
+'/Sensor/Humidity/Bedroom/1' is now ON.
+/Sensor/Humidity/Bedroom/1 reading is: 17.97
+'/Sensor/Humidity/Kitchen/1' is now ON.
+/Sensor/Humidity/Kitchen/1 reading is: 22.06
+'/Sensor/Humidity/Bathroom/1' is now ON.
+/Sensor/Humidity/Bathroom/1 reading is: 21.57
+'/Sensor/Humidity/Balcony/1' is now ON.
+/Sensor/Humidity/Balcony/1 reading is: 12.16
+'/Sensor/LightIntensive/LivingRoom/1' is now ON.
+/Sensor/LightIntensive/LivingRoom/1 reading is: 916.44
+'/Sensor/LightIntensive/Bedroom/1' is now ON.
+/Sensor/LightIntensive/Bedroom/1 reading is: 976.55
+'/Sensor/Smoke/Kitchen/1' is now ON.
+/Sensor/Smoke/Kitchen/1 reading is: 0.05
+Set the target temperature of /Actuator/Heater/LivingRoom/1 to 25°C.
+/Actuator/Heater/LivingRoom/1 is turned off.
+Set the target temperature of /Actuator/Heater/Bedroom/1 to 25°C.
+/Actuator/Heater/Bedroom/1 is turned off.
+Set the target temperature of /Actuator/Heater/Kitchen/1 to 25°C.
+/Actuator/Heater/Kitchen/1 is turned off.
+Set the target temperature of /Actuator/Heater/Bathroom/1 to 25°C.
+/Actuator/Heater/Bathroom/1 is turned off.
+Set the target temperature of /Actuator/AC/LivingRoom/1 to 15°C.
+/Actuator/AC/LivingRoom/1 is turned on.
+Set the target temperature of /Actuator/AC/Bedroom/1 to 15°C.
+/Actuator/AC/Bedroom/1 is turned on.
+/Actuator/Light/LivingRoom/1 is turned off.
+/Actuator/Light/LivingRoom/2 is turned off.
+/Actuator/Light/Bedroom/1 is turned off.
+/Actuator/Light/Bedroom/2 is turned off.
+/Actuator/Light/Kitchen/1 is turned off.
+/Actuator/Light/Bathroom/1 is turned off.
+/Actuator/Window/LivingRoom/1 is turned on.
+/Actuator/Window/LivingRoom/2 is turned on.
+/Actuator/Window/Bedroom/1 is turned on.
+/Actuator/Window/Kitchen/1 is turned on.
+/Actuator/Window/Bathroom/1 is turned on.
+/Actuator/Curtain/LivingRoom/1 is turned on.
+/Actuator/Curtain/Bedroom/1 is turned on.
+
+---Home Plan---
+
+LivingRoom:
+Sensors:
+- /Sensor/LightIntensive/LivingRoom/1
+- /Sensor/IndoorTemperature/LivingRoom/1
+- /Sensor/Humidity/LivingRoom/1
+Actuators:
+- /Actuator/Door/LivingRoom/1
+- /Actuator/Light/LivingRoom/1
+- /Actuator/Light/LivingRoom/2
+- /Actuator/Window/LivingRoom/1
+- /Actuator/Window/LivingRoom/2
+- /Actuator/Curtain/LivingRoom/1
+- /Actuator/MusicPlayer/LivingRoom/1
+- /Actuator/SmartSocket/LivingRoom/1
+- /Actuator/SmartSocket/LivingRoom/2
+- /Actuator/CleaningRobot/LivingRoom/1
+- /Actuator/SmartTV/LivingRoom/1
+- /Actuator/NotificationSender/LivingRoom/1
+- /Actuator/AC/LivingRoom/1
+- /Actuator/Heater/LivingRoom/1
+- /Actuator/Humidifier/LivingRoom/1
+
+Bedroom:
+Sensors:
+- /Sensor/IndoorTemperature/Bedroom/1
+- /Sensor/Humidity/Bedroom/1
+- /Sensor/LightIntensive/Bedroom/1
+Actuators:
+- /Actuator/Light/Bedroom/1
+- /Actuator/Light/Bedroom/2
+- /Actuator/Window/Bedroom/1
+- /Actuator/Curtain/Bedroom/1
+- /Actuator/AC/Bedroom/1
+- /Actuator/Heater/Bedroom/1
+- /Actuator/MusicPlayer/Bedroom/1
+- /Actuator/Door/Bedroom/1
+- /Actuator/SmartSocket/Bedroom/1
+- /Actuator/SmartSocket/Bedroom/2
+- /Actuator/CleaningRobot/Bedroom/1
+- /Actuator/Humidifier/Bedroom/1
+
+Kitchen:
+Sensors:
+- /Sensor/Humidity/Kitchen/1
+- /Sensor/Smoke/Kitchen/1
+Actuators:
+- /Actuator/Light/Kitchen/1
+- /Actuator/Window/Kitchen/1
+- /Actuator/Heater/Kitchen/1
+- /Actuator/CoffeeMachine/Kitchen/1
+- /Actuator/SmartSocket/Kitchen/1
+- /Actuator/SmartSocket/Kitchen/2
+- /Actuator/SmartSocket/Kitchen/3
+- /Actuator/Door/Kitchen/1
+
+Bathroom:
+Sensors:
+- /Sensor/IndoorTemperature/Bathroom/1
+- /Sensor/Humidity/Bathroom/1
+Actuators:
+- /Actuator/Light/Bathroom/1
+- /Actuator/Window/Bathroom/1
+- /Actuator/Heater/Bathroom/1
+- /Actuator/Door/Bathroom/1
+- /Actuator/SmartSocket/Bathroom/1
+- /Actuator/SmartSocket/Bathroom/2
+
+Balcony:
+Sensors:
+- /Sensor/OutdoorTemperature/Balcony/1
+- /Sensor/Humidity/Balcony/1
+Actuators:
+- /Actuator/Door/Balcony/1
+'/Sensor/IndoorTemperature/LivingRoom/1' is now ON.
+/Sensor/IndoorTemperature/LivingRoom/1 reading is: 39.01
+'/Sensor/IndoorTemperature/Bedroom/1' is now ON.
+/Sensor/IndoorTemperature/Bedroom/1 reading is: 33.5
+'/Sensor/IndoorTemperature/Bathroom/1' is now ON.
+/Sensor/IndoorTemperature/Bathroom/1 reading is: 33.84
+'/Sensor/OutdoorTemperature/Balcony/1' is now ON.
+/Sensor/OutdoorTemperature/Balcony/1 reading is: 24.56
+'/Sensor/Humidity/LivingRoom/1' is now ON.
+/Sensor/Humidity/LivingRoom/1 reading is: 26.58
+'/Sensor/Humidity/Bedroom/1' is now ON.
+/Sensor/Humidity/Bedroom/1 reading is: 24.44
+'/Sensor/Humidity/Kitchen/1' is now ON.
+/Sensor/Humidity/Kitchen/1 reading is: 29.08
+'/Sensor/Humidity/Bathroom/1' is now ON.
+/Sensor/Humidity/Bathroom/1 reading is: 14.34
+'/Sensor/Humidity/Balcony/1' is now ON.
+/Sensor/Humidity/Balcony/1 reading is: 19.14
+'/Sensor/LightIntensive/LivingRoom/1' is now ON.
+/Sensor/LightIntensive/LivingRoom/1 reading is: 1115.7
+'/Sensor/LightIntensive/Bedroom/1' is now ON.
+/Sensor/LightIntensive/Bedroom/1 reading is: 1055.86
+'/Sensor/Smoke/Kitchen/1' is now ON.
+/Sensor/Smoke/Kitchen/1 reading is: 4.42
+Set the target temperature of /Actuator/Heater/LivingRoom/1 to 25°C.
+/Actuator/Heater/LivingRoom/1 is turned off.
+Set the target temperature of /Actuator/Heater/Bedroom/1 to 25°C.
+/Actuator/Heater/Bedroom/1 is turned off.
+Set the target temperature of /Actuator/Heater/Kitchen/1 to 25°C.
+/Actuator/Heater/Kitchen/1 is turned off.
+Set the target temperature of /Actuator/Heater/Bathroom/1 to 25°C.
+/Actuator/Heater/Bathroom/1 is turned off.
+Set the target temperature of /Actuator/AC/LivingRoom/1 to 15°C.
+/Actuator/AC/LivingRoom/1 is turned on.
+Set the target temperature of /Actuator/AC/Bedroom/1 to 15°C.
+/Actuator/AC/Bedroom/1 is turned on.
+/Actuator/Light/LivingRoom/1 is turned off.
+/Actuator/Light/LivingRoom/2 is turned off.
+/Actuator/Light/Bedroom/1 is turned off.
+/Actuator/Light/Bedroom/2 is turned off.
+/Actuator/Light/Kitchen/1 is turned off.
+/Actuator/Light/Bathroom/1 is turned off.
+/Actuator/Window/LivingRoom/1 is turned on.
+/Actuator/Window/LivingRoom/2 is turned on.
+/Actuator/Window/Bedroom/1 is turned on.
+/Actuator/Window/Kitchen/1 is turned on.
+/Actuator/Window/Bathroom/1 is turned on.
+/Actuator/Curtain/LivingRoom/1 is turned on.
+/Actuator/Curtain/Bedroom/1 is turned on.
+
+---Home Plan---
+
+LivingRoom:
+Sensors:
+- /Sensor/LightIntensive/LivingRoom/1
+- /Sensor/IndoorTemperature/LivingRoom/1
+- /Sensor/Humidity/LivingRoom/1
+Actuators:
+- /Actuator/Door/LivingRoom/1
+- /Actuator/Light/LivingRoom/1
+- /Actuator/Light/LivingRoom/2
+- /Actuator/Window/LivingRoom/1
+- /Actuator/Window/LivingRoom/2
+- /Actuator/Curtain/LivingRoom/1
+- /Actuator/MusicPlayer/LivingRoom/1
+- /Actuator/SmartSocket/LivingRoom/1
+- /Actuator/SmartSocket/LivingRoom/2
+- /Actuator/CleaningRobot/LivingRoom/1
+- /Actuator/SmartTV/LivingRoom/1
+- /Actuator/NotificationSender/LivingRoom/1
+- /Actuator/AC/LivingRoom/1
+- /Actuator/Heater/LivingRoom/1
+- /Actuator/Humidifier/LivingRoom/1
+
+Bedroom:
+Sensors:
+- /Sensor/IndoorTemperature/Bedroom/1
+- /Sensor/Humidity/Bedroom/1
+- /Sensor/LightIntensive/Bedroom/1
+Actuators:
+- /Actuator/Light/Bedroom/1
+- /Actuator/Light/Bedroom/2
+- /Actuator/Window/Bedroom/1
+- /Actuator/Curtain/Bedroom/1
+- /Actuator/AC/Bedroom/1
+- /Actuator/Heater/Bedroom/1
+- /Actuator/MusicPlayer/Bedroom/1
+- /Actuator/Door/Bedroom/1
+- /Actuator/SmartSocket/Bedroom/1
+- /Actuator/SmartSocket/Bedroom/2
+- /Actuator/CleaningRobot/Bedroom/1
+- /Actuator/Humidifier/Bedroom/1
+
+Kitchen:
+Sensors:
+- /Sensor/Humidity/Kitchen/1
+- /Sensor/Smoke/Kitchen/1
+Actuators:
+- /Actuator/Light/Kitchen/1
+- /Actuator/Window/Kitchen/1
+- /Actuator/Heater/Kitchen/1
+- /Actuator/CoffeeMachine/Kitchen/1
+- /Actuator/SmartSocket/Kitchen/1
+- /Actuator/SmartSocket/Kitchen/2
+- /Actuator/SmartSocket/Kitchen/3
+- /Actuator/Door/Kitchen/1
+
+Bathroom:
+Sensors:
+- /Sensor/IndoorTemperature/Bathroom/1
+- /Sensor/Humidity/Bathroom/1
+Actuators:
+- /Actuator/Light/Bathroom/1
+- /Actuator/Window/Bathroom/1
+- /Actuator/Heater/Bathroom/1
+- /Actuator/Door/Bathroom/1
+- /Actuator/SmartSocket/Bathroom/1
+- /Actuator/SmartSocket/Bathroom/2
+
+Balcony:
+Sensors:
+- /Sensor/OutdoorTemperature/Balcony/1
+- /Sensor/Humidity/Balcony/1
+Actuators:
+- /Actuator/Door/Balcony/1
+'/Sensor/IndoorTemperature/LivingRoom/1' is now ON.
+/Sensor/IndoorTemperature/LivingRoom/1 reading is: 39.05
+'/Sensor/IndoorTemperature/Bedroom/1' is now ON.
+/Sensor/IndoorTemperature/Bedroom/1 reading is: 31.11
+'/Sensor/IndoorTemperature/Bathroom/1' is now ON.
+/Sensor/IndoorTemperature/Bathroom/1 reading is: 34.01
+'/Sensor/OutdoorTemperature/Balcony/1' is now ON.
+/Sensor/OutdoorTemperature/Balcony/1 reading is: 21.19
+'/Sensor/Humidity/LivingRoom/1' is now ON.
+/Sensor/Humidity/LivingRoom/1 reading is: 21.82
+'/Sensor/Humidity/Bedroom/1' is now ON.
+/Sensor/Humidity/Bedroom/1 reading is: 14.5
+'/Sensor/Humidity/Kitchen/1' is now ON.
+/Sensor/Humidity/Kitchen/1 reading is: 28.9
+'/Sensor/Humidity/Bathroom/1' is now ON.
+/Sensor/Humidity/Bathroom/1 reading is: 18.75
+'/Sensor/Humidity/Balcony/1' is now ON.
+/Sensor/Humidity/Balcony/1 reading is: 24.73
+'/Sensor/LightIntensive/LivingRoom/1' is now ON.
+/Sensor/LightIntensive/LivingRoom/1 reading is: 1042.85
+'/Sensor/LightIntensive/Bedroom/1' is now ON.
+/Sensor/LightIntensive/Bedroom/1 reading is: 1068.07
+'/Sensor/Smoke/Kitchen/1' is now ON.
+/Sensor/Smoke/Kitchen/1 reading is: 36.73
+Set the target temperature of /Actuator/Heater/LivingRoom/1 to 25°C.
+/Actuator/Heater/LivingRoom/1 is turned off.
+Set the target temperature of /Actuator/Heater/Bedroom/1 to 25°C.
+/Actuator/Heater/Bedroom/1 is turned off.
+Set the target temperature of /Actuator/Heater/Kitchen/1 to 25°C.
+/Actuator/Heater/Kitchen/1 is turned off.
+Set the target temperature of /Actuator/Heater/Bathroom/1 to 25°C.
+/Actuator/Heater/Bathroom/1 is turned off.
+Set the target temperature of /Actuator/AC/LivingRoom/1 to 15°C.
+/Actuator/AC/LivingRoom/1 is turned on.
+Set the target temperature of /Actuator/AC/Bedroom/1 to 15°C.
+/Actuator/AC/Bedroom/1 is turned on.
+/Actuator/Light/LivingRoom/1 is turned off.
+/Actuator/Light/LivingRoom/2 is turned off.
+/Actuator/Light/Bedroom/1 is turned off.
+/Actuator/Light/Bedroom/2 is turned off.
+/Actuator/Light/Kitchen/1 is turned off.
+/Actuator/Light/Bathroom/1 is turned off.
+/Actuator/Window/LivingRoom/1 is turned on.
+/Actuator/Window/LivingRoom/2 is turned on.
+/Actuator/Window/Bedroom/1 is turned on.
+/Actuator/Window/Kitchen/1 is turned on.
+/Actuator/Window/Bathroom/1 is turned on.
+/Actuator/Curtain/LivingRoom/1 is turned on.
+/Actuator/Curtain/Bedroom/1 is turned on.
+
+---Home Plan---
+
+LivingRoom:
+Sensors:
+- /Sensor/LightIntensive/LivingRoom/1
+- /Sensor/IndoorTemperature/LivingRoom/1
+- /Sensor/Humidity/LivingRoom/1
+Actuators:
+- /Actuator/Door/LivingRoom/1
+- /Actuator/Light/LivingRoom/1
+- /Actuator/Light/LivingRoom/2
+- /Actuator/Window/LivingRoom/1
+- /Actuator/Window/LivingRoom/2
+- /Actuator/Curtain/LivingRoom/1
+- /Actuator/MusicPlayer/LivingRoom/1
+- /Actuator/SmartSocket/LivingRoom/1
+- /Actuator/SmartSocket/LivingRoom/2
+- /Actuator/CleaningRobot/LivingRoom/1
+- /Actuator/SmartTV/LivingRoom/1
+- /Actuator/NotificationSender/LivingRoom/1
+- /Actuator/AC/LivingRoom/1
+- /Actuator/Heater/LivingRoom/1
+- /Actuator/Humidifier/LivingRoom/1
+
+Bedroom:
+Sensors:
+- /Sensor/IndoorTemperature/Bedroom/1
+- /Sensor/Humidity/Bedroom/1
+- /Sensor/LightIntensive/Bedroom/1
+Actuators:
+- /Actuator/Light/Bedroom/1
+- /Actuator/Light/Bedroom/2
+- /Actuator/Window/Bedroom/1
+- /Actuator/Curtain/Bedroom/1
+- /Actuator/AC/Bedroom/1
+- /Actuator/Heater/Bedroom/1
+- /Actuator/MusicPlayer/Bedroom/1
+- /Actuator/Door/Bedroom/1
+- /Actuator/SmartSocket/Bedroom/1
+- /Actuator/SmartSocket/Bedroom/2
+- /Actuator/CleaningRobot/Bedroom/1
+- /Actuator/Humidifier/Bedroom/1
+
+Kitchen:
+Sensors:
+- /Sensor/Humidity/Kitchen/1
+- /Sensor/Smoke/Kitchen/1
+Actuators:
+- /Actuator/Light/Kitchen/1
+- /Actuator/Window/Kitchen/1
+- /Actuator/Heater/Kitchen/1
+- /Actuator/CoffeeMachine/Kitchen/1
+- /Actuator/SmartSocket/Kitchen/1
+- /Actuator/SmartSocket/Kitchen/2
+- /Actuator/SmartSocket/Kitchen/3
+- /Actuator/Door/Kitchen/1
+
+Bathroom:
+Sensors:
+- /Sensor/IndoorTemperature/Bathroom/1
+- /Sensor/Humidity/Bathroom/1
+Actuators:
+- /Actuator/Light/Bathroom/1
+- /Actuator/Window/Bathroom/1
+- /Actuator/Heater/Bathroom/1
+- /Actuator/Door/Bathroom/1
+- /Actuator/SmartSocket/Bathroom/1
+- /Actuator/SmartSocket/Bathroom/2
+
+Balcony:
+Sensors:
+- /Sensor/OutdoorTemperature/Balcony/1
+- /Sensor/Humidity/Balcony/1
+Actuators:
+- /Actuator/Door/Balcony/1
+'/Sensor/IndoorTemperature/LivingRoom/1' is now ON.
+/Sensor/IndoorTemperature/LivingRoom/1 reading is: 35.37
+'/Sensor/IndoorTemperature/Bedroom/1' is now ON.
+/Sensor/IndoorTemperature/Bedroom/1 reading is: 31.13
+'/Sensor/IndoorTemperature/Bathroom/1' is now ON.
+/Sensor/IndoorTemperature/Bathroom/1 reading is: 32.34
+'/Sensor/OutdoorTemperature/Balcony/1' is now ON.
+/Sensor/OutdoorTemperature/Balcony/1 reading is: 21.64
+'/Sensor/Humidity/LivingRoom/1' is now ON.
+/Sensor/Humidity/LivingRoom/1 reading is: 22.58
+'/Sensor/Humidity/Bedroom/1' is now ON.
+/Sensor/Humidity/Bedroom/1 reading is: 14.53
+'/Sensor/Humidity/Kitchen/1' is now ON.
+/Sensor/Humidity/Kitchen/1 reading is: 12.25
+'/Sensor/Humidity/Bathroom/1' is now ON.
+/Sensor/Humidity/Bathroom/1 reading is: 17.34
+'/Sensor/Humidity/Balcony/1' is now ON.
+/Sensor/Humidity/Balcony/1 reading is: 29.05
+'/Sensor/LightIntensive/LivingRoom/1' is now ON.
+/Sensor/LightIntensive/LivingRoom/1 reading is: 1073.49
+'/Sensor/LightIntensive/Bedroom/1' is now ON.
+/Sensor/LightIntensive/Bedroom/1 reading is: 1154.71
+'/Sensor/Smoke/Kitchen/1' is now ON.
+/Sensor/Smoke/Kitchen/1 reading is: 20.7
+Set the target temperature of /Actuator/Heater/LivingRoom/1 to 25°C.
+/Actuator/Heater/LivingRoom/1 is turned off.
+Set the target temperature of /Actuator/Heater/Bedroom/1 to 25°C.
+/Actuator/Heater/Bedroom/1 is turned off.
+Set the target temperature of /Actuator/Heater/Kitchen/1 to 25°C.
+/Actuator/Heater/Kitchen/1 is turned off.
+Set the target temperature of /Actuator/Heater/Bathroom/1 to 25°C.
+/Actuator/Heater/Bathroom/1 is turned off.
+Set the target temperature of /Actuator/AC/LivingRoom/1 to 15°C.
+/Actuator/AC/LivingRoom/1 is turned on.
+Set the target temperature of /Actuator/AC/Bedroom/1 to 15°C.
+/Actuator/AC/Bedroom/1 is turned on.
+/Actuator/Light/LivingRoom/1 is turned off.
+/Actuator/Light/LivingRoom/2 is turned off.
+/Actuator/Light/Bedroom/1 is turned off.
+/Actuator/Light/Bedroom/2 is turned off.
+/Actuator/Light/Kitchen/1 is turned off.
+/Actuator/Light/Bathroom/1 is turned off.
+/Actuator/Window/LivingRoom/1 is turned on.
+/Actuator/Window/LivingRoom/2 is turned on.
+/Actuator/Window/Bedroom/1 is turned on.
+/Actuator/Window/Kitchen/1 is turned on.
+/Actuator/Window/Bathroom/1 is turned on.
+/Actuator/Curtain/LivingRoom/1 is turned on.
+/Actuator/Curtain/Bedroom/1 is turned on.
+
+---Home Plan---
+
+LivingRoom:
+Sensors:
+- /Sensor/LightIntensive/LivingRoom/1
+- /Sensor/IndoorTemperature/LivingRoom/1
+- /Sensor/Humidity/LivingRoom/1
+Actuators:
+- /Actuator/Door/LivingRoom/1
+- /Actuator/Light/LivingRoom/1
+- /Actuator/Light/LivingRoom/2
+- /Actuator/Window/LivingRoom/1
+- /Actuator/Window/LivingRoom/2
+- /Actuator/Curtain/LivingRoom/1
+- /Actuator/MusicPlayer/LivingRoom/1
+- /Actuator/SmartSocket/LivingRoom/1
+- /Actuator/SmartSocket/LivingRoom/2
+- /Actuator/CleaningRobot/LivingRoom/1
+- /Actuator/SmartTV/LivingRoom/1
+- /Actuator/NotificationSender/LivingRoom/1
+- /Actuator/AC/LivingRoom/1
+- /Actuator/Heater/LivingRoom/1
+- /Actuator/Humidifier/LivingRoom/1
+
+Bedroom:
+Sensors:
+- /Sensor/IndoorTemperature/Bedroom/1
+- /Sensor/Humidity/Bedroom/1
+- /Sensor/LightIntensive/Bedroom/1
+Actuators:
+- /Actuator/Light/Bedroom/1
+- /Actuator/Light/Bedroom/2
+- /Actuator/Window/Bedroom/1
+- /Actuator/Curtain/Bedroom/1
+- /Actuator/AC/Bedroom/1
+- /Actuator/Heater/Bedroom/1
+- /Actuator/MusicPlayer/Bedroom/1
+- /Actuator/Door/Bedroom/1
+- /Actuator/SmartSocket/Bedroom/1
+- /Actuator/SmartSocket/Bedroom/2
+- /Actuator/CleaningRobot/Bedroom/1
+- /Actuator/Humidifier/Bedroom/1
+
+Kitchen:
+Sensors:
+- /Sensor/Humidity/Kitchen/1
+- /Sensor/Smoke/Kitchen/1
+Actuators:
+- /Actuator/Light/Kitchen/1
+- /Actuator/Window/Kitchen/1
+- /Actuator/Heater/Kitchen/1
+- /Actuator/CoffeeMachine/Kitchen/1
+- /Actuator/SmartSocket/Kitchen/1
+- /Actuator/SmartSocket/Kitchen/2
+- /Actuator/SmartSocket/Kitchen/3
+- /Actuator/Door/Kitchen/1
+
+Bathroom:
+Sensors:
+- /Sensor/IndoorTemperature/Bathroom/1
+- /Sensor/Humidity/Bathroom/1
+Actuators:
+- /Actuator/Light/Bathroom/1
+- /Actuator/Window/Bathroom/1
+- /Actuator/Heater/Bathroom/1
+- /Actuator/Door/Bathroom/1
+- /Actuator/SmartSocket/Bathroom/1
+- /Actuator/SmartSocket/Bathroom/2
+
+Balcony:
+Sensors:
+- /Sensor/OutdoorTemperature/Balcony/1
+- /Sensor/Humidity/Balcony/1
+Actuators:
+- /Actuator/Door/Balcony/1
+'/Sensor/IndoorTemperature/LivingRoom/1' is now ON.
+/Sensor/IndoorTemperature/LivingRoom/1 reading is: 32.28
+'/Sensor/IndoorTemperature/Bedroom/1' is now ON.
+/Sensor/IndoorTemperature/Bedroom/1 reading is: 32.76
+'/Sensor/IndoorTemperature/Bathroom/1' is now ON.
+/Sensor/IndoorTemperature/Bathroom/1 reading is: 36.33
+'/Sensor/OutdoorTemperature/Balcony/1' is now ON.
+/Sensor/OutdoorTemperature/Balcony/1 reading is: 24.22
+'/Sensor/Humidity/LivingRoom/1' is now ON.
+/Sensor/Humidity/LivingRoom/1 reading is: 12.63
+'/Sensor/Humidity/Bedroom/1' is now ON.
+/Sensor/Humidity/Bedroom/1 reading is: 18.37
+'/Sensor/Humidity/Kitchen/1' is now ON.
+/Sensor/Humidity/Kitchen/1 reading is: 26.88
+'/Sensor/Humidity/Bathroom/1' is now ON.
+/Sensor/Humidity/Bathroom/1 reading is: 24.98
+'/Sensor/Humidity/Balcony/1' is now ON.
+/Sensor/Humidity/Balcony/1 reading is: 26.39
+'/Sensor/LightIntensive/LivingRoom/1' is now ON.
+/Sensor/LightIntensive/LivingRoom/1 reading is: 1124.78
+'/Sensor/LightIntensive/Bedroom/1' is now ON.
+/Sensor/LightIntensive/Bedroom/1 reading is: 960.47
+'/Sensor/Smoke/Kitchen/1' is now ON.
+/Sensor/Smoke/Kitchen/1 reading is: 55.41
+Set the target temperature of /Actuator/Heater/LivingRoom/1 to 25°C.
+/Actuator/Heater/LivingRoom/1 is turned off.
+Set the target temperature of /Actuator/Heater/Bedroom/1 to 25°C.
+/Actuator/Heater/Bedroom/1 is turned off.
+Set the target temperature of /Actuator/Heater/Kitchen/1 to 25°C.
+/Actuator/Heater/Kitchen/1 is turned off.
+Set the target temperature of /Actuator/Heater/Bathroom/1 to 25°C.
+/Actuator/Heater/Bathroom/1 is turned off.
+Set the target temperature of /Actuator/AC/LivingRoom/1 to 15°C.
+/Actuator/AC/LivingRoom/1 is turned on.
+Set the target temperature of /Actuator/AC/Bedroom/1 to 15°C.
+/Actuator/AC/Bedroom/1 is turned on.
+/Actuator/Light/LivingRoom/1 is turned off.
+/Actuator/Light/LivingRoom/2 is turned off.
+/Actuator/Light/Bedroom/1 is turned off.
+/Actuator/Light/Bedroom/2 is turned off.
+/Actuator/Light/Kitchen/1 is turned off.
+/Actuator/Light/Bathroom/1 is turned off.
+/Actuator/Window/LivingRoom/1 is turned on.
+/Actuator/Window/LivingRoom/2 is turned on.
+/Actuator/Window/Bedroom/1 is turned on.
+/Actuator/Window/Kitchen/1 is turned on.
+/Actuator/Window/Bathroom/1 is turned on.
+/Actuator/Curtain/LivingRoom/1 is turned on.
+/Actuator/Curtain/Bedroom/1 is turned on.
+
+---Home Plan---
+
+LivingRoom:
+Sensors:
+- /Sensor/LightIntensive/LivingRoom/1
+- /Sensor/IndoorTemperature/LivingRoom/1
+- /Sensor/Humidity/LivingRoom/1
+Actuators:
+- /Actuator/Door/LivingRoom/1
+- /Actuator/Light/LivingRoom/1
+- /Actuator/Light/LivingRoom/2
+- /Actuator/Window/LivingRoom/1
+- /Actuator/Window/LivingRoom/2
+- /Actuator/Curtain/LivingRoom/1
+- /Actuator/MusicPlayer/LivingRoom/1
+- /Actuator/SmartSocket/LivingRoom/1
+- /Actuator/SmartSocket/LivingRoom/2
+- /Actuator/CleaningRobot/LivingRoom/1
+- /Actuator/SmartTV/LivingRoom/1
+- /Actuator/NotificationSender/LivingRoom/1
+- /Actuator/AC/LivingRoom/1
+- /Actuator/Heater/LivingRoom/1
+- /Actuator/Humidifier/LivingRoom/1
+
+Bedroom:
+Sensors:
+- /Sensor/IndoorTemperature/Bedroom/1
+- /Sensor/Humidity/Bedroom/1
+- /Sensor/LightIntensive/Bedroom/1
+Actuators:
+- /Actuator/Light/Bedroom/1
+- /Actuator/Light/Bedroom/2
+- /Actuator/Window/Bedroom/1
+- /Actuator/Curtain/Bedroom/1
+- /Actuator/AC/Bedroom/1
+- /Actuator/Heater/Bedroom/1
+- /Actuator/MusicPlayer/Bedroom/1
+- /Actuator/Door/Bedroom/1
+- /Actuator/SmartSocket/Bedroom/1
+- /Actuator/SmartSocket/Bedroom/2
+- /Actuator/CleaningRobot/Bedroom/1
+- /Actuator/Humidifier/Bedroom/1
+
+Kitchen:
+Sensors:
+- /Sensor/Humidity/Kitchen/1
+- /Sensor/Smoke/Kitchen/1
+Actuators:
+- /Actuator/Light/Kitchen/1
+- /Actuator/Window/Kitchen/1
+- /Actuator/Heater/Kitchen/1
+- /Actuator/CoffeeMachine/Kitchen/1
+- /Actuator/SmartSocket/Kitchen/1
+- /Actuator/SmartSocket/Kitchen/2
+- /Actuator/SmartSocket/Kitchen/3
+- /Actuator/Door/Kitchen/1
+
+Bathroom:
+Sensors:
+- /Sensor/IndoorTemperature/Bathroom/1
+- /Sensor/Humidity/Bathroom/1
+Actuators:
+- /Actuator/Light/Bathroom/1
+- /Actuator/Window/Bathroom/1
+- /Actuator/Heater/Bathroom/1
+- /Actuator/Door/Bathroom/1
+- /Actuator/SmartSocket/Bathroom/1
+- /Actuator/SmartSocket/Bathroom/2
+
+Balcony:
+Sensors:
+- /Sensor/OutdoorTemperature/Balcony/1
+- /Sensor/Humidity/Balcony/1
+Actuators:
+- /Actuator/Door/Balcony/1
+'/Sensor/IndoorTemperature/LivingRoom/1' is now ON.
+/Sensor/IndoorTemperature/LivingRoom/1 reading is: 31.07
+'/Sensor/IndoorTemperature/Bedroom/1' is now ON.
+/Sensor/IndoorTemperature/Bedroom/1 reading is: 37.91
+'/Sensor/IndoorTemperature/Bathroom/1' is now ON.
+/Sensor/IndoorTemperature/Bathroom/1 reading is: 32.65
+'/Sensor/OutdoorTemperature/Balcony/1' is now ON.
+/Sensor/OutdoorTemperature/Balcony/1 reading is: 23.55
+'/Sensor/Humidity/LivingRoom/1' is now ON.
+/Sensor/Humidity/LivingRoom/1 reading is: 14.89
+'/Sensor/Humidity/Bedroom/1' is now ON.
+/Sensor/Humidity/Bedroom/1 reading is: 25.99
+'/Sensor/Humidity/Kitchen/1' is now ON.
+/Sensor/Humidity/Kitchen/1 reading is: 15.18
+'/Sensor/Humidity/Bathroom/1' is now ON.
+/Sensor/Humidity/Bathroom/1 reading is: 24.36
+'/Sensor/Humidity/Balcony/1' is now ON.
+/Sensor/Humidity/Balcony/1 reading is: 12.3
+'/Sensor/LightIntensive/LivingRoom/1' is now ON.
+/Sensor/LightIntensive/LivingRoom/1 reading is: 1082.92
+'/Sensor/LightIntensive/Bedroom/1' is now ON.
+/Sensor/LightIntensive/Bedroom/1 reading is: 953.11
+'/Sensor/Smoke/Kitchen/1' is now ON.
+/Sensor/Smoke/Kitchen/1 reading is: 61.21
+Set the target temperature of /Actuator/Heater/LivingRoom/1 to 25°C.
+/Actuator/Heater/LivingRoom/1 is turned off.
+Set the target temperature of /Actuator/Heater/Bedroom/1 to 25°C.
+/Actuator/Heater/Bedroom/1 is turned off.
+Set the target temperature of /Actuator/Heater/Kitchen/1 to 25°C.
+/Actuator/Heater/Kitchen/1 is turned off.
+Set the target temperature of /Actuator/Heater/Bathroom/1 to 25°C.
+/Actuator/Heater/Bathroom/1 is turned off.
+Set the target temperature of /Actuator/AC/LivingRoom/1 to 15°C.
+/Actuator/AC/LivingRoom/1 is turned on.
+Set the target temperature of /Actuator/AC/Bedroom/1 to 15°C.
+/Actuator/AC/Bedroom/1 is turned on.
+/Actuator/Light/LivingRoom/1 is turned off.
+/Actuator/Light/LivingRoom/2 is turned off.
+/Actuator/Light/Bedroom/1 is turned off.
+/Actuator/Light/Bedroom/2 is turned off.
+/Actuator/Light/Kitchen/1 is turned off.
+/Actuator/Light/Bathroom/1 is turned off.
+/Actuator/Window/LivingRoom/1 is turned on.
+/Actuator/Window/LivingRoom/2 is turned on.
+/Actuator/Window/Bedroom/1 is turned on.
+/Actuator/Window/Kitchen/1 is turned on.
+/Actuator/Window/Bathroom/1 is turned on.
+/Actuator/Curtain/LivingRoom/1 is turned on.
+/Actuator/Curtain/Bedroom/1 is turned on.
+
+---Home Plan---
+
+LivingRoom:
+Sensors:
+- /Sensor/LightIntensive/LivingRoom/1
+- /Sensor/IndoorTemperature/LivingRoom/1
+- /Sensor/Humidity/LivingRoom/1
+Actuators:
+- /Actuator/Door/LivingRoom/1
+- /Actuator/Light/LivingRoom/1
+- /Actuator/Light/LivingRoom/2
+- /Actuator/Window/LivingRoom/1
+- /Actuator/Window/LivingRoom/2
+- /Actuator/Curtain/LivingRoom/1
+- /Actuator/MusicPlayer/LivingRoom/1
+- /Actuator/SmartSocket/LivingRoom/1
+- /Actuator/SmartSocket/LivingRoom/2
+- /Actuator/CleaningRobot/LivingRoom/1
+- /Actuator/SmartTV/LivingRoom/1
+- /Actuator/NotificationSender/LivingRoom/1
+- /Actuator/AC/LivingRoom/1
+- /Actuator/Heater/LivingRoom/1
+- /Actuator/Humidifier/LivingRoom/1
+
+Bedroom:
+Sensors:
+- /Sensor/IndoorTemperature/Bedroom/1
+- /Sensor/Humidity/Bedroom/1
+- /Sensor/LightIntensive/Bedroom/1
+Actuators:
+- /Actuator/Light/Bedroom/1
+- /Actuator/Light/Bedroom/2
+- /Actuator/Window/Bedroom/1
+- /Actuator/Curtain/Bedroom/1
+- /Actuator/AC/Bedroom/1
+- /Actuator/Heater/Bedroom/1
+- /Actuator/MusicPlayer/Bedroom/1
+- /Actuator/Door/Bedroom/1
+- /Actuator/SmartSocket/Bedroom/1
+- /Actuator/SmartSocket/Bedroom/2
+- /Actuator/CleaningRobot/Bedroom/1
+- /Actuator/Humidifier/Bedroom/1
+
+Kitchen:
+Sensors:
+- /Sensor/Humidity/Kitchen/1
+- /Sensor/Smoke/Kitchen/1
+Actuators:
+- /Actuator/Light/Kitchen/1
+- /Actuator/Window/Kitchen/1
+- /Actuator/Heater/Kitchen/1
+- /Actuator/CoffeeMachine/Kitchen/1
+- /Actuator/SmartSocket/Kitchen/1
+- /Actuator/SmartSocket/Kitchen/2
+- /Actuator/SmartSocket/Kitchen/3
+- /Actuator/Door/Kitchen/1
+
+Bathroom:
+Sensors:
+- /Sensor/IndoorTemperature/Bathroom/1
+- /Sensor/Humidity/Bathroom/1
+Actuators:
+- /Actuator/Light/Bathroom/1
+- /Actuator/Window/Bathroom/1
+- /Actuator/Heater/Bathroom/1
+- /Actuator/Door/Bathroom/1
+- /Actuator/SmartSocket/Bathroom/1
+- /Actuator/SmartSocket/Bathroom/2
+
+Balcony:
+Sensors:
+- /Sensor/OutdoorTemperature/Balcony/1
+- /Sensor/Humidity/Balcony/1
+Actuators:
+- /Actuator/Door/Balcony/1
+'/Sensor/IndoorTemperature/LivingRoom/1' is now ON.
+/Sensor/IndoorTemperature/LivingRoom/1 reading is: 37.98
+'/Sensor/IndoorTemperature/Bedroom/1' is now ON.
+/Sensor/IndoorTemperature/Bedroom/1 reading is: 37.06
+'/Sensor/IndoorTemperature/Bathroom/1' is now ON.
+/Sensor/IndoorTemperature/Bathroom/1 reading is: 32.5
+'/Sensor/OutdoorTemperature/Balcony/1' is now ON.
+/Sensor/OutdoorTemperature/Balcony/1 reading is: 22.28
+'/Sensor/Humidity/LivingRoom/1' is now ON.
+/Sensor/Humidity/LivingRoom/1 reading is: 29.83
+'/Sensor/Humidity/Bedroom/1' is now ON.
+/Sensor/Humidity/Bedroom/1 reading is: 26.64
+'/Sensor/Humidity/Kitchen/1' is now ON.
+/Sensor/Humidity/Kitchen/1 reading is: 16.01
+'/Sensor/Humidity/Bathroom/1' is now ON.
+/Sensor/Humidity/Bathroom/1 reading is: 21.55
+'/Sensor/Humidity/Balcony/1' is now ON.
+/Sensor/Humidity/Balcony/1 reading is: 16.08
+'/Sensor/LightIntensive/LivingRoom/1' is now ON.
+/Sensor/LightIntensive/LivingRoom/1 reading is: 1193.23
+'/Sensor/LightIntensive/Bedroom/1' is now ON.
+/Sensor/LightIntensive/Bedroom/1 reading is: 1044.16
+'/Sensor/Smoke/Kitchen/1' is now ON.
+/Sensor/Smoke/Kitchen/1 reading is: 96.22
+Set the target temperature of /Actuator/Heater/LivingRoom/1 to 25°C.
+/Actuator/Heater/LivingRoom/1 is turned off.
+Set the target temperature of /Actuator/Heater/Bedroom/1 to 25°C.
+/Actuator/Heater/Bedroom/1 is turned off.
+Set the target temperature of /Actuator/Heater/Kitchen/1 to 25°C.
+/Actuator/Heater/Kitchen/1 is turned off.
+Set the target temperature of /Actuator/Heater/Bathroom/1 to 25°C.
+/Actuator/Heater/Bathroom/1 is turned off.
+Set the target temperature of /Actuator/AC/LivingRoom/1 to 15°C.
+/Actuator/AC/LivingRoom/1 is turned on.
+Set the target temperature of /Actuator/AC/Bedroom/1 to 15°C.
+/Actuator/AC/Bedroom/1 is turned on.
+/Actuator/Light/LivingRoom/1 is turned off.
+/Actuator/Light/LivingRoom/2 is turned off.
+/Actuator/Light/Bedroom/1 is turned off.
+/Actuator/Light/Bedroom/2 is turned off.
+/Actuator/Light/Kitchen/1 is turned off.
+/Actuator/Light/Bathroom/1 is turned off.
+/Actuator/Window/LivingRoom/1 is turned on.
+/Actuator/Window/LivingRoom/2 is turned on.
+/Actuator/Window/Bedroom/1 is turned on.
+/Actuator/Window/Kitchen/1 is turned on.
+/Actuator/Window/Bathroom/1 is turned on.
+/Actuator/Curtain/LivingRoom/1 is turned on.
+/Actuator/Curtain/Bedroom/1 is turned on.
+
+---Home Plan---
+
+LivingRoom:
+Sensors:
+- /Sensor/LightIntensive/LivingRoom/1
+- /Sensor/IndoorTemperature/LivingRoom/1
+- /Sensor/Humidity/LivingRoom/1
+Actuators:
+- /Actuator/Door/LivingRoom/1
+- /Actuator/Light/LivingRoom/1
+- /Actuator/Light/LivingRoom/2
+- /Actuator/Window/LivingRoom/1
+- /Actuator/Window/LivingRoom/2
+- /Actuator/Curtain/LivingRoom/1
+- /Actuator/MusicPlayer/LivingRoom/1
+- /Actuator/SmartSocket/LivingRoom/1
+- /Actuator/SmartSocket/LivingRoom/2
+- /Actuator/CleaningRobot/LivingRoom/1
+- /Actuator/SmartTV/LivingRoom/1
+- /Actuator/NotificationSender/LivingRoom/1
+- /Actuator/AC/LivingRoom/1
+- /Actuator/Heater/LivingRoom/1
+- /Actuator/Humidifier/LivingRoom/1
+
+Bedroom:
+Sensors:
+- /Sensor/IndoorTemperature/Bedroom/1
+- /Sensor/Humidity/Bedroom/1
+- /Sensor/LightIntensive/Bedroom/1
+Actuators:
+- /Actuator/Light/Bedroom/1
+- /Actuator/Light/Bedroom/2
+- /Actuator/Window/Bedroom/1
+- /Actuator/Curtain/Bedroom/1
+- /Actuator/AC/Bedroom/1
+- /Actuator/Heater/Bedroom/1
+- /Actuator/MusicPlayer/Bedroom/1
+- /Actuator/Door/Bedroom/1
+- /Actuator/SmartSocket/Bedroom/1
+- /Actuator/SmartSocket/Bedroom/2
+- /Actuator/CleaningRobot/Bedroom/1
+- /Actuator/Humidifier/Bedroom/1
+
+Kitchen:
+Sensors:
+- /Sensor/Humidity/Kitchen/1
+- /Sensor/Smoke/Kitchen/1
+Actuators:
+- /Actuator/Light/Kitchen/1
+- /Actuator/Window/Kitchen/1
+- /Actuator/Heater/Kitchen/1
+- /Actuator/CoffeeMachine/Kitchen/1
+- /Actuator/SmartSocket/Kitchen/1
+- /Actuator/SmartSocket/Kitchen/2
+- /Actuator/SmartSocket/Kitchen/3
+- /Actuator/Door/Kitchen/1
+
+Bathroom:
+Sensors:
+- /Sensor/IndoorTemperature/Bathroom/1
+- /Sensor/Humidity/Bathroom/1
+Actuators:
+- /Actuator/Light/Bathroom/1
+- /Actuator/Window/Bathroom/1
+- /Actuator/Heater/Bathroom/1
+- /Actuator/Door/Bathroom/1
+- /Actuator/SmartSocket/Bathroom/1
+- /Actuator/SmartSocket/Bathroom/2
+
+Balcony:
+Sensors:
+- /Sensor/OutdoorTemperature/Balcony/1
+- /Sensor/Humidity/Balcony/1
+Actuators:
+- /Actuator/Door/Balcony/1
+'/Sensor/IndoorTemperature/LivingRoom/1' is now ON.
+/Sensor/IndoorTemperature/LivingRoom/1 reading is: 38.27
+'/Sensor/IndoorTemperature/Bedroom/1' is now ON.
+/Sensor/IndoorTemperature/Bedroom/1 reading is: 31.46
+'/Sensor/IndoorTemperature/Bathroom/1' is now ON.
+/Sensor/IndoorTemperature/Bathroom/1 reading is: 32.86
+'/Sensor/OutdoorTemperature/Balcony/1' is now ON.
+/Sensor/OutdoorTemperature/Balcony/1 reading is: 20.76
+'/Sensor/Humidity/LivingRoom/1' is now ON.
+/Sensor/Humidity/LivingRoom/1 reading is: 24.74
+'/Sensor/Humidity/Bedroom/1' is now ON.
+/Sensor/Humidity/Bedroom/1 reading is: 24.59
+'/Sensor/Humidity/Kitchen/1' is now ON.
+/Sensor/Humidity/Kitchen/1 reading is: 20.52
+'/Sensor/Humidity/Bathroom/1' is now ON.
+/Sensor/Humidity/Bathroom/1 reading is: 20.42
+'/Sensor/Humidity/Balcony/1' is now ON.
+/Sensor/Humidity/Balcony/1 reading is: 13.71
+'/Sensor/LightIntensive/LivingRoom/1' is now ON.
+/Sensor/LightIntensive/LivingRoom/1 reading is: 1082.86
+'/Sensor/LightIntensive/Bedroom/1' is now ON.
+/Sensor/LightIntensive/Bedroom/1 reading is: 1029.63
+'/Sensor/Smoke/Kitchen/1' is now ON.
+/Sensor/Smoke/Kitchen/1 reading is: 78.36
+Set the target temperature of /Actuator/Heater/LivingRoom/1 to 25°C.
+/Actuator/Heater/LivingRoom/1 is turned off.
+Set the target temperature of /Actuator/Heater/Bedroom/1 to 25°C.
+/Actuator/Heater/Bedroom/1 is turned off.
+Set the target temperature of /Actuator/Heater/Kitchen/1 to 25°C.
+/Actuator/Heater/Kitchen/1 is turned off.
+Set the target temperature of /Actuator/Heater/Bathroom/1 to 25°C.
+/Actuator/Heater/Bathroom/1 is turned off.
+Set the target temperature of /Actuator/AC/LivingRoom/1 to 15°C.
+/Actuator/AC/LivingRoom/1 is turned on.
+Set the target temperature of /Actuator/AC/Bedroom/1 to 15°C.
+/Actuator/AC/Bedroom/1 is turned on.
+/Actuator/Light/LivingRoom/1 is turned off.
+/Actuator/Light/LivingRoom/2 is turned off.
+/Actuator/Light/Bedroom/1 is turned off.
+/Actuator/Light/Bedroom/2 is turned off.
+/Actuator/Light/Kitchen/1 is turned off.
+/Actuator/Light/Bathroom/1 is turned off.
+/Actuator/Window/LivingRoom/1 is turned on.
+/Actuator/Window/LivingRoom/2 is turned on.
+/Actuator/Window/Bedroom/1 is turned on.
+/Actuator/Window/Kitchen/1 is turned on.
+/Actuator/Window/Bathroom/1 is turned on.
+/Actuator/Curtain/LivingRoom/1 is turned on.
+/Actuator/Curtain/Bedroom/1 is turned on.
+
+---Home Plan---
+
+LivingRoom:
+Sensors:
+- /Sensor/LightIntensive/LivingRoom/1
+- /Sensor/IndoorTemperature/LivingRoom/1
+- /Sensor/Humidity/LivingRoom/1
+Actuators:
+- /Actuator/Door/LivingRoom/1
+- /Actuator/Light/LivingRoom/1
+- /Actuator/Light/LivingRoom/2
+- /Actuator/Window/LivingRoom/1
+- /Actuator/Window/LivingRoom/2
+- /Actuator/Curtain/LivingRoom/1
+- /Actuator/MusicPlayer/LivingRoom/1
+- /Actuator/SmartSocket/LivingRoom/1
+- /Actuator/SmartSocket/LivingRoom/2
+- /Actuator/CleaningRobot/LivingRoom/1
+- /Actuator/SmartTV/LivingRoom/1
+- /Actuator/NotificationSender/LivingRoom/1
+- /Actuator/AC/LivingRoom/1
+- /Actuator/Heater/LivingRoom/1
+- /Actuator/Humidifier/LivingRoom/1
+
+Bedroom:
+Sensors:
+- /Sensor/IndoorTemperature/Bedroom/1
+- /Sensor/Humidity/Bedroom/1
+- /Sensor/LightIntensive/Bedroom/1
+Actuators:
+- /Actuator/Light/Bedroom/1
+- /Actuator/Light/Bedroom/2
+- /Actuator/Window/Bedroom/1
+- /Actuator/Curtain/Bedroom/1
+- /Actuator/AC/Bedroom/1
+- /Actuator/Heater/Bedroom/1
+- /Actuator/MusicPlayer/Bedroom/1
+- /Actuator/Door/Bedroom/1
+- /Actuator/SmartSocket/Bedroom/1
+- /Actuator/SmartSocket/Bedroom/2
+- /Actuator/CleaningRobot/Bedroom/1
+- /Actuator/Humidifier/Bedroom/1
+
+Kitchen:
+Sensors:
+- /Sensor/Humidity/Kitchen/1
+- /Sensor/Smoke/Kitchen/1
+Actuators:
+- /Actuator/Light/Kitchen/1
+- /Actuator/Window/Kitchen/1
+- /Actuator/Heater/Kitchen/1
+- /Actuator/CoffeeMachine/Kitchen/1
+- /Actuator/SmartSocket/Kitchen/1
+- /Actuator/SmartSocket/Kitchen/2
+- /Actuator/SmartSocket/Kitchen/3
+- /Actuator/Door/Kitchen/1
+
+Bathroom:
+Sensors:
+- /Sensor/IndoorTemperature/Bathroom/1
+- /Sensor/Humidity/Bathroom/1
+Actuators:
+- /Actuator/Light/Bathroom/1
+- /Actuator/Window/Bathroom/1
+- /Actuator/Heater/Bathroom/1
+- /Actuator/Door/Bathroom/1
+- /Actuator/SmartSocket/Bathroom/1
+- /Actuator/SmartSocket/Bathroom/2
+
+Balcony:
+Sensors:
+- /Sensor/OutdoorTemperature/Balcony/1
+- /Sensor/Humidity/Balcony/1
+Actuators:
+- /Actuator/Door/Balcony/1
+'/Sensor/IndoorTemperature/LivingRoom/1' is now ON.
+/Sensor/IndoorTemperature/LivingRoom/1 reading is: 31.97
+'/Sensor/IndoorTemperature/Bedroom/1' is now ON.
+/Sensor/IndoorTemperature/Bedroom/1 reading is: 34.71
+'/Sensor/IndoorTemperature/Bathroom/1' is now ON.
+/Sensor/IndoorTemperature/Bathroom/1 reading is: 36.31
+'/Sensor/OutdoorTemperature/Balcony/1' is now ON.
+/Sensor/OutdoorTemperature/Balcony/1 reading is: 22.23
+'/Sensor/Humidity/LivingRoom/1' is now ON.
+/Sensor/Humidity/LivingRoom/1 reading is: 24.79
+'/Sensor/Humidity/Bedroom/1' is now ON.
+/Sensor/Humidity/Bedroom/1 reading is: 20.14
+'/Sensor/Humidity/Kitchen/1' is now ON.
+/Sensor/Humidity/Kitchen/1 reading is: 21.93
+'/Sensor/Humidity/Bathroom/1' is now ON.
+/Sensor/Humidity/Bathroom/1 reading is: 19.23
+'/Sensor/Humidity/Balcony/1' is now ON.
+/Sensor/Humidity/Balcony/1 reading is: 17.44
+'/Sensor/LightIntensive/LivingRoom/1' is now ON.
+/Sensor/LightIntensive/LivingRoom/1 reading is: 1025.84
+'/Sensor/LightIntensive/Bedroom/1' is now ON.
+/Sensor/LightIntensive/Bedroom/1 reading is: 1121.23
+'/Sensor/Smoke/Kitchen/1' is now ON.
+/Sensor/Smoke/Kitchen/1 reading is: 16.29
+Set the target temperature of /Actuator/Heater/LivingRoom/1 to 25°C.
+/Actuator/Heater/LivingRoom/1 is turned off.
+Set the target temperature of /Actuator/Heater/Bedroom/1 to 25°C.
+/Actuator/Heater/Bedroom/1 is turned off.
+Set the target temperature of /Actuator/Heater/Kitchen/1 to 25°C.
+/Actuator/Heater/Kitchen/1 is turned off.
+Set the target temperature of /Actuator/Heater/Bathroom/1 to 25°C.
+/Actuator/Heater/Bathroom/1 is turned off.
+Set the target temperature of /Actuator/AC/LivingRoom/1 to 15°C.
+/Actuator/AC/LivingRoom/1 is turned on.
+Set the target temperature of /Actuator/AC/Bedroom/1 to 15°C.
+/Actuator/AC/Bedroom/1 is turned on.
+/Actuator/Light/LivingRoom/1 is turned off.
+/Actuator/Light/LivingRoom/2 is turned off.
+/Actuator/Light/Bedroom/1 is turned off.
+/Actuator/Light/Bedroom/2 is turned off.
+/Actuator/Light/Kitchen/1 is turned off.
+/Actuator/Light/Bathroom/1 is turned off.
+/Actuator/Window/LivingRoom/1 is turned on.
+/Actuator/Window/LivingRoom/2 is turned on.
+/Actuator/Window/Bedroom/1 is turned on.
+/Actuator/Window/Kitchen/1 is turned on.
+/Actuator/Window/Bathroom/1 is turned on.
+/Actuator/Curtain/LivingRoom/1 is turned on.
+/Actuator/Curtain/Bedroom/1 is turned on.
+
+---Home Plan---
+
+LivingRoom:
+Sensors:
+- /Sensor/LightIntensive/LivingRoom/1
+- /Sensor/IndoorTemperature/LivingRoom/1
+- /Sensor/Humidity/LivingRoom/1
+Actuators:
+- /Actuator/Door/LivingRoom/1
+- /Actuator/Light/LivingRoom/1
+- /Actuator/Light/LivingRoom/2
+- /Actuator/Window/LivingRoom/1
+- /Actuator/Window/LivingRoom/2
+- /Actuator/Curtain/LivingRoom/1
+- /Actuator/MusicPlayer/LivingRoom/1
+- /Actuator/SmartSocket/LivingRoom/1
+- /Actuator/SmartSocket/LivingRoom/2
+- /Actuator/CleaningRobot/LivingRoom/1
+- /Actuator/SmartTV/LivingRoom/1
+- /Actuator/NotificationSender/LivingRoom/1
+- /Actuator/AC/LivingRoom/1
+- /Actuator/Heater/LivingRoom/1
+- /Actuator/Humidifier/LivingRoom/1
+
+Bedroom:
+Sensors:
+- /Sensor/IndoorTemperature/Bedroom/1
+- /Sensor/Humidity/Bedroom/1
+- /Sensor/LightIntensive/Bedroom/1
+Actuators:
+- /Actuator/Light/Bedroom/1
+- /Actuator/Light/Bedroom/2
+- /Actuator/Window/Bedroom/1
+- /Actuator/Curtain/Bedroom/1
+- /Actuator/AC/Bedroom/1
+- /Actuator/Heater/Bedroom/1
+- /Actuator/MusicPlayer/Bedroom/1
+- /Actuator/Door/Bedroom/1
+- /Actuator/SmartSocket/Bedroom/1
+- /Actuator/SmartSocket/Bedroom/2
+- /Actuator/CleaningRobot/Bedroom/1
+- /Actuator/Humidifier/Bedroom/1
+
+Kitchen:
+Sensors:
+- /Sensor/Humidity/Kitchen/1
+- /Sensor/Smoke/Kitchen/1
+Actuators:
+- /Actuator/Light/Kitchen/1
+- /Actuator/Window/Kitchen/1
+- /Actuator/Heater/Kitchen/1
+- /Actuator/CoffeeMachine/Kitchen/1
+- /Actuator/SmartSocket/Kitchen/1
+- /Actuator/SmartSocket/Kitchen/2
+- /Actuator/SmartSocket/Kitchen/3
+- /Actuator/Door/Kitchen/1
+
+Bathroom:
+Sensors:
+- /Sensor/IndoorTemperature/Bathroom/1
+- /Sensor/Humidity/Bathroom/1
+Actuators:
+- /Actuator/Light/Bathroom/1
+- /Actuator/Window/Bathroom/1
+- /Actuator/Heater/Bathroom/1
+- /Actuator/Door/Bathroom/1
+- /Actuator/SmartSocket/Bathroom/1
+- /Actuator/SmartSocket/Bathroom/2
+
+Balcony:
+Sensors:
+- /Sensor/OutdoorTemperature/Balcony/1
+- /Sensor/Humidity/Balcony/1
+Actuators:
+- /Actuator/Door/Balcony/1
+'/Sensor/IndoorTemperature/LivingRoom/1' is now ON.
+/Sensor/IndoorTemperature/LivingRoom/1 reading is: 37.54
+'/Sensor/IndoorTemperature/Bedroom/1' is now ON.
+/Sensor/IndoorTemperature/Bedroom/1 reading is: 33.3
+'/Sensor/IndoorTemperature/Bathroom/1' is now ON.
+/Sensor/IndoorTemperature/Bathroom/1 reading is: 38.15
+'/Sensor/OutdoorTemperature/Balcony/1' is now ON.
+/Sensor/OutdoorTemperature/Balcony/1 reading is: 24.26
+'/Sensor/Humidity/LivingRoom/1' is now ON.
+/Sensor/Humidity/LivingRoom/1 reading is: 25.5
+'/Sensor/Humidity/Bedroom/1' is now ON.
+/Sensor/Humidity/Bedroom/1 reading is: 19.46
+'/Sensor/Humidity/Kitchen/1' is now ON.
+/Sensor/Humidity/Kitchen/1 reading is: 29.7
+'/Sensor/Humidity/Bathroom/1' is now ON.
+/Sensor/Humidity/Bathroom/1 reading is: 24.44
+'/Sensor/Humidity/Balcony/1' is now ON.
+/Sensor/Humidity/Balcony/1 reading is: 28.0
+'/Sensor/LightIntensive/LivingRoom/1' is now ON.
+/Sensor/LightIntensive/LivingRoom/1 reading is: 1077.21
+'/Sensor/LightIntensive/Bedroom/1' is now ON.
+/Sensor/LightIntensive/Bedroom/1 reading is: 957.08
+'/Sensor/Smoke/Kitchen/1' is now ON.
+/Sensor/Smoke/Kitchen/1 reading is: 79.85
+Set the target temperature of /Actuator/Heater/LivingRoom/1 to 25°C.
+/Actuator/Heater/LivingRoom/1 is turned off.
+Set the target temperature of /Actuator/Heater/Bedroom/1 to 25°C.
+/Actuator/Heater/Bedroom/1 is turned off.
+Set the target temperature of /Actuator/Heater/Kitchen/1 to 25°C.
+/Actuator/Heater/Kitchen/1 is turned off.
+Set the target temperature of /Actuator/Heater/Bathroom/1 to 25°C.
+/Actuator/Heater/Bathroom/1 is turned off.
+Set the target temperature of /Actuator/AC/LivingRoom/1 to 15°C.
+/Actuator/AC/LivingRoom/1 is turned on.
+Set the target temperature of /Actuator/AC/Bedroom/1 to 15°C.
+/Actuator/AC/Bedroom/1 is turned on.
+/Actuator/Light/LivingRoom/1 is turned off.
+/Actuator/Light/LivingRoom/2 is turned off.
+/Actuator/Light/Bedroom/1 is turned off.
+/Actuator/Light/Bedroom/2 is turned off.
+/Actuator/Light/Kitchen/1 is turned off.
+/Actuator/Light/Bathroom/1 is turned off.
+/Actuator/Window/LivingRoom/1 is turned on.
+/Actuator/Window/LivingRoom/2 is turned on.
+/Actuator/Window/Bedroom/1 is turned on.
+/Actuator/Window/Kitchen/1 is turned on.
+/Actuator/Window/Bathroom/1 is turned on.
+/Actuator/Curtain/LivingRoom/1 is turned on.
+/Actuator/Curtain/Bedroom/1 is turned on.
+
+---Home Plan---
+
+LivingRoom:
+Sensors:
+- /Sensor/LightIntensive/LivingRoom/1
+- /Sensor/IndoorTemperature/LivingRoom/1
+- /Sensor/Humidity/LivingRoom/1
+Actuators:
+- /Actuator/Door/LivingRoom/1
+- /Actuator/Light/LivingRoom/1
+- /Actuator/Light/LivingRoom/2
+- /Actuator/Window/LivingRoom/1
+- /Actuator/Window/LivingRoom/2
+- /Actuator/Curtain/LivingRoom/1
+- /Actuator/MusicPlayer/LivingRoom/1
+- /Actuator/SmartSocket/LivingRoom/1
+- /Actuator/SmartSocket/LivingRoom/2
+- /Actuator/CleaningRobot/LivingRoom/1
+- /Actuator/SmartTV/LivingRoom/1
+- /Actuator/NotificationSender/LivingRoom/1
+- /Actuator/AC/LivingRoom/1
+- /Actuator/Heater/LivingRoom/1
+- /Actuator/Humidifier/LivingRoom/1
+
+Bedroom:
+Sensors:
+- /Sensor/IndoorTemperature/Bedroom/1
+- /Sensor/Humidity/Bedroom/1
+- /Sensor/LightIntensive/Bedroom/1
+Actuators:
+- /Actuator/Light/Bedroom/1
+- /Actuator/Light/Bedroom/2
+- /Actuator/Window/Bedroom/1
+- /Actuator/Curtain/Bedroom/1
+- /Actuator/AC/Bedroom/1
+- /Actuator/Heater/Bedroom/1
+- /Actuator/MusicPlayer/Bedroom/1
+- /Actuator/Door/Bedroom/1
+- /Actuator/SmartSocket/Bedroom/1
+- /Actuator/SmartSocket/Bedroom/2
+- /Actuator/CleaningRobot/Bedroom/1
+- /Actuator/Humidifier/Bedroom/1
+
+Kitchen:
+Sensors:
+- /Sensor/Humidity/Kitchen/1
+- /Sensor/Smoke/Kitchen/1
+Actuators:
+- /Actuator/Light/Kitchen/1
+- /Actuator/Window/Kitchen/1
+- /Actuator/Heater/Kitchen/1
+- /Actuator/CoffeeMachine/Kitchen/1
+- /Actuator/SmartSocket/Kitchen/1
+- /Actuator/SmartSocket/Kitchen/2
+- /Actuator/SmartSocket/Kitchen/3
+- /Actuator/Door/Kitchen/1
+
+Bathroom:
+Sensors:
+- /Sensor/IndoorTemperature/Bathroom/1
+- /Sensor/Humidity/Bathroom/1
+Actuators:
+- /Actuator/Light/Bathroom/1
+- /Actuator/Window/Bathroom/1
+- /Actuator/Heater/Bathroom/1
+- /Actuator/Door/Bathroom/1
+- /Actuator/SmartSocket/Bathroom/1
+- /Actuator/SmartSocket/Bathroom/2
+
+Balcony:
+Sensors:
+- /Sensor/OutdoorTemperature/Balcony/1
+- /Sensor/Humidity/Balcony/1
+Actuators:
+- /Actuator/Door/Balcony/1
+'/Sensor/IndoorTemperature/LivingRoom/1' is now ON.
+/Sensor/IndoorTemperature/LivingRoom/1 reading is: 35.47
+'/Sensor/IndoorTemperature/Bedroom/1' is now ON.
+/Sensor/IndoorTemperature/Bedroom/1 reading is: 35.45
+'/Sensor/IndoorTemperature/Bathroom/1' is now ON.
+/Sensor/IndoorTemperature/Bathroom/1 reading is: 33.7
+'/Sensor/OutdoorTemperature/Balcony/1' is now ON.
+/Sensor/OutdoorTemperature/Balcony/1 reading is: 20.96
+'/Sensor/Humidity/LivingRoom/1' is now ON.
+/Sensor/Humidity/LivingRoom/1 reading is: 19.45
+'/Sensor/Humidity/Bedroom/1' is now ON.
+/Sensor/Humidity/Bedroom/1 reading is: 12.83
+'/Sensor/Humidity/Kitchen/1' is now ON.
+/Sensor/Humidity/Kitchen/1 reading is: 12.46
+'/Sensor/Humidity/Bathroom/1' is now ON.
+/Sensor/Humidity/Bathroom/1 reading is: 15.15
+'/Sensor/Humidity/Balcony/1' is now ON.
+/Sensor/Humidity/Balcony/1 reading is: 26.69
+'/Sensor/LightIntensive/LivingRoom/1' is now ON.
+/Sensor/LightIntensive/LivingRoom/1 reading is: 983.93
+'/Sensor/LightIntensive/Bedroom/1' is now ON.
+/Sensor/LightIntensive/Bedroom/1 reading is: 969.32
+'/Sensor/Smoke/Kitchen/1' is now ON.
+/Sensor/Smoke/Kitchen/1 reading is: 18.37
+Set the target temperature of /Actuator/Heater/LivingRoom/1 to 25°C.
+/Actuator/Heater/LivingRoom/1 is turned off.
+Set the target temperature of /Actuator/Heater/Bedroom/1 to 25°C.
+/Actuator/Heater/Bedroom/1 is turned off.
+Set the target temperature of /Actuator/Heater/Kitchen/1 to 25°C.
+/Actuator/Heater/Kitchen/1 is turned off.
+Set the target temperature of /Actuator/Heater/Bathroom/1 to 25°C.
+/Actuator/Heater/Bathroom/1 is turned off.
+Set the target temperature of /Actuator/AC/LivingRoom/1 to 15°C.
+/Actuator/AC/LivingRoom/1 is turned on.
+Set the target temperature of /Actuator/AC/Bedroom/1 to 15°C.
+/Actuator/AC/Bedroom/1 is turned on.
+/Actuator/Light/LivingRoom/1 is turned off.
+/Actuator/Light/LivingRoom/2 is turned off.
+/Actuator/Light/Bedroom/1 is turned off.
+/Actuator/Light/Bedroom/2 is turned off.
+/Actuator/Light/Kitchen/1 is turned off.
+/Actuator/Light/Bathroom/1 is turned off.
+/Actuator/Window/LivingRoom/1 is turned on.
+/Actuator/Window/LivingRoom/2 is turned on.
+/Actuator/Window/Bedroom/1 is turned on.
+/Actuator/Window/Kitchen/1 is turned on.
+/Actuator/Window/Bathroom/1 is turned on.
+/Actuator/Curtain/LivingRoom/1 is turned on.
+/Actuator/Curtain/Bedroom/1 is turned on.
+
+---Home Plan---
+
+LivingRoom:
+Sensors:
+- /Sensor/LightIntensive/LivingRoom/1
+- /Sensor/IndoorTemperature/LivingRoom/1
+- /Sensor/Humidity/LivingRoom/1
+Actuators:
+- /Actuator/Door/LivingRoom/1
+- /Actuator/Light/LivingRoom/1
+- /Actuator/Light/LivingRoom/2
+- /Actuator/Window/LivingRoom/1
+- /Actuator/Window/LivingRoom/2
+- /Actuator/Curtain/LivingRoom/1
+- /Actuator/MusicPlayer/LivingRoom/1
+- /Actuator/SmartSocket/LivingRoom/1
+- /Actuator/SmartSocket/LivingRoom/2
+- /Actuator/CleaningRobot/LivingRoom/1
+- /Actuator/SmartTV/LivingRoom/1
+- /Actuator/NotificationSender/LivingRoom/1
+- /Actuator/AC/LivingRoom/1
+- /Actuator/Heater/LivingRoom/1
+- /Actuator/Humidifier/LivingRoom/1
+
+Bedroom:
+Sensors:
+- /Sensor/IndoorTemperature/Bedroom/1
+- /Sensor/Humidity/Bedroom/1
+- /Sensor/LightIntensive/Bedroom/1
+Actuators:
+- /Actuator/Light/Bedroom/1
+- /Actuator/Light/Bedroom/2
+- /Actuator/Window/Bedroom/1
+- /Actuator/Curtain/Bedroom/1
+- /Actuator/AC/Bedroom/1
+- /Actuator/Heater/Bedroom/1
+- /Actuator/MusicPlayer/Bedroom/1
+- /Actuator/Door/Bedroom/1
+- /Actuator/SmartSocket/Bedroom/1
+- /Actuator/SmartSocket/Bedroom/2
+- /Actuator/CleaningRobot/Bedroom/1
+- /Actuator/Humidifier/Bedroom/1
+
+Kitchen:
+Sensors:
+- /Sensor/Humidity/Kitchen/1
+- /Sensor/Smoke/Kitchen/1
+Actuators:
+- /Actuator/Light/Kitchen/1
+- /Actuator/Window/Kitchen/1
+- /Actuator/Heater/Kitchen/1
+- /Actuator/CoffeeMachine/Kitchen/1
+- /Actuator/SmartSocket/Kitchen/1
+- /Actuator/SmartSocket/Kitchen/2
+- /Actuator/SmartSocket/Kitchen/3
+- /Actuator/Door/Kitchen/1
+
+Bathroom:
+Sensors:
+- /Sensor/IndoorTemperature/Bathroom/1
+- /Sensor/Humidity/Bathroom/1
+Actuators:
+- /Actuator/Light/Bathroom/1
+- /Actuator/Window/Bathroom/1
+- /Actuator/Heater/Bathroom/1
+- /Actuator/Door/Bathroom/1
+- /Actuator/SmartSocket/Bathroom/1
+- /Actuator/SmartSocket/Bathroom/2
+
+Balcony:
+Sensors:
+- /Sensor/OutdoorTemperature/Balcony/1
+- /Sensor/Humidity/Balcony/1
+Actuators:
+- /Actuator/Door/Balcony/1
+'/Sensor/IndoorTemperature/LivingRoom/1' is now ON.
+/Sensor/IndoorTemperature/LivingRoom/1 reading is: 33.63
+'/Sensor/IndoorTemperature/Bedroom/1' is now ON.
+/Sensor/IndoorTemperature/Bedroom/1 reading is: 36.84
+'/Sensor/IndoorTemperature/Bathroom/1' is now ON.
+/Sensor/IndoorTemperature/Bathroom/1 reading is: 30.1
+'/Sensor/OutdoorTemperature/Balcony/1' is now ON.
+/Sensor/OutdoorTemperature/Balcony/1 reading is: 21.64
+'/Sensor/Humidity/LivingRoom/1' is now ON.
+/Sensor/Humidity/LivingRoom/1 reading is: 26.64
+'/Sensor/Humidity/Bedroom/1' is now ON.
+/Sensor/Humidity/Bedroom/1 reading is: 27.96
+'/Sensor/Humidity/Kitchen/1' is now ON.
+/Sensor/Humidity/Kitchen/1 reading is: 23.1
+'/Sensor/Humidity/Bathroom/1' is now ON.
+/Sensor/Humidity/Bathroom/1 reading is: 24.35
+'/Sensor/Humidity/Balcony/1' is now ON.
+/Sensor/Humidity/Balcony/1 reading is: 18.34
+'/Sensor/LightIntensive/LivingRoom/1' is now ON.
+/Sensor/LightIntensive/LivingRoom/1 reading is: 1153.27
+'/Sensor/LightIntensive/Bedroom/1' is now ON.
+/Sensor/LightIntensive/Bedroom/1 reading is: 1097.7
+'/Sensor/Smoke/Kitchen/1' is now ON.
+/Sensor/Smoke/Kitchen/1 reading is: 17.8
+Set the target temperature of /Actuator/Heater/LivingRoom/1 to 25°C.
+/Actuator/Heater/LivingRoom/1 is turned off.
+Set the target temperature of /Actuator/Heater/Bedroom/1 to 25°C.
+/Actuator/Heater/Bedroom/1 is turned off.
+Set the target temperature of /Actuator/Heater/Kitchen/1 to 25°C.
+/Actuator/Heater/Kitchen/1 is turned off.
+Set the target temperature of /Actuator/Heater/Bathroom/1 to 25°C.
+/Actuator/Heater/Bathroom/1 is turned off.
+Set the target temperature of /Actuator/AC/LivingRoom/1 to 15°C.
+/Actuator/AC/LivingRoom/1 is turned on.
+Set the target temperature of /Actuator/AC/Bedroom/1 to 15°C.
+/Actuator/AC/Bedroom/1 is turned on.
+/Actuator/Light/LivingRoom/1 is turned off.
+/Actuator/Light/LivingRoom/2 is turned off.
+/Actuator/Light/Bedroom/1 is turned off.
+/Actuator/Light/Bedroom/2 is turned off.
+/Actuator/Light/Kitchen/1 is turned off.
+/Actuator/Light/Bathroom/1 is turned off.
+/Actuator/Window/LivingRoom/1 is turned on.
+/Actuator/Window/LivingRoom/2 is turned on.
+/Actuator/Window/Bedroom/1 is turned on.
+/Actuator/Window/Kitchen/1 is turned on.
+/Actuator/Window/Bathroom/1 is turned on.
+/Actuator/Curtain/LivingRoom/1 is turned on.
+/Actuator/Curtain/Bedroom/1 is turned on.
+
+---Home Plan---
+
+LivingRoom:
+Sensors:
+- /Sensor/LightIntensive/LivingRoom/1
+- /Sensor/IndoorTemperature/LivingRoom/1
+- /Sensor/Humidity/LivingRoom/1
+Actuators:
+- /Actuator/Door/LivingRoom/1
+- /Actuator/Light/LivingRoom/1
+- /Actuator/Light/LivingRoom/2
+- /Actuator/Window/LivingRoom/1
+- /Actuator/Window/LivingRoom/2
+- /Actuator/Curtain/LivingRoom/1
+- /Actuator/MusicPlayer/LivingRoom/1
+- /Actuator/SmartSocket/LivingRoom/1
+- /Actuator/SmartSocket/LivingRoom/2
+- /Actuator/CleaningRobot/LivingRoom/1
+- /Actuator/SmartTV/LivingRoom/1
+- /Actuator/NotificationSender/LivingRoom/1
+- /Actuator/AC/LivingRoom/1
+- /Actuator/Heater/LivingRoom/1
+- /Actuator/Humidifier/LivingRoom/1
+
+Bedroom:
+Sensors:
+- /Sensor/IndoorTemperature/Bedroom/1
+- /Sensor/Humidity/Bedroom/1
+- /Sensor/LightIntensive/Bedroom/1
+Actuators:
+- /Actuator/Light/Bedroom/1
+- /Actuator/Light/Bedroom/2
+- /Actuator/Window/Bedroom/1
+- /Actuator/Curtain/Bedroom/1
+- /Actuator/AC/Bedroom/1
+- /Actuator/Heater/Bedroom/1
+- /Actuator/MusicPlayer/Bedroom/1
+- /Actuator/Door/Bedroom/1
+- /Actuator/SmartSocket/Bedroom/1
+- /Actuator/SmartSocket/Bedroom/2
+- /Actuator/CleaningRobot/Bedroom/1
+- /Actuator/Humidifier/Bedroom/1
+
+Kitchen:
+Sensors:
+- /Sensor/Humidity/Kitchen/1
+- /Sensor/Smoke/Kitchen/1
+Actuators:
+- /Actuator/Light/Kitchen/1
+- /Actuator/Window/Kitchen/1
+- /Actuator/Heater/Kitchen/1
+- /Actuator/CoffeeMachine/Kitchen/1
+- /Actuator/SmartSocket/Kitchen/1
+- /Actuator/SmartSocket/Kitchen/2
+- /Actuator/SmartSocket/Kitchen/3
+- /Actuator/Door/Kitchen/1
+
+Bathroom:
+Sensors:
+- /Sensor/IndoorTemperature/Bathroom/1
+- /Sensor/Humidity/Bathroom/1
+Actuators:
+- /Actuator/Light/Bathroom/1
+- /Actuator/Window/Bathroom/1
+- /Actuator/Heater/Bathroom/1
+- /Actuator/Door/Bathroom/1
+- /Actuator/SmartSocket/Bathroom/1
+- /Actuator/SmartSocket/Bathroom/2
+
+Balcony:
+Sensors:
+- /Sensor/OutdoorTemperature/Balcony/1
+- /Sensor/Humidity/Balcony/1
+Actuators:
+- /Actuator/Door/Balcony/1
+'/Sensor/IndoorTemperature/LivingRoom/1' is now ON.
+/Sensor/IndoorTemperature/LivingRoom/1 reading is: 37.71
+'/Sensor/IndoorTemperature/Bedroom/1' is now ON.
+/Sensor/IndoorTemperature/Bedroom/1 reading is: 36.22
+'/Sensor/IndoorTemperature/Bathroom/1' is now ON.
+/Sensor/IndoorTemperature/Bathroom/1 reading is: 37.13
+'/Sensor/OutdoorTemperature/Balcony/1' is now ON.
+/Sensor/OutdoorTemperature/Balcony/1 reading is: 23.87
+'/Sensor/Humidity/LivingRoom/1' is now ON.
+/Sensor/Humidity/LivingRoom/1 reading is: 16.14
+'/Sensor/Humidity/Bedroom/1' is now ON.
+/Sensor/Humidity/Bedroom/1 reading is: 24.85
+'/Sensor/Humidity/Kitchen/1' is now ON.
+/Sensor/Humidity/Kitchen/1 reading is: 29.09
+'/Sensor/Humidity/Bathroom/1' is now ON.
+/Sensor/Humidity/Bathroom/1 reading is: 17.53
+'/Sensor/Humidity/Balcony/1' is now ON.
+/Sensor/Humidity/Balcony/1 reading is: 27.28
+'/Sensor/LightIntensive/LivingRoom/1' is now ON.
+/Sensor/LightIntensive/LivingRoom/1 reading is: 1111.82
+'/Sensor/LightIntensive/Bedroom/1' is now ON.
+/Sensor/LightIntensive/Bedroom/1 reading is: 1193.07
+'/Sensor/Smoke/Kitchen/1' is now ON.
+/Sensor/Smoke/Kitchen/1 reading is: 71.66
+Set the target temperature of /Actuator/Heater/LivingRoom/1 to 25°C.
+/Actuator/Heater/LivingRoom/1 is turned off.
+Set the target temperature of /Actuator/Heater/Bedroom/1 to 25°C.
+/Actuator/Heater/Bedroom/1 is turned off.
+Set the target temperature of /Actuator/Heater/Kitchen/1 to 25°C.
+/Actuator/Heater/Kitchen/1 is turned off.
+Set the target temperature of /Actuator/Heater/Bathroom/1 to 25°C.
+/Actuator/Heater/Bathroom/1 is turned off.
+Set the target temperature of /Actuator/AC/LivingRoom/1 to 15°C.
+/Actuator/AC/LivingRoom/1 is turned on.
+Set the target temperature of /Actuator/AC/Bedroom/1 to 15°C.
+/Actuator/AC/Bedroom/1 is turned on.
+/Actuator/Light/LivingRoom/1 is turned off.
+/Actuator/Light/LivingRoom/2 is turned off.
+/Actuator/Light/Bedroom/1 is turned off.
+/Actuator/Light/Bedroom/2 is turned off.
+/Actuator/Light/Kitchen/1 is turned off.
+/Actuator/Light/Bathroom/1 is turned off.
+/Actuator/Window/LivingRoom/1 is turned on.
+/Actuator/Window/LivingRoom/2 is turned on.
+/Actuator/Window/Bedroom/1 is turned on.
+/Actuator/Window/Kitchen/1 is turned on.
+/Actuator/Window/Bathroom/1 is turned on.
+/Actuator/Curtain/LivingRoom/1 is turned on.
+/Actuator/Curtain/Bedroom/1 is turned on.
+
+---Home Plan---
+
+LivingRoom:
+Sensors:
+- /Sensor/LightIntensive/LivingRoom/1
+- /Sensor/IndoorTemperature/LivingRoom/1
+- /Sensor/Humidity/LivingRoom/1
+Actuators:
+- /Actuator/Door/LivingRoom/1
+- /Actuator/Light/LivingRoom/1
+- /Actuator/Light/LivingRoom/2
+- /Actuator/Window/LivingRoom/1
+- /Actuator/Window/LivingRoom/2
+- /Actuator/Curtain/LivingRoom/1
+- /Actuator/MusicPlayer/LivingRoom/1
+- /Actuator/SmartSocket/LivingRoom/1
+- /Actuator/SmartSocket/LivingRoom/2
+- /Actuator/CleaningRobot/LivingRoom/1
+- /Actuator/SmartTV/LivingRoom/1
+- /Actuator/NotificationSender/LivingRoom/1
+- /Actuator/AC/LivingRoom/1
+- /Actuator/Heater/LivingRoom/1
+- /Actuator/Humidifier/LivingRoom/1
+
+Bedroom:
+Sensors:
+- /Sensor/IndoorTemperature/Bedroom/1
+- /Sensor/Humidity/Bedroom/1
+- /Sensor/LightIntensive/Bedroom/1
+Actuators:
+- /Actuator/Light/Bedroom/1
+- /Actuator/Light/Bedroom/2
+- /Actuator/Window/Bedroom/1
+- /Actuator/Curtain/Bedroom/1
+- /Actuator/AC/Bedroom/1
+- /Actuator/Heater/Bedroom/1
+- /Actuator/MusicPlayer/Bedroom/1
+- /Actuator/Door/Bedroom/1
+- /Actuator/SmartSocket/Bedroom/1
+- /Actuator/SmartSocket/Bedroom/2
+- /Actuator/CleaningRobot/Bedroom/1
+- /Actuator/Humidifier/Bedroom/1
+
+Kitchen:
+Sensors:
+- /Sensor/Humidity/Kitchen/1
+- /Sensor/Smoke/Kitchen/1
+Actuators:
+- /Actuator/Light/Kitchen/1
+- /Actuator/Window/Kitchen/1
+- /Actuator/Heater/Kitchen/1
+- /Actuator/CoffeeMachine/Kitchen/1
+- /Actuator/SmartSocket/Kitchen/1
+- /Actuator/SmartSocket/Kitchen/2
+- /Actuator/SmartSocket/Kitchen/3
+- /Actuator/Door/Kitchen/1
+
+Bathroom:
+Sensors:
+- /Sensor/IndoorTemperature/Bathroom/1
+- /Sensor/Humidity/Bathroom/1
+Actuators:
+- /Actuator/Light/Bathroom/1
+- /Actuator/Window/Bathroom/1
+- /Actuator/Heater/Bathroom/1
+- /Actuator/Door/Bathroom/1
+- /Actuator/SmartSocket/Bathroom/1
+- /Actuator/SmartSocket/Bathroom/2
+
+Balcony:
+Sensors:
+- /Sensor/OutdoorTemperature/Balcony/1
+- /Sensor/Humidity/Balcony/1
+Actuators:
+- /Actuator/Door/Balcony/1
+'/Sensor/IndoorTemperature/LivingRoom/1' is now ON.
+/Sensor/IndoorTemperature/LivingRoom/1 reading is: 36.4
+'/Sensor/IndoorTemperature/Bedroom/1' is now ON.
+/Sensor/IndoorTemperature/Bedroom/1 reading is: 32.52
+'/Sensor/IndoorTemperature/Bathroom/1' is now ON.
+/Sensor/IndoorTemperature/Bathroom/1 reading is: 31.56
+'/Sensor/OutdoorTemperature/Balcony/1' is now ON.
+/Sensor/OutdoorTemperature/Balcony/1 reading is: 22.93
+'/Sensor/Humidity/LivingRoom/1' is now ON.
+/Sensor/Humidity/LivingRoom/1 reading is: 16.56
+'/Sensor/Humidity/Bedroom/1' is now ON.
+/Sensor/Humidity/Bedroom/1 reading is: 14.74
+'/Sensor/Humidity/Kitchen/1' is now ON.
+/Sensor/Humidity/Kitchen/1 reading is: 24.89
+'/Sensor/Humidity/Bathroom/1' is now ON.
+/Sensor/Humidity/Bathroom/1 reading is: 15.19
+'/Sensor/Humidity/Balcony/1' is now ON.
+/Sensor/Humidity/Balcony/1 reading is: 19.57
+'/Sensor/LightIntensive/LivingRoom/1' is now ON.
+/Sensor/LightIntensive/LivingRoom/1 reading is: 1074.68
+'/Sensor/LightIntensive/Bedroom/1' is now ON.
+/Sensor/LightIntensive/Bedroom/1 reading is: 1029.52
+'/Sensor/Smoke/Kitchen/1' is now ON.
+/Sensor/Smoke/Kitchen/1 reading is: 24.42
+Set the target temperature of /Actuator/Heater/LivingRoom/1 to 25°C.
+/Actuator/Heater/LivingRoom/1 is turned off.
+Set the target temperature of /Actuator/Heater/Bedroom/1 to 25°C.
+/Actuator/Heater/Bedroom/1 is turned off.
+Set the target temperature of /Actuator/Heater/Kitchen/1 to 25°C.
+/Actuator/Heater/Kitchen/1 is turned off.
+Set the target temperature of /Actuator/Heater/Bathroom/1 to 25°C.
+/Actuator/Heater/Bathroom/1 is turned off.
+Set the target temperature of /Actuator/AC/LivingRoom/1 to 15°C.
+/Actuator/AC/LivingRoom/1 is turned on.
+Set the target temperature of /Actuator/AC/Bedroom/1 to 15°C.
+/Actuator/AC/Bedroom/1 is turned on.
+/Actuator/Light/LivingRoom/1 is turned off.
+/Actuator/Light/LivingRoom/2 is turned off.
+/Actuator/Light/Bedroom/1 is turned off.
+/Actuator/Light/Bedroom/2 is turned off.
+/Actuator/Light/Kitchen/1 is turned off.
+/Actuator/Light/Bathroom/1 is turned off.
+/Actuator/Window/LivingRoom/1 is turned on.
+/Actuator/Window/LivingRoom/2 is turned on.
+/Actuator/Window/Bedroom/1 is turned on.
+/Actuator/Window/Kitchen/1 is turned on.
+/Actuator/Window/Bathroom/1 is turned on.
+/Actuator/Curtain/LivingRoom/1 is turned on.
+/Actuator/Curtain/Bedroom/1 is turned on.
+
+---Home Plan---
+
+LivingRoom:
+Sensors:
+- /Sensor/LightIntensive/LivingRoom/1
+- /Sensor/IndoorTemperature/LivingRoom/1
+- /Sensor/Humidity/LivingRoom/1
+Actuators:
+- /Actuator/Door/LivingRoom/1
+- /Actuator/Light/LivingRoom/1
+- /Actuator/Light/LivingRoom/2
+- /Actuator/Window/LivingRoom/1
+- /Actuator/Window/LivingRoom/2
+- /Actuator/Curtain/LivingRoom/1
+- /Actuator/MusicPlayer/LivingRoom/1
+- /Actuator/SmartSocket/LivingRoom/1
+- /Actuator/SmartSocket/LivingRoom/2
+- /Actuator/CleaningRobot/LivingRoom/1
+- /Actuator/SmartTV/LivingRoom/1
+- /Actuator/NotificationSender/LivingRoom/1
+- /Actuator/AC/LivingRoom/1
+- /Actuator/Heater/LivingRoom/1
+- /Actuator/Humidifier/LivingRoom/1
+
+Bedroom:
+Sensors:
+- /Sensor/IndoorTemperature/Bedroom/1
+- /Sensor/Humidity/Bedroom/1
+- /Sensor/LightIntensive/Bedroom/1
+Actuators:
+- /Actuator/Light/Bedroom/1
+- /Actuator/Light/Bedroom/2
+- /Actuator/Window/Bedroom/1
+- /Actuator/Curtain/Bedroom/1
+- /Actuator/AC/Bedroom/1
+- /Actuator/Heater/Bedroom/1
+- /Actuator/MusicPlayer/Bedroom/1
+- /Actuator/Door/Bedroom/1
+- /Actuator/SmartSocket/Bedroom/1
+- /Actuator/SmartSocket/Bedroom/2
+- /Actuator/CleaningRobot/Bedroom/1
+- /Actuator/Humidifier/Bedroom/1
+
+Kitchen:
+Sensors:
+- /Sensor/Humidity/Kitchen/1
+- /Sensor/Smoke/Kitchen/1
+Actuators:
+- /Actuator/Light/Kitchen/1
+- /Actuator/Window/Kitchen/1
+- /Actuator/Heater/Kitchen/1
+- /Actuator/CoffeeMachine/Kitchen/1
+- /Actuator/SmartSocket/Kitchen/1
+- /Actuator/SmartSocket/Kitchen/2
+- /Actuator/SmartSocket/Kitchen/3
+- /Actuator/Door/Kitchen/1
+
+Bathroom:
+Sensors:
+- /Sensor/IndoorTemperature/Bathroom/1
+- /Sensor/Humidity/Bathroom/1
+Actuators:
+- /Actuator/Light/Bathroom/1
+- /Actuator/Window/Bathroom/1
+- /Actuator/Heater/Bathroom/1
+- /Actuator/Door/Bathroom/1
+- /Actuator/SmartSocket/Bathroom/1
+- /Actuator/SmartSocket/Bathroom/2
+
+Balcony:
+Sensors:
+- /Sensor/OutdoorTemperature/Balcony/1
+- /Sensor/Humidity/Balcony/1
+Actuators:
+- /Actuator/Door/Balcony/1
+'/Sensor/IndoorTemperature/LivingRoom/1' is now ON.
+/Sensor/IndoorTemperature/LivingRoom/1 reading is: 36.36
+'/Sensor/IndoorTemperature/Bedroom/1' is now ON.
+/Sensor/IndoorTemperature/Bedroom/1 reading is: 33.38
+'/Sensor/IndoorTemperature/Bathroom/1' is now ON.
+/Sensor/IndoorTemperature/Bathroom/1 reading is: 39.95
+'/Sensor/OutdoorTemperature/Balcony/1' is now ON.
+/Sensor/OutdoorTemperature/Balcony/1 reading is: 21.53
+'/Sensor/Humidity/LivingRoom/1' is now ON.
+/Sensor/Humidity/LivingRoom/1 reading is: 12.74
+'/Sensor/Humidity/Bedroom/1' is now ON.
+/Sensor/Humidity/Bedroom/1 reading is: 17.89
+'/Sensor/Humidity/Kitchen/1' is now ON.
+/Sensor/Humidity/Kitchen/1 reading is: 22.16
+'/Sensor/Humidity/Bathroom/1' is now ON.
+/Sensor/Humidity/Bathroom/1 reading is: 27.13
+'/Sensor/Humidity/Balcony/1' is now ON.
+/Sensor/Humidity/Balcony/1 reading is: 27.65
+'/Sensor/LightIntensive/LivingRoom/1' is now ON.
+/Sensor/LightIntensive/LivingRoom/1 reading is: 1104.37
+'/Sensor/LightIntensive/Bedroom/1' is now ON.
+/Sensor/LightIntensive/Bedroom/1 reading is: 1175.19
+'/Sensor/Smoke/Kitchen/1' is now ON.
+/Sensor/Smoke/Kitchen/1 reading is: 60.04
+Set the target temperature of /Actuator/Heater/LivingRoom/1 to 25°C.
+/Actuator/Heater/LivingRoom/1 is turned off.
+Set the target temperature of /Actuator/Heater/Bedroom/1 to 25°C.
+/Actuator/Heater/Bedroom/1 is turned off.
+Set the target temperature of /Actuator/Heater/Kitchen/1 to 25°C.
+/Actuator/Heater/Kitchen/1 is turned off.
+Set the target temperature of /Actuator/Heater/Bathroom/1 to 25°C.
+/Actuator/Heater/Bathroom/1 is turned off.
+Set the target temperature of /Actuator/AC/LivingRoom/1 to 15°C.
+/Actuator/AC/LivingRoom/1 is turned on.
+Set the target temperature of /Actuator/AC/Bedroom/1 to 15°C.
+/Actuator/AC/Bedroom/1 is turned on.
+/Actuator/Light/LivingRoom/1 is turned off.
+/Actuator/Light/LivingRoom/2 is turned off.
+/Actuator/Light/Bedroom/1 is turned off.
+/Actuator/Light/Bedroom/2 is turned off.
+/Actuator/Light/Kitchen/1 is turned off.
+/Actuator/Light/Bathroom/1 is turned off.
+/Actuator/Window/LivingRoom/1 is turned on.
+/Actuator/Window/LivingRoom/2 is turned on.
+/Actuator/Window/Bedroom/1 is turned on.
+/Actuator/Window/Kitchen/1 is turned on.
+/Actuator/Window/Bathroom/1 is turned on.
+/Actuator/Curtain/LivingRoom/1 is turned on.
+/Actuator/Curtain/Bedroom/1 is turned on.
+
+---Home Plan---
+
+LivingRoom:
+Sensors:
+- /Sensor/LightIntensive/LivingRoom/1
+- /Sensor/IndoorTemperature/LivingRoom/1
+- /Sensor/Humidity/LivingRoom/1
+Actuators:
+- /Actuator/Door/LivingRoom/1
+- /Actuator/Light/LivingRoom/1
+- /Actuator/Light/LivingRoom/2
+- /Actuator/Window/LivingRoom/1
+- /Actuator/Window/LivingRoom/2
+- /Actuator/Curtain/LivingRoom/1
+- /Actuator/MusicPlayer/LivingRoom/1
+- /Actuator/SmartSocket/LivingRoom/1
+- /Actuator/SmartSocket/LivingRoom/2
+- /Actuator/CleaningRobot/LivingRoom/1
+- /Actuator/SmartTV/LivingRoom/1
+- /Actuator/NotificationSender/LivingRoom/1
+- /Actuator/AC/LivingRoom/1
+- /Actuator/Heater/LivingRoom/1
+- /Actuator/Humidifier/LivingRoom/1
+
+Bedroom:
+Sensors:
+- /Sensor/IndoorTemperature/Bedroom/1
+- /Sensor/Humidity/Bedroom/1
+- /Sensor/LightIntensive/Bedroom/1
+Actuators:
+- /Actuator/Light/Bedroom/1
+- /Actuator/Light/Bedroom/2
+- /Actuator/Window/Bedroom/1
+- /Actuator/Curtain/Bedroom/1
+- /Actuator/AC/Bedroom/1
+- /Actuator/Heater/Bedroom/1
+- /Actuator/MusicPlayer/Bedroom/1
+- /Actuator/Door/Bedroom/1
+- /Actuator/SmartSocket/Bedroom/1
+- /Actuator/SmartSocket/Bedroom/2
+- /Actuator/CleaningRobot/Bedroom/1
+- /Actuator/Humidifier/Bedroom/1
+
+Kitchen:
+Sensors:
+- /Sensor/Humidity/Kitchen/1
+- /Sensor/Smoke/Kitchen/1
+Actuators:
+- /Actuator/Light/Kitchen/1
+- /Actuator/Window/Kitchen/1
+- /Actuator/Heater/Kitchen/1
+- /Actuator/CoffeeMachine/Kitchen/1
+- /Actuator/SmartSocket/Kitchen/1
+- /Actuator/SmartSocket/Kitchen/2
+- /Actuator/SmartSocket/Kitchen/3
+- /Actuator/Door/Kitchen/1
+
+Bathroom:
+Sensors:
+- /Sensor/IndoorTemperature/Bathroom/1
+- /Sensor/Humidity/Bathroom/1
+Actuators:
+- /Actuator/Light/Bathroom/1
+- /Actuator/Window/Bathroom/1
+- /Actuator/Heater/Bathroom/1
+- /Actuator/Door/Bathroom/1
+- /Actuator/SmartSocket/Bathroom/1
+- /Actuator/SmartSocket/Bathroom/2
+
+Balcony:
+Sensors:
+- /Sensor/OutdoorTemperature/Balcony/1
+- /Sensor/Humidity/Balcony/1
+Actuators:
+- /Actuator/Door/Balcony/1
+'/Sensor/IndoorTemperature/LivingRoom/1' is now ON.
+/Sensor/IndoorTemperature/LivingRoom/1 reading is: 32.39
+'/Sensor/IndoorTemperature/Bedroom/1' is now ON.
+/Sensor/IndoorTemperature/Bedroom/1 reading is: 31.66
+'/Sensor/IndoorTemperature/Bathroom/1' is now ON.
+/Sensor/IndoorTemperature/Bathroom/1 reading is: 35.96
+'/Sensor/OutdoorTemperature/Balcony/1' is now ON.
+/Sensor/OutdoorTemperature/Balcony/1 reading is: 24.43
+'/Sensor/Humidity/LivingRoom/1' is now ON.
+/Sensor/Humidity/LivingRoom/1 reading is: 26.98
+'/Sensor/Humidity/Bedroom/1' is now ON.
+/Sensor/Humidity/Bedroom/1 reading is: 28.48
+'/Sensor/Humidity/Kitchen/1' is now ON.
+/Sensor/Humidity/Kitchen/1 reading is: 28.63
+'/Sensor/Humidity/Bathroom/1' is now ON.
+/Sensor/Humidity/Bathroom/1 reading is: 21.77
+'/Sensor/Humidity/Balcony/1' is now ON.
+/Sensor/Humidity/Balcony/1 reading is: 13.69
+'/Sensor/LightIntensive/LivingRoom/1' is now ON.
+/Sensor/LightIntensive/LivingRoom/1 reading is: 1063.96
+'/Sensor/LightIntensive/Bedroom/1' is now ON.
+/Sensor/LightIntensive/Bedroom/1 reading is: 928.62
+'/Sensor/Smoke/Kitchen/1' is now ON.
+/Sensor/Smoke/Kitchen/1 reading is: 91.46
+Set the target temperature of /Actuator/Heater/LivingRoom/1 to 25°C.
+/Actuator/Heater/LivingRoom/1 is turned off.
+Set the target temperature of /Actuator/Heater/Bedroom/1 to 25°C.
+/Actuator/Heater/Bedroom/1 is turned off.
+Set the target temperature of /Actuator/Heater/Kitchen/1 to 25°C.
+/Actuator/Heater/Kitchen/1 is turned off.
+Set the target temperature of /Actuator/Heater/Bathroom/1 to 25°C.
+/Actuator/Heater/Bathroom/1 is turned off.
+Set the target temperature of /Actuator/AC/LivingRoom/1 to 15°C.
+/Actuator/AC/LivingRoom/1 is turned on.
+Set the target temperature of /Actuator/AC/Bedroom/1 to 15°C.
+/Actuator/AC/Bedroom/1 is turned on.
+/Actuator/Light/LivingRoom/1 is turned off.
+/Actuator/Light/LivingRoom/2 is turned off.
+/Actuator/Light/Bedroom/1 is turned off.
+/Actuator/Light/Bedroom/2 is turned off.
+/Actuator/Light/Kitchen/1 is turned off.
+/Actuator/Light/Bathroom/1 is turned off.
+/Actuator/Window/LivingRoom/1 is turned on.
+/Actuator/Window/LivingRoom/2 is turned on.
+/Actuator/Window/Bedroom/1 is turned on.
+/Actuator/Window/Kitchen/1 is turned on.
+/Actuator/Window/Bathroom/1 is turned on.
+/Actuator/Curtain/LivingRoom/1 is turned on.
+/Actuator/Curtain/Bedroom/1 is turned on.
+
+---Home Plan---
+
+LivingRoom:
+Sensors:
+- /Sensor/LightIntensive/LivingRoom/1
+- /Sensor/IndoorTemperature/LivingRoom/1
+- /Sensor/Humidity/LivingRoom/1
+Actuators:
+- /Actuator/Door/LivingRoom/1
+- /Actuator/Light/LivingRoom/1
+- /Actuator/Light/LivingRoom/2
+- /Actuator/Window/LivingRoom/1
+- /Actuator/Window/LivingRoom/2
+- /Actuator/Curtain/LivingRoom/1
+- /Actuator/MusicPlayer/LivingRoom/1
+- /Actuator/SmartSocket/LivingRoom/1
+- /Actuator/SmartSocket/LivingRoom/2
+- /Actuator/CleaningRobot/LivingRoom/1
+- /Actuator/SmartTV/LivingRoom/1
+- /Actuator/NotificationSender/LivingRoom/1
+- /Actuator/AC/LivingRoom/1
+- /Actuator/Heater/LivingRoom/1
+- /Actuator/Humidifier/LivingRoom/1
+
+Bedroom:
+Sensors:
+- /Sensor/IndoorTemperature/Bedroom/1
+- /Sensor/Humidity/Bedroom/1
+- /Sensor/LightIntensive/Bedroom/1
+Actuators:
+- /Actuator/Light/Bedroom/1
+- /Actuator/Light/Bedroom/2
+- /Actuator/Window/Bedroom/1
+- /Actuator/Curtain/Bedroom/1
+- /Actuator/AC/Bedroom/1
+- /Actuator/Heater/Bedroom/1
+- /Actuator/MusicPlayer/Bedroom/1
+- /Actuator/Door/Bedroom/1
+- /Actuator/SmartSocket/Bedroom/1
+- /Actuator/SmartSocket/Bedroom/2
+- /Actuator/CleaningRobot/Bedroom/1
+- /Actuator/Humidifier/Bedroom/1
+
+Kitchen:
+Sensors:
+- /Sensor/Humidity/Kitchen/1
+- /Sensor/Smoke/Kitchen/1
+Actuators:
+- /Actuator/Light/Kitchen/1
+- /Actuator/Window/Kitchen/1
+- /Actuator/Heater/Kitchen/1
+- /Actuator/CoffeeMachine/Kitchen/1
+- /Actuator/SmartSocket/Kitchen/1
+- /Actuator/SmartSocket/Kitchen/2
+- /Actuator/SmartSocket/Kitchen/3
+- /Actuator/Door/Kitchen/1
+
+Bathroom:
+Sensors:
+- /Sensor/IndoorTemperature/Bathroom/1
+- /Sensor/Humidity/Bathroom/1
+Actuators:
+- /Actuator/Light/Bathroom/1
+- /Actuator/Window/Bathroom/1
+- /Actuator/Heater/Bathroom/1
+- /Actuator/Door/Bathroom/1
+- /Actuator/SmartSocket/Bathroom/1
+- /Actuator/SmartSocket/Bathroom/2
+
+Balcony:
+Sensors:
+- /Sensor/OutdoorTemperature/Balcony/1
+- /Sensor/Humidity/Balcony/1
+Actuators:
+- /Actuator/Door/Balcony/1
+'/Sensor/IndoorTemperature/LivingRoom/1' is now ON.
+/Sensor/IndoorTemperature/LivingRoom/1 reading is: 33.86
+'/Sensor/IndoorTemperature/Bedroom/1' is now ON.
+/Sensor/IndoorTemperature/Bedroom/1 reading is: 34.12
+'/Sensor/IndoorTemperature/Bathroom/1' is now ON.
+/Sensor/IndoorTemperature/Bathroom/1 reading is: 30.41
+'/Sensor/OutdoorTemperature/Balcony/1' is now ON.
+/Sensor/OutdoorTemperature/Balcony/1 reading is: 20.72
+'/Sensor/Humidity/LivingRoom/1' is now ON.
+/Sensor/Humidity/LivingRoom/1 reading is: 22.04
+'/Sensor/Humidity/Bedroom/1' is now ON.
+/Sensor/Humidity/Bedroom/1 reading is: 25.05
+'/Sensor/Humidity/Kitchen/1' is now ON.
+/Sensor/Humidity/Kitchen/1 reading is: 24.47
+'/Sensor/Humidity/Bathroom/1' is now ON.
+/Sensor/Humidity/Bathroom/1 reading is: 25.23
+'/Sensor/Humidity/Balcony/1' is now ON.
+/Sensor/Humidity/Balcony/1 reading is: 17.51
+'/Sensor/LightIntensive/LivingRoom/1' is now ON.
+/Sensor/LightIntensive/LivingRoom/1 reading is: 1138.76
+'/Sensor/LightIntensive/Bedroom/1' is now ON.
+/Sensor/LightIntensive/Bedroom/1 reading is: 1128.65
+'/Sensor/Smoke/Kitchen/1' is now ON.
+/Sensor/Smoke/Kitchen/1 reading is: 88.68
+Set the target temperature of /Actuator/Heater/LivingRoom/1 to 25°C.
+/Actuator/Heater/LivingRoom/1 is turned off.
+Set the target temperature of /Actuator/Heater/Bedroom/1 to 25°C.
+/Actuator/Heater/Bedroom/1 is turned off.
+Set the target temperature of /Actuator/Heater/Kitchen/1 to 25°C.
+/Actuator/Heater/Kitchen/1 is turned off.
+Set the target temperature of /Actuator/Heater/Bathroom/1 to 25°C.
+/Actuator/Heater/Bathroom/1 is turned off.
+Set the target temperature of /Actuator/AC/LivingRoom/1 to 15°C.
+/Actuator/AC/LivingRoom/1 is turned on.
+Set the target temperature of /Actuator/AC/Bedroom/1 to 15°C.
+/Actuator/AC/Bedroom/1 is turned on.
+/Actuator/Light/LivingRoom/1 is turned off.
+/Actuator/Light/LivingRoom/2 is turned off.
+/Actuator/Light/Bedroom/1 is turned off.
+/Actuator/Light/Bedroom/2 is turned off.
+/Actuator/Light/Kitchen/1 is turned off.
+/Actuator/Light/Bathroom/1 is turned off.
+/Actuator/Window/LivingRoom/1 is turned on.
+/Actuator/Window/LivingRoom/2 is turned on.
+/Actuator/Window/Bedroom/1 is turned on.
+/Actuator/Window/Kitchen/1 is turned on.
+/Actuator/Window/Bathroom/1 is turned on.
+/Actuator/Curtain/LivingRoom/1 is turned on.
+/Actuator/Curtain/Bedroom/1 is turned on.
+
+---Home Plan---
+
+LivingRoom:
+Sensors:
+- /Sensor/LightIntensive/LivingRoom/1
+- /Sensor/IndoorTemperature/LivingRoom/1
+- /Sensor/Humidity/LivingRoom/1
+Actuators:
+- /Actuator/Door/LivingRoom/1
+- /Actuator/Light/LivingRoom/1
+- /Actuator/Light/LivingRoom/2
+- /Actuator/Window/LivingRoom/1
+- /Actuator/Window/LivingRoom/2
+- /Actuator/Curtain/LivingRoom/1
+- /Actuator/MusicPlayer/LivingRoom/1
+- /Actuator/SmartSocket/LivingRoom/1
+- /Actuator/SmartSocket/LivingRoom/2
+- /Actuator/CleaningRobot/LivingRoom/1
+- /Actuator/SmartTV/LivingRoom/1
+- /Actuator/NotificationSender/LivingRoom/1
+- /Actuator/AC/LivingRoom/1
+- /Actuator/Heater/LivingRoom/1
+- /Actuator/Humidifier/LivingRoom/1
+
+Bedroom:
+Sensors:
+- /Sensor/IndoorTemperature/Bedroom/1
+- /Sensor/Humidity/Bedroom/1
+- /Sensor/LightIntensive/Bedroom/1
+Actuators:
+- /Actuator/Light/Bedroom/1
+- /Actuator/Light/Bedroom/2
+- /Actuator/Window/Bedroom/1
+- /Actuator/Curtain/Bedroom/1
+- /Actuator/AC/Bedroom/1
+- /Actuator/Heater/Bedroom/1
+- /Actuator/MusicPlayer/Bedroom/1
+- /Actuator/Door/Bedroom/1
+- /Actuator/SmartSocket/Bedroom/1
+- /Actuator/SmartSocket/Bedroom/2
+- /Actuator/CleaningRobot/Bedroom/1
+- /Actuator/Humidifier/Bedroom/1
+
+Kitchen:
+Sensors:
+- /Sensor/Humidity/Kitchen/1
+- /Sensor/Smoke/Kitchen/1
+Actuators:
+- /Actuator/Light/Kitchen/1
+- /Actuator/Window/Kitchen/1
+- /Actuator/Heater/Kitchen/1
+- /Actuator/CoffeeMachine/Kitchen/1
+- /Actuator/SmartSocket/Kitchen/1
+- /Actuator/SmartSocket/Kitchen/2
+- /Actuator/SmartSocket/Kitchen/3
+- /Actuator/Door/Kitchen/1
+
+Bathroom:
+Sensors:
+- /Sensor/IndoorTemperature/Bathroom/1
+- /Sensor/Humidity/Bathroom/1
+Actuators:
+- /Actuator/Light/Bathroom/1
+- /Actuator/Window/Bathroom/1
+- /Actuator/Heater/Bathroom/1
+- /Actuator/Door/Bathroom/1
+- /Actuator/SmartSocket/Bathroom/1
+- /Actuator/SmartSocket/Bathroom/2
+
+Balcony:
+Sensors:
+- /Sensor/OutdoorTemperature/Balcony/1
+- /Sensor/Humidity/Balcony/1
+Actuators:
+- /Actuator/Door/Balcony/1
+'/Sensor/IndoorTemperature/LivingRoom/1' is now ON.
+/Sensor/IndoorTemperature/LivingRoom/1 reading is: 30.67
+'/Sensor/IndoorTemperature/Bedroom/1' is now ON.
+/Sensor/IndoorTemperature/Bedroom/1 reading is: 34.52
+'/Sensor/IndoorTemperature/Bathroom/1' is now ON.
+/Sensor/IndoorTemperature/Bathroom/1 reading is: 34.12
+'/Sensor/OutdoorTemperature/Balcony/1' is now ON.
+/Sensor/OutdoorTemperature/Balcony/1 reading is: 24.47
+'/Sensor/Humidity/LivingRoom/1' is now ON.
+/Sensor/Humidity/LivingRoom/1 reading is: 19.16
+'/Sensor/Humidity/Bedroom/1' is now ON.
+/Sensor/Humidity/Bedroom/1 reading is: 26.98
+'/Sensor/Humidity/Kitchen/1' is now ON.
+/Sensor/Humidity/Kitchen/1 reading is: 23.3
+'/Sensor/Humidity/Bathroom/1' is now ON.
+/Sensor/Humidity/Bathroom/1 reading is: 14.24
+'/Sensor/Humidity/Balcony/1' is now ON.
+/Sensor/Humidity/Balcony/1 reading is: 16.2
+'/Sensor/LightIntensive/LivingRoom/1' is now ON.
+/Sensor/LightIntensive/LivingRoom/1 reading is: 1123.31
+'/Sensor/LightIntensive/Bedroom/1' is now ON.
+/Sensor/LightIntensive/Bedroom/1 reading is: 999.07
+'/Sensor/Smoke/Kitchen/1' is now ON.
+/Sensor/Smoke/Kitchen/1 reading is: 17.83
+Set the target temperature of /Actuator/Heater/LivingRoom/1 to 25°C.
+/Actuator/Heater/LivingRoom/1 is turned off.
+Set the target temperature of /Actuator/Heater/Bedroom/1 to 25°C.
+/Actuator/Heater/Bedroom/1 is turned off.
+Set the target temperature of /Actuator/Heater/Kitchen/1 to 25°C.
+/Actuator/Heater/Kitchen/1 is turned off.
+Set the target temperature of /Actuator/Heater/Bathroom/1 to 25°C.
+/Actuator/Heater/Bathroom/1 is turned off.
+Set the target temperature of /Actuator/AC/LivingRoom/1 to 15°C.
+/Actuator/AC/LivingRoom/1 is turned on.
+Set the target temperature of /Actuator/AC/Bedroom/1 to 15°C.
+/Actuator/AC/Bedroom/1 is turned on.
+/Actuator/Light/LivingRoom/1 is turned off.
+/Actuator/Light/LivingRoom/2 is turned off.
+/Actuator/Light/Bedroom/1 is turned off.
+/Actuator/Light/Bedroom/2 is turned off.
+/Actuator/Light/Kitchen/1 is turned off.
+/Actuator/Light/Bathroom/1 is turned off.
+/Actuator/Window/LivingRoom/1 is turned on.
+/Actuator/Window/LivingRoom/2 is turned on.
+/Actuator/Window/Bedroom/1 is turned on.
+/Actuator/Window/Kitchen/1 is turned on.
+/Actuator/Window/Bathroom/1 is turned on.
+/Actuator/Curtain/LivingRoom/1 is turned on.
+/Actuator/Curtain/Bedroom/1 is turned on.
+
+---Home Plan---
+
+LivingRoom:
+Sensors:
+- /Sensor/LightIntensive/LivingRoom/1
+- /Sensor/IndoorTemperature/LivingRoom/1
+- /Sensor/Humidity/LivingRoom/1
+Actuators:
+- /Actuator/Door/LivingRoom/1
+- /Actuator/Light/LivingRoom/1
+- /Actuator/Light/LivingRoom/2
+- /Actuator/Window/LivingRoom/1
+- /Actuator/Window/LivingRoom/2
+- /Actuator/Curtain/LivingRoom/1
+- /Actuator/MusicPlayer/LivingRoom/1
+- /Actuator/SmartSocket/LivingRoom/1
+- /Actuator/SmartSocket/LivingRoom/2
+- /Actuator/CleaningRobot/LivingRoom/1
+- /Actuator/SmartTV/LivingRoom/1
+- /Actuator/NotificationSender/LivingRoom/1
+- /Actuator/AC/LivingRoom/1
+- /Actuator/Heater/LivingRoom/1
+- /Actuator/Humidifier/LivingRoom/1
+
+Bedroom:
+Sensors:
+- /Sensor/IndoorTemperature/Bedroom/1
+- /Sensor/Humidity/Bedroom/1
+- /Sensor/LightIntensive/Bedroom/1
+Actuators:
+- /Actuator/Light/Bedroom/1
+- /Actuator/Light/Bedroom/2
+- /Actuator/Window/Bedroom/1
+- /Actuator/Curtain/Bedroom/1
+- /Actuator/AC/Bedroom/1
+- /Actuator/Heater/Bedroom/1
+- /Actuator/MusicPlayer/Bedroom/1
+- /Actuator/Door/Bedroom/1
+- /Actuator/SmartSocket/Bedroom/1
+- /Actuator/SmartSocket/Bedroom/2
+- /Actuator/CleaningRobot/Bedroom/1
+- /Actuator/Humidifier/Bedroom/1
+
+Kitchen:
+Sensors:
+- /Sensor/Humidity/Kitchen/1
+- /Sensor/Smoke/Kitchen/1
+Actuators:
+- /Actuator/Light/Kitchen/1
+- /Actuator/Window/Kitchen/1
+- /Actuator/Heater/Kitchen/1
+- /Actuator/CoffeeMachine/Kitchen/1
+- /Actuator/SmartSocket/Kitchen/1
+- /Actuator/SmartSocket/Kitchen/2
+- /Actuator/SmartSocket/Kitchen/3
+- /Actuator/Door/Kitchen/1
+
+Bathroom:
+Sensors:
+- /Sensor/IndoorTemperature/Bathroom/1
+- /Sensor/Humidity/Bathroom/1
+Actuators:
+- /Actuator/Light/Bathroom/1
+- /Actuator/Window/Bathroom/1
+- /Actuator/Heater/Bathroom/1
+- /Actuator/Door/Bathroom/1
+- /Actuator/SmartSocket/Bathroom/1
+- /Actuator/SmartSocket/Bathroom/2
+
+Balcony:
+Sensors:
+- /Sensor/OutdoorTemperature/Balcony/1
+- /Sensor/Humidity/Balcony/1
+Actuators:
+- /Actuator/Door/Balcony/1
+'/Sensor/IndoorTemperature/LivingRoom/1' is now ON.
+/Sensor/IndoorTemperature/LivingRoom/1 reading is: 35.78
+'/Sensor/IndoorTemperature/Bedroom/1' is now ON.
+/Sensor/IndoorTemperature/Bedroom/1 reading is: 30.9
+'/Sensor/IndoorTemperature/Bathroom/1' is now ON.
+/Sensor/IndoorTemperature/Bathroom/1 reading is: 38.01
+'/Sensor/OutdoorTemperature/Balcony/1' is now ON.
+/Sensor/OutdoorTemperature/Balcony/1 reading is: 22.2
+'/Sensor/Humidity/LivingRoom/1' is now ON.
+/Sensor/Humidity/LivingRoom/1 reading is: 20.06
+'/Sensor/Humidity/Bedroom/1' is now ON.
+/Sensor/Humidity/Bedroom/1 reading is: 22.93
+'/Sensor/Humidity/Kitchen/1' is now ON.
+/Sensor/Humidity/Kitchen/1 reading is: 27.28
+'/Sensor/Humidity/Bathroom/1' is now ON.
+/Sensor/Humidity/Bathroom/1 reading is: 24.47
+'/Sensor/Humidity/Balcony/1' is now ON.
+/Sensor/Humidity/Balcony/1 reading is: 16.66
+'/Sensor/LightIntensive/LivingRoom/1' is now ON.
+/Sensor/LightIntensive/LivingRoom/1 reading is: 1167.82
+'/Sensor/LightIntensive/Bedroom/1' is now ON.
+/Sensor/LightIntensive/Bedroom/1 reading is: 996.09
+'/Sensor/Smoke/Kitchen/1' is now ON.
+/Sensor/Smoke/Kitchen/1 reading is: 72.02
+Set the target temperature of /Actuator/Heater/LivingRoom/1 to 25°C.
+/Actuator/Heater/LivingRoom/1 is turned off.
+Set the target temperature of /Actuator/Heater/Bedroom/1 to 25°C.
+/Actuator/Heater/Bedroom/1 is turned off.
+Set the target temperature of /Actuator/Heater/Kitchen/1 to 25°C.
+/Actuator/Heater/Kitchen/1 is turned off.
+Set the target temperature of /Actuator/Heater/Bathroom/1 to 25°C.
+/Actuator/Heater/Bathroom/1 is turned off.
+Set the target temperature of /Actuator/AC/LivingRoom/1 to 15°C.
+/Actuator/AC/LivingRoom/1 is turned on.
+Set the target temperature of /Actuator/AC/Bedroom/1 to 15°C.
+/Actuator/AC/Bedroom/1 is turned on.
+/Actuator/Light/LivingRoom/1 is turned off.
+/Actuator/Light/LivingRoom/2 is turned off.
+/Actuator/Light/Bedroom/1 is turned off.
+/Actuator/Light/Bedroom/2 is turned off.
+/Actuator/Light/Kitchen/1 is turned off.
+/Actuator/Light/Bathroom/1 is turned off.
+/Actuator/Window/LivingRoom/1 is turned on.
+/Actuator/Window/LivingRoom/2 is turned on.
+/Actuator/Window/Bedroom/1 is turned on.
+/Actuator/Window/Kitchen/1 is turned on.
+/Actuator/Window/Bathroom/1 is turned on.
+/Actuator/Curtain/LivingRoom/1 is turned on.
+/Actuator/Curtain/Bedroom/1 is turned on.
+
+---Home Plan---
+
+LivingRoom:
+Sensors:
+- /Sensor/LightIntensive/LivingRoom/1
+- /Sensor/IndoorTemperature/LivingRoom/1
+- /Sensor/Humidity/LivingRoom/1
+Actuators:
+- /Actuator/Door/LivingRoom/1
+- /Actuator/Light/LivingRoom/1
+- /Actuator/Light/LivingRoom/2
+- /Actuator/Window/LivingRoom/1
+- /Actuator/Window/LivingRoom/2
+- /Actuator/Curtain/LivingRoom/1
+- /Actuator/MusicPlayer/LivingRoom/1
+- /Actuator/SmartSocket/LivingRoom/1
+- /Actuator/SmartSocket/LivingRoom/2
+- /Actuator/CleaningRobot/LivingRoom/1
+- /Actuator/SmartTV/LivingRoom/1
+- /Actuator/NotificationSender/LivingRoom/1
+- /Actuator/AC/LivingRoom/1
+- /Actuator/Heater/LivingRoom/1
+- /Actuator/Humidifier/LivingRoom/1
+
+Bedroom:
+Sensors:
+- /Sensor/IndoorTemperature/Bedroom/1
+- /Sensor/Humidity/Bedroom/1
+- /Sensor/LightIntensive/Bedroom/1
+Actuators:
+- /Actuator/Light/Bedroom/1
+- /Actuator/Light/Bedroom/2
+- /Actuator/Window/Bedroom/1
+- /Actuator/Curtain/Bedroom/1
+- /Actuator/AC/Bedroom/1
+- /Actuator/Heater/Bedroom/1
+- /Actuator/MusicPlayer/Bedroom/1
+- /Actuator/Door/Bedroom/1
+- /Actuator/SmartSocket/Bedroom/1
+- /Actuator/SmartSocket/Bedroom/2
+- /Actuator/CleaningRobot/Bedroom/1
+- /Actuator/Humidifier/Bedroom/1
+
+Kitchen:
+Sensors:
+- /Sensor/Humidity/Kitchen/1
+- /Sensor/Smoke/Kitchen/1
+Actuators:
+- /Actuator/Light/Kitchen/1
+- /Actuator/Window/Kitchen/1
+- /Actuator/Heater/Kitchen/1
+- /Actuator/CoffeeMachine/Kitchen/1
+- /Actuator/SmartSocket/Kitchen/1
+- /Actuator/SmartSocket/Kitchen/2
+- /Actuator/SmartSocket/Kitchen/3
+- /Actuator/Door/Kitchen/1
+
+Bathroom:
+Sensors:
+- /Sensor/IndoorTemperature/Bathroom/1
+- /Sensor/Humidity/Bathroom/1
+Actuators:
+- /Actuator/Light/Bathroom/1
+- /Actuator/Window/Bathroom/1
+- /Actuator/Heater/Bathroom/1
+- /Actuator/Door/Bathroom/1
+- /Actuator/SmartSocket/Bathroom/1
+- /Actuator/SmartSocket/Bathroom/2
+
+Balcony:
+Sensors:
+- /Sensor/OutdoorTemperature/Balcony/1
+- /Sensor/Humidity/Balcony/1
+Actuators:
+- /Actuator/Door/Balcony/1
+'/Sensor/IndoorTemperature/LivingRoom/1' is now ON.
+/Sensor/IndoorTemperature/LivingRoom/1 reading is: 32.14
+'/Sensor/IndoorTemperature/Bedroom/1' is now ON.
+/Sensor/IndoorTemperature/Bedroom/1 reading is: 34.82
+'/Sensor/IndoorTemperature/Bathroom/1' is now ON.
+/Sensor/IndoorTemperature/Bathroom/1 reading is: 31.3
+'/Sensor/OutdoorTemperature/Balcony/1' is now ON.
+/Sensor/OutdoorTemperature/Balcony/1 reading is: 21.13
+'/Sensor/Humidity/LivingRoom/1' is now ON.
+/Sensor/Humidity/LivingRoom/1 reading is: 12.42
+'/Sensor/Humidity/Bedroom/1' is now ON.
+/Sensor/Humidity/Bedroom/1 reading is: 26.57
+'/Sensor/Humidity/Kitchen/1' is now ON.
+/Sensor/Humidity/Kitchen/1 reading is: 26.48
+'/Sensor/Humidity/Bathroom/1' is now ON.
+/Sensor/Humidity/Bathroom/1 reading is: 23.22
+'/Sensor/Humidity/Balcony/1' is now ON.
+/Sensor/Humidity/Balcony/1 reading is: 25.81
+'/Sensor/LightIntensive/LivingRoom/1' is now ON.
+/Sensor/LightIntensive/LivingRoom/1 reading is: 930.49
+'/Sensor/LightIntensive/Bedroom/1' is now ON.
+/Sensor/LightIntensive/Bedroom/1 reading is: 955.0
+'/Sensor/Smoke/Kitchen/1' is now ON.
+/Sensor/Smoke/Kitchen/1 reading is: 79.98
+Set the target temperature of /Actuator/Heater/LivingRoom/1 to 25°C.
+/Actuator/Heater/LivingRoom/1 is turned off.
+Set the target temperature of /Actuator/Heater/Bedroom/1 to 25°C.
+/Actuator/Heater/Bedroom/1 is turned off.
+Set the target temperature of /Actuator/Heater/Kitchen/1 to 25°C.
+/Actuator/Heater/Kitchen/1 is turned off.
+Set the target temperature of /Actuator/Heater/Bathroom/1 to 25°C.
+/Actuator/Heater/Bathroom/1 is turned off.
+Set the target temperature of /Actuator/AC/LivingRoom/1 to 15°C.
+/Actuator/AC/LivingRoom/1 is turned on.
+Set the target temperature of /Actuator/AC/Bedroom/1 to 15°C.
+/Actuator/AC/Bedroom/1 is turned on.
+/Actuator/Light/LivingRoom/1 is turned off.
+/Actuator/Light/LivingRoom/2 is turned off.
+/Actuator/Light/Bedroom/1 is turned off.
+/Actuator/Light/Bedroom/2 is turned off.
+/Actuator/Light/Kitchen/1 is turned off.
+/Actuator/Light/Bathroom/1 is turned off.
+/Actuator/Window/LivingRoom/1 is turned on.
+/Actuator/Window/LivingRoom/2 is turned on.
+/Actuator/Window/Bedroom/1 is turned on.
+/Actuator/Window/Kitchen/1 is turned on.
+/Actuator/Window/Bathroom/1 is turned on.
+/Actuator/Curtain/LivingRoom/1 is turned on.
+/Actuator/Curtain/Bedroom/1 is turned on.
+
+---Home Plan---
+
+LivingRoom:
+Sensors:
+- /Sensor/LightIntensive/LivingRoom/1
+- /Sensor/IndoorTemperature/LivingRoom/1
+- /Sensor/Humidity/LivingRoom/1
+Actuators:
+- /Actuator/Door/LivingRoom/1
+- /Actuator/Light/LivingRoom/1
+- /Actuator/Light/LivingRoom/2
+- /Actuator/Window/LivingRoom/1
+- /Actuator/Window/LivingRoom/2
+- /Actuator/Curtain/LivingRoom/1
+- /Actuator/MusicPlayer/LivingRoom/1
+- /Actuator/SmartSocket/LivingRoom/1
+- /Actuator/SmartSocket/LivingRoom/2
+- /Actuator/CleaningRobot/LivingRoom/1
+- /Actuator/SmartTV/LivingRoom/1
+- /Actuator/NotificationSender/LivingRoom/1
+- /Actuator/AC/LivingRoom/1
+- /Actuator/Heater/LivingRoom/1
+- /Actuator/Humidifier/LivingRoom/1
+
+Bedroom:
+Sensors:
+- /Sensor/IndoorTemperature/Bedroom/1
+- /Sensor/Humidity/Bedroom/1
+- /Sensor/LightIntensive/Bedroom/1
+Actuators:
+- /Actuator/Light/Bedroom/1
+- /Actuator/Light/Bedroom/2
+- /Actuator/Window/Bedroom/1
+- /Actuator/Curtain/Bedroom/1
+- /Actuator/AC/Bedroom/1
+- /Actuator/Heater/Bedroom/1
+- /Actuator/MusicPlayer/Bedroom/1
+- /Actuator/Door/Bedroom/1
+- /Actuator/SmartSocket/Bedroom/1
+- /Actuator/SmartSocket/Bedroom/2
+- /Actuator/CleaningRobot/Bedroom/1
+- /Actuator/Humidifier/Bedroom/1
+
+Kitchen:
+Sensors:
+- /Sensor/Humidity/Kitchen/1
+- /Sensor/Smoke/Kitchen/1
+Actuators:
+- /Actuator/Light/Kitchen/1
+- /Actuator/Window/Kitchen/1
+- /Actuator/Heater/Kitchen/1
+- /Actuator/CoffeeMachine/Kitchen/1
+- /Actuator/SmartSocket/Kitchen/1
+- /Actuator/SmartSocket/Kitchen/2
+- /Actuator/SmartSocket/Kitchen/3
+- /Actuator/Door/Kitchen/1
+
+Bathroom:
+Sensors:
+- /Sensor/IndoorTemperature/Bathroom/1
+- /Sensor/Humidity/Bathroom/1
+Actuators:
+- /Actuator/Light/Bathroom/1
+- /Actuator/Window/Bathroom/1
+- /Actuator/Heater/Bathroom/1
+- /Actuator/Door/Bathroom/1
+- /Actuator/SmartSocket/Bathroom/1
+- /Actuator/SmartSocket/Bathroom/2
+
+Balcony:
+Sensors:
+- /Sensor/OutdoorTemperature/Balcony/1
+- /Sensor/Humidity/Balcony/1
+Actuators:
+- /Actuator/Door/Balcony/1
+'/Sensor/IndoorTemperature/LivingRoom/1' is now ON.
+/Sensor/IndoorTemperature/LivingRoom/1 reading is: 39.81
+'/Sensor/IndoorTemperature/Bedroom/1' is now ON.
+/Sensor/IndoorTemperature/Bedroom/1 reading is: 35.4
+'/Sensor/IndoorTemperature/Bathroom/1' is now ON.
+/Sensor/IndoorTemperature/Bathroom/1 reading is: 38.43
+'/Sensor/OutdoorTemperature/Balcony/1' is now ON.
+/Sensor/OutdoorTemperature/Balcony/1 reading is: 23.9
+'/Sensor/Humidity/LivingRoom/1' is now ON.
+/Sensor/Humidity/LivingRoom/1 reading is: 14.15
+'/Sensor/Humidity/Bedroom/1' is now ON.
+/Sensor/Humidity/Bedroom/1 reading is: 18.52
+'/Sensor/Humidity/Kitchen/1' is now ON.
+/Sensor/Humidity/Kitchen/1 reading is: 14.35
+'/Sensor/Humidity/Bathroom/1' is now ON.
+/Sensor/Humidity/Bathroom/1 reading is: 24.31
+'/Sensor/Humidity/Balcony/1' is now ON.
+/Sensor/Humidity/Balcony/1 reading is: 12.92
+'/Sensor/LightIntensive/LivingRoom/1' is now ON.
+/Sensor/LightIntensive/LivingRoom/1 reading is: 1029.52
+'/Sensor/LightIntensive/Bedroom/1' is now ON.
+/Sensor/LightIntensive/Bedroom/1 reading is: 1156.23
+'/Sensor/Smoke/Kitchen/1' is now ON.
+/Sensor/Smoke/Kitchen/1 reading is: 64.87
+Set the target temperature of /Actuator/Heater/LivingRoom/1 to 25°C.
+/Actuator/Heater/LivingRoom/1 is turned off.
+Set the target temperature of /Actuator/Heater/Bedroom/1 to 25°C.
+/Actuator/Heater/Bedroom/1 is turned off.
+Set the target temperature of /Actuator/Heater/Kitchen/1 to 25°C.
+/Actuator/Heater/Kitchen/1 is turned off.
+Set the target temperature of /Actuator/Heater/Bathroom/1 to 25°C.
+/Actuator/Heater/Bathroom/1 is turned off.
+Set the target temperature of /Actuator/AC/LivingRoom/1 to 15°C.
+/Actuator/AC/LivingRoom/1 is turned on.
+Set the target temperature of /Actuator/AC/Bedroom/1 to 15°C.
+/Actuator/AC/Bedroom/1 is turned on.
+/Actuator/Light/LivingRoom/1 is turned off.
+/Actuator/Light/LivingRoom/2 is turned off.
+/Actuator/Light/Bedroom/1 is turned off.
+/Actuator/Light/Bedroom/2 is turned off.
+/Actuator/Light/Kitchen/1 is turned off.
+/Actuator/Light/Bathroom/1 is turned off.
+/Actuator/Window/LivingRoom/1 is turned on.
+/Actuator/Window/LivingRoom/2 is turned on.
+/Actuator/Window/Bedroom/1 is turned on.
+/Actuator/Window/Kitchen/1 is turned on.
+/Actuator/Window/Bathroom/1 is turned on.
+/Actuator/Curtain/LivingRoom/1 is turned on.
+/Actuator/Curtain/Bedroom/1 is turned on.
+
+---Home Plan---
+
+LivingRoom:
+Sensors:
+- /Sensor/LightIntensive/LivingRoom/1
+- /Sensor/IndoorTemperature/LivingRoom/1
+- /Sensor/Humidity/LivingRoom/1
+Actuators:
+- /Actuator/Door/LivingRoom/1
+- /Actuator/Light/LivingRoom/1
+- /Actuator/Light/LivingRoom/2
+- /Actuator/Window/LivingRoom/1
+- /Actuator/Window/LivingRoom/2
+- /Actuator/Curtain/LivingRoom/1
+- /Actuator/MusicPlayer/LivingRoom/1
+- /Actuator/SmartSocket/LivingRoom/1
+- /Actuator/SmartSocket/LivingRoom/2
+- /Actuator/CleaningRobot/LivingRoom/1
+- /Actuator/SmartTV/LivingRoom/1
+- /Actuator/NotificationSender/LivingRoom/1
+- /Actuator/AC/LivingRoom/1
+- /Actuator/Heater/LivingRoom/1
+- /Actuator/Humidifier/LivingRoom/1
+
+Bedroom:
+Sensors:
+- /Sensor/IndoorTemperature/Bedroom/1
+- /Sensor/Humidity/Bedroom/1
+- /Sensor/LightIntensive/Bedroom/1
+Actuators:
+- /Actuator/Light/Bedroom/1
+- /Actuator/Light/Bedroom/2
+- /Actuator/Window/Bedroom/1
+- /Actuator/Curtain/Bedroom/1
+- /Actuator/AC/Bedroom/1
+- /Actuator/Heater/Bedroom/1
+- /Actuator/MusicPlayer/Bedroom/1
+- /Actuator/Door/Bedroom/1
+- /Actuator/SmartSocket/Bedroom/1
+- /Actuator/SmartSocket/Bedroom/2
+- /Actuator/CleaningRobot/Bedroom/1
+- /Actuator/Humidifier/Bedroom/1
+
+Kitchen:
+Sensors:
+- /Sensor/Humidity/Kitchen/1
+- /Sensor/Smoke/Kitchen/1
+Actuators:
+- /Actuator/Light/Kitchen/1
+- /Actuator/Window/Kitchen/1
+- /Actuator/Heater/Kitchen/1
+- /Actuator/CoffeeMachine/Kitchen/1
+- /Actuator/SmartSocket/Kitchen/1
+- /Actuator/SmartSocket/Kitchen/2
+- /Actuator/SmartSocket/Kitchen/3
+- /Actuator/Door/Kitchen/1
+
+Bathroom:
+Sensors:
+- /Sensor/IndoorTemperature/Bathroom/1
+- /Sensor/Humidity/Bathroom/1
+Actuators:
+- /Actuator/Light/Bathroom/1
+- /Actuator/Window/Bathroom/1
+- /Actuator/Heater/Bathroom/1
+- /Actuator/Door/Bathroom/1
+- /Actuator/SmartSocket/Bathroom/1
+- /Actuator/SmartSocket/Bathroom/2
+
+Balcony:
+Sensors:
+- /Sensor/OutdoorTemperature/Balcony/1
+- /Sensor/Humidity/Balcony/1
+Actuators:
+- /Actuator/Door/Balcony/1
+'/Sensor/IndoorTemperature/LivingRoom/1' is now ON.
+/Sensor/IndoorTemperature/LivingRoom/1 reading is: 32.06
+'/Sensor/IndoorTemperature/Bedroom/1' is now ON.
+/Sensor/IndoorTemperature/Bedroom/1 reading is: 31.26
+'/Sensor/IndoorTemperature/Bathroom/1' is now ON.
+/Sensor/IndoorTemperature/Bathroom/1 reading is: 34.31
+'/Sensor/OutdoorTemperature/Balcony/1' is now ON.
+/Sensor/OutdoorTemperature/Balcony/1 reading is: 20.06
+'/Sensor/Humidity/LivingRoom/1' is now ON.
+/Sensor/Humidity/LivingRoom/1 reading is: 19.04
+'/Sensor/Humidity/Bedroom/1' is now ON.
+/Sensor/Humidity/Bedroom/1 reading is: 29.38
+'/Sensor/Humidity/Kitchen/1' is now ON.
+/Sensor/Humidity/Kitchen/1 reading is: 12.18
+'/Sensor/Humidity/Bathroom/1' is now ON.
+/Sensor/Humidity/Bathroom/1 reading is: 15.75
+'/Sensor/Humidity/Balcony/1' is now ON.
+/Sensor/Humidity/Balcony/1 reading is: 18.76
+'/Sensor/LightIntensive/LivingRoom/1' is now ON.
+/Sensor/LightIntensive/LivingRoom/1 reading is: 1123.69
+'/Sensor/LightIntensive/Bedroom/1' is now ON.
+/Sensor/LightIntensive/Bedroom/1 reading is: 1143.19
+'/Sensor/Smoke/Kitchen/1' is now ON.
+/Sensor/Smoke/Kitchen/1 reading is: 74.42
+Set the target temperature of /Actuator/Heater/LivingRoom/1 to 25°C.
+/Actuator/Heater/LivingRoom/1 is turned off.
+Set the target temperature of /Actuator/Heater/Bedroom/1 to 25°C.
+/Actuator/Heater/Bedroom/1 is turned off.
+Set the target temperature of /Actuator/Heater/Kitchen/1 to 25°C.
+/Actuator/Heater/Kitchen/1 is turned off.
+Set the target temperature of /Actuator/Heater/Bathroom/1 to 25°C.
+/Actuator/Heater/Bathroom/1 is turned off.
+Set the target temperature of /Actuator/AC/LivingRoom/1 to 15°C.
+/Actuator/AC/LivingRoom/1 is turned on.
+Set the target temperature of /Actuator/AC/Bedroom/1 to 15°C.
+/Actuator/AC/Bedroom/1 is turned on.
+/Actuator/Light/LivingRoom/1 is turned off.
+/Actuator/Light/LivingRoom/2 is turned off.
+/Actuator/Light/Bedroom/1 is turned off.
+/Actuator/Light/Bedroom/2 is turned off.
+/Actuator/Light/Kitchen/1 is turned off.
+/Actuator/Light/Bathroom/1 is turned off.
+/Actuator/Window/LivingRoom/1 is turned on.
+/Actuator/Window/LivingRoom/2 is turned on.
+/Actuator/Window/Bedroom/1 is turned on.
+/Actuator/Window/Kitchen/1 is turned on.
+/Actuator/Window/Bathroom/1 is turned on.
+/Actuator/Curtain/LivingRoom/1 is turned on.
+/Actuator/Curtain/Bedroom/1 is turned on.
+
+---Home Plan---
+
+LivingRoom:
+Sensors:
+- /Sensor/LightIntensive/LivingRoom/1
+- /Sensor/IndoorTemperature/LivingRoom/1
+- /Sensor/Humidity/LivingRoom/1
+Actuators:
+- /Actuator/Door/LivingRoom/1
+- /Actuator/Light/LivingRoom/1
+- /Actuator/Light/LivingRoom/2
+- /Actuator/Window/LivingRoom/1
+- /Actuator/Window/LivingRoom/2
+- /Actuator/Curtain/LivingRoom/1
+- /Actuator/MusicPlayer/LivingRoom/1
+- /Actuator/SmartSocket/LivingRoom/1
+- /Actuator/SmartSocket/LivingRoom/2
+- /Actuator/CleaningRobot/LivingRoom/1
+- /Actuator/SmartTV/LivingRoom/1
+- /Actuator/NotificationSender/LivingRoom/1
+- /Actuator/AC/LivingRoom/1
+- /Actuator/Heater/LivingRoom/1
+- /Actuator/Humidifier/LivingRoom/1
+
+Bedroom:
+Sensors:
+- /Sensor/IndoorTemperature/Bedroom/1
+- /Sensor/Humidity/Bedroom/1
+- /Sensor/LightIntensive/Bedroom/1
+Actuators:
+- /Actuator/Light/Bedroom/1
+- /Actuator/Light/Bedroom/2
+- /Actuator/Window/Bedroom/1
+- /Actuator/Curtain/Bedroom/1
+- /Actuator/AC/Bedroom/1
+- /Actuator/Heater/Bedroom/1
+- /Actuator/MusicPlayer/Bedroom/1
+- /Actuator/Door/Bedroom/1
+- /Actuator/SmartSocket/Bedroom/1
+- /Actuator/SmartSocket/Bedroom/2
+- /Actuator/CleaningRobot/Bedroom/1
+- /Actuator/Humidifier/Bedroom/1
+
+Kitchen:
+Sensors:
+- /Sensor/Humidity/Kitchen/1
+- /Sensor/Smoke/Kitchen/1
+Actuators:
+- /Actuator/Light/Kitchen/1
+- /Actuator/Window/Kitchen/1
+- /Actuator/Heater/Kitchen/1
+- /Actuator/CoffeeMachine/Kitchen/1
+- /Actuator/SmartSocket/Kitchen/1
+- /Actuator/SmartSocket/Kitchen/2
+- /Actuator/SmartSocket/Kitchen/3
+- /Actuator/Door/Kitchen/1
+
+Bathroom:
+Sensors:
+- /Sensor/IndoorTemperature/Bathroom/1
+- /Sensor/Humidity/Bathroom/1
+Actuators:
+- /Actuator/Light/Bathroom/1
+- /Actuator/Window/Bathroom/1
+- /Actuator/Heater/Bathroom/1
+- /Actuator/Door/Bathroom/1
+- /Actuator/SmartSocket/Bathroom/1
+- /Actuator/SmartSocket/Bathroom/2
+
+Balcony:
+Sensors:
+- /Sensor/OutdoorTemperature/Balcony/1
+- /Sensor/Humidity/Balcony/1
+Actuators:
+- /Actuator/Door/Balcony/1
+'/Sensor/IndoorTemperature/LivingRoom/1' is now ON.
+/Sensor/IndoorTemperature/LivingRoom/1 reading is: 39.78
+'/Sensor/IndoorTemperature/Bedroom/1' is now ON.
+/Sensor/IndoorTemperature/Bedroom/1 reading is: 35.17
+'/Sensor/IndoorTemperature/Bathroom/1' is now ON.
+/Sensor/IndoorTemperature/Bathroom/1 reading is: 39.36
+'/Sensor/OutdoorTemperature/Balcony/1' is now ON.
+/Sensor/OutdoorTemperature/Balcony/1 reading is: 20.28
+'/Sensor/Humidity/LivingRoom/1' is now ON.
+/Sensor/Humidity/LivingRoom/1 reading is: 21.47
+'/Sensor/Humidity/Bedroom/1' is now ON.
+/Sensor/Humidity/Bedroom/1 reading is: 22.68
+'/Sensor/Humidity/Kitchen/1' is now ON.
+/Sensor/Humidity/Kitchen/1 reading is: 28.76
+'/Sensor/Humidity/Bathroom/1' is now ON.
+/Sensor/Humidity/Bathroom/1 reading is: 20.16
+'/Sensor/Humidity/Balcony/1' is now ON.
+/Sensor/Humidity/Balcony/1 reading is: 21.78
+'/Sensor/LightIntensive/LivingRoom/1' is now ON.
+/Sensor/LightIntensive/LivingRoom/1 reading is: 974.69
+'/Sensor/LightIntensive/Bedroom/1' is now ON.
+/Sensor/LightIntensive/Bedroom/1 reading is: 978.61
+'/Sensor/Smoke/Kitchen/1' is now ON.
+/Sensor/Smoke/Kitchen/1 reading is: 79.38
+Set the target temperature of /Actuator/Heater/LivingRoom/1 to 25°C.
+/Actuator/Heater/LivingRoom/1 is turned off.
+Set the target temperature of /Actuator/Heater/Bedroom/1 to 25°C.
+/Actuator/Heater/Bedroom/1 is turned off.
+Set the target temperature of /Actuator/Heater/Kitchen/1 to 25°C.
+/Actuator/Heater/Kitchen/1 is turned off.
+Set the target temperature of /Actuator/Heater/Bathroom/1 to 25°C.
+/Actuator/Heater/Bathroom/1 is turned off.
+Set the target temperature of /Actuator/AC/LivingRoom/1 to 15°C.
+/Actuator/AC/LivingRoom/1 is turned on.
+Set the target temperature of /Actuator/AC/Bedroom/1 to 15°C.
+/Actuator/AC/Bedroom/1 is turned on.
+/Actuator/Light/LivingRoom/1 is turned off.
+/Actuator/Light/LivingRoom/2 is turned off.
+/Actuator/Light/Bedroom/1 is turned off.
+/Actuator/Light/Bedroom/2 is turned off.
+/Actuator/Light/Kitchen/1 is turned off.
+/Actuator/Light/Bathroom/1 is turned off.
+/Actuator/Window/LivingRoom/1 is turned on.
+/Actuator/Window/LivingRoom/2 is turned on.
+/Actuator/Window/Bedroom/1 is turned on.
+/Actuator/Window/Kitchen/1 is turned on.
+/Actuator/Window/Bathroom/1 is turned on.
+/Actuator/Curtain/LivingRoom/1 is turned on.
+/Actuator/Curtain/Bedroom/1 is turned on.
+
+---Home Plan---
+
+LivingRoom:
+Sensors:
+- /Sensor/LightIntensive/LivingRoom/1
+- /Sensor/IndoorTemperature/LivingRoom/1
+- /Sensor/Humidity/LivingRoom/1
+Actuators:
+- /Actuator/Door/LivingRoom/1
+- /Actuator/Light/LivingRoom/1
+- /Actuator/Light/LivingRoom/2
+- /Actuator/Window/LivingRoom/1
+- /Actuator/Window/LivingRoom/2
+- /Actuator/Curtain/LivingRoom/1
+- /Actuator/MusicPlayer/LivingRoom/1
+- /Actuator/SmartSocket/LivingRoom/1
+- /Actuator/SmartSocket/LivingRoom/2
+- /Actuator/CleaningRobot/LivingRoom/1
+- /Actuator/SmartTV/LivingRoom/1
+- /Actuator/NotificationSender/LivingRoom/1
+- /Actuator/AC/LivingRoom/1
+- /Actuator/Heater/LivingRoom/1
+- /Actuator/Humidifier/LivingRoom/1
+
+Bedroom:
+Sensors:
+- /Sensor/IndoorTemperature/Bedroom/1
+- /Sensor/Humidity/Bedroom/1
+- /Sensor/LightIntensive/Bedroom/1
+Actuators:
+- /Actuator/Light/Bedroom/1
+- /Actuator/Light/Bedroom/2
+- /Actuator/Window/Bedroom/1
+- /Actuator/Curtain/Bedroom/1
+- /Actuator/AC/Bedroom/1
+- /Actuator/Heater/Bedroom/1
+- /Actuator/MusicPlayer/Bedroom/1
+- /Actuator/Door/Bedroom/1
+- /Actuator/SmartSocket/Bedroom/1
+- /Actuator/SmartSocket/Bedroom/2
+- /Actuator/CleaningRobot/Bedroom/1
+- /Actuator/Humidifier/Bedroom/1
+
+Kitchen:
+Sensors:
+- /Sensor/Humidity/Kitchen/1
+- /Sensor/Smoke/Kitchen/1
+Actuators:
+- /Actuator/Light/Kitchen/1
+- /Actuator/Window/Kitchen/1
+- /Actuator/Heater/Kitchen/1
+- /Actuator/CoffeeMachine/Kitchen/1
+- /Actuator/SmartSocket/Kitchen/1
+- /Actuator/SmartSocket/Kitchen/2
+- /Actuator/SmartSocket/Kitchen/3
+- /Actuator/Door/Kitchen/1
+
+Bathroom:
+Sensors:
+- /Sensor/IndoorTemperature/Bathroom/1
+- /Sensor/Humidity/Bathroom/1
+Actuators:
+- /Actuator/Light/Bathroom/1
+- /Actuator/Window/Bathroom/1
+- /Actuator/Heater/Bathroom/1
+- /Actuator/Door/Bathroom/1
+- /Actuator/SmartSocket/Bathroom/1
+- /Actuator/SmartSocket/Bathroom/2
+
+Balcony:
+Sensors:
+- /Sensor/OutdoorTemperature/Balcony/1
+- /Sensor/Humidity/Balcony/1
+Actuators:
+- /Actuator/Door/Balcony/1
+'/Sensor/IndoorTemperature/LivingRoom/1' is now ON.
+/Sensor/IndoorTemperature/LivingRoom/1 reading is: 38.76
+'/Sensor/IndoorTemperature/Bedroom/1' is now ON.
+/Sensor/IndoorTemperature/Bedroom/1 reading is: 35.37
+'/Sensor/IndoorTemperature/Bathroom/1' is now ON.
+/Sensor/IndoorTemperature/Bathroom/1 reading is: 33.15
+'/Sensor/OutdoorTemperature/Balcony/1' is now ON.
+/Sensor/OutdoorTemperature/Balcony/1 reading is: 21.83
+'/Sensor/Humidity/LivingRoom/1' is now ON.
+/Sensor/Humidity/LivingRoom/1 reading is: 21.47
+'/Sensor/Humidity/Bedroom/1' is now ON.
+/Sensor/Humidity/Bedroom/1 reading is: 21.54
+'/Sensor/Humidity/Kitchen/1' is now ON.
+/Sensor/Humidity/Kitchen/1 reading is: 16.07
+'/Sensor/Humidity/Bathroom/1' is now ON.
+/Sensor/Humidity/Bathroom/1 reading is: 12.63
+'/Sensor/Humidity/Balcony/1' is now ON.
+/Sensor/Humidity/Balcony/1 reading is: 15.66
+'/Sensor/LightIntensive/LivingRoom/1' is now ON.
+/Sensor/LightIntensive/LivingRoom/1 reading is: 1121.41
+'/Sensor/LightIntensive/Bedroom/1' is now ON.
+/Sensor/LightIntensive/Bedroom/1 reading is: 925.48
+'/Sensor/Smoke/Kitchen/1' is now ON.
+/Sensor/Smoke/Kitchen/1 reading is: 79.08
+Set the target temperature of /Actuator/Heater/LivingRoom/1 to 25°C.
+/Actuator/Heater/LivingRoom/1 is turned off.
+Set the target temperature of /Actuator/Heater/Bedroom/1 to 25°C.
+/Actuator/Heater/Bedroom/1 is turned off.
+Set the target temperature of /Actuator/Heater/Kitchen/1 to 25°C.
+/Actuator/Heater/Kitchen/1 is turned off.
+Set the target temperature of /Actuator/Heater/Bathroom/1 to 25°C.
+/Actuator/Heater/Bathroom/1 is turned off.
+Set the target temperature of /Actuator/AC/LivingRoom/1 to 15°C.
+/Actuator/AC/LivingRoom/1 is turned on.
+Set the target temperature of /Actuator/AC/Bedroom/1 to 15°C.
+/Actuator/AC/Bedroom/1 is turned on.
+/Actuator/Light/LivingRoom/1 is turned off.
+/Actuator/Light/LivingRoom/2 is turned off.
+/Actuator/Light/Bedroom/1 is turned off.
+/Actuator/Light/Bedroom/2 is turned off.
+/Actuator/Light/Kitchen/1 is turned off.
+/Actuator/Light/Bathroom/1 is turned off.
+/Actuator/Window/LivingRoom/1 is turned on.
+/Actuator/Window/LivingRoom/2 is turned on.
+/Actuator/Window/Bedroom/1 is turned on.
+/Actuator/Window/Kitchen/1 is turned on.
+/Actuator/Window/Bathroom/1 is turned on.
+/Actuator/Curtain/LivingRoom/1 is turned on.
+/Actuator/Curtain/Bedroom/1 is turned on.
+
+Standard Error:

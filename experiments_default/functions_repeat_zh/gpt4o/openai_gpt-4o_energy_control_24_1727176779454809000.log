@@ -1,0 +1,18 @@
+Standard Output:
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/LivingRoom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/LightIntensive/LivingRoom/1 is Currently OFF. 
+
+Standard Error:
+2024-09-25 17:21:46,246 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/LivingRoom/1' is currently OFF. Cannot get reading.
+2024-09-25 17:21:46,246 - sensor.py - get_reading - WARNING - '/Sensor/LightIntensive/LivingRoom/1' is currently OFF. Cannot get reading.
+Traceback (most recent call last):
+  File "/Users/minghe/llm4faas/default_experiments/functions_repeat_zh/gpt4o/openai_gpt-4o_energy_control_24_1727176779454809000.py", line 62, in <module>
+    main()
+  File "/Users/minghe/llm4faas/default_experiments/functions_repeat_zh/gpt4o/openai_gpt-4o_energy_control_24_1727176779454809000.py", line 59, in main
+    energy_saving_mode(home)
+  File "/Users/minghe/llm4faas/default_experiments/functions_repeat_zh/gpt4o/openai_gpt-4o_energy_control_24_1727176779454809000.py", line 52, in energy_saving_mode
+    if indoor_temp > outdoor_temp and light_intensity >= 900:
+                     ^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'outdoor_temp' where it is not associated with a value
+
+Return code: 1

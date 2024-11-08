@@ -1,0 +1,12 @@
+Standard Output:
+
+Standard Error:
+Traceback (most recent call last):
+  File "/Users/minghe/llm4faas/default_experiments/functions_repeat_zh/gpt4o/openai_gpt-4o_plan_21_1727176406019323000.py", line 92, in <module>
+    main()
+  File "/Users/minghe/llm4faas/default_experiments/functions_repeat_zh/gpt4o/openai_gpt-4o_plan_21_1727176406019323000.py", line 84, in main
+    print_home_plan(home)
+    ^^^^^^^^^^^^^^^
+NameError: name 'print_home_plan' is not defined. Did you mean: 'leave_home_plan'?
+
+Return code: 1

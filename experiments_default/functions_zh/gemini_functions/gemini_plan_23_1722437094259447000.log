@@ -1,0 +1,16 @@
+Standard Output:
+--- Morning Plan ---
+We find LivingRoom!
+Cannot Get Sensor Reading, /Sensor/LightIntensive/LivingRoom/1 is Currently OFF. 
+
+Standard Error:
+2025-01-14 16:23:14,224 - sensor.py - get_reading - WARNING - '/Sensor/LightIntensive/LivingRoom/1' is currently OFF. Cannot get reading.
+Traceback (most recent call last):
+  File "/Users/minghe/llm4faas/experiments_default/functions_zh/gemini_functions/gemini_plan_23_1722437094259447000.py", line 80, in <module>
+    morning_plan(home)
+  File "/Users/minghe/llm4faas/experiments_default/functions_zh/gemini_functions/gemini_plan_23_1722437094259447000.py", line 19, in morning_plan
+    if light_intensity >= 400:
+       ^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '>=' not supported between instances of 'NoneType' and 'int'
+
+Return code: 1

@@ -1,0 +1,12 @@
+Standard Output:
+
+Standard Error:
+Traceback (most recent call last):
+  File "/Users/minghe/llm4faas/experiments_default/functions_zh/azure_openai_gpt3516k_functions/azure_gpt-35-turbo-16k_auto_adapt_8.py", line 56, in <module>
+    main()
+  File "/Users/minghe/llm4faas/experiments_default/functions_zh/azure_openai_gpt3516k_functions/azure_gpt-35-turbo-16k_auto_adapt_8.py", line 8, in main
+    temperature_sensors = get_all_sensors("IndoorTemperature")
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: get_all_sensors() missing 1 required positional argument: 'sensor_type'
+
+Return code: 1

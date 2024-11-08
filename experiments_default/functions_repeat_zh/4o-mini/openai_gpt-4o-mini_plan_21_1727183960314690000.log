@@ -1,0 +1,24 @@
+Standard Output:
+Executing Morning Plan.
+/Actuator/Curtain/LivingRoom/1 is turned on.
+/Actuator/CoffeeMachine/Kitchen/1 is turned on.
+'/Sensor/LightIntensive/LivingRoom/1' is now ON.
+/Sensor/LightIntensive/LivingRoom/1 reading is: 1072.64
+/Actuator/Light/LivingRoom/1 is turned off.
+Executing Leave Home Plan.
+Lock the door /Actuator/Door/LivingRoom/1.
+/Actuator/Light/LivingRoom/1 is turned off.
+/Actuator/Light/LivingRoom/2 is turned off.
+
+Standard Error:
+Traceback (most recent call last):
+  File "/Users/minghe/llm4faas/functions_repeat/openai_gpt-4o-mini_plan_21_1727183960314690000.py", line 103, in <module>
+    main()
+  File "/Users/minghe/llm4faas/functions_repeat/openai_gpt-4o-mini_plan_21_1727183960314690000.py", line 99, in main
+    leave_home_plan(home)
+  File "/Users/minghe/llm4faas/functions_repeat/openai_gpt-4o-mini_plan_21_1727183960314690000.py", line 68, in leave_home_plan
+    smart_sockets = [actuator for actuator in living_room.actuators if isinstance(actuator, SmartSocket)]
+                                                                                            ^^^^^^^^^^^
+NameError: name 'SmartSocket' is not defined. Did you mean: 'smart_sockets'?
+
+Return code: 1

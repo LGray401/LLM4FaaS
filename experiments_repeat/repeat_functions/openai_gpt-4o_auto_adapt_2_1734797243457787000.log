@@ -1,0 +1,49 @@
+Standard Output:
+'/Sensor/IndoorTemperature/LivingRoom/1' is now ON.
+/Sensor/IndoorTemperature/LivingRoom/1 reading is: 31.34
+Temperature in LivingRoom is 31.34°C, turning on AC and closing windows.
+Set the target temperature of /Actuator/AC/LivingRoom/1 to 25°C.
+/Actuator/AC/LivingRoom/1 is turned on.
+/Actuator/Window/LivingRoom/1 is turned off.
+/Actuator/Window/LivingRoom/2 is turned off.
+'/Sensor/IndoorTemperature/Bedroom/1' is now ON.
+/Sensor/IndoorTemperature/Bedroom/1 reading is: 37.44
+Temperature in Bedroom is 37.44°C, turning on AC and closing windows.
+Set the target temperature of /Actuator/AC/Bedroom/1 to 25°C.
+/Actuator/AC/Bedroom/1 is turned on.
+/Actuator/Window/Bedroom/1 is turned off.
+'/Sensor/IndoorTemperature/Bathroom/1' is now ON.
+/Sensor/IndoorTemperature/Bathroom/1 reading is: 38.25
+Temperature in Bathroom is 38.25°C, turning on AC and closing windows.
+/Actuator/Window/Bathroom/1 is turned off.
+'/Sensor/Humidity/LivingRoom/1' is now ON.
+/Sensor/Humidity/LivingRoom/1 reading is: 25.15
+Humidity in LivingRoom is 25.15%, turning on humidifier.
+/Actuator/Humidifier/LivingRoom/1 is turned on.
+'/Sensor/Humidity/Bedroom/1' is now ON.
+/Sensor/Humidity/Bedroom/1 reading is: 22.38
+Humidity in Bedroom is 22.38%, turning on humidifier.
+/Actuator/Humidifier/Bedroom/1 is turned on.
+'/Sensor/Humidity/Kitchen/1' is now ON.
+/Sensor/Humidity/Kitchen/1 reading is: 18.25
+Humidity in Kitchen is 18.25%, turning on humidifier.
+'/Sensor/Humidity/Bathroom/1' is now ON.
+/Sensor/Humidity/Bathroom/1 reading is: 23.61
+Humidity in Bathroom is 23.61%, turning on humidifier.
+'/Sensor/Humidity/Balcony/1' is now ON.
+/Sensor/Humidity/Balcony/1 reading is: 25.91
+Humidity in Balcony is 25.91%, turning on humidifier.
+'/Sensor/LightIntensive/LivingRoom/1' is now ON.
+/Sensor/LightIntensive/LivingRoom/1 reading is: 981.94
+Light intensity in LivingRoom is 981.94 lux, adjusting lights.
+/Actuator/Light/LivingRoom/1 is turned off.
+/Actuator/Light/LivingRoom/2 is turned off.
+'/Sensor/LightIntensive/Bedroom/1' is now ON.
+/Sensor/LightIntensive/Bedroom/1 reading is: 1137.94
+Light intensity in Bedroom is 1137.94 lux, adjusting lights.
+/Actuator/Light/Bedroom/1 is turned off.
+/Actuator/Light/Bedroom/2 is turned off.
+
+Standard Error:
+
+Return code: 0

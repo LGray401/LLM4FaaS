@@ -1,0 +1,9 @@
+Standard Output:
+
+Standard Error:
+Traceback (most recent call last):
+  File "/Users/minghe/llm4faas/experiments_default/functions_en/llama31_en_functions/llama3.1_remote_control_18.py", line 29, in <module>
+    from config import TEMP_CHANGE_DURATION_WINDOW, TEMP_LOW, TEMP_HIGH, HUMIDITY_LOW, HUMIDITY_HIGH, LIGHT_INTENSITY_LOW, LIGHT_INTENSITY_HIGH
+ModuleNotFoundError: No module named 'config'
+
+Return code: 1

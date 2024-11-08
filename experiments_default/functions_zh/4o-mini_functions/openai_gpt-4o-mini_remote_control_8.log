@@ -1,0 +1,10 @@
+Standard Output:
+/Actuator/AC/LivingRoom/1 is turned on.
+Set the target temperature of /Actuator/AC/LivingRoom/1 to 17°C.
+AC is set to 17°C.
+/Actuator/Light/LivingRoom/1 is turned on.
+Set /Actuator/Light/LivingRoom/1 light brightness level to HIGH
+
+Standard Error:
+
+Return code: 0

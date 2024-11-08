@@ -1,0 +1,23 @@
+Standard Output:
+Executing Morning Plan...
+/Actuator/Light/Bedroom/1 is turned on.
+/Actuator/Light/Bedroom/2 is turned on.
+/Actuator/Curtain/Bedroom/1 is turned on.
+/Actuator/MusicPlayer/Bedroom/1 is turned on.
+/Actuator/MusicPlayer/Bedroom/1 start playing Morning Playlist
+/Actuator/CoffeeMachine/Kitchen/1 is turned on.
+/Actuator/CoffeeMachine/Kitchen/1 Start making Espresso
+Executing Leave Home Plan...
+
+Standard Error:
+Traceback (most recent call last):
+  File "/Users/minghe/llm4faas/experiments_default/functions_en/gpt-4o_en_functions/plans/openai_gpt-4o_plan_22.py", line 82, in <module>
+    main()
+  File "/Users/minghe/llm4faas/experiments_default/functions_en/gpt-4o_en_functions/plans/openai_gpt-4o_plan_22.py", line 76, in main
+    leave_home_plan(home)
+  File "/Users/minghe/llm4faas/experiments_default/functions_en/gpt-4o_en_functions/plans/openai_gpt-4o_plan_22.py", line 35, in leave_home_plan
+    all_lights = get_all_actuators(home, "Light")
+                 ^^^^^^^^^^^^^^^^^
+NameError: name 'get_all_actuators' is not defined. Did you mean: 'get_room_actuators'?
+
+Return code: 1

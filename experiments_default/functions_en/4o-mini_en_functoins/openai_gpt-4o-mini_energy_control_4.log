@@ -1,0 +1,10 @@
+Standard Output:
+'/Sensor/OutdoorTemperature/Balcony/1' is now ON.
+/Sensor/OutdoorTemperature/Balcony/1 reading is: 21.94
+/Sensor/OutdoorTemperature/Balcony/1 is now OFF.
+Outdoor temperature is 21.94°C.
+Outdoor temperature is not low enough to open windows.
+
+Standard Error:
+
+Return code: 0

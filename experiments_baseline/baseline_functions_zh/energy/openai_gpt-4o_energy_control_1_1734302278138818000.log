@@ -1,0 +1,34 @@
+Standard Output:
+Smart home system initializing...
+Turning off Light in Living Room
+Turning off Light in Living Room
+Turning off Socket in Living Room
+Turning off Socket in Living Room
+Turning off Heater in Living Room
+Turning off AC in Living Room
+Turning off Humidifier in Living Room
+Turning off Music Player in Living Room
+Turning off TV in Living Room
+Turning off Light in Bedroom
+Turning off Light in Bedroom
+Turning off AC in Bedroom
+Turning off Heater in Bedroom
+Turning off Music Player in Bedroom
+Turning off Socket in Bedroom
+Turning off Socket in Bedroom
+Turning off Humidifier in Bedroom
+Turning off Light in Bathroom
+Turning off Heater in Bathroom
+Turning off Socket in Bathroom
+Turning off Socket in Bathroom
+Turning off Light in Kitchen
+Turning off Heater in Kitchen
+Turning off Coffee Machine in Kitchen
+Turning off Socket in Kitchen
+Turning off Socket in Kitchen
+Turning off Socket in Kitchen
+All unnecessary devices turned off.
+
+Standard Error:
+
+Return code: 0

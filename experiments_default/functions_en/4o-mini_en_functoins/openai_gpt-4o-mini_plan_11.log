@@ -1,0 +1,9 @@
+Standard Output:
+'/Sensor/OutdoorTemperature/Balcony/1' is now ON.
+/Sensor/OutdoorTemperature/Balcony/1 reading is: 24.4
+/Actuator/SmartTV/LivingRoom/1 is turned on.
+Start playing Movie Channel on the /Actuator/SmartTV/LivingRoom/1 in LivingRoom
+
+Standard Error:
+
+Return code: 0

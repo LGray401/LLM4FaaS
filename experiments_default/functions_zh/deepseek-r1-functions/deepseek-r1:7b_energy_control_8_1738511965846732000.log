@@ -1,0 +1,9 @@
+Standard Output:
+
+Standard Error:
+Traceback (most recent call last):
+  File "/Users/minghe/llm4faas/experiments_default/functions_zh/deepseek-r1-functions/deepseek-r1:7b_energy_control_8_1738511965846732000.py", line 54, in <module>
+    from sensors import LightIntensitySensor, TemperatureSensor
+ModuleNotFoundError: No module named 'sensors'
+
+Return code: 1

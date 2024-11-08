@@ -1,0 +1,19 @@
+Standard Output:
+We find Bedroom!
+/Actuator/Light/Bedroom/1 is turned on.
+Set /Actuator/Light/Bedroom/1 light brightness level to MEDIUM
+/Actuator/Light/Bedroom/2 is turned on.
+Set /Actuator/Light/Bedroom/2 light brightness level to MEDIUM
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/Bedroom/1 is Currently OFF. 
+
+Standard Error:
+2025-01-20 22:27:11,918 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/Bedroom/1' is currently OFF. Cannot get reading.
+Traceback (most recent call last):
+  File "/Users/minghe/llm4faas/experiments_mandarin/baidu_functions/plans/zhipu_ernie-4.0-turbo-8k_plan_8_1731070985247665000.py", line 96, in <module>
+    morning_plan()
+  File "/Users/minghe/llm4faas/experiments_mandarin/baidu_functions/plans/zhipu_ernie-4.0-turbo-8k_plan_8_1731070985247665000.py", line 23, in morning_plan
+    if sensor.room_name == "Bedroom" and sensor.get_reading() < 15:
+                                         ^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<' not supported between instances of 'NoneType' and 'int'
+
+Return code: 1

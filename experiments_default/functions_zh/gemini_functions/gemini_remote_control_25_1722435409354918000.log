@@ -1,0 +1,12 @@
+Standard Output:
+
+Standard Error:
+Traceback (most recent call last):
+  File "/Users/minghe/llm4faas/experiments_default/functions_zh/gemini_functions/gemini_remote_control_25_1722435409354918000.py", line 45, in <module>
+    main()
+  File "/Users/minghe/llm4faas/experiments_default/functions_zh/gemini_functions/gemini_remote_control_25_1722435409354918000.py", line 18, in main
+    target = words[1]
+             ~~~~~^^^
+IndexError: list index out of range
+
+Return code: 1

@@ -1,0 +1,9 @@
+Standard Output:
+
+Standard Error:
+Traceback (most recent call last):
+  File "/Users/minghe/llm4faas/experiments_repeat/repeat_functions_4o-mini/openai_gpt-4o-mini_remote_control_7_1737409737203470000.py", line 7, in <module>
+    from home.config import config
+ImportError: cannot import name 'config' from 'home.config' (/Users/minghe/llm4faas/home/config.py)
+
+Return code: 1

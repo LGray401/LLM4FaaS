@@ -1,0 +1,18 @@
+Standard Output:
+We find LivingRoom!
+We find Bedroom!
+We find Bathroom!
+
+Standard Error:
+Traceback (most recent call last):
+  File "/Users/minghe/llm4faas/experiments_default/functions_en/gemini_en_functions/gemini_remote_control_22_1725291068155839000.py", line 44, in <module>
+    main()
+  File "/Users/minghe/llm4faas/experiments_default/functions_en/gemini_en_functions/gemini_remote_control_22_1725291068155839000.py", line 12, in main
+    living_room_lights = get_room_actuators(living_room, "Light")
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/minghe/llm4faas/home/home_plan.py", line 100, in get_room_actuators
+    for room in home:
+                ^^^^
+TypeError: 'Room' object is not iterable
+
+Return code: 1

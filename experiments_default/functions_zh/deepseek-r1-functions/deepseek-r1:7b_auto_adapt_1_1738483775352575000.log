@@ -1,0 +1,10 @@
+Standard Output:
+
+Standard Error:
+Traceback (most recent call last):
+  File "/Users/minghe/llm4faas/experiments_default/functions_zh/deepseek-r1-functions/deepseek-r1:7b_auto_adapt_1_1738483775352575000.py", line 126, in <module>
+    living_room = create_room_with_components(LightIntensiveSensor, Door, 'Living Room', ...)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'create_room_with_components' is not defined
+
+Return code: 1

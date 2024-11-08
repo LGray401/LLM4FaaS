@@ -1,0 +1,19 @@
+Standard Output:
+
+---Home Plan---
+
+Standard Error:
+Traceback (most recent call last):
+  File "/Users/minghe/llm4faas/experiments_default/functions_zh/gemini_functions/gemini_remote_control_9_1722435676263510000.py", line 208, in <module>
+    main()
+  File "/Users/minghe/llm4faas/experiments_default/functions_zh/gemini_functions/gemini_remote_control_9_1722435676263510000.py", line 173, in main
+    initialize_home()
+  File "/Users/minghe/llm4faas/experiments_default/functions_zh/gemini_functions/gemini_remote_control_9_1722435676263510000.py", line 21, in initialize_home
+    home = print_home_plan(home)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/minghe/llm4faas/home/home_plan.py", line 71, in print_home_plan
+    for room in home:
+                ^^^^
+TypeError: 'NoneType' object is not iterable
+
+Return code: 1

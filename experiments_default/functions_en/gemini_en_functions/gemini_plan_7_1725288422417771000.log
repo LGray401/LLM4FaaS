@@ -1,0 +1,19 @@
+Standard Output:
+Good morning! It's 16:55. Time to wake up!
+We find LivingRoom!
+
+Standard Error:
+Traceback (most recent call last):
+  File "/Users/minghe/llm4faas/experiments_default/functions_en/gemini_en_functions/gemini_plan_7_1725288422417771000.py", line 175, in <module>
+    main()
+  File "/Users/minghe/llm4faas/experiments_default/functions_en/gemini_en_functions/gemini_plan_7_1725288422417771000.py", line 165, in main
+    morning_plan(home)
+  File "/Users/minghe/llm4faas/experiments_default/functions_en/gemini_en_functions/gemini_plan_7_1725288422417771000.py", line 22, in morning_plan
+    music_player = get_room_actuators(living_room, "MusicPlayer")[0]
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/minghe/llm4faas/home/home_plan.py", line 100, in get_room_actuators
+    for room in home:
+                ^^^^
+TypeError: 'Room' object is not iterable
+
+Return code: 1

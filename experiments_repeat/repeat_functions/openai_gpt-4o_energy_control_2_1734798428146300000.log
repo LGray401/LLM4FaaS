@@ -1,0 +1,15 @@
+Standard Output:
+/Actuator/AC/LivingRoom/1 current status is off
+/Actuator/AC/Bedroom/1 current status is off
+/Sensor/IndoorTemperature/LivingRoom/1 current status is: off
+/Sensor/IndoorTemperature/Bedroom/1 current status is: off
+/Sensor/IndoorTemperature/Bathroom/1 current status is: off
+/Sensor/LightIntensive/LivingRoom/1 current status is: off
+/Sensor/LightIntensive/Bedroom/1 current status is: off
+/Actuator/MusicPlayer/LivingRoom/1 is turned off.
+/Actuator/MusicPlayer/Bedroom/1 is turned off.
+/Actuator/SmartTV/LivingRoom/1 is turned off.
+
+Standard Error:
+
+Return code: 0

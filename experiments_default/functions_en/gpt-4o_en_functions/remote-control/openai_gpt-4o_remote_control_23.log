@@ -1,0 +1,53 @@
+Standard Output:
+Configuring LivingRoom...
+'/Sensor/LightIntensive/LivingRoom/1' is now ON.
+'/Sensor/IndoorTemperature/LivingRoom/1' is now ON.
+'/Sensor/Humidity/LivingRoom/1' is now ON.
+/Sensor/LightIntensive/LivingRoom/1 reading is: 963.33
+/Actuator/Light/LivingRoom/1 is turned off.
+/Actuator/Light/LivingRoom/2 is turned off.
+/Sensor/IndoorTemperature/LivingRoom/1 reading is: 34.62
+Set the target temperature of /Actuator/AC/LivingRoom/1 to 15°C.
+/Actuator/AC/LivingRoom/1 is turned on.
+Set the target temperature of /Actuator/Heater/LivingRoom/1 to 25°C.
+/Actuator/Heater/LivingRoom/1 is turned off.
+/Sensor/Humidity/LivingRoom/1 reading is: 23.83
+/Actuator/Humidifier/LivingRoom/1 is turned on.
+/Actuator/Humidifier/LivingRoom/1 Increasing humidity in LivingRoom
+Configuring Bedroom...
+'/Sensor/IndoorTemperature/Bedroom/1' is now ON.
+'/Sensor/Humidity/Bedroom/1' is now ON.
+'/Sensor/LightIntensive/Bedroom/1' is now ON.
+/Sensor/IndoorTemperature/Bedroom/1 reading is: 33.1
+Set the target temperature of /Actuator/AC/Bedroom/1 to 15°C.
+/Actuator/AC/Bedroom/1 is turned on.
+Set the target temperature of /Actuator/Heater/Bedroom/1 to 25°C.
+/Actuator/Heater/Bedroom/1 is turned off.
+/Sensor/Humidity/Bedroom/1 reading is: 16.39
+/Actuator/Humidifier/Bedroom/1 is turned on.
+/Actuator/Humidifier/Bedroom/1 Increasing humidity in Bedroom
+/Sensor/LightIntensive/Bedroom/1 reading is: 1045.91
+/Actuator/Light/Bedroom/1 is turned off.
+/Actuator/Light/Bedroom/2 is turned off.
+Configuring Kitchen...
+'/Sensor/Humidity/Kitchen/1' is now ON.
+'/Sensor/Smoke/Kitchen/1' is now ON.
+/Sensor/Humidity/Kitchen/1 reading is: 25.53
+/Sensor/Smoke/Kitchen/1 reading is: 88.0
+Configuring Bathroom...
+'/Sensor/IndoorTemperature/Bathroom/1' is now ON.
+'/Sensor/Humidity/Bathroom/1' is now ON.
+/Sensor/IndoorTemperature/Bathroom/1 reading is: 38.29
+Set the target temperature of /Actuator/Heater/Bathroom/1 to 25°C.
+/Actuator/Heater/Bathroom/1 is turned off.
+/Sensor/Humidity/Bathroom/1 reading is: 28.9
+Configuring Balcony...
+'/Sensor/OutdoorTemperature/Balcony/1' is now ON.
+'/Sensor/Humidity/Balcony/1' is now ON.
+/Sensor/OutdoorTemperature/Balcony/1 reading is: 23.55
+/Sensor/Humidity/Balcony/1 reading is: 21.15
+Home configuration complete.
+
+Standard Error:
+
+Return code: 0

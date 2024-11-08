@@ -1,0 +1,20 @@
+Standard Output:
+
+Living Room Conditions: {'Temperature': 18, 'Humidity': 43, 'Light Intensity': 17}
+Actions: Turn on Heater, Turn on Humidifier
+
+Bedroom Conditions: {'Temperature': 16, 'Humidity': 55, 'Light Intensity': 11}
+Actions: Turn on Heater, Turn on Light
+
+Bathroom Conditions: {'Temperature': 21, 'Humidity': 51}
+No actions needed.
+
+Kitchen Conditions: {'Humidity': 57, 'Smoke': False}
+No actions needed.
+
+Balcony Conditions: {'Temperature': 19, 'Humidity': 57}
+No actions needed.
+
+Standard Error:
+
+Return code: 0

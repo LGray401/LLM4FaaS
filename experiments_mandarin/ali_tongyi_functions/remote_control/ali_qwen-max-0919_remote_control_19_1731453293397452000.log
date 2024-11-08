@@ -1,0 +1,8 @@
+Standard Output:
+Set the target temperature of /Actuator/AC/LivingRoom/1 to 26°C.
+/Actuator/AC/LivingRoom/1 is turned on.
+/Actuator/AC/LivingRoom/1 current status is on
+
+Standard Error:
+
+Return code: 0

@@ -1,0 +1,22 @@
+Standard Output:
+there is no Actuator found in AC
+there is no Actuator found in Window
+there is no Actuator found in Door
+there is no Actuator found in IndoorTemperature
+there is no Actuator found in OutdoorTemperature
+
+Standard Error:
+2025-01-14 17:07:32,589 - home_plan.py - get_room_actuators - WARNING - there is no Actuator found in AC
+2025-01-14 17:07:32,589 - home_plan.py - get_room_actuators - WARNING - there is no Actuator found in Window
+2025-01-14 17:07:32,589 - home_plan.py - get_room_actuators - WARNING - there is no Actuator found in Door
+2025-01-14 17:07:32,589 - home_plan.py - get_room_actuators - WARNING - there is no Actuator found in IndoorTemperature
+2025-01-14 17:07:32,589 - home_plan.py - get_room_actuators - WARNING - there is no Actuator found in OutdoorTemperature
+Traceback (most recent call last):
+  File "/Users/minghe/llm4faas/experiments_repeat/repeat_functions/openai_gpt-4o_energy_control_7_1734798138137539000.py", line 62, in <module>
+    main()
+  File "/Users/minghe/llm4faas/experiments_repeat/repeat_functions/openai_gpt-4o_energy_control_7_1734798138137539000.py", line 34, in main
+    for ac in ac_units:
+              ^^^^^^^^
+TypeError: 'NoneType' object is not iterable
+
+Return code: 1

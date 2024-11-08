@@ -1,0 +1,17 @@
+Standard Output:
+/Actuator/AC/LivingRoom/1 current status is off
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/LivingRoom/1 is Currently OFF. 
+
+Standard Error:
+2025-01-14 17:02:33,203 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/LivingRoom/1' is currently OFF. Cannot get reading.
+Traceback (most recent call last):
+  File "/Users/minghe/llm4faas/experiments_default/functions_en/copilot_en_functions/energy-control/copilot_energy_26.py", line 50, in <module>
+    main()
+  File "/Users/minghe/llm4faas/experiments_default/functions_en/copilot_en_functions/energy-control/copilot_energy_26.py", line 47, in main
+    control_temperature_and_windows(home)
+  File "/Users/minghe/llm4faas/experiments_default/functions_en/copilot_en_functions/energy-control/copilot_energy_26.py", line 42, in control_temperature_and_windows
+    if indoor_temp_sensor.get_reading() > 26 and outdoor_temp_sensor.get_reading() < 26:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '>' not supported between instances of 'NoneType' and 'int'
+
+Return code: 1

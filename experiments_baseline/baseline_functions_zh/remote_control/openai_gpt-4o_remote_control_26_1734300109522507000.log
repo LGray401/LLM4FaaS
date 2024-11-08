@@ -1,0 +1,12 @@
+Standard Output:
+Usage: python smart_home.py <device> <action>
+Available devices:
+Living Room: Light, Light, Window, Window, Socket, Socket, Door, Heater, AC, Curtain, Humidifier, Cleaning Robot, Music Player, TV, Notification Sender
+Bedroom: Light, Light, Window, Curtain, AC, Heater, Music Player, Door, Socket, Socket, Cleaning Robot, Humidifier
+Bathroom: Light, Window, Heater, Door, Socket, Socket
+Kitchen: Light, Window, Heater, Coffee Machine, Socket, Socket, Socket, Door
+Balcony: Door
+
+Standard Error:
+
+Return code: 0

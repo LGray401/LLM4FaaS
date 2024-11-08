@@ -1,0 +1,9 @@
+Standard Output:
+
+Standard Error:
+Traceback (most recent call last):
+  File "/Users/minghe/llm4faas/experiments_default/functions_zh/copilot_functions/autoadapt/copilot_auto-adapt_2.py", line 19, in <module>
+    from home_plan import home_plan, get_all_sensors, get_all_actuators
+ModuleNotFoundError: No module named 'home_plan'
+
+Return code: 1

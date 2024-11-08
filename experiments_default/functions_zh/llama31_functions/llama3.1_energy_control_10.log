@@ -1,0 +1,16 @@
+Standard Output:
+
+Standard Error:
+Traceback (most recent call last):
+  File "/Users/minghe/llm4faas/experiments_default/functions_zh/llama31_functions/llama3.1_energy_control_10.py", line 72, in <module>
+    home = home_plan()
+           ^^^^^^^^^^^
+  File "/Users/minghe/llm4faas/experiments_default/functions_zh/llama31_functions/llama3.1_energy_control_10.py", line 64, in home_plan
+    create_room_with_components("LivingRoom", ["LightIntensiveSensor"], ["Door"]),
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/minghe/llm4faas/experiments_default/functions_zh/llama31_functions/llama3.1_energy_control_10.py", line 53, in create_room_with_components
+    room.add_sensor(sensor_type)
+    ^^^^^^^^^^^^^^^
+AttributeError: 'Room' object has no attribute 'add_sensor'
+
+Return code: 1

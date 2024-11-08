@@ -1,0 +1,28 @@
+Standard Output:
+
+--- MORNING PLAN ---
+/Actuator/Curtain/LivingRoom/1 is turned on.
+Curtains drawn in the Living Room.
+/Actuator/MusicPlayer/LivingRoom/1 is turned on.
+/Actuator/MusicPlayer/LivingRoom/1 start playing Morning Playlist
+
+--- LEAVE HOME PLAN ---
+/Actuator/Light/LivingRoom/1 is turned off.
+/Actuator/Light/LivingRoom/2 is turned off.
+Lock the door /Actuator/Door/LivingRoom/1.
+/Actuator/SmartSocket/LivingRoom/1 is turned off.
+/Actuator/SmartSocket/LivingRoom/2 is turned off.
+
+--- MOVIE PLAN ---
+/Actuator/Curtain/LivingRoom/1 is turned on.
+Curtains closed in the Living Room.
+Light /Actuator/Light/LivingRoom/1 is OFF. Please turn it on before setting the brightness level.
+Light /Actuator/Light/LivingRoom/2 is OFF. Please turn it on before setting the brightness level.
+/Actuator/SmartTV/LivingRoom/1 is turned on.
+Start playing Favorite Show on the /Actuator/SmartTV/LivingRoom/1 in LivingRoom
+
+Standard Error:
+2025-01-10 14:37:40,465 - actuator.py - set_brightness_level - WARNING - Light /Actuator/Light/LivingRoom/1 is OFF. Please turn it on before setting the brightness level.
+2025-01-10 14:37:40,465 - actuator.py - set_brightness_level - WARNING - Light /Actuator/Light/LivingRoom/2 is OFF. Please turn it on before setting the brightness level.
+
+Return code: 0

@@ -1,0 +1,12 @@
+Standard Output:
+
+Standard Error:
+Traceback (most recent call last):
+  File "/Users/minghe/llm4faas/experiments_repeat/repeat_functions_4o-mini/openai_gpt-4o-mini_auto_adapt_7_1737409552061039000.py", line 60, in <module>
+    main()
+  File "/Users/minghe/llm4faas/experiments_repeat/repeat_functions_4o-mini/openai_gpt-4o-mini_auto_adapt_7_1737409552061039000.py", line 25, in main
+    if isinstance(sensor, IndoorTemperatureSensor):
+                          ^^^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'IndoorTemperatureSensor' is not defined
+
+Return code: 1

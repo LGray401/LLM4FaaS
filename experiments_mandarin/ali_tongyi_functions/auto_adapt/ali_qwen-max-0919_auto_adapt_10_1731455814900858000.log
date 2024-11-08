@@ -1,0 +1,22 @@
+Standard Output:
+'/Sensor/IndoorTemperature/LivingRoom/1' is now ON.
+'/Sensor/IndoorTemperature/Bedroom/1' is now ON.
+'/Sensor/IndoorTemperature/Bathroom/1' is now ON.
+'/Sensor/Humidity/LivingRoom/1' is now ON.
+'/Sensor/Humidity/Bedroom/1' is now ON.
+'/Sensor/Humidity/Kitchen/1' is now ON.
+'/Sensor/Humidity/Bathroom/1' is now ON.
+'/Sensor/Humidity/Balcony/1' is now ON.
+'/Sensor/LightIntensive/LivingRoom/1' is now ON.
+'/Sensor/LightIntensive/Bedroom/1' is now ON.
+
+Standard Error:
+Traceback (most recent call last):
+  File "/Users/minghe/llm4faas/experiments_mandarin/ali_tongyi_functions/auto_adapt/ali_qwen-max-0919_auto_adapt_10_1731455814900858000.py", line 100, in <module>
+    main()
+  File "/Users/minghe/llm4faas/experiments_mandarin/ali_tongyi_functions/auto_adapt/ali_qwen-max-0919_auto_adapt_10_1731455814900858000.py", line 51, in main
+    temp_sensors = get_room_sensors(home, room.name, "IndoorTemperature")
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: get_room_sensors() takes 2 positional arguments but 3 were given
+
+Return code: 1

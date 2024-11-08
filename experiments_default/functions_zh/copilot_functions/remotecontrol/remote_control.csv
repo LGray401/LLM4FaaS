@@ -1,0 +1,27 @@
+Timestamp,Model Name,Task Name,User Answer Index,Success Rate (%),Error Status,Unmatched Lines,Log File Path
+,copilot,remote_control,19,1.0000,No Error & Warning,[],/Users/minghe/llm4faas/experiments_default/functions_zh/copilot_functions/remotecontrol/copilot_remote_control_19.log
+,copilot,remote_control,25,0.4000,Warning Exists,"['/Actuator/Light/LivingRoom/2 is turned off.', 'Set /Actuator/Light/Bedroom/1 light brightness level to LOW', 'Set /Actuator/Light/Bedroom/2 light brightness level to LOW']",/Users/minghe/llm4faas/experiments_default/functions_zh/copilot_functions/remotecontrol/copilot_remote_control_25.log
+,copilot,remote_control,8,1.0000,No Error & Warning,[],/Users/minghe/llm4faas/experiments_default/functions_zh/copilot_functions/remotecontrol/copilot_remote_control_8.log
+,copilot,remote_control,9,0.0000,Error,,/Users/minghe/llm4faas/experiments_default/functions_zh/copilot_functions/remotecontrol/copilot_remote_control_9.log
+,copilot,remote_control,24,1.0000,No Error & Warning,[],/Users/minghe/llm4faas/experiments_default/functions_zh/copilot_functions/remotecontrol/copilot_remote_control_24.log
+,copilot,remote_control,18,0.0000,Error,,/Users/minghe/llm4faas/experiments_default/functions_zh/copilot_functions/remotecontrol/copilot_remote_control_18.log
+,copilot,remote_control,26,0.0000,Error,,/Users/minghe/llm4faas/experiments_default/functions_zh/copilot_functions/remotecontrol/copilot_remote_control_26.log
+,copilot,remote_control,23,0.0000,Error,,/Users/minghe/llm4faas/experiments_default/functions_zh/copilot_functions/remotecontrol/copilot_remote_control_23.log
+,copilot,remote_control,22,1.0000,No Error & Warning,[],/Users/minghe/llm4faas/experiments_default/functions_zh/copilot_functions/remotecontrol/copilot_remote_control_22.log
+,copilot,remote_control,20,0.0000,Error,,/Users/minghe/llm4faas/experiments_default/functions_zh/copilot_functions/remotecontrol/copilot_remote_control_20.log
+,copilot,remote_control,21,0.8333,No Error & Warning,['/Actuator/CoffeeMachine/Kitchen/1'],/Users/minghe/llm4faas/experiments_default/functions_zh/copilot_functions/remotecontrol/copilot_remote_control_21.log
+,copilot,remote_control,10,0.0000,Error,,/Users/minghe/llm4faas/experiments_default/functions_zh/copilot_functions/remotecontrol/copilot_remote_control_10.log
+,copilot,remote_control,1,1.0000,No Error & Warning,[],/Users/minghe/llm4faas/experiments_default/functions_zh/copilot_functions/remotecontrol/copilot_remote_control_1.log
+,copilot,remote_control,11,0.0000,Error,,/Users/minghe/llm4faas/experiments_default/functions_zh/copilot_functions/remotecontrol/copilot_remote_control_11.log
+,copilot,remote_control,13,0.0000,Error,,/Users/minghe/llm4faas/experiments_default/functions_zh/copilot_functions/remotecontrol/copilot_remote_control_13.log
+,copilot,remote_control,2,0.2500,Warning Exists,"['Set /Actuator/Light/LivingRoom/1 light brightness level to HIGH || Set /Actuator/Light/LivingRoom/2 light brightness level to HIGH', 'Set /Actuator/Light/Bedroom/1 light brightness level to LOW || Set /Actuator/Light/Bedroom/2 light brightness level to LOW', '/Actuator/MusicPlayer/LivingRoom/1 start playing']",/Users/minghe/llm4faas/experiments_default/functions_zh/copilot_functions/remotecontrol/copilot_remote_control_2.log
+,copilot,remote_control,3,0.0000,Error,,/Users/minghe/llm4faas/experiments_default/functions_zh/copilot_functions/remotecontrol/copilot_remote_control_3.log
+,copilot,remote_control,12,1.0000,No Error & Warning,[],/Users/minghe/llm4faas/experiments_default/functions_zh/copilot_functions/remotecontrol/copilot_remote_control_12.log
+,copilot,remote_control,16,0.0000,Invalid Prompt,,/Users/minghe/llm4faas/experiments_default/functions_zh/copilot_functions/remotecontrol/copilot_remote_control_16.log
+,copilot,remote_control,7,0.0000,Error,,/Users/minghe/llm4faas/experiments_default/functions_zh/copilot_functions/remotecontrol/copilot_remote_control_7.log
+,copilot,remote_control,6,1.0000,No Error & Warning,[],/Users/minghe/llm4faas/experiments_default/functions_zh/copilot_functions/remotecontrol/copilot_remote_control_6.log
+,copilot,remote_control,17,1.0000,No Error & Warning,[],/Users/minghe/llm4faas/experiments_default/functions_zh/copilot_functions/remotecontrol/copilot_remote_control_17.log
+,copilot,remote_control,15,0.0000,Invalid Prompt,,/Users/minghe/llm4faas/experiments_default/functions_zh/copilot_functions/remotecontrol/copilot_remote_control_15.log
+,copilot,remote_control,4,0.0000,No Error & Warning,"['/Actuator/Light/LivingRoom/1 is turned off.', '/Actuator/Light/LivingRoom/2 is turned off.']",/Users/minghe/llm4faas/experiments_default/functions_zh/copilot_functions/remotecontrol/copilot_remote_control_4.log
+,copilot,remote_control,5,0.0000,Invalid Prompt,,/Users/minghe/llm4faas/experiments_default/functions_zh/copilot_functions/remotecontrol/copilot_remote_control_5.log
+,copilot,remote_control,14,0.0000,Error,,/Users/minghe/llm4faas/experiments_default/functions_zh/copilot_functions/remotecontrol/copilot_remote_control_14.log

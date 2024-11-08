@@ -1,0 +1,24 @@
+Standard Output:
+Living Room:
+  - Temperature is optimal
+  - Humidity is optimal
+  - Turning on the Lights
+
+Bedroom:
+  - Temperature is optimal
+  - Humidity is optimal
+  - Turning on the Lights
+
+Bathroom:
+  - Temperature is optimal
+  - Humidity is optimal
+
+Kitchen:
+  - Humidity is optimal
+
+Balcony:
+  - Door is open for fresh air
+
+Standard Error:
+
+Return code: 0

@@ -1,0 +1,16 @@
+Standard Output:
+Lock the door /Actuator/Door/LivingRoom/1.
+Locking door in LivingRoom at 22:11:02.982520
+
+Standard Error:
+Traceback (most recent call last):
+  File "/Users/minghe/llm4faas/experiments_mandarin/ali_tongyi_functions/plans/ali_qwen-max-0919_plan_19_1731077194330378000.py", line 93, in <module>
+    main()
+  File "/Users/minghe/llm4faas/experiments_mandarin/ali_tongyi_functions/plans/ali_qwen-max-0919_plan_19_1731077194330378000.py", line 85, in main
+    leave_home_plan(home)
+  File "/Users/minghe/llm4faas/experiments_mandarin/ali_tongyi_functions/plans/ali_qwen-max-0919_plan_19_1731077194330378000.py", line 43, in leave_home_plan
+    for actuator in living_room_actuctors:
+                    ^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'living_room_actuctors' is not defined. Did you mean: 'living_room_actuators'?
+
+Return code: 1

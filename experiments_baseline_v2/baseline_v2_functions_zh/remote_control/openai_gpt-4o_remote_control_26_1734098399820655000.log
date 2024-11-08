@@ -1,0 +1,7 @@
+Standard Output:
+Usage: python smart_home.py <action> <device_type> <room_name>
+Example: python smart_home.py 开 Light LivingRoom
+
+Standard Error:
+
+Return code: 0

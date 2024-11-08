@@ -1,0 +1,16 @@
+Standard Output:
+Cannot Get Sensor Reading, /Sensor/LightIntensive/LivingRoom/1 is Currently OFF. 
+
+Standard Error:
+2025-01-10 14:38:08,975 - sensor.py - get_reading - WARNING - '/Sensor/LightIntensive/LivingRoom/1' is currently OFF. Cannot get reading.
+Traceback (most recent call last):
+  File "/Users/minghe/llm4faas/experiments_default/functions_en/4o-mini_en_functoins/openai_gpt-4o-mini_plan_25.py", line 97, in <module>
+    main()
+  File "/Users/minghe/llm4faas/experiments_default/functions_en/4o-mini_en_functoins/openai_gpt-4o-mini_plan_25.py", line 91, in main
+    morning_plan(home)
+  File "/Users/minghe/llm4faas/experiments_default/functions_en/4o-mini_en_functoins/openai_gpt-4o-mini_plan_25.py", line 19, in morning_plan
+    if light_sensor and light_sensor.get_reading() >= LIGHT_INTENSITY_LOW:
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '>=' not supported between instances of 'NoneType' and 'int'
+
+Return code: 1

@@ -1,0 +1,44 @@
+Standard Output:
+Monitoring Living Room
+Temperature: 23.41258819255495 C
+Humidity: 27.121238527734427 %
+Light Intensity: 23.679102376145742 Lux
+Light: off
+Light: off
+Heater: off
+AC: off
+Light turned on.
+Light turned on.
+------------------------------
+Monitoring Bedroom
+Temperature: 27.479897142279704 C
+Humidity: 23.485183106593947 %
+Light Intensity: 25.546421463278882 Lux
+Light: off
+AC: off
+Heater: off
+Light turned off.
+------------------------------
+Monitoring Bathroom
+Temperature: 23.399318749089534 C
+Humidity: 20.836467178331077 %
+Light: off
+Heater: off
+Light turned off.
+------------------------------
+Monitoring Kitchen
+Humidity: 21.031996109716125 %
+Smoke: 21.23000634922464 PPM
+Light: off
+Coffee Machine: off
+Light turned off.
+------------------------------
+Monitoring Balcony
+Temperature: 27.642467062647796 C
+Humidity: 25.775382119787196 %
+Door: off
+------------------------------
+
+Standard Error:
+
+Return code: 0

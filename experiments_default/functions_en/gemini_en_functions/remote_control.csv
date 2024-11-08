@@ -1,0 +1,27 @@
+Timestamp,Model Name,Task Name,User Answer Index,Success Rate (%),Error Status,Unmatched Lines,Log File Path
+1725291149249050000,gemini,remote_control,13,0.0000,Error,,/Users/minghe/llm4faas/experiments_default/functions_en/gemini_en_functions/gemini_remote_control_13_1725291149249050000.log
+1725291024308842000,gemini,remote_control,2,0.0000,Error,,/Users/minghe/llm4faas/experiments_default/functions_en/gemini_en_functions/gemini_remote_control_2_1725291024308842000.log
+1725290829957484000,gemini,remote_control,14,0.0000,Warning Exists,['/Actuator/Light/LivingRoom/1 is turned on. || /Actuator/Light/LivingRoom/2 is turned on.'],/Users/minghe/llm4faas/experiments_default/functions_en/gemini_en_functions/gemini_remote_control_14_1725290829957484000.log
+1725290884115381000,gemini,remote_control,21,0.0000,Error,,/Users/minghe/llm4faas/experiments_default/functions_en/gemini_en_functions/gemini_remote_control_21_1725290884115381000.log
+1725291137686803000,gemini,remote_control,8,1.0000,No Error & Warning,[],/Users/minghe/llm4faas/experiments_default/functions_en/gemini_en_functions/gemini_remote_control_8_1725291137686803000.log
+1725291129934161000,gemini,remote_control,12,0.0000,Error,,/Users/minghe/llm4faas/experiments_default/functions_en/gemini_en_functions/gemini_remote_control_12_1725291129934161000.log
+1725291121358402000,gemini,remote_control,26,0.0000,Error,,/Users/minghe/llm4faas/experiments_default/functions_en/gemini_en_functions/gemini_remote_control_26_1725291121358402000.log
+1725290822309118000,gemini,remote_control,10,0.0000,Error,,/Users/minghe/llm4faas/experiments_default/functions_en/gemini_en_functions/gemini_remote_control_10_1725290822309118000.log
+1725290937743102000,gemini,remote_control,25,0.0000,Error,,/Users/minghe/llm4faas/experiments_default/functions_en/gemini_en_functions/gemini_remote_control_25_1725290937743102000.log
+1725290952162367000,gemini,remote_control,4,0.0000,Error,,/Users/minghe/llm4faas/experiments_default/functions_en/gemini_en_functions/gemini_remote_control_4_1725290952162367000.log
+1725291036741515000,gemini,remote_control,3,0.0000,Error,,/Users/minghe/llm4faas/experiments_default/functions_en/gemini_en_functions/gemini_remote_control_3_1725291036741515000.log
+1725290872171149000,gemini,remote_control,15,0.0000,Invalid Prompt,,/Users/minghe/llm4faas/experiments_default/functions_en/gemini_en_functions/gemini_remote_control_15_1725290872171149000.log
+1725291030476733000,gemini,remote_control,19,1.0000,No Error & Warning,[],/Users/minghe/llm4faas/experiments_default/functions_en/gemini_en_functions/gemini_remote_control_19_1725291030476733000.log
+1725291043071436000,gemini,remote_control,7,0.0000,Error,,/Users/minghe/llm4faas/experiments_default/functions_en/gemini_en_functions/gemini_remote_control_7_1725291043071436000.log
+1725290947828465000,gemini,remote_control,11,0.0000,Error,,/Users/minghe/llm4faas/experiments_default/functions_en/gemini_en_functions/gemini_remote_control_11_1725290947828465000.log
+1725291015848214000,gemini,remote_control,18,0.0000,Error,,/Users/minghe/llm4faas/experiments_default/functions_en/gemini_en_functions/gemini_remote_control_18_1725291015848214000.log
+1725290815669101000,gemini,remote_control,24,0.0000,Error,,/Users/minghe/llm4faas/experiments_default/functions_en/gemini_en_functions/gemini_remote_control_24_1725290815669101000.log
+1725291068155839000,gemini,remote_control,22,0.0000,Error,,/Users/minghe/llm4faas/experiments_default/functions_en/gemini_en_functions/gemini_remote_control_22_1725291068155839000.log
+1725290995443626000,gemini,remote_control,1,0.6000,Warning Exists,"['Cleaning Robot /Actuator/CleaningRobot/LivingRoom/1 Starts Daily Cleaning Routine || Cleaning Robot /Actuator/CleaningRobot/Bedroom/1 Starts Daily Cleaning Routine', 'Set /Actuator/Light/Bedroom/1 light brightness level to || Set /Actuator/Light/Bedroom/2 light brightness level to']",/Users/minghe/llm4faas/experiments_default/functions_en/gemini_en_functions/gemini_remote_control_1_1725290995443626000.log
+1725291060584668000,gemini,remote_control,16,0.0000,Invalid Prompt,,/Users/minghe/llm4faas/experiments_default/functions_en/gemini_en_functions/gemini_remote_control_16_1725291060584668000.log
+1725290967935672000,gemini,remote_control,5,0.0000,Invalid Prompt,,/Users/minghe/llm4faas/experiments_default/functions_en/gemini_en_functions/gemini_remote_control_5_1725290967935672000.log
+1725291190468102000,gemini,remote_control,23,0.0000,Error,,/Users/minghe/llm4faas/experiments_default/functions_en/gemini_en_functions/gemini_remote_control_23_1725291190468102000.log
+1725291168642786000,gemini,remote_control,9,0.0000,Error,,/Users/minghe/llm4faas/experiments_default/functions_en/gemini_en_functions/gemini_remote_control_9_1725291168642786000.log
+1725291011766582000,gemini,remote_control,6,0.0000,Error,,/Users/minghe/llm4faas/experiments_default/functions_en/gemini_en_functions/gemini_remote_control_6_1725291011766582000.log
+1725291172288890000,gemini,remote_control,17,0.0000,Error,,/Users/minghe/llm4faas/experiments_default/functions_en/gemini_en_functions/gemini_remote_control_17_1725291172288890000.log
+1725290839378236000,gemini,remote_control,20,0.0000,Error,,/Users/minghe/llm4faas/experiments_default/functions_en/gemini_en_functions/gemini_remote_control_20_1725290839378236000.log

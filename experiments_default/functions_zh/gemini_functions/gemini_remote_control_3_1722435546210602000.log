@@ -1,0 +1,12 @@
+Standard Output:
+
+Standard Error:
+Traceback (most recent call last):
+  File "/Users/minghe/llm4faas/experiments_default/functions_zh/gemini_functions/gemini_remote_control_3_1722435546210602000.py", line 17, in <module>
+    main()
+  File "/Users/minghe/llm4faas/experiments_default/functions_zh/gemini_functions/gemini_remote_control_3_1722435546210602000.py", line 6, in main
+    home = get_room(get_room_actuators(home, "LivingRoom"))
+                                       ^^^^
+UnboundLocalError: cannot access local variable 'home' where it is not associated with a value
+
+Return code: 1

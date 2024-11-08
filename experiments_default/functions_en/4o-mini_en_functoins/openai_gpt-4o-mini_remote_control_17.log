@@ -1,0 +1,15 @@
+Standard Output:
+Turning off the living room lights...
+
+Standard Error:
+Traceback (most recent call last):
+  File "/Users/minghe/llm4faas/experiments_default/functions_en/4o-mini_en_functoins/openai_gpt-4o-mini_remote_control_17.py", line 26, in <module>
+    main()
+  File "/Users/minghe/llm4faas/experiments_default/functions_en/4o-mini_en_functoins/openai_gpt-4o-mini_remote_control_17.py", line 23, in main
+    turn_off_living_room_lights()
+  File "/Users/minghe/llm4faas/experiments_default/functions_en/4o-mini_en_functoins/openai_gpt-4o-mini_remote_control_17.py", line 18, in turn_off_living_room_lights
+    if isinstance(actuator, Light):
+                            ^^^^^
+NameError: name 'Light' is not defined
+
+Return code: 1

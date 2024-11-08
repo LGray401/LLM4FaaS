@@ -1,0 +1,1624 @@
+Error: Execution timed out
+Standard Output:
+We find LivingRoom!
+We find Bedroom!
+We find Kitchen!
+We find Bathroom!
+We find Balcony!
+We find LivingRoom!
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/LivingRoom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/LivingRoom/1 is Currently OFF. 
+We find Bedroom!
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/Bedroom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Bedroom/1 is Currently OFF. 
+We find Kitchen!
+Cannot Get Sensor Reading, /Sensor/Humidity/Kitchen/1 is Currently OFF. 
+We find Bathroom!
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/Bathroom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Bathroom/1 is Currently OFF. 
+We find LivingRoom!
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/LivingRoom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/LivingRoom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/LightIntensive/LivingRoom/1 is Currently OFF. 
+We find Bedroom!
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/Bedroom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Bedroom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/LightIntensive/Bedroom/1 is Currently OFF. 
+We find Kitchen!
+Cannot Get Sensor Reading, /Sensor/Humidity/Kitchen/1 is Currently OFF. 
+We find Bathroom!
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/Bathroom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Bathroom/1 is Currently OFF. 
+We find Balcony!
+Cannot Get Sensor Reading, /Sensor/Humidity/Balcony/1 is Currently OFF. 
+Cleaning Robot /Actuator/CleaningRobot/LivingRoom/1 is OFF now, Need to Turn it ON First
+Cleaning Robot /Actuator/CleaningRobot/Bedroom/1 is OFF now, Need to Turn it ON First
+Cannot Get Sensor Reading, /Sensor/OutdoorTemperature/Balcony/1 is Currently OFF. 
+We find LivingRoom!
+We find Bedroom!
+We find Kitchen!
+We find Bathroom!
+We find Balcony!
+We find LivingRoom!
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/LivingRoom/2 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/LivingRoom/2 is Currently OFF. 
+We find Bedroom!
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/Bedroom/2 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Bedroom/2 is Currently OFF. 
+We find Kitchen!
+Cannot Get Sensor Reading, /Sensor/Humidity/Kitchen/2 is Currently OFF. 
+We find Bathroom!
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/Bathroom/2 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Bathroom/2 is Currently OFF. 
+We find LivingRoom!
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/LivingRoom/2 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/LivingRoom/2 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/LightIntensive/LivingRoom/2 is Currently OFF. 
+We find Bedroom!
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/Bedroom/2 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Bedroom/2 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/LightIntensive/Bedroom/2 is Currently OFF. 
+We find Kitchen!
+Cannot Get Sensor Reading, /Sensor/Humidity/Kitchen/2 is Currently OFF. 
+We find Bathroom!
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/Bathroom/2 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Bathroom/2 is Currently OFF. 
+We find Balcony!
+Cannot Get Sensor Reading, /Sensor/Humidity/Balcony/2 is Currently OFF. 
+Cleaning Robot /Actuator/CleaningRobot/LivingRoom/2 is OFF now, Need to Turn it ON First
+Cleaning Robot /Actuator/CleaningRobot/Bedroom/2 is OFF now, Need to Turn it ON First
+Cannot Get Sensor Reading, /Sensor/OutdoorTemperature/Balcony/2 is Currently OFF. 
+We find LivingRoom!
+We find Bedroom!
+We find Kitchen!
+We find Bathroom!
+We find Balcony!
+We find LivingRoom!
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/LivingRoom/3 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/LivingRoom/3 is Currently OFF. 
+We find Bedroom!
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/Bedroom/3 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Bedroom/3 is Currently OFF. 
+We find Kitchen!
+Cannot Get Sensor Reading, /Sensor/Humidity/Kitchen/3 is Currently OFF. 
+We find Bathroom!
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/Bathroom/3 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Bathroom/3 is Currently OFF. 
+We find LivingRoom!
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/LivingRoom/3 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/LivingRoom/3 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/LightIntensive/LivingRoom/3 is Currently OFF. 
+We find Bedroom!
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/Bedroom/3 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Bedroom/3 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/LightIntensive/Bedroom/3 is Currently OFF. 
+We find Kitchen!
+Cannot Get Sensor Reading, /Sensor/Humidity/Kitchen/3 is Currently OFF. 
+We find Bathroom!
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/Bathroom/3 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Bathroom/3 is Currently OFF. 
+We find Balcony!
+Cannot Get Sensor Reading, /Sensor/Humidity/Balcony/3 is Currently OFF. 
+Cleaning Robot /Actuator/CleaningRobot/LivingRoom/3 is OFF now, Need to Turn it ON First
+Cleaning Robot /Actuator/CleaningRobot/Bedroom/3 is OFF now, Need to Turn it ON First
+Cannot Get Sensor Reading, /Sensor/OutdoorTemperature/Balcony/3 is Currently OFF. 
+We find LivingRoom!
+We find Bedroom!
+We find Kitchen!
+We find Bathroom!
+We find Balcony!
+We find LivingRoom!
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/LivingRoom/4 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/LivingRoom/4 is Currently OFF. 
+We find Bedroom!
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/Bedroom/4 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Bedroom/4 is Currently OFF. 
+We find Kitchen!
+Cannot Get Sensor Reading, /Sensor/Humidity/Kitchen/4 is Currently OFF. 
+We find Bathroom!
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/Bathroom/4 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Bathroom/4 is Currently OFF. 
+We find LivingRoom!
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/LivingRoom/4 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/LivingRoom/4 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/LightIntensive/LivingRoom/4 is Currently OFF. 
+We find Bedroom!
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/Bedroom/4 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Bedroom/4 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/LightIntensive/Bedroom/4 is Currently OFF. 
+We find Kitchen!
+Cannot Get Sensor Reading, /Sensor/Humidity/Kitchen/4 is Currently OFF. 
+We find Bathroom!
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/Bathroom/4 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Bathroom/4 is Currently OFF. 
+We find Balcony!
+Cannot Get Sensor Reading, /Sensor/Humidity/Balcony/4 is Currently OFF. 
+Cleaning Robot /Actuator/CleaningRobot/LivingRoom/4 is OFF now, Need to Turn it ON First
+Cleaning Robot /Actuator/CleaningRobot/Bedroom/4 is OFF now, Need to Turn it ON First
+Cannot Get Sensor Reading, /Sensor/OutdoorTemperature/Balcony/4 is Currently OFF. 
+We find LivingRoom!
+We find Bedroom!
+We find Kitchen!
+We find Bathroom!
+We find Balcony!
+We find LivingRoom!
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/LivingRoom/5 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/LivingRoom/5 is Currently OFF. 
+We find Bedroom!
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/Bedroom/5 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Bedroom/5 is Currently OFF. 
+We find Kitchen!
+Cannot Get Sensor Reading, /Sensor/Humidity/Kitchen/5 is Currently OFF. 
+We find Bathroom!
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/Bathroom/5 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Bathroom/5 is Currently OFF. 
+We find LivingRoom!
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/LivingRoom/5 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/LivingRoom/5 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/LightIntensive/LivingRoom/5 is Currently OFF. 
+We find Bedroom!
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/Bedroom/5 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Bedroom/5 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/LightIntensive/Bedroom/5 is Currently OFF. 
+We find Kitchen!
+Cannot Get Sensor Reading, /Sensor/Humidity/Kitchen/5 is Currently OFF. 
+We find Bathroom!
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/Bathroom/5 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Bathroom/5 is Currently OFF. 
+We find Balcony!
+Cannot Get Sensor Reading, /Sensor/Humidity/Balcony/5 is Currently OFF. 
+Cleaning Robot /Actuator/CleaningRobot/LivingRoom/5 is OFF now, Need to Turn it ON First
+Cleaning Robot /Actuator/CleaningRobot/Bedroom/5 is OFF now, Need to Turn it ON First
+Cannot Get Sensor Reading, /Sensor/OutdoorTemperature/Balcony/5 is Currently OFF. 
+We find LivingRoom!
+We find Bedroom!
+We find Kitchen!
+We find Bathroom!
+We find Balcony!
+We find LivingRoom!
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/LivingRoom/6 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/LivingRoom/6 is Currently OFF. 
+We find Bedroom!
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/Bedroom/6 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Bedroom/6 is Currently OFF. 
+We find Kitchen!
+Cannot Get Sensor Reading, /Sensor/Humidity/Kitchen/6 is Currently OFF. 
+We find Bathroom!
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/Bathroom/6 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Bathroom/6 is Currently OFF. 
+We find LivingRoom!
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/LivingRoom/6 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/LivingRoom/6 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/LightIntensive/LivingRoom/6 is Currently OFF. 
+We find Bedroom!
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/Bedroom/6 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Bedroom/6 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/LightIntensive/Bedroom/6 is Currently OFF. 
+We find Kitchen!
+Cannot Get Sensor Reading, /Sensor/Humidity/Kitchen/6 is Currently OFF. 
+We find Bathroom!
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/Bathroom/6 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Bathroom/6 is Currently OFF. 
+We find Balcony!
+Cannot Get Sensor Reading, /Sensor/Humidity/Balcony/6 is Currently OFF. 
+Cleaning Robot /Actuator/CleaningRobot/LivingRoom/6 is OFF now, Need to Turn it ON First
+Cleaning Robot /Actuator/CleaningRobot/Bedroom/6 is OFF now, Need to Turn it ON First
+Cannot Get Sensor Reading, /Sensor/OutdoorTemperature/Balcony/6 is Currently OFF. 
+We find LivingRoom!
+We find Bedroom!
+We find Kitchen!
+We find Bathroom!
+We find Balcony!
+We find LivingRoom!
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/LivingRoom/7 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/LivingRoom/7 is Currently OFF. 
+We find Bedroom!
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/Bedroom/7 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Bedroom/7 is Currently OFF. 
+We find Kitchen!
+Cannot Get Sensor Reading, /Sensor/Humidity/Kitchen/7 is Currently OFF. 
+We find Bathroom!
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/Bathroom/7 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Bathroom/7 is Currently OFF. 
+We find LivingRoom!
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/LivingRoom/7 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/LivingRoom/7 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/LightIntensive/LivingRoom/7 is Currently OFF. 
+We find Bedroom!
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/Bedroom/7 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Bedroom/7 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/LightIntensive/Bedroom/7 is Currently OFF. 
+We find Kitchen!
+Cannot Get Sensor Reading, /Sensor/Humidity/Kitchen/7 is Currently OFF. 
+We find Bathroom!
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/Bathroom/7 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Bathroom/7 is Currently OFF. 
+We find Balcony!
+Cannot Get Sensor Reading, /Sensor/Humidity/Balcony/7 is Currently OFF. 
+Cleaning Robot /Actuator/CleaningRobot/LivingRoom/7 is OFF now, Need to Turn it ON First
+Cleaning Robot /Actuator/CleaningRobot/Bedroom/7 is OFF now, Need to Turn it ON First
+Cannot Get Sensor Reading, /Sensor/OutdoorTemperature/Balcony/7 is Currently OFF. 
+We find LivingRoom!
+We find Bedroom!
+We find Kitchen!
+We find Bathroom!
+We find Balcony!
+We find LivingRoom!
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/LivingRoom/8 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/LivingRoom/8 is Currently OFF. 
+We find Bedroom!
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/Bedroom/8 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Bedroom/8 is Currently OFF. 
+We find Kitchen!
+Cannot Get Sensor Reading, /Sensor/Humidity/Kitchen/8 is Currently OFF. 
+We find Bathroom!
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/Bathroom/8 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Bathroom/8 is Currently OFF. 
+We find LivingRoom!
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/LivingRoom/8 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/LivingRoom/8 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/LightIntensive/LivingRoom/8 is Currently OFF. 
+We find Bedroom!
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/Bedroom/8 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Bedroom/8 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/LightIntensive/Bedroom/8 is Currently OFF. 
+We find Kitchen!
+Cannot Get Sensor Reading, /Sensor/Humidity/Kitchen/8 is Currently OFF. 
+We find Bathroom!
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/Bathroom/8 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Bathroom/8 is Currently OFF. 
+We find Balcony!
+Cannot Get Sensor Reading, /Sensor/Humidity/Balcony/8 is Currently OFF. 
+Cleaning Robot /Actuator/CleaningRobot/LivingRoom/8 is OFF now, Need to Turn it ON First
+Cleaning Robot /Actuator/CleaningRobot/Bedroom/8 is OFF now, Need to Turn it ON First
+Cannot Get Sensor Reading, /Sensor/OutdoorTemperature/Balcony/8 is Currently OFF. 
+We find LivingRoom!
+We find Bedroom!
+We find Kitchen!
+We find Bathroom!
+We find Balcony!
+We find LivingRoom!
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/LivingRoom/9 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/LivingRoom/9 is Currently OFF. 
+We find Bedroom!
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/Bedroom/9 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Bedroom/9 is Currently OFF. 
+We find Kitchen!
+Cannot Get Sensor Reading, /Sensor/Humidity/Kitchen/9 is Currently OFF. 
+We find Bathroom!
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/Bathroom/9 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Bathroom/9 is Currently OFF. 
+We find LivingRoom!
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/LivingRoom/9 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/LivingRoom/9 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/LightIntensive/LivingRoom/9 is Currently OFF. 
+We find Bedroom!
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/Bedroom/9 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Bedroom/9 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/LightIntensive/Bedroom/9 is Currently OFF. 
+We find Kitchen!
+Cannot Get Sensor Reading, /Sensor/Humidity/Kitchen/9 is Currently OFF. 
+We find Bathroom!
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/Bathroom/9 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Bathroom/9 is Currently OFF. 
+We find Balcony!
+Cannot Get Sensor Reading, /Sensor/Humidity/Balcony/9 is Currently OFF. 
+Cleaning Robot /Actuator/CleaningRobot/LivingRoom/9 is OFF now, Need to Turn it ON First
+Cleaning Robot /Actuator/CleaningRobot/Bedroom/9 is OFF now, Need to Turn it ON First
+Cannot Get Sensor Reading, /Sensor/OutdoorTemperature/Balcony/9 is Currently OFF. 
+We find LivingRoom!
+We find Bedroom!
+We find Kitchen!
+We find Bathroom!
+We find Balcony!
+We find LivingRoom!
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/LivingRoom/10 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/LivingRoom/10 is Currently OFF. 
+We find Bedroom!
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/Bedroom/10 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Bedroom/10 is Currently OFF. 
+We find Kitchen!
+Cannot Get Sensor Reading, /Sensor/Humidity/Kitchen/10 is Currently OFF. 
+We find Bathroom!
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/Bathroom/10 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Bathroom/10 is Currently OFF. 
+We find LivingRoom!
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/LivingRoom/10 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/LivingRoom/10 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/LightIntensive/LivingRoom/10 is Currently OFF. 
+We find Bedroom!
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/Bedroom/10 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Bedroom/10 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/LightIntensive/Bedroom/10 is Currently OFF. 
+We find Kitchen!
+Cannot Get Sensor Reading, /Sensor/Humidity/Kitchen/10 is Currently OFF. 
+We find Bathroom!
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/Bathroom/10 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Bathroom/10 is Currently OFF. 
+We find Balcony!
+Cannot Get Sensor Reading, /Sensor/Humidity/Balcony/10 is Currently OFF. 
+Cleaning Robot /Actuator/CleaningRobot/LivingRoom/10 is OFF now, Need to Turn it ON First
+Cleaning Robot /Actuator/CleaningRobot/Bedroom/10 is OFF now, Need to Turn it ON First
+Cannot Get Sensor Reading, /Sensor/OutdoorTemperature/Balcony/10 is Currently OFF. 
+We find LivingRoom!
+We find Bedroom!
+We find Kitchen!
+We find Bathroom!
+We find Balcony!
+We find LivingRoom!
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/LivingRoom/11 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/LivingRoom/11 is Currently OFF. 
+We find Bedroom!
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/Bedroom/11 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Bedroom/11 is Currently OFF. 
+We find Kitchen!
+Cannot Get Sensor Reading, /Sensor/Humidity/Kitchen/11 is Currently OFF. 
+We find Bathroom!
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/Bathroom/11 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Bathroom/11 is Currently OFF. 
+We find LivingRoom!
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/LivingRoom/11 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/LivingRoom/11 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/LightIntensive/LivingRoom/11 is Currently OFF. 
+We find Bedroom!
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/Bedroom/11 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Bedroom/11 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/LightIntensive/Bedroom/11 is Currently OFF. 
+We find Kitchen!
+Cannot Get Sensor Reading, /Sensor/Humidity/Kitchen/11 is Currently OFF. 
+We find Bathroom!
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/Bathroom/11 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Bathroom/11 is Currently OFF. 
+We find Balcony!
+Cannot Get Sensor Reading, /Sensor/Humidity/Balcony/11 is Currently OFF. 
+Cleaning Robot /Actuator/CleaningRobot/LivingRoom/11 is OFF now, Need to Turn it ON First
+Cleaning Robot /Actuator/CleaningRobot/Bedroom/11 is OFF now, Need to Turn it ON First
+Cannot Get Sensor Reading, /Sensor/OutdoorTemperature/Balcony/11 is Currently OFF. 
+We find LivingRoom!
+We find Bedroom!
+We find Kitchen!
+We find Bathroom!
+We find Balcony!
+We find LivingRoom!
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/LivingRoom/12 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/LivingRoom/12 is Currently OFF. 
+We find Bedroom!
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/Bedroom/12 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Bedroom/12 is Currently OFF. 
+We find Kitchen!
+Cannot Get Sensor Reading, /Sensor/Humidity/Kitchen/12 is Currently OFF. 
+We find Bathroom!
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/Bathroom/12 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Bathroom/12 is Currently OFF. 
+We find LivingRoom!
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/LivingRoom/12 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/LivingRoom/12 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/LightIntensive/LivingRoom/12 is Currently OFF. 
+We find Bedroom!
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/Bedroom/12 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Bedroom/12 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/LightIntensive/Bedroom/12 is Currently OFF. 
+We find Kitchen!
+Cannot Get Sensor Reading, /Sensor/Humidity/Kitchen/12 is Currently OFF. 
+We find Bathroom!
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/Bathroom/12 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Bathroom/12 is Currently OFF. 
+We find Balcony!
+Cannot Get Sensor Reading, /Sensor/Humidity/Balcony/12 is Currently OFF. 
+Cleaning Robot /Actuator/CleaningRobot/LivingRoom/12 is OFF now, Need to Turn it ON First
+Cleaning Robot /Actuator/CleaningRobot/Bedroom/12 is OFF now, Need to Turn it ON First
+Cannot Get Sensor Reading, /Sensor/OutdoorTemperature/Balcony/12 is Currently OFF. 
+We find LivingRoom!
+We find Bedroom!
+We find Kitchen!
+We find Bathroom!
+We find Balcony!
+We find LivingRoom!
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/LivingRoom/13 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/LivingRoom/13 is Currently OFF. 
+We find Bedroom!
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/Bedroom/13 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Bedroom/13 is Currently OFF. 
+We find Kitchen!
+Cannot Get Sensor Reading, /Sensor/Humidity/Kitchen/13 is Currently OFF. 
+We find Bathroom!
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/Bathroom/13 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Bathroom/13 is Currently OFF. 
+We find LivingRoom!
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/LivingRoom/13 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/LivingRoom/13 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/LightIntensive/LivingRoom/13 is Currently OFF. 
+We find Bedroom!
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/Bedroom/13 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Bedroom/13 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/LightIntensive/Bedroom/13 is Currently OFF. 
+We find Kitchen!
+Cannot Get Sensor Reading, /Sensor/Humidity/Kitchen/13 is Currently OFF. 
+We find Bathroom!
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/Bathroom/13 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Bathroom/13 is Currently OFF. 
+We find Balcony!
+Cannot Get Sensor Reading, /Sensor/Humidity/Balcony/13 is Currently OFF. 
+Cleaning Robot /Actuator/CleaningRobot/LivingRoom/13 is OFF now, Need to Turn it ON First
+Cleaning Robot /Actuator/CleaningRobot/Bedroom/13 is OFF now, Need to Turn it ON First
+Cannot Get Sensor Reading, /Sensor/OutdoorTemperature/Balcony/13 is Currently OFF. 
+We find LivingRoom!
+We find Bedroom!
+We find Kitchen!
+We find Bathroom!
+We find Balcony!
+We find LivingRoom!
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/LivingRoom/14 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/LivingRoom/14 is Currently OFF. 
+We find Bedroom!
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/Bedroom/14 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Bedroom/14 is Currently OFF. 
+We find Kitchen!
+Cannot Get Sensor Reading, /Sensor/Humidity/Kitchen/14 is Currently OFF. 
+We find Bathroom!
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/Bathroom/14 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Bathroom/14 is Currently OFF. 
+We find LivingRoom!
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/LivingRoom/14 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/LivingRoom/14 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/LightIntensive/LivingRoom/14 is Currently OFF. 
+We find Bedroom!
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/Bedroom/14 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Bedroom/14 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/LightIntensive/Bedroom/14 is Currently OFF. 
+We find Kitchen!
+Cannot Get Sensor Reading, /Sensor/Humidity/Kitchen/14 is Currently OFF. 
+We find Bathroom!
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/Bathroom/14 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Bathroom/14 is Currently OFF. 
+We find Balcony!
+Cannot Get Sensor Reading, /Sensor/Humidity/Balcony/14 is Currently OFF. 
+Cleaning Robot /Actuator/CleaningRobot/LivingRoom/14 is OFF now, Need to Turn it ON First
+Cleaning Robot /Actuator/CleaningRobot/Bedroom/14 is OFF now, Need to Turn it ON First
+Cannot Get Sensor Reading, /Sensor/OutdoorTemperature/Balcony/14 is Currently OFF. 
+We find LivingRoom!
+We find Bedroom!
+We find Kitchen!
+We find Bathroom!
+We find Balcony!
+We find LivingRoom!
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/LivingRoom/15 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/LivingRoom/15 is Currently OFF. 
+We find Bedroom!
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/Bedroom/15 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Bedroom/15 is Currently OFF. 
+We find Kitchen!
+Cannot Get Sensor Reading, /Sensor/Humidity/Kitchen/15 is Currently OFF. 
+We find Bathroom!
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/Bathroom/15 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Bathroom/15 is Currently OFF. 
+We find LivingRoom!
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/LivingRoom/15 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/LivingRoom/15 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/LightIntensive/LivingRoom/15 is Currently OFF. 
+We find Bedroom!
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/Bedroom/15 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Bedroom/15 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/LightIntensive/Bedroom/15 is Currently OFF. 
+We find Kitchen!
+Cannot Get Sensor Reading, /Sensor/Humidity/Kitchen/15 is Currently OFF. 
+We find Bathroom!
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/Bathroom/15 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Bathroom/15 is Currently OFF. 
+We find Balcony!
+Cannot Get Sensor Reading, /Sensor/Humidity/Balcony/15 is Currently OFF. 
+Cleaning Robot /Actuator/CleaningRobot/LivingRoom/15 is OFF now, Need to Turn it ON First
+Cleaning Robot /Actuator/CleaningRobot/Bedroom/15 is OFF now, Need to Turn it ON First
+Cannot Get Sensor Reading, /Sensor/OutdoorTemperature/Balcony/15 is Currently OFF. 
+We find LivingRoom!
+We find Bedroom!
+We find Kitchen!
+We find Bathroom!
+We find Balcony!
+We find LivingRoom!
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/LivingRoom/16 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/LivingRoom/16 is Currently OFF. 
+We find Bedroom!
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/Bedroom/16 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Bedroom/16 is Currently OFF. 
+We find Kitchen!
+Cannot Get Sensor Reading, /Sensor/Humidity/Kitchen/16 is Currently OFF. 
+We find Bathroom!
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/Bathroom/16 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Bathroom/16 is Currently OFF. 
+We find LivingRoom!
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/LivingRoom/16 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/LivingRoom/16 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/LightIntensive/LivingRoom/16 is Currently OFF. 
+We find Bedroom!
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/Bedroom/16 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Bedroom/16 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/LightIntensive/Bedroom/16 is Currently OFF. 
+We find Kitchen!
+Cannot Get Sensor Reading, /Sensor/Humidity/Kitchen/16 is Currently OFF. 
+We find Bathroom!
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/Bathroom/16 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Bathroom/16 is Currently OFF. 
+We find Balcony!
+Cannot Get Sensor Reading, /Sensor/Humidity/Balcony/16 is Currently OFF. 
+Cleaning Robot /Actuator/CleaningRobot/LivingRoom/16 is OFF now, Need to Turn it ON First
+Cleaning Robot /Actuator/CleaningRobot/Bedroom/16 is OFF now, Need to Turn it ON First
+Cannot Get Sensor Reading, /Sensor/OutdoorTemperature/Balcony/16 is Currently OFF. 
+We find LivingRoom!
+We find Bedroom!
+We find Kitchen!
+We find Bathroom!
+We find Balcony!
+We find LivingRoom!
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/LivingRoom/17 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/LivingRoom/17 is Currently OFF. 
+We find Bedroom!
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/Bedroom/17 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Bedroom/17 is Currently OFF. 
+We find Kitchen!
+Cannot Get Sensor Reading, /Sensor/Humidity/Kitchen/17 is Currently OFF. 
+We find Bathroom!
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/Bathroom/17 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Bathroom/17 is Currently OFF. 
+We find LivingRoom!
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/LivingRoom/17 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/LivingRoom/17 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/LightIntensive/LivingRoom/17 is Currently OFF. 
+We find Bedroom!
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/Bedroom/17 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Bedroom/17 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/LightIntensive/Bedroom/17 is Currently OFF. 
+We find Kitchen!
+Cannot Get Sensor Reading, /Sensor/Humidity/Kitchen/17 is Currently OFF. 
+We find Bathroom!
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/Bathroom/17 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Bathroom/17 is Currently OFF. 
+We find Balcony!
+Cannot Get Sensor Reading, /Sensor/Humidity/Balcony/17 is Currently OFF. 
+Cleaning Robot /Actuator/CleaningRobot/LivingRoom/17 is OFF now, Need to Turn it ON First
+Cleaning Robot /Actuator/CleaningRobot/Bedroom/17 is OFF now, Need to Turn it ON First
+Cannot Get Sensor Reading, /Sensor/OutdoorTemperature/Balcony/17 is Currently OFF. 
+We find LivingRoom!
+We find Bedroom!
+We find Kitchen!
+We find Bathroom!
+We find Balcony!
+We find LivingRoom!
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/LivingRoom/18 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/LivingRoom/18 is Currently OFF. 
+We find Bedroom!
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/Bedroom/18 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Bedroom/18 is Currently OFF. 
+We find Kitchen!
+Cannot Get Sensor Reading, /Sensor/Humidity/Kitchen/18 is Currently OFF. 
+We find Bathroom!
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/Bathroom/18 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Bathroom/18 is Currently OFF. 
+We find LivingRoom!
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/LivingRoom/18 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/LivingRoom/18 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/LightIntensive/LivingRoom/18 is Currently OFF. 
+We find Bedroom!
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/Bedroom/18 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Bedroom/18 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/LightIntensive/Bedroom/18 is Currently OFF. 
+We find Kitchen!
+Cannot Get Sensor Reading, /Sensor/Humidity/Kitchen/18 is Currently OFF. 
+We find Bathroom!
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/Bathroom/18 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Bathroom/18 is Currently OFF. 
+We find Balcony!
+Cannot Get Sensor Reading, /Sensor/Humidity/Balcony/18 is Currently OFF. 
+Cleaning Robot /Actuator/CleaningRobot/LivingRoom/18 is OFF now, Need to Turn it ON First
+Cleaning Robot /Actuator/CleaningRobot/Bedroom/18 is OFF now, Need to Turn it ON First
+Cannot Get Sensor Reading, /Sensor/OutdoorTemperature/Balcony/18 is Currently OFF. 
+We find LivingRoom!
+We find Bedroom!
+We find Kitchen!
+We find Bathroom!
+We find Balcony!
+We find LivingRoom!
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/LivingRoom/19 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/LivingRoom/19 is Currently OFF. 
+We find Bedroom!
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/Bedroom/19 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Bedroom/19 is Currently OFF. 
+We find Kitchen!
+Cannot Get Sensor Reading, /Sensor/Humidity/Kitchen/19 is Currently OFF. 
+We find Bathroom!
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/Bathroom/19 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Bathroom/19 is Currently OFF. 
+We find LivingRoom!
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/LivingRoom/19 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/LivingRoom/19 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/LightIntensive/LivingRoom/19 is Currently OFF. 
+We find Bedroom!
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/Bedroom/19 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Bedroom/19 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/LightIntensive/Bedroom/19 is Currently OFF. 
+We find Kitchen!
+Cannot Get Sensor Reading, /Sensor/Humidity/Kitchen/19 is Currently OFF. 
+We find Bathroom!
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/Bathroom/19 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Bathroom/19 is Currently OFF. 
+We find Balcony!
+Cannot Get Sensor Reading, /Sensor/Humidity/Balcony/19 is Currently OFF. 
+Cleaning Robot /Actuator/CleaningRobot/LivingRoom/19 is OFF now, Need to Turn it ON First
+Cleaning Robot /Actuator/CleaningRobot/Bedroom/19 is OFF now, Need to Turn it ON First
+Cannot Get Sensor Reading, /Sensor/OutdoorTemperature/Balcony/19 is Currently OFF. 
+We find LivingRoom!
+We find Bedroom!
+We find Kitchen!
+We find Bathroom!
+We find Balcony!
+We find LivingRoom!
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/LivingRoom/20 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/LivingRoom/20 is Currently OFF. 
+We find Bedroom!
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/Bedroom/20 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Bedroom/20 is Currently OFF. 
+We find Kitchen!
+Cannot Get Sensor Reading, /Sensor/Humidity/Kitchen/20 is Currently OFF. 
+We find Bathroom!
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/Bathroom/20 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Bathroom/20 is Currently OFF. 
+We find LivingRoom!
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/LivingRoom/20 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/LivingRoom/20 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/LightIntensive/LivingRoom/20 is Currently OFF. 
+We find Bedroom!
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/Bedroom/20 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Bedroom/20 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/LightIntensive/Bedroom/20 is Currently OFF. 
+We find Kitchen!
+Cannot Get Sensor Reading, /Sensor/Humidity/Kitchen/20 is Currently OFF. 
+We find Bathroom!
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/Bathroom/20 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Bathroom/20 is Currently OFF. 
+We find Balcony!
+Cannot Get Sensor Reading, /Sensor/Humidity/Balcony/20 is Currently OFF. 
+Cleaning Robot /Actuator/CleaningRobot/LivingRoom/20 is OFF now, Need to Turn it ON First
+Cleaning Robot /Actuator/CleaningRobot/Bedroom/20 is OFF now, Need to Turn it ON First
+Cannot Get Sensor Reading, /Sensor/OutdoorTemperature/Balcony/20 is Currently OFF. 
+We find LivingRoom!
+We find Bedroom!
+We find Kitchen!
+We find Bathroom!
+We find Balcony!
+We find LivingRoom!
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/LivingRoom/21 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/LivingRoom/21 is Currently OFF. 
+We find Bedroom!
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/Bedroom/21 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Bedroom/21 is Currently OFF. 
+We find Kitchen!
+Cannot Get Sensor Reading, /Sensor/Humidity/Kitchen/21 is Currently OFF. 
+We find Bathroom!
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/Bathroom/21 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Bathroom/21 is Currently OFF. 
+We find LivingRoom!
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/LivingRoom/21 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/LivingRoom/21 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/LightIntensive/LivingRoom/21 is Currently OFF. 
+We find Bedroom!
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/Bedroom/21 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Bedroom/21 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/LightIntensive/Bedroom/21 is Currently OFF. 
+We find Kitchen!
+Cannot Get Sensor Reading, /Sensor/Humidity/Kitchen/21 is Currently OFF. 
+We find Bathroom!
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/Bathroom/21 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Bathroom/21 is Currently OFF. 
+We find Balcony!
+Cannot Get Sensor Reading, /Sensor/Humidity/Balcony/21 is Currently OFF. 
+Cleaning Robot /Actuator/CleaningRobot/LivingRoom/21 is OFF now, Need to Turn it ON First
+Cleaning Robot /Actuator/CleaningRobot/Bedroom/21 is OFF now, Need to Turn it ON First
+Cannot Get Sensor Reading, /Sensor/OutdoorTemperature/Balcony/21 is Currently OFF. 
+We find LivingRoom!
+We find Bedroom!
+We find Kitchen!
+We find Bathroom!
+We find Balcony!
+We find LivingRoom!
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/LivingRoom/22 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/LivingRoom/22 is Currently OFF. 
+We find Bedroom!
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/Bedroom/22 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Bedroom/22 is Currently OFF. 
+We find Kitchen!
+Cannot Get Sensor Reading, /Sensor/Humidity/Kitchen/22 is Currently OFF. 
+We find Bathroom!
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/Bathroom/22 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Bathroom/22 is Currently OFF. 
+We find LivingRoom!
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/LivingRoom/22 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/LivingRoom/22 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/LightIntensive/LivingRoom/22 is Currently OFF. 
+We find Bedroom!
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/Bedroom/22 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Bedroom/22 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/LightIntensive/Bedroom/22 is Currently OFF. 
+We find Kitchen!
+Cannot Get Sensor Reading, /Sensor/Humidity/Kitchen/22 is Currently OFF. 
+We find Bathroom!
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/Bathroom/22 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Bathroom/22 is Currently OFF. 
+We find Balcony!
+Cannot Get Sensor Reading, /Sensor/Humidity/Balcony/22 is Currently OFF. 
+Cleaning Robot /Actuator/CleaningRobot/LivingRoom/22 is OFF now, Need to Turn it ON First
+Cleaning Robot /Actuator/CleaningRobot/Bedroom/22 is OFF now, Need to Turn it ON First
+Cannot Get Sensor Reading, /Sensor/OutdoorTemperature/Balcony/22 is Currently OFF. 
+We find LivingRoom!
+We find Bedroom!
+We find Kitchen!
+We find Bathroom!
+We find Balcony!
+We find LivingRoom!
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/LivingRoom/23 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/LivingRoom/23 is Currently OFF. 
+We find Bedroom!
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/Bedroom/23 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Bedroom/23 is Currently OFF. 
+We find Kitchen!
+Cannot Get Sensor Reading, /Sensor/Humidity/Kitchen/23 is Currently OFF. 
+We find Bathroom!
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/Bathroom/23 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Bathroom/23 is Currently OFF. 
+We find LivingRoom!
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/LivingRoom/23 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/LivingRoom/23 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/LightIntensive/LivingRoom/23 is Currently OFF. 
+We find Bedroom!
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/Bedroom/23 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Bedroom/23 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/LightIntensive/Bedroom/23 is Currently OFF. 
+We find Kitchen!
+Cannot Get Sensor Reading, /Sensor/Humidity/Kitchen/23 is Currently OFF. 
+We find Bathroom!
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/Bathroom/23 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Bathroom/23 is Currently OFF. 
+We find Balcony!
+Cannot Get Sensor Reading, /Sensor/Humidity/Balcony/23 is Currently OFF. 
+Cleaning Robot /Actuator/CleaningRobot/LivingRoom/23 is OFF now, Need to Turn it ON First
+Cleaning Robot /Actuator/CleaningRobot/Bedroom/23 is OFF now, Need to Turn it ON First
+Cannot Get Sensor Reading, /Sensor/OutdoorTemperature/Balcony/23 is Currently OFF. 
+We find LivingRoom!
+We find Bedroom!
+We find Kitchen!
+We find Bathroom!
+We find Balcony!
+We find LivingRoom!
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/LivingRoom/24 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/LivingRoom/24 is Currently OFF. 
+We find Bedroom!
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/Bedroom/24 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Bedroom/24 is Currently OFF. 
+We find Kitchen!
+Cannot Get Sensor Reading, /Sensor/Humidity/Kitchen/24 is Currently OFF. 
+We find Bathroom!
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/Bathroom/24 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Bathroom/24 is Currently OFF. 
+We find LivingRoom!
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/LivingRoom/24 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/LivingRoom/24 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/LightIntensive/LivingRoom/24 is Currently OFF. 
+We find Bedroom!
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/Bedroom/24 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Bedroom/24 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/LightIntensive/Bedroom/24 is Currently OFF. 
+We find Kitchen!
+Cannot Get Sensor Reading, /Sensor/Humidity/Kitchen/24 is Currently OFF. 
+We find Bathroom!
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/Bathroom/24 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Bathroom/24 is Currently OFF. 
+We find Balcony!
+Cannot Get Sensor Reading, /Sensor/Humidity/Balcony/24 is Currently OFF. 
+Cleaning Robot /Actuator/CleaningRobot/LivingRoom/24 is OFF now, Need to Turn it ON First
+Cleaning Robot /Actuator/CleaningRobot/Bedroom/24 is OFF now, Need to Turn it ON First
+Cannot Get Sensor Reading, /Sensor/OutdoorTemperature/Balcony/24 is Currently OFF. 
+We find LivingRoom!
+We find Bedroom!
+We find Kitchen!
+We find Bathroom!
+We find Balcony!
+We find LivingRoom!
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/LivingRoom/25 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/LivingRoom/25 is Currently OFF. 
+We find Bedroom!
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/Bedroom/25 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Bedroom/25 is Currently OFF. 
+We find Kitchen!
+Cannot Get Sensor Reading, /Sensor/Humidity/Kitchen/25 is Currently OFF. 
+We find Bathroom!
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/Bathroom/25 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Bathroom/25 is Currently OFF. 
+We find LivingRoom!
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/LivingRoom/25 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/LivingRoom/25 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/LightIntensive/LivingRoom/25 is Currently OFF. 
+We find Bedroom!
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/Bedroom/25 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Bedroom/25 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/LightIntensive/Bedroom/25 is Currently OFF. 
+We find Kitchen!
+Cannot Get Sensor Reading, /Sensor/Humidity/Kitchen/25 is Currently OFF. 
+We find Bathroom!
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/Bathroom/25 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Bathroom/25 is Currently OFF. 
+We find Balcony!
+Cannot Get Sensor Reading, /Sensor/Humidity/Balcony/25 is Currently OFF. 
+Cleaning Robot /Actuator/CleaningRobot/LivingRoom/25 is OFF now, Need to Turn it ON First
+Cleaning Robot /Actuator/CleaningRobot/Bedroom/25 is OFF now, Need to Turn it ON First
+Cannot Get Sensor Reading, /Sensor/OutdoorTemperature/Balcony/25 is Currently OFF. 
+We find LivingRoom!
+We find Bedroom!
+We find Kitchen!
+We find Bathroom!
+We find Balcony!
+We find LivingRoom!
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/LivingRoom/26 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/LivingRoom/26 is Currently OFF. 
+We find Bedroom!
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/Bedroom/26 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Bedroom/26 is Currently OFF. 
+We find Kitchen!
+Cannot Get Sensor Reading, /Sensor/Humidity/Kitchen/26 is Currently OFF. 
+We find Bathroom!
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/Bathroom/26 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Bathroom/26 is Currently OFF. 
+We find LivingRoom!
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/LivingRoom/26 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/LivingRoom/26 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/LightIntensive/LivingRoom/26 is Currently OFF. 
+We find Bedroom!
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/Bedroom/26 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Bedroom/26 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/LightIntensive/Bedroom/26 is Currently OFF. 
+We find Kitchen!
+Cannot Get Sensor Reading, /Sensor/Humidity/Kitchen/26 is Currently OFF. 
+We find Bathroom!
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/Bathroom/26 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Bathroom/26 is Currently OFF. 
+We find Balcony!
+Cannot Get Sensor Reading, /Sensor/Humidity/Balcony/26 is Currently OFF. 
+Cleaning Robot /Actuator/CleaningRobot/LivingRoom/26 is OFF now, Need to Turn it ON First
+Cleaning Robot /Actuator/CleaningRobot/Bedroom/26 is OFF now, Need to Turn it ON First
+Cannot Get Sensor Reading, /Sensor/OutdoorTemperature/Balcony/26 is Currently OFF. 
+We find LivingRoom!
+We find Bedroom!
+We find Kitchen!
+We find Bathroom!
+We find Balcony!
+We find LivingRoom!
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/LivingRoom/27 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/LivingRoom/27 is Currently OFF. 
+We find Bedroom!
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/Bedroom/27 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Bedroom/27 is Currently OFF. 
+We find Kitchen!
+Cannot Get Sensor Reading, /Sensor/Humidity/Kitchen/27 is Currently OFF. 
+We find Bathroom!
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/Bathroom/27 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Bathroom/27 is Currently OFF. 
+We find LivingRoom!
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/LivingRoom/27 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/LivingRoom/27 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/LightIntensive/LivingRoom/27 is Currently OFF. 
+We find Bedroom!
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/Bedroom/27 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Bedroom/27 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/LightIntensive/Bedroom/27 is Currently OFF. 
+We find Kitchen!
+Cannot Get Sensor Reading, /Sensor/Humidity/Kitchen/27 is Currently OFF. 
+We find Bathroom!
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/Bathroom/27 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Bathroom/27 is Currently OFF. 
+We find Balcony!
+Cannot Get Sensor Reading, /Sensor/Humidity/Balcony/27 is Currently OFF. 
+Cleaning Robot /Actuator/CleaningRobot/LivingRoom/27 is OFF now, Need to Turn it ON First
+Cleaning Robot /Actuator/CleaningRobot/Bedroom/27 is OFF now, Need to Turn it ON First
+Cannot Get Sensor Reading, /Sensor/OutdoorTemperature/Balcony/27 is Currently OFF. 
+We find LivingRoom!
+We find Bedroom!
+We find Kitchen!
+We find Bathroom!
+We find Balcony!
+We find LivingRoom!
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/LivingRoom/28 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/LivingRoom/28 is Currently OFF. 
+We find Bedroom!
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/Bedroom/28 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Bedroom/28 is Currently OFF. 
+We find Kitchen!
+Cannot Get Sensor Reading, /Sensor/Humidity/Kitchen/28 is Currently OFF. 
+We find Bathroom!
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/Bathroom/28 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Bathroom/28 is Currently OFF. 
+We find LivingRoom!
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/LivingRoom/28 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/LivingRoom/28 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/LightIntensive/LivingRoom/28 is Currently OFF. 
+We find Bedroom!
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/Bedroom/28 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Bedroom/28 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/LightIntensive/Bedroom/28 is Currently OFF. 
+We find Kitchen!
+Cannot Get Sensor Reading, /Sensor/Humidity/Kitchen/28 is Currently OFF. 
+We find Bathroom!
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/Bathroom/28 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Bathroom/28 is Currently OFF. 
+We find Balcony!
+Cannot Get Sensor Reading, /Sensor/Humidity/Balcony/28 is Currently OFF. 
+Cleaning Robot /Actuator/CleaningRobot/LivingRoom/28 is OFF now, Need to Turn it ON First
+Cleaning Robot /Actuator/CleaningRobot/Bedroom/28 is OFF now, Need to Turn it ON First
+Cannot Get Sensor Reading, /Sensor/OutdoorTemperature/Balcony/28 is Currently OFF. 
+We find LivingRoom!
+We find Bedroom!
+We find Kitchen!
+We find Bathroom!
+We find Balcony!
+We find LivingRoom!
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/LivingRoom/29 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/LivingRoom/29 is Currently OFF. 
+We find Bedroom!
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/Bedroom/29 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Bedroom/29 is Currently OFF. 
+We find Kitchen!
+Cannot Get Sensor Reading, /Sensor/Humidity/Kitchen/29 is Currently OFF. 
+We find Bathroom!
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/Bathroom/29 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Bathroom/29 is Currently OFF. 
+We find LivingRoom!
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/LivingRoom/29 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/LivingRoom/29 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/LightIntensive/LivingRoom/29 is Currently OFF. 
+We find Bedroom!
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/Bedroom/29 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Bedroom/29 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/LightIntensive/Bedroom/29 is Currently OFF. 
+We find Kitchen!
+Cannot Get Sensor Reading, /Sensor/Humidity/Kitchen/29 is Currently OFF. 
+We find Bathroom!
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/Bathroom/29 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Bathroom/29 is Currently OFF. 
+We find Balcony!
+Cannot Get Sensor Reading, /Sensor/Humidity/Balcony/29 is Currently OFF. 
+Cleaning Robot /Actuator/CleaningRobot/LivingRoom/29 is OFF now, Need to Turn it ON First
+Cleaning Robot /Actuator/CleaningRobot/Bedroom/29 is OFF now, Need to Turn it ON First
+Cannot Get Sensor Reading, /Sensor/OutdoorTemperature/Balcony/29 is Currently OFF. 
+We find LivingRoom!
+We find Bedroom!
+We find Kitchen!
+We find Bathroom!
+We find Balcony!
+We find LivingRoom!
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/LivingRoom/30 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/LivingRoom/30 is Currently OFF. 
+We find Bedroom!
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/Bedroom/30 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Bedroom/30 is Currently OFF. 
+We find Kitchen!
+Cannot Get Sensor Reading, /Sensor/Humidity/Kitchen/30 is Currently OFF. 
+We find Bathroom!
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/Bathroom/30 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Bathroom/30 is Currently OFF. 
+We find LivingRoom!
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/LivingRoom/30 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/LivingRoom/30 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/LightIntensive/LivingRoom/30 is Currently OFF. 
+We find Bedroom!
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/Bedroom/30 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Bedroom/30 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/LightIntensive/Bedroom/30 is Currently OFF. 
+We find Kitchen!
+Cannot Get Sensor Reading, /Sensor/Humidity/Kitchen/30 is Currently OFF. 
+We find Bathroom!
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/Bathroom/30 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/Bathroom/30 is Currently OFF. 
+We find Balcony!
+Cannot Get Sensor Reading, /Sensor/Humidity/Balcony/30 is Currently OFF. 
+Cleaning Robot /Actuator/CleaningRobot/LivingRoom/30 is OFF now, Need to Turn it ON First
+Cleaning Robot /Actuator/CleaningRobot/Bedroom/30 is OFF now, Need to Turn it ON First
+Cannot Get Sensor Reading, /Sensor/OutdoorTemperature/Balcony/30 is Currently OFF. 
+
+Standard Error:
+2025-01-14 16:23:14,335 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/LivingRoom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:23:14,335 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/LivingRoom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:23:14,335 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/Bedroom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:23:14,335 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Bedroom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:23:14,335 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Kitchen/1' is currently OFF. Cannot get reading.
+2025-01-14 16:23:14,335 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/Bathroom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:23:14,335 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Bathroom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:23:14,335 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/LivingRoom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:23:14,335 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/LivingRoom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:23:14,335 - sensor.py - get_reading - WARNING - '/Sensor/LightIntensive/LivingRoom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:23:14,335 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/Bedroom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:23:14,335 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Bedroom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:23:14,335 - sensor.py - get_reading - WARNING - '/Sensor/LightIntensive/Bedroom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:23:14,335 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Kitchen/1' is currently OFF. Cannot get reading.
+2025-01-14 16:23:14,335 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/Bathroom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:23:14,335 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Bathroom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:23:14,335 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Balcony/1' is currently OFF. Cannot get reading.
+2025-01-14 16:23:14,335 - actuator.py - daily_routine - WARNING - Cleaning Robot /Actuator/CleaningRobot/LivingRoom/1 is OFF now, Need to Turn it ON First
+2025-01-14 16:23:14,335 - actuator.py - daily_routine - WARNING - Cleaning Robot /Actuator/CleaningRobot/Bedroom/1 is OFF now, Need to Turn it ON First
+2025-01-14 16:23:14,335 - sensor.py - get_reading - WARNING - '/Sensor/OutdoorTemperature/Balcony/1' is currently OFF. Cannot get reading.
+2025-01-14 16:23:15,338 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/LivingRoom/2' is currently OFF. Cannot get reading.
+2025-01-14 16:23:15,338 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/LivingRoom/2' is currently OFF. Cannot get reading.
+2025-01-14 16:23:15,338 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/Bedroom/2' is currently OFF. Cannot get reading.
+2025-01-14 16:23:15,338 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Bedroom/2' is currently OFF. Cannot get reading.
+2025-01-14 16:23:15,338 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Kitchen/2' is currently OFF. Cannot get reading.
+2025-01-14 16:23:15,339 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/Bathroom/2' is currently OFF. Cannot get reading.
+2025-01-14 16:23:15,339 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Bathroom/2' is currently OFF. Cannot get reading.
+2025-01-14 16:23:15,339 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/LivingRoom/2' is currently OFF. Cannot get reading.
+2025-01-14 16:23:15,339 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/LivingRoom/2' is currently OFF. Cannot get reading.
+2025-01-14 16:23:15,339 - sensor.py - get_reading - WARNING - '/Sensor/LightIntensive/LivingRoom/2' is currently OFF. Cannot get reading.
+2025-01-14 16:23:15,339 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/Bedroom/2' is currently OFF. Cannot get reading.
+2025-01-14 16:23:15,339 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Bedroom/2' is currently OFF. Cannot get reading.
+2025-01-14 16:23:15,339 - sensor.py - get_reading - WARNING - '/Sensor/LightIntensive/Bedroom/2' is currently OFF. Cannot get reading.
+2025-01-14 16:23:15,339 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Kitchen/2' is currently OFF. Cannot get reading.
+2025-01-14 16:23:15,339 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/Bathroom/2' is currently OFF. Cannot get reading.
+2025-01-14 16:23:15,339 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Bathroom/2' is currently OFF. Cannot get reading.
+2025-01-14 16:23:15,339 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Balcony/2' is currently OFF. Cannot get reading.
+2025-01-14 16:23:15,339 - actuator.py - daily_routine - WARNING - Cleaning Robot /Actuator/CleaningRobot/LivingRoom/2 is OFF now, Need to Turn it ON First
+2025-01-14 16:23:15,339 - actuator.py - daily_routine - WARNING - Cleaning Robot /Actuator/CleaningRobot/Bedroom/2 is OFF now, Need to Turn it ON First
+2025-01-14 16:23:15,339 - sensor.py - get_reading - WARNING - '/Sensor/OutdoorTemperature/Balcony/2' is currently OFF. Cannot get reading.
+2025-01-14 16:23:16,339 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/LivingRoom/3' is currently OFF. Cannot get reading.
+2025-01-14 16:23:16,340 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/LivingRoom/3' is currently OFF. Cannot get reading.
+2025-01-14 16:23:16,340 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/Bedroom/3' is currently OFF. Cannot get reading.
+2025-01-14 16:23:16,340 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Bedroom/3' is currently OFF. Cannot get reading.
+2025-01-14 16:23:16,340 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Kitchen/3' is currently OFF. Cannot get reading.
+2025-01-14 16:23:16,340 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/Bathroom/3' is currently OFF. Cannot get reading.
+2025-01-14 16:23:16,340 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Bathroom/3' is currently OFF. Cannot get reading.
+2025-01-14 16:23:16,340 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/LivingRoom/3' is currently OFF. Cannot get reading.
+2025-01-14 16:23:16,340 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/LivingRoom/3' is currently OFF. Cannot get reading.
+2025-01-14 16:23:16,340 - sensor.py - get_reading - WARNING - '/Sensor/LightIntensive/LivingRoom/3' is currently OFF. Cannot get reading.
+2025-01-14 16:23:16,340 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/Bedroom/3' is currently OFF. Cannot get reading.
+2025-01-14 16:23:16,340 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Bedroom/3' is currently OFF. Cannot get reading.
+2025-01-14 16:23:16,340 - sensor.py - get_reading - WARNING - '/Sensor/LightIntensive/Bedroom/3' is currently OFF. Cannot get reading.
+2025-01-14 16:23:16,340 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Kitchen/3' is currently OFF. Cannot get reading.
+2025-01-14 16:23:16,340 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/Bathroom/3' is currently OFF. Cannot get reading.
+2025-01-14 16:23:16,340 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Bathroom/3' is currently OFF. Cannot get reading.
+2025-01-14 16:23:16,340 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Balcony/3' is currently OFF. Cannot get reading.
+2025-01-14 16:23:16,340 - actuator.py - daily_routine - WARNING - Cleaning Robot /Actuator/CleaningRobot/LivingRoom/3 is OFF now, Need to Turn it ON First
+2025-01-14 16:23:16,340 - actuator.py - daily_routine - WARNING - Cleaning Robot /Actuator/CleaningRobot/Bedroom/3 is OFF now, Need to Turn it ON First
+2025-01-14 16:23:16,340 - sensor.py - get_reading - WARNING - '/Sensor/OutdoorTemperature/Balcony/3' is currently OFF. Cannot get reading.
+2025-01-14 16:23:17,342 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/LivingRoom/4' is currently OFF. Cannot get reading.
+2025-01-14 16:23:17,342 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/LivingRoom/4' is currently OFF. Cannot get reading.
+2025-01-14 16:23:17,342 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/Bedroom/4' is currently OFF. Cannot get reading.
+2025-01-14 16:23:17,342 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Bedroom/4' is currently OFF. Cannot get reading.
+2025-01-14 16:23:17,342 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Kitchen/4' is currently OFF. Cannot get reading.
+2025-01-14 16:23:17,342 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/Bathroom/4' is currently OFF. Cannot get reading.
+2025-01-14 16:23:17,342 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Bathroom/4' is currently OFF. Cannot get reading.
+2025-01-14 16:23:17,342 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/LivingRoom/4' is currently OFF. Cannot get reading.
+2025-01-14 16:23:17,342 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/LivingRoom/4' is currently OFF. Cannot get reading.
+2025-01-14 16:23:17,342 - sensor.py - get_reading - WARNING - '/Sensor/LightIntensive/LivingRoom/4' is currently OFF. Cannot get reading.
+2025-01-14 16:23:17,342 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/Bedroom/4' is currently OFF. Cannot get reading.
+2025-01-14 16:23:17,342 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Bedroom/4' is currently OFF. Cannot get reading.
+2025-01-14 16:23:17,342 - sensor.py - get_reading - WARNING - '/Sensor/LightIntensive/Bedroom/4' is currently OFF. Cannot get reading.
+2025-01-14 16:23:17,342 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Kitchen/4' is currently OFF. Cannot get reading.
+2025-01-14 16:23:17,342 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/Bathroom/4' is currently OFF. Cannot get reading.
+2025-01-14 16:23:17,342 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Bathroom/4' is currently OFF. Cannot get reading.
+2025-01-14 16:23:17,342 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Balcony/4' is currently OFF. Cannot get reading.
+2025-01-14 16:23:17,342 - actuator.py - daily_routine - WARNING - Cleaning Robot /Actuator/CleaningRobot/LivingRoom/4 is OFF now, Need to Turn it ON First
+2025-01-14 16:23:17,342 - actuator.py - daily_routine - WARNING - Cleaning Robot /Actuator/CleaningRobot/Bedroom/4 is OFF now, Need to Turn it ON First
+2025-01-14 16:23:17,342 - sensor.py - get_reading - WARNING - '/Sensor/OutdoorTemperature/Balcony/4' is currently OFF. Cannot get reading.
+2025-01-14 16:23:18,348 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/LivingRoom/5' is currently OFF. Cannot get reading.
+2025-01-14 16:23:18,348 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/LivingRoom/5' is currently OFF. Cannot get reading.
+2025-01-14 16:23:18,348 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/Bedroom/5' is currently OFF. Cannot get reading.
+2025-01-14 16:23:18,348 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Bedroom/5' is currently OFF. Cannot get reading.
+2025-01-14 16:23:18,348 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Kitchen/5' is currently OFF. Cannot get reading.
+2025-01-14 16:23:18,348 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/Bathroom/5' is currently OFF. Cannot get reading.
+2025-01-14 16:23:18,348 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Bathroom/5' is currently OFF. Cannot get reading.
+2025-01-14 16:23:18,348 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/LivingRoom/5' is currently OFF. Cannot get reading.
+2025-01-14 16:23:18,348 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/LivingRoom/5' is currently OFF. Cannot get reading.
+2025-01-14 16:23:18,348 - sensor.py - get_reading - WARNING - '/Sensor/LightIntensive/LivingRoom/5' is currently OFF. Cannot get reading.
+2025-01-14 16:23:18,348 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/Bedroom/5' is currently OFF. Cannot get reading.
+2025-01-14 16:23:18,348 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Bedroom/5' is currently OFF. Cannot get reading.
+2025-01-14 16:23:18,349 - sensor.py - get_reading - WARNING - '/Sensor/LightIntensive/Bedroom/5' is currently OFF. Cannot get reading.
+2025-01-14 16:23:18,349 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Kitchen/5' is currently OFF. Cannot get reading.
+2025-01-14 16:23:18,349 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/Bathroom/5' is currently OFF. Cannot get reading.
+2025-01-14 16:23:18,349 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Bathroom/5' is currently OFF. Cannot get reading.
+2025-01-14 16:23:18,349 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Balcony/5' is currently OFF. Cannot get reading.
+2025-01-14 16:23:18,349 - actuator.py - daily_routine - WARNING - Cleaning Robot /Actuator/CleaningRobot/LivingRoom/5 is OFF now, Need to Turn it ON First
+2025-01-14 16:23:18,349 - actuator.py - daily_routine - WARNING - Cleaning Robot /Actuator/CleaningRobot/Bedroom/5 is OFF now, Need to Turn it ON First
+2025-01-14 16:23:18,349 - sensor.py - get_reading - WARNING - '/Sensor/OutdoorTemperature/Balcony/5' is currently OFF. Cannot get reading.
+2025-01-14 16:23:19,355 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/LivingRoom/6' is currently OFF. Cannot get reading.
+2025-01-14 16:23:19,355 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/LivingRoom/6' is currently OFF. Cannot get reading.
+2025-01-14 16:23:19,355 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/Bedroom/6' is currently OFF. Cannot get reading.
+2025-01-14 16:23:19,355 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Bedroom/6' is currently OFF. Cannot get reading.
+2025-01-14 16:23:19,355 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Kitchen/6' is currently OFF. Cannot get reading.
+2025-01-14 16:23:19,355 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/Bathroom/6' is currently OFF. Cannot get reading.
+2025-01-14 16:23:19,355 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Bathroom/6' is currently OFF. Cannot get reading.
+2025-01-14 16:23:19,355 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/LivingRoom/6' is currently OFF. Cannot get reading.
+2025-01-14 16:23:19,355 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/LivingRoom/6' is currently OFF. Cannot get reading.
+2025-01-14 16:23:19,355 - sensor.py - get_reading - WARNING - '/Sensor/LightIntensive/LivingRoom/6' is currently OFF. Cannot get reading.
+2025-01-14 16:23:19,356 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/Bedroom/6' is currently OFF. Cannot get reading.
+2025-01-14 16:23:19,356 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Bedroom/6' is currently OFF. Cannot get reading.
+2025-01-14 16:23:19,356 - sensor.py - get_reading - WARNING - '/Sensor/LightIntensive/Bedroom/6' is currently OFF. Cannot get reading.
+2025-01-14 16:23:19,356 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Kitchen/6' is currently OFF. Cannot get reading.
+2025-01-14 16:23:19,356 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/Bathroom/6' is currently OFF. Cannot get reading.
+2025-01-14 16:23:19,356 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Bathroom/6' is currently OFF. Cannot get reading.
+2025-01-14 16:23:19,356 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Balcony/6' is currently OFF. Cannot get reading.
+2025-01-14 16:23:19,356 - actuator.py - daily_routine - WARNING - Cleaning Robot /Actuator/CleaningRobot/LivingRoom/6 is OFF now, Need to Turn it ON First
+2025-01-14 16:23:19,356 - actuator.py - daily_routine - WARNING - Cleaning Robot /Actuator/CleaningRobot/Bedroom/6 is OFF now, Need to Turn it ON First
+2025-01-14 16:23:19,356 - sensor.py - get_reading - WARNING - '/Sensor/OutdoorTemperature/Balcony/6' is currently OFF. Cannot get reading.
+2025-01-14 16:23:20,358 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/LivingRoom/7' is currently OFF. Cannot get reading.
+2025-01-14 16:23:20,359 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/LivingRoom/7' is currently OFF. Cannot get reading.
+2025-01-14 16:23:20,359 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/Bedroom/7' is currently OFF. Cannot get reading.
+2025-01-14 16:23:20,359 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Bedroom/7' is currently OFF. Cannot get reading.
+2025-01-14 16:23:20,359 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Kitchen/7' is currently OFF. Cannot get reading.
+2025-01-14 16:23:20,359 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/Bathroom/7' is currently OFF. Cannot get reading.
+2025-01-14 16:23:20,359 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Bathroom/7' is currently OFF. Cannot get reading.
+2025-01-14 16:23:20,359 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/LivingRoom/7' is currently OFF. Cannot get reading.
+2025-01-14 16:23:20,359 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/LivingRoom/7' is currently OFF. Cannot get reading.
+2025-01-14 16:23:20,359 - sensor.py - get_reading - WARNING - '/Sensor/LightIntensive/LivingRoom/7' is currently OFF. Cannot get reading.
+2025-01-14 16:23:20,359 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/Bedroom/7' is currently OFF. Cannot get reading.
+2025-01-14 16:23:20,359 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Bedroom/7' is currently OFF. Cannot get reading.
+2025-01-14 16:23:20,359 - sensor.py - get_reading - WARNING - '/Sensor/LightIntensive/Bedroom/7' is currently OFF. Cannot get reading.
+2025-01-14 16:23:20,359 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Kitchen/7' is currently OFF. Cannot get reading.
+2025-01-14 16:23:20,359 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/Bathroom/7' is currently OFF. Cannot get reading.
+2025-01-14 16:23:20,359 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Bathroom/7' is currently OFF. Cannot get reading.
+2025-01-14 16:23:20,360 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Balcony/7' is currently OFF. Cannot get reading.
+2025-01-14 16:23:20,360 - actuator.py - daily_routine - WARNING - Cleaning Robot /Actuator/CleaningRobot/LivingRoom/7 is OFF now, Need to Turn it ON First
+2025-01-14 16:23:20,360 - actuator.py - daily_routine - WARNING - Cleaning Robot /Actuator/CleaningRobot/Bedroom/7 is OFF now, Need to Turn it ON First
+2025-01-14 16:23:20,360 - sensor.py - get_reading - WARNING - '/Sensor/OutdoorTemperature/Balcony/7' is currently OFF. Cannot get reading.
+2025-01-14 16:23:21,361 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/LivingRoom/8' is currently OFF. Cannot get reading.
+2025-01-14 16:23:21,362 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/LivingRoom/8' is currently OFF. Cannot get reading.
+2025-01-14 16:23:21,362 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/Bedroom/8' is currently OFF. Cannot get reading.
+2025-01-14 16:23:21,362 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Bedroom/8' is currently OFF. Cannot get reading.
+2025-01-14 16:23:21,362 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Kitchen/8' is currently OFF. Cannot get reading.
+2025-01-14 16:23:21,362 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/Bathroom/8' is currently OFF. Cannot get reading.
+2025-01-14 16:23:21,362 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Bathroom/8' is currently OFF. Cannot get reading.
+2025-01-14 16:23:21,362 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/LivingRoom/8' is currently OFF. Cannot get reading.
+2025-01-14 16:23:21,362 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/LivingRoom/8' is currently OFF. Cannot get reading.
+2025-01-14 16:23:21,362 - sensor.py - get_reading - WARNING - '/Sensor/LightIntensive/LivingRoom/8' is currently OFF. Cannot get reading.
+2025-01-14 16:23:21,362 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/Bedroom/8' is currently OFF. Cannot get reading.
+2025-01-14 16:23:21,362 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Bedroom/8' is currently OFF. Cannot get reading.
+2025-01-14 16:23:21,362 - sensor.py - get_reading - WARNING - '/Sensor/LightIntensive/Bedroom/8' is currently OFF. Cannot get reading.
+2025-01-14 16:23:21,362 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Kitchen/8' is currently OFF. Cannot get reading.
+2025-01-14 16:23:21,362 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/Bathroom/8' is currently OFF. Cannot get reading.
+2025-01-14 16:23:21,362 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Bathroom/8' is currently OFF. Cannot get reading.
+2025-01-14 16:23:21,362 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Balcony/8' is currently OFF. Cannot get reading.
+2025-01-14 16:23:21,362 - actuator.py - daily_routine - WARNING - Cleaning Robot /Actuator/CleaningRobot/LivingRoom/8 is OFF now, Need to Turn it ON First
+2025-01-14 16:23:21,362 - actuator.py - daily_routine - WARNING - Cleaning Robot /Actuator/CleaningRobot/Bedroom/8 is OFF now, Need to Turn it ON First
+2025-01-14 16:23:21,362 - sensor.py - get_reading - WARNING - '/Sensor/OutdoorTemperature/Balcony/8' is currently OFF. Cannot get reading.
+2025-01-14 16:23:22,364 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/LivingRoom/9' is currently OFF. Cannot get reading.
+2025-01-14 16:23:22,364 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/LivingRoom/9' is currently OFF. Cannot get reading.
+2025-01-14 16:23:22,364 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/Bedroom/9' is currently OFF. Cannot get reading.
+2025-01-14 16:23:22,364 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Bedroom/9' is currently OFF. Cannot get reading.
+2025-01-14 16:23:22,364 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Kitchen/9' is currently OFF. Cannot get reading.
+2025-01-14 16:23:22,364 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/Bathroom/9' is currently OFF. Cannot get reading.
+2025-01-14 16:23:22,364 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Bathroom/9' is currently OFF. Cannot get reading.
+2025-01-14 16:23:22,364 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/LivingRoom/9' is currently OFF. Cannot get reading.
+2025-01-14 16:23:22,364 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/LivingRoom/9' is currently OFF. Cannot get reading.
+2025-01-14 16:23:22,364 - sensor.py - get_reading - WARNING - '/Sensor/LightIntensive/LivingRoom/9' is currently OFF. Cannot get reading.
+2025-01-14 16:23:22,364 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/Bedroom/9' is currently OFF. Cannot get reading.
+2025-01-14 16:23:22,364 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Bedroom/9' is currently OFF. Cannot get reading.
+2025-01-14 16:23:22,364 - sensor.py - get_reading - WARNING - '/Sensor/LightIntensive/Bedroom/9' is currently OFF. Cannot get reading.
+2025-01-14 16:23:22,365 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Kitchen/9' is currently OFF. Cannot get reading.
+2025-01-14 16:23:22,365 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/Bathroom/9' is currently OFF. Cannot get reading.
+2025-01-14 16:23:22,365 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Bathroom/9' is currently OFF. Cannot get reading.
+2025-01-14 16:23:22,365 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Balcony/9' is currently OFF. Cannot get reading.
+2025-01-14 16:23:22,365 - actuator.py - daily_routine - WARNING - Cleaning Robot /Actuator/CleaningRobot/LivingRoom/9 is OFF now, Need to Turn it ON First
+2025-01-14 16:23:22,365 - actuator.py - daily_routine - WARNING - Cleaning Robot /Actuator/CleaningRobot/Bedroom/9 is OFF now, Need to Turn it ON First
+2025-01-14 16:23:22,365 - sensor.py - get_reading - WARNING - '/Sensor/OutdoorTemperature/Balcony/9' is currently OFF. Cannot get reading.
+2025-01-14 16:23:23,370 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/LivingRoom/10' is currently OFF. Cannot get reading.
+2025-01-14 16:23:23,370 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/LivingRoom/10' is currently OFF. Cannot get reading.
+2025-01-14 16:23:23,370 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/Bedroom/10' is currently OFF. Cannot get reading.
+2025-01-14 16:23:23,370 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Bedroom/10' is currently OFF. Cannot get reading.
+2025-01-14 16:23:23,370 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Kitchen/10' is currently OFF. Cannot get reading.
+2025-01-14 16:23:23,370 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/Bathroom/10' is currently OFF. Cannot get reading.
+2025-01-14 16:23:23,370 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Bathroom/10' is currently OFF. Cannot get reading.
+2025-01-14 16:23:23,370 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/LivingRoom/10' is currently OFF. Cannot get reading.
+2025-01-14 16:23:23,370 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/LivingRoom/10' is currently OFF. Cannot get reading.
+2025-01-14 16:23:23,370 - sensor.py - get_reading - WARNING - '/Sensor/LightIntensive/LivingRoom/10' is currently OFF. Cannot get reading.
+2025-01-14 16:23:23,370 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/Bedroom/10' is currently OFF. Cannot get reading.
+2025-01-14 16:23:23,370 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Bedroom/10' is currently OFF. Cannot get reading.
+2025-01-14 16:23:23,370 - sensor.py - get_reading - WARNING - '/Sensor/LightIntensive/Bedroom/10' is currently OFF. Cannot get reading.
+2025-01-14 16:23:23,370 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Kitchen/10' is currently OFF. Cannot get reading.
+2025-01-14 16:23:23,370 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/Bathroom/10' is currently OFF. Cannot get reading.
+2025-01-14 16:23:23,370 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Bathroom/10' is currently OFF. Cannot get reading.
+2025-01-14 16:23:23,370 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Balcony/10' is currently OFF. Cannot get reading.
+2025-01-14 16:23:23,370 - actuator.py - daily_routine - WARNING - Cleaning Robot /Actuator/CleaningRobot/LivingRoom/10 is OFF now, Need to Turn it ON First
+2025-01-14 16:23:23,370 - actuator.py - daily_routine - WARNING - Cleaning Robot /Actuator/CleaningRobot/Bedroom/10 is OFF now, Need to Turn it ON First
+2025-01-14 16:23:23,370 - sensor.py - get_reading - WARNING - '/Sensor/OutdoorTemperature/Balcony/10' is currently OFF. Cannot get reading.
+2025-01-14 16:23:24,373 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/LivingRoom/11' is currently OFF. Cannot get reading.
+2025-01-14 16:23:24,373 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/LivingRoom/11' is currently OFF. Cannot get reading.
+2025-01-14 16:23:24,373 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/Bedroom/11' is currently OFF. Cannot get reading.
+2025-01-14 16:23:24,373 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Bedroom/11' is currently OFF. Cannot get reading.
+2025-01-14 16:23:24,373 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Kitchen/11' is currently OFF. Cannot get reading.
+2025-01-14 16:23:24,373 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/Bathroom/11' is currently OFF. Cannot get reading.
+2025-01-14 16:23:24,373 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Bathroom/11' is currently OFF. Cannot get reading.
+2025-01-14 16:23:24,373 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/LivingRoom/11' is currently OFF. Cannot get reading.
+2025-01-14 16:23:24,373 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/LivingRoom/11' is currently OFF. Cannot get reading.
+2025-01-14 16:23:24,373 - sensor.py - get_reading - WARNING - '/Sensor/LightIntensive/LivingRoom/11' is currently OFF. Cannot get reading.
+2025-01-14 16:23:24,373 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/Bedroom/11' is currently OFF. Cannot get reading.
+2025-01-14 16:23:24,373 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Bedroom/11' is currently OFF. Cannot get reading.
+2025-01-14 16:23:24,373 - sensor.py - get_reading - WARNING - '/Sensor/LightIntensive/Bedroom/11' is currently OFF. Cannot get reading.
+2025-01-14 16:23:24,373 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Kitchen/11' is currently OFF. Cannot get reading.
+2025-01-14 16:23:24,373 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/Bathroom/11' is currently OFF. Cannot get reading.
+2025-01-14 16:23:24,373 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Bathroom/11' is currently OFF. Cannot get reading.
+2025-01-14 16:23:24,373 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Balcony/11' is currently OFF. Cannot get reading.
+2025-01-14 16:23:24,373 - actuator.py - daily_routine - WARNING - Cleaning Robot /Actuator/CleaningRobot/LivingRoom/11 is OFF now, Need to Turn it ON First
+2025-01-14 16:23:24,374 - actuator.py - daily_routine - WARNING - Cleaning Robot /Actuator/CleaningRobot/Bedroom/11 is OFF now, Need to Turn it ON First
+2025-01-14 16:23:24,374 - sensor.py - get_reading - WARNING - '/Sensor/OutdoorTemperature/Balcony/11' is currently OFF. Cannot get reading.
+2025-01-14 16:23:25,379 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/LivingRoom/12' is currently OFF. Cannot get reading.
+2025-01-14 16:23:25,379 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/LivingRoom/12' is currently OFF. Cannot get reading.
+2025-01-14 16:23:25,379 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/Bedroom/12' is currently OFF. Cannot get reading.
+2025-01-14 16:23:25,379 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Bedroom/12' is currently OFF. Cannot get reading.
+2025-01-14 16:23:25,379 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Kitchen/12' is currently OFF. Cannot get reading.
+2025-01-14 16:23:25,379 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/Bathroom/12' is currently OFF. Cannot get reading.
+2025-01-14 16:23:25,379 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Bathroom/12' is currently OFF. Cannot get reading.
+2025-01-14 16:23:25,379 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/LivingRoom/12' is currently OFF. Cannot get reading.
+2025-01-14 16:23:25,379 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/LivingRoom/12' is currently OFF. Cannot get reading.
+2025-01-14 16:23:25,379 - sensor.py - get_reading - WARNING - '/Sensor/LightIntensive/LivingRoom/12' is currently OFF. Cannot get reading.
+2025-01-14 16:23:25,379 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/Bedroom/12' is currently OFF. Cannot get reading.
+2025-01-14 16:23:25,379 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Bedroom/12' is currently OFF. Cannot get reading.
+2025-01-14 16:23:25,379 - sensor.py - get_reading - WARNING - '/Sensor/LightIntensive/Bedroom/12' is currently OFF. Cannot get reading.
+2025-01-14 16:23:25,379 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Kitchen/12' is currently OFF. Cannot get reading.
+2025-01-14 16:23:25,379 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/Bathroom/12' is currently OFF. Cannot get reading.
+2025-01-14 16:23:25,379 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Bathroom/12' is currently OFF. Cannot get reading.
+2025-01-14 16:23:25,379 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Balcony/12' is currently OFF. Cannot get reading.
+2025-01-14 16:23:25,379 - actuator.py - daily_routine - WARNING - Cleaning Robot /Actuator/CleaningRobot/LivingRoom/12 is OFF now, Need to Turn it ON First
+2025-01-14 16:23:25,379 - actuator.py - daily_routine - WARNING - Cleaning Robot /Actuator/CleaningRobot/Bedroom/12 is OFF now, Need to Turn it ON First
+2025-01-14 16:23:25,379 - sensor.py - get_reading - WARNING - '/Sensor/OutdoorTemperature/Balcony/12' is currently OFF. Cannot get reading.
+2025-01-14 16:23:26,381 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/LivingRoom/13' is currently OFF. Cannot get reading.
+2025-01-14 16:23:26,381 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/LivingRoom/13' is currently OFF. Cannot get reading.
+2025-01-14 16:23:26,381 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/Bedroom/13' is currently OFF. Cannot get reading.
+2025-01-14 16:23:26,381 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Bedroom/13' is currently OFF. Cannot get reading.
+2025-01-14 16:23:26,381 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Kitchen/13' is currently OFF. Cannot get reading.
+2025-01-14 16:23:26,381 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/Bathroom/13' is currently OFF. Cannot get reading.
+2025-01-14 16:23:26,381 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Bathroom/13' is currently OFF. Cannot get reading.
+2025-01-14 16:23:26,381 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/LivingRoom/13' is currently OFF. Cannot get reading.
+2025-01-14 16:23:26,381 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/LivingRoom/13' is currently OFF. Cannot get reading.
+2025-01-14 16:23:26,381 - sensor.py - get_reading - WARNING - '/Sensor/LightIntensive/LivingRoom/13' is currently OFF. Cannot get reading.
+2025-01-14 16:23:26,381 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/Bedroom/13' is currently OFF. Cannot get reading.
+2025-01-14 16:23:26,381 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Bedroom/13' is currently OFF. Cannot get reading.
+2025-01-14 16:23:26,381 - sensor.py - get_reading - WARNING - '/Sensor/LightIntensive/Bedroom/13' is currently OFF. Cannot get reading.
+2025-01-14 16:23:26,381 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Kitchen/13' is currently OFF. Cannot get reading.
+2025-01-14 16:23:26,381 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/Bathroom/13' is currently OFF. Cannot get reading.
+2025-01-14 16:23:26,381 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Bathroom/13' is currently OFF. Cannot get reading.
+2025-01-14 16:23:26,381 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Balcony/13' is currently OFF. Cannot get reading.
+2025-01-14 16:23:26,381 - actuator.py - daily_routine - WARNING - Cleaning Robot /Actuator/CleaningRobot/LivingRoom/13 is OFF now, Need to Turn it ON First
+2025-01-14 16:23:26,381 - actuator.py - daily_routine - WARNING - Cleaning Robot /Actuator/CleaningRobot/Bedroom/13 is OFF now, Need to Turn it ON First
+2025-01-14 16:23:26,381 - sensor.py - get_reading - WARNING - '/Sensor/OutdoorTemperature/Balcony/13' is currently OFF. Cannot get reading.
+2025-01-14 16:23:27,385 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/LivingRoom/14' is currently OFF. Cannot get reading.
+2025-01-14 16:23:27,385 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/LivingRoom/14' is currently OFF. Cannot get reading.
+2025-01-14 16:23:27,385 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/Bedroom/14' is currently OFF. Cannot get reading.
+2025-01-14 16:23:27,385 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Bedroom/14' is currently OFF. Cannot get reading.
+2025-01-14 16:23:27,386 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Kitchen/14' is currently OFF. Cannot get reading.
+2025-01-14 16:23:27,386 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/Bathroom/14' is currently OFF. Cannot get reading.
+2025-01-14 16:23:27,386 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Bathroom/14' is currently OFF. Cannot get reading.
+2025-01-14 16:23:27,386 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/LivingRoom/14' is currently OFF. Cannot get reading.
+2025-01-14 16:23:27,386 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/LivingRoom/14' is currently OFF. Cannot get reading.
+2025-01-14 16:23:27,386 - sensor.py - get_reading - WARNING - '/Sensor/LightIntensive/LivingRoom/14' is currently OFF. Cannot get reading.
+2025-01-14 16:23:27,386 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/Bedroom/14' is currently OFF. Cannot get reading.
+2025-01-14 16:23:27,386 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Bedroom/14' is currently OFF. Cannot get reading.
+2025-01-14 16:23:27,386 - sensor.py - get_reading - WARNING - '/Sensor/LightIntensive/Bedroom/14' is currently OFF. Cannot get reading.
+2025-01-14 16:23:27,386 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Kitchen/14' is currently OFF. Cannot get reading.
+2025-01-14 16:23:27,386 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/Bathroom/14' is currently OFF. Cannot get reading.
+2025-01-14 16:23:27,386 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Bathroom/14' is currently OFF. Cannot get reading.
+2025-01-14 16:23:27,386 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Balcony/14' is currently OFF. Cannot get reading.
+2025-01-14 16:23:27,386 - actuator.py - daily_routine - WARNING - Cleaning Robot /Actuator/CleaningRobot/LivingRoom/14 is OFF now, Need to Turn it ON First
+2025-01-14 16:23:27,386 - actuator.py - daily_routine - WARNING - Cleaning Robot /Actuator/CleaningRobot/Bedroom/14 is OFF now, Need to Turn it ON First
+2025-01-14 16:23:27,386 - sensor.py - get_reading - WARNING - '/Sensor/OutdoorTemperature/Balcony/14' is currently OFF. Cannot get reading.
+2025-01-14 16:23:28,391 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/LivingRoom/15' is currently OFF. Cannot get reading.
+2025-01-14 16:23:28,391 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/LivingRoom/15' is currently OFF. Cannot get reading.
+2025-01-14 16:23:28,391 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/Bedroom/15' is currently OFF. Cannot get reading.
+2025-01-14 16:23:28,391 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Bedroom/15' is currently OFF. Cannot get reading.
+2025-01-14 16:23:28,391 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Kitchen/15' is currently OFF. Cannot get reading.
+2025-01-14 16:23:28,391 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/Bathroom/15' is currently OFF. Cannot get reading.
+2025-01-14 16:23:28,391 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Bathroom/15' is currently OFF. Cannot get reading.
+2025-01-14 16:23:28,391 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/LivingRoom/15' is currently OFF. Cannot get reading.
+2025-01-14 16:23:28,391 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/LivingRoom/15' is currently OFF. Cannot get reading.
+2025-01-14 16:23:28,391 - sensor.py - get_reading - WARNING - '/Sensor/LightIntensive/LivingRoom/15' is currently OFF. Cannot get reading.
+2025-01-14 16:23:28,391 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/Bedroom/15' is currently OFF. Cannot get reading.
+2025-01-14 16:23:28,392 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Bedroom/15' is currently OFF. Cannot get reading.
+2025-01-14 16:23:28,392 - sensor.py - get_reading - WARNING - '/Sensor/LightIntensive/Bedroom/15' is currently OFF. Cannot get reading.
+2025-01-14 16:23:28,392 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Kitchen/15' is currently OFF. Cannot get reading.
+2025-01-14 16:23:28,392 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/Bathroom/15' is currently OFF. Cannot get reading.
+2025-01-14 16:23:28,392 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Bathroom/15' is currently OFF. Cannot get reading.
+2025-01-14 16:23:28,392 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Balcony/15' is currently OFF. Cannot get reading.
+2025-01-14 16:23:28,392 - actuator.py - daily_routine - WARNING - Cleaning Robot /Actuator/CleaningRobot/LivingRoom/15 is OFF now, Need to Turn it ON First
+2025-01-14 16:23:28,392 - actuator.py - daily_routine - WARNING - Cleaning Robot /Actuator/CleaningRobot/Bedroom/15 is OFF now, Need to Turn it ON First
+2025-01-14 16:23:28,392 - sensor.py - get_reading - WARNING - '/Sensor/OutdoorTemperature/Balcony/15' is currently OFF. Cannot get reading.
+2025-01-14 16:23:29,398 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/LivingRoom/16' is currently OFF. Cannot get reading.
+2025-01-14 16:23:29,398 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/LivingRoom/16' is currently OFF. Cannot get reading.
+2025-01-14 16:23:29,398 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/Bedroom/16' is currently OFF. Cannot get reading.
+2025-01-14 16:23:29,398 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Bedroom/16' is currently OFF. Cannot get reading.
+2025-01-14 16:23:29,398 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Kitchen/16' is currently OFF. Cannot get reading.
+2025-01-14 16:23:29,398 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/Bathroom/16' is currently OFF. Cannot get reading.
+2025-01-14 16:23:29,398 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Bathroom/16' is currently OFF. Cannot get reading.
+2025-01-14 16:23:29,398 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/LivingRoom/16' is currently OFF. Cannot get reading.
+2025-01-14 16:23:29,398 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/LivingRoom/16' is currently OFF. Cannot get reading.
+2025-01-14 16:23:29,398 - sensor.py - get_reading - WARNING - '/Sensor/LightIntensive/LivingRoom/16' is currently OFF. Cannot get reading.
+2025-01-14 16:23:29,398 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/Bedroom/16' is currently OFF. Cannot get reading.
+2025-01-14 16:23:29,398 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Bedroom/16' is currently OFF. Cannot get reading.
+2025-01-14 16:23:29,398 - sensor.py - get_reading - WARNING - '/Sensor/LightIntensive/Bedroom/16' is currently OFF. Cannot get reading.
+2025-01-14 16:23:29,398 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Kitchen/16' is currently OFF. Cannot get reading.
+2025-01-14 16:23:29,398 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/Bathroom/16' is currently OFF. Cannot get reading.
+2025-01-14 16:23:29,398 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Bathroom/16' is currently OFF. Cannot get reading.
+2025-01-14 16:23:29,398 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Balcony/16' is currently OFF. Cannot get reading.
+2025-01-14 16:23:29,398 - actuator.py - daily_routine - WARNING - Cleaning Robot /Actuator/CleaningRobot/LivingRoom/16 is OFF now, Need to Turn it ON First
+2025-01-14 16:23:29,398 - actuator.py - daily_routine - WARNING - Cleaning Robot /Actuator/CleaningRobot/Bedroom/16 is OFF now, Need to Turn it ON First
+2025-01-14 16:23:29,398 - sensor.py - get_reading - WARNING - '/Sensor/OutdoorTemperature/Balcony/16' is currently OFF. Cannot get reading.
+2025-01-14 16:23:30,403 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/LivingRoom/17' is currently OFF. Cannot get reading.
+2025-01-14 16:23:30,403 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/LivingRoom/17' is currently OFF. Cannot get reading.
+2025-01-14 16:23:30,404 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/Bedroom/17' is currently OFF. Cannot get reading.
+2025-01-14 16:23:30,404 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Bedroom/17' is currently OFF. Cannot get reading.
+2025-01-14 16:23:30,404 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Kitchen/17' is currently OFF. Cannot get reading.
+2025-01-14 16:23:30,404 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/Bathroom/17' is currently OFF. Cannot get reading.
+2025-01-14 16:23:30,404 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Bathroom/17' is currently OFF. Cannot get reading.
+2025-01-14 16:23:30,404 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/LivingRoom/17' is currently OFF. Cannot get reading.
+2025-01-14 16:23:30,404 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/LivingRoom/17' is currently OFF. Cannot get reading.
+2025-01-14 16:23:30,404 - sensor.py - get_reading - WARNING - '/Sensor/LightIntensive/LivingRoom/17' is currently OFF. Cannot get reading.
+2025-01-14 16:23:30,404 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/Bedroom/17' is currently OFF. Cannot get reading.
+2025-01-14 16:23:30,404 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Bedroom/17' is currently OFF. Cannot get reading.
+2025-01-14 16:23:30,404 - sensor.py - get_reading - WARNING - '/Sensor/LightIntensive/Bedroom/17' is currently OFF. Cannot get reading.
+2025-01-14 16:23:30,405 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Kitchen/17' is currently OFF. Cannot get reading.
+2025-01-14 16:23:30,405 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/Bathroom/17' is currently OFF. Cannot get reading.
+2025-01-14 16:23:30,405 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Bathroom/17' is currently OFF. Cannot get reading.
+2025-01-14 16:23:30,405 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Balcony/17' is currently OFF. Cannot get reading.
+2025-01-14 16:23:30,405 - actuator.py - daily_routine - WARNING - Cleaning Robot /Actuator/CleaningRobot/LivingRoom/17 is OFF now, Need to Turn it ON First
+2025-01-14 16:23:30,405 - actuator.py - daily_routine - WARNING - Cleaning Robot /Actuator/CleaningRobot/Bedroom/17 is OFF now, Need to Turn it ON First
+2025-01-14 16:23:30,405 - sensor.py - get_reading - WARNING - '/Sensor/OutdoorTemperature/Balcony/17' is currently OFF. Cannot get reading.
+2025-01-14 16:23:31,410 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/LivingRoom/18' is currently OFF. Cannot get reading.
+2025-01-14 16:23:31,410 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/LivingRoom/18' is currently OFF. Cannot get reading.
+2025-01-14 16:23:31,410 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/Bedroom/18' is currently OFF. Cannot get reading.
+2025-01-14 16:23:31,410 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Bedroom/18' is currently OFF. Cannot get reading.
+2025-01-14 16:23:31,410 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Kitchen/18' is currently OFF. Cannot get reading.
+2025-01-14 16:23:31,410 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/Bathroom/18' is currently OFF. Cannot get reading.
+2025-01-14 16:23:31,410 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Bathroom/18' is currently OFF. Cannot get reading.
+2025-01-14 16:23:31,410 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/LivingRoom/18' is currently OFF. Cannot get reading.
+2025-01-14 16:23:31,410 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/LivingRoom/18' is currently OFF. Cannot get reading.
+2025-01-14 16:23:31,410 - sensor.py - get_reading - WARNING - '/Sensor/LightIntensive/LivingRoom/18' is currently OFF. Cannot get reading.
+2025-01-14 16:23:31,411 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/Bedroom/18' is currently OFF. Cannot get reading.
+2025-01-14 16:23:31,411 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Bedroom/18' is currently OFF. Cannot get reading.
+2025-01-14 16:23:31,411 - sensor.py - get_reading - WARNING - '/Sensor/LightIntensive/Bedroom/18' is currently OFF. Cannot get reading.
+2025-01-14 16:23:31,411 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Kitchen/18' is currently OFF. Cannot get reading.
+2025-01-14 16:23:31,411 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/Bathroom/18' is currently OFF. Cannot get reading.
+2025-01-14 16:23:31,411 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Bathroom/18' is currently OFF. Cannot get reading.
+2025-01-14 16:23:31,411 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Balcony/18' is currently OFF. Cannot get reading.
+2025-01-14 16:23:31,411 - actuator.py - daily_routine - WARNING - Cleaning Robot /Actuator/CleaningRobot/LivingRoom/18 is OFF now, Need to Turn it ON First
+2025-01-14 16:23:31,411 - actuator.py - daily_routine - WARNING - Cleaning Robot /Actuator/CleaningRobot/Bedroom/18 is OFF now, Need to Turn it ON First
+2025-01-14 16:23:31,411 - sensor.py - get_reading - WARNING - '/Sensor/OutdoorTemperature/Balcony/18' is currently OFF. Cannot get reading.
+2025-01-14 16:23:32,412 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/LivingRoom/19' is currently OFF. Cannot get reading.
+2025-01-14 16:23:32,412 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/LivingRoom/19' is currently OFF. Cannot get reading.
+2025-01-14 16:23:32,412 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/Bedroom/19' is currently OFF. Cannot get reading.
+2025-01-14 16:23:32,412 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Bedroom/19' is currently OFF. Cannot get reading.
+2025-01-14 16:23:32,412 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Kitchen/19' is currently OFF. Cannot get reading.
+2025-01-14 16:23:32,412 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/Bathroom/19' is currently OFF. Cannot get reading.
+2025-01-14 16:23:32,412 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Bathroom/19' is currently OFF. Cannot get reading.
+2025-01-14 16:23:32,412 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/LivingRoom/19' is currently OFF. Cannot get reading.
+2025-01-14 16:23:32,412 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/LivingRoom/19' is currently OFF. Cannot get reading.
+2025-01-14 16:23:32,412 - sensor.py - get_reading - WARNING - '/Sensor/LightIntensive/LivingRoom/19' is currently OFF. Cannot get reading.
+2025-01-14 16:23:32,412 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/Bedroom/19' is currently OFF. Cannot get reading.
+2025-01-14 16:23:32,412 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Bedroom/19' is currently OFF. Cannot get reading.
+2025-01-14 16:23:32,413 - sensor.py - get_reading - WARNING - '/Sensor/LightIntensive/Bedroom/19' is currently OFF. Cannot get reading.
+2025-01-14 16:23:32,413 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Kitchen/19' is currently OFF. Cannot get reading.
+2025-01-14 16:23:32,413 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/Bathroom/19' is currently OFF. Cannot get reading.
+2025-01-14 16:23:32,413 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Bathroom/19' is currently OFF. Cannot get reading.
+2025-01-14 16:23:32,413 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Balcony/19' is currently OFF. Cannot get reading.
+2025-01-14 16:23:32,413 - actuator.py - daily_routine - WARNING - Cleaning Robot /Actuator/CleaningRobot/LivingRoom/19 is OFF now, Need to Turn it ON First
+2025-01-14 16:23:32,413 - actuator.py - daily_routine - WARNING - Cleaning Robot /Actuator/CleaningRobot/Bedroom/19 is OFF now, Need to Turn it ON First
+2025-01-14 16:23:32,413 - sensor.py - get_reading - WARNING - '/Sensor/OutdoorTemperature/Balcony/19' is currently OFF. Cannot get reading.
+2025-01-14 16:23:33,418 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/LivingRoom/20' is currently OFF. Cannot get reading.
+2025-01-14 16:23:33,418 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/LivingRoom/20' is currently OFF. Cannot get reading.
+2025-01-14 16:23:33,419 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/Bedroom/20' is currently OFF. Cannot get reading.
+2025-01-14 16:23:33,419 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Bedroom/20' is currently OFF. Cannot get reading.
+2025-01-14 16:23:33,419 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Kitchen/20' is currently OFF. Cannot get reading.
+2025-01-14 16:23:33,419 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/Bathroom/20' is currently OFF. Cannot get reading.
+2025-01-14 16:23:33,419 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Bathroom/20' is currently OFF. Cannot get reading.
+2025-01-14 16:23:33,419 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/LivingRoom/20' is currently OFF. Cannot get reading.
+2025-01-14 16:23:33,419 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/LivingRoom/20' is currently OFF. Cannot get reading.
+2025-01-14 16:23:33,419 - sensor.py - get_reading - WARNING - '/Sensor/LightIntensive/LivingRoom/20' is currently OFF. Cannot get reading.
+2025-01-14 16:23:33,419 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/Bedroom/20' is currently OFF. Cannot get reading.
+2025-01-14 16:23:33,419 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Bedroom/20' is currently OFF. Cannot get reading.
+2025-01-14 16:23:33,419 - sensor.py - get_reading - WARNING - '/Sensor/LightIntensive/Bedroom/20' is currently OFF. Cannot get reading.
+2025-01-14 16:23:33,419 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Kitchen/20' is currently OFF. Cannot get reading.
+2025-01-14 16:23:33,419 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/Bathroom/20' is currently OFF. Cannot get reading.
+2025-01-14 16:23:33,419 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Bathroom/20' is currently OFF. Cannot get reading.
+2025-01-14 16:23:33,419 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Balcony/20' is currently OFF. Cannot get reading.
+2025-01-14 16:23:33,419 - actuator.py - daily_routine - WARNING - Cleaning Robot /Actuator/CleaningRobot/LivingRoom/20 is OFF now, Need to Turn it ON First
+2025-01-14 16:23:33,420 - actuator.py - daily_routine - WARNING - Cleaning Robot /Actuator/CleaningRobot/Bedroom/20 is OFF now, Need to Turn it ON First
+2025-01-14 16:23:33,420 - sensor.py - get_reading - WARNING - '/Sensor/OutdoorTemperature/Balcony/20' is currently OFF. Cannot get reading.
+2025-01-14 16:23:34,423 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/LivingRoom/21' is currently OFF. Cannot get reading.
+2025-01-14 16:23:34,423 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/LivingRoom/21' is currently OFF. Cannot get reading.
+2025-01-14 16:23:34,423 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/Bedroom/21' is currently OFF. Cannot get reading.
+2025-01-14 16:23:34,423 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Bedroom/21' is currently OFF. Cannot get reading.
+2025-01-14 16:23:34,423 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Kitchen/21' is currently OFF. Cannot get reading.
+2025-01-14 16:23:34,423 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/Bathroom/21' is currently OFF. Cannot get reading.
+2025-01-14 16:23:34,423 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Bathroom/21' is currently OFF. Cannot get reading.
+2025-01-14 16:23:34,424 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/LivingRoom/21' is currently OFF. Cannot get reading.
+2025-01-14 16:23:34,424 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/LivingRoom/21' is currently OFF. Cannot get reading.
+2025-01-14 16:23:34,424 - sensor.py - get_reading - WARNING - '/Sensor/LightIntensive/LivingRoom/21' is currently OFF. Cannot get reading.
+2025-01-14 16:23:34,424 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/Bedroom/21' is currently OFF. Cannot get reading.
+2025-01-14 16:23:34,424 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Bedroom/21' is currently OFF. Cannot get reading.
+2025-01-14 16:23:34,424 - sensor.py - get_reading - WARNING - '/Sensor/LightIntensive/Bedroom/21' is currently OFF. Cannot get reading.
+2025-01-14 16:23:34,424 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Kitchen/21' is currently OFF. Cannot get reading.
+2025-01-14 16:23:34,424 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/Bathroom/21' is currently OFF. Cannot get reading.
+2025-01-14 16:23:34,424 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Bathroom/21' is currently OFF. Cannot get reading.
+2025-01-14 16:23:34,424 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Balcony/21' is currently OFF. Cannot get reading.
+2025-01-14 16:23:34,424 - actuator.py - daily_routine - WARNING - Cleaning Robot /Actuator/CleaningRobot/LivingRoom/21 is OFF now, Need to Turn it ON First
+2025-01-14 16:23:34,424 - actuator.py - daily_routine - WARNING - Cleaning Robot /Actuator/CleaningRobot/Bedroom/21 is OFF now, Need to Turn it ON First
+2025-01-14 16:23:34,424 - sensor.py - get_reading - WARNING - '/Sensor/OutdoorTemperature/Balcony/21' is currently OFF. Cannot get reading.
+2025-01-14 16:23:35,429 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/LivingRoom/22' is currently OFF. Cannot get reading.
+2025-01-14 16:23:35,429 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/LivingRoom/22' is currently OFF. Cannot get reading.
+2025-01-14 16:23:35,429 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/Bedroom/22' is currently OFF. Cannot get reading.
+2025-01-14 16:23:35,430 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Bedroom/22' is currently OFF. Cannot get reading.
+2025-01-14 16:23:35,430 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Kitchen/22' is currently OFF. Cannot get reading.
+2025-01-14 16:23:35,430 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/Bathroom/22' is currently OFF. Cannot get reading.
+2025-01-14 16:23:35,430 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Bathroom/22' is currently OFF. Cannot get reading.
+2025-01-14 16:23:35,430 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/LivingRoom/22' is currently OFF. Cannot get reading.
+2025-01-14 16:23:35,430 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/LivingRoom/22' is currently OFF. Cannot get reading.
+2025-01-14 16:23:35,430 - sensor.py - get_reading - WARNING - '/Sensor/LightIntensive/LivingRoom/22' is currently OFF. Cannot get reading.
+2025-01-14 16:23:35,430 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/Bedroom/22' is currently OFF. Cannot get reading.
+2025-01-14 16:23:35,430 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Bedroom/22' is currently OFF. Cannot get reading.
+2025-01-14 16:23:35,430 - sensor.py - get_reading - WARNING - '/Sensor/LightIntensive/Bedroom/22' is currently OFF. Cannot get reading.
+2025-01-14 16:23:35,430 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Kitchen/22' is currently OFF. Cannot get reading.
+2025-01-14 16:23:35,430 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/Bathroom/22' is currently OFF. Cannot get reading.
+2025-01-14 16:23:35,430 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Bathroom/22' is currently OFF. Cannot get reading.
+2025-01-14 16:23:35,431 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Balcony/22' is currently OFF. Cannot get reading.
+2025-01-14 16:23:35,431 - actuator.py - daily_routine - WARNING - Cleaning Robot /Actuator/CleaningRobot/LivingRoom/22 is OFF now, Need to Turn it ON First
+2025-01-14 16:23:35,431 - actuator.py - daily_routine - WARNING - Cleaning Robot /Actuator/CleaningRobot/Bedroom/22 is OFF now, Need to Turn it ON First
+2025-01-14 16:23:35,431 - sensor.py - get_reading - WARNING - '/Sensor/OutdoorTemperature/Balcony/22' is currently OFF. Cannot get reading.
+2025-01-14 16:23:36,434 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/LivingRoom/23' is currently OFF. Cannot get reading.
+2025-01-14 16:23:36,434 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/LivingRoom/23' is currently OFF. Cannot get reading.
+2025-01-14 16:23:36,434 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/Bedroom/23' is currently OFF. Cannot get reading.
+2025-01-14 16:23:36,434 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Bedroom/23' is currently OFF. Cannot get reading.
+2025-01-14 16:23:36,434 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Kitchen/23' is currently OFF. Cannot get reading.
+2025-01-14 16:23:36,434 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/Bathroom/23' is currently OFF. Cannot get reading.
+2025-01-14 16:23:36,434 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Bathroom/23' is currently OFF. Cannot get reading.
+2025-01-14 16:23:36,434 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/LivingRoom/23' is currently OFF. Cannot get reading.
+2025-01-14 16:23:36,434 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/LivingRoom/23' is currently OFF. Cannot get reading.
+2025-01-14 16:23:36,434 - sensor.py - get_reading - WARNING - '/Sensor/LightIntensive/LivingRoom/23' is currently OFF. Cannot get reading.
+2025-01-14 16:23:36,435 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/Bedroom/23' is currently OFF. Cannot get reading.
+2025-01-14 16:23:36,435 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Bedroom/23' is currently OFF. Cannot get reading.
+2025-01-14 16:23:36,435 - sensor.py - get_reading - WARNING - '/Sensor/LightIntensive/Bedroom/23' is currently OFF. Cannot get reading.
+2025-01-14 16:23:36,435 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Kitchen/23' is currently OFF. Cannot get reading.
+2025-01-14 16:23:36,435 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/Bathroom/23' is currently OFF. Cannot get reading.
+2025-01-14 16:23:36,435 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Bathroom/23' is currently OFF. Cannot get reading.
+2025-01-14 16:23:36,435 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Balcony/23' is currently OFF. Cannot get reading.
+2025-01-14 16:23:36,435 - actuator.py - daily_routine - WARNING - Cleaning Robot /Actuator/CleaningRobot/LivingRoom/23 is OFF now, Need to Turn it ON First
+2025-01-14 16:23:36,435 - actuator.py - daily_routine - WARNING - Cleaning Robot /Actuator/CleaningRobot/Bedroom/23 is OFF now, Need to Turn it ON First
+2025-01-14 16:23:36,435 - sensor.py - get_reading - WARNING - '/Sensor/OutdoorTemperature/Balcony/23' is currently OFF. Cannot get reading.
+2025-01-14 16:23:37,437 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/LivingRoom/24' is currently OFF. Cannot get reading.
+2025-01-14 16:23:37,438 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/LivingRoom/24' is currently OFF. Cannot get reading.
+2025-01-14 16:23:37,438 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/Bedroom/24' is currently OFF. Cannot get reading.
+2025-01-14 16:23:37,438 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Bedroom/24' is currently OFF. Cannot get reading.
+2025-01-14 16:23:37,438 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Kitchen/24' is currently OFF. Cannot get reading.
+2025-01-14 16:23:37,438 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/Bathroom/24' is currently OFF. Cannot get reading.
+2025-01-14 16:23:37,438 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Bathroom/24' is currently OFF. Cannot get reading.
+2025-01-14 16:23:37,438 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/LivingRoom/24' is currently OFF. Cannot get reading.
+2025-01-14 16:23:37,438 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/LivingRoom/24' is currently OFF. Cannot get reading.
+2025-01-14 16:23:37,438 - sensor.py - get_reading - WARNING - '/Sensor/LightIntensive/LivingRoom/24' is currently OFF. Cannot get reading.
+2025-01-14 16:23:37,438 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/Bedroom/24' is currently OFF. Cannot get reading.
+2025-01-14 16:23:37,438 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Bedroom/24' is currently OFF. Cannot get reading.
+2025-01-14 16:23:37,438 - sensor.py - get_reading - WARNING - '/Sensor/LightIntensive/Bedroom/24' is currently OFF. Cannot get reading.
+2025-01-14 16:23:37,438 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Kitchen/24' is currently OFF. Cannot get reading.
+2025-01-14 16:23:37,439 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/Bathroom/24' is currently OFF. Cannot get reading.
+2025-01-14 16:23:37,439 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Bathroom/24' is currently OFF. Cannot get reading.
+2025-01-14 16:23:37,439 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Balcony/24' is currently OFF. Cannot get reading.
+2025-01-14 16:23:37,439 - actuator.py - daily_routine - WARNING - Cleaning Robot /Actuator/CleaningRobot/LivingRoom/24 is OFF now, Need to Turn it ON First
+2025-01-14 16:23:37,439 - actuator.py - daily_routine - WARNING - Cleaning Robot /Actuator/CleaningRobot/Bedroom/24 is OFF now, Need to Turn it ON First
+2025-01-14 16:23:37,439 - sensor.py - get_reading - WARNING - '/Sensor/OutdoorTemperature/Balcony/24' is currently OFF. Cannot get reading.
+2025-01-14 16:23:38,444 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/LivingRoom/25' is currently OFF. Cannot get reading.
+2025-01-14 16:23:38,445 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/LivingRoom/25' is currently OFF. Cannot get reading.
+2025-01-14 16:23:38,445 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/Bedroom/25' is currently OFF. Cannot get reading.
+2025-01-14 16:23:38,445 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Bedroom/25' is currently OFF. Cannot get reading.
+2025-01-14 16:23:38,445 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Kitchen/25' is currently OFF. Cannot get reading.
+2025-01-14 16:23:38,445 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/Bathroom/25' is currently OFF. Cannot get reading.
+2025-01-14 16:23:38,445 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Bathroom/25' is currently OFF. Cannot get reading.
+2025-01-14 16:23:38,445 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/LivingRoom/25' is currently OFF. Cannot get reading.
+2025-01-14 16:23:38,445 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/LivingRoom/25' is currently OFF. Cannot get reading.
+2025-01-14 16:23:38,445 - sensor.py - get_reading - WARNING - '/Sensor/LightIntensive/LivingRoom/25' is currently OFF. Cannot get reading.
+2025-01-14 16:23:38,445 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/Bedroom/25' is currently OFF. Cannot get reading.
+2025-01-14 16:23:38,445 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Bedroom/25' is currently OFF. Cannot get reading.
+2025-01-14 16:23:38,445 - sensor.py - get_reading - WARNING - '/Sensor/LightIntensive/Bedroom/25' is currently OFF. Cannot get reading.
+2025-01-14 16:23:38,445 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Kitchen/25' is currently OFF. Cannot get reading.
+2025-01-14 16:23:38,445 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/Bathroom/25' is currently OFF. Cannot get reading.
+2025-01-14 16:23:38,446 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Bathroom/25' is currently OFF. Cannot get reading.
+2025-01-14 16:23:38,446 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Balcony/25' is currently OFF. Cannot get reading.
+2025-01-14 16:23:38,446 - actuator.py - daily_routine - WARNING - Cleaning Robot /Actuator/CleaningRobot/LivingRoom/25 is OFF now, Need to Turn it ON First
+2025-01-14 16:23:38,446 - actuator.py - daily_routine - WARNING - Cleaning Robot /Actuator/CleaningRobot/Bedroom/25 is OFF now, Need to Turn it ON First
+2025-01-14 16:23:38,446 - sensor.py - get_reading - WARNING - '/Sensor/OutdoorTemperature/Balcony/25' is currently OFF. Cannot get reading.
+2025-01-14 16:23:39,451 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/LivingRoom/26' is currently OFF. Cannot get reading.
+2025-01-14 16:23:39,451 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/LivingRoom/26' is currently OFF. Cannot get reading.
+2025-01-14 16:23:39,451 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/Bedroom/26' is currently OFF. Cannot get reading.
+2025-01-14 16:23:39,451 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Bedroom/26' is currently OFF. Cannot get reading.
+2025-01-14 16:23:39,451 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Kitchen/26' is currently OFF. Cannot get reading.
+2025-01-14 16:23:39,451 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/Bathroom/26' is currently OFF. Cannot get reading.
+2025-01-14 16:23:39,451 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Bathroom/26' is currently OFF. Cannot get reading.
+2025-01-14 16:23:39,451 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/LivingRoom/26' is currently OFF. Cannot get reading.
+2025-01-14 16:23:39,451 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/LivingRoom/26' is currently OFF. Cannot get reading.
+2025-01-14 16:23:39,451 - sensor.py - get_reading - WARNING - '/Sensor/LightIntensive/LivingRoom/26' is currently OFF. Cannot get reading.
+2025-01-14 16:23:39,451 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/Bedroom/26' is currently OFF. Cannot get reading.
+2025-01-14 16:23:39,451 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Bedroom/26' is currently OFF. Cannot get reading.
+2025-01-14 16:23:39,451 - sensor.py - get_reading - WARNING - '/Sensor/LightIntensive/Bedroom/26' is currently OFF. Cannot get reading.
+2025-01-14 16:23:39,451 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Kitchen/26' is currently OFF. Cannot get reading.
+2025-01-14 16:23:39,451 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/Bathroom/26' is currently OFF. Cannot get reading.
+2025-01-14 16:23:39,451 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Bathroom/26' is currently OFF. Cannot get reading.
+2025-01-14 16:23:39,451 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Balcony/26' is currently OFF. Cannot get reading.
+2025-01-14 16:23:39,451 - actuator.py - daily_routine - WARNING - Cleaning Robot /Actuator/CleaningRobot/LivingRoom/26 is OFF now, Need to Turn it ON First
+2025-01-14 16:23:39,451 - actuator.py - daily_routine - WARNING - Cleaning Robot /Actuator/CleaningRobot/Bedroom/26 is OFF now, Need to Turn it ON First
+2025-01-14 16:23:39,451 - sensor.py - get_reading - WARNING - '/Sensor/OutdoorTemperature/Balcony/26' is currently OFF. Cannot get reading.
+2025-01-14 16:23:40,454 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/LivingRoom/27' is currently OFF. Cannot get reading.
+2025-01-14 16:23:40,454 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/LivingRoom/27' is currently OFF. Cannot get reading.
+2025-01-14 16:23:40,454 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/Bedroom/27' is currently OFF. Cannot get reading.
+2025-01-14 16:23:40,454 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Bedroom/27' is currently OFF. Cannot get reading.
+2025-01-14 16:23:40,454 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Kitchen/27' is currently OFF. Cannot get reading.
+2025-01-14 16:23:40,454 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/Bathroom/27' is currently OFF. Cannot get reading.
+2025-01-14 16:23:40,454 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Bathroom/27' is currently OFF. Cannot get reading.
+2025-01-14 16:23:40,454 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/LivingRoom/27' is currently OFF. Cannot get reading.
+2025-01-14 16:23:40,454 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/LivingRoom/27' is currently OFF. Cannot get reading.
+2025-01-14 16:23:40,454 - sensor.py - get_reading - WARNING - '/Sensor/LightIntensive/LivingRoom/27' is currently OFF. Cannot get reading.
+2025-01-14 16:23:40,454 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/Bedroom/27' is currently OFF. Cannot get reading.
+2025-01-14 16:23:40,454 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Bedroom/27' is currently OFF. Cannot get reading.
+2025-01-14 16:23:40,454 - sensor.py - get_reading - WARNING - '/Sensor/LightIntensive/Bedroom/27' is currently OFF. Cannot get reading.
+2025-01-14 16:23:40,454 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Kitchen/27' is currently OFF. Cannot get reading.
+2025-01-14 16:23:40,454 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/Bathroom/27' is currently OFF. Cannot get reading.
+2025-01-14 16:23:40,454 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Bathroom/27' is currently OFF. Cannot get reading.
+2025-01-14 16:23:40,454 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Balcony/27' is currently OFF. Cannot get reading.
+2025-01-14 16:23:40,454 - actuator.py - daily_routine - WARNING - Cleaning Robot /Actuator/CleaningRobot/LivingRoom/27 is OFF now, Need to Turn it ON First
+2025-01-14 16:23:40,454 - actuator.py - daily_routine - WARNING - Cleaning Robot /Actuator/CleaningRobot/Bedroom/27 is OFF now, Need to Turn it ON First
+2025-01-14 16:23:40,455 - sensor.py - get_reading - WARNING - '/Sensor/OutdoorTemperature/Balcony/27' is currently OFF. Cannot get reading.
+2025-01-14 16:23:41,460 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/LivingRoom/28' is currently OFF. Cannot get reading.
+2025-01-14 16:23:41,460 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/LivingRoom/28' is currently OFF. Cannot get reading.
+2025-01-14 16:23:41,460 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/Bedroom/28' is currently OFF. Cannot get reading.
+2025-01-14 16:23:41,460 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Bedroom/28' is currently OFF. Cannot get reading.
+2025-01-14 16:23:41,460 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Kitchen/28' is currently OFF. Cannot get reading.
+2025-01-14 16:23:41,460 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/Bathroom/28' is currently OFF. Cannot get reading.
+2025-01-14 16:23:41,461 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Bathroom/28' is currently OFF. Cannot get reading.
+2025-01-14 16:23:41,461 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/LivingRoom/28' is currently OFF. Cannot get reading.
+2025-01-14 16:23:41,461 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/LivingRoom/28' is currently OFF. Cannot get reading.
+2025-01-14 16:23:41,461 - sensor.py - get_reading - WARNING - '/Sensor/LightIntensive/LivingRoom/28' is currently OFF. Cannot get reading.
+2025-01-14 16:23:41,461 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/Bedroom/28' is currently OFF. Cannot get reading.
+2025-01-14 16:23:41,461 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Bedroom/28' is currently OFF. Cannot get reading.
+2025-01-14 16:23:41,461 - sensor.py - get_reading - WARNING - '/Sensor/LightIntensive/Bedroom/28' is currently OFF. Cannot get reading.
+2025-01-14 16:23:41,461 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Kitchen/28' is currently OFF. Cannot get reading.
+2025-01-14 16:23:41,461 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/Bathroom/28' is currently OFF. Cannot get reading.
+2025-01-14 16:23:41,461 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Bathroom/28' is currently OFF. Cannot get reading.
+2025-01-14 16:23:41,461 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Balcony/28' is currently OFF. Cannot get reading.
+2025-01-14 16:23:41,461 - actuator.py - daily_routine - WARNING - Cleaning Robot /Actuator/CleaningRobot/LivingRoom/28 is OFF now, Need to Turn it ON First
+2025-01-14 16:23:41,461 - actuator.py - daily_routine - WARNING - Cleaning Robot /Actuator/CleaningRobot/Bedroom/28 is OFF now, Need to Turn it ON First
+2025-01-14 16:23:41,461 - sensor.py - get_reading - WARNING - '/Sensor/OutdoorTemperature/Balcony/28' is currently OFF. Cannot get reading.
+2025-01-14 16:23:42,467 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/LivingRoom/29' is currently OFF. Cannot get reading.
+2025-01-14 16:23:42,467 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/LivingRoom/29' is currently OFF. Cannot get reading.
+2025-01-14 16:23:42,467 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/Bedroom/29' is currently OFF. Cannot get reading.
+2025-01-14 16:23:42,467 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Bedroom/29' is currently OFF. Cannot get reading.
+2025-01-14 16:23:42,467 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Kitchen/29' is currently OFF. Cannot get reading.
+2025-01-14 16:23:42,467 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/Bathroom/29' is currently OFF. Cannot get reading.
+2025-01-14 16:23:42,467 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Bathroom/29' is currently OFF. Cannot get reading.
+2025-01-14 16:23:42,467 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/LivingRoom/29' is currently OFF. Cannot get reading.
+2025-01-14 16:23:42,467 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/LivingRoom/29' is currently OFF. Cannot get reading.
+2025-01-14 16:23:42,467 - sensor.py - get_reading - WARNING - '/Sensor/LightIntensive/LivingRoom/29' is currently OFF. Cannot get reading.
+2025-01-14 16:23:42,467 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/Bedroom/29' is currently OFF. Cannot get reading.
+2025-01-14 16:23:42,467 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Bedroom/29' is currently OFF. Cannot get reading.
+2025-01-14 16:23:42,467 - sensor.py - get_reading - WARNING - '/Sensor/LightIntensive/Bedroom/29' is currently OFF. Cannot get reading.
+2025-01-14 16:23:42,467 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Kitchen/29' is currently OFF. Cannot get reading.
+2025-01-14 16:23:42,467 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/Bathroom/29' is currently OFF. Cannot get reading.
+2025-01-14 16:23:42,467 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Bathroom/29' is currently OFF. Cannot get reading.
+2025-01-14 16:23:42,467 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Balcony/29' is currently OFF. Cannot get reading.
+2025-01-14 16:23:42,467 - actuator.py - daily_routine - WARNING - Cleaning Robot /Actuator/CleaningRobot/LivingRoom/29 is OFF now, Need to Turn it ON First
+2025-01-14 16:23:42,467 - actuator.py - daily_routine - WARNING - Cleaning Robot /Actuator/CleaningRobot/Bedroom/29 is OFF now, Need to Turn it ON First
+2025-01-14 16:23:42,467 - sensor.py - get_reading - WARNING - '/Sensor/OutdoorTemperature/Balcony/29' is currently OFF. Cannot get reading.
+2025-01-14 16:23:43,472 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/LivingRoom/30' is currently OFF. Cannot get reading.
+2025-01-14 16:23:43,472 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/LivingRoom/30' is currently OFF. Cannot get reading.
+2025-01-14 16:23:43,472 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/Bedroom/30' is currently OFF. Cannot get reading.
+2025-01-14 16:23:43,472 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Bedroom/30' is currently OFF. Cannot get reading.
+2025-01-14 16:23:43,472 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Kitchen/30' is currently OFF. Cannot get reading.
+2025-01-14 16:23:43,472 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/Bathroom/30' is currently OFF. Cannot get reading.
+2025-01-14 16:23:43,472 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Bathroom/30' is currently OFF. Cannot get reading.
+2025-01-14 16:23:43,472 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/LivingRoom/30' is currently OFF. Cannot get reading.
+2025-01-14 16:23:43,472 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/LivingRoom/30' is currently OFF. Cannot get reading.
+2025-01-14 16:23:43,472 - sensor.py - get_reading - WARNING - '/Sensor/LightIntensive/LivingRoom/30' is currently OFF. Cannot get reading.
+2025-01-14 16:23:43,472 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/Bedroom/30' is currently OFF. Cannot get reading.
+2025-01-14 16:23:43,472 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Bedroom/30' is currently OFF. Cannot get reading.
+2025-01-14 16:23:43,472 - sensor.py - get_reading - WARNING - '/Sensor/LightIntensive/Bedroom/30' is currently OFF. Cannot get reading.
+2025-01-14 16:23:43,472 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Kitchen/30' is currently OFF. Cannot get reading.
+2025-01-14 16:23:43,473 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/Bathroom/30' is currently OFF. Cannot get reading.
+2025-01-14 16:23:43,473 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Bathroom/30' is currently OFF. Cannot get reading.
+2025-01-14 16:23:43,473 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/Balcony/30' is currently OFF. Cannot get reading.
+2025-01-14 16:23:43,473 - actuator.py - daily_routine - WARNING - Cleaning Robot /Actuator/CleaningRobot/LivingRoom/30 is OFF now, Need to Turn it ON First
+2025-01-14 16:23:43,473 - actuator.py - daily_routine - WARNING - Cleaning Robot /Actuator/CleaningRobot/Bedroom/30 is OFF now, Need to Turn it ON First
+2025-01-14 16:23:43,473 - sensor.py - get_reading - WARNING - '/Sensor/OutdoorTemperature/Balcony/30' is currently OFF. Cannot get reading.

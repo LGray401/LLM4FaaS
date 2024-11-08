@@ -1,0 +1,41 @@
+Error: Execution timed out
+Standard Output:
+'/Sensor/IndoorTemperature/LivingRoom/1' is now ON.
+/Sensor/IndoorTemperature/LivingRoom/1 reading is: 33.39
+/Sensor/IndoorTemperature/LivingRoom/1 is now OFF.
+'/Sensor/LightIntensive/LivingRoom/1' is now ON.
+/Sensor/LightIntensive/LivingRoom/1 reading is: 1071.15
+/Sensor/LightIntensive/LivingRoom/1 is now OFF.
+/Actuator/Light/LivingRoom/1 is turned off.
+/Actuator/Light/LivingRoom/2 is turned off.
+/Actuator/SmartSocket/LivingRoom/1 is turned on.
+/Actuator/SmartSocket/LivingRoom/2 is turned on.
+Set the target temperature of /Actuator/AC/LivingRoom/1 to 15°C.
+/Actuator/AC/LivingRoom/1 is turned on.
+'/Sensor/IndoorTemperature/Bedroom/1' is now ON.
+/Sensor/IndoorTemperature/Bedroom/1 reading is: 36.98
+/Sensor/IndoorTemperature/Bedroom/1 is now OFF.
+'/Sensor/LightIntensive/Bedroom/1' is now ON.
+/Sensor/LightIntensive/Bedroom/1 reading is: 1003.39
+/Sensor/LightIntensive/Bedroom/1 is now OFF.
+/Actuator/Light/Bedroom/1 is turned off.
+/Actuator/Light/Bedroom/2 is turned off.
+/Actuator/SmartSocket/Bedroom/1 is turned on.
+/Actuator/SmartSocket/Bedroom/2 is turned on.
+Set the target temperature of /Actuator/AC/Bedroom/1 to 15°C.
+/Actuator/AC/Bedroom/1 is turned on.
+/Actuator/Light/Kitchen/1 is turned on.
+/Actuator/SmartSocket/Kitchen/1 is turned on.
+/Actuator/SmartSocket/Kitchen/2 is turned on.
+/Actuator/SmartSocket/Kitchen/3 is turned on.
+'/Sensor/IndoorTemperature/Bathroom/1' is now ON.
+/Sensor/IndoorTemperature/Bathroom/1 reading is: 30.88
+/Sensor/IndoorTemperature/Bathroom/1 is now OFF.
+/Actuator/Light/Bathroom/1 is turned on.
+/Actuator/SmartSocket/Bathroom/1 is turned on.
+/Actuator/SmartSocket/Bathroom/2 is turned on.
+'/Sensor/OutdoorTemperature/Balcony/1' is now ON.
+/Sensor/OutdoorTemperature/Balcony/1 reading is: 21.34
+/Sensor/OutdoorTemperature/Balcony/1 is now OFF.
+
+Standard Error:

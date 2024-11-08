@@ -1,0 +1,11 @@
+Standard Output:
+Set the target temperature of /Actuator/AC/Bedroom/1 to 26°C.
+/Actuator/AC/Bedroom/1 is turned on.
+/Actuator/SmartTV/LivingRoom/1 is turned on.
+Increasing TV volume by three degrees.
+/Actuator/CoffeeMachine/Kitchen/1 is turned on.
+Heating kettle to 100 degrees.
+
+Standard Error:
+
+Return code: 0

@@ -1,0 +1,9 @@
+Standard Output:
+
+Standard Error:
+  File "/Users/minghe/llm4faas/experiments_default/functions_zh/copilot_functions/autoadapt/copilot_auto-adapt_12.py", line 44
+    elif isinstance(sensor, LightIntensiveSensor):
+    ^
+IndentationError: expected an indented block after 'elif' statement on line 41
+
+Return code: 1

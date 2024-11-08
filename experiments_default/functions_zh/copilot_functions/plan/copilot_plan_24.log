@@ -1,0 +1,12 @@
+Standard Output:
+
+Standard Error:
+Traceback (most recent call last):
+  File "/Users/minghe/llm4faas/experiments_default/functions_zh/copilot_functions/plan/copilot_plan_24.py", line 63, in <module>
+    main()
+  File "/Users/minghe/llm4faas/experiments_default/functions_zh/copilot_functions/plan/copilot_plan_24.py", line 57, in main
+    home = home_plan()
+           ^^^^^^^^^
+NameError: name 'home_plan' is not defined. Did you mean: 'movie_plan'?
+
+Return code: 1

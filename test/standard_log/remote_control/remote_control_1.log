@@ -1,0 +1,6 @@
+Standard Output:
+/Actuator/CleaningRobot/LivingRoom/1 || /Actuator/CleaningRobot/Bedroom/1
+Cleaning Robot /Actuator/CleaningRobot/LivingRoom/1 Starts Daily Cleaning Routine || Cleaning Robot /Actuator/CleaningRobot/Bedroom/1 Starts Daily Cleaning Routine
+/Actuator/MusicPlayer/LivingRoom/1 || /Actuator/MusicPlayer/Bedroom/1
+/Actuator/SmartTV/LivingRoom/1
+Set /Actuator/Light/Bedroom/1 light brightness level to || Set /Actuator/Light/Bedroom/2 light brightness level to

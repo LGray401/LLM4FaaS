@@ -1,0 +1,12 @@
+Standard Output:
+
+Standard Error:
+Traceback (most recent call last):
+  File "/Users/minghe/llm4faas/experiments_default/functions_zh/deepseek-r1-functions/deepseek-r1:7b_auto_adapt_16_1738485784858883000.py", line 71, in <module>
+    home = home_plan()
+  File "/Users/minghe/llm4faas/experiments_default/functions_zh/deepseek-r1-functions/deepseek-r1:7b_auto_adapt_16_1738485784858883000.py", line 36, in home_plan
+    create_room_with_components("LivingRoom", [LightIntensiveSensor, IndoorTemperatureSensor, HumiditySensor],
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'create_room_with_components' is not defined
+
+Return code: 1

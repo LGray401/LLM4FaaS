@@ -1,0 +1,40 @@
+Standard Output:
+
+--- Morning Plan ---
+/Actuator/Light/Kitchen/1 is turned on.
+Turned on /Actuator/Light/Kitchen/1
+/Actuator/Light/LivingRoom/1 is turned on.
+Turned on /Actuator/Light/LivingRoom/1
+/Actuator/Light/LivingRoom/2 is turned on.
+Turned on /Actuator/Light/LivingRoom/2
+We find Kitchen!
+ /Actuator/CoffeeMachine/Kitchen/1 is OFF now
+We find LivingRoom!
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/LivingRoom/1 is Currently OFF. 
+Cleaning Robot /Actuator/CleaningRobot/LivingRoom/1 is OFF now, Need to Turn it ON First
+Cleaning Robot /Actuator/CleaningRobot/Bedroom/1 is OFF now, Need to Turn it ON First
+
+--- Leave Home Plan ---
+/Actuator/Light/Kitchen/1 is turned off.
+Turned off /Actuator/Light/Kitchen/1
+/Actuator/Light/LivingRoom/1 is turned off.
+Turned off /Actuator/Light/LivingRoom/1
+/Actuator/Light/LivingRoom/2 is turned off.
+Turned off /Actuator/Light/LivingRoom/2
+We find LivingRoom!
+Lock the door /Actuator/Door/LivingRoom/1.
+Notification Sender /Actuator/NotificationSender/LivingRoom/1 is OFF, please turn it on then send the message again.
+
+--- Movie Plan ---
+We find LivingRoom!
+'/Actuator/SmartTV/LivingRoom/1' is OFF now, Need to Turn it ON First.
+
+Standard Error:
+2025-01-14 16:56:27,391 - actuator.py - make_coffee - WARNING - ' /Actuator/CoffeeMachine/Kitchen/1 ' is OFF now, Need to Turn it On First.
+2025-01-14 16:56:27,391 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/LivingRoom/1' is currently OFF. Cannot get reading.
+2025-01-14 16:56:27,391 - actuator.py - daily_routine - WARNING - Cleaning Robot /Actuator/CleaningRobot/LivingRoom/1 is OFF now, Need to Turn it ON First
+2025-01-14 16:56:27,391 - actuator.py - daily_routine - WARNING - Cleaning Robot /Actuator/CleaningRobot/Bedroom/1 is OFF now, Need to Turn it ON First
+2025-01-14 16:56:27,391 - actuator.py - notification_sender - WARNING - Notification Sender /Actuator/NotificationSender/LivingRoom/1 is OFF, Turn it On First.
+2025-01-14 16:56:27,391 - actuator.py - play_channel - WARNING - '/Actuator/SmartTV/LivingRoom/1' is OFF now, Need to Turn it ON First.
+
+Return code: 0

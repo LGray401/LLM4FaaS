@@ -1,0 +1,23 @@
+Standard Output:
+'/Sensor/IndoorTemperature/LivingRoom/1' is now ON.
+'/Sensor/IndoorTemperature/Bedroom/1' is now ON.
+'/Sensor/IndoorTemperature/Bathroom/1' is now ON.
+'/Sensor/Humidity/LivingRoom/1' is now ON.
+'/Sensor/Humidity/Bedroom/1' is now ON.
+'/Sensor/Humidity/Kitchen/1' is now ON.
+'/Sensor/Humidity/Bathroom/1' is now ON.
+'/Sensor/Humidity/Balcony/1' is now ON.
+'/Sensor/LightIntensive/LivingRoom/1' is now ON.
+'/Sensor/LightIntensive/Bedroom/1' is now ON.
+/Sensor/Humidity/LivingRoom/1 reading is: 25.37
+/Sensor/Humidity/Bedroom/1 reading is: 20.85
+/Sensor/Humidity/Kitchen/1 reading is: 15.79
+/Sensor/Humidity/Bathroom/1 reading is: 15.78
+/Sensor/LightIntensive/LivingRoom/1 reading is: 992.47
+/Actuator/AC/LivingRoom/1 is turned on.
+/Sensor/LightIntensive/Bedroom/1 reading is: 978.94
+/Actuator/AC/Bedroom/1 is turned on.
+
+Standard Error:
+
+Return code: 0

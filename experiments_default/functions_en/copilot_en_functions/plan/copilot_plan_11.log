@@ -1,0 +1,12 @@
+Standard Output:
+
+Standard Error:
+Traceback (most recent call last):
+  File "/Users/minghe/llm4faas/experiments_default/functions_en/copilot_en_functions/plan/copilot_plan_11.py", line 47, in <module>
+    main()
+  File "/Users/minghe/llm4faas/experiments_default/functions_en/copilot_en_functions/plan/copilot_plan_11.py", line 25, in main
+    if isinstance(sensor, RainSensor) and sensor.get_reading() == "Rain":
+                          ^^^^^^^^^^
+NameError: name 'RainSensor' is not defined
+
+Return code: 1

@@ -1,0 +1,8 @@
+Error: Execution timed out
+Standard Output:
+/Actuator/MusicPlayer/LivingRoom/1 is turned on.
+/Actuator/MusicPlayer/LivingRoom/1 start playing Jay Chou's Playlist
+/Actuator/CoffeeMachine/Kitchen/1 is turned on.
+/Actuator/CoffeeMachine/Kitchen/1 Start making Regular Coffee
+
+Standard Error:

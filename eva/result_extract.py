@@ -7,7 +7,7 @@ sheet_name = 'RemoteControl'  # sheet name
 
 
 # Energy Markdown file generation
-markdown_template = 'remote-control-prompt_template.md'  # Markdown template file path
+markdown_template = 'baseline_v2_remote-control_template.md'  # Markdown template file path
 output_dir = '../logs_questionnaire_in_Chinese/energy'  # output directory
 output_prefix = 'energy_control_'   # prefix of the output file name
 column_index = 13

@@ -1,0 +1,43 @@
+Standard Output:
+'/Sensor/OutdoorTemperature/Balcony/1' is now ON.
+/Sensor/OutdoorTemperature/Balcony/1 reading is: 21.95
+/Sensor/OutdoorTemperature/Balcony/1 is now OFF.
+'/Sensor/Humidity/LivingRoom/1' is now ON.
+/Sensor/Humidity/LivingRoom/1 reading is: 21.34
+/Sensor/Humidity/LivingRoom/1 is now OFF.
+/Actuator/AC/LivingRoom/1 is turned on.
+/Actuator/AC/LivingRoom/1 is turned off.
+/Actuator/AC/Bedroom/1 is turned on.
+/Actuator/AC/Bedroom/1 is turned off.
+'/Sensor/Humidity/Bedroom/1' is now ON.
+/Sensor/Humidity/Bedroom/1 reading is: 14.43
+/Sensor/Humidity/Bedroom/1 is now OFF.
+/Actuator/AC/LivingRoom/1 is turned on.
+/Actuator/AC/LivingRoom/1 is turned off.
+/Actuator/AC/Bedroom/1 is turned on.
+/Actuator/AC/Bedroom/1 is turned off.
+'/Sensor/Humidity/Kitchen/1' is now ON.
+/Sensor/Humidity/Kitchen/1 reading is: 28.24
+/Sensor/Humidity/Kitchen/1 is now OFF.
+/Actuator/AC/LivingRoom/1 is turned on.
+/Actuator/AC/LivingRoom/1 is turned off.
+/Actuator/AC/Bedroom/1 is turned on.
+/Actuator/AC/Bedroom/1 is turned off.
+'/Sensor/Humidity/Bathroom/1' is now ON.
+/Sensor/Humidity/Bathroom/1 reading is: 20.64
+/Sensor/Humidity/Bathroom/1 is now OFF.
+/Actuator/AC/LivingRoom/1 is turned on.
+/Actuator/AC/LivingRoom/1 is turned off.
+/Actuator/AC/Bedroom/1 is turned on.
+/Actuator/AC/Bedroom/1 is turned off.
+'/Sensor/Humidity/Balcony/1' is now ON.
+/Sensor/Humidity/Balcony/1 reading is: 19.94
+/Sensor/Humidity/Balcony/1 is now OFF.
+/Actuator/AC/LivingRoom/1 is turned on.
+/Actuator/AC/LivingRoom/1 is turned off.
+/Actuator/AC/Bedroom/1 is turned on.
+/Actuator/AC/Bedroom/1 is turned off.
+
+Standard Error:
+
+Return code: 0

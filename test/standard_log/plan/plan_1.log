@@ -1,0 +1,15 @@
+Standard Output:
+/Actuator/Light/LivingRoom/1 is turned on. || /Actuator/Light/LivingRoom/2 is turned on. || /Actuator/Light/Bedroom/1 is turned on. || /Actuator/Light/Bedroom/2 is turned on.
+/Actuator/Curtain/LivingRoom/1 || /Actuator/Curtain/Bedroom/1
+/Actuator/MusicPlayer/LivingRoom/1 || /Actuator/MusicPlayer/Bedroom/1
+/Actuator/CoffeeMachine/Kitchen/1
+/Actuator/Light/LivingRoom/1 is turned off.
+/Actuator/Light/LivingRoom/2 is turned off.
+/Actuator/Light/Bedroom/1 is turned off.
+/Actuator/Light/Bedroom/2 is turned off.
+/Actuator/Light/Kitchen/1 is turned off.
+/Actuator/Light/Bathroom/1 is turned off.
+Lock the door /Actuator/Door/LivingRoom/1.
+/Actuator/SmartTV/LivingRoom/1 is turned on.
+/Actuator/Curtain/LivingRoom/1
+Set /Actuator/Light/LivingRoom/1 light brightness level to LOW || Set /Actuator/Light/LivingRoom/2 light brightness level to LOW

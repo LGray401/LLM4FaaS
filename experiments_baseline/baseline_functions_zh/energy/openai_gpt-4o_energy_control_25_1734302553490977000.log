@@ -1,0 +1,15 @@
+Standard Output:
+Door is opened.
+Curtain is opened.
+Music player is on.
+Window is opened.
+Indoor light is on.
+TV is on.
+Music player is off.
+Curtain is closed.
+Indoor light is off.
+Final states: Curtain open: False, Music player on: False, Window open: True, AC on: False, Humidifier on: False, Indoor light on: False, TV on: True
+
+Standard Error:
+
+Return code: 0

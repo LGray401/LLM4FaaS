@@ -20,5 +20,17 @@ OPENAI_MODEL = 'gpt-4o-mini'
 # OPENAI_MODEL = "gpt-3.5-turbo"
 
 
-OLLAMA_MODEL = 'llama3.1'
+# OLLAMA_MODEL = 'llama3.1'
+OLLAMA_MODEL = 'deepseek-r1:7b'
+
+
 OLLAMA_URL = 'http://localhost:11434/api/generate'
+ZHIPU_MODEL = "glm-4-flash"
+
+# free model
+# QIANFAN_MODEL = "ERNIE-Speed-128K"
+QIANFAN_MODEL ='ernie-4.0-turbo-8k'
+# enhanced llama2 model, which can generate function code
+# QIANFAN_URL = 'Qianfan-Chinese-Llama-2-70B'
+
+ALI_TONGYI_MODEL = "qwen-max-0919"

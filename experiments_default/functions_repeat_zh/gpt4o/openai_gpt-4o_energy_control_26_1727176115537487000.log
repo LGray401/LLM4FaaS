@@ -1,0 +1,12 @@
+Standard Output:
+Checking room: LivingRoom
+/Actuator/AC/LivingRoom/1 current status is off
+Checking room: Bedroom
+/Actuator/AC/Bedroom/1 current status is off
+Checking room: Kitchen
+Checking room: Bathroom
+Checking room: Balcony
+
+Standard Error:
+
+Return code: 0

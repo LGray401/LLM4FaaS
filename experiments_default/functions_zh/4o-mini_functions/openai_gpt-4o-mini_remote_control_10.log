@@ -1,0 +1,8 @@
+Standard Output:
+
+Standard Error:
+  File "/Users/minghe/llm4faas/experiments_default/functions_zh/4o-mini_functions/openai_gpt-4o-mini_remote_control_10.py", line 25
+    windows = [actuator for actuator in room.actuators if isinstance(actuator, Window)]
+IndentationError: unexpected indent
+
+Return code: 1

@@ -1,0 +1,23 @@
+Standard Output:
+We find LivingRoom!
+/Actuator/Light/LivingRoom/1 is turned on.
+Set /Actuator/Light/LivingRoom/1 light brightness level to HIGH
+We find Bedroom!
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/Bedroom/1 is Currently OFF. 
+Set the target temperature of /Actuator/Heater/Bedroom/1 to 22°C.
+
+Standard Error:
+2025-01-10 14:36:01,697 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/Bedroom/1' is currently OFF. Cannot get reading.
+Traceback (most recent call last):
+  File "/Users/minghe/llm4faas/experiments_default/functions_en/4o-mini_en_functoins/openai_gpt-4o-mini_remote_control_13.py", line 104, in <module>
+    main()
+  File "/Users/minghe/llm4faas/experiments_default/functions_en/4o-mini_en_functoins/openai_gpt-4o-mini_remote_control_13.py", line 99, in main
+    adjust_temperature("Bedroom", 22)
+  File "/Users/minghe/llm4faas/experiments_default/functions_en/4o-mini_en_functoins/openai_gpt-4o-mini_remote_control_13.py", line 43, in adjust_temperature
+    heater.adjust_temperature(current_temperature)
+  File "/Users/minghe/llm4faas/home/actuator.py", line 51, in adjust_temperature
+    if current_temperature < self.target_temperature:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<' not supported between instances of 'NoneType' and 'int'
+
+Return code: 1

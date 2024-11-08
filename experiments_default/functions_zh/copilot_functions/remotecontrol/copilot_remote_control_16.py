@@ -1,0 +1,3 @@
+# Based on the content of the markdown file, it appears that you are working on a smart home project and you need a new Python file named 'function.py' to be created in the 'functions' folder. This file should contain the main function for your project.
+#
+# However, the functional description provided in the markdown file is not clear as it only contains the word "控制" which translates to "control" in English. Could you please provide more details about the functionality that you want to implement in 'function.py'? This will help in providing a more accurate code suggestion.

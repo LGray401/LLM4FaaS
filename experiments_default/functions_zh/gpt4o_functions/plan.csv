@@ -1,0 +1,27 @@
+Timestamp,Model Name,Task Name,User Answer Index,Success Rate (%),Error Status,Unmatched Lines,Log File Path
+,openai_gpt-4o,plan,23,1.0000,No Error & Warning,[],/Users/minghe/llm4faas/experiments_default/functions_zh/gpt4o_functions/openai_gpt-4o_plan_23.log
+,openai_gpt-4o,plan,22,1.0000,No Error & Warning,[],/Users/minghe/llm4faas/experiments_default/functions_zh/gpt4o_functions/openai_gpt-4o_plan_22.log
+,openai_gpt-4o,plan,20,1.0000,No Error & Warning,[],/Users/minghe/llm4faas/experiments_default/functions_zh/gpt4o_functions/openai_gpt-4o_plan_20.log
+,openai_gpt-4o,plan,8,0.0000,Invalid Prompt,,/Users/minghe/llm4faas/experiments_default/functions_zh/gpt4o_functions/openai_gpt-4o_plan_8.log
+,openai_gpt-4o,plan,9,1.0000,No Error & Warning,[],/Users/minghe/llm4faas/experiments_default/functions_zh/gpt4o_functions/openai_gpt-4o_plan_9.log
+,openai_gpt-4o,plan,21,1.0000,No Error & Warning,[],/Users/minghe/llm4faas/experiments_default/functions_zh/gpt4o_functions/openai_gpt-4o_plan_21.log
+,openai_gpt-4o,plan,19,1.0000,No Error & Warning,[],/Users/minghe/llm4faas/experiments_default/functions_zh/gpt4o_functions/openai_gpt-4o_plan_19.log
+,openai_gpt-4o,plan,25,0.9259,No Error & Warning,"['/Actuator/CoffeeMachine/Kitchen/1', 'Set /Actuator/Light/LivingRoom/1 light brightness level to LOW || Set /Actuator/Light/LivingRoom/2 light brightness level to LOW']",/Users/minghe/llm4faas/experiments_default/functions_zh/gpt4o_functions/openai_gpt-4o_plan_25.log
+,openai_gpt-4o,plan,24,1.0000,No Error & Warning,[],/Users/minghe/llm4faas/experiments_default/functions_zh/gpt4o_functions/openai_gpt-4o_plan_24.log
+,openai_gpt-4o,plan,18,1.0000,No Error & Warning,[],/Users/minghe/llm4faas/experiments_default/functions_zh/gpt4o_functions/openai_gpt-4o_plan_18.log
+,openai_gpt-4o,plan,26,0.0000,Error,,/Users/minghe/llm4faas/experiments_default/functions_zh/gpt4o_functions/openai_gpt-4o_plan_26.log
+,openai_gpt-4o,plan,16,1.0000,No Error & Warning,[],/Users/minghe/llm4faas/experiments_default/functions_zh/gpt4o_functions/openai_gpt-4o_plan_16.log
+,openai_gpt-4o,plan,2,0.9500,No Error & Warning,['/Actuator/CoffeeMachine/Kitchen/1'],/Users/minghe/llm4faas/experiments_default/functions_zh/gpt4o_functions/openai_gpt-4o_plan_2.log
+,openai_gpt-4o,plan,3,1.0000,No Error & Warning,[],/Users/minghe/llm4faas/experiments_default/functions_zh/gpt4o_functions/openai_gpt-4o_plan_3.log
+,openai_gpt-4o,plan,17,1.0000,No Error & Warning,[],/Users/minghe/llm4faas/experiments_default/functions_zh/gpt4o_functions/openai_gpt-4o_plan_17.log
+,openai_gpt-4o,plan,15,0.0000,Invalid Prompt,,/Users/minghe/llm4faas/experiments_default/functions_zh/gpt4o_functions/openai_gpt-4o_plan_15.log
+,openai_gpt-4o,plan,1,0.7857,No Error & Warning,"['/Actuator/Light/Bedroom/1 is turned off.', '/Actuator/Light/Bedroom/2 is turned off.', '/Actuator/Light/Bathroom/1 is turned off.']",/Users/minghe/llm4faas/experiments_default/functions_zh/gpt4o_functions/openai_gpt-4o_plan_1.log
+,openai_gpt-4o,plan,14,0.0000,Invalid Prompt,,/Users/minghe/llm4faas/experiments_default/functions_zh/gpt4o_functions/openai_gpt-4o_plan_14.log
+,openai_gpt-4o,plan,10,1.0000,No Error & Warning,[],/Users/minghe/llm4faas/experiments_default/functions_zh/gpt4o_functions/openai_gpt-4o_plan_10.log
+,openai_gpt-4o,plan,4,1.0000,No Error & Warning,[],/Users/minghe/llm4faas/experiments_default/functions_zh/gpt4o_functions/openai_gpt-4o_plan_4.log
+,openai_gpt-4o,plan,5,1.0000,No Error & Warning,[],/Users/minghe/llm4faas/experiments_default/functions_zh/gpt4o_functions/openai_gpt-4o_plan_5.log
+,openai_gpt-4o,plan,11,1.0000,No Error & Warning,[],/Users/minghe/llm4faas/experiments_default/functions_zh/gpt4o_functions/openai_gpt-4o_plan_11.log
+,openai_gpt-4o,plan,13,0.9600,No Error & Warning,['/Actuator/CoffeeMachine/Kitchen/1'],/Users/minghe/llm4faas/experiments_default/functions_zh/gpt4o_functions/openai_gpt-4o_plan_13.log
+,openai_gpt-4o,plan,7,0.0000,Error,,/Users/minghe/llm4faas/experiments_default/functions_zh/gpt4o_functions/openai_gpt-4o_plan_7.log
+,openai_gpt-4o,plan,6,0.0000,Invalid Prompt,,/Users/minghe/llm4faas/experiments_default/functions_zh/gpt4o_functions/openai_gpt-4o_plan_6.log
+,openai_gpt-4o,plan,12,1.0000,No Error & Warning,[],/Users/minghe/llm4faas/experiments_default/functions_zh/gpt4o_functions/openai_gpt-4o_plan_12.log

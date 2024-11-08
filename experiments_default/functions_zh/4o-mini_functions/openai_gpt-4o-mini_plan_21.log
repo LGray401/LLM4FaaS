@@ -1,0 +1,21 @@
+Standard Output:
+Executing Morning Plan...
+We find Bedroom!
+Alarm set for 7 AM.
+/Actuator/Curtain/Bedroom/1 is turned on.
+'/Sensor/LightIntensive/Bedroom/1' is now ON.
+/Sensor/LightIntensive/Bedroom/1 reading is: 1138.71
+Executing Leave Home Plan...
+
+Standard Error:
+Traceback (most recent call last):
+  File "/Users/minghe/llm4faas/experiments_default/functions_zh/4o-mini_functions/openai_gpt-4o-mini_plan_21.py", line 95, in <module>
+    main()
+  File "/Users/minghe/llm4faas/experiments_default/functions_zh/4o-mini_functions/openai_gpt-4o-mini_plan_21.py", line 89, in main
+    leave_home_plan(home)
+  File "/Users/minghe/llm4faas/experiments_default/functions_zh/4o-mini_functions/openai_gpt-4o-mini_plan_21.py", line 47, in leave_home_plan
+    lights = get_all_actuators(home, "Light")
+             ^^^^^^^^^^^^^^^^^
+NameError: name 'get_all_actuators' is not defined. Did you mean: 'get_room_actuators'?
+
+Return code: 1

@@ -1,0 +1,21 @@
+Standard Output:
+
+---Morning Plan---
+We find LivingRoom!
+/Actuator/Curtain/LivingRoom/1 is turned on.
+/Actuator/MusicPlayer/LivingRoom/1 is turned on.
+/Actuator/MusicPlayer/LivingRoom/1 start playing Morning Music
+/Actuator/SmartSocket/Kitchen/1 is turned on.
+
+Standard Error:
+Traceback (most recent call last):
+  File "/Users/minghe/llm4faas/experiments_default/functions_en/gemini_en_functions/gemini_plan_2_1725288450356295000.py", line 68, in <module>
+    main()
+  File "/Users/minghe/llm4faas/experiments_default/functions_en/gemini_en_functions/gemini_plan_2_1725288450356295000.py", line 62, in main
+    morning_plan(home)
+  File "/Users/minghe/llm4faas/experiments_default/functions_en/gemini_en_functions/gemini_plan_2_1725288450356295000.py", line 19, in morning_plan
+    coffee_machine.make_coffee("Espresso")
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'SmartSocket' object has no attribute 'make_coffee'
+
+Return code: 1

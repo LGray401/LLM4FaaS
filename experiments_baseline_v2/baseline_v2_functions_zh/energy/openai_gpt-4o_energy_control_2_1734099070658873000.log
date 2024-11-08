@@ -1,0 +1,16 @@
+Standard Output:
+'/Sensor/IndoorTemperature/LivingRoom/1' is now ON.
+'/Sensor/LightIntensive/LivingRoom/1' is now ON.
+/Actuator/AC/LivingRoom/1 is turned on.
+/Actuator/Window/LivingRoom/1 is turned off.
+/Actuator/Window/LivingRoom/2 is turned off.
+/Sensor/IndoorTemperature/LivingRoom/1 reading is: 34.42
+/Sensor/LightIntensive/LivingRoom/1 reading is: 988.6
+/Actuator/Light/LivingRoom/1 is turned off.
+/Actuator/Light/LivingRoom/2 is turned off.
+/Actuator/MusicPlayer/LivingRoom/1 is turned off.
+/Actuator/SmartTV/LivingRoom/1 is turned off.
+
+Standard Error:
+
+Return code: 0

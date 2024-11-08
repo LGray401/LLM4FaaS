@@ -1,0 +1,67 @@
+Standard Output:
+/Sensor/IndoorTemperature/LivingRoom/1 current status is: off
+'/Sensor/IndoorTemperature/LivingRoom/1' is now ON.
+/Sensor/IndoorTemperature/Bedroom/1 current status is: off
+'/Sensor/IndoorTemperature/Bedroom/1' is now ON.
+/Sensor/IndoorTemperature/Bathroom/1 current status is: off
+'/Sensor/IndoorTemperature/Bathroom/1' is now ON.
+/Sensor/Humidity/LivingRoom/1 current status is: off
+'/Sensor/Humidity/LivingRoom/1' is now ON.
+/Sensor/Humidity/Bedroom/1 current status is: off
+'/Sensor/Humidity/Bedroom/1' is now ON.
+/Sensor/Humidity/Kitchen/1 current status is: off
+'/Sensor/Humidity/Kitchen/1' is now ON.
+/Sensor/Humidity/Bathroom/1 current status is: off
+'/Sensor/Humidity/Bathroom/1' is now ON.
+/Sensor/Humidity/Balcony/1 current status is: off
+'/Sensor/Humidity/Balcony/1' is now ON.
+/Sensor/LightIntensive/LivingRoom/1 current status is: off
+'/Sensor/LightIntensive/LivingRoom/1' is now ON.
+/Sensor/LightIntensive/Bedroom/1 current status is: off
+'/Sensor/LightIntensive/Bedroom/1' is now ON.
+/Sensor/IndoorTemperature/LivingRoom/1 reading is: 36.98
+/Sensor/IndoorTemperature/LivingRoom/1 reading is: 34.23
+/Sensor/IndoorTemperature/Bedroom/1 reading is: 34.71
+/Sensor/IndoorTemperature/Bedroom/1 reading is: 32.98
+/Sensor/IndoorTemperature/Bathroom/1 reading is: 33.01
+/Sensor/IndoorTemperature/Bathroom/1 reading is: 30.72
+/Sensor/Humidity/LivingRoom/1 reading is: 12.39
+/Sensor/Humidity/LivingRoom/1 reading is: 26.31
+/Sensor/Humidity/Bedroom/1 reading is: 22.52
+/Sensor/Humidity/Bedroom/1 reading is: 23.92
+/Sensor/Humidity/Kitchen/1 reading is: 23.1
+/Sensor/Humidity/Kitchen/1 reading is: 29.39
+/Sensor/Humidity/Bathroom/1 reading is: 16.74
+/Sensor/Humidity/Bathroom/1 reading is: 27.6
+/Sensor/Humidity/Balcony/1 reading is: 17.9
+/Sensor/Humidity/Balcony/1 reading is: 18.37
+/Sensor/LightIntensive/LivingRoom/1 reading is: 1162.28
+/Sensor/LightIntensive/LivingRoom/1 reading is: 1051.03
+/Sensor/LightIntensive/Bedroom/1 reading is: 1048.16
+/Sensor/LightIntensive/Bedroom/1 reading is: 1115.6
+/Actuator/Heater/LivingRoom/1 is turned off.
+/Actuator/Heater/Bedroom/1 is turned off.
+/Actuator/Heater/Kitchen/1 is turned off.
+/Actuator/Heater/Bathroom/1 is turned off.
+/Actuator/AC/LivingRoom/1 is turned on.
+Set the target temperature of /Actuator/AC/LivingRoom/1 to 23°C.
+/Actuator/AC/Bedroom/1 is turned on.
+Set the target temperature of /Actuator/AC/Bedroom/1 to 23°C.
+/Actuator/Humidifier/LivingRoom/1 Increasing humidity in LivingRoom
+/Actuator/Humidifier/Bedroom/1 Increasing humidity in Bedroom
+/Actuator/Light/LivingRoom/1 is turned on.
+Set /Actuator/Light/LivingRoom/1 light brightness level to MEDIUM
+/Actuator/Light/LivingRoom/2 is turned on.
+Set /Actuator/Light/LivingRoom/2 light brightness level to MEDIUM
+/Actuator/Light/Bedroom/1 is turned on.
+Set /Actuator/Light/Bedroom/1 light brightness level to MEDIUM
+/Actuator/Light/Bedroom/2 is turned on.
+Set /Actuator/Light/Bedroom/2 light brightness level to MEDIUM
+/Actuator/Light/Kitchen/1 is turned on.
+Set /Actuator/Light/Kitchen/1 light brightness level to MEDIUM
+/Actuator/Light/Bathroom/1 is turned on.
+Set /Actuator/Light/Bathroom/1 light brightness level to MEDIUM
+
+Standard Error:
+
+Return code: 0

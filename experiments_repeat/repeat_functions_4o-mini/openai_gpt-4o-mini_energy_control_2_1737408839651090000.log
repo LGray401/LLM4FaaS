@@ -1,0 +1,12 @@
+Standard Output:
+
+Standard Error:
+Traceback (most recent call last):
+  File "/Users/minghe/llm4faas/experiments_repeat/repeat_functions_4o-mini/openai_gpt-4o-mini_energy_control_2_1737408839651090000.py", line 55, in <module>
+    main()
+  File "/Users/minghe/llm4faas/experiments_repeat/repeat_functions_4o-mini/openai_gpt-4o-mini_energy_control_2_1737408839651090000.py", line 17, in main
+    light_sensors = get_all_sensors(home, "LightIntensive")
+                    ^^^^^^^^^^^^^^^
+NameError: name 'get_all_sensors' is not defined. Did you mean: 'get_room_sensors'?
+
+Return code: 1

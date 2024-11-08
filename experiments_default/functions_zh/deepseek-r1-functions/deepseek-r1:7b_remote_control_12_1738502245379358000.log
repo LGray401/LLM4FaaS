@@ -1,0 +1,12 @@
+Standard Output:
+
+Standard Error:
+Traceback (most recent call last):
+  File "/Users/minghe/llm4faas/experiments_default/functions_zh/deepseek-r1-functions/deepseek-r1:7b_remote_control_12_1738502245379358000.py", line 314, in <module>
+    rooms = create_rooms_with_components(room_names, sensors_config, actuators_config)
+  File "/Users/minghe/llm4faas/experiments_default/functions_zh/deepseek-r1-functions/deepseek-r1:7b_remote_control_12_1738502245379358000.py", line 291, in create_rooms_with_components
+    add_sensor(rooms[name], sensor_config['id'], sensor_config['type'])
+               ~~~~~^^^^^^
+KeyError: 'bedside_lamp'
+
+Return code: 1

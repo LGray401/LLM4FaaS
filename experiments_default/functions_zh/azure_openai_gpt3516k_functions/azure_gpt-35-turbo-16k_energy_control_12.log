@@ -1,0 +1,11 @@
+Standard Output:
+Cannot Get Sensor Reading, /Sensor/OutdoorTemperature/Outdoor/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/IndoorTemperature/LivingRoom/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/LivingRoom/1 is Currently OFF. 
+
+Standard Error:
+2025-01-10 12:33:36,501 - sensor.py - get_reading - WARNING - '/Sensor/OutdoorTemperature/Outdoor/1' is currently OFF. Cannot get reading.
+2025-01-10 12:33:36,501 - sensor.py - get_reading - WARNING - '/Sensor/IndoorTemperature/LivingRoom/1' is currently OFF. Cannot get reading.
+2025-01-10 12:33:36,501 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/LivingRoom/1' is currently OFF. Cannot get reading.
+
+Return code: 0

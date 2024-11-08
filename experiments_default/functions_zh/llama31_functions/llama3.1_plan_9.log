@@ -1,0 +1,9 @@
+Standard Output:
+
+Standard Error:
+  File "/Users/minghe/llm4faas/experiments_default/functions_zh/llama31_functions/llama3.1_plan_9.py", line 32
+    smart_home = get_smart_home_plan()
+    ^
+IndentationError: expected an indented block after function definition on line 27
+
+Return code: 1

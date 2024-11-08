@@ -1,0 +1,15 @@
+Standard Output:
+Executing Morning Plan...
+
+Standard Error:
+Traceback (most recent call last):
+  File "/Users/minghe/llm4faas/experiments_default/functions_en/gpt-4o_en_functions/plans/openai_gpt-4o_plan_2.py", line 67, in <module>
+    main()
+  File "/Users/minghe/llm4faas/experiments_default/functions_en/gpt-4o_en_functions/plans/openai_gpt-4o_plan_2.py", line 58, in main
+    morning_plan(home)
+  File "/Users/minghe/llm4faas/experiments_default/functions_en/gpt-4o_en_functions/plans/openai_gpt-4o_plan_2.py", line 16, in morning_plan
+    if isinstance(actuator, Curtain):
+                            ^^^^^^^
+NameError: name 'Curtain' is not defined
+
+Return code: 1

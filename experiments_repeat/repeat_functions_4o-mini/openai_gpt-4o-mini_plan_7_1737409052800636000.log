@@ -1,0 +1,42 @@
+Standard Output:
+Executing Morning Plan...
+We find Bedroom!
+We find LivingRoom!
+It's 7:00 AM! Time to wake up.
+/Actuator/MusicPlayer/LivingRoom/1 is turned on.
+/Actuator/MusicPlayer/LivingRoom/1 start playing 周杰伦歌单
+/Actuator/CoffeeMachine/Kitchen/1 is turned on.
+/Actuator/CoffeeMachine/Kitchen/1 Start making Coffee
+Coffee is ready!
+Executing Leave Home Plan...
+We find LivingRoom!
+It's after 7:30 AM, leaving home...
+Lock the door /Actuator/Door/LivingRoom/1.
+/Actuator/Light/LivingRoom/1 is turned off.
+/Actuator/Light/LivingRoom/2 is turned off.
+/Actuator/Light/Bedroom/1 is turned off.
+/Actuator/Light/Bedroom/2 is turned off.
+/Actuator/Light/Kitchen/1 is turned off.
+/Actuator/Light/Bathroom/1 is turned off.
+Executing Movie Plan...
+We find LivingRoom!
+Starting the movie...
+/Actuator/Curtain/LivingRoom/1 is turned on.
+Light /Actuator/Light/LivingRoom/1 is OFF. Please turn it on before setting the brightness level.
+Light /Actuator/Light/LivingRoom/2 is OFF. Please turn it on before setting the brightness level.
+Light /Actuator/Light/Bedroom/1 is OFF. Please turn it on before setting the brightness level.
+Light /Actuator/Light/Bedroom/2 is OFF. Please turn it on before setting the brightness level.
+Light /Actuator/Light/Kitchen/1 is OFF. Please turn it on before setting the brightness level.
+Light /Actuator/Light/Bathroom/1 is OFF. Please turn it on before setting the brightness level.
+/Actuator/SmartTV/LivingRoom/1 is turned on.
+Start playing Movie Channel on the /Actuator/SmartTV/LivingRoom/1 in LivingRoom
+
+Standard Error:
+2025-01-20 23:16:56,002 - actuator.py - set_brightness_level - WARNING - Light /Actuator/Light/LivingRoom/1 is OFF. Please turn it on before setting the brightness level.
+2025-01-20 23:16:56,003 - actuator.py - set_brightness_level - WARNING - Light /Actuator/Light/LivingRoom/2 is OFF. Please turn it on before setting the brightness level.
+2025-01-20 23:16:56,003 - actuator.py - set_brightness_level - WARNING - Light /Actuator/Light/Bedroom/1 is OFF. Please turn it on before setting the brightness level.
+2025-01-20 23:16:56,003 - actuator.py - set_brightness_level - WARNING - Light /Actuator/Light/Bedroom/2 is OFF. Please turn it on before setting the brightness level.
+2025-01-20 23:16:56,003 - actuator.py - set_brightness_level - WARNING - Light /Actuator/Light/Kitchen/1 is OFF. Please turn it on before setting the brightness level.
+2025-01-20 23:16:56,003 - actuator.py - set_brightness_level - WARNING - Light /Actuator/Light/Bathroom/1 is OFF. Please turn it on before setting the brightness level.
+
+Return code: 0

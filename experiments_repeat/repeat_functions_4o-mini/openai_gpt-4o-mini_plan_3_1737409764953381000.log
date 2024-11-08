@@ -1,0 +1,23 @@
+Standard Output:
+Executing Morning Plan...
+We find Kitchen!
+there is no Actuator found in CoffeeMachine
+No coffee machine found in the kitchen.
+
+Executing Leave Home Plan...
+there is no Actuator found in Light
+
+Standard Error:
+2025-01-20 23:16:15,621 - home_plan.py - get_room_actuators - WARNING - there is no Actuator found in CoffeeMachine
+2025-01-20 23:16:15,621 - home_plan.py - get_room_actuators - WARNING - there is no Actuator found in Light
+Traceback (most recent call last):
+  File "/Users/minghe/llm4faas/experiments_repeat/repeat_functions_4o-mini/openai_gpt-4o-mini_plan_3_1737409764953381000.py", line 60, in <module>
+    main()
+  File "/Users/minghe/llm4faas/experiments_repeat/repeat_functions_4o-mini/openai_gpt-4o-mini_plan_3_1737409764953381000.py", line 52, in main
+    leave_home_plan(home)
+  File "/Users/minghe/llm4faas/experiments_repeat/repeat_functions_4o-mini/openai_gpt-4o-mini_plan_3_1737409764953381000.py", line 26, in leave_home_plan
+    for light in all_lights:
+                 ^^^^^^^^^^
+TypeError: 'NoneType' object is not iterable
+
+Return code: 1

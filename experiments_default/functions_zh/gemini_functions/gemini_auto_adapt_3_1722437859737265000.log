@@ -1,0 +1,36 @@
+Error: Execution timed out
+Standard Output:
+We find LivingRoom!
+We find Bedroom!
+We find Kitchen!
+'/Sensor/IndoorTemperature/LivingRoom/1' is now ON.
+'/Sensor/LightIntensive/LivingRoom/1' is now ON.
+'/Sensor/Humidity/LivingRoom/1' is now ON.
+'/Sensor/IndoorTemperature/Bedroom/1' is now ON.
+'/Sensor/LightIntensive/Bedroom/1' is now ON.
+'/Sensor/Humidity/Kitchen/1' is now ON.
+'/Sensor/Smoke/Kitchen/1' is now ON.
+/Sensor/IndoorTemperature/LivingRoom/1 reading is: 30.35
+/Actuator/AC/LivingRoom/1 is turned on.
+Set the target temperature of /Actuator/AC/LivingRoom/1 to 25°C.
+Living room temperature is high, turning on AC to 25 degrees.
+/Sensor/IndoorTemperature/Bedroom/1 reading is: 36.29
+/Actuator/AC/Bedroom/1 is turned on.
+Set the target temperature of /Actuator/AC/Bedroom/1 to 25°C.
+Bedroom temperature is high, turning on AC to 25 degrees.
+/Sensor/Humidity/LivingRoom/1 reading is: 12.38
+Living room humidity is low, need to increase humidity.
+/Sensor/Humidity/Kitchen/1 reading is: 16.87
+Bedroom humidity is low, need to increase humidity.
+/Sensor/LightIntensive/LivingRoom/1 reading is: 1106.87
+/Actuator/Light/LivingRoom/1 is turned off.
+Living room light intensity is high, turning off light.
+/Sensor/LightIntensive/Bedroom/1 reading is: 1112.38
+/Actuator/Light/LivingRoom/2 is turned off.
+Bedroom light intensity is high, turning off light.
+/Sensor/Smoke/Kitchen/1 reading is: 89.6
+Notification Sender /Actuator/NotificationSender/LivingRoom/1 is OFF, please turn it on then send the message again.
+Smoke detected in the kitchen! Please check!
+Enter a command (or 'exit' to quit): 
+Standard Error:
+2025-01-14 16:20:00,288 - actuator.py - notification_sender - WARNING - Notification Sender /Actuator/NotificationSender/LivingRoom/1 is OFF, Turn it On First.

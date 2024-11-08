@@ -1,0 +1,41 @@
+Standard Output:
+Light /Actuator/Light/LivingRoom/1 is OFF. Please turn it on before setting the brightness level.
+/Actuator/Light/LivingRoom/1 is turned on.
+Light /Actuator/Light/LivingRoom/2 is OFF. Please turn it on before setting the brightness level.
+/Actuator/Light/LivingRoom/2 is turned on.
+/Actuator/Curtain/LivingRoom/1 is turned on.
+/Actuator/SmartSocket/LivingRoom/1 is turned off.
+/Actuator/SmartSocket/LivingRoom/2 is turned off.
+/Actuator/Humidifier/LivingRoom/1 is turned off.
+/Actuator/CleaningRobot/LivingRoom/1 is turned off.
+/Actuator/MusicPlayer/LivingRoom/1 is turned off.
+/Actuator/SmartTV/LivingRoom/1 is turned on.
+Light /Actuator/Light/Bedroom/1 is OFF. Please turn it on before setting the brightness level.
+/Actuator/Light/Bedroom/1 is turned on.
+Light /Actuator/Light/Bedroom/2 is OFF. Please turn it on before setting the brightness level.
+/Actuator/Light/Bedroom/2 is turned on.
+/Actuator/Curtain/Bedroom/1 is turned on.
+/Actuator/SmartSocket/Bedroom/1 is turned off.
+/Actuator/SmartSocket/Bedroom/2 is turned off.
+/Actuator/Humidifier/Bedroom/1 is turned off.
+/Actuator/CleaningRobot/Bedroom/1 is turned off.
+/Actuator/MusicPlayer/Bedroom/1 is turned off.
+Light /Actuator/Light/Kitchen/1 is OFF. Please turn it on before setting the brightness level.
+/Actuator/Light/Kitchen/1 is turned on.
+/Actuator/SmartSocket/Kitchen/1 is turned off.
+/Actuator/SmartSocket/Kitchen/2 is turned off.
+/Actuator/SmartSocket/Kitchen/3 is turned off.
+Light /Actuator/Light/Bathroom/1 is OFF. Please turn it on before setting the brightness level.
+/Actuator/Light/Bathroom/1 is turned on.
+/Actuator/SmartSocket/Bathroom/1 is turned off.
+/Actuator/SmartSocket/Bathroom/2 is turned off.
+
+Standard Error:
+2025-01-10 14:35:48,322 - actuator.py - set_brightness_level - WARNING - Light /Actuator/Light/LivingRoom/1 is OFF. Please turn it on before setting the brightness level.
+2025-01-10 14:35:48,322 - actuator.py - set_brightness_level - WARNING - Light /Actuator/Light/LivingRoom/2 is OFF. Please turn it on before setting the brightness level.
+2025-01-10 14:35:48,322 - actuator.py - set_brightness_level - WARNING - Light /Actuator/Light/Bedroom/1 is OFF. Please turn it on before setting the brightness level.
+2025-01-10 14:35:48,322 - actuator.py - set_brightness_level - WARNING - Light /Actuator/Light/Bedroom/2 is OFF. Please turn it on before setting the brightness level.
+2025-01-10 14:35:48,322 - actuator.py - set_brightness_level - WARNING - Light /Actuator/Light/Kitchen/1 is OFF. Please turn it on before setting the brightness level.
+2025-01-10 14:35:48,322 - actuator.py - set_brightness_level - WARNING - Light /Actuator/Light/Bathroom/1 is OFF. Please turn it on before setting the brightness level.
+
+Return code: 0

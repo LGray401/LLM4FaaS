@@ -1,0 +1,13 @@
+Standard Output:
+'/Sensor/OutdoorTemperature/Balcony/1' is now ON.
+'/Sensor/Humidity/LivingRoom/1' is now ON.
+/Sensor/OutdoorTemperature/Balcony/1 reading is: 22.71
+/Sensor/Humidity/LivingRoom/1 reading is: 28.76
+/Actuator/AC/LivingRoom/1 is turned off.
+/Actuator/AC/Bedroom/1 is turned off.
+/Sensor/OutdoorTemperature/Balcony/1 is now OFF.
+/Sensor/Humidity/LivingRoom/1 is now OFF.
+
+Standard Error:
+
+Return code: 0

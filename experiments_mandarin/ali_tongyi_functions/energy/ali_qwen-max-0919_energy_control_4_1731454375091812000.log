@@ -1,0 +1,22 @@
+Standard Output:
+We find LivingRoom!
+'/Sensor/IndoorTemperature/LivingRoom/3' is now ON.
+/Sensor/IndoorTemperature/LivingRoom/3 reading is: 30.91
+/Sensor/IndoorTemperature/LivingRoom/3 is now OFF.
+Current temperature in LivingRoom is 30.91°C, which is above the threshold of 25°C. Opening windows to cool down...
+/Actuator/Window/LivingRoom/7 is turned on.
+Window /Actuator/Window/LivingRoom/7 in LivingRoom is now open.
+/Actuator/Window/LivingRoom/8 is turned on.
+Window /Actuator/Window/LivingRoom/8 in LivingRoom is now open.
+/Actuator/Window/LivingRoom/7 is turned off.
+Window /Actuator/Window/LivingRoom/7 in LivingRoom is now closed.
+/Actuator/Window/LivingRoom/8 is turned off.
+Window /Actuator/Window/LivingRoom/8 in LivingRoom is now closed.
+'/Sensor/IndoorTemperature/LivingRoom/3' is now ON.
+/Sensor/IndoorTemperature/LivingRoom/3 reading is: 33.37
+/Sensor/IndoorTemperature/LivingRoom/3 is now OFF.
+New temperature in LivingRoom after opening windows: 33.37°C.
+
+Standard Error:
+
+Return code: 0

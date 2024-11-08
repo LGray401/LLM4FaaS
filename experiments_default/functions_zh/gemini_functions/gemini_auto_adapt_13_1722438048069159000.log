@@ -1,0 +1,9 @@
+Standard Output:
+Cleaning Robot /Actuator/CleaningRobot/LivingRoom/1 is OFF now, Need to Turn it ON First
+Cleaning Robot /Actuator/CleaningRobot/Bedroom/1 is OFF now, Need to Turn it ON First
+
+Standard Error:
+2025-01-14 16:19:51,106 - actuator.py - daily_routine - WARNING - Cleaning Robot /Actuator/CleaningRobot/LivingRoom/1 is OFF now, Need to Turn it ON First
+2025-01-14 16:19:51,106 - actuator.py - daily_routine - WARNING - Cleaning Robot /Actuator/CleaningRobot/Bedroom/1 is OFF now, Need to Turn it ON First
+
+Return code: 0

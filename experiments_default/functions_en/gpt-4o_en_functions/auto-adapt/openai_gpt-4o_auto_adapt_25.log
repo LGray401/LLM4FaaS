@@ -1,0 +1,35 @@
+Standard Output:
+'/Sensor/IndoorTemperature/LivingRoom/1' is now ON.
+'/Sensor/IndoorTemperature/Bedroom/1' is now ON.
+'/Sensor/IndoorTemperature/Bathroom/1' is now ON.
+'/Sensor/Humidity/LivingRoom/1' is now ON.
+'/Sensor/Humidity/Bedroom/1' is now ON.
+'/Sensor/Humidity/Kitchen/1' is now ON.
+'/Sensor/Humidity/Bathroom/1' is now ON.
+'/Sensor/Humidity/Balcony/1' is now ON.
+'/Sensor/LightIntensive/LivingRoom/1' is now ON.
+'/Sensor/LightIntensive/Bedroom/1' is now ON.
+/Sensor/IndoorTemperature/LivingRoom/1 reading is: 36.43
+/Actuator/AC/LivingRoom/1 is turned on.
+Set the target temperature of /Actuator/AC/LivingRoom/1 to 24°C.
+/Sensor/IndoorTemperature/Bedroom/1 reading is: 31.55
+/Actuator/AC/Bedroom/1 is turned on.
+Set the target temperature of /Actuator/AC/Bedroom/1 to 24°C.
+/Sensor/IndoorTemperature/Bathroom/1 reading is: 32.3
+/Sensor/Humidity/LivingRoom/1 reading is: 20.23
+/Actuator/Humidifier/LivingRoom/1 is turned on.
+/Actuator/Humidifier/LivingRoom/1 Increasing humidity in LivingRoom
+/Sensor/Humidity/Bedroom/1 reading is: 24.35
+/Actuator/Humidifier/Bedroom/1 is turned on.
+/Actuator/Humidifier/Bedroom/1 Increasing humidity in Bedroom
+/Sensor/Humidity/Kitchen/1 reading is: 16.35
+/Sensor/Humidity/Bathroom/1 reading is: 22.4
+/Sensor/Humidity/Balcony/1 reading is: 18.95
+/Sensor/LightIntensive/LivingRoom/1 reading is: 913.03
+/Actuator/Curtain/LivingRoom/1 is turned on.
+/Sensor/LightIntensive/Bedroom/1 reading is: 1078.12
+/Actuator/Curtain/Bedroom/1 is turned on.
+
+Standard Error:
+
+Return code: 0

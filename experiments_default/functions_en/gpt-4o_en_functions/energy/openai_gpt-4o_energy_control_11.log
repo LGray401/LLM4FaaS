@@ -1,0 +1,46 @@
+Standard Output:
+'/Sensor/IndoorTemperature/LivingRoom/1' is now ON.
+'/Sensor/IndoorTemperature/Bedroom/1' is now ON.
+'/Sensor/IndoorTemperature/Bathroom/1' is now ON.
+/Actuator/Window/LivingRoom/1 is turned on.
+/Actuator/Window/LivingRoom/2 is turned on.
+/Actuator/Window/Bedroom/1 is turned on.
+/Actuator/Window/Kitchen/1 is turned on.
+/Actuator/Window/Bathroom/1 is turned on.
+/Sensor/IndoorTemperature/LivingRoom/1 reading is: 35.83
+/Actuator/Window/LivingRoom/1 is turned on.
+Opening /Actuator/Window/LivingRoom/1 due to high temperature: 35.83°C
+/Actuator/Window/LivingRoom/2 is turned on.
+Opening /Actuator/Window/LivingRoom/2 due to high temperature: 35.83°C
+/Actuator/Window/Bedroom/1 is turned on.
+Opening /Actuator/Window/Bedroom/1 due to high temperature: 35.83°C
+/Actuator/Window/Kitchen/1 is turned on.
+Opening /Actuator/Window/Kitchen/1 due to high temperature: 35.83°C
+/Actuator/Window/Bathroom/1 is turned on.
+Opening /Actuator/Window/Bathroom/1 due to high temperature: 35.83°C
+/Sensor/IndoorTemperature/Bedroom/1 reading is: 39.73
+/Actuator/Window/LivingRoom/1 is turned on.
+Opening /Actuator/Window/LivingRoom/1 due to high temperature: 39.73°C
+/Actuator/Window/LivingRoom/2 is turned on.
+Opening /Actuator/Window/LivingRoom/2 due to high temperature: 39.73°C
+/Actuator/Window/Bedroom/1 is turned on.
+Opening /Actuator/Window/Bedroom/1 due to high temperature: 39.73°C
+/Actuator/Window/Kitchen/1 is turned on.
+Opening /Actuator/Window/Kitchen/1 due to high temperature: 39.73°C
+/Actuator/Window/Bathroom/1 is turned on.
+Opening /Actuator/Window/Bathroom/1 due to high temperature: 39.73°C
+/Sensor/IndoorTemperature/Bathroom/1 reading is: 31.05
+/Actuator/Window/LivingRoom/1 is turned on.
+Opening /Actuator/Window/LivingRoom/1 due to high temperature: 31.05°C
+/Actuator/Window/LivingRoom/2 is turned on.
+Opening /Actuator/Window/LivingRoom/2 due to high temperature: 31.05°C
+/Actuator/Window/Bedroom/1 is turned on.
+Opening /Actuator/Window/Bedroom/1 due to high temperature: 31.05°C
+/Actuator/Window/Kitchen/1 is turned on.
+Opening /Actuator/Window/Kitchen/1 due to high temperature: 31.05°C
+/Actuator/Window/Bathroom/1 is turned on.
+Opening /Actuator/Window/Bathroom/1 due to high temperature: 31.05°C
+
+Standard Error:
+
+Return code: 0

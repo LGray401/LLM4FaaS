@@ -1,0 +1,19 @@
+Standard Output:
+
+Performing Morning Plan:
+
+Standard Error:
+Traceback (most recent call last):
+  File "/Users/minghe/llm4faas/experiments_default/functions_zh/azure_openai_gpt3516k_functions/azure_gpt-35-turbo-16k_plan_6.py", line 102, in <module>
+    main()
+  File "/Users/minghe/llm4faas/experiments_default/functions_zh/azure_openai_gpt3516k_functions/azure_gpt-35-turbo-16k_plan_6.py", line 11, in main
+    morning_plan(home)
+  File "/Users/minghe/llm4faas/experiments_default/functions_zh/azure_openai_gpt3516k_functions/azure_gpt-35-turbo-16k_plan_6.py", line 24, in morning_plan
+    alarm_sensor = get_sensor(home, "Alarm")
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/minghe/llm4faas/experiments_default/functions_zh/azure_openai_gpt3516k_functions/azure_gpt-35-turbo-16k_plan_6.py", line 86, in get_sensor
+    sensor = random.choice(all_sensors)
+             ^^^^^^
+NameError: name 'random' is not defined. Did you forget to import 'random'?
+
+Return code: 1

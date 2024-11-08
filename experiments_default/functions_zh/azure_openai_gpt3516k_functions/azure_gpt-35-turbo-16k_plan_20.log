@@ -1,0 +1,12 @@
+Standard Output:
+
+Standard Error:
+Traceback (most recent call last):
+  File "/Users/minghe/llm4faas/experiments_default/functions_zh/azure_openai_gpt3516k_functions/azure_gpt-35-turbo-16k_plan_20.py", line 23, in <module>
+    main()
+  File "/Users/minghe/llm4faas/experiments_default/functions_zh/azure_openai_gpt3516k_functions/azure_gpt-35-turbo-16k_plan_20.py", line 7, in main
+    home = home_plan()
+           ^^^^^^^^^
+NameError: name 'home_plan' is not defined
+
+Return code: 1

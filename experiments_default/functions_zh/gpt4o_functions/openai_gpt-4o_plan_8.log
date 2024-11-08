@@ -1,0 +1,17 @@
+Standard Output:
+Executing MORNING PLAN
+/Actuator/Light/Bedroom/1 is turned on.
+/Actuator/Light/Bedroom/2 is turned on.
+
+Standard Error:
+Traceback (most recent call last):
+  File "/Users/minghe/llm4faas/experiments_default/functions_zh/gpt4o_functions/openai_gpt-4o_plan_8.py", line 84, in <module>
+    main()
+  File "/Users/minghe/llm4faas/experiments_default/functions_zh/gpt4o_functions/openai_gpt-4o_plan_8.py", line 78, in main
+    morning_plan(home)
+  File "/Users/minghe/llm4faas/experiments_default/functions_zh/gpt4o_functions/openai_gpt-4o_plan_8.py", line 23, in morning_plan
+    if isinstance(actuator, CoffeeMachine):
+                            ^^^^^^^^^^^^^
+NameError: name 'CoffeeMachine' is not defined
+
+Return code: 1

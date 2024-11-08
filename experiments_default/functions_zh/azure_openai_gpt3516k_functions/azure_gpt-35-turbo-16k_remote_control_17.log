@@ -1,0 +1,10 @@
+Standard Output:
+We find LivingRoom!
+'/Sensor/LightIntensive/LivingRoom/1' is now ON.
+/Actuator/Light/LivingRoom/1 is turned off.
+Light /Actuator/Light/LivingRoom/1 is OFF. Please turn it on before setting the brightness level.
+
+Standard Error:
+2025-01-10 12:33:35,566 - actuator.py - set_brightness_level - WARNING - Light /Actuator/Light/LivingRoom/1 is OFF. Please turn it on before setting the brightness level.
+
+Return code: 0

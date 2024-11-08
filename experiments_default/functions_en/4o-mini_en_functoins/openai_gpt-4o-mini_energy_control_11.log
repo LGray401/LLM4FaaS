@@ -1,0 +1,18 @@
+Standard Output:
+'/Sensor/IndoorTemperature/LivingRoom/1' is now ON.
+/Sensor/IndoorTemperature/LivingRoom/1 reading is: 33.1
+Temperature in LivingRoom is 33.1°C. Opening windows.
+/Actuator/Window/LivingRoom/1 is turned on.
+/Actuator/Window/LivingRoom/2 is turned on.
+'/Sensor/IndoorTemperature/Bedroom/1' is now ON.
+/Sensor/IndoorTemperature/Bedroom/1 reading is: 37.18
+Temperature in Bedroom is 37.18°C. Opening windows.
+/Actuator/Window/Bedroom/1 is turned on.
+'/Sensor/IndoorTemperature/Bathroom/1' is now ON.
+/Sensor/IndoorTemperature/Bathroom/1 reading is: 39.21
+Temperature in Bathroom is 39.21°C. Opening windows.
+/Actuator/Window/Bathroom/1 is turned on.
+
+Standard Error:
+
+Return code: 0

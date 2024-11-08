@@ -1,0 +1,10 @@
+Standard Output:
+
+Standard Error:
+Traceback (most recent call last):
+  File "/Users/minghe/llm4faas/experiments_default/functions_zh/llama31_functions/llama3.1_auto_adapt_23.py", line 32, in <module>
+    def home_plan() -> list[Room]:
+                            ^^^^
+NameError: name 'Room' is not defined
+
+Return code: 1

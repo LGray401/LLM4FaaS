@@ -1,0 +1,9 @@
+Standard Output:
+
+Standard Error:
+  File "/Users/minghe/llm4faas/experiments_default/functions_zh/deepseek-r1-functions/deepseek-r1:7b_plan_22_1740440797834088000.py", line 291
+    self actuators = []
+         ^^^^^^^^^
+SyntaxError: invalid syntax
+
+Return code: 1

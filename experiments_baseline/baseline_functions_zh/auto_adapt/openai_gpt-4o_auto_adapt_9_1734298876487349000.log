@@ -1,0 +1,30 @@
+Standard Output:
+Welcome to the Smart Home Application!
+
+Temperature: 今日26度
+Humidity: 今日湿度，45
+Light Intensity: 今日光照75
+
+Living Room:
+  Sensors: Temperature, Humidity, Light Intensity
+  Smart Devices: Light, Light, Window, Window, Socket, Socket, Door, Heater, AC, Curtain, Humidifier, Cleaning Robot, Music Player, TV, Notification Sender
+
+Bedroom:
+  Sensors: Temperature, Humidity, Light Intensity
+  Smart Devices: Light, Light, Window, Curtain, AC, Heater, Music Player, Door, Socket, Socket, Cleaning Robot, Humidifier
+
+Bathroom:
+  Sensors: Temperature, Humidity
+  Smart Devices: Light, Window, Heater, Door, Socket, Socket
+
+Kitchen:
+  Sensors: Humidity, Smoke
+  Smart Devices: Light, Window, Heater, Coffee Machine, Socket, Socket, Socket, Door
+
+Balcony:
+  Outdoor Sensors: Temperature, Humidity
+  Smart Devices: Door
+
+Standard Error:
+
+Return code: 0

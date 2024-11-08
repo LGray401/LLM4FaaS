@@ -1,0 +1,17 @@
+Standard Output:
+Closing /Actuator/Light/LivingRoom/1
+/Actuator/Light/LivingRoom/1 is turned off.
+Closing /Actuator/Light/LivingRoom/2
+/Actuator/Light/LivingRoom/2 is turned off.
+Dimming /Actuator/Light/Bedroom/1
+/Actuator/Light/Bedroom/1 is turned on.
+Set /Actuator/Light/Bedroom/1 light brightness level to LOW
+Dimming /Actuator/Light/Bedroom/2
+/Actuator/Light/Bedroom/2 is turned on.
+Set /Actuator/Light/Bedroom/2 light brightness level to LOW
+Opening /Actuator/Window/Kitchen/1
+/Actuator/Window/Kitchen/1 is turned on.
+
+Standard Error:
+
+Return code: 0

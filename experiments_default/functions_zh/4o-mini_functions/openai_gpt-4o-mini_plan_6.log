@@ -1,0 +1,15 @@
+Standard Output:
+Executing Morning Plan...
+
+Standard Error:
+Traceback (most recent call last):
+  File "/Users/minghe/llm4faas/experiments_default/functions_zh/4o-mini_functions/openai_gpt-4o-mini_plan_6.py", line 80, in <module>
+    main()
+  File "/Users/minghe/llm4faas/experiments_default/functions_zh/4o-mini_functions/openai_gpt-4o-mini_plan_6.py", line 75, in main
+    morning_plan()
+  File "/Users/minghe/llm4faas/experiments_default/functions_zh/4o-mini_functions/openai_gpt-4o-mini_plan_6.py", line 16, in morning_plan
+    coffee_machine = get_all_actuators("CoffeeMachine")
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: get_all_actuators() missing 1 required positional argument: 'actuator_type'
+
+Return code: 1

@@ -1,0 +1,18 @@
+Standard Output:
+/Sensor/LightIntensive/LivingRoom/1 reading is: || /Sensor/LightIntensive/Bedroom/1 reading is:
+/Actuator/Light/LivingRoom/1 || /Actuator/Light/LivingRoom/2 || /Actuator/Light/Bedroom/1 || /Actuator/Light/Bedroom/2 || /Actuator/Light/Kitchen/1 || /Actuator/Light/Bathroom/1
+/Sensor/IndoorTemperature/LivingRoom/1 reading is || /Sensor/IndoorTemperature/Bedroom/1 reading is || /Sensor/IndoorTemperature/Bathroom/1 reading is:
+/Actuator/AC/LivingRoom/1 is turned on. || /Actuator/AC/Bedroom/1 is turned on. || /Actuator/Heater/LivingRoom/1 is turned on. || /Actuator/Heater/Bedroom/1 is turned on. || /Actuator/Heater/Kitchen/1 || /Actuator/Heater/Bathroom/1
+/Actuator/Curtain/Bedroom/1 || /Actuator/Curtain/LivingRoom/1
+/Sensor/Humidity/LivingRoom/1 reading is: || /Sensor/Humidity/Bedroom/1 reading is: || /Sensor/Humidity/Kitchen/1 reading is: || /Sensor/Humidity/Bathroom/1 reading is: || /Sensor/Humidity/Balcony/1 reading is:
+/Actuator/Humidifier/LivingRoom/1 || /Actuator/Humidifier/Bedroom/1
+
+
+
+
+
+
+
+
+
+

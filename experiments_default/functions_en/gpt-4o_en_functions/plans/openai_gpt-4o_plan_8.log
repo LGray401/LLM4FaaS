@@ -1,0 +1,15 @@
+Standard Output:
+Executing Morning Plan...
+
+Standard Error:
+Traceback (most recent call last):
+  File "/Users/minghe/llm4faas/experiments_default/functions_en/gpt-4o_en_functions/plans/openai_gpt-4o_plan_8.py", line 63, in <module>
+    main()
+  File "/Users/minghe/llm4faas/experiments_default/functions_en/gpt-4o_en_functions/plans/openai_gpt-4o_plan_8.py", line 56, in main
+    morning_plan(home)
+  File "/Users/minghe/llm4faas/experiments_default/functions_en/gpt-4o_en_functions/plans/openai_gpt-4o_plan_8.py", line 17, in morning_plan
+    if isinstance(actuator, Light) or isinstance(actuator, Heater):
+                            ^^^^^
+NameError: name 'Light' is not defined
+
+Return code: 1

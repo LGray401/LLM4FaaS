@@ -1,0 +1,17 @@
+Standard Output:
+Executing Morning Plan...
+/Actuator/Light/LivingRoom/1 is turned on.
+/Actuator/Light/LivingRoom/2 is turned on.
+
+Standard Error:
+Traceback (most recent call last):
+  File "/Users/minghe/llm4faas/default_experiments/functions_repeat_zh/gpt4o/openai_gpt-4o_plan_26_1727176196808900000.py", line 95, in <module>
+    main()
+  File "/Users/minghe/llm4faas/default_experiments/functions_repeat_zh/gpt4o/openai_gpt-4o_plan_26_1727176196808900000.py", line 88, in main
+    morning_plan(home)
+  File "/Users/minghe/llm4faas/default_experiments/functions_repeat_zh/gpt4o/openai_gpt-4o_plan_26_1727176196808900000.py", line 20, in morning_plan
+    light_sensors = get_all_sensors(home, "LightIntensive")
+                    ^^^^^^^^^^^^^^^
+NameError: name 'get_all_sensors' is not defined. Did you mean: 'get_room_sensors'?
+
+Return code: 1

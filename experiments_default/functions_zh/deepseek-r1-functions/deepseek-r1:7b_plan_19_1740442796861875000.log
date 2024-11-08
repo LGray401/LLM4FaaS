@@ -1,0 +1,13 @@
+Standard Output:
+
+Standard Error:
+Traceback (most recent call last):
+  File "/Users/minghe/llm4faas/experiments_default/functions_zh/deepseek-r1-functions/deepseek-r1:7b_plan_19_1740442796861875000.py", line 258, in <module>
+    room.daily_routine_trigger()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/minghe/llm4faas/experiments_default/functions_zh/deepseek-r1-functions/deepseek-r1:7b_plan_19_1740442796861875000.py", line 242, in daily_routine_trigger
+    wait_duration = DAILY_ROUTINE_DURATION
+                    ^^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'DAILY_ROUTINE_DURATION' is not defined
+
+Return code: 1

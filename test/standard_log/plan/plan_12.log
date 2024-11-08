@@ -1,0 +1,12 @@
+Standard Output:
+/Actuator/Curtain/LivingRoom/1 || /Actuator/Curtain/Bedroom/1
+/Actuator/MusicPlayer/LivingRoom/1 is now on. || /Actuator/MusicPlayer/Bedroom/1
+/Actuator/CoffeeMachine/Kitchen/1
+/Actuator/Door/LivingRoom/1
+/Actuator/Light/LivingRoom/1
+/Actuator/Light/Bedroom/1
+/Actuator/Light/Bedroom/2
+/Actuator/Light/Kitchen/1
+/Actuator/Light/Bathroom/1
+/Actuator/Curtain/LivingRoom/1 || /Actuator/Curtain/Bedroom/1
+/Actuator/SmartTV/LivingRoom/1

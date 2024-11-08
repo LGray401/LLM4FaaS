@@ -1,0 +1,69 @@
+Standard Output:
+
+Executing Morning Plan:
+We find LivingRoom!
+/Actuator/Curtain/LivingRoom/1 is turned on.
+Curtains are opened.
+/Actuator/MusicPlayer/LivingRoom/1 is turned on.
+/Actuator/MusicPlayer/LivingRoom/1 start playing Morning Playlist
+Music player started playing the morning playlist.
+
+Executing Leave Home Plan:
+/Actuator/Light/LivingRoom/1 is turned off.
+/Actuator/Light/LivingRoom/1 is turned off.
+/Actuator/Light/LivingRoom/2 is turned off.
+/Actuator/Light/LivingRoom/2 is turned off.
+/Actuator/Light/Bedroom/1 is turned off.
+/Actuator/Light/Bedroom/1 is turned off.
+/Actuator/Light/Bedroom/2 is turned off.
+/Actuator/Light/Bedroom/2 is turned off.
+/Actuator/Light/Kitchen/1 is turned off.
+/Actuator/Light/Kitchen/1 is turned off.
+/Actuator/Light/Bathroom/1 is turned off.
+/Actuator/Light/Bathroom/1 is turned off.
+Lock the door /Actuator/Door/LivingRoom/1.
+/Actuator/Door/LivingRoom/1 is locked.
+Lock the door /Actuator/Door/Bedroom/1.
+/Actuator/Door/Bedroom/1 is locked.
+Lock the door /Actuator/Door/Kitchen/1.
+/Actuator/Door/Kitchen/1 is locked.
+Lock the door /Actuator/Door/Bathroom/1.
+/Actuator/Door/Bathroom/1 is locked.
+Lock the door /Actuator/Door/Balcony/1.
+/Actuator/Door/Balcony/1 is locked.
+/Actuator/SmartSocket/LivingRoom/1 is turned off.
+/Actuator/SmartSocket/LivingRoom/1 is turned off (except for refrigerator).
+/Actuator/SmartSocket/LivingRoom/2 is turned off.
+/Actuator/SmartSocket/LivingRoom/2 is turned off (except for refrigerator).
+/Actuator/SmartSocket/Bedroom/1 is turned off.
+/Actuator/SmartSocket/Bedroom/1 is turned off (except for refrigerator).
+/Actuator/SmartSocket/Bedroom/2 is turned off.
+/Actuator/SmartSocket/Bedroom/2 is turned off (except for refrigerator).
+/Actuator/SmartSocket/Kitchen/1 is turned off.
+/Actuator/SmartSocket/Kitchen/1 is turned off (except for refrigerator).
+/Actuator/SmartSocket/Kitchen/2 is turned off.
+/Actuator/SmartSocket/Kitchen/2 is turned off (except for refrigerator).
+/Actuator/SmartSocket/Kitchen/3 is turned off.
+/Actuator/SmartSocket/Kitchen/3 is turned off (except for refrigerator).
+/Actuator/SmartSocket/Bathroom/1 is turned off.
+/Actuator/SmartSocket/Bathroom/1 is turned off (except for refrigerator).
+/Actuator/SmartSocket/Bathroom/2 is turned off.
+/Actuator/SmartSocket/Bathroom/2 is turned off (except for refrigerator).
+
+Executing Movie Plan:
+We find LivingRoom!
+/Actuator/Light/LivingRoom/1 is turned on.
+Set /Actuator/Light/LivingRoom/1 light brightness level to LOW
+Lights are dimmed.
+/Actuator/Light/LivingRoom/2 is turned on.
+Set /Actuator/Light/LivingRoom/2 light brightness level to LOW
+Lights are dimmed.
+/Actuator/Curtain/LivingRoom/1 is turned off.
+Curtains are closed.
+/Actuator/SmartTV/LivingRoom/1 is turned on.
+Start playing Favorite Movie Channel on the /Actuator/SmartTV/LivingRoom/1 in LivingRoom
+TV started playing favorite movie channel.
+
+Standard Error:
+
+Return code: 0

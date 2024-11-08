@@ -1,0 +1,12 @@
+Standard Output:
+
+Standard Error:
+Traceback (most recent call last):
+  File "/Users/minghe/llm4faas/experiments_default/functions_en/4o-mini_en_functoins/openai_gpt-4o-mini_auto_adapt_18.py", line 90, in <module>
+    main()
+  File "/Users/minghe/llm4faas/experiments_default/functions_en/4o-mini_en_functoins/openai_gpt-4o-mini_auto_adapt_18.py", line 20, in main
+    living_room_sensors = get_room_sensors(home, living_room)
+                          ^^^^^^^^^^^^^^^^
+NameError: name 'get_room_sensors' is not defined. Did you mean: 'living_room_sensors'?
+
+Return code: 1

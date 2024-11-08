@@ -1,0 +1,14 @@
+Standard Output:
+
+Standard Error:
+Traceback (most recent call last):
+  File "/Users/minghe/llm4faas/experiments_default/functions_en/4o-mini_en_functoins/openai_gpt-4o-mini_remote_control_12.py", line 31, in <module>
+    main()
+  File "/Users/minghe/llm4faas/experiments_default/functions_en/4o-mini_en_functoins/openai_gpt-4o-mini_remote_control_12.py", line 28, in main
+    open_windows(home)
+  File "/Users/minghe/llm4faas/experiments_default/functions_en/4o-mini_en_functoins/openai_gpt-4o-mini_remote_control_12.py", line 17, in open_windows
+    if isinstance(window, Window):
+                          ^^^^^^
+NameError: name 'Window' is not defined. Did you mean: 'window'?
+
+Return code: 1

@@ -1,0 +1,8 @@
+Standard Output:
+We find LivingRoom!
+Light /Actuator/Light/LivingRoom/1 in LivingRoom is already off.
+Light /Actuator/Light/LivingRoom/2 in LivingRoom is already off.
+
+Standard Error:
+
+Return code: 0

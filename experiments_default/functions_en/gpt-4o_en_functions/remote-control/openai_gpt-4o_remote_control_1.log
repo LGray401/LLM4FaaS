@@ -1,0 +1,22 @@
+Standard Output:
+We find LivingRoom!
+/Actuator/CleaningRobot/LivingRoom/1 is turned on.
+Cleaning Robot /Actuator/CleaningRobot/LivingRoom/1 Starts Daily Cleaning Routine
+/Actuator/CleaningRobot/LivingRoom/1 Finish Daily Cleaning Routine, Will Turn it OFF
+/Actuator/CleaningRobot/LivingRoom/1 is turned off.
+We find Bedroom!
+/Actuator/MusicPlayer/Bedroom/1 is turned on.
+/Actuator/MusicPlayer/Bedroom/1 start playing Jazz Playlist
+/Actuator/MusicPlayer/Bedroom/1 start playing Audiobook: The Great Gatsby
+/Actuator/SmartTV/LivingRoom/1 is turned on.
+Start playing Voice Channel Selection: HBO on the /Actuator/SmartTV/LivingRoom/1 in LivingRoom
+Start playing On-Demand Movie: Inception on the /Actuator/SmartTV/LivingRoom/1 in LivingRoom
+/Actuator/Light/Bedroom/1 is turned on.
+Set /Actuator/Light/Bedroom/1 light brightness level to MEDIUM
+/Actuator/Light/Bedroom/2 is turned on.
+Set /Actuator/Light/Bedroom/2 light brightness level to MEDIUM
+All operations completed.
+
+Standard Error:
+
+Return code: 0

@@ -1,0 +1,12 @@
+Standard Output:
+
+Standard Error:
+Traceback (most recent call last):
+  File "/Users/minghe/llm4faas/zhipu_functions/remote/zhipu_('glm-4-flash',)_remote_control_10_1730992781628085000.py", line 29, in <module>
+    main()
+  File "/Users/minghe/llm4faas/zhipu_functions/remote/zhipu_('glm-4-flash',)_remote_control_10_1730992781628085000.py", line 10, in main
+    home = home_plan()
+           ^^^^^^^^^^^
+TypeError: 'module' object is not callable
+
+Return code: 1

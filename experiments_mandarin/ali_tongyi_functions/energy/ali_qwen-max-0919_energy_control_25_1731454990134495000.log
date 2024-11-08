@@ -1,0 +1,12 @@
+Standard Output:
+
+Standard Error:
+Traceback (most recent call last):
+  File "/Users/minghe/llm4faas/experiments_mandarin/ali_tongyi_functions/energy/ali_qwen-max-0919_energy_control_25_1731454990134495000.py", line 105, in <module>
+    control_smart_home()
+  File "/Users/minghe/llm4faas/experiments_mandarin/ali_tongyi_functions/energy/ali_qwen-max-0919_energy_control_25_1731454990134495000.py", line 23, in control_smart_home
+    living_room = get_room(home, "LivingRoom")
+                  ^^^^^^^^
+NameError: name 'get_room' is not defined
+
+Return code: 1

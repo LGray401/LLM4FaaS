@@ -1,0 +1,40 @@
+Error: Execution timed out
+Standard Output:
+Current Temperature: 68.17, Humidity: 55.38, Light: 21.72
+Living Room AC is now on
+Living Room Heater is now off
+Living Room Humidifier is now off
+Living Room Light is now on
+Living Room Curtain is now open
+Current Temperature: 4.80, Humidity: 59.21, Light: 92.39
+Living Room Heater is now on
+Living Room AC is now off
+Living Room Humidifier is now off
+Living Room Light is now off
+Living Room Curtain is now close
+Current Temperature: 23.05, Humidity: 71.62, Light: 57.40
+Living Room AC is now off
+Living Room Heater is now off
+Living Room Humidifier is now off
+Living Room Light is now off
+Living Room Curtain is now close
+Current Temperature: 97.10, Humidity: 95.92, Light: 44.54
+Living Room AC is now on
+Living Room Heater is now off
+Living Room Humidifier is now off
+Living Room Light is now on
+Living Room Curtain is now open
+Current Temperature: 14.58, Humidity: 39.78, Light: 7.33
+Living Room Heater is now on
+Living Room AC is now off
+Living Room Humidifier is now off
+Living Room Light is now on
+Living Room Curtain is now open
+Current Temperature: 64.39, Humidity: 29.29, Light: 71.63
+Living Room AC is now on
+Living Room Heater is now off
+Living Room Humidifier is now on
+Living Room Light is now off
+Living Room Curtain is now close
+
+Standard Error:

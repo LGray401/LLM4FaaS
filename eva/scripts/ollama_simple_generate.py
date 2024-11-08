@@ -17,9 +17,12 @@ from eva.scripts.model_setting import SYSTEM_PROMPT, TEMPERATURE, OLLAMA_URL, OL
 # MD_FILES_DIR = "/Users/minghe/llm4faas/logs_questionnaire_in_English/auto_adapt/"
 # MD_FILES_DIR = "/Users/minghe/llm4faas/logs_questionnaire_in_English/energy/"
 
-MD_FILES_DIR = "/Users/minghe/llm4faas/logs_questionnaire_in_Chinese/temp/"
+MD_FILES_DIR = "/Users/minghe/llm4faas/experiments_default/logs_questionnaire_in_Chinese/plans/"
+OUTPUT_DIR = '/Users/minghe/llm4faas/experiments_default/functions_zh/deepseek-r1-functions'
 
-OUTPUT_DIR = '../../functions_en/llama31_en_functions'
+
+# OUTPUT_DIR = '/Users/minghe/llm4faas/experiments_default/functions_zh/llama31_functions'
+
 
 def generate(prompt_file, context, output_file):
     with open(prompt_file, 'r') as f:
@@ -77,7 +80,7 @@ def process_directory(directory):
         if filename.endswith('.md'):
             prompt_file = os.path.join(directory, filename)
             base_name = filename.replace('.md', '')
-            output_file_name = f"{OLLAMA_MODEL}_{base_name}.py"
+            output_file_name = f"{OLLAMA_MODEL}_{base_name}_{time.time_ns()}.py"
             output_file = os.path.join(OUTPUT_DIR, output_file_name)
             context = generate(prompt_file, context, output_file)
             print(f"Saved Python file to {output_file_name}")

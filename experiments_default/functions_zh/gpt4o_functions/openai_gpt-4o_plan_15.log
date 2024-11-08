@@ -1,0 +1,68 @@
+Standard Output:
+
+Executing MORNING PLAN:
+We find LivingRoom!
+/Actuator/Light/LivingRoom/1 is turned on.
+Set /Actuator/Light/LivingRoom/1 light brightness level to HIGH
+/Actuator/Light/LivingRoom/2 is turned on.
+Set /Actuator/Light/LivingRoom/2 light brightness level to HIGH
+/Actuator/MusicPlayer/LivingRoom/1 is turned on.
+/Actuator/MusicPlayer/LivingRoom/1 start playing Morning Playlist
+
+Executing LEAVE HOME PLAN:
+Lock the door /Actuator/Door/LivingRoom/1.
+/Actuator/Light/LivingRoom/1 is turned off.
+/Actuator/Light/LivingRoom/2 is turned off.
+/Actuator/Window/LivingRoom/1 is turned off.
+/Actuator/Window/LivingRoom/2 is turned off.
+/Actuator/Curtain/LivingRoom/1 is turned off.
+/Actuator/MusicPlayer/LivingRoom/1 is turned off.
+/Actuator/SmartSocket/LivingRoom/1 is turned off.
+/Actuator/SmartSocket/LivingRoom/2 is turned off.
+/Actuator/CleaningRobot/LivingRoom/1 is turned off.
+/Actuator/SmartTV/LivingRoom/1 is turned off.
+/Actuator/NotificationSender/LivingRoom/1 is turned off.
+/Actuator/AC/LivingRoom/1 is turned off.
+/Actuator/Heater/LivingRoom/1 is turned off.
+/Actuator/Humidifier/LivingRoom/1 is turned off.
+/Actuator/Light/Bedroom/1 is turned off.
+/Actuator/Light/Bedroom/2 is turned off.
+/Actuator/Window/Bedroom/1 is turned off.
+/Actuator/Curtain/Bedroom/1 is turned off.
+/Actuator/AC/Bedroom/1 is turned off.
+/Actuator/Heater/Bedroom/1 is turned off.
+/Actuator/MusicPlayer/Bedroom/1 is turned off.
+Lock the door /Actuator/Door/Bedroom/1.
+/Actuator/SmartSocket/Bedroom/1 is turned off.
+/Actuator/SmartSocket/Bedroom/2 is turned off.
+/Actuator/CleaningRobot/Bedroom/1 is turned off.
+/Actuator/Humidifier/Bedroom/1 is turned off.
+/Actuator/Light/Kitchen/1 is turned off.
+/Actuator/Window/Kitchen/1 is turned off.
+/Actuator/Heater/Kitchen/1 is turned off.
+/Actuator/CoffeeMachine/Kitchen/1 is turned off.
+/Actuator/SmartSocket/Kitchen/1 is turned off.
+/Actuator/SmartSocket/Kitchen/2 is turned off.
+/Actuator/SmartSocket/Kitchen/3 is turned off.
+Lock the door /Actuator/Door/Kitchen/1.
+/Actuator/Light/Bathroom/1 is turned off.
+/Actuator/Window/Bathroom/1 is turned off.
+/Actuator/Heater/Bathroom/1 is turned off.
+Lock the door /Actuator/Door/Bathroom/1.
+/Actuator/SmartSocket/Bathroom/1 is turned off.
+/Actuator/SmartSocket/Bathroom/2 is turned off.
+Lock the door /Actuator/Door/Balcony/1.
+
+Executing MOVIE PLAN:
+We find LivingRoom!
+/Actuator/Light/LivingRoom/1 is turned on.
+Set /Actuator/Light/LivingRoom/1 light brightness level to LOW
+/Actuator/Light/LivingRoom/2 is turned on.
+Set /Actuator/Light/LivingRoom/2 light brightness level to LOW
+/Actuator/Curtain/LivingRoom/1 is turned on.
+/Actuator/SmartTV/LivingRoom/1 is turned on.
+Start playing Movie Channel on the /Actuator/SmartTV/LivingRoom/1 in LivingRoom
+
+Standard Error:
+
+Return code: 0

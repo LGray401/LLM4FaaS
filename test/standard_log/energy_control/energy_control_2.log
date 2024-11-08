@@ -1,0 +1,7 @@
+Standard Output:
+/Sensor/LightIntensive/LivingRoom/1 reading is || /Sensor/LightIntensive/Bedroom/1 reading is
+/Actuator/AC/Bedroom/1 || /Actuator/AC/LivingRoom/1
+/Actuator/Window/Bedroom/1 is turned off. || /Actuator/Window/LivingRoom/1 is turned off. || /Actuator/Window/LivingRoom/2 is turned off.
+/Actuator/Light/ || Set /Actuator/Light/
+/Actuator/MusicPlayer/LivingRoom/1 is turned off.
+/Actuator/SmartTV/LivingRoom/1 is turned off.

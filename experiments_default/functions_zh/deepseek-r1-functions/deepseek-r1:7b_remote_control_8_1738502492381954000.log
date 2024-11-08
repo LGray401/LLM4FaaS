@@ -1,0 +1,10 @@
+Standard Output:
+
+Standard Error:
+Traceback (most recent call last):
+  File "/Users/minghe/llm4faas/experiments_default/functions_zh/deepseek-r1-functions/deepseek-r1:7b_remote_control_8_1738502492381954000.py", line 105, in <module>
+    from room import Room  # Assuming rooms are created here
+    ^^^^^^^^^^^^^^^^^^^^^
+ModuleNotFoundError: No module named 'room'
+
+Return code: 1

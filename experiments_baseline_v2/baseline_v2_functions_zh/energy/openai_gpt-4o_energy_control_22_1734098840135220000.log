@@ -1,0 +1,127 @@
+Error: Execution timed out
+Standard Output:
+We find Kitchen!
+We find LivingRoom!
+'/Sensor/Humidity/Kitchen/1' is now ON.
+'/Sensor/Smoke/Kitchen/1' is now ON.
+'/Sensor/LightIntensive/LivingRoom/1' is now ON.
+'/Sensor/IndoorTemperature/LivingRoom/1' is now ON.
+'/Sensor/Humidity/LivingRoom/1' is now ON.
+/Sensor/Smoke/Kitchen/1 reading is: 27.91
+/Sensor/IndoorTemperature/LivingRoom/1 reading is: 32.64
+/Actuator/AC/LivingRoom/1 is turned on.
+Motion detected! Turning on lights.
+/Actuator/Door/LivingRoom/1 is turned on.
+/Actuator/Light/LivingRoom/1 is turned on.
+/Actuator/Light/LivingRoom/2 is turned on.
+/Actuator/Window/LivingRoom/1 is turned on.
+/Actuator/Window/LivingRoom/2 is turned on.
+/Actuator/Curtain/LivingRoom/1 is turned on.
+/Actuator/MusicPlayer/LivingRoom/1 is turned on.
+/Actuator/SmartSocket/LivingRoom/1 is turned on.
+/Actuator/SmartSocket/LivingRoom/2 is turned on.
+/Actuator/CleaningRobot/LivingRoom/1 is turned on.
+/Actuator/SmartTV/LivingRoom/1 is turned on.
+/Actuator/NotificationSender/LivingRoom/1 is turned on.
+/Actuator/AC/LivingRoom/1 is turned on.
+/Actuator/Heater/LivingRoom/1 is turned on.
+/Actuator/Humidifier/LivingRoom/1 is turned on.
+/Sensor/Smoke/Kitchen/1 reading is: 85.32
+Smoke level high! Activating smoke alarm.
+/Sensor/IndoorTemperature/LivingRoom/1 reading is: 36.49
+/Actuator/AC/LivingRoom/1 is turned on.
+Motion detected! Turning on lights.
+/Actuator/Door/LivingRoom/1 is turned on.
+/Actuator/Light/LivingRoom/1 is turned on.
+/Actuator/Light/LivingRoom/2 is turned on.
+/Actuator/Window/LivingRoom/1 is turned on.
+/Actuator/Window/LivingRoom/2 is turned on.
+/Actuator/Curtain/LivingRoom/1 is turned on.
+/Actuator/MusicPlayer/LivingRoom/1 is turned on.
+/Actuator/SmartSocket/LivingRoom/1 is turned on.
+/Actuator/SmartSocket/LivingRoom/2 is turned on.
+/Actuator/CleaningRobot/LivingRoom/1 is turned on.
+/Actuator/SmartTV/LivingRoom/1 is turned on.
+/Actuator/NotificationSender/LivingRoom/1 is turned on.
+/Actuator/AC/LivingRoom/1 is turned on.
+/Actuator/Heater/LivingRoom/1 is turned on.
+/Actuator/Humidifier/LivingRoom/1 is turned on.
+/Sensor/Smoke/Kitchen/1 reading is: 36.1
+/Sensor/IndoorTemperature/LivingRoom/1 reading is: 39.24
+/Actuator/AC/LivingRoom/1 is turned on.
+Motion detected! Turning on lights.
+/Actuator/Door/LivingRoom/1 is turned on.
+/Actuator/Light/LivingRoom/1 is turned on.
+/Actuator/Light/LivingRoom/2 is turned on.
+/Actuator/Window/LivingRoom/1 is turned on.
+/Actuator/Window/LivingRoom/2 is turned on.
+/Actuator/Curtain/LivingRoom/1 is turned on.
+/Actuator/MusicPlayer/LivingRoom/1 is turned on.
+/Actuator/SmartSocket/LivingRoom/1 is turned on.
+/Actuator/SmartSocket/LivingRoom/2 is turned on.
+/Actuator/CleaningRobot/LivingRoom/1 is turned on.
+/Actuator/SmartTV/LivingRoom/1 is turned on.
+/Actuator/NotificationSender/LivingRoom/1 is turned on.
+/Actuator/AC/LivingRoom/1 is turned on.
+/Actuator/Heater/LivingRoom/1 is turned on.
+/Actuator/Humidifier/LivingRoom/1 is turned on.
+/Sensor/Smoke/Kitchen/1 reading is: 34.68
+/Sensor/IndoorTemperature/LivingRoom/1 reading is: 39.35
+/Actuator/AC/LivingRoom/1 is turned on.
+Motion detected! Turning on lights.
+/Actuator/Door/LivingRoom/1 is turned on.
+/Actuator/Light/LivingRoom/1 is turned on.
+/Actuator/Light/LivingRoom/2 is turned on.
+/Actuator/Window/LivingRoom/1 is turned on.
+/Actuator/Window/LivingRoom/2 is turned on.
+/Actuator/Curtain/LivingRoom/1 is turned on.
+/Actuator/MusicPlayer/LivingRoom/1 is turned on.
+/Actuator/SmartSocket/LivingRoom/1 is turned on.
+/Actuator/SmartSocket/LivingRoom/2 is turned on.
+/Actuator/CleaningRobot/LivingRoom/1 is turned on.
+/Actuator/SmartTV/LivingRoom/1 is turned on.
+/Actuator/NotificationSender/LivingRoom/1 is turned on.
+/Actuator/AC/LivingRoom/1 is turned on.
+/Actuator/Heater/LivingRoom/1 is turned on.
+/Actuator/Humidifier/LivingRoom/1 is turned on.
+/Sensor/Smoke/Kitchen/1 reading is: 31.2
+/Sensor/IndoorTemperature/LivingRoom/1 reading is: 36.15
+/Actuator/AC/LivingRoom/1 is turned on.
+Motion detected! Turning on lights.
+/Actuator/Door/LivingRoom/1 is turned on.
+/Actuator/Light/LivingRoom/1 is turned on.
+/Actuator/Light/LivingRoom/2 is turned on.
+/Actuator/Window/LivingRoom/1 is turned on.
+/Actuator/Window/LivingRoom/2 is turned on.
+/Actuator/Curtain/LivingRoom/1 is turned on.
+/Actuator/MusicPlayer/LivingRoom/1 is turned on.
+/Actuator/SmartSocket/LivingRoom/1 is turned on.
+/Actuator/SmartSocket/LivingRoom/2 is turned on.
+/Actuator/CleaningRobot/LivingRoom/1 is turned on.
+/Actuator/SmartTV/LivingRoom/1 is turned on.
+/Actuator/NotificationSender/LivingRoom/1 is turned on.
+/Actuator/AC/LivingRoom/1 is turned on.
+/Actuator/Heater/LivingRoom/1 is turned on.
+/Actuator/Humidifier/LivingRoom/1 is turned on.
+/Sensor/Smoke/Kitchen/1 reading is: 99.19
+Smoke level high! Activating smoke alarm.
+/Sensor/IndoorTemperature/LivingRoom/1 reading is: 31.35
+/Actuator/AC/LivingRoom/1 is turned on.
+Motion detected! Turning on lights.
+/Actuator/Door/LivingRoom/1 is turned on.
+/Actuator/Light/LivingRoom/1 is turned on.
+/Actuator/Light/LivingRoom/2 is turned on.
+/Actuator/Window/LivingRoom/1 is turned on.
+/Actuator/Window/LivingRoom/2 is turned on.
+/Actuator/Curtain/LivingRoom/1 is turned on.
+/Actuator/MusicPlayer/LivingRoom/1 is turned on.
+/Actuator/SmartSocket/LivingRoom/1 is turned on.
+/Actuator/SmartSocket/LivingRoom/2 is turned on.
+/Actuator/CleaningRobot/LivingRoom/1 is turned on.
+/Actuator/SmartTV/LivingRoom/1 is turned on.
+/Actuator/NotificationSender/LivingRoom/1 is turned on.
+/Actuator/AC/LivingRoom/1 is turned on.
+/Actuator/Heater/LivingRoom/1 is turned on.
+/Actuator/Humidifier/LivingRoom/1 is turned on.
+
+Standard Error:

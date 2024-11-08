@@ -1,0 +1,12 @@
+Standard Output:
+
+Standard Error:
+Traceback (most recent call last):
+  File "/Users/minghe/llm4faas/experiments_default/functions_en/azure_en_functions/azure_gpt-35-turbo-16k_plan_10.py", line 44, in <module>
+    main()
+  File "/Users/minghe/llm4faas/experiments_default/functions_en/azure_en_functions/azure_gpt-35-turbo-16k_plan_10.py", line 7, in main
+    actuators = get_all_actuators()
+                ^^^^^^^^^^^^^^^^^^^
+TypeError: get_all_actuators() missing 2 required positional arguments: 'home' and 'actuator_type'
+
+Return code: 1

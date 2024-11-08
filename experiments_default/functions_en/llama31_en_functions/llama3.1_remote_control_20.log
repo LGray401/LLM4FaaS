@@ -1,0 +1,15 @@
+Standard Output:
+
+Standard Error:
+Traceback (most recent call last):
+  File "/Users/minghe/llm4faas/experiments_default/functions_en/llama31_en_functions/llama3.1_remote_control_20.py", line 149, in <module>
+    main()
+  File "/Users/minghe/llm4faas/experiments_default/functions_en/llama31_en_functions/llama3.1_remote_control_20.py", line 144, in main
+    home = home_plan()
+           ^^^^^^^^^^^
+  File "/Users/minghe/llm4faas/experiments_default/functions_en/llama31_en_functions/llama3.1_remote_control_20.py", line 93, in home_plan
+    create_room_with_components("LivingRoom", [LightIntensiveSensor, IndoorTemperatureSensor, HumiditySensor],
+                                               ^^^^^^^^^^^^^^^^^^^^
+NameError: name 'LightIntensiveSensor' is not defined
+
+Return code: 1

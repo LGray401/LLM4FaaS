@@ -1,0 +1,10 @@
+Standard Output:
+
+Standard Error:
+Traceback (most recent call last):
+  File "/Users/minghe/llm4faas/experiments_default/functions_zh/deepseek-r1-functions/deepseek-r1:7b_remote_control_11_1738498208396718000.py", line 126, in <module>
+    from .logger_config import LoggerConfig  # Ensure correct module import
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ImportError: attempted relative import with no known parent package
+
+Return code: 1

@@ -1,0 +1,10 @@
+Standard Output:
+Usage: smart_home.py <command>
+Example commands:
+  list_rooms
+  <room> sensors
+  <room> devices
+
+Standard Error:
+
+Return code: 0

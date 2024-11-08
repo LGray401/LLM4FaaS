@@ -1,0 +1,29 @@
+Standard Output:
+Executing Morning Plan...
+We find LivingRoom!
+We find Kitchen!
+/Actuator/Curtain/LivingRoom/1 is turned on.
+'/Sensor/LightIntensive/LivingRoom/1' is now ON.
+/Sensor/LightIntensive/LivingRoom/1 reading is: 1029.17
+/Actuator/CoffeeMachine/Kitchen/1 is turned on.
+/Actuator/MusicPlayer/LivingRoom/1 is turned on.
+/Actuator/MusicPlayer/LivingRoom/1 start playing Morning Playlist
+Executing Leave Home Plan...
+We find LivingRoom!
+'/Sensor/LightIntensive/LivingRoom/1' is now ON.
+/Sensor/LightIntensive/LivingRoom/1 reading is: 1063.34
+/Actuator/Curtain/LivingRoom/1 is turned on.
+Lock the door /Actuator/Door/LivingRoom/1.
+/Actuator/Light/LivingRoom/1 is turned off.
+/Actuator/Light/LivingRoom/2 is turned off.
+/Actuator/SmartSocket/LivingRoom/1 is turned off.
+/Actuator/SmartSocket/LivingRoom/2 is turned off.
+Executing Movie Plan...
+We find LivingRoom!
+/Actuator/Light/LivingRoom/1 is turned off.
+/Actuator/Light/LivingRoom/2 is turned off.
+/Actuator/Curtain/LivingRoom/1 is turned off.
+
+Standard Error:
+
+Return code: 0

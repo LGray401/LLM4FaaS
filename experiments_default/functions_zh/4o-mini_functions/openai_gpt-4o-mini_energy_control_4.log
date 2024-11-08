@@ -1,0 +1,11 @@
+Standard Output:
+'/Sensor/IndoorTemperature/LivingRoom/1' is now ON.
+'/Sensor/OutdoorTemperature/Balcony/1' is now ON.
+/Sensor/IndoorTemperature/LivingRoom/1 reading is: 32.22
+/Sensor/OutdoorTemperature/Balcony/1 reading is: 22.4
+/Actuator/Window/LivingRoom/1 is turned on.
+Window opened to cool down.
+
+Standard Error:
+
+Return code: 0

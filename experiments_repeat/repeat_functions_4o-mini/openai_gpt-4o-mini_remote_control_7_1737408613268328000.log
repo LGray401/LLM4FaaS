@@ -1,0 +1,14 @@
+Standard Output:
+
+Standard Error:
+Traceback (most recent call last):
+  File "/Users/minghe/llm4faas/experiments_repeat/repeat_functions_4o-mini/openai_gpt-4o-mini_remote_control_7_1737408613268328000.py", line 53, in <module>
+    main()
+  File "/Users/minghe/llm4faas/experiments_repeat/repeat_functions_4o-mini/openai_gpt-4o-mini_remote_control_7_1737408613268328000.py", line 50, in main
+    dim_bedroom_light()
+  File "/Users/minghe/llm4faas/experiments_repeat/repeat_functions_4o-mini/openai_gpt-4o-mini_remote_control_7_1737408613268328000.py", line 26, in dim_bedroom_light
+    lights = [actuator for actuator in bedroom.actuators if isinstance(actuator, Light)]
+                                                                                 ^^^^^
+NameError: name 'Light' is not defined. Did you mean: 'light'?
+
+Return code: 1

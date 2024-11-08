@@ -1,0 +1,12 @@
+Standard Output:
+'/Sensor/IndoorTemperature/LivingRoom/2' is now ON.
+'/Sensor/OutdoorTemperature/LivingRoom/1' is now ON.
+/Sensor/IndoorTemperature/LivingRoom/2 reading is: 32.83
+/Sensor/OutdoorTemperature/LivingRoom/1 reading is: 21.36
+/Actuator/AC/LivingRoom/1 current status is off
+/Actuator/NotificationSender/LivingRoom/1 is turned on.
+Notification Sender /Actuator/NotificationSender/LivingRoom/1 send message: Indoor temperature is higher than outdoor. Would you like to open the windows to cool down?
+
+Standard Error:
+
+Return code: 0

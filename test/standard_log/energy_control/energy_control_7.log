@@ -1,0 +1,5 @@
+Standard Output:
+/Sensor/OutdoorTemperature/Balcony/1 reading is:
+/Actuator/AC/LivingRoom/1 || /Actuator/AC/Bedroom/1
+/Actuator/Door/LivingRoom/1 is turned off. || /Actuator/Door/Bedroom/1 is turned off. || /Actuator/Door/Kitchen/1 is turned off. || /Actuator/Door/Bathroom/1 is turned off. || /Actuator/Door/Balcony/1 is turned off.
+/Actuator/Window/LivingRoom/1 is turned off. || /Actuator/Window/LivingRoom/2 is turned off. || /Actuator/Window/Bedroom/1 is turned off. || /Actuator/Window/Kitchen/1 is turned off. || /Actuator/Window/Bathroom/1 is turned off.

@@ -1,0 +1,24 @@
+Standard Output:
+Executing Morning Plan...
+We find Bedroom!
+/Actuator/Curtain/Bedroom/1 is turned on.
+'/Sensor/LightIntensive/Bedroom/1' is now ON.
+/Sensor/LightIntensive/Bedroom/1 reading is: 1104.36
+Executing Leave Home Plan...
+We find LivingRoom!
+Lock the door /Actuator/Door/LivingRoom/1.
+there is no Actuator found in Light
+
+Standard Error:
+2024-09-25 16:55:39,828 - home_plan.py - get_room_actuators - WARNING - there is no Actuator found in Light
+Traceback (most recent call last):
+  File "/Users/minghe/llm4faas/functions_repeat/openai_gpt-4o-mini_plan_21_1727184465542006000.py", line 89, in <module>
+    main()
+  File "/Users/minghe/llm4faas/functions_repeat/openai_gpt-4o-mini_plan_21_1727184465542006000.py", line 82, in main
+    leave_home_plan(home)
+  File "/Users/minghe/llm4faas/functions_repeat/openai_gpt-4o-mini_plan_21_1727184465542006000.py", line 46, in leave_home_plan
+    for light in lights:
+                 ^^^^^^
+TypeError: 'NoneType' object is not iterable
+
+Return code: 1

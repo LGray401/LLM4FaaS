@@ -1,0 +1,16 @@
+Standard Output:
+Cannot Get Sensor Reading, /Sensor/OutdoorTemperature/outdoor/1 is Currently OFF. 
+Cannot Get Sensor Reading, /Sensor/Humidity/outdoor/1 is Currently OFF. 
+
+Standard Error:
+2025-01-14 21:49:41,510 - sensor.py - get_reading - WARNING - '/Sensor/OutdoorTemperature/outdoor/1' is currently OFF. Cannot get reading.
+2025-01-14 21:49:41,510 - sensor.py - get_reading - WARNING - '/Sensor/Humidity/outdoor/1' is currently OFF. Cannot get reading.
+Traceback (most recent call last):
+  File "/Users/minghe/llm4faas/experiments_default/functions_zh/copilot_functions/energy/copilot_energy_12.py", line 34, in <module>
+    main()
+  File "/Users/minghe/llm4faas/experiments_default/functions_zh/copilot_functions/energy/copilot_energy_12.py", line 28, in main
+    if temp > 25 and humidity < 50:
+       ^^^^^^^^^
+TypeError: '>' not supported between instances of 'NoneType' and 'int'
+
+Return code: 1

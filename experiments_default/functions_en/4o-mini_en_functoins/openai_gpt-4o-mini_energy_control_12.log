@@ -1,0 +1,8 @@
+Standard Output:
+Starting energy-saving mode...
+Required sensors or actuators not found in LivingRoom.
+
+Standard Error:
+2025-01-10 14:38:39,239 - openai_gpt-4o-mini_energy_control_12.py - check_energy_saving_mode - ERROR - Required sensors or actuators not found in LivingRoom.
+
+Return code: 0

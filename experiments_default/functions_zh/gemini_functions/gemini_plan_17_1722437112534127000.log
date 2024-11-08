@@ -1,0 +1,10 @@
+Standard Output:
+
+Standard Error:
+Traceback (most recent call last):
+  File "/Users/minghe/llm4faas/experiments_default/functions_zh/gemini_functions/gemini_plan_17_1722437112534127000.py", line 181, in <module>
+    home = home_plan()
+           ^^^^^^^^^
+NameError: name 'home_plan' is not defined. Did you mean: 'movie_plan'?
+
+Return code: 1

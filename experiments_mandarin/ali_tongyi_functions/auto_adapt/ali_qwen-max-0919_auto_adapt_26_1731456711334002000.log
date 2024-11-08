@@ -1,0 +1,76 @@
+Error: Execution timed out
+Standard Output:
+'/Sensor/LightIntensive/LivingRoom/1' is now ON.
+'/Sensor/IndoorTemperature/LivingRoom/1' is now ON.
+'/Sensor/Humidity/LivingRoom/1' is now ON.
+/Actuator/Door/LivingRoom/1 is turned on.
+/Actuator/Light/LivingRoom/1 is turned on.
+/Actuator/Light/LivingRoom/2 is turned on.
+/Actuator/Window/LivingRoom/1 is turned on.
+/Actuator/Window/LivingRoom/2 is turned on.
+/Actuator/Curtain/LivingRoom/1 is turned on.
+/Actuator/MusicPlayer/LivingRoom/1 is turned on.
+/Actuator/SmartSocket/LivingRoom/1 is turned on.
+/Actuator/SmartSocket/LivingRoom/2 is turned on.
+/Actuator/CleaningRobot/LivingRoom/1 is turned on.
+/Actuator/SmartTV/LivingRoom/1 is turned on.
+/Actuator/NotificationSender/LivingRoom/1 is turned on.
+/Actuator/AC/LivingRoom/1 is turned on.
+/Actuator/Heater/LivingRoom/1 is turned on.
+/Actuator/Humidifier/LivingRoom/1 is turned on.
+/Sensor/IndoorTemperature/LivingRoom/1 reading is: 39.47
+Set the target temperature of /Actuator/AC/LivingRoom/1 to 26°C.
+/Actuator/AC/LivingRoom/1 is turned on.
+Set the target temperature of /Actuator/Heater/LivingRoom/1 to 26°C.
+/Actuator/Heater/LivingRoom/1 is turned off.
+/Sensor/Humidity/LivingRoom/1 reading is: 27.87
+/Actuator/Humidifier/LivingRoom/1 Increasing humidity in LivingRoom
+Set /Actuator/Light/LivingRoom/1 light brightness level to HIGH
+Set /Actuator/Light/LivingRoom/2 light brightness level to HIGH
+/Sensor/IndoorTemperature/LivingRoom/1 reading is: 35.77
+Set the target temperature of /Actuator/AC/LivingRoom/1 to 26°C.
+/Actuator/AC/LivingRoom/1 is turned on.
+Set the target temperature of /Actuator/Heater/LivingRoom/1 to 26°C.
+/Actuator/Heater/LivingRoom/1 is turned off.
+/Sensor/Humidity/LivingRoom/1 reading is: 21.91
+/Actuator/Humidifier/LivingRoom/1 Increasing humidity in LivingRoom
+Set /Actuator/Light/LivingRoom/1 light brightness level to HIGH
+Set /Actuator/Light/LivingRoom/2 light brightness level to HIGH
+/Sensor/IndoorTemperature/LivingRoom/1 reading is: 37.25
+Set the target temperature of /Actuator/AC/LivingRoom/1 to 26°C.
+/Actuator/AC/LivingRoom/1 is turned on.
+Set the target temperature of /Actuator/Heater/LivingRoom/1 to 26°C.
+/Actuator/Heater/LivingRoom/1 is turned off.
+/Sensor/Humidity/LivingRoom/1 reading is: 24.73
+/Actuator/Humidifier/LivingRoom/1 Increasing humidity in LivingRoom
+Set /Actuator/Light/LivingRoom/1 light brightness level to HIGH
+Set /Actuator/Light/LivingRoom/2 light brightness level to HIGH
+/Sensor/IndoorTemperature/LivingRoom/1 reading is: 30.44
+Set the target temperature of /Actuator/AC/LivingRoom/1 to 26°C.
+/Actuator/AC/LivingRoom/1 is turned on.
+Set the target temperature of /Actuator/Heater/LivingRoom/1 to 26°C.
+/Actuator/Heater/LivingRoom/1 is turned off.
+/Sensor/Humidity/LivingRoom/1 reading is: 29.88
+/Actuator/Humidifier/LivingRoom/1 Increasing humidity in LivingRoom
+Set /Actuator/Light/LivingRoom/1 light brightness level to HIGH
+Set /Actuator/Light/LivingRoom/2 light brightness level to HIGH
+/Sensor/IndoorTemperature/LivingRoom/1 reading is: 32.42
+Set the target temperature of /Actuator/AC/LivingRoom/1 to 26°C.
+/Actuator/AC/LivingRoom/1 is turned on.
+Set the target temperature of /Actuator/Heater/LivingRoom/1 to 26°C.
+/Actuator/Heater/LivingRoom/1 is turned off.
+/Sensor/Humidity/LivingRoom/1 reading is: 15.81
+/Actuator/Humidifier/LivingRoom/1 Increasing humidity in LivingRoom
+Set /Actuator/Light/LivingRoom/1 light brightness level to HIGH
+Set /Actuator/Light/LivingRoom/2 light brightness level to HIGH
+/Sensor/IndoorTemperature/LivingRoom/1 reading is: 35.37
+Set the target temperature of /Actuator/AC/LivingRoom/1 to 26°C.
+/Actuator/AC/LivingRoom/1 is turned on.
+Set the target temperature of /Actuator/Heater/LivingRoom/1 to 26°C.
+/Actuator/Heater/LivingRoom/1 is turned off.
+/Sensor/Humidity/LivingRoom/1 reading is: 24.22
+/Actuator/Humidifier/LivingRoom/1 Increasing humidity in LivingRoom
+Set /Actuator/Light/LivingRoom/1 light brightness level to HIGH
+Set /Actuator/Light/LivingRoom/2 light brightness level to HIGH
+
+Standard Error:

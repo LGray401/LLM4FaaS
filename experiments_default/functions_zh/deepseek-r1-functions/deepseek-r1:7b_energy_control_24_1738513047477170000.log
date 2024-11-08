@@ -1,0 +1,10 @@
+Standard Output:
+
+Standard Error:
+Traceback (most recent call last):
+  File "/Users/minghe/llm4faas/experiments_default/functions_zh/deepseek-r1-functions/deepseek-r1:7b_energy_control_24_1738513047477170000.py", line 120, in <module>
+    rooms = home_plan(3)
+            ^^^^^^^^^
+NameError: name 'home_plan' is not defined
+
+Return code: 1

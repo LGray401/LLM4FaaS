@@ -1,0 +1,6 @@
+Error: Execution timed out
+Standard Output:
+/Actuator/NotificationSender/LivingRoom/1 is turned on.
+Notification Sender /Actuator/NotificationSender/LivingRoom/1 send message: 起床时间到！
+
+Standard Error:

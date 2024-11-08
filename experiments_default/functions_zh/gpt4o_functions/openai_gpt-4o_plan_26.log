@@ -1,0 +1,12 @@
+Standard Output:
+
+
+Standard Error:
+Traceback (most recent call last):
+  File "/Users/minghe/llm4faas/experiments_default/functions_zh/gpt4o_functions/openai_gpt-4o_plan_26.py", line 109, in <module>
+    main()
+  File "/Users/minghe/llm4faas/experiments_default/functions_zh/gpt4o_functions/openai_gpt-4o_plan_26.py", line 90, in main
+    home = home_plan()
+NameError: name 'home_plan' is not defined
+
+Return code: 1

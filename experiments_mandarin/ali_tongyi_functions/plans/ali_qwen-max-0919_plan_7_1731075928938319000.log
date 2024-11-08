@@ -1,0 +1,7 @@
+Error: Execution timed out
+Standard Output:
+Starting Morning Plan
+/Actuator/CoffeeMachine/Kitchen/1 is turned on.
+/Actuator/CoffeeMachine/Kitchen/1 Start making Espresso
+
+Standard Error:

@@ -1,0 +1,10 @@
+Standard Output:
+'/Sensor/IndoorTemperature/LivingRoom/1' is now ON.
+/Sensor/IndoorTemperature/LivingRoom/1 reading is: 30.97
+Temperature is 30.97°C, which is higher than 26°C. Opening the window.
+/Actuator/Window/LivingRoom/1 is turned on.
+/Actuator/Window/LivingRoom/2 is turned on.
+
+Standard Error:
+
+Return code: 0

@@ -1,0 +1,9 @@
+Standard Output:
+
+Standard Error:
+  File "/Users/minghe/llm4faas/experiments_default/functions_zh/deepseek-r1-functions/deepseek-r1:7b_remote_control_19_1738500842256540000.py", line 29
+    python home_plan.py
+           ^^^^^^^^^
+SyntaxError: invalid syntax
+
+Return code: 1

@@ -1,0 +1,9 @@
+Standard Output:
+
+Standard Error:
+  File "/Users/minghe/llm4faas/experiments_default/functions_en/llama31_en_functions/llama3.1_energy_control_6.py", line 41
+    from home.constants import TEMP_CHANGE_DURATION_WINDOW, TEMP_LOW, TEMP_HIGH, ...
+                                                                                 ^^^
+SyntaxError: invalid syntax
+
+Return code: 1

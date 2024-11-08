@@ -1,0 +1,13 @@
+Standard Output:
+
+Living Room:
+Sensors:
+- Temperature (Indoor Temperature)
+- Humidity (Humidity)
+Actuators:
+- Light (Light)
+- Heater (Heater)
+
+Standard Error:
+
+Return code: 0

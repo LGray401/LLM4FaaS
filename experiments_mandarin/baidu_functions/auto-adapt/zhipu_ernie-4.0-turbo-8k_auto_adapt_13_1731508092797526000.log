@@ -1,0 +1,556 @@
+Error: Execution timed out
+Standard Output:
+'/Sensor/LightIntensive/LivingRoom/1' is now ON.
+'/Sensor/IndoorTemperature/LivingRoom/1' is now ON.
+'/Sensor/Humidity/LivingRoom/1' is now ON.
+'/Sensor/IndoorTemperature/Bedroom/1' is now ON.
+'/Sensor/Humidity/Bedroom/1' is now ON.
+'/Sensor/LightIntensive/Bedroom/1' is now ON.
+'/Sensor/Humidity/Kitchen/1' is now ON.
+'/Sensor/Smoke/Kitchen/1' is now ON.
+'/Sensor/IndoorTemperature/Bathroom/1' is now ON.
+'/Sensor/Humidity/Bathroom/1' is now ON.
+'/Sensor/OutdoorTemperature/Balcony/1' is now ON.
+'/Sensor/Humidity/Balcony/1' is now ON.
+/Sensor/LightIntensive/LivingRoom/1 reading is: 1025.05
+/Actuator/Light/LivingRoom/1 is turned off.
+/Actuator/Light/LivingRoom/2 is turned off.
+/Sensor/IndoorTemperature/LivingRoom/1 reading is: 38.76
+/Sensor/Humidity/LivingRoom/1 reading is: 22.01
+/Actuator/Humidifier/LivingRoom/1 Increasing humidity in LivingRoom
+/Sensor/IndoorTemperature/Bedroom/1 reading is: 32.89
+/Sensor/Humidity/Bedroom/1 reading is: 28.21
+/Actuator/Humidifier/Bedroom/1 Increasing humidity in Bedroom
+/Sensor/LightIntensive/Bedroom/1 reading is: 900.73
+/Actuator/Light/Bedroom/1 is turned off.
+/Actuator/Light/Bedroom/2 is turned off.
+/Sensor/Humidity/Kitchen/1 reading is: 12.94
+/Sensor/Smoke/Kitchen/1 reading is: 80.63
+/Sensor/IndoorTemperature/Bathroom/1 reading is: 36.53
+/Sensor/Humidity/Bathroom/1 reading is: 17.03
+/Sensor/OutdoorTemperature/Balcony/1 reading is: 23.86
+/Sensor/Humidity/Balcony/1 reading is: 17.5
+/Sensor/LightIntensive/LivingRoom/1 reading is: 1146.64
+/Actuator/Light/LivingRoom/1 is turned off.
+/Actuator/Light/LivingRoom/2 is turned off.
+/Sensor/IndoorTemperature/LivingRoom/1 reading is: 39.48
+/Sensor/Humidity/LivingRoom/1 reading is: 22.05
+/Actuator/Humidifier/LivingRoom/1 Increasing humidity in LivingRoom
+/Sensor/IndoorTemperature/Bedroom/1 reading is: 39.63
+/Sensor/Humidity/Bedroom/1 reading is: 13.37
+/Actuator/Humidifier/Bedroom/1 Increasing humidity in Bedroom
+/Sensor/LightIntensive/Bedroom/1 reading is: 947.11
+/Actuator/Light/Bedroom/1 is turned off.
+/Actuator/Light/Bedroom/2 is turned off.
+/Sensor/Humidity/Kitchen/1 reading is: 17.86
+/Sensor/Smoke/Kitchen/1 reading is: 61.1
+/Sensor/IndoorTemperature/Bathroom/1 reading is: 30.2
+/Sensor/Humidity/Bathroom/1 reading is: 19.44
+/Sensor/OutdoorTemperature/Balcony/1 reading is: 20.95
+/Sensor/Humidity/Balcony/1 reading is: 28.85
+/Sensor/LightIntensive/LivingRoom/1 reading is: 1135.33
+/Actuator/Light/LivingRoom/1 is turned off.
+/Actuator/Light/LivingRoom/2 is turned off.
+/Sensor/IndoorTemperature/LivingRoom/1 reading is: 34.13
+/Sensor/Humidity/LivingRoom/1 reading is: 17.48
+/Actuator/Humidifier/LivingRoom/1 Increasing humidity in LivingRoom
+/Sensor/IndoorTemperature/Bedroom/1 reading is: 38.31
+/Sensor/Humidity/Bedroom/1 reading is: 23.19
+/Actuator/Humidifier/Bedroom/1 Increasing humidity in Bedroom
+/Sensor/LightIntensive/Bedroom/1 reading is: 955.52
+/Actuator/Light/Bedroom/1 is turned off.
+/Actuator/Light/Bedroom/2 is turned off.
+/Sensor/Humidity/Kitchen/1 reading is: 20.59
+/Sensor/Smoke/Kitchen/1 reading is: 73.88
+/Sensor/IndoorTemperature/Bathroom/1 reading is: 34.87
+/Sensor/Humidity/Bathroom/1 reading is: 13.91
+/Sensor/OutdoorTemperature/Balcony/1 reading is: 24.18
+/Sensor/Humidity/Balcony/1 reading is: 12.28
+/Sensor/LightIntensive/LivingRoom/1 reading is: 1178.44
+/Actuator/Light/LivingRoom/1 is turned off.
+/Actuator/Light/LivingRoom/2 is turned off.
+/Sensor/IndoorTemperature/LivingRoom/1 reading is: 30.96
+/Sensor/Humidity/LivingRoom/1 reading is: 16.19
+/Actuator/Humidifier/LivingRoom/1 Increasing humidity in LivingRoom
+/Sensor/IndoorTemperature/Bedroom/1 reading is: 32.67
+/Sensor/Humidity/Bedroom/1 reading is: 25.24
+/Actuator/Humidifier/Bedroom/1 Increasing humidity in Bedroom
+/Sensor/LightIntensive/Bedroom/1 reading is: 1106.12
+/Actuator/Light/Bedroom/1 is turned off.
+/Actuator/Light/Bedroom/2 is turned off.
+/Sensor/Humidity/Kitchen/1 reading is: 24.78
+/Sensor/Smoke/Kitchen/1 reading is: 39.07
+/Sensor/IndoorTemperature/Bathroom/1 reading is: 33.37
+/Sensor/Humidity/Bathroom/1 reading is: 24.41
+/Sensor/OutdoorTemperature/Balcony/1 reading is: 22.03
+/Sensor/Humidity/Balcony/1 reading is: 13.62
+/Sensor/LightIntensive/LivingRoom/1 reading is: 975.15
+/Actuator/Light/LivingRoom/1 is turned off.
+/Actuator/Light/LivingRoom/2 is turned off.
+/Sensor/IndoorTemperature/LivingRoom/1 reading is: 39.77
+/Sensor/Humidity/LivingRoom/1 reading is: 23.31
+/Actuator/Humidifier/LivingRoom/1 Increasing humidity in LivingRoom
+/Sensor/IndoorTemperature/Bedroom/1 reading is: 38.24
+/Sensor/Humidity/Bedroom/1 reading is: 15.15
+/Actuator/Humidifier/Bedroom/1 Increasing humidity in Bedroom
+/Sensor/LightIntensive/Bedroom/1 reading is: 946.68
+/Actuator/Light/Bedroom/1 is turned off.
+/Actuator/Light/Bedroom/2 is turned off.
+/Sensor/Humidity/Kitchen/1 reading is: 24.04
+/Sensor/Smoke/Kitchen/1 reading is: 8.02
+/Sensor/IndoorTemperature/Bathroom/1 reading is: 33.16
+/Sensor/Humidity/Bathroom/1 reading is: 22.17
+/Sensor/OutdoorTemperature/Balcony/1 reading is: 23.02
+/Sensor/Humidity/Balcony/1 reading is: 13.06
+/Sensor/LightIntensive/LivingRoom/1 reading is: 1018.05
+/Actuator/Light/LivingRoom/1 is turned off.
+/Actuator/Light/LivingRoom/2 is turned off.
+/Sensor/IndoorTemperature/LivingRoom/1 reading is: 33.05
+/Sensor/Humidity/LivingRoom/1 reading is: 29.26
+/Actuator/Humidifier/LivingRoom/1 Increasing humidity in LivingRoom
+/Sensor/IndoorTemperature/Bedroom/1 reading is: 38.93
+/Sensor/Humidity/Bedroom/1 reading is: 13.35
+/Actuator/Humidifier/Bedroom/1 Increasing humidity in Bedroom
+/Sensor/LightIntensive/Bedroom/1 reading is: 1083.74
+/Actuator/Light/Bedroom/1 is turned off.
+/Actuator/Light/Bedroom/2 is turned off.
+/Sensor/Humidity/Kitchen/1 reading is: 24.82
+/Sensor/Smoke/Kitchen/1 reading is: 98.03
+/Sensor/IndoorTemperature/Bathroom/1 reading is: 37.36
+/Sensor/Humidity/Bathroom/1 reading is: 17.06
+/Sensor/OutdoorTemperature/Balcony/1 reading is: 22.67
+/Sensor/Humidity/Balcony/1 reading is: 14.39
+/Sensor/LightIntensive/LivingRoom/1 reading is: 916.0
+/Actuator/Light/LivingRoom/1 is turned off.
+/Actuator/Light/LivingRoom/2 is turned off.
+/Sensor/IndoorTemperature/LivingRoom/1 reading is: 38.05
+/Sensor/Humidity/LivingRoom/1 reading is: 26.11
+/Actuator/Humidifier/LivingRoom/1 Increasing humidity in LivingRoom
+/Sensor/IndoorTemperature/Bedroom/1 reading is: 32.32
+/Sensor/Humidity/Bedroom/1 reading is: 19.82
+/Actuator/Humidifier/Bedroom/1 Increasing humidity in Bedroom
+/Sensor/LightIntensive/Bedroom/1 reading is: 1047.6
+/Actuator/Light/Bedroom/1 is turned off.
+/Actuator/Light/Bedroom/2 is turned off.
+/Sensor/Humidity/Kitchen/1 reading is: 29.42
+/Sensor/Smoke/Kitchen/1 reading is: 26.62
+/Sensor/IndoorTemperature/Bathroom/1 reading is: 37.81
+/Sensor/Humidity/Bathroom/1 reading is: 25.52
+/Sensor/OutdoorTemperature/Balcony/1 reading is: 24.1
+/Sensor/Humidity/Balcony/1 reading is: 14.86
+/Sensor/LightIntensive/LivingRoom/1 reading is: 921.16
+/Actuator/Light/LivingRoom/1 is turned off.
+/Actuator/Light/LivingRoom/2 is turned off.
+/Sensor/IndoorTemperature/LivingRoom/1 reading is: 32.8
+/Sensor/Humidity/LivingRoom/1 reading is: 23.03
+/Actuator/Humidifier/LivingRoom/1 Increasing humidity in LivingRoom
+/Sensor/IndoorTemperature/Bedroom/1 reading is: 35.37
+/Sensor/Humidity/Bedroom/1 reading is: 21.93
+/Actuator/Humidifier/Bedroom/1 Increasing humidity in Bedroom
+/Sensor/LightIntensive/Bedroom/1 reading is: 1064.46
+/Actuator/Light/Bedroom/1 is turned off.
+/Actuator/Light/Bedroom/2 is turned off.
+/Sensor/Humidity/Kitchen/1 reading is: 25.65
+/Sensor/Smoke/Kitchen/1 reading is: 14.35
+/Sensor/IndoorTemperature/Bathroom/1 reading is: 36.91
+/Sensor/Humidity/Bathroom/1 reading is: 16.4
+/Sensor/OutdoorTemperature/Balcony/1 reading is: 21.69
+/Sensor/Humidity/Balcony/1 reading is: 18.13
+/Sensor/LightIntensive/LivingRoom/1 reading is: 1138.86
+/Actuator/Light/LivingRoom/1 is turned off.
+/Actuator/Light/LivingRoom/2 is turned off.
+/Sensor/IndoorTemperature/LivingRoom/1 reading is: 30.09
+/Sensor/Humidity/LivingRoom/1 reading is: 14.17
+/Actuator/Humidifier/LivingRoom/1 Increasing humidity in LivingRoom
+/Sensor/IndoorTemperature/Bedroom/1 reading is: 31.07
+/Sensor/Humidity/Bedroom/1 reading is: 29.22
+/Actuator/Humidifier/Bedroom/1 Increasing humidity in Bedroom
+/Sensor/LightIntensive/Bedroom/1 reading is: 1131.75
+/Actuator/Light/Bedroom/1 is turned off.
+/Actuator/Light/Bedroom/2 is turned off.
+/Sensor/Humidity/Kitchen/1 reading is: 26.16
+/Sensor/Smoke/Kitchen/1 reading is: 74.14
+/Sensor/IndoorTemperature/Bathroom/1 reading is: 32.28
+/Sensor/Humidity/Bathroom/1 reading is: 29.31
+/Sensor/OutdoorTemperature/Balcony/1 reading is: 20.55
+/Sensor/Humidity/Balcony/1 reading is: 21.13
+/Sensor/LightIntensive/LivingRoom/1 reading is: 972.29
+/Actuator/Light/LivingRoom/1 is turned off.
+/Actuator/Light/LivingRoom/2 is turned off.
+/Sensor/IndoorTemperature/LivingRoom/1 reading is: 36.55
+/Sensor/Humidity/LivingRoom/1 reading is: 15.88
+/Actuator/Humidifier/LivingRoom/1 Increasing humidity in LivingRoom
+/Sensor/IndoorTemperature/Bedroom/1 reading is: 37.35
+/Sensor/Humidity/Bedroom/1 reading is: 29.7
+/Actuator/Humidifier/Bedroom/1 Increasing humidity in Bedroom
+/Sensor/LightIntensive/Bedroom/1 reading is: 941.74
+/Actuator/Light/Bedroom/1 is turned off.
+/Actuator/Light/Bedroom/2 is turned off.
+/Sensor/Humidity/Kitchen/1 reading is: 22.43
+/Sensor/Smoke/Kitchen/1 reading is: 45.89
+/Sensor/IndoorTemperature/Bathroom/1 reading is: 31.06
+/Sensor/Humidity/Bathroom/1 reading is: 29.57
+/Sensor/OutdoorTemperature/Balcony/1 reading is: 23.85
+/Sensor/Humidity/Balcony/1 reading is: 16.05
+/Sensor/LightIntensive/LivingRoom/1 reading is: 1105.59
+/Actuator/Light/LivingRoom/1 is turned off.
+/Actuator/Light/LivingRoom/2 is turned off.
+/Sensor/IndoorTemperature/LivingRoom/1 reading is: 36.74
+/Sensor/Humidity/LivingRoom/1 reading is: 20.17
+/Actuator/Humidifier/LivingRoom/1 Increasing humidity in LivingRoom
+/Sensor/IndoorTemperature/Bedroom/1 reading is: 38.76
+/Sensor/Humidity/Bedroom/1 reading is: 26.09
+/Actuator/Humidifier/Bedroom/1 Increasing humidity in Bedroom
+/Sensor/LightIntensive/Bedroom/1 reading is: 1015.09
+/Actuator/Light/Bedroom/1 is turned off.
+/Actuator/Light/Bedroom/2 is turned off.
+/Sensor/Humidity/Kitchen/1 reading is: 12.02
+/Sensor/Smoke/Kitchen/1 reading is: 58.79
+/Sensor/IndoorTemperature/Bathroom/1 reading is: 38.38
+/Sensor/Humidity/Bathroom/1 reading is: 29.64
+/Sensor/OutdoorTemperature/Balcony/1 reading is: 24.57
+/Sensor/Humidity/Balcony/1 reading is: 16.78
+/Sensor/LightIntensive/LivingRoom/1 reading is: 1091.23
+/Actuator/Light/LivingRoom/1 is turned off.
+/Actuator/Light/LivingRoom/2 is turned off.
+/Sensor/IndoorTemperature/LivingRoom/1 reading is: 30.64
+/Sensor/Humidity/LivingRoom/1 reading is: 18.5
+/Actuator/Humidifier/LivingRoom/1 Increasing humidity in LivingRoom
+/Sensor/IndoorTemperature/Bedroom/1 reading is: 30.3
+/Sensor/Humidity/Bedroom/1 reading is: 22.82
+/Actuator/Humidifier/Bedroom/1 Increasing humidity in Bedroom
+/Sensor/LightIntensive/Bedroom/1 reading is: 1044.43
+/Actuator/Light/Bedroom/1 is turned off.
+/Actuator/Light/Bedroom/2 is turned off.
+/Sensor/Humidity/Kitchen/1 reading is: 16.67
+/Sensor/Smoke/Kitchen/1 reading is: 76.97
+/Sensor/IndoorTemperature/Bathroom/1 reading is: 34.72
+/Sensor/Humidity/Bathroom/1 reading is: 23.58
+/Sensor/OutdoorTemperature/Balcony/1 reading is: 24.62
+/Sensor/Humidity/Balcony/1 reading is: 20.0
+/Sensor/LightIntensive/LivingRoom/1 reading is: 931.48
+/Actuator/Light/LivingRoom/1 is turned off.
+/Actuator/Light/LivingRoom/2 is turned off.
+/Sensor/IndoorTemperature/LivingRoom/1 reading is: 31.98
+/Sensor/Humidity/LivingRoom/1 reading is: 23.54
+/Actuator/Humidifier/LivingRoom/1 Increasing humidity in LivingRoom
+/Sensor/IndoorTemperature/Bedroom/1 reading is: 35.24
+/Sensor/Humidity/Bedroom/1 reading is: 21.7
+/Actuator/Humidifier/Bedroom/1 Increasing humidity in Bedroom
+/Sensor/LightIntensive/Bedroom/1 reading is: 1170.35
+/Actuator/Light/Bedroom/1 is turned off.
+/Actuator/Light/Bedroom/2 is turned off.
+/Sensor/Humidity/Kitchen/1 reading is: 27.1
+/Sensor/Smoke/Kitchen/1 reading is: 43.19
+/Sensor/IndoorTemperature/Bathroom/1 reading is: 32.02
+/Sensor/Humidity/Bathroom/1 reading is: 13.83
+/Sensor/OutdoorTemperature/Balcony/1 reading is: 20.65
+/Sensor/Humidity/Balcony/1 reading is: 28.27
+/Sensor/LightIntensive/LivingRoom/1 reading is: 1057.04
+/Actuator/Light/LivingRoom/1 is turned off.
+/Actuator/Light/LivingRoom/2 is turned off.
+/Sensor/IndoorTemperature/LivingRoom/1 reading is: 32.09
+/Sensor/Humidity/LivingRoom/1 reading is: 29.24
+/Actuator/Humidifier/LivingRoom/1 Increasing humidity in LivingRoom
+/Sensor/IndoorTemperature/Bedroom/1 reading is: 32.14
+/Sensor/Humidity/Bedroom/1 reading is: 13.99
+/Actuator/Humidifier/Bedroom/1 Increasing humidity in Bedroom
+/Sensor/LightIntensive/Bedroom/1 reading is: 1020.66
+/Actuator/Light/Bedroom/1 is turned off.
+/Actuator/Light/Bedroom/2 is turned off.
+/Sensor/Humidity/Kitchen/1 reading is: 29.63
+/Sensor/Smoke/Kitchen/1 reading is: 13.31
+/Sensor/IndoorTemperature/Bathroom/1 reading is: 38.48
+/Sensor/Humidity/Bathroom/1 reading is: 14.25
+/Sensor/OutdoorTemperature/Balcony/1 reading is: 24.51
+/Sensor/Humidity/Balcony/1 reading is: 27.57
+/Sensor/LightIntensive/LivingRoom/1 reading is: 1009.76
+/Actuator/Light/LivingRoom/1 is turned off.
+/Actuator/Light/LivingRoom/2 is turned off.
+/Sensor/IndoorTemperature/LivingRoom/1 reading is: 39.84
+/Sensor/Humidity/LivingRoom/1 reading is: 27.16
+/Actuator/Humidifier/LivingRoom/1 Increasing humidity in LivingRoom
+/Sensor/IndoorTemperature/Bedroom/1 reading is: 35.72
+/Sensor/Humidity/Bedroom/1 reading is: 24.43
+/Actuator/Humidifier/Bedroom/1 Increasing humidity in Bedroom
+/Sensor/LightIntensive/Bedroom/1 reading is: 979.4
+/Actuator/Light/Bedroom/1 is turned off.
+/Actuator/Light/Bedroom/2 is turned off.
+/Sensor/Humidity/Kitchen/1 reading is: 29.12
+/Sensor/Smoke/Kitchen/1 reading is: 8.28
+/Sensor/IndoorTemperature/Bathroom/1 reading is: 35.59
+/Sensor/Humidity/Bathroom/1 reading is: 20.78
+/Sensor/OutdoorTemperature/Balcony/1 reading is: 20.37
+/Sensor/Humidity/Balcony/1 reading is: 25.54
+/Sensor/LightIntensive/LivingRoom/1 reading is: 928.99
+/Actuator/Light/LivingRoom/1 is turned off.
+/Actuator/Light/LivingRoom/2 is turned off.
+/Sensor/IndoorTemperature/LivingRoom/1 reading is: 37.69
+/Sensor/Humidity/LivingRoom/1 reading is: 29.14
+/Actuator/Humidifier/LivingRoom/1 Increasing humidity in LivingRoom
+/Sensor/IndoorTemperature/Bedroom/1 reading is: 36.55
+/Sensor/Humidity/Bedroom/1 reading is: 26.5
+/Actuator/Humidifier/Bedroom/1 Increasing humidity in Bedroom
+/Sensor/LightIntensive/Bedroom/1 reading is: 1163.26
+/Actuator/Light/Bedroom/1 is turned off.
+/Actuator/Light/Bedroom/2 is turned off.
+/Sensor/Humidity/Kitchen/1 reading is: 23.52
+/Sensor/Smoke/Kitchen/1 reading is: 2.52
+/Sensor/IndoorTemperature/Bathroom/1 reading is: 32.7
+/Sensor/Humidity/Bathroom/1 reading is: 13.51
+/Sensor/OutdoorTemperature/Balcony/1 reading is: 20.34
+/Sensor/Humidity/Balcony/1 reading is: 28.53
+/Sensor/LightIntensive/LivingRoom/1 reading is: 1018.36
+/Actuator/Light/LivingRoom/1 is turned off.
+/Actuator/Light/LivingRoom/2 is turned off.
+/Sensor/IndoorTemperature/LivingRoom/1 reading is: 36.23
+/Sensor/Humidity/LivingRoom/1 reading is: 12.19
+/Actuator/Humidifier/LivingRoom/1 Increasing humidity in LivingRoom
+/Sensor/IndoorTemperature/Bedroom/1 reading is: 39.05
+/Sensor/Humidity/Bedroom/1 reading is: 29.26
+/Actuator/Humidifier/Bedroom/1 Increasing humidity in Bedroom
+/Sensor/LightIntensive/Bedroom/1 reading is: 932.39
+/Actuator/Light/Bedroom/1 is turned off.
+/Actuator/Light/Bedroom/2 is turned off.
+/Sensor/Humidity/Kitchen/1 reading is: 15.59
+/Sensor/Smoke/Kitchen/1 reading is: 80.94
+/Sensor/IndoorTemperature/Bathroom/1 reading is: 37.82
+/Sensor/Humidity/Bathroom/1 reading is: 23.59
+/Sensor/OutdoorTemperature/Balcony/1 reading is: 22.35
+/Sensor/Humidity/Balcony/1 reading is: 17.05
+/Sensor/LightIntensive/LivingRoom/1 reading is: 990.92
+/Actuator/Light/LivingRoom/1 is turned off.
+/Actuator/Light/LivingRoom/2 is turned off.
+/Sensor/IndoorTemperature/LivingRoom/1 reading is: 37.65
+/Sensor/Humidity/LivingRoom/1 reading is: 15.15
+/Actuator/Humidifier/LivingRoom/1 Increasing humidity in LivingRoom
+/Sensor/IndoorTemperature/Bedroom/1 reading is: 39.66
+/Sensor/Humidity/Bedroom/1 reading is: 21.47
+/Actuator/Humidifier/Bedroom/1 Increasing humidity in Bedroom
+/Sensor/LightIntensive/Bedroom/1 reading is: 1015.69
+/Actuator/Light/Bedroom/1 is turned off.
+/Actuator/Light/Bedroom/2 is turned off.
+/Sensor/Humidity/Kitchen/1 reading is: 12.95
+/Sensor/Smoke/Kitchen/1 reading is: 40.53
+/Sensor/IndoorTemperature/Bathroom/1 reading is: 33.02
+/Sensor/Humidity/Bathroom/1 reading is: 27.51
+/Sensor/OutdoorTemperature/Balcony/1 reading is: 21.28
+/Sensor/Humidity/Balcony/1 reading is: 13.44
+/Sensor/LightIntensive/LivingRoom/1 reading is: 1046.22
+/Actuator/Light/LivingRoom/1 is turned off.
+/Actuator/Light/LivingRoom/2 is turned off.
+/Sensor/IndoorTemperature/LivingRoom/1 reading is: 33.78
+/Sensor/Humidity/LivingRoom/1 reading is: 21.61
+/Actuator/Humidifier/LivingRoom/1 Increasing humidity in LivingRoom
+/Sensor/IndoorTemperature/Bedroom/1 reading is: 30.88
+/Sensor/Humidity/Bedroom/1 reading is: 27.72
+/Actuator/Humidifier/Bedroom/1 Increasing humidity in Bedroom
+/Sensor/LightIntensive/Bedroom/1 reading is: 1122.77
+/Actuator/Light/Bedroom/1 is turned off.
+/Actuator/Light/Bedroom/2 is turned off.
+/Sensor/Humidity/Kitchen/1 reading is: 18.82
+/Sensor/Smoke/Kitchen/1 reading is: 48.68
+/Sensor/IndoorTemperature/Bathroom/1 reading is: 33.17
+/Sensor/Humidity/Bathroom/1 reading is: 23.44
+/Sensor/OutdoorTemperature/Balcony/1 reading is: 21.1
+/Sensor/Humidity/Balcony/1 reading is: 22.94
+/Sensor/LightIntensive/LivingRoom/1 reading is: 1060.07
+/Actuator/Light/LivingRoom/1 is turned off.
+/Actuator/Light/LivingRoom/2 is turned off.
+/Sensor/IndoorTemperature/LivingRoom/1 reading is: 35.17
+/Sensor/Humidity/LivingRoom/1 reading is: 18.9
+/Actuator/Humidifier/LivingRoom/1 Increasing humidity in LivingRoom
+/Sensor/IndoorTemperature/Bedroom/1 reading is: 32.53
+/Sensor/Humidity/Bedroom/1 reading is: 21.32
+/Actuator/Humidifier/Bedroom/1 Increasing humidity in Bedroom
+/Sensor/LightIntensive/Bedroom/1 reading is: 1075.37
+/Actuator/Light/Bedroom/1 is turned off.
+/Actuator/Light/Bedroom/2 is turned off.
+/Sensor/Humidity/Kitchen/1 reading is: 16.99
+/Sensor/Smoke/Kitchen/1 reading is: 12.75
+/Sensor/IndoorTemperature/Bathroom/1 reading is: 37.8
+/Sensor/Humidity/Bathroom/1 reading is: 29.97
+/Sensor/OutdoorTemperature/Balcony/1 reading is: 20.82
+/Sensor/Humidity/Balcony/1 reading is: 15.32
+/Sensor/LightIntensive/LivingRoom/1 reading is: 1025.56
+/Actuator/Light/LivingRoom/1 is turned off.
+/Actuator/Light/LivingRoom/2 is turned off.
+/Sensor/IndoorTemperature/LivingRoom/1 reading is: 38.01
+/Sensor/Humidity/LivingRoom/1 reading is: 21.37
+/Actuator/Humidifier/LivingRoom/1 Increasing humidity in LivingRoom
+/Sensor/IndoorTemperature/Bedroom/1 reading is: 37.05
+/Sensor/Humidity/Bedroom/1 reading is: 20.56
+/Actuator/Humidifier/Bedroom/1 Increasing humidity in Bedroom
+/Sensor/LightIntensive/Bedroom/1 reading is: 1157.76
+/Actuator/Light/Bedroom/1 is turned off.
+/Actuator/Light/Bedroom/2 is turned off.
+/Sensor/Humidity/Kitchen/1 reading is: 27.31
+/Sensor/Smoke/Kitchen/1 reading is: 37.55
+/Sensor/IndoorTemperature/Bathroom/1 reading is: 37.92
+/Sensor/Humidity/Bathroom/1 reading is: 17.25
+/Sensor/OutdoorTemperature/Balcony/1 reading is: 24.71
+/Sensor/Humidity/Balcony/1 reading is: 14.97
+/Sensor/LightIntensive/LivingRoom/1 reading is: 1074.78
+/Actuator/Light/LivingRoom/1 is turned off.
+/Actuator/Light/LivingRoom/2 is turned off.
+/Sensor/IndoorTemperature/LivingRoom/1 reading is: 36.89
+/Sensor/Humidity/LivingRoom/1 reading is: 23.11
+/Actuator/Humidifier/LivingRoom/1 Increasing humidity in LivingRoom
+/Sensor/IndoorTemperature/Bedroom/1 reading is: 31.02
+/Sensor/Humidity/Bedroom/1 reading is: 25.97
+/Actuator/Humidifier/Bedroom/1 Increasing humidity in Bedroom
+/Sensor/LightIntensive/Bedroom/1 reading is: 1023.05
+/Actuator/Light/Bedroom/1 is turned off.
+/Actuator/Light/Bedroom/2 is turned off.
+/Sensor/Humidity/Kitchen/1 reading is: 12.83
+/Sensor/Smoke/Kitchen/1 reading is: 77.12
+/Sensor/IndoorTemperature/Bathroom/1 reading is: 35.88
+/Sensor/Humidity/Bathroom/1 reading is: 23.35
+/Sensor/OutdoorTemperature/Balcony/1 reading is: 22.92
+/Sensor/Humidity/Balcony/1 reading is: 16.65
+/Sensor/LightIntensive/LivingRoom/1 reading is: 1020.01
+/Actuator/Light/LivingRoom/1 is turned off.
+/Actuator/Light/LivingRoom/2 is turned off.
+/Sensor/IndoorTemperature/LivingRoom/1 reading is: 36.17
+/Sensor/Humidity/LivingRoom/1 reading is: 22.08
+/Actuator/Humidifier/LivingRoom/1 Increasing humidity in LivingRoom
+/Sensor/IndoorTemperature/Bedroom/1 reading is: 38.41
+/Sensor/Humidity/Bedroom/1 reading is: 15.17
+/Actuator/Humidifier/Bedroom/1 Increasing humidity in Bedroom
+/Sensor/LightIntensive/Bedroom/1 reading is: 1087.78
+/Actuator/Light/Bedroom/1 is turned off.
+/Actuator/Light/Bedroom/2 is turned off.
+/Sensor/Humidity/Kitchen/1 reading is: 15.12
+/Sensor/Smoke/Kitchen/1 reading is: 96.36
+/Sensor/IndoorTemperature/Bathroom/1 reading is: 34.86
+/Sensor/Humidity/Bathroom/1 reading is: 28.06
+/Sensor/OutdoorTemperature/Balcony/1 reading is: 24.35
+/Sensor/Humidity/Balcony/1 reading is: 16.49
+/Sensor/LightIntensive/LivingRoom/1 reading is: 1154.37
+/Actuator/Light/LivingRoom/1 is turned off.
+/Actuator/Light/LivingRoom/2 is turned off.
+/Sensor/IndoorTemperature/LivingRoom/1 reading is: 32.67
+/Sensor/Humidity/LivingRoom/1 reading is: 22.52
+/Actuator/Humidifier/LivingRoom/1 Increasing humidity in LivingRoom
+/Sensor/IndoorTemperature/Bedroom/1 reading is: 35.02
+/Sensor/Humidity/Bedroom/1 reading is: 13.15
+/Actuator/Humidifier/Bedroom/1 Increasing humidity in Bedroom
+/Sensor/LightIntensive/Bedroom/1 reading is: 1138.32
+/Actuator/Light/Bedroom/1 is turned off.
+/Actuator/Light/Bedroom/2 is turned off.
+/Sensor/Humidity/Kitchen/1 reading is: 16.21
+/Sensor/Smoke/Kitchen/1 reading is: 29.96
+/Sensor/IndoorTemperature/Bathroom/1 reading is: 33.38
+/Sensor/Humidity/Bathroom/1 reading is: 15.76
+/Sensor/OutdoorTemperature/Balcony/1 reading is: 22.88
+/Sensor/Humidity/Balcony/1 reading is: 22.39
+/Sensor/LightIntensive/LivingRoom/1 reading is: 989.51
+/Actuator/Light/LivingRoom/1 is turned off.
+/Actuator/Light/LivingRoom/2 is turned off.
+/Sensor/IndoorTemperature/LivingRoom/1 reading is: 39.55
+/Sensor/Humidity/LivingRoom/1 reading is: 14.53
+/Actuator/Humidifier/LivingRoom/1 Increasing humidity in LivingRoom
+/Sensor/IndoorTemperature/Bedroom/1 reading is: 34.64
+/Sensor/Humidity/Bedroom/1 reading is: 15.84
+/Actuator/Humidifier/Bedroom/1 Increasing humidity in Bedroom
+/Sensor/LightIntensive/Bedroom/1 reading is: 1085.97
+/Actuator/Light/Bedroom/1 is turned off.
+/Actuator/Light/Bedroom/2 is turned off.
+/Sensor/Humidity/Kitchen/1 reading is: 25.35
+/Sensor/Smoke/Kitchen/1 reading is: 67.71
+/Sensor/IndoorTemperature/Bathroom/1 reading is: 39.1
+/Sensor/Humidity/Bathroom/1 reading is: 12.02
+/Sensor/OutdoorTemperature/Balcony/1 reading is: 24.96
+/Sensor/Humidity/Balcony/1 reading is: 26.16
+/Sensor/LightIntensive/LivingRoom/1 reading is: 1135.33
+/Actuator/Light/LivingRoom/1 is turned off.
+/Actuator/Light/LivingRoom/2 is turned off.
+/Sensor/IndoorTemperature/LivingRoom/1 reading is: 33.88
+/Sensor/Humidity/LivingRoom/1 reading is: 23.91
+/Actuator/Humidifier/LivingRoom/1 Increasing humidity in LivingRoom
+/Sensor/IndoorTemperature/Bedroom/1 reading is: 37.69
+/Sensor/Humidity/Bedroom/1 reading is: 25.84
+/Actuator/Humidifier/Bedroom/1 Increasing humidity in Bedroom
+/Sensor/LightIntensive/Bedroom/1 reading is: 1011.58
+/Actuator/Light/Bedroom/1 is turned off.
+/Actuator/Light/Bedroom/2 is turned off.
+/Sensor/Humidity/Kitchen/1 reading is: 15.07
+/Sensor/Smoke/Kitchen/1 reading is: 68.0
+/Sensor/IndoorTemperature/Bathroom/1 reading is: 32.82
+/Sensor/Humidity/Bathroom/1 reading is: 23.1
+/Sensor/OutdoorTemperature/Balcony/1 reading is: 21.4
+/Sensor/Humidity/Balcony/1 reading is: 14.87
+/Sensor/LightIntensive/LivingRoom/1 reading is: 942.17
+/Actuator/Light/LivingRoom/1 is turned off.
+/Actuator/Light/LivingRoom/2 is turned off.
+/Sensor/IndoorTemperature/LivingRoom/1 reading is: 39.54
+/Sensor/Humidity/LivingRoom/1 reading is: 14.91
+/Actuator/Humidifier/LivingRoom/1 Increasing humidity in LivingRoom
+/Sensor/IndoorTemperature/Bedroom/1 reading is: 39.81
+/Sensor/Humidity/Bedroom/1 reading is: 22.19
+/Actuator/Humidifier/Bedroom/1 Increasing humidity in Bedroom
+/Sensor/LightIntensive/Bedroom/1 reading is: 1197.07
+/Actuator/Light/Bedroom/1 is turned off.
+/Actuator/Light/Bedroom/2 is turned off.
+/Sensor/Humidity/Kitchen/1 reading is: 26.49
+/Sensor/Smoke/Kitchen/1 reading is: 33.41
+/Sensor/IndoorTemperature/Bathroom/1 reading is: 30.41
+/Sensor/Humidity/Bathroom/1 reading is: 14.8
+/Sensor/OutdoorTemperature/Balcony/1 reading is: 20.18
+/Sensor/Humidity/Balcony/1 reading is: 20.58
+/Sensor/LightIntensive/LivingRoom/1 reading is: 1012.8
+/Actuator/Light/LivingRoom/1 is turned off.
+/Actuator/Light/LivingRoom/2 is turned off.
+/Sensor/IndoorTemperature/LivingRoom/1 reading is: 35.58
+/Sensor/Humidity/LivingRoom/1 reading is: 15.03
+/Actuator/Humidifier/LivingRoom/1 Increasing humidity in LivingRoom
+/Sensor/IndoorTemperature/Bedroom/1 reading is: 31.05
+/Sensor/Humidity/Bedroom/1 reading is: 21.29
+/Actuator/Humidifier/Bedroom/1 Increasing humidity in Bedroom
+/Sensor/LightIntensive/Bedroom/1 reading is: 998.15
+/Actuator/Light/Bedroom/1 is turned off.
+/Actuator/Light/Bedroom/2 is turned off.
+/Sensor/Humidity/Kitchen/1 reading is: 13.37
+/Sensor/Smoke/Kitchen/1 reading is: 74.74
+/Sensor/IndoorTemperature/Bathroom/1 reading is: 39.14
+/Sensor/Humidity/Bathroom/1 reading is: 17.06
+/Sensor/OutdoorTemperature/Balcony/1 reading is: 21.79
+/Sensor/Humidity/Balcony/1 reading is: 23.59
+/Sensor/LightIntensive/LivingRoom/1 reading is: 996.4
+/Actuator/Light/LivingRoom/1 is turned off.
+/Actuator/Light/LivingRoom/2 is turned off.
+/Sensor/IndoorTemperature/LivingRoom/1 reading is: 31.44
+/Sensor/Humidity/LivingRoom/1 reading is: 24.24
+/Actuator/Humidifier/LivingRoom/1 Increasing humidity in LivingRoom
+/Sensor/IndoorTemperature/Bedroom/1 reading is: 33.6
+/Sensor/Humidity/Bedroom/1 reading is: 14.72
+/Actuator/Humidifier/Bedroom/1 Increasing humidity in Bedroom
+/Sensor/LightIntensive/Bedroom/1 reading is: 1191.91
+/Actuator/Light/Bedroom/1 is turned off.
+/Actuator/Light/Bedroom/2 is turned off.
+/Sensor/Humidity/Kitchen/1 reading is: 12.37
+/Sensor/Smoke/Kitchen/1 reading is: 3.59
+/Sensor/IndoorTemperature/Bathroom/1 reading is: 33.77
+/Sensor/Humidity/Bathroom/1 reading is: 18.46
+/Sensor/OutdoorTemperature/Balcony/1 reading is: 22.4
+/Sensor/Humidity/Balcony/1 reading is: 28.4
+/Sensor/LightIntensive/LivingRoom/1 reading is: 1171.16
+/Actuator/Light/LivingRoom/1 is turned off.
+/Actuator/Light/LivingRoom/2 is turned off.
+/Sensor/IndoorTemperature/LivingRoom/1 reading is: 33.75
+/Sensor/Humidity/LivingRoom/1 reading is: 14.88
+/Actuator/Humidifier/LivingRoom/1 Increasing humidity in LivingRoom
+/Sensor/IndoorTemperature/Bedroom/1 reading is: 31.4
+/Sensor/Humidity/Bedroom/1 reading is: 29.46
+/Actuator/Humidifier/Bedroom/1 Increasing humidity in Bedroom
+/Sensor/LightIntensive/Bedroom/1 reading is: 1092.01
+/Actuator/Light/Bedroom/1 is turned off.
+/Actuator/Light/Bedroom/2 is turned off.
+/Sensor/Humidity/Kitchen/1 reading is: 25.46
+/Sensor/Smoke/Kitchen/1 reading is: 6.75
+/Sensor/IndoorTemperature/Bathroom/1 reading is: 33.77
+/Sensor/Humidity/Bathroom/1 reading is: 20.99
+/Sensor/OutdoorTemperature/Balcony/1 reading is: 21.0
+/Sensor/Humidity/Balcony/1 reading is: 24.26
+
+Standard Error:

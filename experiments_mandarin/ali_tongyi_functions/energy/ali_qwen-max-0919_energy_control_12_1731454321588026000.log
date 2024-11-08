@@ -1,0 +1,18 @@
+Standard Output:
+/Sensor/OutdoorTemperature/Balcony/1 current status is: off
+'/Sensor/OutdoorTemperature/Balcony/1' is now ON.
+/Sensor/Humidity/LivingRoom/1 current status is: off
+'/Sensor/Humidity/LivingRoom/1' is now ON.
+/Sensor/OutdoorTemperature/Balcony/1 reading is: 24.36
+/Sensor/Humidity/LivingRoom/1 reading is: 29.3
+
+Standard Error:
+Traceback (most recent call last):
+  File "/Users/minghe/llm4faas/experiments_mandarin/ali_tongyi_functions/energy/ali_qwen-max-0919_energy_control_12_1731454321588026000.py", line 71, in <module>
+    start_energy_saving_mode()
+  File "/Users/minghe/llm4faas/experiments_mandarin/ali_tongyi_functions/energy/ali_qwen-max-0919_energy_control_12_1731454321588026000.py", line 43, in start_energy_saving_mode
+    acs = get_all_actuators(home, "AC")
+          ^^^^^^^^^^^^^^^^^
+NameError: name 'get_all_actuators' is not defined. Did you mean: 'get_room_actuators'?
+
+Return code: 1

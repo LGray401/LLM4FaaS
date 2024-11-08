@@ -1,0 +1,12 @@
+Standard Output:
+We find LivingRoom!
+/Actuator/Light/LivingRoom/1 is turned off.
+We find Bedroom!
+Light /Actuator/Light/Bedroom/1 is OFF. Please turn it on before setting the brightness level.
+We find Kitchen!
+/Actuator/Window/Kitchen/1 is turned on.
+
+Standard Error:
+2025-01-14 21:49:06,748 - actuator.py - set_brightness_level - WARNING - Light /Actuator/Light/Bedroom/1 is OFF. Please turn it on before setting the brightness level.
+
+Return code: 0

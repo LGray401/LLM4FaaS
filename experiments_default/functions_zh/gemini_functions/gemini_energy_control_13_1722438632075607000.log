@@ -1,0 +1,14 @@
+Standard Output:
+
+Standard Error:
+Traceback (most recent call last):
+  File "/Users/minghe/llm4faas/experiments_default/functions_zh/gemini_functions/gemini_energy_control_13_1722438632075607000.py", line 136, in <module>
+    check_and_adjust_home_status(home)
+  File "/Users/minghe/llm4faas/experiments_default/functions_zh/gemini_functions/gemini_energy_control_13_1722438632075607000.py", line 120, in check_and_adjust_home_status
+    turn_on_light_if_dark(home, room_name)
+  File "/Users/minghe/llm4faas/experiments_default/functions_zh/gemini_functions/gemini_energy_control_13_1722438632075607000.py", line 9, in turn_on_light_if_dark
+    lights = get_room_actuators(home, room_name, "Light")
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: get_room_actuators() takes 2 positional arguments but 3 were given
+
+Return code: 1

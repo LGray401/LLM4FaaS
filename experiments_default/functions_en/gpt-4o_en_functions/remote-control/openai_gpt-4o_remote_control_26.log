@@ -1,0 +1,6 @@
+Standard Output:
+Usage: python function.py <room_name> <device_type> <action> [level]
+
+Standard Error:
+
+Return code: 1

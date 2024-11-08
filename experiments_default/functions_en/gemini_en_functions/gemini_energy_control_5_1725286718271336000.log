@@ -1,0 +1,9 @@
+Standard Output:
+
+Standard Error:
+  File "/Users/minghe/llm4faas/experiments_default/functions_en/gemini_en_functions/gemini_energy_control_5_1725286718271336000.py", line 761
+    light.set_brightness_level('high
+                               ^
+SyntaxError: unterminated string literal (detected at line 761)
+
+Return code: 1

@@ -1,0 +1,7 @@
+Timestamp,Model Name,Task Name,User Answer Index,Success Rate (%),Error Status,Log File Path
+,copilot,auto_adapt,1,0.00,Error,/Users/minghe/llm4faas/test/temp/log_temp/copilot_auto_adapt_1.log
+1722437981657372000,gemini,auto_adapt,1,0.00,Timeout,/Users/minghe/llm4faas/test/temp/log_temp/gemini_auto_adapt_1_1722437981657372000.log
+,azure_gpt-35-turbo-16k,auto_adapt,1,0.00,Error,/Users/minghe/llm4faas/test/temp/log_temp/azure_gpt-35-turbo-16k_auto_adapt_1.log
+,openai_gpt-4o,auto_adapt,1,1.00,No Error & Warning,/Users/minghe/llm4faas/test/temp/log_temp/openai_gpt-4o_auto_adapt_1.log
+,llama3.1,auto_adapt,1,0.00,Error,/Users/minghe/llm4faas/test/temp/log_temp/llama3.1_auto_adapt_1.log
+,openai_gpt-4o-mini,auto_adapt,1,0.00,Error,/Users/minghe/llm4faas/test/temp/log_temp/openai_gpt-4o-mini_auto_adapt_1.log

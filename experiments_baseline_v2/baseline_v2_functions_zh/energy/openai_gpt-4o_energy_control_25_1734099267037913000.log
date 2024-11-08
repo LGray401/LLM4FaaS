@@ -1,0 +1,25 @@
+Standard Output:
+Unlock the door /Actuator/Door/LivingRoom/1.
+/Actuator/Curtain/LivingRoom/1 is turned on.
+/Actuator/MusicPlayer/LivingRoom/1 is turned on.
+/Actuator/MusicPlayer/LivingRoom/1 start playing Jazz Playlist
+'/Sensor/IndoorTemperature/LivingRoom/2' is now ON.
+'/Sensor/Humidity/LivingRoom/2' is now ON.
+'/Sensor/LightIntensive/LivingRoom/2' is now ON.
+/Sensor/IndoorTemperature/LivingRoom/2 reading is: 33.33
+/Sensor/Humidity/LivingRoom/2 reading is: 19.89
+/Sensor/LightIntensive/LivingRoom/2 reading is: 1078.22
+/Actuator/Window/LivingRoom/2 is turned on.
+/Actuator/Window/LivingRoom/2 is turned off.
+/Actuator/AC/LivingRoom/1 is turned on.
+/Actuator/AC/LivingRoom/1 is turned on.
+/Actuator/SmartTV/LivingRoom/1 is turned on.
+Start playing News on the /Actuator/SmartTV/LivingRoom/1 in LivingRoom
+/Actuator/MusicPlayer/LivingRoom/1 is turned off.
+/Actuator/Curtain/LivingRoom/1 is turned off.
+Light /Actuator/Light/LivingRoom/2 is OFF. Please turn it on before setting the brightness level.
+
+Standard Error:
+2025-01-14 17:13:08,004 - actuator.py - set_brightness_level - WARNING - Light /Actuator/Light/LivingRoom/2 is OFF. Please turn it on before setting the brightness level.
+
+Return code: 0

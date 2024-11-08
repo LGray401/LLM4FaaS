@@ -1,0 +1,21 @@
+Standard Output:
+Controlling devices based on current environment:
+Room: Living Room
+ - Adjusting AC to maintain 26 degrees.
+ - Devices have been set according to the current conditions.
+Room: Bedroom
+ - Adjusting AC to maintain 26 degrees.
+ - Devices have been set according to the current conditions.
+Room: Bathroom
+ - Adjusting AC to maintain 26 degrees.
+ - Devices have been set according to the current conditions.
+Room: Kitchen
+ - Adjusting AC to maintain 26 degrees.
+ - Devices have been set according to the current conditions.
+Room: Balcony
+ - Adjusting AC to maintain 26 degrees.
+ - Devices have been set according to the current conditions.
+
+Standard Error:
+
+Return code: 0
