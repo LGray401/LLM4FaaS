@@ -1,9 +1,0 @@
-Standard Output:
-
-Standard Error:
-  File "/Users/minghe/llm4faas/experiments_default/functions_en/copilot_en_functions/plan/copilot_plan_12.py", line 21
-    def leave_home_plan(home):
-    ^
-IndentationError: expected an indented block after function definition on line 16
-
-Return code: 1

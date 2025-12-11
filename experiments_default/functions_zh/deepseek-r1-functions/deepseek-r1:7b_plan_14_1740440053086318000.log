@@ -1,8 +1,0 @@
-Standard Output:
-
-Standard Error:
-  File "/Users/minghe/llm4faas/experiments_default/functions_zh/deepseek-r1-functions/deepseek-r1:7b_plan_14_1740440053086318000.py", line 35
-    def get_sensors(self):
-IndentationError: unexpected indent
-
-Return code: 1

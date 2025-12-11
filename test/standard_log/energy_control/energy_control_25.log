@@ -1,5 +1,5 @@
 Standard Output:
-/Actuator/Door/LivingRoom/1.
+/Actuator/Door/LivingRoom/1
 /Actuator/Curtain/LivingRoom/1 is turned || /Actuator/Curtain/Bedroom/1 is turned
 /Actuator/MusicPlayer/LivingRoom/1 || /Actuator/MusicPlayer/Bedroom/1
 /Sensor/IndoorTemperature/LivingRoom/1 reading is:

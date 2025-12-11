@@ -1,9 +1,0 @@
-Standard Output:
-
-Standard Error:
-Traceback (most recent call last):
-  File "/Users/minghe/llm4faas/experiments_default/functions_zh/deepseek-r1-functions/deepseek-r1:7b_energy_control_15_1738512087841957000.py", line 113, in <module>
-    from room import Room
-ModuleNotFoundError: No module named 'room'
-
-Return code: 1

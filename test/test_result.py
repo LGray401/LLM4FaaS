@@ -84,7 +84,7 @@ def check_logs_with_standard(actual_log_path, standard_log_path, results):
         status = "Warning Exists"
     elif actual_return_code == 0:
         status = "No Error & Warning"
-    elif actual_return_code is None:
+    elif actual_return_code is None:#python
         status = "Timeout"
     else:
         status = f"Unexpected return code {actual_return_code}"
@@ -195,4 +195,5 @@ if __name__ == '__main__':
                     results.append((actual_log_path, None, "Standard log file not found", None))
 
         output_csv_path = os.path.join(actual_logs_path, TASK_NAME + '.csv')
+        # output_csv_path = os.path.join(actual_logs_path, 'new_' + TASK_NAME + '.csv')
         write_results_to_csv(results, output_csv_path)

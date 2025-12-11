@@ -1,9 +1,0 @@
-Standard Output:
-
-Standard Error:
-Traceback (most recent call last):
-  File "/Users/minghe/llm4faas/experiments_default/functions_en/gpt-4o_en_functions/auto-adapt/openai_gpt-4o_auto_adapt_9.py", line 12, in <module>
-    from sensor import IndoorTemperatureSensor, HumiditySensor, LightIntensiveSensor
-ModuleNotFoundError: No module named 'sensor'
-
-Return code: 1

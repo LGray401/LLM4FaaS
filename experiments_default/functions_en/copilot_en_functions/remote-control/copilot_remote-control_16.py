@@ -1,7 +1,0 @@
-# Based on the content of the markdown file, it appears that you are working on a smart home project and you need a `function.py` file. This file should be located in the 'functions' folder and should contain the main function. However, the functional description provided is not clear as it only contains the word "control".
-#
-# The markdown file also includes the source code for four Python files: `sensor.py`, `actuator.py`, `home_plan.py`, and `config.py`. These files seem to be part of your smart home project and are located in the 'home' folder.
-#
-# The `sensor.py` file contains classes for different types of sensors like temperature, humidity, light intensity, and smoke. The `actuator.py` file contains classes for different types of actuators like heater, AC, coffee machine, window, door, curtain, cleaning robot, notification sender, music player, light, smart TV, smart socket, and humidifier. The `home_plan.py` file contains classes for creating rooms with different sensors and actuators. The `config.py` file contains configuration settings for your smart home project.
-#
-# Without a clear functional description, it's challenging to provide a specific `function.py` file. Could you please provide more details about what you want the main function in `function.py` to do?

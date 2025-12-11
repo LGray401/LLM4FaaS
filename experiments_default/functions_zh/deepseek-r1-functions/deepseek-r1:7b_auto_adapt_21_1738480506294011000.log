@@ -1,8 +1,0 @@
-Standard Output:
-
-Standard Error:
-  File "/Users/minghe/llm4faas/experiments_default/functions_zh/deepseek-r1-functions/deepseek-r1:7b_auto_adapt_21_1738480506294011000.py", line 30
-    def get_room_actuators(home, room_name):
-IndentationError: expected an indented block after 'if' statement on line 22
-
-Return code: 1

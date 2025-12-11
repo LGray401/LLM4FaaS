@@ -1,9 +1,0 @@
-Standard Output:
-
-Standard Error:
-Traceback (most recent call last):
-  File "/Users/minghe/llm4faas/experiments_default/functions_en/llama31_en_functions/llama3.1_energy_control_17.py", line 23, in <module>
-    from config import TEMP_LOW, TEMP_HIGH
-ModuleNotFoundError: No module named 'config'
-
-Return code: 1

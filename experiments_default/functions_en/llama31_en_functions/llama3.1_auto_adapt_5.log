@@ -1,9 +1,0 @@
-Standard Output:
-
-Standard Error:
-  File "/Users/minghe/llm4faas/experiments_default/functions_en/llama31_en_functions/llama3.1_auto_adapt_5.py", line 18
-    def create_room_with_components(room_name: str, sensor_types: list, actuator_types: list) -> Room:
-    ^
-IndentationError: expected an indented block after class definition on line 15
-
-Return code: 1

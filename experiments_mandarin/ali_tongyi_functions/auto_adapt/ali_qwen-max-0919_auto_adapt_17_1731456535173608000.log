@@ -1,8 +1,0 @@
-Standard Output:
-
-Standard Error:
-  File "/Users/minghe/llm4faas/experiments_mandarin/ali_tongyi_functions/auto_adapt/ali_qwen-max-0919_auto_adapt_17_1731456535173608000.py", line 39
-    elif isinstance(actuator, AC):
-IndentationError: expected an indented block after 'else' statement on line 38
-
-Return code: 1

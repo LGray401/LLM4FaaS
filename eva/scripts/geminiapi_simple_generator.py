@@ -3,10 +3,13 @@ import google.generativeai as genai
 import os
 from dotenv import load_dotenv
 
+# from eva.scripts.model_setting import GEMINI_MODEL
 
 # Load environment variables from .env file
 load_dotenv()
-api_key = os.environ["GOOGLE_API_KEY"]
+api_key = 'AIzaSyDYTgLcfSkkgRRcQdWcADYPJS8tTyOy-I8'
+
+    # os.environ["GOOGLE_API_KEY"]
 
 # Initialize Google API Client
 genai.configure(api_key=api_key)
@@ -24,7 +27,7 @@ genai.configure(api_key=api_key)
 # md_dir = "/Users/minghe/llm4faas/logs_questionnaire_in_English/auto_adapt"
 # md_dir = "/Users/minghe/llm4faas/logs_questionnaire_in_English/energy"
 
-md_dir = "/Users/minghe/llm4faas/default_experiments/logs_repeat_Chinese/temp"
+md_dir = "/Users/minghe/llm4faas/experiments_default/logs_repeat_Chinese/temp"
 
 def comment_out_non_code(text):
     lines = text.split('\n')
@@ -58,12 +61,14 @@ def process_md_file(md_dir):
 
             generation_config = {
                 'temperature': 0.7, 
-                'max_output_tokens': 1500
+                'max_output_tokens': 1500,
             }
 
-
             # Generate content using the model
-            model = genai.GenerativeModel(model_name="models/gemini-1.5-flash", generation_config=generation_config)
+            model = genai.GenerativeModel(
+                model_name='models/gemini-1.5-flash',
+                generation_config=generation_config
+            )
             response = model.generate_content(
                 [
                     "",

@@ -1,7 +1,0 @@
-Standard Output:
-Usage: python smart_home.py <plan>
-Where <plan> is 'morning', 'leave_home', or 'movie'.
-
-Standard Error:
-
-Return code: 0

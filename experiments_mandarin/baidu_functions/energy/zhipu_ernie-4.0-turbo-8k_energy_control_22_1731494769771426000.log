@@ -1,9 +1,0 @@
-Standard Output:
-
-Standard Error:
-Traceback (most recent call last):
-  File "/Users/minghe/llm4faas/experiments_mandarin/baidu_functions/energy/zhipu_ernie-4.0-turbo-8k_energy_control_22_1731494769771426000.py", line 7, in <module>
-    from home.actuator import AC, Light, SmokeAlarm
-ImportError: cannot import name 'SmokeAlarm' from 'home.actuator' (/Users/minghe/llm4faas/home/actuator.py)
-
-Return code: 1

@@ -62,7 +62,6 @@ def read_markdown(file_path):
         # print(content)
     return content
 
-
 def generate_python_code(prompt):
     response = openai.chat.completions.create(
         model=model,
@@ -73,7 +72,6 @@ def generate_python_code(prompt):
         ],
         max_tokens=MAX_TOKENS,
         temperature=TEMPERATURE,
-        #max_completion_tokens = 1500,
     )
     response_content = response.choices[0].message.content.strip()
     # return response_content

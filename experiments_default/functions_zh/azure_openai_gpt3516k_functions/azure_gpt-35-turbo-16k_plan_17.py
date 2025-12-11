@@ -1,1 +1,0 @@
-# Sure, I will create a 'function.py' file for your smart home project.

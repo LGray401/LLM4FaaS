@@ -1,0 +1,105 @@
+fn_name, upload_duration, trigger_duration, tinyFaaS_start_duration, llm_generation_duration
+openai_gpt-4o_auto_adapt_22, 6283738000, 17110000, 179272000, None
+openai_gpt-4o_auto_adapt_25, 4612290000, Timeout after 30 seconds!, 69397000, None
+openai_gpt-4o_auto_adapt_9, 4581044000, 17751000, 66249000, None
+openai_gpt-4o_auto_adapt_13, 4590786000, 16271000, 66001000, None
+openai_gpt-4o_auto_adapt_14, 4552375000, Timeout after 30 seconds!, 72577000, None
+openai_gpt-4o_auto_adapt_7, 4514733000, 16602000, 64442000, None
+openai_gpt-4o_plan_5, 4559727000, 17556000, 64886000, None
+openai_gpt-4o_plan_2, 4542938000, 17095000, 64395000, None
+openai_gpt-4o_auto_adapt_15, 4531776000, 15053000, 64433000, None
+openai_gpt-4o_auto_adapt_6, 36557007000, None, 65617000, None
+openai_gpt-4o_auto_adapt_12, 4604533000, 16910000, 66230000, None
+openai_gpt-4o_auto_adapt_1, 4660066000, 1018869000, 154338000, None
+openai_gpt-4o_auto_adapt_24, 4520736000, Timeout after 30 seconds!, 64568000, None
+openai_gpt-4o_auto_adapt_8, 4514395000, 15811000, 65204000, None
+openai_gpt-4o_auto_adapt_23, 4838795000, 11880000, 163694000, None
+openai_gpt-4o_plan_3, 4899006000, 27250000, 70390000, None
+openai_gpt-4o_plan_4, 5027287000, 12337000, 86655000, None
+openai_gpt-4o_plan_22, 4919998000, 8513000, 156409000, None
+openai_gpt-4o_plan_25, 4773243000, 11625000, 141422000, None
+openai_gpt-4o_plan_13, 4692890000, 10867000, 65878000, None
+openai_gpt-4o_plan_14, 4567076000, 24265000, 64935000, None
+openai_gpt-4o_energy_control_9, 4551258000, 9773000, 65284000, None
+openai_gpt-4o_energy_control_7, 4826279000, 9784000, 142775000, None
+openai_gpt-4o_plan_15, 4585589000, 16480000, 67800000, None
+openai_gpt-4o_plan_12, 6059003000, 14099000, 145190000, None
+openai_gpt-4o_plan_24, 3701204000, 16739000, 76687000, None
+openai_gpt-4o_plan_23, 3742518000, 15402000, 63229000, None
+openai_gpt-4o_energy_control_6, 3687732000, 17004000, 64539000, None
+openai_gpt-4o_energy_control_1, 3636290000, 16980000, 63587000, None
+openai_gpt-4o_energy_control_8, 35729710000, None, 62930000, None
+openai_gpt-4o_remote_control_12, 4154097000, 9897000, 64834000, None
+openai_gpt-4o_remote_control_15, 4065989000, 17178000, 150515000, None
+openai_gpt-4o_remote_control_23, 3764410000, Timeout after 30 seconds!, 64937000, None
+openai_gpt-4o_remote_control_24, 3969632000, 19573000, 64578000, None
+openai_gpt-4o_remote_control_25, 3782019000, 15701000, 64909000, None
+openai_gpt-4o_remote_control_22, 3649589000, 14312000, 63816000, None
+openai_gpt-4o_remote_control_14, 3699639000, 16956000, 64217000, None
+openai_gpt-4o_remote_control_13, 3658816000, 14926000, 63857000, None
+openai_gpt-4o_energy_control_19, 3658861000, 16054000, 63142000, None
+openai_gpt-4o_remote_control_2, 3728229000, 16096000, 63643000, None
+openai_gpt-4o_energy_control_26, 3678339000, Timeout after 30 seconds!, 64546000, None
+openai_gpt-4o_remote_control_5, 3700210000, 17033000, 62337000, None
+openai_gpt-4o_energy_control_21, 3788177000, 13906000, 146658000, None
+openai_gpt-4o_energy_control_17, 3646656000, Timeout after 30 seconds!, 64199000, None
+openai_gpt-4o_energy_control_10, 3840226000, 15286000, 141729000, None
+openai_gpt-4o_energy_control_11, 3780680000, 18602000, 115483000, None
+openai_gpt-4o_energy_control_16, 4075711000, 12059570000, 138850000, None
+openai_gpt-4o_remote_control_4, 3801120000, 16094000, 62859000, None
+openai_gpt-4o_energy_control_20, 3647800000, 11354000, 64348000, None
+openai_gpt-4o_energy_control_18, 3811207000, 8766000, 115197000, None
+openai_gpt-4o_remote_control_3, 3743160000, 18215000, 99173000, None
+openai_gpt-4o_plan_1, 3768422000, 13426000, 64004000, None
+openai_gpt-4o_plan_6, 3632903000, 8028373000, 63248000, None
+openai_gpt-4o_plan_8, 3663545000, 15277000, 63339000, None
+openai_gpt-4o_auto_adapt_26, 3678117000, Timeout after 30 seconds!, 89481000, None
+openai_gpt-4o_auto_adapt_19, 35690886000, None, 64664000, None
+openai_gpt-4o_auto_adapt_21, 3763430000, 15240000, 63606000, None
+openai_gpt-4o_auto_adapt_17, 3893828000, 11886000, 64767000, None
+openai_gpt-4o_auto_adapt_4, 3726399000, 15950000, 65860000, None
+openai_gpt-4o_auto_adapt_10, 3765012000, 14871000, 138494000, None
+openai_gpt-4o_auto_adapt_3, 3781822000, 15983000, 64683000, None
+openai_gpt-4o_plan_9, 3658422000, 17832000, 86699000, None
+openai_gpt-4o_plan_7, 3679031000, 5018548000, 64435000, None
+openai_gpt-4o_auto_adapt_11, 4111058000, 28859000, 65496000, None
+openai_gpt-4o_auto_adapt_2, 3757362000, 16220000, 139241000, None
+openai_gpt-4o_auto_adapt_16, 3672791000, 17111000, 65044000, None
+openai_gpt-4o_auto_adapt_5, 3964212000, 20982000, 141208000, None
+openai_gpt-4o_auto_adapt_20, 3725250000, Timeout after 30 seconds!, 64935000, None
+openai_gpt-4o_auto_adapt_18, 3868176000, 17542000, 140401000, None
+openai_gpt-4o_energy_control_4, 36565372000, None, 137178000, None
+openai_gpt-4o_energy_control_3, 4650632000, 1024148000, 64337000, None
+openai_gpt-4o_plan_26, 3890308000, 16175000, 144979000, None
+openai_gpt-4o_plan_19, 4104143000, 18129000, 137309000, None
+openai_gpt-4o_plan_21, 3719779000, 21431000, 63935000, None
+openai_gpt-4o_plan_17, 3675032000, 20285000, 94505000, None
+openai_gpt-4o_plan_10, 3659625000, None, 64318000, None
+openai_gpt-4o_energy_control_2, 3674828000, 14529000, 63475000, None
+openai_gpt-4o_energy_control_5, 3732370000, 16920000, 63611000, None
+openai_gpt-4o_plan_11, 3802732000, 15752000, 147241000, None
+openai_gpt-4o_plan_16, 3664594000, 20855000, 64965000, None
+openai_gpt-4o_plan_20, 3727042000, 17217000, 64854000, None
+openai_gpt-4o_plan_18, 3688753000, 15570000, 71066000, None
+openai_gpt-4o_remote_control_16, 3692891000, 14713000, 64497000, None
+openai_gpt-4o_remote_control_11, 3701348000, 15431000, 64794000, None
+openai_gpt-4o_remote_control_18, 3917496000, 16545000, 151721000, None
+openai_gpt-4o_remote_control_20, 3671040000, 14944000, 64054000, None
+openai_gpt-4o_remote_control_21, 3673806000, 3017841000, 64812000, None
+openai_gpt-4o_remote_control_19, 3731270000, 23274000, 90971000, None
+openai_gpt-4o_remote_control_26, 3698007000, 17832000, 64396000, None
+openai_gpt-4o_remote_control_10, 3841827000, 11872000, 172509000, None
+openai_gpt-4o_remote_control_17, 4541616000, 16478000, 88513000, None
+openai_gpt-4o_remote_control_6, 3924696000, 16181000, 65594000, None
+openai_gpt-4o_energy_control_22, 3673347000, Timeout after 30 seconds!, 64129000, None
+openai_gpt-4o_remote_control_1, 3697261000, 3020247000, 65754000, None
+openai_gpt-4o_energy_control_25, 3790845000, 15512000, 95122000, None
+openai_gpt-4o_energy_control_13, 3781096000, 18125000, 142002000, None
+openai_gpt-4o_remote_control_8, 36185155000, None, 64793000, None
+openai_gpt-4o_energy_control_14, 3755585000, 18304000, 63775000, None
+openai_gpt-4o_energy_control_15, 3733999000, 14148000, 64513000, None
+openai_gpt-4o_energy_control_12, 3647834000, 16049000, 64169000, None
+openai_gpt-4o_remote_control_9, 3651915000, 15908000, 63847000, None
+openai_gpt-4o_energy_control_24, 3673151000, 11574000, 69242000, None
+openai_gpt-4o_remote_control_7, 3694917000, 12804000, 118877000, None
+openai_gpt-4o_energy_control_23, 3758947000, 6018979000, 64965000, None

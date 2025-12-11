@@ -2,7 +2,7 @@
 Hi, I want you to provide me a NodeJs file, 'function.js', for my current smart home project based on my given functional description.
 
 Four code files in my project, i.e., sensor.js, actuator.js, home_plan.js and config.js, are in the 'home' folder.
-The required 'function.js' should locate in the 'functions' folder, function.js should contain main function.
+The required 'function.js' should locate in the root folder, function.js should contain main function.
 
 I will first give you the functional description, then give you the 4 NodeJs source code.
 

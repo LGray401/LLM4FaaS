@@ -1,9 +1,0 @@
-Standard Output:
-/Actuator/Window/LivingRoom/1 is turned on.
-Opened the window in LivingRoom.
-/Actuator/AC/LivingRoom/1 is turned off.
-Turned off the AC in LivingRoom.
-
-Standard Error:
-
-Return code: 0

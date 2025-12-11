@@ -1,7 +1,0 @@
-Standard Output:
-Usage: ./smart_home.py <plan_name>
-Available plans: morning, leave_home, movie
-
-Standard Error:
-
-Return code: 1

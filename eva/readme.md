@@ -27,7 +27,3 @@
 1. change the model in line 6 of [ollama generator](scripts/ollama_simple_generate.py).
 2. change the function prompt directory in line 46 of [ollama generator](scripts/ollama_simple_generate.py).
 3. run the main() function for all user prompts.
-
-## Azure OpenAI gpt-3.5-turbo-16k
-1. if there is an error about the httpx version, maybe just run the scripts from console.
-2. 

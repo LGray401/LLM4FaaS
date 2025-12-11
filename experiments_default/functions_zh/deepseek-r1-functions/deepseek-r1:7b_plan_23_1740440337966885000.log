@@ -1,8 +1,0 @@
-Standard Output:
-
-Standard Error:
-  File "/Users/minghe/llm4faas/experiments_default/functions_zh/deepseek-r1-functions/deepseek-r1:7b_plan_23_1740440337966885000.py", line 126
-    room = create_room_with_components(room_name, sensors=[LightSensor, MotionSensor], ...)
-IndentationError: unexpected indent
-
-Return code: 1

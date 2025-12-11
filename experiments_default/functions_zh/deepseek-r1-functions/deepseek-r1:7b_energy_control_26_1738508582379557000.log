@@ -1,9 +1,0 @@
-Standard Output:
-
-Standard Error:
-  File "/Users/minghe/llm4faas/experiments_default/functions_zh/deepseek-r1-functions/deepseek-r1:7b_energy_control_26_1738508582379557000.py", line 367
-    First, I need to identify which parts are incorrect or missing. Let's go through each function one by one.
-                                                                       ^
-SyntaxError: unterminated string literal (detected at line 367)
-
-Return code: 1

@@ -4,55 +4,328 @@
     <option name="conversations">
       <list>
         <Conversation>
-          <option name="createTime" value="1731076985540" />
-          <option name="id" value="130f7876f58a4e22857bd742cdf009e2" />
-          <option name="title" value="# Preparation&#10;Hi, I want you to provide me a 'func" />
+          <option name="createTime" value="1748853956823" />
+          <option name="id" value="01972fd1a0d773138d54103f680a211d" />
+          <option name="updateTime" value="1748853956823" />
+        </Conversation>
+        <Conversation>
+          <option name="createTime" value="1748853355581" />
+          <option name="id" value="01972fc8743d73a9ac83db562193be9a" />
+          <option name="updateTime" value="1748853355581" />
+        </Conversation>
+        <Conversation>
+          <option name="createTime" value="1746010575280" />
+          <option name="id" value="0196865711b071a5ad8696ba8a3b3c6c" />
+          <option name="title" value="新对话 2025年4月30日 12:56:15" />
+          <option name="updateTime" value="1746010575280" />
+        </Conversation>
+        <Conversation>
+          <option name="createTime" value="1745923775057" />
+          <option name="id" value="0196812a9a5178f7a7e8d34555c2e1a4" />
+          <option name="title" value="新对话 2025年4月29日 12:49:35" />
+          <option name="updateTime" value="1745923775057" />
+        </Conversation>
+        <Conversation>
+          <option name="createTime" value="1745917259225" />
+          <option name="id" value="019680c72dd9740f96f51b56fbfbf868" />
+          <option name="title" value="新对话 2025年4月29日 11:00:59" />
+          <option name="updateTime" value="1745917259225" />
+        </Conversation>
+        <Conversation>
+          <option name="createTime" value="1745839291646" />
+          <option name="id" value="01967c217cfe77648c81a440c4501e66" />
+          <option name="title" value="新对话 2025年4月28日 13:21:31" />
+          <option name="updateTime" value="1745839291646" />
+        </Conversation>
+        <Conversation>
+          <option name="createTime" value="1745828034571" />
+          <option name="id" value="01967b75b80b79eab31134b47df4b6e1" />
+          <option name="title" value="新对话 2025年4月28日 10:13:54" />
+          <option name="updateTime" value="1745828034571" />
+        </Conversation>
+        <Conversation>
+          <option name="createTime" value="1745796570805" />
+          <option name="id" value="019679959eb57cf08f057cd993f9f416" />
+          <option name="title" value="新对话 2025年4月28日 01:29:30" />
+          <option name="updateTime" value="1745796570805" />
+        </Conversation>
+        <Conversation>
+          <option name="createTime" value="1745777941768" />
+          <option name="id" value="019678795d087ff9b0323ddff319d5e1" />
+          <option name="title" value="新对话 2025年4月27日 20:19:01" />
+          <option name="updateTime" value="1745777941768" />
+        </Conversation>
+        <Conversation>
+          <option name="createTime" value="1745512950224" />
+          <option name="id" value="019668ade9d07ecdafa158917dd54365" />
+          <option name="title" value="新对话 2025年4月27日 20:19:01" />
+          <option name="updateTime" value="1745512950224" />
+        </Conversation>
+        <Conversation>
+          <option name="createTime" value="1745512914898" />
+          <option name="id" value="019668ad5fd27d688b2c02167dbe85ab" />
+          <option name="title" value="新对话 2025年4月27日 20:19:01" />
+          <option name="updateTime" value="1745512914898" />
+        </Conversation>
+        <Conversation>
+          <option name="createTime" value="1744360877545" />
+          <option name="id" value="01962402ade9769d83d1b118871b092f" />
+          <option name="title" value="新对话 2025年4月11日 10:41:17" />
+          <option name="updateTime" value="1744360877545" />
+        </Conversation>
+        <Conversation>
+          <option name="createTime" value="1744302202196" />
+          <option name="id" value="019620835d5475deb89a457ce8804757" />
+          <option name="title" value="新对话 2025年4月10日 18:23:22" />
+          <option name="updateTime" value="1744302202196" />
+        </Conversation>
+        <Conversation>
+          <option name="createTime" value="1744289346323" />
+          <option name="id" value="01961fbf331370f0abc6307d5a538cda" />
+          <option name="title" value="新对话 2025年4月10日 14:49:06" />
+          <option name="updateTime" value="1744289346323" />
+        </Conversation>
+        <Conversation>
+          <option name="createTime" value="1744280356038" />
+          <option name="id" value="01961f3604c67b9787ddabc4beef89ab" />
+          <option name="title" value="新对话 2025年4月10日 12:19:16" />
+          <option name="updateTime" value="1744280356038" />
+        </Conversation>
+        <Conversation>
+          <option name="createTime" value="1744214253185" />
+          <option name="id" value="01961b455e817626b57ab1283d214132" />
+          <option name="title" value="新对话 2025年4月09日 17:57:33" />
+          <option name="updateTime" value="1744214253185" />
+        </Conversation>
+        <Conversation>
+          <option name="createTime" value="1744199900612" />
+          <option name="id" value="01961a6a5dc47755b5b467fac0bb9fa7" />
+          <option name="title" value="Java 冒泡排序" />
           <option name="turns">
             <list>
               <Turn>
                 <option name="agent" value="" />
-                <option name="answer" value="根据您的需求，我将在`ufmxgrlmh`文件夹中创建一个`ufmxgrlm.kb`文件，其中包含执行早晨计划、离家计划和电影计划的`nzrm`函数。以下是`ufmxgrlm.kb`的代码：&#10;&#10;```kbgslm&#10;uiln slnv.zxgfzgli rnklig Xfigzrm, Ortsg, NfhrxKozbvi, XluuvvNzxsrmv, Wlli, HnzigGE&#10;uiln slnv.hvmhli rnklig OrtsgRmgvmhrevHvmhli&#10;uiln slnv.slnv_kozm rnklig tvg_illn_zxgfzglih&#10;&#10;wvu nlimrmt_kozm():&#10;    # 打开窗帘&#10;    xfigzrmh = tvg_illn_zxgfzglih(&quot;OrermtIlln&quot;, Xfigzrm)&#10;    uli xfigzrm rm xfigzrmh:&#10;        xfigzrm.gfim_lm()&#10;&#10;    # 打开灯&#10;    ortsgh = tvg_illn_zxgfzglih(&quot;OrermtIlln&quot;, Ortsg)&#10;    uli ortsg rm ortsgh:&#10;        ortsg.gfim_lm()&#10;&#10;    # 播放舒缓音乐&#10;    nfhrx_kozbvi = tvg_illn_zxgfzglih(&quot;OrermtIlln&quot;, NfhrxKozbvi)[9]&#10;    nfhrx_kozbvi.kozb_nfhrx(&quot;舒缓音乐&quot;)&#10;&#10;    # 制作咖啡&#10;    xluuvv_nzxsrmv = tvg_illn_zxgfzglih(&quot;Prgxsvm&quot;, XluuvvNzxsrmv)[9]&#10;    xluuvv_nzxsrmv.nzpv_xluuvv(&quot;拿铁&quot;)&#10;&#10;wvu ovzev_slnv_kozm():&#10;    # 关闭入户门&#10;    wlli = tvg_illn_zxgfzglih(&quot;Vmgizmxv&quot;, Wlli)[9]&#10;    wlli.gfim_luu()&#10;&#10;    # 关闭灯&#10;    ortsgh = tvg_illn_zxgfzglih(&quot;OrermtIlln&quot;, Ortsg)&#10;    uli ortsg rm ortsgh:&#10;        ortsg.gfim_luu()&#10;&#10;wvu nlerv_kozm():&#10;    # 打开电视&#10;    ge = tvg_illn_zxgfzglih(&quot;OrermtIlln&quot;, HnzigGE)[9]&#10;    ge.kozb_xszmmvo(&quot;电影频道&quot;)&#10;&#10;    # 关闭窗帘&#10;    xfigzrmh = tvg_illn_zxgfzglih(&quot;OrermtIlln&quot;, Xfigzrm)&#10;    uli xfigzrm rm xfigzrmh:&#10;        xfigzrm.gfim_luu()&#10;&#10;    # 调暗灯光&#10;    ortsgh = tvg_illn_zxgfzglih(&quot;OrermtIlln&quot;, Ortsg)&#10;    uli ortsg rm ortsgh:&#10;        ortsg.hvg_yirtsgmvhh_ovevo(&quot;old&quot;)&#10;&#10;wvu nzrm():&#10;    # 选择执行哪个计划&#10;    kozm = rmkfg(&quot;请选择要执行的计划（nlimrmt/ovzev_slnv/nlerv）：&quot;)&#10;    ru kozm == &quot;nlimrmt&quot;:&#10;        nlimrmt_kozm()&#10;    voru kozm == &quot;ovzev_slnv&quot;:&#10;        ovzev_slnv_kozm()&#10;    voru kozm == &quot;nlerv&quot;:&#10;        nlerv_kozm()&#10;    vohv:&#10;        kirmg(&quot;无效的计划选择，请输入'nlimrmt', 'ovzev_slnv'或'nlerv'。&quot;)&#10;&#10;ru __mznv__ == &quot;__nzrm__&quot;:&#10;    nzrm()&#10;```&#10;&#10;请注意，上述代码假设您已经有了一个`slnv`文件夹，其中包含了`hvmhli.kb`、`zxgfzgli.kb`、`slnv_kozm.kb`和`xlmurt.kb`文件，并且这些文件中的类和函数可以按照预期工作。此外，`tvg_illn_zxgfzglih`函数需要能够根据房间名称和执行器类型返回相应的执行器实例列表。&#10;&#10;在`nzrm`函数中，用户可以选择执行早晨计划、离家计划或电影计划。每个计划都是通过调用相应的函数来实现的，这些函数会根据您的描述控制家中的智能设备。&#10;&#10;请确保在运行`ufmxgrlm.kb`之前，所有的依赖项都已经正确安装，并且`slnv`文件夹中的代码可以正常运行。" />
+                <option name="answer" value="# Qzez 冒泡排序实现&#10;&#10;冒泡排序是一种简单的排序算法，它重复地遍历要排序的列表，比较相邻的元素并交换它们的位置，直到列表排序完成。&#10;&#10;## 基本实现&#10;&#10;```qzez&#10;kfyorx xozhh YfyyovHlig {&#10;    kfyorx hgzgrx elrw yfyyovHlig(rmg[] zii) {&#10;        rmg m = zii.ovmtgs;&#10;        uli (rmg r = 9; r &lt; m - 8; r++) {&#10;            uli (rmg q = 9; q &lt; m - r - 8; q++) {&#10;                ru (zii[q] &gt; zii[q + 8]) {&#10;                    // 交换 zii[q] 和 zii[q+8]&#10;                    rmg gvnk = zii[q];&#10;                    zii[q] = zii[q + 8];&#10;                    zii[q + 8] = gvnk;&#10;                }&#10;            }&#10;        }&#10;    }&#10;&#10;    kfyorx hgzgrx elrw nzrm(Hgirmt[] zith) {&#10;        rmg[] zii = {35, 65, 74, 87, 77, 88, 09};&#10;        yfyyovHlig(zii);&#10;        Hbhgvn.lfg.kirmgom(&quot;排序后的数组:&quot;);&#10;        uli (rmg mfn : zii) {&#10;            Hbhgvn.lfg.kirmg(mfn + &quot; &quot;);&#10;        }&#10;    }&#10;}&#10;```&#10;&#10;## 优化版本&#10;&#10;添加一个标志位来检测某一轮是否发生了交换，如果没有交换说明数组已经有序，可以提前结束排序。&#10;&#10;```qzez&#10;kfyorx xozhh LkgrnravwYfyyovHlig {&#10;    kfyorx hgzgrx elrw lkgrnravwYfyyovHlig(rmg[] zii) {&#10;        rmg m = zii.ovmtgs;&#10;        yllovzm hdzkkvw;&#10;        uli (rmg r = 9; r &lt; m - 8; r++) {&#10;            hdzkkvw = uzohv;&#10;            uli (rmg q = 9; q &lt; m - r - 8; q++) {&#10;                ru (zii[q] &gt; zii[q + 8]) {&#10;                    // 交换 zii[q] 和 zii[q+8]&#10;                    rmg gvnk = zii[q];&#10;                    zii[q] = zii[q + 8];&#10;                    zii[q + 8] = gvnk;&#10;                    hdzkkvw = gifv;&#10;                }&#10;            }&#10;            // 如果这一轮没有发生交换，说明数组已经有序&#10;            ru (!hdzkkvw) yivzp;&#10;        }&#10;    }&#10;&#10;    kfyorx hgzgrx elrw nzrm(Hgirmt[] zith) {&#10;        rmg[] zii = {35, 65, 74, 87, 77, 88, 09};&#10;        lkgrnravwYfyyovHlig(zii);&#10;        Hbhgvn.lfg.kirmgom(&quot;优化后的排序数组:&quot;);&#10;        uli (rmg mfn : zii) {&#10;            Hbhgvn.lfg.kirmg(mfn + &quot; &quot;);&#10;        }&#10;    }&#10;}&#10;```&#10;&#10;## 特点&#10;&#10;- 时间复杂度：&#10;  - 最坏情况：L(m²)（数组完全逆序）&#10;  - 最好情况：L(m)（数组已经有序，使用优化版本）&#10;  - 平均情况：L(m²)&#10;  &#10;- 空间复杂度：L(8)（原地排序）&#10;&#10;- 稳定性：稳定排序算法（相等的元素不会改变相对位置）&#10;&#10;冒泡排序适合小规模数据的排序，对于大规模数据效率较低。" />
                 <option name="chatResource" value="user" />
                 <option name="codeReferences">
-                  <list>
-                    <CodeReferencesBean>
-                      <option name="content" value="# Preparation&#10;Hi, I want you to provide me a 'function.py' file for my current smart home project based on my given functional description.&#10;&#10;Four code files in my project, i.e., sensor.py, actuator.py, home_plan.py and config.py, are in the 'home' folder.&#10;The required 'function.py' should locate in the 'functions' folder, function.py should contain main function.&#10;&#10;I will first give you the functional description, then give you the 4 python source code.&#10;&#10;# Functional Description&#10;MORNING PLAN:&#10;打开窗帘，打开灯，播放舒缓音乐，制作咖啡&#10;&#10;LEAVE HOME PLAN:&#10;关闭入户门，关闭灯，&#10;&#10;MOVIE PLAN:&#10;打开电视，关闭窗帘，调暗灯光&#10;&#10;&#10;# Source Code&#10;## sensor.py&#10;```python&#10;import random&#10;from home.logger_config import logger&#10;&#10;class Sensor:&#10;    sensor_count = {}  # Dictionary to keep track of sensor count for each room and sensor type&#10;&#10;    def __init__(self, sensor_type, room_name):&#10;        if room_name not in Sensor.sensor_count:&#10;            Sensor.sensor_count[room_name] = {}  # Initialize sensor count for the room if not already present&#10;        if sensor_type not in Sensor.sensor_count[room_name]:&#10;            Sensor.sensor_count[room_name][&#10;                sensor_type] = 0  # Initialize sensor count for the sensor type if not already present&#10;&#10;        Sensor.sensor_count[room_name][sensor_type] += 1  # Increment sensor count for the sensor type in the room&#10;&#10;        self.id = f&quot;/Sensor/{sensor_type}/{room_name}/{Sensor.sensor_count[room_name][sensor_type]}&quot;&#10;        self.sensor_type = sensor_type&#10;        self.room_name = room_name&#10;        self.status = &quot;off&quot;&#10;&#10;    def turn_on(self):&#10;        self.status = &quot;on&quot;&#10;        print(f&quot;'{self.id}' is now {self.status.upper()}.&quot;)&#10;        logger.info(format(&quot;\'&quot; + self.id + &quot;\' is turned &quot; + self.status.upper()))&#10;&#10;    def turn_off(self):&#10;        self.status = &quot;off&quot;&#10;        print(f&quot;{self.id} is now OFF.&quot;)&#10;        logger.info(format(&quot;\'&quot; + self.id + &quot;\' is turned &quot; + self.status.upper()))&#10;&#10;    def get_reading(self):&#10;        if self.status == &quot;off&quot;:&#10;            print(f&quot;Cannot Get Sensor Reading, {self.id} is Currently OFF. &quot;)&#10;            logger.warning(format(&quot;\'&quot; + self.id + &quot;\' is currently OFF. Cannot get reading.&quot;))&#10;            return None&#10;        elif self.status == &quot;on&quot;:&#10;            reading = self._generate_reading()&#10;            print(f&quot;{self.id} reading is: {reading}&quot;)&#10;            logger.info(format(&quot;\'&quot; + self.id + &quot;\' Reading is: &quot; + str(reading)))&#10;            return reading&#10;        else:&#10;            logger.error(format(&quot;\'&quot; + self.id + &quot;\' is in error status.&quot;))&#10;            print(f&quot;Status Error with status: {self.status}&quot;)&#10;&#10;    def get_status(self):&#10;        print(f&quot;{self.id} current status is: {self.status}&quot;)&#10;        logger.info(format(&quot;\'&quot; + self.id + &quot;\' CURRENT STATUS is: &quot; + self.status.upper()))&#10;        return self.status&#10;&#10;    def _generate_reading(self):&#10;        raise NotImplementedError(&quot;Subclasses must implement _generate_reading method.&quot;)&#10;&#10;&#10;class IndoorTemperatureSensor(Sensor):&#10;    def __init__(self, room_name):&#10;        super().__init__(&quot;IndoorTemperature&quot;, room_name)&#10;&#10;    def _generate_reading(self):&#10;        return round(random.uniform(10, 40), 2)&#10;&#10;&#10;class OutdoorTemperatureSensor(Sensor):&#10;    def __init__(self, room_name):&#10;        super().__init__(&quot;OutdoorTemperature&quot;, room_name)&#10;&#10;    def _generate_reading(self):&#10;        return round(random.uniform(-10, 40), 2)&#10;&#10;&#10;class HumiditySensor(Sensor):&#10;    def __init__(self, room_name):&#10;        super().__init__(&quot;Humidity&quot;, room_name)&#10;&#10;    def _generate_reading(self):&#10;        return round(random.uniform(0, 100), 2)&#10;&#10;&#10;class LightIntensiveSensor(Sensor):&#10;    def __init__(self, room_name):&#10;        super().__init__(&quot;LightIntensive&quot;, room_name)&#10;&#10;    def _generate_reading(self):&#10;        return round(random.uniform(900, 1000), 2)&#10;&#10;&#10;class SmokeSensor(Sensor):&#10;    def __init__(self, room_name):&#10;        super().__init__(&quot;Smoke&quot;, room_name)&#10;&#10;    def _generate_reading(self):&#10;        return round(random.uniform(0, 100), 2)&#10;&#10;&#10;if __name__ == &quot;__main__&quot;:&#10;    # pass&#10;&#10;    uv_sensor = LightIntensiveSensor(&quot;test&quot;)&#10;    uv_sensor.turn_on()&#10;    uv_sensor.get_status()&#10;    print(uv_sensor.get_reading())&#10;    uv_sensor.turn_off()&#10;    print(uv_sensor.get_reading())&#10;&#10;    outdoor_temp_sensor = OutdoorTemperatureSensor(&quot;test&quot;)&#10;    outdoor_temp_sensor.turn_on()&#10;    print(outdoor_temp_sensor.get_reading())&#10;```&#10;&#10;## actuator.py&#10;```python&#10;import random&#10;import time&#10;from home.logger_config import logger&#10;&#10;from home.config import DAILY_ROUTINE_DURATION&#10;&#10;&#10;# Currently, we send notification/logger.warning(msg) to the user when we need to turn on the actuators before using&#10;# them.&#10;&#10;class Actuator:&#10;    actuator_count = {}  # Dictionary to keep track of sensor count for each room and sensor type&#10;&#10;    def __init__(self, actuator_type, room_name):&#10;        if room_name not in Actuator.actuator_count:&#10;            Actuator.actuator_count[room_name] = {}  # Initialize sensor count for the room if not already present&#10;        if actuator_type not in Actuator.actuator_count[room_name]:&#10;            Actuator.actuator_count[room_name][&#10;                actuator_type] = 0  # Initialize sensor count for the sensor type if not already present&#10;&#10;        Actuator.actuator_count[room_name][actuator_type] += 1  # Increment sensor count for the sensor type in the room&#10;&#10;        self.id = f&quot;/Actuator/{actuator_type}/{room_name}/{Actuator.actuator_count[room_name][actuator_type]}&quot;&#10;        self.actuator_type = actuator_type&#10;        self.room_name = room_name&#10;        self.status = &quot;off&quot;&#10;&#10;    def turn_on(self):&#10;        self.status = &quot;on&quot;&#10;        print(f&quot;{self.id} is now {self.status}.&quot;)&#10;        logger.info(format(&quot;\'&quot; + self.id + &quot;\' is turned &quot; + self.status.upper()))&#10;&#10;    def turn_off(self):&#10;        self.status = &quot;off&quot;&#10;        print(f&quot;{self.id} is now {self.status}.&quot;)&#10;        logger.info(format(&quot;\'&quot; + self.id + &quot;\' is turned &quot; + self.status.upper()))&#10;&#10;    def get_status(self):&#10;        print(f&quot;{self.id} current status is {self.status}&quot;)&#10;        logger.info(format(&quot;\'&quot; + self.id + &quot;\' CURRENT STATUS is: &quot; + self.status.upper()))&#10;        return self.status&#10;&#10;&#10;class Heater(Actuator):&#10;    def __init__(self, room_name):&#10;        super().__init__(&quot;Heater&quot;, room_name)&#10;        self.target_temperature = None&#10;&#10;    def set_target_temperature(self, target_temperature):&#10;        self.target_temperature = target_temperature&#10;        logger.info(format(f&quot;Set the target temperature of {self.id} to {self.target_temperature}°C.&quot;))&#10;        print(f&quot;Set the target temperature of {self.id} to {self.target_temperature}°C.&quot;)&#10;&#10;    def adjust_temperature(self, current_temperature):&#10;        if self.target_temperature is not None:&#10;            if current_temperature &lt; self.target_temperature:&#10;                self.turn_on()&#10;            else:&#10;                self.turn_off()&#10;&#10;&#10;class AC(Actuator):&#10;    def __init__(self, room_name):&#10;        super().__init__(&quot;AC&quot;, room_name)&#10;        self.target_temperature = None&#10;&#10;    def set_target_temperature(self, target_temperature):&#10;        self.target_temperature = target_temperature&#10;        logger.info(format(f&quot;Set the target temperature of {self.id} to {self.target_temperature}°C.&quot;))&#10;        print(f&quot;Set the target temperature of {self.id} to {self.target_temperature}°C.&quot;)&#10;&#10;    def adjust_temperature(self, current_temperature):&#10;        if self.target_temperature is not None:&#10;            if current_temperature &gt; self.target_temperature:&#10;                self.turn_on()&#10;            else:&#10;                self.turn_off()&#10;&#10;&#10;class CoffeeMachine(Actuator):&#10;    def __init__(self, room_name):&#10;        super().__init__(&quot;CoffeeMachine&quot;, room_name)&#10;&#10;    def make_coffee(self, coffee_type):&#10;        if self.status == &quot;on&quot;:&#10;            logger.info(format(self.id + &quot;Start making &quot; + coffee_type))&#10;        elif self.status == &quot;off&quot;:&#10;            print(f&quot; {self.id} is OFF now&quot;)&#10;            logger.warning(format(&quot;\' &quot; + self.id + &quot; \'&quot; + &quot; is OFF now, Need to Turn it On First.&quot;))&#10;            # self.turn_on()&#10;            # self.make_coffee(coffee_type)&#10;        else:&#10;            logger.error(&quot;There is Some Error with the Coffee Machine&quot; + self.id + &quot;.&quot;)&#10;            print(&quot;There is Some Error with the Coffee Machine&quot; + self.id + &quot;.&quot;)&#10;&#10;&#10;class Window(Actuator):&#10;    def __init__(self, room_name):&#10;        super().__init__(&quot;Window&quot;, room_name)&#10;&#10;&#10;class Door(Actuator):&#10;    def __init__(self, room_name):&#10;        super().__init__(&quot;Door&quot;, room_name)&#10;&#10;    def lock(self):&#10;        logger.info(format(&quot;Lock the door&quot; + self.id + &quot;.&quot;))&#10;        print(f&quot;Lock the door {self.id}.&quot;)&#10;&#10;    def unlock(self):&#10;        logger.info(format(&quot;Unlock the door&quot; + self.id + &quot;.&quot;))&#10;        print(f&quot;Unlock the door {self.id}.&quot;)&#10;&#10;&#10;class Curtain(Actuator):&#10;    def __init__(self, room_name):&#10;        super().__init__(&quot;Curtain&quot;, room_name)&#10;&#10;&#10;class CleaningRobot(Actuator):&#10;    def __init__(self, room_name):&#10;        super().__init__(&quot;CleaningRobot&quot;, room_name)&#10;&#10;    def daily_routine(self):&#10;        if self.status == &quot;off&quot;:&#10;            logger.warning(format(&quot;Cleaning Robot &quot; + self.id + &quot; is OFF now, Need to Turn it ON First&quot;))&#10;            print(&quot;Cleaning Robot &quot; + self.id + &quot; is OFF now, Need to Turn it ON First&quot;)&#10;        elif self.status == &quot;on&quot;:&#10;            logger.info(format(&quot;Cleaning Robot &quot; + self.id + &quot; Starts Daily Cleaning Routine&quot;))&#10;            print(f&quot;Cleaning Robot {self.id} Starts Daily Cleaning Routine&quot;)&#10;            time.sleep(DAILY_ROUTINE_DURATION)&#10;            logger.info(format(f&quot;{self.id} Finish Daily Cleaning Routine, Will Turn it OFF&quot;))&#10;            print(f&quot;{self.id} Finish Daily Cleaning Routine, Will Turn it OFF&quot;)&#10;            self.turn_off()&#10;        else:&#10;            logger.error(&quot;There is Some Error with the Cleaning Robot&quot; + self.id + &quot;.&quot;)&#10;            print(f&quot;There is Some Error with the Cleaning Robot {self.id}.&quot;)&#10;&#10;&#10;class NotificationSender(Actuator):&#10;    def __init__(self, room_name):&#10;        super().__init__(&quot;NotificationSender&quot;, room_name)&#10;&#10;    def notification_sender(self, message):&#10;        if self.status == &quot;on&quot;:&#10;            logger.info(format(&quot;Notification Sender &quot; + self.id + &quot; sends message: &quot; + message))&#10;            print(f&quot;Notification Sender {self.id} send message: {message}&quot;)&#10;        elif self.status == &quot;off&quot;:&#10;            logger.warning(format(&quot;Notification Sender &quot; + self.id + &quot; is OFF, Turn it On First.&quot;))&#10;            print(f&quot;Notification Sender {self.id} is OFF, please turn it on then send the message again.&quot;)&#10;        else:&#10;            logger.error(&quot;Fail to send the message. There is some error with the Notification Sender&quot;)&#10;            print(&quot;Fail to send the message. There is some error with the Notification Sender.&quot;)&#10;&#10;&#10;class MusicPlayer(Actuator):&#10;    def __init__(self, room_name):&#10;        super().__init__(&quot;MusicPlayer&quot;, room_name)&#10;&#10;    def play_music(self, playlist):&#10;        if self.status == &quot;on&quot;:&#10;            print(f&quot;{self.id} start playing {playlist}&quot;)&#10;            logger.info(format(f&quot;{self.id} start playing {playlist}&quot;))&#10;        elif self.status == &quot;off&quot;:&#10;            print(f&quot;Music Player {self.id} is OFF now, Turn it ON First&quot;)&#10;            logger.warning(format(&quot;Music Player&quot; + self.id + &quot; is OFF now, Turn it ON First&quot;))&#10;            # self.turn_on()&#10;            # self.play_music(playlist)&#10;            # print(f&quot;Turn {self.id} on and Start playing {playlist} list&quot;)&#10;        else:&#10;            logger.error(&quot;Fail to play &quot; + playlist + &quot;, There is some error with the music player.&quot;)&#10;            print(&quot;Fail to play &quot; + playlist + &quot;, There is some error with the music player.&quot;)&#10;&#10;&#10;class Light(Actuator):&#10;    def __init__(self, room_name):&#10;        super().__init__(&quot;Light&quot;, room_name)&#10;        self.brightness_levels = {&#10;            &quot;low&quot;: 30,&#10;            &quot;medium&quot;: 60,&#10;            &quot;high&quot;: 90&#10;        }&#10;        self.brightness_level = 0&#10;&#10;    def set_brightness_level(self, level_name):&#10;        if level_name in self.brightness_levels:&#10;            if self.status == &quot;on&quot;:&#10;                self.brightness_level = self.brightness_levels[level_name]&#10;                print(f&quot;Set {self.id} light brightness level to {level_name.upper()}&quot;)&#10;                logger.info(format(&quot;Set the &quot; + self.id + &quot; light brightness level to &quot; + level_name.upper()))&#10;            elif self.status == &quot;off&quot;:&#10;                print(f&quot;Light {self.id} is OFF. Please turn it on before setting the brightness level.&quot;)&#10;                logger.warning(&#10;                    format(&quot;Light &quot; + self.id + &quot; is OFF. Please turn it on before setting the brightness level.&quot;))&#10;            else:&#10;                print(&quot;There is an error with the Light.&quot;)&#10;                logger.error(&quot;There is an error with the Light.&quot;)&#10;        else:&#10;            print(&#10;                f&quot;Invalid brightness level: {level_name}. Available levels are {list(self.brightness_levels.keys())}.&quot;)&#10;            logger.error(format(&quot;Invalid brightness level: &quot; + level_name + &quot;. Available levels are &quot; + str(&#10;                list(self.brightness_levels.keys()))))&#10;&#10;&#10;class SmartTV(Actuator):&#10;    def __init__(self, room_name):&#10;        super().__init__(&quot;SmartTV&quot;, room_name)&#10;&#10;    def play_channel(self, channel_name):&#10;        if self.status == &quot;on&quot;:&#10;            logger.info(format(&quot;Start playing &quot; + channel_name + &quot; on the &quot; + self.id + &quot; in &quot; + self.room_name))&#10;            print(f&quot;Start playing {channel_name} on the {self.id} in {self.room_name}&quot;)&#10;        elif self.status == &quot;off&quot;:&#10;            logger.warning(format(&quot;\'&quot; + self.id + &quot;\' is OFF now, Need to Turn it ON First.&quot;))&#10;            print(f&quot;\'{self.id}\' is OFF now, Need to Turn it ON First.&quot;)&#10;            # self.turn_on()&#10;            # self.play_channel(channel_name)&#10;        else:&#10;            logger.error(&quot;Fail to play &quot; + channel_name + &quot;, There is some error with the TV.&quot;)&#10;            print(&quot;Fail to play &quot; + channel_name + &quot;, There is some error with the TV.&quot;)&#10;&#10;&#10;class SmartSocket(Actuator):&#10;    def __init__(self, room_name):&#10;        super().__init__(&quot;SmartSocket&quot;, room_name)&#10;&#10;&#10;class Humidifier(Actuator):&#10;    def __init__(self, room_name):&#10;        super().__init__(&quot;Humidifier&quot;, room_name)&#10;&#10;    def increase_humidity(self):&#10;        logger.info(f&quot;Increasing humidity in {self.room_name}&quot;)&#10;        print(f&quot;Increasing humidity in {self.room_name}&quot;)&#10;&#10;    def decrease_humidity(self):&#10;        logger.info(f&quot;Decreasing humidity in {self.room_name}&quot;)&#10;        print(f&quot;Decreasing humidity in {self.room_name}&quot;)&#10;&#10;# if __name__ == '__main__':&#10;#   ns = NotificationSender(&quot;LivingRoom&quot;)&#10;#   ns.turn_on()&#10;#   ns.notification_sender(&quot;test test test&quot;)&#10;```&#10;&#10;## home_plan.py&#10;```python&#10;from home.sensor import IndoorTemperatureSensor, HumiditySensor, LightIntensiveSensor, SmokeSensor, \&#10;    OutdoorTemperatureSensor&#10;from home.actuator import NotificationSender, Light, Window, Curtain, MusicPlayer, Heater, AC, CoffeeMachine, \&#10;    SmartSocket, Door, \&#10;    CleaningRobot, SmartTV&#10;from home.logger_config import logger&#10;&#10;&#10;class Room:&#10;    def __init__(self, name):&#10;        self.name = name&#10;        self.sensors = []&#10;        self.actuators = []&#10;&#10;    def add_sensor(self, sensor):&#10;        self.sensors.append(sensor)&#10;&#10;    def add_actuator(self, actor):&#10;        self.actuators.append(actor)&#10;&#10;    def print_info(self):&#10;        print(f&quot;\n{self.name}:&quot;)&#10;        print(&quot;Sensors:&quot;)&#10;        for sensor in self.sensors:&#10;            print(&quot;-&quot;, sensor.id)&#10;        print(&quot;Actuators:&quot;)&#10;        for actor in self.actuators:&#10;            print(&quot;-&quot;, actor.id)&#10;&#10;&#10;def create_room_with_components(name, sensor_types, actuator_types):&#10;    room = Room(name)&#10;    for sensor_type in sensor_types:&#10;        room.add_sensor(sensor_type(name))&#10;    for actuator_type in actuator_types:&#10;        room.add_actuator(actuator_type(name))&#10;    return room&#10;&#10;&#10;def home_plan():&#10;    # print(&quot;Starting Home Plan Now&quot;)&#10;    # Define rooms and their components&#10;    rooms = [&#10;        create_room_with_components(&quot;LivingRoom&quot;, [LightIntensiveSensor, IndoorTemperatureSensor, HumiditySensor],&#10;                                    [Door, Light, Window, Window, Curtain, MusicPlayer, SmartSocket, SmartSocket,&#10;                                     CleaningRobot, SmartTV, NotificationSender, AC, Heater]),&#10;        create_room_with_components(&quot;Bedroom&quot;, [IndoorTemperatureSensor, HumiditySensor, LightIntensiveSensor],&#10;                                    [Light, Light, Window, Curtain, AC, Heater, MusicPlayer, Door, SmartSocket,&#10;                                     SmartSocket, CleaningRobot]),&#10;        create_room_with_components(&quot;Kitchen&quot;, [HumiditySensor, SmokeSensor],&#10;                                    [Light, Window, Heater, CoffeeMachine, SmartSocket, SmartSocket, SmartSocket,&#10;                                     Door]),&#10;        create_room_with_components(&quot;Bathroom&quot;, [IndoorTemperatureSensor, HumiditySensor],&#10;                                    [Light, Window, Heater, Door, SmartSocket, SmartSocket]),&#10;        create_room_with_components(&quot;Balcony&quot;, [OutdoorTemperatureSensor, HumiditySensor],&#10;                                    [Door])&#10;    ]&#10;&#10;    # Print Home plan&#10;    # for room in rooms:&#10;    #     room.print_info()&#10;&#10;    return rooms&#10;&#10;&#10;# Example invocation&#10;# home_plan()&#10;&#10;def print_home_plan(home):&#10;    print(f&quot;\n---Home Plan---&quot;)&#10;    for room in home:&#10;        room.print_info()&#10;&#10;&#10;def get_room(home, room_name):&#10;    for room in home:&#10;        if room.name == room_name:&#10;            print(f&quot;We find {room_name}!&quot;)&#10;            logger.info(f&quot;We find {room_name}!&quot;)&#10;            return room&#10;&#10;    print(f&quot;there is no room called {room_name} at home&quot;)&#10;    logger.warning(f&quot;there is no room called {room_name} at home&quot;)&#10;    return None&#10;&#10;&#10;def get_room_sensors(home, room_name):&#10;    for room in home:&#10;        # if room.name.lower() == room_name.lower():&#10;        if room.name == room_name:&#10;            # room.print_info()&#10;            return room.sensors&#10;&#10;    print(f&quot;there is no Sensor found in {room_name}&quot;)&#10;    logger.warning(f&quot;there is no Sensor found in {room_name}&quot;)&#10;    return None  # no room_name room&#10;&#10;&#10;def get_room_actuators(home, room_name):&#10;    for room in home:&#10;        if room.name == room_name:&#10;            # room.print_info()&#10;            return room.actuators&#10;&#10;    print(f&quot;there is no Actuator found in {room_name}&quot;)&#10;    logger.warning(f&quot;there is no Actuator found in {room_name}&quot;)&#10;    return None&#10;&#10;&#10;def get_all_sensors(home, sensor_type):&#10;    all_sensors = []&#10;    for room in home:&#10;        for sensor in room.sensors:&#10;            if sensor.sensor_type == sensor_type:&#10;                # print(sensor.id)&#10;                all_sensors.append(sensor)&#10;&#10;    return all_sensors&#10;&#10;&#10;def get_all_actuators(home, actuator_type):&#10;    all_actuators = []&#10;    for room in home:&#10;        for actuator in room.actuators:&#10;            if actuator.actuator_type == actuator_type:&#10;                all_actuators.append(actuator)&#10;&#10;    # print(all_actuators)&#10;    return all_actuators&#10;&#10;&#10;if __name__ == &quot;__main__&quot;:&#10;    # get_room(home_plan(), &quot;outdoor&quot;)&#10;    home = home_plan()&#10;    # get_all_sensors(home, &quot;IndoorTemperature&quot;)&#10;    get_all_actuators(home, &quot;Light&quot;)&#10;```&#10;&#10;## config.py&#10;```python&#10;# wait duration&#10;TEMP_CHANGE_DURATION_WINDOW = 1&#10;&#10;# threshold&#10;TEMP_LOW = 15 # Celsius degree&#10;TEMP_HIGH = 25&#10;&#10;HUMIDITY_LOW = 30 # percentage&#10;HUMIDITY_HIGH = 50&#10;&#10;LIGHT_INTENSITY_LOW = 300 #lux: lumen per square meter&#10;LIGHT_INTENSITY_HIGH = 900&#10;&#10;&#10;DAILY_ROUTINE_DURATION = 5&#10;```" />
-                      <option name="end_line" value="534" />
-                      <option name="filename" value="plan_1.md" />
-                      <option name="language" value="Markdown" />
-                      <option name="range">
-                        <Range>
-                          <option name="end">
-                            <Position>
-                              <option name="character" value="3" />
-                              <option name="line" value="534" />
-                            </Position>
-                          </option>
-                          <option name="start">
-                            <Position />
-                          </option>
-                        </Range>
-                      </option>
-                      <option name="url" value="file://$PROJECT_DIR$/default_experiments/logs_questionnaire_in_Chinese/temp/plan_1.md" />
-                    </CodeReferencesBean>
-                  </list>
+                  <list />
                 </option>
                 <option name="command" value="normal" />
-                <option name="conversationId" value="d4ff3a46e78c4c718e151aa93374ff13" />
-                <option name="messageId" value="c99f5337f937ae93574b7e2a73d60be2" />
-                <option name="question" value="# Kivkzizgrlm&#10;Sr, R dzmg blf gl kilerwv nv z 'ufmxgrlm.kb' urov uli nb xfiivmg hnzig slnv kilqvxg yzhvw lm nb trevm ufmxgrlmzo wvhxirkgrlm.&#10;&#10;Ulfi xlwv urovh rm nb kilqvxg, r.v., hvmhli.kb, zxgfzgli.kb, slnv_kozm.kb zmw xlmurt.kb, ziv rm gsv 'slnv' ulowvi.&#10;Gsv ivjfrivw 'ufmxgrlm.kb' hslfow olxzgv rm gsv 'ufmxgrlmh' ulowvi, ufmxgrlm.kb hslfow xlmgzrm nzrm ufmxgrlm.&#10;&#10;R droo urihg trev blf gsv ufmxgrlmzo wvhxirkgrlm, gsvm trev blf gsv 5 kbgslm hlfixv xlwv.&#10;&#10;# Ufmxgrlmzo Wvhxirkgrlm&#10;NLIMRMT KOZM:&#10;打开窗帘，打开灯，播放舒缓音乐，制作咖啡&#10;&#10;OVZEV SLNV KOZM:&#10;关闭入户门，关闭灯，&#10;&#10;NLERV KOZM:&#10;打开电视，关闭窗帘，调暗灯光&#10;&#10;&#10;# Hlfixv Xlwv&#10;## hvmhli.kb&#10;```kbgslm&#10;rnklig izmwln&#10;uiln slnv.olttvi_xlmurt rnklig olttvi&#10;&#10;xozhh Hvmhli:&#10;    hvmhli_xlfmg = {}  # Wrxgrlmzib gl pvvk gizxp lu hvmhli xlfmg uli vzxs illn zmw hvmhli gbkv&#10;&#10;    wvu __rmrg__(hvou, hvmhli_gbkv, illn_mznv):&#10;        ru illn_mznv mlg rm Hvmhli.hvmhli_xlfmg:&#10;            Hvmhli.hvmhli_xlfmg[illn_mznv] = {}  # Rmrgrzorav hvmhli xlfmg uli gsv illn ru mlg zoivzwb kivhvmg&#10;        ru hvmhli_gbkv mlg rm Hvmhli.hvmhli_xlfmg[illn_mznv]:&#10;            Hvmhli.hvmhli_xlfmg[illn_mznv][&#10;                hvmhli_gbkv] = 9  # Rmrgrzorav hvmhli xlfmg uli gsv hvmhli gbkv ru mlg zoivzwb kivhvmg&#10;&#10;        Hvmhli.hvmhli_xlfmg[illn_mznv][hvmhli_gbkv] += 8  # Rmxivnvmg hvmhli xlfmg uli gsv hvmhli gbkv rm gsv illn&#10;&#10;        hvou.rw = u&quot;/Hvmhli/{hvmhli_gbkv}/{illn_mznv}/{Hvmhli.hvmhli_xlfmg[illn_mznv][hvmhli_gbkv]}&quot;&#10;        hvou.hvmhli_gbkv = hvmhli_gbkv&#10;        hvou.illn_mznv = illn_mznv&#10;        hvou.hgzgfh = &quot;luu&quot;&#10;&#10;    wvu gfim_lm(hvou):&#10;        hvou.hgzgfh = &quot;lm&quot;&#10;        kirmg(u&quot;'{hvou.rw}' rh mld {hvou.hgzgfh.fkkvi()}.&quot;)&#10;        olttvi.rmul(ulinzg(&quot;\'&quot; + hvou.rw + &quot;\' rh gfimvw &quot; + hvou.hgzgfh.fkkvi()))&#10;&#10;    wvu gfim_luu(hvou):&#10;        hvou.hgzgfh = &quot;luu&quot;&#10;        kirmg(u&quot;{hvou.rw} rh mld LUU.&quot;)&#10;        olttvi.rmul(ulinzg(&quot;\'&quot; + hvou.rw + &quot;\' rh gfimvw &quot; + hvou.hgzgfh.fkkvi()))&#10;&#10;    wvu tvg_ivzwrmt(hvou):&#10;        ru hvou.hgzgfh == &quot;luu&quot;:&#10;            kirmg(u&quot;Xzmmlg Tvg Hvmhli Ivzwrmt, {hvou.rw} rh Xfiivmgob LUU. &quot;)&#10;            olttvi.dzimrmt(ulinzg(&quot;\'&quot; + hvou.rw + &quot;\' rh xfiivmgob LUU. Xzmmlg tvg ivzwrmt.&quot;))&#10;            ivgfim Mlmv&#10;        voru hvou.hgzgfh == &quot;lm&quot;:&#10;            ivzwrmt = hvou._tvmvizgv_ivzwrmt()&#10;            kirmg(u&quot;{hvou.rw} ivzwrmt rh: {ivzwrmt}&quot;)&#10;            olttvi.rmul(ulinzg(&quot;\'&quot; + hvou.rw + &quot;\' Ivzwrmt rh: &quot; + hgi(ivzwrmt)))&#10;            ivgfim ivzwrmt&#10;        vohv:&#10;            olttvi.viili(ulinzg(&quot;\'&quot; + hvou.rw + &quot;\' rh rm viili hgzgfh.&quot;))&#10;            kirmg(u&quot;Hgzgfh Viili drgs hgzgfh: {hvou.hgzgfh}&quot;)&#10;&#10;    wvu tvg_hgzgfh(hvou):&#10;        kirmg(u&quot;{hvou.rw} xfiivmg hgzgfh rh: {hvou.hgzgfh}&quot;)&#10;        olttvi.rmul(ulinzg(&quot;\'&quot; + hvou.rw + &quot;\' XFIIVMG HGZGFH rh: &quot; + hvou.hgzgfh.fkkvi()))&#10;        ivgfim hvou.hgzgfh&#10;&#10;    wvu _tvmvizgv_ivzwrmt(hvou):&#10;        izrhv MlgRnkovnvmgvwViili(&quot;Hfyxozhhvh nfhg rnkovnvmg _tvmvizgv_ivzwrmt nvgslw.&quot;)&#10;&#10;&#10;xozhh RmwlliGvnkvizgfivHvmhli(Hvmhli):&#10;    wvu __rmrg__(hvou, illn_mznv):&#10;        hfkvi().__rmrg__(&quot;RmwlliGvnkvizgfiv&quot;, illn_mznv)&#10;&#10;    wvu _tvmvizgv_ivzwrmt(hvou):&#10;        ivgfim ilfmw(izmwln.fmrulin(89, 59), 7)&#10;&#10;&#10;xozhh LfgwlliGvnkvizgfivHvmhli(Hvmhli):&#10;    wvu __rmrg__(hvou, illn_mznv):&#10;        hfkvi().__rmrg__(&quot;LfgwlliGvnkvizgfiv&quot;, illn_mznv)&#10;&#10;    wvu _tvmvizgv_ivzwrmt(hvou):&#10;        ivgfim ilfmw(izmwln.fmrulin(-89, 59), 7)&#10;&#10;&#10;xozhh SfnrwrgbHvmhli(Hvmhli):&#10;    wvu __rmrg__(hvou, illn_mznv):&#10;        hfkvi().__rmrg__(&quot;Sfnrwrgb&quot;, illn_mznv)&#10;&#10;    wvu _tvmvizgv_ivzwrmt(hvou):&#10;        ivgfim ilfmw(izmwln.fmrulin(9, 899), 7)&#10;&#10;&#10;xozhh OrtsgRmgvmhrevHvmhli(Hvmhli):&#10;    wvu __rmrg__(hvou, illn_mznv):&#10;        hfkvi().__rmrg__(&quot;OrtsgRmgvmhrev&quot;, illn_mznv)&#10;&#10;    wvu _tvmvizgv_ivzwrmt(hvou):&#10;        ivgfim ilfmw(izmwln.fmrulin(099, 8999), 7)&#10;&#10;&#10;xozhh HnlpvHvmhli(Hvmhli):&#10;    wvu __rmrg__(hvou, illn_mznv):&#10;        hfkvi().__rmrg__(&quot;Hnlpv&quot;, illn_mznv)&#10;&#10;    wvu _tvmvizgv_ivzwrmt(hvou):&#10;        ivgfim ilfmw(izmwln.fmrulin(9, 899), 7)&#10;&#10;&#10;ru __mznv__ == &quot;__nzrm__&quot;:&#10;    # kzhh&#10;&#10;    fe_hvmhli = OrtsgRmgvmhrevHvmhli(&quot;gvhg&quot;)&#10;    fe_hvmhli.gfim_lm()&#10;    fe_hvmhli.tvg_hgzgfh()&#10;    kirmg(fe_hvmhli.tvg_ivzwrmt())&#10;    fe_hvmhli.gfim_luu()&#10;    kirmg(fe_hvmhli.tvg_ivzwrmt())&#10;&#10;    lfgwlli_gvnk_hvmhli = LfgwlliGvnkvizgfivHvmhli(&quot;gvhg&quot;)&#10;    lfgwlli_gvnk_hvmhli.gfim_lm()&#10;    kirmg(lfgwlli_gvnk_hvmhli.tvg_ivzwrmt())&#10;```&#10;&#10;## zxgfzgli.kb&#10;```kbgslm&#10;rnklig izmwln&#10;rnklig grnv&#10;uiln slnv.olttvi_xlmurt rnklig olttvi&#10;&#10;uiln slnv.xlmurt rnklig WZROB_ILFGRMV_WFIZGRLM&#10;&#10;&#10;# Xfiivmgob, dv hvmw mlgrurxzgrlm/olttvi.dzimrmt(nht) gl gsv fhvi dsvm dv mvvw gl gfim lm gsv zxgfzglih yvuliv fhrmt&#10;# gsvn.&#10;&#10;xozhh Zxgfzgli:&#10;    zxgfzgli_xlfmg = {}  # Wrxgrlmzib gl pvvk gizxp lu hvmhli xlfmg uli vzxs illn zmw hvmhli gbkv&#10;&#10;    wvu __rmrg__(hvou, zxgfzgli_gbkv, illn_mznv):&#10;        ru illn_mznv mlg rm Zxgfzgli.zxgfzgli_xlfmg:&#10;            Zxgfzgli.zxgfzgli_xlfmg[illn_mznv] = {}  # Rmrgrzorav hvmhli xlfmg uli gsv illn ru mlg zoivzwb kivhvmg&#10;        ru zxgfzgli_gbkv mlg rm Zxgfzgli.zxgfzgli_xlfmg[illn_mznv]:&#10;            Zxgfzgli.zxgfzgli_xlfmg[illn_mznv][&#10;                zxgfzgli_gbkv] = 9  # Rmrgrzorav hvmhli xlfmg uli gsv hvmhli gbkv ru mlg zoivzwb kivhvmg&#10;&#10;        Zxgfzgli.zxgfzgli_xlfmg[illn_mznv][zxgfzgli_gbkv] += 8  # Rmxivnvmg hvmhli xlfmg uli gsv hvmhli gbkv rm gsv illn&#10;&#10;        hvou.rw = u&quot;/Zxgfzgli/{zxgfzgli_gbkv}/{illn_mznv}/{Zxgfzgli.zxgfzgli_xlfmg[illn_mznv][zxgfzgli_gbkv]}&quot;&#10;        hvou.zxgfzgli_gbkv = zxgfzgli_gbkv&#10;        hvou.illn_mznv = illn_mznv&#10;        hvou.hgzgfh = &quot;luu&quot;&#10;&#10;    wvu gfim_lm(hvou):&#10;        hvou.hgzgfh = &quot;lm&quot;&#10;        kirmg(u&quot;{hvou.rw} rh mld {hvou.hgzgfh}.&quot;)&#10;        olttvi.rmul(ulinzg(&quot;\'&quot; + hvou.rw + &quot;\' rh gfimvw &quot; + hvou.hgzgfh.fkkvi()))&#10;&#10;    wvu gfim_luu(hvou):&#10;        hvou.hgzgfh = &quot;luu&quot;&#10;        kirmg(u&quot;{hvou.rw} rh mld {hvou.hgzgfh}.&quot;)&#10;        olttvi.rmul(ulinzg(&quot;\'&quot; + hvou.rw + &quot;\' rh gfimvw &quot; + hvou.hgzgfh.fkkvi()))&#10;&#10;    wvu tvg_hgzgfh(hvou):&#10;        kirmg(u&quot;{hvou.rw} xfiivmg hgzgfh rh {hvou.hgzgfh}&quot;)&#10;        olttvi.rmul(ulinzg(&quot;\'&quot; + hvou.rw + &quot;\' XFIIVMG HGZGFH rh: &quot; + hvou.hgzgfh.fkkvi()))&#10;        ivgfim hvou.hgzgfh&#10;&#10;&#10;xozhh Svzgvi(Zxgfzgli):&#10;    wvu __rmrg__(hvou, illn_mznv):&#10;        hfkvi().__rmrg__(&quot;Svzgvi&quot;, illn_mznv)&#10;        hvou.gzitvg_gvnkvizgfiv = Mlmv&#10;&#10;    wvu hvg_gzitvg_gvnkvizgfiv(hvou, gzitvg_gvnkvizgfiv):&#10;        hvou.gzitvg_gvnkvizgfiv = gzitvg_gvnkvizgfiv&#10;        olttvi.rmul(ulinzg(u&quot;Hvg gsv gzitvg gvnkvizgfiv lu {hvou.rw} gl {hvou.gzitvg_gvnkvizgfiv}°X.&quot;))&#10;        kirmg(u&quot;Hvg gsv gzitvg gvnkvizgfiv lu {hvou.rw} gl {hvou.gzitvg_gvnkvizgfiv}°X.&quot;)&#10;&#10;    wvu zwqfhg_gvnkvizgfiv(hvou, xfiivmg_gvnkvizgfiv):&#10;        ru hvou.gzitvg_gvnkvizgfiv rh mlg Mlmv:&#10;            ru xfiivmg_gvnkvizgfiv &lt; hvou.gzitvg_gvnkvizgfiv:&#10;                hvou.gfim_lm()&#10;            vohv:&#10;                hvou.gfim_luu()&#10;&#10;&#10;xozhh ZX(Zxgfzgli):&#10;    wvu __rmrg__(hvou, illn_mznv):&#10;        hfkvi().__rmrg__(&quot;ZX&quot;, illn_mznv)&#10;        hvou.gzitvg_gvnkvizgfiv = Mlmv&#10;&#10;    wvu hvg_gzitvg_gvnkvizgfiv(hvou, gzitvg_gvnkvizgfiv):&#10;        hvou.gzitvg_gvnkvizgfiv = gzitvg_gvnkvizgfiv&#10;        olttvi.rmul(ulinzg(u&quot;Hvg gsv gzitvg gvnkvizgfiv lu {hvou.rw} gl {hvou.gzitvg_gvnkvizgfiv}°X.&quot;))&#10;        kirmg(u&quot;Hvg gsv gzitvg gvnkvizgfiv lu {hvou.rw} gl {hvou.gzitvg_gvnkvizgfiv}°X.&quot;)&#10;&#10;    wvu zwqfhg_gvnkvizgfiv(hvou, xfiivmg_gvnkvizgfiv):&#10;        ru hvou.gzitvg_gvnkvizgfiv rh mlg Mlmv:&#10;            ru xfiivmg_gvnkvizgfiv &gt; hvou.gzitvg_gvnkvizgfiv:&#10;                hvou.gfim_lm()&#10;            vohv:&#10;                hvou.gfim_luu()&#10;&#10;&#10;xozhh XluuvvNzxsrmv(Zxgfzgli):&#10;    wvu __rmrg__(hvou, illn_mznv):&#10;        hfkvi().__rmrg__(&quot;XluuvvNzxsrmv&quot;, illn_mznv)&#10;&#10;    wvu nzpv_xluuvv(hvou, xluuvv_gbkv):&#10;        ru hvou.hgzgfh == &quot;lm&quot;:&#10;            olttvi.rmul(ulinzg(hvou.rw + &quot;Hgzig nzprmt &quot; + xluuvv_gbkv))&#10;        voru hvou.hgzgfh == &quot;luu&quot;:&#10;            kirmg(u&quot; {hvou.rw} rh LUU mld&quot;)&#10;            olttvi.dzimrmt(ulinzg(&quot;\' &quot; + hvou.rw + &quot; \'&quot; + &quot; rh LUU mld, Mvvw gl Gfim rg Lm Urihg.&quot;))&#10;            # hvou.gfim_lm()&#10;            # hvou.nzpv_xluuvv(xluuvv_gbkv)&#10;        vohv:&#10;            olttvi.viili(&quot;Gsviv rh Hlnv Viili drgs gsv Xluuvv Nzxsrmv&quot; + hvou.rw + &quot;.&quot;)&#10;            kirmg(&quot;Gsviv rh Hlnv Viili drgs gsv Xluuvv Nzxsrmv&quot; + hvou.rw + &quot;.&quot;)&#10;&#10;&#10;xozhh Drmwld(Zxgfzgli):&#10;    wvu __rmrg__(hvou, illn_mznv):&#10;        hfkvi().__rmrg__(&quot;Drmwld&quot;, illn_mznv)&#10;&#10;&#10;xozhh Wlli(Zxgfzgli):&#10;    wvu __rmrg__(hvou, illn_mznv):&#10;        hfkvi().__rmrg__(&quot;Wlli&quot;, illn_mznv)&#10;&#10;    wvu olxp(hvou):&#10;        olttvi.rmul(ulinzg(&quot;Olxp gsv wlli&quot; + hvou.rw + &quot;.&quot;))&#10;        kirmg(u&quot;Olxp gsv wlli {hvou.rw}.&quot;)&#10;&#10;    wvu fmolxp(hvou):&#10;        olttvi.rmul(ulinzg(&quot;Fmolxp gsv wlli&quot; + hvou.rw + &quot;.&quot;))&#10;        kirmg(u&quot;Fmolxp gsv wlli {hvou.rw}.&quot;)&#10;&#10;&#10;xozhh Xfigzrm(Zxgfzgli):&#10;    wvu __rmrg__(hvou, illn_mznv):&#10;        hfkvi().__rmrg__(&quot;Xfigzrm&quot;, illn_mznv)&#10;&#10;&#10;xozhh XovzmrmtIlylg(Zxgfzgli):&#10;    wvu __rmrg__(hvou, illn_mznv):&#10;        hfkvi().__rmrg__(&quot;XovzmrmtIlylg&quot;, illn_mznv)&#10;&#10;    wvu wzrob_ilfgrmv(hvou):&#10;        ru hvou.hgzgfh == &quot;luu&quot;:&#10;            olttvi.dzimrmt(ulinzg(&quot;Xovzmrmt Ilylg &quot; + hvou.rw + &quot; rh LUU mld, Mvvw gl Gfim rg LM Urihg&quot;))&#10;            kirmg(&quot;Xovzmrmt Ilylg &quot; + hvou.rw + &quot; rh LUU mld, Mvvw gl Gfim rg LM Urihg&quot;)&#10;        voru hvou.hgzgfh == &quot;lm&quot;:&#10;            olttvi.rmul(ulinzg(&quot;Xovzmrmt Ilylg &quot; + hvou.rw + &quot; Hgzigh Wzrob Xovzmrmt Ilfgrmv&quot;))&#10;            kirmg(u&quot;Xovzmrmt Ilylg {hvou.rw} Hgzigh Wzrob Xovzmrmt Ilfgrmv&quot;)&#10;            grnv.hovvk(WZROB_ILFGRMV_WFIZGRLM)&#10;            olttvi.rmul(ulinzg(u&quot;{hvou.rw} Urmrhs Wzrob Xovzmrmt Ilfgrmv, Droo Gfim rg LUU&quot;))&#10;            kirmg(u&quot;{hvou.rw} Urmrhs Wzrob Xovzmrmt Ilfgrmv, Droo Gfim rg LUU&quot;)&#10;            hvou.gfim_luu()&#10;        vohv:&#10;            olttvi.viili(&quot;Gsviv rh Hlnv Viili drgs gsv Xovzmrmt Ilylg&quot; + hvou.rw + &quot;.&quot;)&#10;            kirmg(u&quot;Gsviv rh Hlnv Viili drgs gsv Xovzmrmt Ilylg {hvou.rw}.&quot;)&#10;&#10;&#10;xozhh MlgrurxzgrlmHvmwvi(Zxgfzgli):&#10;    wvu __rmrg__(hvou, illn_mznv):&#10;        hfkvi().__rmrg__(&quot;MlgrurxzgrlmHvmwvi&quot;, illn_mznv)&#10;&#10;    wvu mlgrurxzgrlm_hvmwvi(hvou, nvhhztv):&#10;        ru hvou.hgzgfh == &quot;lm&quot;:&#10;            olttvi.rmul(ulinzg(&quot;Mlgrurxzgrlm Hvmwvi &quot; + hvou.rw + &quot; hvmwh nvhhztv: &quot; + nvhhztv))&#10;            kirmg(u&quot;Mlgrurxzgrlm Hvmwvi {hvou.rw} hvmw nvhhztv: {nvhhztv}&quot;)&#10;        voru hvou.hgzgfh == &quot;luu&quot;:&#10;            olttvi.dzimrmt(ulinzg(&quot;Mlgrurxzgrlm Hvmwvi &quot; + hvou.rw + &quot; rh LUU, Gfim rg Lm Urihg.&quot;))&#10;            kirmg(u&quot;Mlgrurxzgrlm Hvmwvi {hvou.rw} rh LUU, kovzhv gfim rg lm gsvm hvmw gsv nvhhztv ztzrm.&quot;)&#10;        vohv:&#10;            olttvi.viili(&quot;Uzro gl hvmw gsv nvhhztv. Gsviv rh hlnv viili drgs gsv Mlgrurxzgrlm Hvmwvi&quot;)&#10;            kirmg(&quot;Uzro gl hvmw gsv nvhhztv. Gsviv rh hlnv viili drgs gsv Mlgrurxzgrlm Hvmwvi.&quot;)&#10;&#10;&#10;xozhh NfhrxKozbvi(Zxgfzgli):&#10;    wvu __rmrg__(hvou, illn_mznv):&#10;        hfkvi().__rmrg__(&quot;NfhrxKozbvi&quot;, illn_mznv)&#10;&#10;    wvu kozb_nfhrx(hvou, kozborhg):&#10;        ru hvou.hgzgfh == &quot;lm&quot;:&#10;            kirmg(u&quot;{hvou.rw} hgzig kozbrmt {kozborhg}&quot;)&#10;            olttvi.rmul(ulinzg(u&quot;{hvou.rw} hgzig kozbrmt {kozborhg}&quot;))&#10;        voru hvou.hgzgfh == &quot;luu&quot;:&#10;            kirmg(u&quot;Nfhrx Kozbvi {hvou.rw} rh LUU mld, Gfim rg LM Urihg&quot;)&#10;            olttvi.dzimrmt(ulinzg(&quot;Nfhrx Kozbvi&quot; + hvou.rw + &quot; rh LUU mld, Gfim rg LM Urihg&quot;))&#10;            # hvou.gfim_lm()&#10;            # hvou.kozb_nfhrx(kozborhg)&#10;            # kirmg(u&quot;Gfim {hvou.rw} lm zmw Hgzig kozbrmt {kozborhg} orhg&quot;)&#10;        vohv:&#10;            olttvi.viili(&quot;Uzro gl kozb &quot; + kozborhg + &quot;, Gsviv rh hlnv viili drgs gsv nfhrx kozbvi.&quot;)&#10;            kirmg(&quot;Uzro gl kozb &quot; + kozborhg + &quot;, Gsviv rh hlnv viili drgs gsv nfhrx kozbvi.&quot;)&#10;&#10;&#10;xozhh Ortsg(Zxgfzgli):&#10;    wvu __rmrg__(hvou, illn_mznv):&#10;        hfkvi().__rmrg__(&quot;Ortsg&quot;, illn_mznv)&#10;        hvou.yirtsgmvhh_ovevoh = {&#10;            &quot;old&quot;: 69,&#10;            &quot;nvwrfn&quot;: 39,&#10;            &quot;srts&quot;: 09&#10;        }&#10;        hvou.yirtsgmvhh_ovevo = 9&#10;&#10;    wvu hvg_yirtsgmvhh_ovevo(hvou, ovevo_mznv):&#10;        ru ovevo_mznv rm hvou.yirtsgmvhh_ovevoh:&#10;            ru hvou.hgzgfh == &quot;lm&quot;:&#10;                hvou.yirtsgmvhh_ovevo = hvou.yirtsgmvhh_ovevoh[ovevo_mznv]&#10;                kirmg(u&quot;Hvg {hvou.rw} ortsg yirtsgmvhh ovevo gl {ovevo_mznv.fkkvi()}&quot;)&#10;                olttvi.rmul(ulinzg(&quot;Hvg gsv &quot; + hvou.rw + &quot; ortsg yirtsgmvhh ovevo gl &quot; + ovevo_mznv.fkkvi()))&#10;            voru hvou.hgzgfh == &quot;luu&quot;:&#10;                kirmg(u&quot;Ortsg {hvou.rw} rh LUU. Kovzhv gfim rg lm yvuliv hvggrmt gsv yirtsgmvhh ovevo.&quot;)&#10;                olttvi.dzimrmt(&#10;                    ulinzg(&quot;Ortsg &quot; + hvou.rw + &quot; rh LUU. Kovzhv gfim rg lm yvuliv hvggrmt gsv yirtsgmvhh ovevo.&quot;))&#10;            vohv:&#10;                kirmg(&quot;Gsviv rh zm viili drgs gsv Ortsg.&quot;)&#10;                olttvi.viili(&quot;Gsviv rh zm viili drgs gsv Ortsg.&quot;)&#10;        vohv:&#10;            kirmg(&#10;                u&quot;Rmezorw yirtsgmvhh ovevo: {ovevo_mznv}. Zezrozyov ovevoh ziv {orhg(hvou.yirtsgmvhh_ovevoh.pvbh())}.&quot;)&#10;            olttvi.viili(ulinzg(&quot;Rmezorw yirtsgmvhh ovevo: &quot; + ovevo_mznv + &quot;. Zezrozyov ovevoh ziv &quot; + hgi(&#10;                orhg(hvou.yirtsgmvhh_ovevoh.pvbh()))))&#10;&#10;&#10;xozhh HnzigGE(Zxgfzgli):&#10;    wvu __rmrg__(hvou, illn_mznv):&#10;        hfkvi().__rmrg__(&quot;HnzigGE&quot;, illn_mznv)&#10;&#10;    wvu kozb_xszmmvo(hvou, xszmmvo_mznv):&#10;        ru hvou.hgzgfh == &quot;lm&quot;:&#10;            olttvi.rmul(ulinzg(&quot;Hgzig kozbrmt &quot; + xszmmvo_mznv + &quot; lm gsv &quot; + hvou.rw + &quot; rm &quot; + hvou.illn_mznv))&#10;            kirmg(u&quot;Hgzig kozbrmt {xszmmvo_mznv} lm gsv {hvou.rw} rm {hvou.illn_mznv}&quot;)&#10;        voru hvou.hgzgfh == &quot;luu&quot;:&#10;            olttvi.dzimrmt(ulinzg(&quot;\'&quot; + hvou.rw + &quot;\' rh LUU mld, Mvvw gl Gfim rg LM Urihg.&quot;))&#10;            kirmg(u&quot;\'{hvou.rw}\' rh LUU mld, Mvvw gl Gfim rg LM Urihg.&quot;)&#10;            # hvou.gfim_lm()&#10;            # hvou.kozb_xszmmvo(xszmmvo_mznv)&#10;        vohv:&#10;            olttvi.viili(&quot;Uzro gl kozb &quot; + xszmmvo_mznv + &quot;, Gsviv rh hlnv viili drgs gsv GE.&quot;)&#10;            kirmg(&quot;Uzro gl kozb &quot; + xszmmvo_mznv + &quot;, Gsviv rh hlnv viili drgs gsv GE.&quot;)&#10;&#10;&#10;xozhh HnzigHlxpvg(Zxgfzgli):&#10;    wvu __rmrg__(hvou, illn_mznv):&#10;        hfkvi().__rmrg__(&quot;HnzigHlxpvg&quot;, illn_mznv)&#10;&#10;&#10;xozhh Sfnrwrurvi(Zxgfzgli):&#10;    wvu __rmrg__(hvou, illn_mznv):&#10;        hfkvi().__rmrg__(&quot;Sfnrwrurvi&quot;, illn_mznv)&#10;&#10;    wvu rmxivzhv_sfnrwrgb(hvou):&#10;        olttvi.rmul(u&quot;Rmxivzhrmt sfnrwrgb rm {hvou.illn_mznv}&quot;)&#10;        kirmg(u&quot;Rmxivzhrmt sfnrwrgb rm {hvou.illn_mznv}&quot;)&#10;&#10;    wvu wvxivzhv_sfnrwrgb(hvou):&#10;        olttvi.rmul(u&quot;Wvxivzhrmt sfnrwrgb rm {hvou.illn_mznv}&quot;)&#10;        kirmg(u&quot;Wvxivzhrmt sfnrwrgb rm {hvou.illn_mznv}&quot;)&#10;&#10;# ru __mznv__ == '__nzrm__':&#10;#   mh = MlgrurxzgrlmHvmwvi(&quot;OrermtIlln&quot;)&#10;#   mh.gfim_lm()&#10;#   mh.mlgrurxzgrlm_hvmwvi(&quot;gvhg gvhg gvhg&quot;)&#10;```&#10;&#10;## slnv_kozm.kb&#10;```kbgslm&#10;uiln slnv.hvmhli rnklig RmwlliGvnkvizgfivHvmhli, SfnrwrgbHvmhli, OrtsgRmgvmhrevHvmhli, HnlpvHvmhli, \&#10;    LfgwlliGvnkvizgfivHvmhli&#10;uiln slnv.zxgfzgli rnklig MlgrurxzgrlmHvmwvi, Ortsg, Drmwld, Xfigzrm, NfhrxKozbvi, Svzgvi, ZX, XluuvvNzxsrmv, \&#10;    HnzigHlxpvg, Wlli, \&#10;    XovzmrmtIlylg, HnzigGE&#10;uiln slnv.olttvi_xlmurt rnklig olttvi&#10;&#10;&#10;xozhh Illn:&#10;    wvu __rmrg__(hvou, mznv):&#10;        hvou.mznv = mznv&#10;        hvou.hvmhlih = []&#10;        hvou.zxgfzglih = []&#10;&#10;    wvu zww_hvmhli(hvou, hvmhli):&#10;        hvou.hvmhlih.zkkvmw(hvmhli)&#10;&#10;    wvu zww_zxgfzgli(hvou, zxgli):&#10;        hvou.zxgfzglih.zkkvmw(zxgli)&#10;&#10;    wvu kirmg_rmul(hvou):&#10;        kirmg(u&quot;\m{hvou.mznv}:&quot;)&#10;        kirmg(&quot;Hvmhlih:&quot;)&#10;        uli hvmhli rm hvou.hvmhlih:&#10;            kirmg(&quot;-&quot;, hvmhli.rw)&#10;        kirmg(&quot;Zxgfzglih:&quot;)&#10;        uli zxgli rm hvou.zxgfzglih:&#10;            kirmg(&quot;-&quot;, zxgli.rw)&#10;&#10;&#10;wvu xivzgv_illn_drgs_xlnklmvmgh(mznv, hvmhli_gbkvh, zxgfzgli_gbkvh):&#10;    illn = Illn(mznv)&#10;    uli hvmhli_gbkv rm hvmhli_gbkvh:&#10;        illn.zww_hvmhli(hvmhli_gbkv(mznv))&#10;    uli zxgfzgli_gbkv rm zxgfzgli_gbkvh:&#10;        illn.zww_zxgfzgli(zxgfzgli_gbkv(mznv))&#10;    ivgfim illn&#10;&#10;&#10;wvu slnv_kozm():&#10;    # kirmg(&quot;Hgzigrmt Slnv Kozm Mld&quot;)&#10;    # Wvurmv illnh zmw gsvri xlnklmvmgh&#10;    illnh = [&#10;        xivzgv_illn_drgs_xlnklmvmgh(&quot;OrermtIlln&quot;, [OrtsgRmgvmhrevHvmhli, RmwlliGvnkvizgfivHvmhli, SfnrwrgbHvmhli],&#10;                                    [Wlli, Ortsg, Drmwld, Drmwld, Xfigzrm, NfhrxKozbvi, HnzigHlxpvg, HnzigHlxpvg,&#10;                                     XovzmrmtIlylg, HnzigGE, MlgrurxzgrlmHvmwvi, ZX, Svzgvi]),&#10;        xivzgv_illn_drgs_xlnklmvmgh(&quot;Yvwilln&quot;, [RmwlliGvnkvizgfivHvmhli, SfnrwrgbHvmhli, OrtsgRmgvmhrevHvmhli],&#10;                                    [Ortsg, Ortsg, Drmwld, Xfigzrm, ZX, Svzgvi, NfhrxKozbvi, Wlli, HnzigHlxpvg,&#10;                                     HnzigHlxpvg, XovzmrmtIlylg]),&#10;        xivzgv_illn_drgs_xlnklmvmgh(&quot;Prgxsvm&quot;, [SfnrwrgbHvmhli, HnlpvHvmhli],&#10;                                    [Ortsg, Drmwld, Svzgvi, XluuvvNzxsrmv, HnzigHlxpvg, HnzigHlxpvg, HnzigHlxpvg,&#10;                                     Wlli]),&#10;        xivzgv_illn_drgs_xlnklmvmgh(&quot;Yzgsilln&quot;, [RmwlliGvnkvizgfivHvmhli, SfnrwrgbHvmhli],&#10;                                    [Ortsg, Drmwld, Svzgvi, Wlli, HnzigHlxpvg, HnzigHlxpvg]),&#10;        xivzgv_illn_drgs_xlnklmvmgh(&quot;Yzoxlmb&quot;, [LfgwlliGvnkvizgfivHvmhli, SfnrwrgbHvmhli],&#10;                                    [Wlli])&#10;    ]&#10;&#10;    # Kirmg Slnv kozm&#10;    # uli illn rm illnh:&#10;    #     illn.kirmg_rmul()&#10;&#10;    ivgfim illnh&#10;&#10;&#10;# Vcznkov rmelxzgrlm&#10;# slnv_kozm()&#10;&#10;wvu kirmg_slnv_kozm(slnv):&#10;    kirmg(u&quot;\m---Slnv Kozm---&quot;)&#10;    uli illn rm slnv:&#10;        illn.kirmg_rmul()&#10;&#10;&#10;wvu tvg_illn(slnv, illn_mznv):&#10;    uli illn rm slnv:&#10;        ru illn.mznv == illn_mznv:&#10;            kirmg(u&quot;Dv urmw {illn_mznv}!&quot;)&#10;            olttvi.rmul(u&quot;Dv urmw {illn_mznv}!&quot;)&#10;            ivgfim illn&#10;&#10;    kirmg(u&quot;gsviv rh ml illn xzoovw {illn_mznv} zg slnv&quot;)&#10;    olttvi.dzimrmt(u&quot;gsviv rh ml illn xzoovw {illn_mznv} zg slnv&quot;)&#10;    ivgfim Mlmv&#10;&#10;&#10;wvu tvg_illn_hvmhlih(slnv, illn_mznv):&#10;    uli illn rm slnv:&#10;        # ru illn.mznv.oldvi() == illn_mznv.oldvi():&#10;        ru illn.mznv == illn_mznv:&#10;            # illn.kirmg_rmul()&#10;            ivgfim illn.hvmhlih&#10;&#10;    kirmg(u&quot;gsviv rh ml Hvmhli ulfmw rm {illn_mznv}&quot;)&#10;    olttvi.dzimrmt(u&quot;gsviv rh ml Hvmhli ulfmw rm {illn_mznv}&quot;)&#10;    ivgfim Mlmv  # ml illn_mznv illn&#10;&#10;&#10;wvu tvg_illn_zxgfzglih(slnv, illn_mznv):&#10;    uli illn rm slnv:&#10;        ru illn.mznv == illn_mznv:&#10;            # illn.kirmg_rmul()&#10;            ivgfim illn.zxgfzglih&#10;&#10;    kirmg(u&quot;gsviv rh ml Zxgfzgli ulfmw rm {illn_mznv}&quot;)&#10;    olttvi.dzimrmt(u&quot;gsviv rh ml Zxgfzgli ulfmw rm {illn_mznv}&quot;)&#10;    ivgfim Mlmv&#10;&#10;&#10;wvu tvg_zoo_hvmhlih(slnv, hvmhli_gbkv):&#10;    zoo_hvmhlih = []&#10;    uli illn rm slnv:&#10;        uli hvmhli rm illn.hvmhlih:&#10;            ru hvmhli.hvmhli_gbkv == hvmhli_gbkv:&#10;                # kirmg(hvmhli.rw)&#10;                zoo_hvmhlih.zkkvmw(hvmhli)&#10;&#10;    ivgfim zoo_hvmhlih&#10;&#10;&#10;wvu tvg_zoo_zxgfzglih(slnv, zxgfzgli_gbkv):&#10;    zoo_zxgfzglih = []&#10;    uli illn rm slnv:&#10;        uli zxgfzgli rm illn.zxgfzglih:&#10;            ru zxgfzgli.zxgfzgli_gbkv == zxgfzgli_gbkv:&#10;                zoo_zxgfzglih.zkkvmw(zxgfzgli)&#10;&#10;    # kirmg(zoo_zxgfzglih)&#10;    ivgfim zoo_zxgfzglih&#10;&#10;&#10;ru __mznv__ == &quot;__nzrm__&quot;:&#10;    # tvg_illn(slnv_kozm(), &quot;lfgwlli&quot;)&#10;    slnv = slnv_kozm()&#10;    # tvg_zoo_hvmhlih(slnv, &quot;RmwlliGvnkvizgfiv&quot;)&#10;    tvg_zoo_zxgfzglih(slnv, &quot;Ortsg&quot;)&#10;```&#10;&#10;## xlmurt.kb&#10;```kbgslm&#10;# dzrg wfizgrlm&#10;GVNK_XSZMTV_WFIZGRLM_DRMWLD = 8&#10;&#10;# gsivhslow&#10;GVNK_OLD = 84 # Xvohrfh wvtivv&#10;GVNK_SRTS = 74&#10;&#10;SFNRWRGB_OLD = 69 # kvixvmgztv&#10;SFNRWRGB_SRTS = 49&#10;&#10;ORTSG_RMGVMHRGB_OLD = 699 #ofc: ofnvm kvi hjfziv nvgvi&#10;ORTSG_RMGVMHRGB_SRTS = 099&#10;&#10;&#10;WZROB_ILFGRMV_WFIZGRLM = 4&#10;```" />
+                <option name="conversationId" value="01961a6a5dc47755b5b467fac0bb9fa7" />
+                <option name="historyDocumentMap">
+                  <map>
+                    <entry key="file://$PROJECT_DIR$/experiments_js/processing_generated_js.py" value="import os&#10;import re&#10;&#10;&#10;def process_js_file(file_path):&#10;    with open(file_path, 'r', encoding='utf-8') as f:&#10;        lines = f.readlines()&#10;&#10;    # 检查文件是否包含 main block&#10;    has_main_block = any('if (require.main === module)' in line and not line.startswith('//') for line in lines)&#10;&#10;    new_lines = []&#10;    inside_exports_block = False&#10;&#10;    for line in lines:&#10;        stripped = line.strip()&#10;&#10;        # 处理 if (require.main === module)&#10;        if has_main_block:&#10;            if 'if (require.main === module)' in line:&#10;                new_lines.append(&quot;// &quot; + line)&#10;                add_line = line.replace('if (require.main === module)',&#10;                                        'module.exports = (req, res) =&gt;')  # 注释掉原来的 if (require.main === module)&#10;                new_lines.append(add_line)  # 添加新的 FaaS 语句&#10;&#10;                continue&#10;&#10;            # 注释掉所有 module.exports&#10;            if 'module.exports' in line:&#10;                if '{' in line and '};' not in line:&#10;                    new_lines.append('// ' + line)&#10;                    inside_exports_block = True&#10;                    continue&#10;                # else:  # 单行 module.exports 语句&#10;                new_lines.append('// ' + line)&#10;                continue&#10;&#10;            if inside_exports_block:&#10;                new_lines.append('// ' + line)&#10;                if '};' in line:&#10;                    inside_exports_block = False&#10;                continue&#10;&#10;        else:&#10;            if 'module.exports =' in line:&#10;                new_lines.append(&quot;// &quot; + line)&#10;                # add_line = line.replace('module.exports =','module.exports = (req, res) =&gt;')&#10;                new_lines.append(line.replace('module.exports =', 'module.exports = (req, res) =&gt;'))&#10;&#10;        new_lines.append(line)&#10;&#10;&#10;    with open(file_path, 'w', encoding='utf-8') as f:&#10;        f.writelines(new_lines)&#10;&#10;    print(f'[DONE] Processed {file_path}')&#10;&#10;&#10;# 示例批处理文件夹&#10;def convert_folder(folder_path):&#10;    for filename in os.listdir(folder_path):&#10;        if filename.endswith('.js'):&#10;            process_js_file(os.path.join(folder_path, filename))&#10;&#10;&#10;# 示例调用&#10;if __name__ == '__main__':&#10;    target_folder = '/Users/minghe/llm4faas/experiments_js/output/'  # 你存放函数的文件夹&#10;    convert_folder(target_folder)&#10;" />
+                  </map>
+                </option>
+                <option name="messageId" value="01961a6a5e2b79f28182e68280debd7b" />
+                <option name="question" value="Qzez 冒泡排序" />
                 <option name="rating" value="UNRATED" />
+                <option name="referenceBeans">
+                  <list />
+                </option>
                 <option name="status" value="SUCCESS" />
               </Turn>
             </list>
           </option>
-          <option name="updateTime" value="1731077118670" />
+          <option name="updateTime" value="1744199926292" />
         </Conversation>
         <Conversation>
-          <option name="createTime" value="1730825840519" />
-          <option name="id" value="54a6643b0fe24c9f99052222e6ac3ca8" />
-          <option name="title" value="新对话 2024年11月05日 17:57:20" />
-          <option name="updateTime" value="1730825840519" />
+          <option name="createTime" value="1744138358467" />
+          <option name="id" value="019616bf4ec37e4eb912e7f4b5fd528f" />
+          <option name="title" value="新对话 2025年4月08日 20:52:38" />
+          <option name="updateTime" value="1744138358467" />
+        </Conversation>
+        <Conversation>
+          <option name="createTime" value="1744124205218" />
+          <option name="id" value="019615e758a27a8d8678b67b9d8ed364" />
+          <option name="title" value="新对话 2025年4月08日 16:56:45" />
+          <option name="updateTime" value="1744124205218" />
+        </Conversation>
+        <Conversation>
+          <option name="createTime" value="1744117785804" />
+          <option name="id" value="0196158564cc760697ef4f59e8190a0e" />
+          <option name="title" value="新对话 2025年4月08日 15:09:45" />
+          <option name="updateTime" value="1744117785804" />
+        </Conversation>
+        <Conversation>
+          <option name="createTime" value="1743771054431" />
+          <option name="id" value="019600dab15f7bcf8e412dedd93c8aa2" />
+          <option name="title" value="新对话 2025年4月04日 14:50:54" />
+          <option name="updateTime" value="1743771054431" />
+        </Conversation>
+        <Conversation>
+          <option name="createTime" value="1743768784273" />
+          <option name="id" value="019600b80d917dfb974c69d7482863a5" />
+          <option name="title" value="新对话 2025年4月04日 14:13:04" />
+          <option name="updateTime" value="1743768784273" />
+        </Conversation>
+        <Conversation>
+          <option name="createTime" value="1743762288881" />
+          <option name="id" value="01960054f0f17dc29aa05f5b5361a7c5" />
+          <option name="title" value="新对话 2025年4月04日 12:24:48" />
+          <option name="updateTime" value="1743762288881" />
+        </Conversation>
+        <Conversation>
+          <option name="createTime" value="1743693208966" />
+          <option name="id" value="0195fc36dd867f3aa4ace47b4f6d04e1" />
+          <option name="title" value="新对话 2025年4月03日 17:13:28" />
+          <option name="updateTime" value="1743693208966" />
+        </Conversation>
+        <Conversation>
+          <option name="createTime" value="1743673118012" />
+          <option name="id" value="0195fb044d3c749381e0fc171bd76012" />
+          <option name="title" value="新对话 2025年4月03日 11:38:38" />
+          <option name="updateTime" value="1743673118012" />
+        </Conversation>
+        <Conversation>
+          <option name="createTime" value="1743670485308" />
+          <option name="id" value="0195fadc213c7613ad12f479e50ca3e9" />
+          <option name="title" value="新对话 2025年4月03日 10:54:45" />
+          <option name="updateTime" value="1743670485308" />
+        </Conversation>
+        <Conversation>
+          <option name="createTime" value="1743605077869" />
+          <option name="id" value="0195f6f6176d71cfb2ff33c136d95600" />
+          <option name="title" value="新对话 2025年4月02日 16:44:37" />
+          <option name="updateTime" value="1743605077869" />
+        </Conversation>
+        <Conversation>
+          <option name="createTime" value="1743590284964" />
+          <option name="id" value="0195f6145ea47e15b081255a10d4ed66" />
+          <option name="title" value="新对话 2025年4月02日 12:38:04" />
+          <option name="updateTime" value="1743590284964" />
+        </Conversation>
+        <Conversation>
+          <option name="createTime" value="1743539265943" />
+          <option name="id" value="0195f309e1977868b00716de1b2bb3bf" />
+          <option name="title" value="新对话 2025年4月01日 22:27:45" />
+          <option name="updateTime" value="1743539265943" />
+        </Conversation>
+        <Conversation>
+          <option name="createTime" value="1743514959139" />
+          <option name="id" value="0195f196fd237c3c9d847ab8c7331561" />
+          <option name="title" value="新对话 2025年4月01日 15:42:39" />
+          <option name="updateTime" value="1743514959139" />
+        </Conversation>
+        <Conversation>
+          <option name="createTime" value="1743500898563" />
+          <option name="id" value="0195f0c07103781198ed52bef531a9ff" />
+          <option name="title" value="新对话 2025年4月01日 11:48:18" />
+          <option name="updateTime" value="1743500898563" />
+        </Conversation>
+        <Conversation>
+          <option name="createTime" value="1743454077524" />
+          <option name="id" value="0195edf602547c33aa0c805ebd5be754" />
+          <option name="title" value="新对话 2025年3月31日 22:47:57" />
+          <option name="updateTime" value="1743454077524" />
+        </Conversation>
+        <Conversation>
+          <option name="createTime" value="1743436047610" />
+          <option name="id" value="0195ece2e4fa784a836446b8053c240f" />
+          <option name="title" value="新对话 2025年3月31日 17:47:27" />
+          <option name="updateTime" value="1743436047610" />
+        </Conversation>
+        <Conversation>
+          <option name="createTime" value="1743408768512" />
+          <option name="id" value="0195eb42a60072aa96f1dac276e9305d" />
+          <option name="title" value="新对话 2025年3月31日 10:12:48" />
+          <option name="updateTime" value="1743408768512" />
+        </Conversation>
+        <Conversation>
+          <option name="createTime" value="1743171539954" />
+          <option name="id" value="0195dd1ed3f274b3b923bd7a4d263c88" />
+          <option name="title" value="新对话 2025年3月28日 15:18:59" />
+          <option name="updateTime" value="1743171539954" />
+        </Conversation>
+        <Conversation>
+          <option name="createTime" value="1743156853084" />
+          <option name="id" value="0195dc3eb95c750397f5bf7813813c17" />
+          <option name="title" value="新对话 2025年3月28日 11:14:13" />
+          <option name="updateTime" value="1743156853084" />
+        </Conversation>
+        <Conversation>
+          <option name="createTime" value="1743008008816" />
+          <option name="id" value="0195d35f8a707b909f36ac5647db0175" />
+          <option name="title" value="新对话 2025年3月26日 17:53:28" />
+          <option name="updateTime" value="1743008008816" />
+        </Conversation>
+        <Conversation>
+          <option name="createTime" value="1743003750484" />
+          <option name="id" value="0195d31e905475f09c23850c9c3bcee9" />
+          <option name="title" value="新对话 2025年3月26日 16:42:30" />
+          <option name="updateTime" value="1743003750484" />
+        </Conversation>
+        <Conversation>
+          <option name="createTime" value="1742981731109" />
+          <option name="id" value="0195d1ce93257178b7d1ff0860c15f23" />
+          <option name="title" value="新对话 2025年3月26日 10:35:31" />
+          <option name="updateTime" value="1742981731109" />
+        </Conversation>
+        <Conversation>
+          <option name="createTime" value="1742947158312" />
+          <option name="id" value="0195cfbf092870dd910f9b802939250c" />
+          <option name="title" value="新对话 2025年3月26日 00:59:18" />
+          <option name="updateTime" value="1742947158312" />
+        </Conversation>
+        <Conversation>
+          <option name="createTime" value="1742899735000" />
+          <option name="id" value="0195cceb69d87f0996005e36e2417f88" />
+          <option name="title" value="新对话 2025年3月25日 11:48:55" />
+          <option name="updateTime" value="1742899735000" />
+        </Conversation>
+        <Conversation>
+          <option name="createTime" value="1742896508253" />
+          <option name="id" value="0195ccba2d5d7ead98c5af5d725b3e09" />
+          <option name="title" value="新对话 2025年3月25日 10:55:08" />
+          <option name="updateTime" value="1742896508253" />
+        </Conversation>
+        <Conversation>
+          <option name="createTime" value="1742894692897" />
+          <option name="id" value="0195cc9e7a217fc4bc895851d635ff96" />
+          <option name="title" value="新对话 2025年3月25日 10:24:52" />
+          <option name="updateTime" value="1742894692897" />
+        </Conversation>
+        <Conversation>
+          <option name="createTime" value="1742848588464" />
+          <option name="id" value="0195c9defab07eb78018aa832dd21a91" />
+          <option name="title" value="新对话 2025年3月24日 21:36:28" />
+          <option name="updateTime" value="1742848588464" />
+        </Conversation>
+        <Conversation>
+          <option name="createTime" value="1742551683281" />
+          <option name="id" value="0195b82c90d1725a85a5478d06d9ceb5" />
+          <option name="title" value="新对话 2025年3月21日 11:08:03" />
+          <option name="updateTime" value="1742551683281" />
+        </Conversation>
+        <Conversation>
+          <option name="createTime" value="1742467378738" />
+          <option name="id" value="0195b3262e327c2e9f9c72dc96411220" />
+          <option name="title" value="新对话 2025年3月20日 11:42:58" />
+          <option name="updateTime" value="1742467378738" />
+        </Conversation>
+        <Conversation>
+          <option name="createTime" value="1742406712106" />
+          <option name="id" value="0195af887b2a7a28ba5825b0ed6f5e36" />
+          <option name="title" value="新对话 2025年3月19日 18:51:52" />
+          <option name="updateTime" value="1742406712106" />
+        </Conversation>
+        <Conversation>
+          <option name="createTime" value="1742402474776" />
+          <option name="id" value="0195af47d3187ec3a98eeaac27efd098" />
+          <option name="title" value="新对话 2025年3月19日 17:41:14" />
+          <option name="updateTime" value="1742402474776" />
+        </Conversation>
+        <Conversation>
+          <option name="createTime" value="1742380151893" />
+          <option name="id" value="0195adf3345574d685850059324760a3" />
+          <option name="title" value="新对话 2025年3月19日 11:29:11" />
+          <option name="updateTime" value="1742380151893" />
+        </Conversation>
+        <Conversation>
+          <option name="createTime" value="1742379056968" />
+          <option name="id" value="0195ade27f487b44b906f10f54f91dd2" />
+          <option name="title" value="新对话 2025年3月19日 11:10:56" />
+          <option name="updateTime" value="1742379056968" />
         </Conversation>
       </list>
     </option>

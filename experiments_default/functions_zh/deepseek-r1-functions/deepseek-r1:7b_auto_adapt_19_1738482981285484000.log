@@ -1,9 +1,0 @@
-Standard Output:
-
-Standard Error:
-Traceback (most recent call last):
-  File "/Users/minghe/llm4faas/experiments_default/functions_zh/deepseek-r1-functions/deepseek-r1:7b_auto_adapt_19_1738482981285484000.py", line 126, in <module>
-    from home import Home, Room
-ImportError: cannot import name 'Home' from 'home' (unknown location)
-
-Return code: 1

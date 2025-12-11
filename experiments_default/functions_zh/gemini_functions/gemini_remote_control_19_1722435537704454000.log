@@ -1,9 +1,0 @@
-Standard Output:
-We find LivingRoom!
-/Actuator/AC/LivingRoom/1 is turned on.
-Set the target temperature of /Actuator/AC/LivingRoom/1 to 26°C.
-Turned on the AC in the Living Room and set the target temperature to 26 degrees.
-
-Standard Error:
-
-Return code: 0

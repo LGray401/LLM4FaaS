@@ -1,3 +1,28 @@
+# NodeJS-ZH-Functions
+# FOLDER_PATH = '/Users/minghe/llm4faas/experiments_js/output'
+
+# Syntactic Error Loop
+# # ZH
+# FOLDER_PATH = '/Users/minghe/llm4faas/syntactic_error_loop/test_output/zh/gemini-1.5-flash'
+# FOLDER_PATH = '/Users/minghe/llm4faas/syntactic_error_loop/test_output/zh/gpt-4o-mini'
+# FOLDER_PATH = '/Users/minghe/llm4faas/syntactic_error_loop/test_output/zh/gpt-4o'
+# FOLDER_PATH = '/Users/minghe/llm4faas/syntactic_error_loop/test_output/zh/copilot'
+# FOLDER_PATH = '/Users/minghe/llm4faas/syntactic_error_loop/test_output/zh/deepseek-r1:7b'
+# FOLDER_PATH = '/Users/minghe/llm4faas/syntactic_error_loop/test_output/zh/qwen-max'
+# # EN
+# FOLDER_PATH = '/Users/minghe/llm4faas/syntactic_error_loop/test_output/en/gemini-1.5-flash'
+# FOLDER_PATH = '/Users/minghe/llm4faas/syntactic_error_loop/test_output/en/gpt-4o-mini'
+# FOLDER_PATH = '/Users/minghe/llm4faas/syntactic_error_loop/test_output/en/gpt-4o'
+# FOLDER_PATH = '/Users/minghe/llm4faas/syntactic_error_loop/test_output/en/copilot'
+
+
+# HUMAN-DEVELOPER-Functions
+# FOLDER_PATH = '/Users/minghe/llm4faas/experiments_human_developer/auto_adapt'
+# FOLDER_PATH = '/Users/minghe/llm4faas/experiments_human_developer/energy'
+# FOLDER_PATH ='/Users/minghe/llm4faas/experiments_human_developer/plans'
+# FOLDER_PATH = '/Users/minghe/llm4faas/experiments_human_developer/remote_control'
+
+
 # ZH-Functions
 # FOLDER_PATH = '/Users/minghe/llm4faas/experiments_default/functions_zh/gpt4o_functions'
 # FOLDER_PATH = '/Users/minghe/llm4faas/experiments_default/functions_zh/gemini_functions'
@@ -9,7 +34,7 @@
 # FOLDER_PATH = '/Users/minghe/llm4faas/experiments_default/functions_zh/copilot_functions/plan'
 # FOLDER_PATH = '/Users/minghe/llm4faas/experiments_default/functions_zh/copilot_functions/energy'
 
-FOLDER_PATH = '/Users/minghe/llm4faas/experiments_default/functions_zh/deepseek-r1-functions'
+# FOLDER_PATH = '/Users/minghe/llm4faas/experiments_default/functions_zh/deepseek-r1-functions'
 
 
 # EN-Functions
@@ -61,6 +86,28 @@ FOLDER_PATH = '/Users/minghe/llm4faas/experiments_default/functions_zh/deepseek-
 
 
 FOLDER_PATHS = [
+    # Syntactic Error Loop
+    # # ZH
+    # '/Users/minghe/llm4faas/syntactic_error_loop/test_output/zh/gemini-1.5-flash',
+    # '/Users/minghe/llm4faas/syntactic_error_loop/test_output/zh/gpt-4o-mini',
+    # '/Users/minghe/llm4faas/syntactic_error_loop/test_output/zh/gpt-4o',
+    # '/Users/minghe/llm4faas/syntactic_error_loop/test_output/zh/copilot',
+    # '/Users/minghe/llm4faas/syntactic_error_loop/test_output/zh/deepseek-r1:7b',
+    # '/Users/minghe/llm4faas/syntactic_error_loop/test_output/zh/qwen-max',
+    # # EN
+    #  '/Users/minghe/llm4faas/syntactic_error_loop/test_output/en/gemini-1.5-flash',
+    #  '/Users/minghe/llm4faas/syntactic_error_loop/test_output/en/gpt-4o-mini',
+    #  '/Users/minghe/llm4faas/syntactic_error_loop/test_output/en/gpt-4o',
+     # '/Users/minghe/llm4faas/syntactic_error_loop/test_output/en/copilot',
+
+
+
+    # HUMAN_DEVELOPER
+    # '/Users/minghe/llm4faas/experiments_human_developer/auto_adapt',
+    # '/Users/minghe/llm4faas/experiments_human_developer/energy',
+    # '/Users/minghe/llm4faas/experiments_human_developer/plans',
+    # '/Users/minghe/llm4faas/experiments_human_developer/remote_control',
+
     # # ZH
     # '/Users/minghe/llm4faas/experiments_default/functions_zh/gpt4o_functions',
     # '/Users/minghe/llm4faas/experiments_default/functions_zh/gemini_functions',
@@ -106,7 +153,7 @@ FOLDER_PATHS = [
     # '/Users/minghe/llm4faas/experiments_mandarin/baidu_functions/energy',
     # '/Users/minghe/llm4faas/experiments_mandarin/baidu_functions/auto-adapt',
     #
-    '/Users/minghe/llm4faas/experiments_default/functions_zh/deepseek-r1-functions',
+    # '/Users/minghe/llm4faas/experiments_default/functions_zh/deepseek-r1-functions',
     # # BASELINE_V2 Functions
     # '/Users/minghe/llm4faas/experiments_baseline_v2/baseline_v2_functions_zh/auto_adapt',
     # '/Users/minghe/llm4faas/experiments_baseline_v2/baseline_v2_functions_zh/energy',

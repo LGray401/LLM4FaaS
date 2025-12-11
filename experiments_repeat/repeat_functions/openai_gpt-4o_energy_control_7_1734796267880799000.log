@@ -1,9 +1,0 @@
-Standard Output:
-We find LivingRoom!
-/Actuator/AC/LivingRoom/1 current status is off
-We find Bedroom!
-/Actuator/AC/Bedroom/1 current status is off
-
-Standard Error:
-
-Return code: 0

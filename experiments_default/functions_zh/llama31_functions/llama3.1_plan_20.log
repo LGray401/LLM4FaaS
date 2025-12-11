@@ -1,9 +1,0 @@
-Standard Output:
-
-Standard Error:
-  File "/Users/minghe/llm4faas/experiments_default/functions_zh/llama31_functions/llama3.1_plan_20.py", line 57
-    print "-", actuator.id
-    ^^^^^^^^^^^^^^^^^^^^^^
-SyntaxError: Missing parentheses in call to 'print'. Did you mean print(...)?
-
-Return code: 1

@@ -1,9 +1,0 @@
-Error: Execution timed out
-Standard Output:
-Scheduled arrival time: 14:35:41
-'/Sensor/IndoorTemperature/LivingRoom/1' is now ON.
-/Sensor/IndoorTemperature/LivingRoom/1 reading is: 35.09
-Set the target temperature of /Actuator/AC/LivingRoom/1 to 22°C.
-/Actuator/AC/LivingRoom/1 is turned on.
-
-Standard Error:

@@ -1,9 +1,0 @@
-Standard Output:
-We find LivingRoom!
-/Actuator/AC/LivingRoom/1 is turned on.
-Set the target temperature of /Actuator/AC/LivingRoom/1 to 26°C.
-客厅空调已打开，设置温度为26度。
-
-Standard Error:
-
-Return code: 0

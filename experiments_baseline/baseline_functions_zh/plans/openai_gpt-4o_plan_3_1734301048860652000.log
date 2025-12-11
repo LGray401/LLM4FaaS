@@ -1,7 +1,0 @@
-Standard Output:
-Usage: python smart_home.py [plan]
-Plans: 'morning', 'leave_home', 'movie'
-
-Standard Error:
-
-Return code: 0

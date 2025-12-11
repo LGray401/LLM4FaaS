@@ -1,8 +1,0 @@
-Standard Output:
-
-Standard Error:
-  File "/Users/minghe/llm4faas/experiments_default/functions_zh/llama31_functions/llama3.1_remote_control_13.py", line 47
-    def home_plan() -> list[Room]:
-IndentationError: expected an indented block after function definition on line 42
-
-Return code: 1

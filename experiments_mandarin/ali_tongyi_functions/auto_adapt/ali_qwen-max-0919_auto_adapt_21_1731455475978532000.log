@@ -1,9 +1,0 @@
-Error: Execution timed out
-Standard Output:
-/Sensor/IndoorTemperature/LivingRoom/1 current status is: off
-/Sensor/IndoorTemperature/Bedroom/1 current status is: off
-/Sensor/IndoorTemperature/Bathroom/1 current status is: off
-/Sensor/LightIntensive/LivingRoom/1 current status is: off
-/Sensor/LightIntensive/Bedroom/1 current status is: off
-
-Standard Error:

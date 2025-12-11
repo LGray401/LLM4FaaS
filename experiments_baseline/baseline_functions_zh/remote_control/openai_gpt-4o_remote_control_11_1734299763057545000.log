@@ -1,7 +1,0 @@
-Standard Output:
-Usage: smart_home.py <mode>
-Modes: sleep, wake_up, lights_off, windows_close
-
-Standard Error:
-
-Return code: 1

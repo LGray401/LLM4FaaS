@@ -1,9 +1,0 @@
-Standard Output:
-/Actuator/AC/LivingRoom/1 current status is off
-Air conditioner in LivingRoom is already off.
-/Actuator/AC/Bedroom/1 current status is off
-Air conditioner in Bedroom is already off.
-
-Standard Error:
-
-Return code: 0

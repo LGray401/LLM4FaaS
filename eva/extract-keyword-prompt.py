@@ -8,38 +8,46 @@ import os
 excel_file = 'data.xlsx'
 sheet_name = 'Sheet1'
 
-morning_column_index = 7
-leave_home_column_index = 8
-movie_column_index = 9
+# morning_column_index = 7
+# leave_home_column_index = 8
+# movie_column_index = 9
 # #
 # # markdown_template = 'baseline_v2_plans_template.md'
 # # # output_dir = '../logs_questionnaire_in_Chinese/plans'
 # # output_dir = '../logs_questionnaire_in_English/plans'
 # # output_prefix = 'plan_'
 
-markdown_template = '/Users/minghe/llm4faas/eva/js_prompt_template/js_keyword-prompt_template.md'
-output_dir = '/Users/minghe/llm4faas/experiments_js/prompt_zh/plan'
+# markdown_template = '/Users/minghe/llm4faas/eva/js_prompt_template/js_keyword-prompt_template.md'
+# output_dir = '/results_open_intepreter/experiments_js/prompt_zh/plan'
+
+# markdown_template = './js_prompt_template/js_baseline_plans_template.md'  # Markdown template file path
+# output_dir = '../experiments_js/prompt_baseline/plan'
+
+markdown_template = './js_prompt_template/js_baseline_auto_adapt_template.md'
+output_dir = '../experiments_js/prompt_baseline/auto_adapt'
+
+
 #
 # markdown_template = './system_prompt_keyword-prompt_template.md'
 # # output_dir = '../system_prompts_experiments/user_prompt_zh_short/plans'  # output directory
 # output_dir = '../system_prompts_experiments/user_prompt_en_short/plans'  # output directory
-output_prefix = 'plan_'
+# output_prefix = 'plan_'
 
 # # read Excel data
 df = pd.read_excel(excel_file, sheet_name=sheet_name)
 #
 # # extract Excel column data
-morning_plans = df.iloc[:, morning_column_index].dropna().tolist()
-leave_home_plans = df.iloc[:, leave_home_column_index].dropna().tolist()
-movie_plans = df.iloc[:, movie_column_index].dropna().tolist()
+# morning_plans = df.iloc[:, morning_column_index].dropna().tolist()
+# leave_home_plans = df.iloc[:, leave_home_column_index].dropna().tolist()
+# movie_plans = df.iloc[:, movie_column_index].dropna().tolist()
 
 
 # excel_file = 'data.xlsx'
 # sheet_name = 'Sheet1'
 
-# temperature_column_index = 10
-# humidity_column_index = 11
-# light_column_index = 12
+temperature_column_index = 10
+humidity_column_index = 11
+light_column_index = 12
 
 # markdown_template = './system_prompt_keyword-prompt_template.md'
 # output_dir = '../logs_questionnaire_in_English/auto_adapt'
@@ -50,15 +58,15 @@ movie_plans = df.iloc[:, movie_column_index].dropna().tolist()
 # output_dir = '../system_prompts_experiments/user_prompt_zh_short/auto_adapt'  # output directory
 # output_dir = '../system_prompts_experiments/user_prompt_en_short/auto_adapt'  # output directory
 
-# output_prefix = 'auto_adapt_'
+output_prefix = 'auto_adapt_'
 # #
 # #
 # df = pd.read_excel(excel_file, sheet_name=sheet_name)
 #
 #
-# morning_plans = df.iloc[:, temperature_column_index].dropna().astype(str).tolist()
-# leave_home_plans = df.iloc[:, humidity_column_index].dropna().astype(str).tolist()
-# movie_plans = df.iloc[:, light_column_index].dropna().astype(str).tolist()
+morning_plans = df.iloc[:, temperature_column_index].dropna().astype(str).tolist()
+leave_home_plans = df.iloc[:, humidity_column_index].dropna().astype(str).tolist()
+movie_plans = df.iloc[:, light_column_index].dropna().astype(str).tolist()
 #
 
 

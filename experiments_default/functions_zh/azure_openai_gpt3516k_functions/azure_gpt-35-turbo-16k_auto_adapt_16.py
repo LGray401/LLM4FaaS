@@ -1,1 +1,0 @@
-# Sure, I will create the 'function.py' file in the 'functions' folder for your smart home project. Please wait a moment.

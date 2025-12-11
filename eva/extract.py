@@ -10,8 +10,15 @@ sheet_name = 'Sheet1'  # sheet name
 
 # Remote Control Markdown file generation
 # markdown_template = 'system_prompt_remote-control-prompt_template.md'  # Markdown template file path
-markdown_template = './js_prompt_template/js_remote-control-prompt_template.md'  # Markdown template file path
-output_dir = '/Users/minghe/llm4faas/experiments_js/prompt_zh/remote_control'  # output directory
+
+# js_baseline_prompt
+markdown_template = './js_prompt_template/js_baseline_remote_control_template.md'  # Markdown template file path
+# output_dir = '../experiments_js/prompt_baseline/remote_control'
+output_dir = '../experiments_js/prompt_baseline/energy_control'
+
+# js_prompt
+# markdown_template = './js_prompt_template/js_remote-control-prompt_template.md'  # Markdown template file path
+# output_dir = '/results_open_intepreter/experiments_js/prompt_zh/remote_control'  # output directory
 
 # output_dir = '../logs_questionnaire_in_English/remote_control'  # output directory
 # output_dir = '../logs_questionnaire_in_Chinese/remote_control'  # output directory
@@ -19,8 +26,8 @@ output_dir = '/Users/minghe/llm4faas/experiments_js/prompt_zh/remote_control'  #
 # output_dir = '../system_prompts_experiments/user_prompt_zh_short/remote_control'  # output directory
 # output_dir = '../system_prompts_experiments/user_prompt_en_short/remote_control'  # output directory
 
-output_prefix = 'remote_control_'  # prefix of the output file name
-column_index = 6
+# output_prefix = 'remote_control_'  # prefix of the output file name
+# column_index = 6
 
 
 # Energy Markdown file generation
@@ -33,8 +40,8 @@ column_index = 6
 
 # output_dir = '../system_prompts_experiments/user_prompt_zh_short/energy'  # output directory
 # output_dir = '../system_prompts_experiments/user_prompt_en_short/energy'  # output directory
-# output_prefix = 'energy_control_'   # prefix of the output file name
-# column_index = 13
+output_prefix = 'energy_control_'   # prefix of the output file name
+column_index = 13
 
 # read Excel data
 df = pd.read_excel(excel_file, sheet_name=sheet_name)

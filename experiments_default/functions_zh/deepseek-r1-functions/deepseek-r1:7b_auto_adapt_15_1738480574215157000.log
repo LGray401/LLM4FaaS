@@ -1,9 +1,0 @@
-Standard Output:
-
-Standard Error:
-  File "/Users/minghe/llm4faas/experiments_default/functions_zh/deepseek-r1-functions/deepseek-r1:7b_auto_adapt_15_1738480574215157000.py", line 220
-    assert len(bedroom Room.check_actors()) == 1, "Expected one log message from LightSensor activation"
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
-SyntaxError: invalid syntax. Perhaps you forgot a comma?
-
-Return code: 1

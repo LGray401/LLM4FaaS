@@ -1,9 +1,0 @@
-Standard Output:
-
-Standard Error:
-Traceback (most recent call last):
-  File "/Users/minghe/llm4faas/experiments_default/functions_zh/deepseek-r1-functions/deepseek-r1:7b_auto_adapt_11_1738480056309290000.py", line 91, in <module>
-    from logger_config import Config, Sensor, Actuator, info, warning, critical, error, debug
-ModuleNotFoundError: No module named 'logger_config'
-
-Return code: 1

@@ -1,9 +1,0 @@
-Standard Output:
-We find Kitchen!
- /Actuator/CoffeeMachine/Kitchen/1 is OFF now
-We find LivingRoom!
-
-Standard Error:
-2025-01-14 17:02:33,567 - actuator.py - make_coffee - WARNING - ' /Actuator/CoffeeMachine/Kitchen/1 ' is OFF now, Need to Turn it On First.
-
-Return code: 0

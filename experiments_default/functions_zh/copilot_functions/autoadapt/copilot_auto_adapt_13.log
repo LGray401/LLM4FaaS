@@ -1,8 +1,0 @@
-Standard Output:
-
-Standard Error:
-  File "/Users/minghe/llm4faas/experiments_default/functions_zh/copilot_functions/autoadapt/copilot_auto-adapt_13.py", line 36
-    for actuator in room_actuators:
-IndentationError: unexpected indent
-
-Return code: 1

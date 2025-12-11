@@ -3,17 +3,23 @@ import time
 from openai import OpenAI
 import os
 
-from eva.scripts.model_setting import ALI_TONGYI_MODEL
+# <<<<<<< HEAD
+from eva.scripts.model_setting import ALI_TONGYI_MODEL, TEMPERATURE, MAX_TOKENS
 
-# model= "qwen-max-0919"
+#
+# # model= "qwen-max-0919"
 model = ALI_TONGYI_MODEL
-tongyi_api_key = "sk-aa6301b2bf33440481749c81ab21c12b"
-
+# tongyi_api_key = "sk-aa6301b2bf33440481749c81ab21c12b" #chinese account
+tongyi_api_key = 'sk-5792cb8b87ac4e6bbc28a66746852d73' # international account
 
 MD_FILES_DIR = '/Users/minghe/llm4faas/default_experiments/logs_questionnaire_in_Chinese/auto_adapt/'
+# MD_FILES_DIR = '/Users/minghe/llm4faas/default_experiments/logs_questionnaire_in_Chinese/plan/'
+# MD_FILES_DIR = '/Users/minghe/llm4faas/default_experiments/logs_questionnaire_in_Chinese/energy_control/'
+# MD_FILES_DIR = '/Users/minghe/llm4faas/default_experiments/logs_questionnaire_in_Chinese/remote_control/'
+
 OUTPUT_DIR = '../../ali_tongyi_functions/'
 
-
+# access key C7mNgqjgRIvobsIC%1W&7NnQvQeM7A?|
 def read_markdown(file_path):
     with open(file_path, 'r', encoding='utf-8') as file:
         content = file.read()
@@ -23,20 +29,24 @@ def read_markdown(file_path):
 
 def get_response(prompt):
     client = OpenAI(
-        api_key=tongyi_api_key, # 如果你没有配置环境变量，使用"your-api-key"替换
-        base_url="https://dashscope.aliyuncs.com/compatible-mode/v1", # 这里使用的是阿里云的大模型，如果需要使用其他平台，请参考对应的开发文档后对应修改
+        api_key='sk-5792cb8b87ac4e6bbc28a66746852d73',
+        base_url="https://dashscope-intl.aliyuncs.com/compatible-mode/v1"
     )
+    start_time = time.time()
     response = client.chat.completions.create(
-        model=model,
+        # model='qwen-max',
+        model='qwen1.5-7b-chat',  # 'qwen1.5-1.8b-8k-instruct-20240229' or 'qwen1.5-1.8b-8k-instruct',
         messages=[
             {'role': 'system', 'content': 'You are a helpful assistant.'},
             {'role': 'user', 'content': prompt}],
-        temperature=0.7,
-        max_tokens=1500,
+        temperature=TEMPERATURE,
+        max_tokens=MAX_TOKENS,
     )
-
+    end_time = time.time()
     response_content = response.choices[0].message.content.strip()
-    # print(response_content)
+    print(response_content)
+    latency = end_time - start_time
+    print(f"Response latency: {latency:.2f} seconds")
 
     start_index = response_content.find('```python')
     end_index = response_content.find('```', start_index + len('```python'))
@@ -74,4 +84,11 @@ def generate_files_from_directory(prompt_dir, output_dir):
             time.sleep(10)
 
 if __name__ == '__main__':
-    generate_files_from_directory(MD_FILES_DIR, OUTPUT_DIR)
+    # generate_files_from_directory(MD_FILES_DIR, OUTPUT_DIR)
+    # get_response('how are you?')
+    get_response("""Q: What is the capital of France?
+# A. Berlin
+# B. Madrid
+# C. Paris
+# D. Rome
+# Answer:""")

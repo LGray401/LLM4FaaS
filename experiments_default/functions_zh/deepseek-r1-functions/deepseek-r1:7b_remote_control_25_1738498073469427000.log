@@ -1,9 +1,0 @@
-Standard Output:
-
-Standard Error:
-  File "/Users/minghe/llm4faas/experiments_default/functions_zh/deepseek-r1-functions/deepseek-r1:7b_remote_control_25_1738498073469427000.py", line 110
-    @classmethod
-    ^
-IndentationError: expected an indented block after function definition on line 107
-
-Return code: 1

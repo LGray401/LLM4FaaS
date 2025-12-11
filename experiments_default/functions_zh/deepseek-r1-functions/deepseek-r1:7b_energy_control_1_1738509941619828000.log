@@ -1,9 +1,0 @@
-Standard Output:
-
-Standard Error:
-  File "/Users/minghe/llm4faas/experiments_default/functions_zh/deepseek-r1-functions/deepseek-r1:7b_energy_control_1_1738509941619828000.py", line 202
-    return all_sensors
-    ^^^^^^
-IndentationError: expected an indented block after 'for' statement on line 199
-
-Return code: 1

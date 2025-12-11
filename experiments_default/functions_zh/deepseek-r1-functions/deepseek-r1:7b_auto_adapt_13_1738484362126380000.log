@@ -1,9 +1,0 @@
-Standard Output:
-
-Standard Error:
-  File "/Users/minghe/llm4faas/experiments_default/functions_zh/deepseek-r1-functions/deepseek-r1:7b_auto_adapt_13_1738484362126380000.py", line 101
-    (actuator_type is None or actuator_type == actuator.actuator_type)))
-                                                                       ^
-SyntaxError: closing parenthesis ')' does not match opening parenthesis '[' on line 99
-
-Return code: 1

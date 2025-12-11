@@ -1,9 +1,0 @@
-Standard Output:
-/Actuator/AC/LivingRoom/1 current status is off
-Could not find temperature sensors for LivingRoom.
-/Actuator/AC/Bedroom/1 current status is off
-Could not find temperature sensors for Bedroom.
-
-Standard Error:
-
-Return code: 0

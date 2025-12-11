@@ -1,0 +1,105 @@
+TASK_NAME,INDEX,ERROR_STATUS,SUCCESS RATE(%),UNMATCHED_LINES
+remote_control,14,No Error & Warning,0.0000,['/Actuator/Light/LivingRoom/1 is turned on. || /Actuator/Light/LivingRoom/2 is turned on.']
+remote_control,13,No Error & Warning,0.5714,"['/Actuator/Curtain/Bedroom/1 || /Actuator/Curtain/LivingRoom/1', '/Sensor/Humidity/LivingRoom/1 reading is: || /Sensor/Humidity/Bedroom/1 reading is: || /Sensor/Humidity/Kitchen/1 reading is: || /Sensor/Humidity/Bathroom/1 reading is: || /Sensor/Humidity/Balcony/1 reading is:', '/Actuator/Humidifier/LivingRoom/1 || /Actuator/Humidifier/Bedroom/1']"
+remote_control,25,Error,0.0000,[]
+remote_control,22,Error,0.0000,[]
+remote_control,23,Error,0.0000,[]
+remote_control,24,Error,0.0000,[]
+remote_control,12,Error,0.0000,[]
+remote_control,15,Invalid Prompt,0.0000,[]
+remote_control,3,Error,0.0000,[]
+remote_control,4,Error,0.0000,[]
+remote_control,5,Invalid Prompt,0.0000,[]
+remote_control,2,No Error & Warning,1.0000,[]
+remote_control,10,Error,0.0000,[]
+remote_control,17,No Error & Warning,1.0000,[]
+remote_control,21,Error,0.0000,[]
+remote_control,19,No Error & Warning,1.0000,[]
+remote_control,26,Warning Exists,0.0000,['Set /Actuator/Light/LivingRoom/1 light brightness level to || Set /Actuator/Light/LivingRoom/2 light brightness level to || Set /Actuator/Light/Bedroom/1 light brightness level to || Set /Actuator/Light/Bedroom/2 light brightness level to || Set /Actuator/Light/Kitchen/1 light brightness level to || Set /Actuator/Light/Bathroom/1 light brightness level to']
+remote_control,18,No Error & Warning,1.0000,[]
+remote_control,20,No Error & Warning,0.5000,['/Actuator/AC/LivingRoom/1 || /Actuator/AC/Bedroom/1']
+remote_control,16,Invalid Prompt,0.0000,[]
+remote_control,11,No Error & Warning,1.0000,[]
+remote_control,9,Error,0.0000,[]
+remote_control,7,Error,0.0000,[]
+remote_control,1,Error,0.0000,[]
+remote_control,6,No Error & Warning,1.0000,[]
+remote_control,8,No Error & Warning,1.0000,[]
+auto_adapt,1,Error,0.0000,[]
+auto_adapt,6,Error,0.0000,[]
+auto_adapt,8,Warning Exists,0.5000,"[""'/Sensor/IndoorTemperature/LivingRoom/1' is now ON."", '/Sensor/IndoorTemperature/LivingRoom/1 reading is:', ""'/Sensor/Humidity/LivingRoom/1' is now ON."", '/Sensor/Humidity/LivingRoom/1 reading is:']"
+auto_adapt,9,Error,0.0000,[]
+auto_adapt,7,Error,0.0000,[]
+auto_adapt,23,Error,0.0000,[]
+auto_adapt,24,Timeout,1.0000,[]
+auto_adapt,12,Error,0.0000,[]
+auto_adapt,15,Error,0.0000,[]
+auto_adapt,14,Error,0.0000,[]
+auto_adapt,13,No Error & Warning,1.0000,[]
+auto_adapt,25,Timeout,1.0000,[]
+auto_adapt,22,Timeout,0.9000,"['/Actuator/Curtain/LivingRoom/1 || /Actuator/Curtain/Bedroom/1', '/Actuator/Light/LivingRoom/1 || /Actuator/Light/LivingRoom/2']"
+auto_adapt,5,No Error & Warning,1.0000,[]
+auto_adapt,2,Error,0.0000,[]
+auto_adapt,3,Warning Exists,0.8889,['Set /Actuator/Light/LivingRoom/1 light brightness level to MEDIUM || Set /Actuator/Light/LivingRoom/2 light brightness level to MEDIUM']
+auto_adapt,4,Error,0.0000,
+auto_adapt,18,Error,0.0000,
+auto_adapt,20,Error,0.0000,[]
+auto_adapt,16,Error,0.0000,[]
+auto_adapt,11,Error,0.0000,[]
+auto_adapt,10,Error,0.0000,
+auto_adapt,17,Error,0.0000,[]
+auto_adapt,21,Error,0.0000,[]
+auto_adapt,19,Error,0.0000,[]
+auto_adapt,26,Timeout,1.0000,[]
+plan,25,No Error & Warning,0.0000,"['/Sensor/LightIntensive/LivingRoom/1 reading is: || /Sensor/LightIntensive/Bedroom/1 reading is:', '/Actuator/Curtain/Bedroom/1 || /Actuator/Curtain/LivingRoom/1', '/Actuator/Light/Bedroom/1 is turned off.', '/Actuator/Light/Bedroom/2 is turned off.', '/Actuator/MusicPlayer/Bedroom/1 || /Actuator/MusicPlayer/LivingRoom/1', '/Actuator/CoffeeMachine/Kitchen/1', 'Lock the door /Actuator/Door/LivingRoom/1.', '/Actuator/Curtain/LivingRoom/1', '/Actuator/Curtain/Bedroom/1', '/Actuator/Light/LivingRoom/1 is turned off.', '/Actuator/Light/LivingRoom/2 is turned off.', '/Actuator/Light/Bedroom/1 is turned off.', '/Actuator/Light/Bedroom/2 is turned off.', '/Actuator/Light/Kitchen/1 is turned off.', '/Actuator/Light/Bathroom/1 is turned off.', '/Actuator/SmartSocket/LivingRoom/1 is turned off.', '/Actuator/SmartSocket/LivingRoom/2 is turned off.', '/Actuator/SmartSocket/Bedroom/1 is turned off.', '/Actuator/SmartSocket/Bedroom/2 is turned off.', '/Actuator/SmartSocket/Kitchen/1 is turned off.', '/Actuator/SmartSocket/Kitchen/2 is turned off.', '/Actuator/SmartSocket/Kitchen/3 is turned off.', '/Actuator/SmartSocket/Bathroom/1 is turned off.', '/Actuator/SmartSocket/Bathroom/2 is turned off.', '/Actuator/SmartTV/LivingRoom/1 is turned on.', '/Actuator/Curtain/LivingRoom/1 is turned off. || /Actuator/Curtain/Bedroom/1 is turned off.', 'Set /Actuator/Light/LivingRoom/1 light brightness level to LOW || Set /Actuator/Light/LivingRoom/2 light brightness level to LOW']"
+plan,22,No Error & Warning,0.0000,"['/Actuator/Light/Bedroom/1 is turned on. || /Actuator/Light/Bedroom/2 is turned on.', '/Actuator/Curtain/Bedroom/1', '/Actuator/CoffeeMachine/Kitchen/1', '/Actuator/MusicPlayer/Bedroom/1 || /Actuator/MusicPlayer/LivingRoom/1', 'Lock the door /Actuator/Door/LivingRoom/1.', '/Actuator/Light/LivingRoom/1 is turned off.', '/Actuator/Light/LivingRoom/2 is turned off.', '/Actuator/Light/Bedroom/1 is turned off.', '/Actuator/Light/Bedroom/2 is turned off.', '/Actuator/Light/Kitchen/1 is turned off.', '/Actuator/Light/Bathroom/1 is turned off.', '/Actuator/SmartSocket/LivingRoom/1 is turned off.', '/Actuator/SmartSocket/LivingRoom/2 is turned off.', '/Actuator/SmartSocket/Bedroom/1 is turned off.', '/Actuator/SmartSocket/Bedroom/2 is turned off.', '/Actuator/SmartSocket/Kitchen/1 is turned off.', '/Actuator/SmartSocket/Kitchen/2 is turned off.', '/Actuator/SmartSocket/Kitchen/3 is turned off.', '/Actuator/SmartSocket/Bathroom/1 is turned off.', '/Actuator/SmartSocket/Bathroom/2 is turned off.', 'Set /Actuator/Light/LivingRoom/1 light brightness level to LOW || Set /Actuator/Light/LivingRoom/2 light brightness level to LOW', '/Actuator/Curtain/LivingRoom/1', '/Actuator/SmartTV/LivingRoom/1 is turned on.']"
+plan,5,No Error & Warning,0.5000,"['/Actuator/Light/Bedroom/1 is turned off.', '/Actuator/Light/Bedroom/2 is turned off.', '/Actuator/Light/Kitchen/1 is turned off.', '/Actuator/Light/Bathroom/1 is turned off.']"
+plan,14,Invalid Prompt,0.0000,[]
+plan,13,Error,0.0000,[]
+plan,2,Error,0.0000,[]
+plan,3,Warning Exists,0.0000,"['/Actuator/CoffeeMachine/Kitchen/1', '/Actuator/Light/LivingRoom/1 is turned off.', '/Actuator/Light/LivingRoom/2 is turned off.', '/Actuator/Light/Bedroom/1 is turned off.', '/Actuator/Light/Bedroom/2 is turned off.', '/Actuator/Light/Kitchen/1 is turned off.', '/Actuator/Light/Bathroom/1 is turned off.', '/Actuator/Curtain/LivingRoom/1 || /Actuator/Curtain/Bedroom/1', '/Actuator/SmartTV/LivingRoom/1']"
+plan,12,Error,0.0000,[]
+plan,15,Invalid Prompt,0.0000,[]
+plan,4,Error,0.0000,[]
+plan,23,Error,0.0000,[]
+plan,24,Error,0.0000,[]
+plan,21,Error,0.0000,[]
+plan,19,Error,0.0000,[]
+plan,8,Invalid Prompt,0.0000,[]
+plan,26,Error,0.0000,[]
+plan,10,No Error & Warning,0.0000,"['/Actuator/Curtain/LivingRoom/1 || /Actuator/Curtain/Bedroom/1', '/Actuator/Light/LivingRoom/1 is turned off.', '/Actuator/Light/LivingRoom/2 is turned off.', '/Actuator/Light/Bedroom/1 is turned off.', '/Actuator/Light/Bedroom/2 is turned off.', '/Actuator/Light/Kitchen/1 is turned off.', '/Actuator/Light/Bathroom/1 is turned off.', '/Actuator/Window/LivingRoom/1 is turned off.', '/Actuator/Window/LivingRoom/2 is turned off.', '/Actuator/Window/Bedroom/1 is turned off.', '/Actuator/Window/Kitchen/1 is turned off.', '/Actuator/Window/Bathroom/1 is turned off.', '/Actuator/SmartTV/LivingRoom/1']"
+plan,1,No Error & Warning,0.0000,"['/Actuator/Light/LivingRoom/1 is turned on. || /Actuator/Light/LivingRoom/2 is turned on. || /Actuator/Light/Bedroom/1 is turned on. || /Actuator/Light/Bedroom/2 is turned on.', '/Actuator/Curtain/LivingRoom/1 || /Actuator/Curtain/Bedroom/1', '/Actuator/MusicPlayer/LivingRoom/1 || /Actuator/MusicPlayer/Bedroom/1', '/Actuator/CoffeeMachine/Kitchen/1', '/Actuator/Light/LivingRoom/1 is turned off.', '/Actuator/Light/LivingRoom/2 is turned off.', '/Actuator/Light/Bedroom/1 is turned off.', '/Actuator/Light/Bedroom/2 is turned off.', '/Actuator/Light/Kitchen/1 is turned off.', '/Actuator/Light/Bathroom/1 is turned off.', 'Lock the door /Actuator/Door/LivingRoom/1.', '/Actuator/SmartTV/LivingRoom/1 is turned on.', '/Actuator/Curtain/LivingRoom/1', 'Set /Actuator/Light/LivingRoom/1 light brightness level to LOW || Set /Actuator/Light/LivingRoom/2 light brightness level to LOW']"
+plan,6,Invalid Prompt,0.0000,[]
+plan,17,No Error & Warning,1.0000,[]
+plan,16,Error,0.0000,
+plan,7,No Error & Warning,0.5500,"['/Actuator/SmartSocket/LivingRoom/1 is turned off.', '/Actuator/SmartSocket/LivingRoom/2 is turned off.', '/Actuator/SmartSocket/Bedroom/1 is turned off.', '/Actuator/SmartSocket/Bedroom/2 is turned off.', '/Actuator/SmartSocket/Kitchen/1 is turned off.', '/Actuator/SmartSocket/Kitchen/2 is turned off.', '/Actuator/SmartSocket/Kitchen/3 is turned off.', '/Actuator/SmartSocket/Bathroom/1 is turned off.', '/Actuator/SmartSocket/Bathroom/2 is turned off.']"
+plan,11,No Error & Warning,0.0000,"['/Actuator/Light/LivingRoom/1 is turned on. || /Actuator/Light/LivingRoom/2 is turned on. || /Actuator/Light/Bedroom/1 is turned on. || /Actuator/Light/Bedroom/2 is turned on. || /Actuator/Light/Kitchen/1 is turned on. || /Actuator/Light/Bathroom/1 is turned on.', '/Actuator/Curtain/LivingRoom/1 is turned on. || /Actuator/Curtain/Bedroom/1 is turned on.', '/Actuator/SmartTV/LivingRoom/1 is turned on.']"
+plan,9,Error,0.0000,[]
+plan,18,Error,0.0000,
+plan,20,Error,0.0000,
+energy_control,20,Error,0.0000,
+energy_control,18,No Error & Warning,1.0000,[]
+energy_control,11,Error,0.0000,[]
+energy_control,16,Invalid Prompt,0.0000,[]
+energy_control,1,Error,0.0000,[]
+energy_control,6,No Error & Warning,0.5000,[]
+energy_control,8,No Error & Warning,1.0000,[]
+energy_control,17,Error,0.0000,[]
+energy_control,10,No Error & Warning,1.0000,[]
+energy_control,19,Invalid Prompt,0.0000,[]
+energy_control,26,Error,0.0000,[]
+energy_control,21,No Error & Warning,1.0000,[]
+energy_control,9,No Error & Warning,1.0000,[]
+energy_control,7,Error,0.0000,[]
+energy_control,5,Invalid Prompt,0.0000,[]
+energy_control,2,Error,0.0000,
+energy_control,24,No Error & Warning,1.0000,[]
+energy_control,23,No Error & Warning,1.0000,[]
+energy_control,15,Invalid Prompt,0.0000,[]
+energy_control,12,Error,0.0000,[]
+energy_control,3,No Error & Warning,0.0000,"['/Actuator/Window/Bedroom/1 is turned on. || /Actuator/Window/Bedroom/2 is turned on. || /Actuator/Window/LivingRoom/1 is turned on. || /Actuator/Window/LivingRoom/2 is turned on.', '/Actuator/AC/Bedroom/1 || /Actuator/AC/LivingRoom/1']"
+energy_control,4,Error,0.0000,[]
+energy_control,13,No Error & Warning,1.0000,[]
+energy_control,14,Invalid Prompt,0.0000,[]
+energy_control,22,Error,0.0000,[]
+energy_control,25,Error,0.0000,[]

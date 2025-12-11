@@ -1,9 +1,0 @@
-Standard Output:
-
-Standard Error:
-  File "/Users/minghe/llm4faas/experiments_default/functions_zh/deepseek-r1-functions/deepseek-r1:7b_energy_control_12_1738509517926899000.py", line 230
-    self Screen = Screen(name)
-         ^^^^^^
-SyntaxError: invalid syntax
-
-Return code: 1

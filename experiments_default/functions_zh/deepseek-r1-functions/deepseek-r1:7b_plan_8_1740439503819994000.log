@@ -1,9 +1,0 @@
-Standard Output:
-
-Standard Error:
-  File "/Users/minghe/llm4faas/experiments_default/functions_zh/deepseek-r1-functions/deepseek-r1:7b_plan_8_1740439503819994000.py", line 107
-    - If rooms are created with different cases (e.g., 'Livingroom' vs 'livingroom'), they won't be found unless the comparison is case-insensitive.
-                                                                                              ^
-SyntaxError: unterminated string literal (detected at line 107)
-
-Return code: 1

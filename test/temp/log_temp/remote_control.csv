@@ -1,2 +1,0 @@
-Timestamp,Model Name,Task Name,User Answer Index,Success Rate (%),Error Status,Log File Path
-,openai_gpt-4o,remote_control,26,0.00,Warning Exists,/Users/minghe/llm4faas/test/temp/log_temp/openai_gpt-4o_remote_control_26.log

@@ -1,9 +1,0 @@
-Standard Output:
-We find LivingRoom!
-'/Sensor/IndoorTemperature/LivingRoom/2' is now ON.
-/Sensor/IndoorTemperature/LivingRoom/2 reading is: 35.54
-/Actuator/Window/LivingRoom/3 is turned on.
-
-Standard Error:
-
-Return code: 0

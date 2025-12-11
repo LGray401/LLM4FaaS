@@ -1,9 +1,0 @@
-Standard Output:
-
-Standard Error:
-  File "/Users/minghe/llm4faas/experiments_default/functions_en/copilot_en_functions/auto-adapt/copilot_auto-adapt_18.py", line 32
-    def control_light_intensity(room_name, desired_light_intensity):
-    ^
-IndentationError: expected an indented block after function definition on line 29
-
-Return code: 1

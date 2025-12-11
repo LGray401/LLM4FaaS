@@ -1,9 +1,0 @@
-Standard Output:
-
-Standard Error:
-Traceback (most recent call last):
-  File "/Users/minghe/llm4faas/experiments_default/functions_zh/deepseek-r1-functions/deepseek-r1:7b_auto_adapt_17_1738484067621570000.py", line 314, in <module>
-    from components import Sensor, Actuator
-ModuleNotFoundError: No module named 'components'
-
-Return code: 1
