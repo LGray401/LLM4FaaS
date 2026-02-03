@@ -4,18 +4,74 @@ LLM4FaaS is a No-Code application development framework that combines Large Lang
 
 By leveraging FaaS, LLM4FaaS abstracts infrastructure and deployment complexity while constraining LLM generation to core business logic, avoids boilerplate generation and improves reliability.
 
+## Quick Start
+
+### Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/your-repo/LLM4FaaS.git
+cd LLM4FaaS
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Set up environment variables
+cp .env.example .env
+# Edit .env and add your API keys
+```
+
+### Basic Usage
+
+LLM4FaaS provides a unified CLI for the complete pipeline:
+
+```bash
+# Extract prompts from Excel data
+python main.py extract --task remote_control --excel data/input/data.xlsx --column 6
+
+# Generate code using OpenAI
+python main.py generate --task remote_control --provider openai --model gpt-4o
+
+# Deploy to tinyFaaS
+python main.py deploy --task remote_control --provider openai --tinyfaas-dir /path/to/tinyFaaS
+
+# Evaluate results
+python main.py evaluate --task remote_control --provider openai
+
+# Or run the full pipeline
+python main.py full --task remote_control --provider openai --excel data/input/data.xlsx --column 6
+```
+
+## Project Structure
+
+```
+LLM4FaaS/
+├── main.py                 # Unified CLI entry point
+├── src/                    # Source code
+│   ├── prompt_extraction/  # Extract prompts from Excel
+│   ├── llm_generation/     # Provider-agnostic LLM generation
+│   ├── faas_deployment/    # Function preparation and deployment
+│   ├── evaluation/         # Testing and code quality analysis
+│   └── utils/             # Utility functions
+├── templates/              # Prompt templates and runtime code
+│   ├── python/            # Python prompt templates
+│   ├── javascript/        # JavaScript prompt templates
+│   ├── baseline/          # Baseline templates
+│   └── smart_home/        # Smart home runtime code
+├── data/                   # All data files
+│   ├── input/             # Excel data and standard logs
+│   ├── prompts/           # Generated prompts
+│   ├── functions/         # Generated function code
+│   ├── logs/              # Execution logs
+│   └── evaluation/        # Evaluation results
+├── archive/                # Legacy experiment directories
+└── test/                  # Test utilities
+
+```
 
 ## Introduction
 
-LLM4FaaS uses [tinyFaaS](https://github.com/OpenFogStack/tinyFaas) as the default FaaS backend and [GPT-4o](https://platform.openai.com/docs/models/gpt-4o) as the default code-generation model, though both components can be replaced with other platforms or models.
-
-The [automation pipeline](./eva_automation), including structured prompt preparation, code generation, FaaS function preparation and deployment.
-The default prompt templates used for generation and evaluation are located in [experiments_default](./experiments_default) folder.
-
-LLM4FaaS is compared with three baselines, including a [non-FaaS version of LLM4FaaS](./experiments_baseline_v2), human-written implementations, and [Open Iterpreter](https://github.com/OpenInterpreter/open-interpreter).
-The evaluation considers [consistency](./experiments_repeat), [programming language](./experiments_js), [latency](./eva_automation), and [static code quatlity with pylint and radon](./eva_code_quality).
-
-LLM4FaaS also incorporates [runtime-error-based few-shot learning](./syntactic_error_loop) to improve system accuracy by refining generated code based on execution feedback.
+LLM4FaaS uses [tinyFaaS](https://github.com/OpenFogStack/tinyFaas) as the FaaS backend and supports multiple LLM providers including OpenAI (GPT-4o), Ollama (local models), and Google Gemini.
 
 
 ## Research
