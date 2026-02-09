@@ -9,10 +9,6 @@ By leveraging FaaS, LLM4FaaS abstracts infrastructure and deployment complexity 
 ### Installation
 
 ```bash
-# Clone the repository
-git clone https://github.com/your-repo/LLM4FaaS.git
-cd LLM4FaaS
-
 # Install dependencies
 pip install -r requirements.txt
 
@@ -42,32 +38,7 @@ python main.py evaluate --task remote_control --provider openai
 python main.py full --task remote_control --provider openai --excel data/input/data.xlsx --column 6
 ```
 
-## Project Structure
 
-```
-LLM4FaaS/
-├── main.py                 # Unified CLI entry point
-├── src/                    # Source code
-│   ├── prompt_extraction/  # Extract prompts from Excel
-│   ├── llm_generation/     # Provider-agnostic LLM generation
-│   ├── faas_deployment/    # Function preparation and deployment
-│   ├── evaluation/         # Testing and code quality analysis
-│   └── utils/             # Utility functions
-├── templates/              # Prompt templates and runtime code
-│   ├── python/            # Python prompt templates
-│   ├── javascript/        # JavaScript prompt templates
-│   ├── baseline/          # Baseline templates
-│   └── smart_home/        # Smart home runtime code
-├── data/                   # All data files
-│   ├── input/             # Excel data and standard logs
-│   ├── prompts/           # Generated prompts
-│   ├── functions/         # Generated function code
-│   ├── logs/              # Execution logs
-│   └── evaluation/        # Evaluation results
-├── archive/                # Legacy experiment directories
-└── test/                  # Test utilities
-
-```
 
 ## Introduction
 
