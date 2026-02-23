@@ -28,10 +28,43 @@ class TinyFaaSManager:
         self.upload_script = os.path.join(tinyfaas_dir, 'scripts', 'upload.sh')
         self.management_url = f"http://localhost:{management_port}/"
     
+    def _is_running(self) -> bool:
+        """Return True if the management service responds on the expected URL."""
+        try:
+            resp = requests.get(self.management_url, timeout=2)
+            return resp.status_code == 200
+        except requests.RequestException:
+            return False
+    
+    def _ensure_running(self) -> bool:
+        """Start tinyFaaS using `make start` if the management service is not reachable.
+
+        Returns True when the service is confirmed running, False otherwise.
+        """
+        if self._is_running():
+            return True
+        print("tinyFaaS not running, attempting to start via `make start`...")
+        try:
+            subprocess.run(["make", "start"], cwd=self.tinyfaas_dir, check=True)
+            # give the service a moment to come up
+            time.sleep(3)
+            if self._is_running():
+                print("✓ tinyFaaS started successfully.")
+                return True
+            else:
+                print("✗ tinyFaaS did not respond after startup.")
+                return False
+        except subprocess.CalledProcessError as e:
+            print(f"✗ Failed to start tinyFaaS: {e}")
+            return False
+    
     def upload_function(self, function_dir: str, function_name: str, 
                        runtime: str = 'python3') -> bool:
         """
         Upload a function to tinyFaaS.
+        
+        This method will ensure the tinyFaaS management service is running
+        before attempting an upload.
         
         Args:
             function_dir: Path to function directory
@@ -41,6 +74,11 @@ class TinyFaaSManager:
         Returns:
             True if upload successful, False otherwise
         """
+        # make sure tinyFaaS is up and listening
+        if not self._ensure_running():
+            print("✗ Cannot upload because tinyFaaS failed to start or is unreachable.")
+            return False
+
         # Sanitize function name (alphanumeric only)
         alphanumeric_name = re.sub(r'[^a-zA-Z0-9]', '', function_name)
         
@@ -76,6 +114,10 @@ class TinyFaaSManager:
         Returns:
             Tuple of (success, response_text or error_message)
         """
+        # make sure tinyFaaS management endpoint is available
+        if not self._ensure_running():
+            return False, "tinyFaaS is not running; cannot trigger function"
+
         # Sanitize function name
         alphanumeric_name = re.sub(r'[^a-zA-Z0-9]', '', function_name)
         url = f"http://localhost:{self.http_port}/{alphanumeric_name}"
