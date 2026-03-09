@@ -2,5 +2,6 @@
 from .test_results import FunctionEvaluator
 from .code_quality import CodeQualityAnalyzer
 from .latency import LatencyWriter, LatencyRecord
+from .aggregate import ResultsAggregator
 
-__all__ = ['FunctionEvaluator', 'CodeQualityAnalyzer', 'LatencyWriter', 'LatencyRecord']
+__all__ = ['FunctionEvaluator', 'CodeQualityAnalyzer', 'LatencyWriter', 'LatencyRecord', 'ResultsAggregator']

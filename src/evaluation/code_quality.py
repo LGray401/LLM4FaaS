@@ -166,6 +166,72 @@ class CodeQualityAnalyzer:
             print(f"✗ Radon HAL error: {e}")
             return None
 
+    def run_radon_combined(self, file_path: str, output_dir: str) -> str:
+        """
+        Generate a combined Radon report (raw + CC + MI + Halstead) in one file.
+
+        Matches the format produced by
+        archive/eva_code_quality/get_radon_report.py::run_radon() so that
+        aggregate.parse_radon_reports() can parse the output with the same
+        regex patterns used in the archive.
+
+        Args:
+            file_path: Path to Python file
+            output_dir: Directory to save report
+
+        Returns:
+            Path to the generated combined report, or None on failure
+        """
+        os.makedirs(output_dir, exist_ok=True)
+
+        filename = Path(file_path).stem
+        report_path = os.path.join(output_dir, f'{filename}_radon.txt')
+
+        try:
+            raw_result = subprocess.run(
+                ['radon', 'raw', file_path],
+                capture_output=True, text=True
+            )
+            cc_result = subprocess.run(
+                ['radon', 'cc', file_path, '-a'],
+                capture_output=True, text=True
+            )
+            mi_result = subprocess.run(
+                ['radon', 'mi', '-s', file_path],
+                capture_output=True, text=True
+            )
+            halstead_result = subprocess.run(
+                ['radon', 'hal', file_path],
+                capture_output=True, text=True
+            )
+
+            with open(report_path, 'w', encoding='utf-8') as f:
+                f.write('=== Raw Metrics ===\n')
+                f.write(raw_result.stdout + '\n')
+                f.write(raw_result.stderr + '\n')
+
+                f.write('=== Cyclomatic Complexity (CC) ===\n')
+                f.write(cc_result.stdout + '\n')
+                f.write(cc_result.stderr + '\n')
+
+                f.write('=== Maintainability Index (MI) ===\n')
+                f.write(mi_result.stdout + '\n')
+                f.write(mi_result.stderr + '\n')
+
+                f.write('=== Halstead Metrics ===\n')
+                f.write(halstead_result.stdout + '\n')
+                f.write(halstead_result.stderr + '\n')
+
+            print(f'✓ Combined Radon report: {report_path}')
+            return report_path
+
+        except FileNotFoundError:
+            print('✗ Radon not installed. Install with: pip install radon')
+            return None
+        except Exception as e:
+            print(f'✗ Radon combined error: {e}')
+            return None
+
     def analyze_file(self, file_path: str, output_dir: str,
                      tools: List[str] = None) -> Dict[str, str]:
         """
@@ -181,7 +247,7 @@ class CodeQualityAnalyzer:
             Dictionary mapping tool names to report paths
         """
         if tools is None:
-            tools = ['pylint', 'radon_cc', 'radon_mi', 'radon_hal']
+            tools = ['pylint', 'radon_cc', 'radon_mi', 'radon_hal', 'radon_combined']
         
         results = {}
         
@@ -204,6 +270,11 @@ class CodeQualityAnalyzer:
             report_path = self.run_radon_hal(file_path, output_dir)
             if report_path:
                 results['radon_hal'] = report_path
+
+        if 'radon_combined' in tools:
+            report_path = self.run_radon_combined(file_path, output_dir)
+            if report_path:
+                results['radon_combined'] = report_path
         
         return results
     
@@ -241,7 +312,7 @@ def main():
     parser.add_argument('--source-dir', required=True, help='Directory with Python files')
     parser.add_argument('--output-dir', required=True, help='Output directory for reports')
     parser.add_argument('--tools', nargs='+',
-                       choices=['pylint', 'radon_cc', 'radon_mi', 'radon_hal'],
+                       choices=['pylint', 'radon_cc', 'radon_mi', 'radon_hal', 'radon_combined'],
                        help='Tools to run (default: all)')
     
     args = parser.parse_args()
