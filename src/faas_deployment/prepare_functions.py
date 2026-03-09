@@ -175,38 +175,49 @@ class FunctionPreparer:
         with open(path, 'w', encoding='utf-8') as f:
             json.dump(package_json, f, indent=2)
     
-    def prepare_batch(self, source_dir: str, output_dir: str, 
-                     language: str = 'python') -> list:
+    def prepare_batch(self, source_dir: str, output_dir: str,
+                     language: str = 'python') -> tuple:
         """
         Prepare multiple functions from a directory.
-        
+
         Args:
             source_dir: Directory containing generated code files
             output_dir: Root directory for function folders
             language: Programming language ('python' or 'javascript')
-            
+
         Returns:
-            List of created function directory paths
+            Tuple of:
+                - List of created function directory paths
+                - List of timing dicts, each containing:
+                    source_filename (basename), prepare_s (elapsed seconds)
         """
+        import time as _time
         extension = '.py' if language == 'python' else '.js'
         source_files = [f for f in os.listdir(source_dir) if f.endswith(extension)]
-        
+
         prepared_dirs = []
+        timing_records = []
         for filename in source_files:
             source_path = os.path.join(source_dir, filename)
-            
+
             try:
+                t_start = _time.time()
                 if language == 'python':
                     func_dir = self.prepare_python_function(source_path, output_dir)
                 else:
                     func_dir = self.prepare_javascript_function(source_path, output_dir)
-                
+                prepare_s = _time.time() - t_start
+
                 prepared_dirs.append(func_dir)
+                timing_records.append({
+                    'source_filename': filename,
+                    'prepare_s': prepare_s,
+                })
             except Exception as e:
                 print(f"✗ Error preparing {filename}: {e}")
                 continue
-        
-        return prepared_dirs
+
+        return prepared_dirs, timing_records
 
 
 def main():

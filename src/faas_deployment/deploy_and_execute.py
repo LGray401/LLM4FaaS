@@ -29,10 +29,11 @@ class TinyFaaSManager:
         self.management_url = f"http://localhost:{management_port}/"
     
     def _is_running(self) -> bool:
-        """Return True if the management service responds on the expected URL."""
+        """Return True if the management service is reachable on the expected URL."""
         try:
-            resp = requests.get(self.management_url, timeout=2)
-            return resp.status_code == 200
+            # Any HTTP response means something is listening on the management port.
+            requests.get(self.management_url, timeout=2)
+            return True
         except requests.RequestException:
             return False
     
@@ -45,16 +46,33 @@ class TinyFaaSManager:
             return True
         print("tinyFaaS not running, attempting to start via `make start`...")
         try:
-            subprocess.run(["make", "start"], cwd=self.tinyfaas_dir, check=True)
-            # give the service a moment to come up
-            time.sleep(3)
-            if self._is_running():
-                print("✓ tinyFaaS started successfully.")
-                return True
-            else:
-                print("✗ tinyFaaS did not respond after startup.")
-                return False
-        except subprocess.CalledProcessError as e:
+            process = subprocess.Popen(
+                ["make", "start"],
+                cwd=self.tinyfaas_dir,
+                stdout=subprocess.PIPE,
+                stderr=subprocess.PIPE,
+                text=True,
+                start_new_session=True,
+            )
+
+            # Wait up to 15 seconds for management service to become reachable
+            for _ in range(15):
+                if self._is_running():
+                    print("✓ tinyFaaS started successfully.")
+                    return True
+                if process.poll() is not None:
+                    stdout, stderr = process.communicate()
+                    error_output = (stderr or stdout or "").strip()
+                    if error_output:
+                        print(f"✗ tinyFaaS start failed: {error_output}")
+                    else:
+                        print("✗ tinyFaaS start process exited before service became reachable.")
+                    return False
+                time.sleep(1)
+
+            print("✗ tinyFaaS did not respond after startup.")
+            return False
+        except OSError as e:
             print(f"✗ Failed to start tinyFaaS: {e}")
             return False
     
@@ -146,61 +164,72 @@ class TinyFaaSManager:
             return False, error_msg
     
     def deploy_and_execute(self, function_dir: str, function_name: str,
-                          runtime: str = 'python3', 
-                          trigger_data: Optional[dict] = None) -> Tuple[bool, str]:
+                          runtime: str = 'python3',
+                          trigger_data: Optional[dict] = None) -> Tuple[bool, str, dict]:
         """
         Upload a function and immediately trigger it.
-        
+
         Args:
             function_dir: Path to function directory
             function_name: Name for the function
             runtime: Runtime environment
             trigger_data: Optional data to send when triggering
-            
+
         Returns:
-            Tuple of (success, response_text or error_message)
+            Tuple of (success, response_text or error_message, timing_dict).
+            timing_dict keys: upload_s, execute_s (None when not reached).
         """
-        # Upload first
+        # Upload
+        t_upload = time.time()
         upload_success = self.upload_function(function_dir, function_name, runtime)
-        
+        upload_s = time.time() - t_upload
+
         if not upload_success:
-            return False, "Upload failed"
-        
+            return False, "Upload failed", {'upload_s': upload_s, 'execute_s': None}
+
         # Small delay to ensure function is ready
         time.sleep(1)
-        
+
         # Trigger
-        return self.trigger_function(function_name, trigger_data)
+        t_exec = time.time()
+        success, response = self.trigger_function(function_name, trigger_data)
+        execute_s = time.time() - t_exec
+
+        return success, response, {'upload_s': upload_s, 'execute_s': execute_s}
     
     def deploy_batch(self, function_dirs: list, runtime: str = 'python3',
                     execute: bool = False) -> list:
         """
         Deploy multiple functions.
-        
+
         Args:
             function_dirs: List of function directory paths
             runtime: Runtime environment
             execute: Whether to also trigger each function
-            
+
         Returns:
-            List of tuples (function_name, success, response)
+            List of tuples (function_name, success, response, timing_dict).
+            timing_dict keys: upload_s, execute_s (execute_s is None when execute=False).
         """
         results = []
-        
+
         for func_dir in function_dirs:
             func_name = os.path.basename(func_dir)
-            
+
             if execute:
-                success, response = self.deploy_and_execute(func_dir, func_name, runtime)
+                success, response, timing = self.deploy_and_execute(func_dir, func_name, runtime)
             else:
+                t_upload = time.time()
                 success = self.upload_function(func_dir, func_name, runtime)
+                upload_s = time.time() - t_upload
                 response = "Not executed"
-            
-            results.append((func_name, success, response))
-            
+                timing = {'upload_s': upload_s, 'execute_s': None}
+
+            results.append((func_name, success, response, timing))
+
             # Rate limiting
             time.sleep(2)
-        
+
         return results
 
 

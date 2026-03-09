@@ -106,3 +106,7 @@ dmypy.json
 .cache/
 
 notes/
+e2etests/
+.vscode/
+.github/
+validation/

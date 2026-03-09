@@ -128,7 +128,45 @@ class CodeQualityAnalyzer:
             print(f"✗ Radon error: {e}")
             return None
     
-    def analyze_file(self, file_path: str, output_dir: str, 
+    def run_radon_hal(self, file_path: str, output_dir: str) -> str:
+        """
+        Run Radon Halstead metrics analysis.
+
+        Args:
+            file_path: Path to Python file
+            output_dir: Directory to save report
+
+        Returns:
+            Path to the generated report
+        """
+        os.makedirs(output_dir, exist_ok=True)
+
+        filename = Path(file_path).stem
+        report_path = os.path.join(output_dir, f'{filename}_radon_hal.txt')
+
+        try:
+            result = subprocess.run(
+                ['radon', 'hal', file_path],
+                capture_output=True,
+                text=True
+            )
+
+            with open(report_path, 'w', encoding='utf-8') as f:
+                f.write(result.stdout)
+                if result.stderr:
+                    f.write(f"\n\nErrors:\n{result.stderr}")
+
+            print(f"✓ Radon HAL report: {report_path}")
+            return report_path
+
+        except FileNotFoundError:
+            print("✗ Radon not installed. Install with: pip install radon")
+            return None
+        except Exception as e:
+            print(f"✗ Radon HAL error: {e}")
+            return None
+
+    def analyze_file(self, file_path: str, output_dir: str,
                      tools: List[str] = None) -> Dict[str, str]:
         """
         Run all specified analysis tools on a file.
@@ -136,14 +174,14 @@ class CodeQualityAnalyzer:
         Args:
             file_path: Path to Python file
             output_dir: Directory to save reports
-            tools: List of tools to run (['pylint', 'radon_cc', 'radon_mi'])
+            tools: List of tools to run (['pylint', 'radon_cc', 'radon_mi', 'radon_hal'])
                   If None, runs all tools
             
         Returns:
             Dictionary mapping tool names to report paths
         """
         if tools is None:
-            tools = ['pylint', 'radon_cc', 'radon_mi']
+            tools = ['pylint', 'radon_cc', 'radon_mi', 'radon_hal']
         
         results = {}
         
@@ -161,6 +199,11 @@ class CodeQualityAnalyzer:
             report_path = self.run_radon_mi(file_path, output_dir)
             if report_path:
                 results['radon_mi'] = report_path
+
+        if 'radon_hal' in tools:
+            report_path = self.run_radon_hal(file_path, output_dir)
+            if report_path:
+                results['radon_hal'] = report_path
         
         return results
     
@@ -197,8 +240,8 @@ def main():
     parser = argparse.ArgumentParser(description='Analyze code quality')
     parser.add_argument('--source-dir', required=True, help='Directory with Python files')
     parser.add_argument('--output-dir', required=True, help='Output directory for reports')
-    parser.add_argument('--tools', nargs='+', 
-                       choices=['pylint', 'radon_cc', 'radon_mi'],
+    parser.add_argument('--tools', nargs='+',
+                       choices=['pylint', 'radon_cc', 'radon_mi', 'radon_hal'],
                        help='Tools to run (default: all)')
     
     args = parser.parse_args()
