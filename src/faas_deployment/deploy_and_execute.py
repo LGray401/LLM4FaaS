@@ -27,12 +27,21 @@ class TinyFaaSManager:
         self.http_port = http_port
         self.upload_script = os.path.join(tinyfaas_dir, 'scripts', 'upload.sh')
         self.management_url = f"http://localhost:{management_port}/"
+        self.http_url = f"http://localhost:{http_port}/"
     
     def _is_running(self) -> bool:
         """Return True if the management service is reachable on the expected URL."""
         try:
             # Any HTTP response means something is listening on the management port.
-            requests.get(self.management_url, timeout=2)
+            requests.get(f"{self.management_url}functions", timeout=2)
+            return True
+        except requests.RequestException:
+            return False
+
+    def _is_http_ready(self) -> bool:
+        """Return True if the HTTP invocation endpoint is reachable."""
+        try:
+            requests.get(self.http_url, timeout=2)
             return True
         except requests.RequestException:
             return False
@@ -42,8 +51,16 @@ class TinyFaaSManager:
 
         Returns True when the service is confirmed running, False otherwise.
         """
-        if self._is_running():
+        if self._is_running() and self._is_http_ready():
             return True
+
+        if self._is_running() and not self._is_http_ready():
+            print("tinyFaaS management is reachable but HTTP invocation endpoint is not ready yet...")
+            for _ in range(15):
+                if self._is_http_ready():
+                    return True
+                time.sleep(1)
+
         print("tinyFaaS not running, attempting to start via `make start`...")
         try:
             process = subprocess.Popen(
@@ -55,9 +72,9 @@ class TinyFaaSManager:
                 start_new_session=True,
             )
 
-            # Wait up to 15 seconds for management service to become reachable
-            for _ in range(15):
-                if self._is_running():
+            # Wait up to 30 seconds for both management and invocation endpoints
+            for _ in range(30):
+                if self._is_running() and self._is_http_ready():
                     print("✓ tinyFaaS started successfully.")
                     return True
                 if process.poll() is not None:
@@ -70,7 +87,7 @@ class TinyFaaSManager:
                     return False
                 time.sleep(1)
 
-            print("✗ tinyFaaS did not respond after startup.")
+            print("✗ tinyFaaS did not become fully ready after startup (management + HTTP endpoint required).")
             return False
         except OSError as e:
             print(f"✗ Failed to start tinyFaaS: {e}")
@@ -102,21 +119,31 @@ class TinyFaaSManager:
         
         print(f"Uploading {function_dir} as {alphanumeric_name}...")
         
-        try:
-            result = subprocess.run(
-                [self.upload_script, function_dir, alphanumeric_name, runtime, "1"],
-                check=True,
-                cwd=self.tinyfaas_dir,
-                capture_output=True,
-                text=True
-            )
+        last_error = ""
+        for attempt in range(1, 4):
+            try:
+                subprocess.run(
+                    [self.upload_script, function_dir, alphanumeric_name, runtime, "1"],
+                    check=True,
+                    cwd=self.tinyfaas_dir,
+                    capture_output=True,
+                    text=True
+                )
+                print(f"✓ Uploaded: {alphanumeric_name}")
+                return True
+            except subprocess.CalledProcessError as e:
+                last_error = (e.stderr or e.stdout or str(e)).strip()
+                if attempt < 3:
+                    print(f"⚠ Upload attempt {attempt}/3 failed for {alphanumeric_name}, retrying...")
+                    time.sleep(2)
+                    if not self._ensure_running():
+                        break
+                else:
+                    print(f"✗ Failed to upload {alphanumeric_name}: {last_error}")
 
-            print(f"✓ Uploaded: {alphanumeric_name}")
-            return True
-            
-        except subprocess.CalledProcessError as e:
-            print(f"✗ Failed to upload {alphanumeric_name}: {e.stderr}")
-            return False
+        if last_error:
+            print(f"✗ Failed to upload {alphanumeric_name}: {last_error}")
+        return False
     
     def trigger_function(self, function_name: str, 
                         data: Optional[dict] = None,
@@ -142,26 +169,41 @@ class TinyFaaSManager:
         
         print(f"Triggering: {alphanumeric_name}")
         
-        try:
-            response = requests.post(url, json=data, timeout=timeout)
-            
-            if response.status_code == 200:
-                print(f"✓ Triggered successfully: {alphanumeric_name}")
-                return True, response.text
-            else:
+        last_error = ""
+        for attempt in range(1, 4):
+            try:
+                response = requests.post(url, json=data, timeout=timeout)
+
+                if response.status_code == 200:
+                    print(f"✓ Triggered successfully: {alphanumeric_name}")
+                    return True, response.text
+
                 error_msg = f"Status {response.status_code}: {response.text}"
+                # Retry transient server-side and gateway-style failures.
+                if response.status_code >= 500 and attempt < 3:
+                    print(f"⚠ Trigger attempt {attempt}/3 failed for {alphanumeric_name}, retrying...")
+                    time.sleep(2)
+                    if not self._ensure_running():
+                        break
+                    continue
+
                 print(f"✗ Trigger failed: {error_msg}")
                 return False, error_msg
-                
-        except requests.Timeout:
-            error_msg = f"Timeout after {timeout} seconds"
-            print(f"✗ {error_msg}")
-            return False, error_msg
-            
-        except requests.RequestException as e:
-            error_msg = f"Request error: {e}"
-            print(f"✗ {error_msg}")
-            return False, error_msg
+
+            except requests.Timeout:
+                last_error = f"Timeout after {timeout} seconds"
+            except requests.RequestException as e:
+                last_error = f"Request error: {e}"
+
+            if attempt < 3:
+                print(f"⚠ Trigger attempt {attempt}/3 failed for {alphanumeric_name}, retrying...")
+                time.sleep(2)
+                if not self._ensure_running():
+                    break
+            else:
+                print(f"✗ {last_error}")
+
+        return False, last_error or "Trigger failed"
     
     def deploy_and_execute(self, function_dir: str, function_name: str,
                           runtime: str = 'python3',
