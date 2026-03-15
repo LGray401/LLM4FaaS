@@ -13,7 +13,7 @@ sys.path.insert(0, str(Path(__file__).parent))
 
 from src.prompt_extraction import PromptExtractor
 from src.llm_generation import LLMGenerator
-from src.faas_deployment import FunctionPreparer, TinyFaaSManager
+from src.faas_deployment import FunctionPreparer, TinyFaaSManager, LocalExecutor
 from src.evaluation import FunctionEvaluator, CodeQualityAnalyzer, LatencyWriter
 
 
@@ -112,7 +112,7 @@ class LLM4FaaS:
         return str(output_dir), timing_records
 
     def deploy_functions(self, args):
-        """Prepare and deploy functions to tinyFaaS."""
+        """Prepare functions, optionally deploy to tinyFaaS, and/or execute locally."""
         print("=" * 60)
         print("STEP 3: Deploying to tinyFaaS")
         print("=" * 60)
@@ -132,7 +132,7 @@ class LLM4FaaS:
 
         deploy_timings = []
 
-        # Deploy to tinyFaaS
+        # Deploy to tinyFaaS (upload always; execution controlled by --execute)
         if args.tinyfaas_dir:
             print("\n→ Deploying to tinyFaaS...")
             manager = TinyFaaSManager(args.tinyfaas_dir)
@@ -146,18 +146,21 @@ class LLM4FaaS:
                 logs_dir = self.data_dir / 'logs' / args.experiment / args.task
                 logs_dir.mkdir(parents=True, exist_ok=True)
                 for func_name, success, response, timing in results:
-                    log_path = logs_dir / f"{func_name}.log"
-                    stdout = response if success else ""
-                    stderr = "" if success else str(response)
-                    return_code = 0 if success else 1
-                    with open(log_path, 'w', encoding='utf-8') as log_file:
-                        log_file.write("Standard Output:\n")
-                        if stdout:
-                            log_file.write(f"{stdout}\n")
-                        log_file.write("Standard Error:\n")
-                        if stderr:
-                            log_file.write(f"{stderr}\n")
-                        log_file.write(f"Return code: {return_code}\n")
+                    # If local execution is also enabled, keep tinyFaaS logs out of
+                    # the default evaluation directory to avoid duplicate samples.
+                    if not getattr(args, 'local_execution', False):
+                        log_path = logs_dir / f"{func_name}.log"
+                        stdout = response if success else ""
+                        stderr = "" if success else str(response)
+                        return_code = 0 if success else 1
+                        with open(log_path, 'w', encoding='utf-8') as log_file:
+                            log_file.write("Standard Output:\n")
+                            if stdout:
+                                log_file.write(f"{stdout}\n")
+                            log_file.write("Standard Error:\n")
+                            if stderr:
+                                log_file.write(f"{stderr}\n")
+                            log_file.write(f"Return code: {return_code}\n")
 
                     deploy_timings.append({
                         'source_filename': f"{func_name}.py",
@@ -171,6 +174,48 @@ class LLM4FaaS:
                         'upload_s': timing.get('upload_s'),
                         'execute_s': timing.get('execute_s'),
                     })
+
+        # Local execution for semantic evaluation without tinyFaaS response constraints.
+        if getattr(args, 'local_execution', False):
+            if args.language != 'python':
+                raise ValueError("Local execution currently supports only --language python")
+
+            print("\n→ Executing functions locally...")
+            logs_dir = self.data_dir / 'logs' / args.experiment / args.task
+            logs_dir.mkdir(parents=True, exist_ok=True)
+
+            executor = LocalExecutor(timeout=getattr(args, 'local_timeout', 30))
+            local_results = executor.execute_batch(function_dirs)
+
+            successful_local = sum(1 for item in local_results if item['success'])
+            print(f"✓ Locally executed {successful_local}/{len(local_results)} functions")
+
+            for item in local_results:
+                func_name = item['function_name']
+                stdout = item['stdout'] or ""
+                stderr = item['stderr'] or ""
+                return_code = 0 if item['success'] else 1
+
+                log_path = logs_dir / f"{func_name}.log"
+                with open(log_path, 'w', encoding='utf-8') as log_file:
+                    log_file.write("Standard Output:\n")
+                    if stdout:
+                        log_file.write(stdout)
+                        if not stdout.endswith("\n"):
+                            log_file.write("\n")
+                    log_file.write("Standard Error:\n")
+                    if stderr:
+                        log_file.write(stderr)
+                        if not stderr.endswith("\n"):
+                            log_file.write("\n")
+                    log_file.write(f"Return code: {return_code}\n")
+
+                timing = item['timing']
+                deploy_timings.append({
+                    'source_filename': f"{func_name}.py",
+                    'upload_s': timing.get('upload_s'),
+                    'execute_s': timing.get('execute_s'),
+                })
 
         return str(prepared_dir), prepare_timings, deploy_timings
     
@@ -220,7 +265,7 @@ class LLM4FaaS:
         # Step 3: Deploy (captures prepare + deploy timing)
         prepare_timings = []
         deploy_timings = []
-        if args.tinyfaas_dir:
+        if args.tinyfaas_dir or getattr(args, 'local_execution', False):
             _, prepare_timings, deploy_timings = self.deploy_functions(args)
 
         # Write latency CSV when at least one timed stage ran
@@ -336,6 +381,10 @@ def main():
     deploy_parser.add_argument('--tinyfaas-dir', help='TinyFaaS installation directory')
     deploy_parser.add_argument('--provider', help='Provider name (for path resolution)')
     deploy_parser.add_argument('--execute', action='store_true', help='Also execute functions')
+    deploy_parser.add_argument('--local-execution', action='store_true',
+                              help='Also execute prepared Python functions locally')
+    deploy_parser.add_argument('--local-timeout', type=int, default=30,
+                              help='Local execution timeout per function in seconds')
     
     # Evaluate subcommand
     eval_parser = subparsers.add_parser('evaluate', parents=[common],
@@ -376,6 +425,10 @@ def main():
     full_parser.add_argument('--delay', type=float, help='Delay between API calls')
     full_parser.add_argument('--tinyfaas-dir', help='TinyFaaS directory')
     full_parser.add_argument('--execute', action='store_true', help='Execute functions')
+    full_parser.add_argument('--local-execution', action='store_true',
+                            help='Also execute prepared Python functions locally')
+    full_parser.add_argument('--local-timeout', type=int, default=30,
+                            help='Local execution timeout per function in seconds')
     full_parser.add_argument('--evaluate', action='store_true', help='Run evaluation')
     full_parser.add_argument('--code-quality', action='store_true', help='Run code quality analysis')
     
