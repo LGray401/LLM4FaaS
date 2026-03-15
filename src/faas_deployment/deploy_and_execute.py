@@ -22,10 +22,11 @@ class TinyFaaSManager:
             management_port: Management API port
             http_port: HTTP function invocation port
         """
-        self.tinyfaas_dir = tinyfaas_dir
+        # Normalize once so relative --tinyfaas-dir values work with subprocess cwd.
+        self.tinyfaas_dir = os.path.abspath(tinyfaas_dir)
         self.management_port = management_port
         self.http_port = http_port
-        self.upload_script = os.path.join(tinyfaas_dir, 'scripts', 'upload.sh')
+        self.upload_script = os.path.join(self.tinyfaas_dir, 'scripts', 'upload.sh')
         self.management_url = f"http://localhost:{management_port}/"
         self.http_url = f"http://localhost:{http_port}/"
     
