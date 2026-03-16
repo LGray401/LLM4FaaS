@@ -14,7 +14,7 @@ sys.path.insert(0, str(Path(__file__).parent))
 from src.prompt_extraction import PromptExtractor
 from src.llm_generation import LLMGenerator
 from src.faas_deployment import FunctionPreparer, TinyFaaSManager, LocalExecutor
-from src.evaluation import FunctionEvaluator, CodeQualityAnalyzer, LatencyWriter
+from src.evaluation import FunctionEvaluator, CodeQualityAnalyzer, LatencyWriter, ResultsAggregator
 
 
 class LLM4FaaS:
@@ -225,8 +225,8 @@ class LLM4FaaS:
         print("STEP 4: Evaluating Results")
         print("=" * 60)
         
-        logs_dir = args.logs_dir or str(self.data_dir / 'logs' / args.experiment / args.task)
-        standard_logs_dir = args.standard_logs_dir or str(self.base_dir / 'test' / 'standard_log')
+        logs_dir = getattr(args, 'logs_dir', None) or str(self.data_dir / 'logs' / args.experiment / args.task)
+        standard_logs_dir = getattr(args, 'standard_logs_dir', None) or str(self.base_dir / 'test' / 'standard_log')
         output_csv = self.data_dir / 'evaluation' / args.experiment / f'{args.task}_results.csv'
         output_csv.parent.mkdir(parents=True, exist_ok=True)
         
@@ -239,7 +239,7 @@ class LLM4FaaS:
         # Code quality analysis if requested
         if args.code_quality:
             print("\n→ Running code quality analysis...")
-            source_dir = args.source_dir or str(self.data_dir / 'functions' / args.experiment / f'{args.provider}_{args.task}')
+            source_dir = getattr(args, 'source_dir', None) or str(self.data_dir / 'functions' / args.experiment / f'{args.provider}_{args.task}')
             quality_output_dir = self.data_dir / 'evaluation' / args.experiment / 'code_quality' / args.task
             quality_output_dir.mkdir(parents=True, exist_ok=True)
             
@@ -247,6 +247,34 @@ class LLM4FaaS:
             analyzer.analyze_directory(source_dir, str(quality_output_dir))
             
             print(f"✓ Code quality reports saved to: {quality_output_dir}")
+
+        # Step 5 (integrated into Step 4): Aggregate results after every evaluation run.
+        self._aggregate_results(args)
+
+    def _aggregate_results(self, args):
+        """Aggregate pass rates (and quality metrics when available) for the experiment."""
+        print("\n→ Running aggregation...")
+
+        evaluation_dir = self.data_dir / 'evaluation' / args.experiment
+        aggregator = ResultsAggregator()
+
+        # Aggregate pass rates across all evaluated task result files in this experiment.
+        result_csv_paths = sorted(str(path) for path in evaluation_dir.glob('*_results.csv'))
+        if result_csv_paths:
+            pass_rates_output = evaluation_dir / 'pass_rates_summary.csv'
+            aggregator.write_pass_rates_csv(result_csv_paths, str(pass_rates_output))
+        else:
+            print("! No *_results.csv files found for pass-rate aggregation")
+
+        # Aggregate code-quality reports if the task report directory exists.
+        quality_reports_dir = evaluation_dir / 'code_quality' / args.task
+        if quality_reports_dir.exists():
+            pylint_output = quality_reports_dir / 'pylint_scores.csv'
+            radon_output = quality_reports_dir / 'radon_aggregates.csv'
+            aggregator.parse_pylint_reports(str(quality_reports_dir), str(pylint_output))
+            aggregator.parse_radon_reports(str(quality_reports_dir), str(radon_output))
+
+        print("✓ Aggregation complete")
     
     def run_full_pipeline(self, args):
         """Run the complete pipeline from extraction to evaluation."""
