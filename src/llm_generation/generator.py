@@ -170,14 +170,13 @@ class LLMGenerator:
 
                 # Create output filename with validation metadata
                 base_name = filename.replace('.md', '')
-                timestamp = int(time.time() * 1000)
 
                 if validate_judge and validation_result:
                     status = "validated" if validation_result.is_valid else "unvalidated"
                     output_filename = (f"{self.provider_name}_{self.provider.model.replace('/', '_')}_"
-                                     f"{base_name}_{status}_iter{iteration_count}_{timestamp}.py")
+                                     f"{base_name}_{status}_iter{iteration_count}.py")
                 else:
-                    output_filename = f"{self.provider_name}_{self.provider.model.replace('/', '_')}_{base_name}_{timestamp}.py"
+                    output_filename = f"{self.provider_name}_{self.provider.model.replace('/', '_')}_{base_name}.py"
 
                 output_path = os.path.join(output_dir, output_filename)
 
@@ -200,7 +199,7 @@ class LLMGenerator:
 
                 # Save validation logs if enabled
                 if validate_judge and validation_log_dir and refinement_history:
-                    log_filename = f"{base_name}_validation_{timestamp}.json"
+                    log_filename = f"{base_name}_validation.json"
                     log_path = os.path.join(validation_log_dir, log_filename)
                     refinement_loop.save_history(Path(log_path))
                     print(f"  Validation log: {log_path}")

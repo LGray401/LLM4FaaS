@@ -9,6 +9,13 @@ from typing import List, Tuple, Optional
 from pathlib import Path
 
 
+INVALID_TASKS = {
+    'energy_control': {'5', '14', '15', '16', '19'},
+    'plan': {'6', '8', '14', '15'},
+    'remote_control': {'5', '15', '16'}
+}
+
+
 class FunctionEvaluator:
     """Evaluates function outputs against expected results."""
     
@@ -134,10 +141,6 @@ class FunctionEvaluator:
                     status = "Manual Check Required"
                     unmatched_lines = None
                     self.logger.info(f"{actual_log_path}: Manual Check Required")
-                elif any("Invalid prompt" in line for line in unmatched_lines):
-                    status = "Invalid Prompt"
-                    unmatched_lines = None
-                    self.logger.info(f"{actual_log_path}: Invalid Prompt")
                 else:
                     if status == "No Error & Warning":
                         self.logger.info(
@@ -181,6 +184,18 @@ class FunctionEvaluator:
                     continue
                 
                 user_index = match.group(1)
+
+                # Mirror archive behavior: treat known task/index pairs as invalid prompts
+                # before any output matching is performed.
+                if task_name in INVALID_TASKS and user_index in INVALID_TASKS[task_name]:
+                    results.append({
+                        'log_file': actual_log_path,
+                        'match_percentage': 0.0,
+                        'status': 'Invalid Prompt',
+                        'unmatched_lines': []
+                    })
+                    continue
+
                 standard_log_filename = f'{task_name}_{user_index}.log'
                 standard_log_path = os.path.join(self.standard_logs_dir, task_name, standard_log_filename)
                 
