@@ -26,6 +26,11 @@ _PYLINT_SCORE_PATTERN = re.compile(r"Your code has been rated at ([\d\.]+)/10")
 # Status values that count as syntactic pass (from paper §4.3)
 _SYNTACTIC_PASS_STATUSES = {"No Error & Warning", "Warning Exists"}
 
+# Rows with these statuses are excluded from pass-rate totals.
+# ``Invalid Prompt`` entries are bookkeeping artifacts (known invalid task/index
+# pairs) and should not affect denominator-based metrics.
+_EXCLUDED_FROM_TOTAL_STATUSES = {"invalid prompt"}
+
 
 class ResultsAggregator:
     """Produces aggregate CSVs from per-file report directories and results CSVs."""
@@ -170,18 +175,21 @@ class ResultsAggregator:
 
         Returns:
             Dictionary with keys:
-                total           – total number of evaluated rows
+                total           – number of evaluated rows after exclusions
                 syntactic_pass  – count of syntactically passing rows
                 semantic_pass   – count of semantically passing rows
                 syntactic_rate  – syntactic_pass / total  (0.0–1.0)
                 semantic_rate   – semantic_pass / total   (0.0–1.0)
-                rows            – list of raw row dicts for further processing
+                rows            – list of included row dicts for further processing
         """
         rows: List[Dict] = []
 
         with open(results_csv_path, 'r', encoding='utf-8') as f:
             reader = csv.DictReader(f)
             for row in reader:
+                status = row.get('Status', '')
+                if status.strip().lower() in _EXCLUDED_FROM_TOTAL_STATUSES:
+                    continue
                 rows.append(row)
 
         total = len(rows)
