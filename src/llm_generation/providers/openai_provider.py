@@ -53,7 +53,7 @@ class OpenAIProvider(BaseLLMProvider):
         # Disable chain-of-thought style reasoning by default on thinking models
         # to reduce latency and token usage.
         if self._is_thinking_model(self.model):
-            request_kwargs["reasoning_effort"] = "none"
+            request_kwargs["reasoning_effort"] = "high"
 
         try:
             response = openai.chat.completions.create(**request_kwargs)

@@ -91,9 +91,10 @@ htmlcov/
 .mypy_cache/
 .dmypy.json
 dmypy.json
-
+AGENTS.md
 # PyCharm
 .idea/
+
 
 # Generated reports
 **/pylint_reports/
@@ -109,6 +110,7 @@ notes/
 e2etests/
 .vscode/
 .github/
-validation/
 .gitnexus
 tinyFaaS/
+data/
+.claude/

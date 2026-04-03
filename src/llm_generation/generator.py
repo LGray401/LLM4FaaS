@@ -1,7 +1,9 @@
 """
 Main generator module with provider-agnostic interface.
 """
+import json
 import os
+import re
 import time
 from pathlib import Path
 from typing import Optional
@@ -19,6 +21,68 @@ class LLMGenerator:
     """Provider-agnostic LLM generator for function code."""
     
     SUPPORTED_PROVIDERS = ['openai', 'ollama', 'gemini']
+
+    @staticmethod
+    def _extract_task_and_index(prompt_base_name: str) -> tuple[Optional[str], Optional[str]]:
+        """Extract task name and sample index from prompt base name."""
+        match = re.match(r'^(.*)_(\d+)$', prompt_base_name)
+        if not match:
+            return None, None
+        return match.group(1), match.group(2)
+
+    @staticmethod
+    def _extract_ground_truth_payload(raw_response: str) -> dict:
+        """Extract expected/actual/comparison payload from ground-truth raw response."""
+        if not raw_response:
+            return {}
+
+        try:
+            payload = json.loads(raw_response)
+        except (TypeError, json.JSONDecodeError):
+            return {}
+
+        expected = payload.get('expected')
+        actual = payload.get('actual')
+        comparison = payload.get('comparison')
+
+        if not isinstance(expected, dict) or not isinstance(actual, dict):
+            return {}
+
+        return {
+            'expected_output': expected,
+            'produced_output': actual,
+            'comparison': comparison if isinstance(comparison, dict) else {},
+        }
+
+    def _save_validation_history(self,
+                                 log_path: Path,
+                                 refinement_loop,
+                                 refinement_history: list,
+                                 validation_mode: str) -> None:
+        """Persist validation history and enrich ground-truth logs with runtime payloads."""
+        refinement_loop.save_history(log_path)
+
+        if validation_mode != 'ground-truth':
+            return
+
+        try:
+            with open(log_path, 'r', encoding='utf-8') as f:
+                log_data = json.load(f)
+
+            iterations = log_data.get('iterations', [])
+            for index, item in enumerate(iterations):
+                if index >= len(refinement_history):
+                    break
+                raw_response = refinement_history[index].validation_result.raw_response
+                payload = self._extract_ground_truth_payload(raw_response)
+                if payload:
+                    item['ground_truth_runtime'] = payload
+
+            with open(log_path, 'w', encoding='utf-8') as f:
+                json.dump(log_data, f, indent=2, ensure_ascii=False)
+        except Exception:
+            # Keep pipeline resilient if log enrichment fails.
+            pass
     
     def __init__(self, provider: str, model: str = None, 
                  temperature: float = None, max_tokens: int = None,
@@ -91,7 +155,10 @@ class LLMGenerator:
                       system_prompt: str = None, delay: float = None,
                       validate_judge: bool = False, judge_provider: str = None,
                       judge_model: str = None, max_iterations: int = None,
-                      validation_log_dir: str = None) -> list:
+                      validation_log_dir: str = None,
+                      validation_mode: str = 'none',
+                      local_execution: bool = False,
+                      local_timeout: int = 30) -> list:
         """
         Generate Python code from multiple prompt files.
 
@@ -100,11 +167,14 @@ class LLMGenerator:
             output_dir: Directory to save generated Python files
             system_prompt: Optional system prompt
             delay: Delay between API calls in seconds (uses default if None)
-            validate_judge: Enable LLM-as-a-Judge validation
+            validate_judge: Enable LLM-as-a-Judge validation (legacy alias)
             judge_provider: Provider for judge (defaults to generation provider)
             judge_model: Model for judge (defaults to generation model)
             max_iterations: Maximum refinement iterations (uses config default if None)
             validation_log_dir: Directory to save validation logs (optional)
+            validation_mode: Validation mode ('none', 'judge', 'ground-truth')
+            local_execution: Whether local execution is enabled for runtime validation
+            local_timeout: Local execution timeout in seconds
 
         Returns:
             List of timing dicts, one per successfully processed file.
@@ -113,18 +183,61 @@ class LLMGenerator:
         delay = delay or DELAY_SECONDS
         os.makedirs(output_dir, exist_ok=True)
         
+        # Validate mode and support the legacy --validate-judge switch.
+        if validate_judge and validation_mode == 'none':
+            validation_mode = 'judge'
+
+        if validation_mode not in {'none', 'judge', 'ground-truth'}:
+            raise ValueError("validation_mode must be one of: none, judge, ground-truth")
+
         # Initialize validation components if enabled
-        judge = None
+        validator = None
         refinement_loop = None
-        if validate_judge:
+        iteration_evaluator = None
+        if validation_mode != 'none' and not local_execution:
+            raise ValueError(
+                "validation with per-iteration runtime evaluation requires --local/--local-execution"
+            )
+
+        if validation_mode != 'none':
+            from ..validation.iteration_evaluator import IterationRuntimeEvaluator
+
+            default_standard_logs_dir = Path(__file__).resolve().parents[2] / 'test' / 'standard_log'
+            iteration_evaluator = IterationRuntimeEvaluator(
+                standard_logs_dir=str(default_standard_logs_dir),
+                local_timeout=local_timeout,
+            )
+
+        if validation_mode == 'judge':
             from ..validation import LLMJudge, RefinementLoop
             
             judge_provider = judge_provider or self.provider_name
             judge_model = judge_model or self.provider.model
             
-            print(f"Validation enabled: {judge_provider}/{judge_model}")
-            judge = LLMJudge(judge_provider, judge_model)
-            refinement_loop = RefinementLoop(judge, self, max_iterations)
+            print(f"Validation enabled (judge): {judge_provider}/{judge_model}")
+            validator = LLMJudge(judge_provider, judge_model)
+            refinement_loop = RefinementLoop(validator, self, max_iterations)
+
+            if validation_log_dir:
+                os.makedirs(validation_log_dir, exist_ok=True)
+
+        if validation_mode == 'ground-truth':
+            from ..validation import GroundTruthValidator, RefinementLoop
+
+            if not local_execution:
+                raise ValueError("ground-truth validation currently requires --local/--local-execution")
+
+            gt_provider = judge_provider or self.provider_name
+            gt_model = judge_model or self.provider.model
+
+            print(f"Validation enabled (ground-truth): {gt_provider}/{gt_model}")
+            validator = GroundTruthValidator(
+                provider=gt_provider,
+                model=gt_model,
+                local_execution=local_execution,
+                local_timeout=local_timeout,
+            )
+            refinement_loop = RefinementLoop(validator, self, max_iterations)
             
             if validation_log_dir:
                 os.makedirs(validation_log_dir, exist_ok=True)
@@ -137,6 +250,9 @@ class LLMGenerator:
             print(f"Processing: {prompt_path}")
 
             try:
+                base_name = filename.replace('.md', '')
+                task_name, sample_index = self._extract_task_and_index(base_name)
+
                 # Read requirement for validation
                 with open(prompt_path, 'r', encoding='utf-8') as f:
                     requirement = f.read()
@@ -152,10 +268,17 @@ class LLMGenerator:
                 iteration_count = 1
                 refinement_history = []
 
-                if validate_judge and judge and refinement_loop:
-                    print(f"  Validating with judge...")
+                if validation_mode != 'none' and validator and refinement_loop:
+                    print(f"  Validating with {validation_mode}...")
                     code, validation_result, refinement_history = refinement_loop.refine_until_valid(
-                        requirement, code, system_prompt
+                        requirement,
+                        code,
+                        system_prompt,
+                        iteration_evaluator=iteration_evaluator,
+                        evaluation_context={
+                            'task_name': task_name,
+                            'sample_index': sample_index,
+                        },
                     )
                     iteration_count = len(refinement_history)
 
@@ -169,9 +292,7 @@ class LLMGenerator:
                 # ----------------------------------------------------------------
 
                 # Create output filename with validation metadata
-                base_name = filename.replace('.md', '')
-
-                if validate_judge and validation_result:
+                if validation_mode != 'none' and validation_result:
                     status = "validated" if validation_result.is_valid else "unvalidated"
                     output_filename = (f"{self.provider_name}_{self.provider.model.replace('/', '_')}_"
                                      f"{base_name}_{status}_iter{iteration_count}.py")
@@ -198,10 +319,15 @@ class LLMGenerator:
                 })
 
                 # Save validation logs if enabled
-                if validate_judge and validation_log_dir and refinement_history:
+                if validation_mode != 'none' and validation_log_dir and refinement_history:
                     log_filename = f"{base_name}_validation.json"
                     log_path = os.path.join(validation_log_dir, log_filename)
-                    refinement_loop.save_history(Path(log_path))
+                    self._save_validation_history(
+                        log_path=Path(log_path),
+                        refinement_loop=refinement_loop,
+                        refinement_history=refinement_history,
+                        validation_mode=validation_mode,
+                    )
                     print(f"  Validation log: {log_path}")
 
                 # Rate limiting

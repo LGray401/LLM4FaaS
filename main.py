@@ -84,9 +84,14 @@ class LLM4FaaS:
         output_dir = self.data_dir / 'functions' / args.experiment / f'{args.provider}_{args.task}'
         output_dir.mkdir(parents=True, exist_ok=True)
         
+        # Resolve validation mode (legacy --validate-judge maps to judge mode).
+        validation_mode = getattr(args, 'validation_mode', 'none')
+        if getattr(args, 'validate_judge', False):
+            validation_mode = 'judge'
+
         # Setup validation log directory if validation enabled
         validation_log_dir = None
-        if getattr(args, 'validate_judge', False):
+        if validation_mode != 'none':
             validation_log_dir = self.data_dir / 'validation' / args.experiment / args.task
             validation_log_dir.mkdir(parents=True, exist_ok=True)
         
@@ -105,7 +110,10 @@ class LLM4FaaS:
             judge_provider=getattr(args, 'judge_provider', None),
             judge_model=getattr(args, 'judge_model', None),
             max_iterations=getattr(args, 'max_iterations', None),
-            validation_log_dir=str(validation_log_dir) if validation_log_dir else None
+            validation_log_dir=str(validation_log_dir) if validation_log_dir else None,
+            validation_mode=validation_mode,
+            local_execution=getattr(args, 'local_execution', False),
+            local_timeout=getattr(args, 'local_timeout', 30),
         )
 
         print(f"✓ Code saved to: {output_dir}")
@@ -393,6 +401,9 @@ def main():
     gen_parser.add_argument('--max-tokens', type=int, help='Maximum tokens')
     gen_parser.add_argument('--delay', type=float, help='Delay between API calls (seconds)')
     # Validation flags
+    gen_parser.add_argument('--validation-mode', default='none',
+                           choices=['none', 'judge', 'ground-truth'],
+                           help='Validation mode (judge or ground-truth)')
     gen_parser.add_argument('--validate-judge', action='store_true',
                            help='Enable LLM-as-a-Judge validation')
     gen_parser.add_argument('--judge-provider',
@@ -401,6 +412,10 @@ def main():
     gen_parser.add_argument('--judge-model', help='Judge model (defaults to generation model)')
     gen_parser.add_argument('--max-iterations', type=int,
                            help='Maximum refinement iterations (default: 3)')
+    gen_parser.add_argument('--local', '--local-execution', dest='local_execution', action='store_true',
+                           help='Execute runtime validation locally')
+    gen_parser.add_argument('--local-timeout', type=int, default=30,
+                           help='Local execution timeout per validation run in seconds')
     
     # Deploy subcommand
     deploy_parser = subparsers.add_parser('deploy', parents=[common],
@@ -409,7 +424,7 @@ def main():
     deploy_parser.add_argument('--tinyfaas-dir', help='TinyFaaS installation directory')
     deploy_parser.add_argument('--provider', help='Provider name (for path resolution)')
     deploy_parser.add_argument('--execute', action='store_true', help='Also execute functions')
-    deploy_parser.add_argument('--local-execution', action='store_true',
+    deploy_parser.add_argument('--local', '--local-execution', dest='local_execution', action='store_true',
                               help='Also execute prepared Python functions locally')
     deploy_parser.add_argument('--local-timeout', type=int, default=30,
                               help='Local execution timeout per function in seconds')
@@ -438,6 +453,9 @@ def main():
     full_parser.add_argument('--leave-col', type=int, help='Leave home column')
     full_parser.add_argument('--movie-col', type=int, help='Movie column')
     # Validation flags for full pipeline
+    full_parser.add_argument('--validation-mode', default='none',
+                            choices=['none', 'judge', 'ground-truth'],
+                            help='Validation mode (judge or ground-truth)')
     full_parser.add_argument('--validate-judge', action='store_true',
                             help='Enable LLM-as-a-Judge validation')
     full_parser.add_argument('--judge-provider',
@@ -453,7 +471,7 @@ def main():
     full_parser.add_argument('--delay', type=float, help='Delay between API calls')
     full_parser.add_argument('--tinyfaas-dir', help='TinyFaaS directory')
     full_parser.add_argument('--execute', action='store_true', help='Execute functions')
-    full_parser.add_argument('--local-execution', action='store_true',
+    full_parser.add_argument('--local', '--local-execution', dest='local_execution', action='store_true',
                             help='Also execute prepared Python functions locally')
     full_parser.add_argument('--local-timeout', type=int, default=30,
                             help='Local execution timeout per function in seconds')
