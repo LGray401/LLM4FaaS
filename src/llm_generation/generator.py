@@ -293,9 +293,8 @@ class LLMGenerator:
 
                 # Create output filename with validation metadata
                 if validation_mode != 'none' and validation_result:
-                    status = "validated" if validation_result.is_valid else "unvalidated"
                     output_filename = (f"{self.provider_name}_{self.provider.model.replace('/', '_')}_"
-                                     f"{base_name}_{status}_iter{iteration_count}.py")
+                                     f"{base_name}_iter{iteration_count}.py")
                 else:
                     output_filename = f"{self.provider_name}_{self.provider.model.replace('/', '_')}_{base_name}.py"
 
