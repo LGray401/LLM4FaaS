@@ -44,6 +44,7 @@ class GroundTruthValidator:
         self.provider_name = provider
         self.local_execution = local_execution
         self.local_timeout = local_timeout
+        self._expected_output_cache: Dict[str, Dict[str, Any]] = {}
 
         if provider == 'openai':
             model = model or OPENAI_MODEL
@@ -94,7 +95,7 @@ class GroundTruthValidator:
             )
 
         try:
-            expected = self._generate_expected_output(requirement)
+            expected = self._get_expected_output(requirement)
             actual = self._execute_locally(generated_code)
             comparison = self._compare_outputs(expected, actual)
 
@@ -171,6 +172,11 @@ class GroundTruthValidator:
             'stderr': str(data.get('stderr', '')),
             'return_code': return_code,
         }
+
+    def _get_expected_output(self, requirement: str) -> Dict[str, Any]:
+        if requirement not in self._expected_output_cache:
+            self._expected_output_cache[requirement] = self._generate_expected_output(requirement)
+        return self._expected_output_cache[requirement]
 
     def _execute_locally(self, generated_code: str) -> Dict[str, Any]:
         base_dir = Path(__file__).resolve().parents[2]
