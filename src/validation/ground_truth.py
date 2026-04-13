@@ -12,6 +12,7 @@ from typing import Any, Dict
 from .validation_result import ValidationResult
 from ..faas_deployment.local_executor import LocalExecutor
 from ..faas_deployment.prepare_functions import FunctionPreparer
+from ..evaluation.test_results import FunctionEvaluator
 from ..llm_generation.providers import OpenAIProvider, OllamaProvider
 from ..llm_generation.config import (
     OPENAI_API_KEY, OPENAI_MODEL,
@@ -202,112 +203,78 @@ class GroundTruthValidator:
             }
 
     def _compare_outputs(self, expected: Dict[str, Any], actual: Dict[str, Any]) -> Dict[str, Any]:
-        expected_stdout = self._normalize_text(expected.get('stdout', ''))
-        actual_stdout = self._normalize_text(actual.get('stdout', ''))
-        expected_stderr = self._normalize_text(expected.get('stderr', ''))
-        actual_stderr = self._normalize_text(actual.get('stderr', ''))
-        expected_rc = int(expected.get('return_code', 0))
-        actual_rc = int(actual.get('return_code', 0))
-
-        stdout_details = self._compare_text_lines(expected_stdout, actual_stdout)
-        stderr_details = self._compare_text_lines(expected_stderr, actual_stderr)
-
-        mismatches = []
-        if stdout_details['has_differences']:
-            lines = [str(item['line']) for item in stdout_details['differing_lines']]
-            line_preview = ', '.join(lines[:10])
-            if len(lines) > 10:
-                line_preview += ', ...'
-            mismatches.append(f'stdout does not contain expected output (expected lines {line_preview})')
-        if stderr_details['has_differences']:
-            lines = [str(item['line']) for item in stderr_details['differing_lines']]
-            line_preview = ', '.join(lines[:10])
-            if len(lines) > 10:
-                line_preview += ', ...'
-            mismatches.append(f'stderr does not contain expected output (expected lines {line_preview})')
-        if expected_rc != actual_rc:
-            mismatches.append(f'return_code differs (expected {expected_rc}, got {actual_rc})')
-
-        if not mismatches:
-            return {
-                'is_valid': True,
-                'summary': 'Actual output contains all expected stdout/stderr lines and return code matches.',
-                'stdout': stdout_details,
-                'stderr': stderr_details,
-                'return_code': {
-                    'matches': True,
-                    'expected': expected_rc,
-                    'actual': actual_rc,
-                },
-            }
-
-        return {
-            'is_valid': False,
-            'summary': '; '.join(mismatches),
-            'stdout': stdout_details,
-            'stderr': stderr_details,
-            'return_code': {
-                'matches': expected_rc == actual_rc,
-                'expected': expected_rc,
-                'actual': actual_rc,
-            },
+        expected_payload = {
+            'stdout': self._normalize_text(expected.get('stdout', '')),
+            'stderr': self._normalize_text(expected.get('stderr', '')),
+            'return_code': self._safe_int(expected.get('return_code', 0), fallback=0),
+        }
+        actual_payload = {
+            'stdout': self._normalize_text(actual.get('stdout', '')),
+            'stderr': self._normalize_text(actual.get('stderr', '')),
+            'return_code': self._safe_int(actual.get('return_code', 0), fallback=1),
         }
 
-    def _compare_text_lines(self, expected_text: str, actual_text: str) -> Dict[str, Any]:
-        expected_lines = expected_text.split('\n') if expected_text else []
-        actual_lines = actual_text.split('\n') if actual_text else []
-        matching_lines = []
-        differing_lines = []
+        evaluator_result = self._evaluate_with_function_evaluator(expected_payload, actual_payload)
 
-        start_index = self._find_per_line_containment_start(expected_lines, actual_lines)
-        contains_expected = start_index is not None
+        status = evaluator_result.get('status', 'Evaluation Error')
+        match_percentage = evaluator_result.get('match_percentage')
+        unmatched_lines = evaluator_result.get('unmatched_lines')
 
-        if contains_expected:
-            for idx, expected_line in enumerate(expected_lines):
-                actual_line = actual_lines[start_index + idx]
-                matching_lines.append({
-                    'line': idx + 1,
-                    'actual_line': start_index + idx + 1,
-                    'expected': expected_line,
-                    'actual': actual_line,
-                })
+        syntactic_ok = status in {'No Error & Warning', 'Warning Exists'}
+        semantic_ok = syntactic_ok and (match_percentage == 1.0)
+
+        if semantic_ok:
+            summary = 'Output fully matches LLM-generated ground truth using evaluation pipeline matching logic.'
         else:
-            for idx, expected_line in enumerate(expected_lines):
-                differing_lines.append({
-                    'line': idx + 1,
-                    'status': 'missing_in_actual_sequence',
-                    'expected': expected_line,
-                    'actual': '',
-                })
+            rate_str = f"{(match_percentage or 0) * 100:.2f}%"
+            summary = f"Evaluation mismatch: status={status}, success_rate={rate_str}"
 
         return {
-            'matches': contains_expected,
-            'has_differences': not contains_expected,
-            'expected_line_count': len(expected_lines),
-            'actual_line_count': len(actual_lines),
-            'expected_sequence_start_in_actual': (start_index + 1) if start_index is not None else None,
-            'matching_lines': matching_lines,
-            'differing_lines': differing_lines,
+            'is_valid': semantic_ok,
+            'summary': summary,
+            'status': status,
+            'match_percentage': match_percentage,
+            'unmatched_lines': unmatched_lines,
+            'expected': expected_payload,
+            'actual': actual_payload,
         }
 
-    def _find_per_line_containment_start(self, expected_lines: list, actual_lines: list) -> Any:
-        if not expected_lines:
-            return 0
-        if len(expected_lines) > len(actual_lines):
-            return None
+    def _evaluate_with_function_evaluator(self, expected: Dict[str, Any], actual: Dict[str, Any]) -> Dict[str, Any]:
+        with tempfile.TemporaryDirectory(prefix='llm4faas_gt_eval_') as tmp:
+            tmp_path = Path(tmp)
+            expected_log = tmp_path / 'expected.log'
+            actual_log = tmp_path / 'actual.log'
 
-        window = len(expected_lines)
-        for start in range(len(actual_lines) - window + 1):
-            window_matches = True
-            for offset, expected_line in enumerate(expected_lines):
-                actual_line = actual_lines[start + offset]
-                if expected_line not in actual_line:
-                    window_matches = False
-                    break
-            if window_matches:
-                return start
+            self._write_log_file(expected_log, expected['stdout'], expected['stderr'], expected['return_code'])
+            self._write_log_file(actual_log, actual['stdout'], actual['stderr'], actual['return_code'])
 
-        return None
+            evaluator = FunctionEvaluator(str(tmp_path), log_level=logging.WARNING)
+            return evaluator.evaluate_log(str(actual_log), str(expected_log))
+
+    def _write_log_file(self, path: Path, stdout: str, stderr: str, return_code: Any) -> None:
+        with open(path, 'w', encoding='utf-8') as log_file:
+            log_file.write('Standard Output:\n')
+            if stdout:
+                log_file.write(stdout)
+                if not stdout.endswith('\n'):
+                    log_file.write('\n')
+
+            log_file.write('Standard Error:\n')
+            if stderr:
+                log_file.write(stderr)
+                if not stderr.endswith('\n'):
+                    log_file.write('\n')
+
+            if return_code is None:
+                log_file.write('Return code: \n')
+            else:
+                log_file.write(f'Return code: {return_code}\n')
+
+    def _safe_int(self, value: Any, fallback: int) -> int:
+        try:
+            return int(str(value).strip())
+        except (TypeError, ValueError):
+            return fallback
 
     def _extract_xml_object(self, text: str) -> Dict[str, Any]:
         match = re.search(r'<ground_truth_output>[\s\S]*?</ground_truth_output>', text)
