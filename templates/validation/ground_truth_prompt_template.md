@@ -1,17 +1,21 @@
 # Ground Truth Expected Output Request
 
-Given this smart-home requirement, estimate expected console behavior when the function.py is invoked with the correct implementation of the user requirement. Please reason deeply using the Source Code from the Requirement what should be the console output when the requiements is fullfilled.
-**Example Ouptut**:
-Standard Output:
-/Actuator/Light/LivingRoom/1 is turned on.
-/Actuator/Light/LivingRoom/2 is turned on.
-/Actuator/Light/Bedroom/1 is turned on.
-/Actuator/Light/Bedroom/2 is turned on.
-/Actuator/Light/Kitchen/1 is turned on.
-/Actuator/Light/Bathroom/1 is turned on.
-Successfully turned on 6 light(s) in the home.
-Standard Error:
-Return code: 0
+Given this smart-home requirement, produce the expected runtime console output for a correct implementation.
+Target style: very concise, similar to test/standard_log files.
+
+Important: prefer under-specific lines over over-specific lines.
+If uncertain, output a short canonical prefix/ID line that is still valid.
+
+## How Comparison Works (must follow)
+
+1) Your stdout is split into lines.
+2) These lines must appear in order as one contiguous block in actual runtime output.
+3) Each expected line is checked by substring containment against the corresponding actual line.
+4) Extra lines in actual output are allowed.
+
+Implication:
+- Overly detailed lines are risky and often fail.
+- Minimal, canonical, standard-log-like lines are preferred.
 
 ## Requirement
 
@@ -19,8 +23,8 @@ Return code: 0
 
 ## Allowed Console Line Patterns (smart_home)
 
-Use these as the canonical possible stdout line patterns produced by the shared smart_home runtime.
-Only include lines that are required by the given requirement and execution path.
+Use these as canonical possible stdout line patterns produced by the shared smart_home runtime.
+Only include lines required by the requirement and the main execution path.
 
 Placeholder legend:
 - ACTUATOR_ID: /Actuator/<Type>/<Room>/<N>
@@ -29,52 +33,53 @@ Placeholder legend:
 - TARGET_TEMP, READING: numeric values
 - STATUS_VALUE: runtime status string
 
-Allowed stdout patterns:
+Possible stdout lines:
 - ACTUATOR_ID is turned on.
 - ACTUATOR_ID is turned off.
-- ACTUATOR_ID current status is on
-- ACTUATOR_ID current status is off
-- Set the target temperature of ACTUATOR_ID to TARGET_TEMP°C.
-- ACTUATOR_ID Start making COFFEE_TYPE
--  ACTUATOR_ID is OFF now
-- There is Some Error with the Coffee MachineACTUATOR_ID.
+- ACTUATOR_ID
+- Set the target temperature of ACTUATOR_ID to
+- ACTUATOR_ID Start making
+- ACTUATOR_ID is OFF now
 - Lock the door ACTUATOR_ID.
 - Unlock the door ACTUATOR_ID.
-- Cleaning Robot ACTUATOR_ID is OFF now, Need to Turn it ON First
 - Cleaning Robot ACTUATOR_ID Starts Daily Cleaning Routine
 - ACTUATOR_ID Finish Daily Cleaning Routine, Will Turn it OFF
-- There is Some Error with the Cleaning Robot ACTUATOR_ID.
-- Notification Sender ACTUATOR_ID send message: MESSAGE
 - Notification Sender ACTUATOR_ID is OFF, please turn it on then send the message again.
-- Fail to send the message. There is some error with the Notification Sender.
-- ACTUATOR_ID start playing PLAYLIST
-- Music Player ACTUATOR_ID is OFF now, Turn it ON First
-- Fail to play PLAYLIST, There is some error with the music player.
+- ACTUATOR_ID start playing 
 - Set ACTUATOR_ID light brightness level to LEVEL_NAME_UPPER
-- Light ACTUATOR_ID is OFF. Please turn it on before setting the brightness level.
-- There is an error with the Light.
-- Invalid brightness level: LEVEL_NAME. Available levels are ['low', 'medium', 'high'].
-- Start playing CHANNEL on the ACTUATOR_ID in ROOM
 - 'ACTUATOR_ID' is OFF now, Need to Turn it ON First.
-- Fail to play CHANNEL, There is some error with the TV.
 - ACTUATOR_ID Increasing humidity in ROOM
 - ACTUATOR_ID Decreasing humidity in ROOM
-- 'SENSOR_ID' is now ON.
-- SENSOR_ID is now OFF.
 - Cannot Get Sensor Reading, SENSOR_ID is Currently OFF. 
-- SENSOR_ID reading is: READING
-- Status Error with status: STATUS_VALUE
-- SENSOR_ID current status is: STATUS_VALUE
-- ROOM:
-- Sensors:
-- - SENSOR_ID
-- Actuators:
-- - ACTUATOR_ID
-- ---Home Plan---
-- We find ROOM!
-- there is no room called ROOM at home
-- there is no Sensor found in ROOM
-- there is no Actuator found in ROOM
+- SENSOR_ID reading is: 
+- Status Error with status: 
+- SENSOR_ID current status is: 
+
+## Strict Output Guidelines
+
+- Keep stdout short: usually 2-8 lines.
+- Use exact wording from allowed patterns whenever possible.
+- Prefer canonical partial lines like standard logs (for example IDs or stable prefixes).
+- Use " || " only when multiple alternatives are genuinely possible for the same requirement step.
+- Do not invent summary sentences (for example "Successfully ...") unless explicitly required.
+- Do not add explanatory text, assumptions, reasoning, or markdown.
+- Keep stderr empty unless an error is explicitly required by the requirement.
+- return_code must be 0.
+
+## Style Examples (good)
+
+Good (concise):
+/Actuator/CleaningRobot/LivingRoom/1 || /Actuator/CleaningRobot/Bedroom/1
+Cleaning Robot /Actuator/CleaningRobot/LivingRoom/1 Starts Daily Cleaning Routine || Cleaning Robot /Actuator/CleaningRobot/Bedroom/1 Starts Daily Cleaning Routine
+/Actuator/MusicPlayer/LivingRoom/1 || /Actuator/MusicPlayer/Bedroom/1
+/Actuator/SmartTV/LivingRoom/1
+Set /Actuator/Light/Bedroom/1 light brightness level to || Set /Actuator/Light/Bedroom/2 light brightness level to
+
+Bad (too detailed and brittle):
+/Actuator/CleaningRobot/LivingRoom/1 Starts Daily Cleaning Routine
+/Actuator/CleaningRobot/LivingRoom/1 Finish Daily Cleaning Routine, Will Turn it OFF
+/Actuator/MusicPlayer/LivingRoom/1 start playing selected song
+/Actuator/SmartTV/LivingRoom/1 start playing on-demand movie
 
 ## Output Format
 

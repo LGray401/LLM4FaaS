@@ -104,7 +104,7 @@ class GroundTruthValidator:
             if not comparison['is_valid']:
                 issues.append(comparison['summary'])
                 suggestions.append(
-                    "Align the function behavior with the expected stdout/stderr/return code."
+                    "Align the function behavior with the expected stdout. Check the unmatched lines for debugging hints."
                 )
 
             raw_payload = {
@@ -233,7 +233,7 @@ class GroundTruthValidator:
             summary = 'Output fully matches LLM-generated ground truth using evaluation pipeline matching logic.'
         else:
             rate_str = f"{(match_percentage or 0) * 100:.2f}%"
-            summary = f"Evaluation mismatch: status={status}, success_rate={rate_str}"
+            summary = f"status={status}, success_rate={rate_str}, unmatched_lines={unmatched_lines}"
 
         return {
             'is_valid': semantic_ok,

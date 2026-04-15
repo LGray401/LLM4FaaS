@@ -16,6 +16,9 @@ class OpenAIProvider(BaseLLMProvider):
         "gpt-5.2",
         "gpt-5.3",
         "gpt-5.4",
+        "gpt-5.4-mini",
+        "gpt-5.2-mini",
+        "gpt-5.3-mini",
     )
     
     def __init__(self, api_key: str, model: str = 'gpt-4o', 
@@ -47,13 +50,13 @@ class OpenAIProvider(BaseLLMProvider):
             ],
             "temperature": self.temperature,
             # Newer OpenAI models (for example gpt-5.x) require this field.
-            "max_completion_tokens": self.max_tokens,
+            #"max_completion_tokens": self.max_tokens,
         }
 
         # Disable chain-of-thought style reasoning by default on thinking models
         # to reduce latency and token usage.
         if self._is_thinking_model(self.model):
-            request_kwargs["reasoning_effort"] = "high"
+            request_kwargs["reasoning_effort"] = "medium"
 
         try:
             response = openai.chat.completions.create(**request_kwargs)
