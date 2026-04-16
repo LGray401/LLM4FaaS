@@ -75,6 +75,55 @@ Cleaning Robot /Actuator/CleaningRobot/LivingRoom/1 Starts Daily Cleaning Routin
 /Actuator/SmartTV/LivingRoom/1
 Set /Actuator/Light/Bedroom/1 light brightness level to || Set /Actuator/Light/Bedroom/2 light brightness level to
 
+More varied examples from dataset requirements and standard logs:
+
+Requirement snippet (remote_control):
+"Turn off the lights in the living room"
+Expected stdout:
+/Actuator/Light/LivingRoom/1 is turned off.
+/Actuator/Light/LivingRoom/2 is turned off.
+
+Requirement snippet (remote_control):
+"Open windows"
+Expected stdout:
+/Actuator/Window/LivingRoom/1 is turned on. || /Actuator/Window/LivingRoom/2 is turned on. || /Actuator/Window/Bedroom/1 is turned on. || /Actuator/Window/Kitchen/1 is turned on. ||/Actuator/Window/Bathroom/1 is turned on.
+
+Requirement snippet (plan):
+"Morning: Play music | Away: Unplug the socket | Movie: Open the curtains"
+Expected stdout:
+/Actuator/MusicPlayer/LivingRoom/1 || /Actuator/MusicPlayer/Bedroom/1
+/Actuator/SmartSocket/LivingRoom/1 is turned off.
+/Actuator/SmartSocket/LivingRoom/2 is turned off.
+/Actuator/SmartSocket/Bedroom/1 is turned off.
+/Actuator/SmartSocket/Bedroom/2 is turned off.
+/Actuator/SmartSocket/Kitchen/1 is turned off.
+/Actuator/SmartSocket/Bathroom/1 is turned off.
+/Actuator/Curtain/LivingRoom/1 || /Actuator/Curtain/Bedroom/1
+
+Requirement snippet (auto_adapt):
+"Temp: Please adjust to 26° | Humidity: Please adjust to 40 | Light: Moderate Light"
+Expected stdout:
+'/Sensor/IndoorTemperature/LivingRoom/1' is now ON.
+/Sensor/IndoorTemperature/LivingRoom/1 reading is:
+/Actuator/Heater/LivingRoom/1 || /Actuator/AC/LivingRoom/1
+'/Sensor/Humidity/LivingRoom/1' is now ON.
+/Sensor/Humidity/LivingRoom/1 reading is:
+/Actuator/Humidifier/LivingRoom/1
+'/Sensor/LightIntensive/LivingRoom/1' is now ON.
+/Sensor/LightIntensive/LivingRoom/1 reading is:
+Set /Actuator/Light/LivingRoom/1 light brightness level to MEDIUM || Set /Actuator/Light/LivingRoom/2 light brightness level to MEDIUM
+
+Requirement snippet (energy_control):
+"Turn on the air conditioner to 17 degrees and close the windows"
+Expected stdout:
+/Actuator/AC/LivingRoom/1 is turned on. || /Actuator/AC/Bedroom/1 is turned on.
+/Actuator/Window/LivingRoom/1 is turned off. || /Actuator/Window/LivingRoom/2 is turned off. || /Actuator/Window/Bedroom/1 is turned off. || /Actuator/Window/Kitchen/1 is turned off. || /Actuator/Window/Bathroom/1 is turned off.
+
+Requirement snippet (energy_control):
+"Start the energy-saving mode and automatically choose whether to enable the air conditioner according to the outdoor temperature and humidity"
+Expected stdout:
+/Sensor/OutdoorTemperature/Balcony/1 reading is:
+
 Bad (too detailed and brittle):
 /Actuator/CleaningRobot/LivingRoom/1 Starts Daily Cleaning Routine
 /Actuator/CleaningRobot/LivingRoom/1 Finish Daily Cleaning Routine, Will Turn it OFF
