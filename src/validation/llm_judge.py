@@ -128,8 +128,9 @@ Suggestions:
 
 Please generate an improved version that addresses these issues."""
     
-    def validate(self, requirement: str, generated_code: str, 
-                 smart_home_docs: str = "") -> ValidationResult:
+    def validate(self, requirement: str, generated_code: str,
+                 smart_home_docs: str = "",
+                 validation_context: Optional[dict] = None) -> ValidationResult:
         """
         Validate generated code against requirements.
         
@@ -137,6 +138,7 @@ Please generate an improved version that addresses these issues."""
             requirement: Original user requirement
             generated_code: Generated Python code to validate
             smart_home_docs: Optional smart home API documentation
+            validation_context: Optional runtime metadata for non-LLM validators
             
         Returns:
             ValidationResult with structured feedback

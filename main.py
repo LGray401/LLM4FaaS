@@ -402,8 +402,8 @@ def main():
     gen_parser.add_argument('--delay', type=float, help='Delay between API calls (seconds)')
     # Validation flags
     gen_parser.add_argument('--validation-mode', default='none',
-                           choices=['none', 'judge', 'ground-truth'],
-                           help='Validation mode (judge or ground-truth)')
+                           choices=['none', 'judge', 'ground-truth', 'standard-log'],
+                           help='Validation mode (judge, ground-truth, or standard-log)')
     gen_parser.add_argument('--validate-judge', action='store_true',
                            help='Enable LLM-as-a-Judge validation')
     gen_parser.add_argument('--judge-provider',
@@ -454,8 +454,8 @@ def main():
     full_parser.add_argument('--movie-col', type=int, help='Movie column')
     # Validation flags for full pipeline
     full_parser.add_argument('--validation-mode', default='none',
-                            choices=['none', 'judge', 'ground-truth'],
-                            help='Validation mode (judge or ground-truth)')
+                            choices=['none', 'judge', 'ground-truth', 'standard-log'],
+                            help='Validation mode (judge, ground-truth, or standard-log)')
     full_parser.add_argument('--validate-judge', action='store_true',
                             help='Enable LLM-as-a-Judge validation')
     full_parser.add_argument('--judge-provider',

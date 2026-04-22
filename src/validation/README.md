@@ -34,6 +34,7 @@ python main.py full --task remote_control --provider openai \
 ### CLI Flags
 
 - `--validate-judge`: Enable LLM-as-a-Judge validation
+- `--validation-mode standard-log`: Validate against real logs in `test/standard_log/{task}/{task}_{n}.log`
 - `--judge-provider`: Provider for judge (openai, ollama, gemini)
 - `--judge-model`: Model name for judge
 - `--max-iterations`: Maximum refinement attempts (default: 3)
@@ -242,6 +243,7 @@ Validation is **opt-in** and backward compatible:
 
 - Without `--validate-judge`: Works exactly as before
 - With `--validate-judge`: Adds validation layer
+- With `--validation-mode standard-log`: Uses real ground truth from `test/standard_log` and fails validation when the sample log is missing
 
 No changes to:
 - Prompt extraction

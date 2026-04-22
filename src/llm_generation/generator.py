@@ -62,7 +62,7 @@ class LLMGenerator:
         """Persist validation history and enrich ground-truth logs with runtime payloads."""
         refinement_loop.save_history(log_path)
 
-        if validation_mode != 'ground-truth':
+        if validation_mode not in {'ground-truth', 'standard-log'}:
             return
 
         try:
@@ -187,8 +187,8 @@ class LLMGenerator:
         if validate_judge and validation_mode == 'none':
             validation_mode = 'judge'
 
-        if validation_mode not in {'none', 'judge', 'ground-truth'}:
-            raise ValueError("validation_mode must be one of: none, judge, ground-truth")
+        if validation_mode not in {'none', 'judge', 'ground-truth', 'standard-log'}:
+            raise ValueError("validation_mode must be one of: none, judge, ground-truth, standard-log")
 
         # Initialize validation components if enabled
         validator = None
@@ -239,6 +239,25 @@ class LLMGenerator:
             )
             refinement_loop = RefinementLoop(validator, self, max_iterations)
             
+            if validation_log_dir:
+                os.makedirs(validation_log_dir, exist_ok=True)
+
+        if validation_mode == 'standard-log':
+            from ..validation import GroundTruthValidator, RefinementLoop
+
+            standard_logs_dir = str(Path(__file__).resolve().parents[2] / 'test' / 'standard_log')
+
+            print("Validation enabled (standard-log): expected output from test/standard_log")
+            validator = GroundTruthValidator(
+                provider=self.provider_name,
+                model=self.provider.model,
+                local_execution=local_execution,
+                local_timeout=local_timeout,
+                ground_truth_source='standard-log',
+                standard_logs_dir=standard_logs_dir,
+            )
+            refinement_loop = RefinementLoop(validator, self, max_iterations)
+
             if validation_log_dir:
                 os.makedirs(validation_log_dir, exist_ok=True)
         

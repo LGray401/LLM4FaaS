@@ -86,7 +86,12 @@ class RefinementLoop:
             logger.info(f"Iteration {iteration}/{self.max_iterations}")
             
             # Validate current code
-            validation_result = self.judge.validate(requirement, current_code, smart_home_docs)
+            validation_result = self.judge.validate(
+                requirement,
+                current_code,
+                smart_home_docs,
+                validation_context=evaluation_context,
+            )
 
             # Execute/evaluate current iteration against standard log if enabled
             iteration_evaluation = None

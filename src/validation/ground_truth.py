@@ -7,7 +7,7 @@ import re
 import tempfile
 import xml.etree.ElementTree as ET
 from pathlib import Path
-from typing import Any, Dict
+from typing import Any, Dict, Optional
 
 from .validation_result import ValidationResult
 from ..faas_deployment.local_executor import LocalExecutor
@@ -37,6 +37,8 @@ class GroundTruthValidator:
         api_key: str = None,
         local_execution: bool = False,
         local_timeout: int = 30,
+        ground_truth_source: str = 'llm',
+        standard_logs_dir: Optional[str] = None,
     ):
         if provider not in self.SUPPORTED_PROVIDERS:
             raise ValueError(f"Provider must be one of {self.SUPPORTED_PROVIDERS}")
@@ -44,6 +46,12 @@ class GroundTruthValidator:
         self.provider_name = provider
         self.local_execution = local_execution
         self.local_timeout = local_timeout
+        self.ground_truth_source = ground_truth_source
+        if self.ground_truth_source not in {'llm', 'standard-log'}:
+            raise ValueError("ground_truth_source must be one of: llm, standard-log")
+
+        default_logs_dir = Path(__file__).resolve().parents[2] / 'test' / 'standard_log'
+        self.standard_logs_dir = Path(standard_logs_dir) if standard_logs_dir else default_logs_dir
         self._expected_output_cache: Dict[str, Dict[str, Any]] = {}
 
         if provider == 'openai':
@@ -83,7 +91,13 @@ class GroundTruthValidator:
         self.ground_truth_prompt_template = user_prompt_path.read_text(encoding='utf-8')
         self.ground_truth_refinement_template = refinement_prompt_path.read_text(encoding='utf-8')
 
-    def validate(self, requirement: str, generated_code: str, smart_home_docs: str = "") -> ValidationResult:
+    def validate(
+        self,
+        requirement: str,
+        generated_code: str,
+        smart_home_docs: str = "",
+        validation_context: Optional[Dict[str, Any]] = None,
+    ) -> ValidationResult:
         """Validate code by comparing expected and actual runtime outputs."""
         if not self.local_execution:
             return ValidationResult(
@@ -95,7 +109,7 @@ class GroundTruthValidator:
             )
 
         try:
-            expected = self._get_expected_output(requirement)
+            expected = self._get_expected_output(requirement, validation_context)
             actual = self._execute_locally(generated_code)
             comparison = self._compare_outputs(expected, actual)
 
@@ -120,6 +134,14 @@ class GroundTruthValidator:
                 suggestions=suggestions,
                 raw_response=json.dumps(raw_payload, ensure_ascii=False, indent=2),
                 confidence=confidence,
+                judge_provider=self.provider_name,
+                judge_model=self.model_name,
+            )
+        except ValueError as exc:
+            return ValidationResult(
+                is_valid=False,
+                issues=[str(exc)],
+                suggestions=["Ensure matching standard log exists for this prompt sample."],
                 judge_provider=self.provider_name,
                 judge_model=self.model_name,
             )
@@ -173,10 +195,74 @@ class GroundTruthValidator:
             'return_code': return_code,
         }
 
-    def _get_expected_output(self, requirement: str) -> Dict[str, Any]:
+    def _get_expected_output(
+        self,
+        requirement: str,
+        validation_context: Optional[Dict[str, Any]] = None,
+    ) -> Dict[str, Any]:
+        if self.ground_truth_source == 'standard-log':
+            return self._load_expected_output_from_standard_log(validation_context)
+
         if requirement not in self._expected_output_cache:
             self._expected_output_cache[requirement] = self._generate_expected_output(requirement)
         return self._expected_output_cache[requirement]
+
+    def _load_expected_output_from_standard_log(
+        self,
+        validation_context: Optional[Dict[str, Any]] = None,
+    ) -> Dict[str, Any]:
+        context = validation_context or {}
+        task_name = context.get('task_name')
+        sample_index = context.get('sample_index')
+
+        if not task_name or not sample_index:
+            raise ValueError("Standard-log validation requires task_name and sample_index context")
+
+        standard_log_path = self.standard_logs_dir / task_name / f'{task_name}_{sample_index}.log'
+        if not standard_log_path.exists():
+            raise ValueError(f"Standard log missing: {standard_log_path}")
+
+        stdout, stderr, return_code = self._parse_log_file(standard_log_path)
+        return {
+            'stdout': stdout,
+            'stderr': stderr,
+            'return_code': 0 if return_code is None else return_code,
+        }
+
+    def _parse_log_file(self, log_file_path: Path) -> tuple[str, str, Optional[int]]:
+        stdout_lines = []
+        stderr_lines = []
+        return_code: Optional[int] = None
+        current_section = None
+
+        with open(log_file_path, 'r', encoding='utf-8') as file:
+            for raw_line in file:
+                line = raw_line.rstrip('\n')
+                stripped = line.strip()
+
+                if stripped == 'Standard Output:':
+                    current_section = 'stdout'
+                    continue
+                if stripped == 'Standard Error:':
+                    current_section = 'stderr'
+                    continue
+                if stripped.startswith('Return code:'):
+                    return_code_text = stripped.split('Return code:', 1)[1].strip()
+                    if return_code_text:
+                        try:
+                            return_code = int(return_code_text)
+                        except ValueError:
+                            return_code = 1
+                    else:
+                        return_code = None
+                    continue
+
+                if current_section == 'stdout':
+                    stdout_lines.append(line)
+                elif current_section == 'stderr':
+                    stderr_lines.append(line)
+
+        return '\n'.join(stdout_lines), '\n'.join(stderr_lines), return_code
 
     def _execute_locally(self, generated_code: str) -> Dict[str, Any]:
         base_dir = Path(__file__).resolve().parents[2]
@@ -230,7 +316,10 @@ class GroundTruthValidator:
         semantic_ok = syntactic_ok and (match_percentage == 1.0)
 
         if semantic_ok:
-            summary = 'Output fully matches LLM-generated ground truth using evaluation pipeline matching logic.'
+            if self.ground_truth_source == 'standard-log':
+                summary = 'Output fully matches standard-log ground truth using evaluation pipeline matching logic.'
+            else:
+                summary = 'Output fully matches LLM-generated ground truth using evaluation pipeline matching logic.'
         else:
             rate_str = f"{(match_percentage or 0) * 100:.2f}%"
             summary = f"status={status}, success_rate={rate_str}, unmatched_lines={unmatched_lines}"
