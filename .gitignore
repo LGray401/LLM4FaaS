@@ -114,3 +114,4 @@ e2etests/
 tinyFaaS/
 data/
 .claude/
+azure_functions_test/

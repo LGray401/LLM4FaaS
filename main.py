@@ -6,6 +6,7 @@ Main entry point for the unified CLI.
 import os
 import sys
 import argparse
+import logging
 from pathlib import Path
 
 # Add src to path
@@ -14,6 +15,7 @@ sys.path.insert(0, str(Path(__file__).parent))
 from src.prompt_extraction import PromptExtractor
 from src.llm_generation import LLMGenerator
 from src.faas_deployment import FunctionPreparer, TinyFaaSManager, LocalExecutor
+from src.faas_deployment.azure_smoke_test.runner import AzureSmokeConfig, AzureSmokeTestRunner
 from src.evaluation import FunctionEvaluator, CodeQualityAnalyzer, LatencyWriter, ResultsAggregator
 
 
@@ -226,6 +228,51 @@ class LLM4FaaS:
                 })
 
         return str(prepared_dir), prepare_timings, deploy_timings
+
+    def azure_smoke_test(self, args) -> tuple:
+        """Deploy prepared functions to Azure Functions and smoke test each HTTP trigger."""
+        if args.language != 'python':
+            raise ValueError('Azure smoke test currently supports only --language python')
+
+        source_dir = args.source_dir or str(
+            self.data_dir / 'functions' / args.experiment / f'{args.provider}_{args.task}'
+        )
+
+        prepared_dir = getattr(args, 'prepared_dir', None)
+        prepare_timings = []
+
+        if prepared_dir is None:
+            prepared_dir = self.data_dir / 'functions' / args.experiment / f'{args.provider}_{args.task}_prepared'
+            prepared_dir.mkdir(parents=True, exist_ok=True)
+
+            smart_home_dir = self.templates_dir / 'smart_home'
+            preparer = FunctionPreparer(str(smart_home_dir))
+            function_dirs, prepare_timings = preparer.prepare_batch(
+                source_dir, str(prepared_dir), args.language
+            )
+            if not function_dirs:
+                raise ValueError('No functions prepared for Azure deployment')
+
+        azure_project_dir = getattr(args, 'azure_project_dir', None) or str(
+            self.data_dir / 'functions' / args.experiment / f'{args.provider}_{args.task}_azure'
+        )
+
+        config = AzureSmokeConfig(
+            region=args.azure_region,
+            deployment_identity=args.azure_deployment_identity,
+            tags={'llm4faas': 'true'},
+        )
+        runner = AzureSmokeTestRunner(config)
+        runner.run(
+            str(prepared_dir),
+            azure_project_dir,
+            str(self.base_dir / 'azure_functions_test'),
+            str(self.templates_dir / 'smart_home'),
+            args.experiment,
+            run_id=getattr(args, 'azure_run_id', None),
+        )
+
+        return str(prepared_dir), prepare_timings
     
     def evaluate_results(self, args):
         """Evaluate function outputs."""
@@ -301,8 +348,15 @@ class LLM4FaaS:
         # Step 3: Deploy (captures prepare + deploy timing)
         prepare_timings = []
         deploy_timings = []
+        prepared_dir = None
         if args.tinyfaas_dir or getattr(args, 'local_execution', False):
-            _, prepare_timings, deploy_timings = self.deploy_functions(args)
+            prepared_dir, prepare_timings, deploy_timings = self.deploy_functions(args)
+
+        if getattr(args, 'azure_smoke', False):
+            if prepared_dir:
+                args.prepared_dir = prepared_dir
+            _, azure_prepare_timings = self.azure_smoke_test(args)
+            prepare_timings.extend(azure_prepare_timings)
 
         # Write latency CSV when at least one timed stage ran
         if generate_timings or prepare_timings or deploy_timings:
@@ -357,6 +411,10 @@ class LLM4FaaS:
 
 def main():
     """Main CLI entry point."""
+    logging.basicConfig(
+        level=logging.INFO,
+        format="%(asctime)s %(levelname)s %(name)s: %(message)s",
+    )
     parser = argparse.ArgumentParser(
         description='LLM4FaaS - Generate FaaS functions using LLMs',
         formatter_class=argparse.RawDescriptionHelpFormatter
@@ -428,6 +486,17 @@ def main():
                               help='Also execute prepared Python functions locally')
     deploy_parser.add_argument('--local-timeout', type=int, default=30,
                               help='Local execution timeout per function in seconds')
+
+    # Azure smoke test subcommand
+    azure_parser = subparsers.add_parser('azure-smoke', parents=[common],
+                                        help='Deploy to Azure Functions and smoke test')
+    azure_parser.add_argument('--source-dir', help='Directory with generated code')
+    azure_parser.add_argument('--provider', required=True, help='Provider name (for path resolution)')
+    azure_parser.add_argument('--azure-region', default='westeurope', help='Azure region')
+    azure_parser.add_argument('--azure-run-id', help='Run identifier for tagging')
+    azure_parser.add_argument('--azure-deployment-identity', default='func-host-storage-user',
+                              help='User-assigned identity for deployment storage')
+    azure_parser.add_argument('--azure-project-dir', help='Output directory for Azure Functions project')
     
     # Evaluate subcommand
     eval_parser = subparsers.add_parser('evaluate', parents=[common],
@@ -477,6 +546,13 @@ def main():
                             help='Local execution timeout per function in seconds')
     full_parser.add_argument('--evaluate', action='store_true', help='Run evaluation')
     full_parser.add_argument('--code-quality', action='store_true', help='Run code quality analysis')
+    full_parser.add_argument('--azure-smoke', action='store_true',
+                            help='Deploy to Azure Functions and smoke test all functions')
+    full_parser.add_argument('--azure-region', default='westeurope', help='Azure region')
+    full_parser.add_argument('--azure-run-id', help='Run identifier for tagging')
+    full_parser.add_argument('--azure-deployment-identity', default='func-host-storage-user',
+                            help='User-assigned identity for deployment storage')
+    full_parser.add_argument('--azure-project-dir', help='Output directory for Azure Functions project')
     
     args = parser.parse_args()
     
@@ -494,6 +570,8 @@ def main():
         llm4faas.generate_code(args)
     elif args.command == 'deploy':
         llm4faas.deploy_functions(args)
+    elif args.command == 'azure-smoke':
+        llm4faas.azure_smoke_test(args)
     elif args.command == 'evaluate':
         llm4faas.evaluate_results(args)
     elif args.command == 'full':
