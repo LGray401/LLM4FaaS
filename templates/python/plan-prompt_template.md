@@ -7,11 +7,16 @@ The required 'function.py' should locate in the 'functions' folder, function.py 
 I will first give you the functional description, then give you the 4 python source code.
 
 # Functional Description
-Temperature:<!-- INSERT TEMPERATURE HERE -->
 
-Humidity:<!-- INSERT HUMIDITY HERE -->
+MORNING PLAN: 
+<!-- INSERT MORNING HERE -->
 
-Light Intensity: <!-- INSERT LIGHT HERE -->
+
+LEAVE HOME PLAN: 
+<!-- INSERT LEAVE_HOME HERE -->
+
+MOVIE PLAN:
+<!-- INSERT MOVIE HERE -->
 
 
 # Source Code

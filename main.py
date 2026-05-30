@@ -403,8 +403,10 @@ class LLM4FaaS:
         
         else:  # Python
             template_dir = self.templates_dir / 'python'
-            if task in ['auto_adapt', 'plan']:
+            if task == 'auto_adapt':
                 return str(template_dir / 'keyword-prompt_template.md')
+            elif task == 'plan':
+                return str(template_dir / 'plan-prompt_template.md')
             else:
                 return str(template_dir / 'remote-control-prompt_template.md')
 
