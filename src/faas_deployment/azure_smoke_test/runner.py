@@ -5,6 +5,7 @@ import re
 import time
 from dataclasses import dataclass
 from typing import Dict, List, Optional
+from urllib.parse import urlparse
 
 import requests
 
@@ -37,11 +38,25 @@ class AzureSmokeResult:
 
     resource_names: AzureResourceNames
     function_urls: List[str]
+    function_results: List['AzureFunctionResult']
+    publish_s: Optional[float]
     failures: List[str]
 
     @property
     def success(self) -> bool:
         return not self.failures
+
+
+@dataclass(frozen=True)
+class AzureFunctionResult:
+    """Per-function invocation result with timing."""
+
+    name: str
+    url: str
+    success: bool
+    status_code: Optional[int]
+    error: Optional[str]
+    execute_s: Optional[float]
 
 
 class AzureSmokeTestRunner:
@@ -78,6 +93,9 @@ class AzureSmokeTestRunner:
         resource_names = self._generate_resource_names(experiment, run_id)
         failures: List[str] = []
         function_urls: List[str] = []
+        function_results: List[AzureFunctionResult] = []
+        publish_s: Optional[float] = None
+        entry_by_route: Dict[str, str] = {}
 
         tags = dict(self.config.tags)
         tags["experiment"] = experiment
@@ -85,31 +103,49 @@ class AzureSmokeTestRunner:
             tags["run_id"] = run_id
 
         try:
-            build_azure_project(prepared_dir, azure_project_dir, template_dir, smart_home_dir)
+            entries = build_azure_project(prepared_dir, azure_project_dir, template_dir, smart_home_dir)
+            entry_by_route = {entry.route: entry.name for entry in entries}
             self._create_resource_group(resource_names.resource_group, tags)
             self._create_storage_account(resource_names, tags)
             self._ensure_managed_identity(resource_names, tags)
             self._enable_storage_key_auth(resource_names)
             self._create_function_app(resource_names, tags)
 
+            publish_started = time.time()
             self._publish_function_app(resource_names.function_app, azure_project_dir)
+            publish_s = time.time() - publish_started
             function_urls = self._list_function_urls(resource_names.function_app)
             if not function_urls:
                 raise RuntimeError("No HTTP trigger URLs discovered after publish.")
 
             for url in function_urls:
-                self._invoke_function(url, failures)
+                route = _extract_route(url)
+                function_name = entry_by_route.get(route, route or url)
+                result = self._invoke_function(function_name, url)
+                function_results.append(result)
+                if not result.success:
+                    failures.append(result.error or f"Invocation failed for {url}")
         except Exception as exc:
             failures.append(str(exc))
             logger.exception("Azure smoke test failed.")
         finally:
             self._delete_resource_group(resource_names.resource_group)
 
-        result = AzureSmokeResult(resource_names, function_urls, failures)
+        result = AzureSmokeResult(
+            resource_names=resource_names,
+            function_urls=function_urls,
+            function_results=function_results,
+            publish_s=publish_s,
+            failures=failures,
+        )
         if not result.success:
-            raise RuntimeError("Azure smoke test failed: " + "; ".join(failures))
-
-        logger.info("Azure smoke test succeeded for %s", resource_names.function_app)
+            logger.warning(
+                "Azure smoke test failed for %s: %s",
+                resource_names.function_app,
+                "; ".join(failures),
+            )
+        else:
+            logger.info("Azure smoke test succeeded for %s", resource_names.function_app)
         return result
 
     def _generate_resource_names(self, experiment: str, run_id: Optional[str]) -> AzureResourceNames:
@@ -263,14 +299,33 @@ class AzureSmokeTestRunner:
         logger.info("Discovered %d function URLs", len(urls))
         return urls
 
-    def _invoke_function(self, url: str, failures: List[str]) -> None:
+    def _invoke_function(self, name: str, url: str) -> AzureFunctionResult:
+        started = time.time()
         try:
             response = requests.get(url, timeout=600)
+            execute_s = time.time() - started
+            success = 200 <= response.status_code < 300
+            error = None if success else f"Invocation failed for {url}: {response.status_code}"
             logger.info("Invoked %s - status code: %d", url, response.status_code)
-            if response.status_code < 200 or response.status_code >= 300:
-                failures.append(f"Invocation failed for {url}: {response.status_code}")
+            return AzureFunctionResult(
+                name=name,
+                url=url,
+                success=success,
+                status_code=response.status_code,
+                error=error,
+                execute_s=execute_s,
+            )
         except requests.RequestException as exc:
-            failures.append(f"Invocation error for {url}: {exc}")
+            execute_s = time.time() - started
+            error = f"Invocation error for {url}: {exc}"
+            return AzureFunctionResult(
+                name=name,
+                url=url,
+                success=False,
+                status_code=None,
+                error=error,
+                execute_s=execute_s,
+            )
 
     def _delete_resource_group(self, name: str) -> None:
         try:
@@ -302,3 +357,13 @@ def _extract_urls(output: str) -> List[str]:
     for url in urls:
         cleaned.append(url.rstrip("\"')"))
     return sorted(set(cleaned))
+
+
+def _extract_route(url: str) -> str:
+    parsed = urlparse(url)
+    path = parsed.path or ""
+    if "/api/" not in path:
+        return ""
+    route = path.split("/api/", 1)[1]
+    route = route.strip("/")
+    return route

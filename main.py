@@ -7,6 +7,7 @@ import os
 import sys
 import argparse
 import logging
+import csv
 from pathlib import Path
 
 # Add src to path
@@ -263,7 +264,7 @@ class LLM4FaaS:
             tags={'llm4faas': 'true'},
         )
         runner = AzureSmokeTestRunner(config)
-        runner.run(
+        result = runner.run(
             str(prepared_dir),
             azure_project_dir,
             str(self.base_dir / 'azure_functions_test'),
@@ -271,6 +272,34 @@ class LLM4FaaS:
             args.experiment,
             run_id=getattr(args, 'azure_run_id', None),
         )
+
+        azure_eval_dir = self.data_dir / 'evaluation' / args.experiment
+        azure_eval_dir.mkdir(parents=True, exist_ok=True)
+        azure_eval_csv = azure_eval_dir / f'{args.task}_azure_results.csv'
+
+        with open(azure_eval_csv, 'w', newline='', encoding='utf-8') as csv_file:
+            writer = csv.DictWriter(csv_file, fieldnames=[
+                'function_name',
+                'url',
+                'upload_s',
+                'execute_s',
+                'success',
+                'status_code',
+                'error',
+            ])
+            writer.writeheader()
+            for entry in result.function_results:
+                writer.writerow({
+                    'function_name': entry.name,
+                    'url': entry.url,
+                    'upload_s': f"{result.publish_s:.4f}" if result.publish_s is not None else '',
+                    'execute_s': f"{entry.execute_s:.4f}" if entry.execute_s is not None else '',
+                    'success': entry.success,
+                    'status_code': entry.status_code if entry.status_code is not None else '',
+                    'error': entry.error or '',
+                })
+
+        logging.getLogger(__name__).info('✓ Azure smoke-test results saved to: %s', azure_eval_csv)
 
         return str(prepared_dir), prepare_timings
     
