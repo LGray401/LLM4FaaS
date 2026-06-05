@@ -43,6 +43,5 @@ Return only the complete, corrected Python code. Make sure to:
 - Turn on sensors before reading values
 - Use correct sensor/actuator types for the rooms mentioned
 - Implement the logic exactly as required
-- Include the proper `def fn(data, headers):` function signature for FaaS deployment
 
 Focus on fixing the semantic issues while keeping the code structure clean and maintainable.

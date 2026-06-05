@@ -41,14 +41,13 @@ Analyze the generated code and determine if it:
 - Is the control flow correct for the requirement?
 - Are comparisons and conditions logically sound?
 - Will it execute without runtime errors?
-- Are edge cases handled appropriately?
 - Are assumptions/simulations reasonable given the available API surface?
 
 ### Completeness
-- Is the function properly structured with `def fn(data, headers):` signature?
 - Does it return appropriate values or None?
 - Are all necessary components initialized?
 - Is logging included where appropriate?
+- can it be executed without user interaction?
 
 ## Smart Home API Reference
 

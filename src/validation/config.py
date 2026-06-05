@@ -9,7 +9,7 @@ load_dotenv()
 # Judge provider configuration (defaults to generation provider if not set)
 JUDGE_PROVIDER = os.getenv('JUDGE_PROVIDER', '')
 JUDGE_MODEL = os.getenv('JUDGE_MODEL', '')
-JUDGE_TEMPERATURE = float(os.getenv('JUDGE_TEMPERATURE', '0.3'))
+JUDGE_TEMPERATURE = float(os.getenv('JUDGE_TEMPERATURE', '1'))
 JUDGE_MAX_TOKENS = int(os.getenv('JUDGE_MAX_TOKENS', '2000'))
 
 # Validation behavior
