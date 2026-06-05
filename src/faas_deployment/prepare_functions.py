@@ -84,9 +84,16 @@ class FunctionPreparer:
         for line in lines:
             if 'from home.' in line:
                 line = line.replace('from home.', 'from ')
+            if 'from home import ' in line:
+                line = line.replace('from home import ', 'import ')
             if 'import home.' in line:
                 line = line.replace('import home.', 'import ')
             stripped = line.strip()
+            
+            # Check if the LLM already provided the required entry point
+            if stripped.startswith('def fn(data, headers):'):
+                inserted_fn = True
+                
             if stripped == 'if __name__ == "__main__":':
                 # Comment out the main guard
                 new_lines.append("# " + line)

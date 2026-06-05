@@ -1,6 +1,7 @@
 """
 Base provider interface for LLM generation.
 """
+import re
 from abc import ABC, abstractmethod
 from typing import Dict, Any
 
@@ -37,29 +38,60 @@ class BaseLLMProvider(ABC):
     
     def extract_code(self, response: str) -> str:
         """
-        Extract Python code from LLM response.
+        Extract code from LLM response flexibly.
         
         Args:
             response: Raw LLM response
             
         Returns:
-            Extracted Python code with comments
+            Extracted code with conversational text as comments
         """
-        start_index = response.find('```python')
-        end_index = response.find('```', start_index + len('```python')) if start_index != -1 else -1
-        
-        if start_index != -1 and end_index != -1:
-            # Extract context before code block as comments
-            context = response[:start_index].strip()
-            code = response[start_index + len('```python'):end_index].strip()
-            
+        if response is None:
+            return ""
+
+        # Look for fenced code blocks (```python, ```js, or just ```)
+        fence_pattern = re.compile(
+            r"```[ \t]*([a-zA-Z0-9_+-]+)?[ \t]*\r?\n(.*?)(?:\r?\n)?```",
+            re.DOTALL,
+        )
+        matches = list(fence_pattern.finditer(response))
+
+        if matches:
+            def score(match: re.Match) -> tuple[int, int]:
+                lang = (match.group(1) or "").strip().lower()
+                code = (match.group(2) or "").strip()
+                lang_bonus = 1000 if lang in {"python", "py"} else 0
+                return (lang_bonus, len(code))
+
+            best = max(matches, key=score)
+            code = (best.group(2) or "").strip()
+            context = response[:best.start()].strip()
+
             if context:
-                context_as_comment = '\n'.join(f"# {line}" for line in context.split('\n'))
-                full_code = f"{context_as_comment}\n\n{code}"
-            else:
-                full_code = code
-        else:
-            # No code block found, comment everything
-            full_code = '\n'.join(f"# {line}" for line in response.split('\n'))
-        
-        return full_code
+                context_as_comment = "\n".join(f"# {line}" for line in context.split("\n"))
+                return f"{context_as_comment}\n\n{code}"
+            return code
+
+        # If a fence was started but never closed, grab what's after it.
+        fence_start = response.find("```")
+        if fence_start != -1:
+            remainder = response[fence_start + 3 :]
+            remainder_lines = remainder.splitlines()
+            if remainder_lines:
+                first_line = remainder_lines[0].strip()
+                if re.fullmatch(r"[a-zA-Z0-9_+-]+", first_line):
+                    remainder_lines = remainder_lines[1:]
+            remainder_text = "\n".join(remainder_lines).strip()
+            if remainder_text:
+                return remainder_text
+
+        # Fallback: if it looks like code, return as-is.
+        code_patterns = [
+            r"^\s*(def|class|import|from|async\s+def|if\s+__name__)\b",
+            r"^\s*(const|let|function|class)\b",
+        ]
+        if any(re.search(pattern, response, re.MULTILINE) for pattern in code_patterns):
+            return response.strip()
+
+        # If it doesn't look like code at all, comment everything
+        return "\n".join(f"# {line}" for line in response.split("\n"))
