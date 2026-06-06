@@ -1,8 +1,13 @@
 """
 OpenAI provider implementation.
 """
+import logging
+import os
+
 import openai
 from .base import BaseLLMProvider
+
+logger = logging.getLogger(__name__)
 
 
 class OpenAIProvider(BaseLLMProvider):
@@ -78,8 +83,17 @@ class OpenAIProvider(BaseLLMProvider):
                 raise
 
             response = openai.chat.completions.create(**request_kwargs)
-        
-        return response.choices[0].message.content.strip()
+
+        content = response.choices[0].message.content or ""
+        #if os.getenv("LLM4FAAS_LOG_OPENAI_RESPONSE", "").strip().lower() in {"1", "true", "yes"}:
+        # logger.info(
+        #     "OpenAI raw response (model=%s, chars=%d):\n%s",
+        #     self.model,
+        #     len(content),
+        #     content,
+        # )
+
+        return content.strip()
 
     def _is_thinking_model(self, model_name: str) -> bool:
         """Return True for OpenAI models that support thinking/reasoning controls."""
