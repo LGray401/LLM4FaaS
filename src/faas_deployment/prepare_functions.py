@@ -80,6 +80,10 @@ class FunctionPreparer:
         
         new_lines = []
         inserted_fn = False
+        status_assignment_pattern = re.compile(
+            r'^(?P<indent>\s*)(?P<target>[A-Za-z_][A-Za-z0-9_]*)\.status\s*=\s*'
+            r'(?P<quote>["\'])(?P<state>on|off)(?P=quote)(?P<trailing>\s*(#.*)?)$'
+        )
         
         for line in lines:
             if 'from home.' in line:
@@ -88,13 +92,24 @@ class FunctionPreparer:
                 line = line.replace('from home import ', 'import ')
             if 'import home.' in line:
                 line = line.replace('import home.', 'import ')
+            line_without_newline = line.rstrip('\n')
             stripped = line.strip()
+
+            status_match = status_assignment_pattern.match(line_without_newline)
+            if status_match:
+                indent = status_match.group('indent')
+                target = status_match.group('target')
+                state = status_match.group('state')
+                trailing = status_match.group('trailing') or ''
+                replacement = f"{indent}{target}.turn_{state}(){trailing}\n"
+                new_lines.append(replacement)
+                continue
             
             # Check if the LLM already provided the required entry point
             if stripped.startswith('def fn(data, headers):'):
                 inserted_fn = True
                 
-            if stripped == 'if __name__ == "__main__":':
+            if stripped == 'if __name__ == "__main__":' or stripped == "if __name__ == '__main__':":
                 # Comment out the main guard
                 new_lines.append("# " + line)
                 if not inserted_fn:
