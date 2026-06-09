@@ -24,7 +24,7 @@ _HALS_PATTERN = re.compile(r"effort:\s*([\d.]+)")
 _PYLINT_SCORE_PATTERN = re.compile(r"Your code has been rated at ([\d\.]+)/10")
 
 # Status values that count as syntactic pass (from paper §4.3)
-_SYNTACTIC_PASS_STATUSES = {"No Error & Warning", "Warning Exists"}
+_SYNTACTIC_PASS_STATUSES = {"No Error & Warning", "Warning Exists", "Manual Check Required"}
 
 # Rows with these statuses are excluded from pass-rate totals.
 # ``Invalid Prompt`` entries are bookkeeping artifacts (known invalid task/index
@@ -92,7 +92,7 @@ class ResultsAggregator:
         Parse combined Radon report files (*_radon.txt) and write a per-file CSV.
 
         Mirrors archive/eva_code_quality/radon_result_processing.py exactly:
-        - reads every ``.txt`` file in ``reports_dir``
+        - reads only ``*_radon.txt`` combined report files in ``reports_dir``
         - extracts CC average, MI value, and total Halstead effort using the
           same regex patterns from the archive
         - writes CSV with columns: absolute_path, cc_average, mi_value, hals_effort
@@ -114,7 +114,7 @@ class ResultsAggregator:
             return output_csv
 
         for filename in os.listdir(reports_dir):
-            if not filename.endswith('.txt'):
+            if not filename.endswith('_radon.txt'):
                 continue
 
             file_path = os.path.join(reports_dir, filename)

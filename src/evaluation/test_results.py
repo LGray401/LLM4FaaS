@@ -137,15 +137,10 @@ class FunctionEvaluator:
             
             # Check for special markers in unmatched lines
             if unmatched_lines:
-                if any("Manual Check Required" in line for line in unmatched_lines):
-                    status = "Manual Check Required"
-                    unmatched_lines = None
-                    self.logger.info(f"{actual_log_path}: Manual Check Required")
-                else:
-                    if status == "No Error & Warning":
-                        self.logger.info(
-                            f"{actual_log_path}: Matched {matched_count}/{total_standard_lines} "
-                            f"({match_percentage * 100:.2f}% match)"
+                if status == "No Error & Warning":
+                    self.logger.info(
+                        f"{actual_log_path}: Matched {matched_count}/{total_standard_lines} "
+                        f"({match_percentage * 100:.2f}% match)"
                         )
             else:
                 self.logger.info(
